@@ -10,9 +10,9 @@
 
 <template>
   <header id="header">
-    <div class="header-item">{{ eventName }}</div>
-    <div class="header-item">Event</div>
-    <div class="header-item">Location</div>
+    <a href="#/" class="header-item">{{ eventName }}</a>
+    <a href="#/staff" class="header-item">Teachers</a>
+    <a href="#/location" class="header-item">Location</a>
   </header>
 </template>
 
