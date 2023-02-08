@@ -1,7 +1,16 @@
 const messages = {
   en: {
+    event: {
+      name: "West Coast SPRING",
+      location: "Ljubljana",
+      date: "5 - 7 May 2023"
+    },
     home: {
       pageTitle: "Home",
+      aboutWCS: {
+        title: "West Coast Swing",
+        description: `West Coast Swing or WCS is a modern partner dance. It evolved from lindy hop in the 1960s on the west coast of America.<br>It is characterized by the elastic movement of the partners, which results from a specific technique of leading and following. The dance places a strong emphasis on the musical expression of both partners and is one of the few dances that encourages free dance improvisation.<br>Since it is a relatively new dance, it continues to evolve year after year and stylistically adapts to the music to which it is danced. This is usually pop, hip hop, acoustic music and blues.`
+      }
     },
     staff: {
       pageTitle: "Teachers",
@@ -25,8 +34,17 @@ const messages = {
     },
   },
   si: {
+    app: {
+      name: "West Coast SPRING",
+      location: "Ljubljana",
+      date: "5. - 7. maj 2023"
+    },
     home: {
       pageTitle: "Domov",
+      aboutWCS: {
+        title: "West Coast Swing",
+        description: `West Coast Swing ali WCS je sodoben ples v paru. Razvil se je iz lindy hop-a v 60. letih 20. stoletja na zahodni obali Amerike.<br>Zanj je značilno elastično gibanje partnerjev, ki izhaja iz specifične tehnike vodenja in sledenja. Izrazit poudarek daje na glasbeno izražanje obeh partnerjev in je eden redkih plesov, ki spodbuja prosto plesno improvizacijo.<br>Ker je relativno nov ples, se iz leta v leto še vedno razvija in stilno prilagaja glasbi, na katero se pleše. Običajno je to največkrat pop, hip hop, akustična glasba in blues.`
+      }
     },
     staff: {
       pageTitle: "Učitelja",
