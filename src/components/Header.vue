@@ -10,9 +10,11 @@
 
 <template>
   <header id="header">
-    <a href="#/" class="header-item">{{ eventName }}</a>
+    <a href="#/" class="header-item">Home</a>
     <a href="#/staff" class="header-item">Teachers</a>
+    <a href="#/schedule" class="header-item">Schedule</a>
     <a href="#/location" class="header-item">Location</a>
+    <a href="#/register" class="header-item">Registration</a>
   </header>
 </template>
 

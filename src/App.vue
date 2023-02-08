@@ -6,11 +6,15 @@ import Home from "./components/pages/Home.vue";
 import Staff from "./components/pages/Staff.vue";
 import EventLocation from "./components/pages/EventLocation.vue";
 import NotFound from "./components/pages/NotFound.vue";
+import Schedule from "./components/pages/Schedule.vue";
+import Registration from "./components/pages/Registration.vue";
 
 const routes: any = {
   '/': Home,
   '/staff': Staff,
+  '/schedule': Schedule,
   '/location': EventLocation,
+  '/register': Registration,
 }
 
 export default {
@@ -24,7 +28,9 @@ export default {
     Footer,
     Home,
     Staff,
+    Schedule,
     EventLocation,
+    Registration,
     NotFound
   },
   computed: {
