@@ -10,11 +10,16 @@
 
 <template>
   <header id="header">
-    <a href="#/" class="header-item">Home</a>
-    <a href="#/staff" class="header-item">Teachers</a>
-    <a href="#/schedule" class="header-item">Schedule</a>
-    <a href="#/location" class="header-item">Location</a>
-    <a href="#/register" class="header-item">Registration</a>
+    <a href="#/" class="header-item">{{ $t('home.pageTitle') }}</a>
+    <a href="#/staff" class="header-item">{{ $t('staff.pageTitle') }}</a>
+    <a href="#/schedule" class="header-item">{{ $t('schedule.pageTitle') }}</a>
+    <a href="#/location" class="header-item">{{ $t('location.pageTitle') }}</a>
+    <a href="#/registration" class="header-item">{{ $t('registration.pageTitle') }}</a>
+    <div class="locale-changer">
+      <select v-model="$i18n.locale">
+        <option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">{{ locale }}</option>
+      </select>
+    </div>
   </header>
 </template>
 

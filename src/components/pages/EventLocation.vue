@@ -6,7 +6,7 @@ export default {
 
 <template>
   <div>
-    <h1>Location</h1>
+    <h1>{{ $t('location.pageTitle') }}</h1>
     <p>Book the hotel.</p>
   </div>
 </template>

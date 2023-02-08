@@ -14,7 +14,7 @@ const routes: any = {
   '/staff': Staff,
   '/schedule': Schedule,
   '/location': EventLocation,
-  '/register': Registration,
+  '/registration': Registration,
 }
 
 export default {
