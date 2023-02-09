@@ -6,7 +6,7 @@ export default {
 
 <template>
   <div>
-    <h1>{{ $t('workshops.schedule.pageTitle') }}</h1>
+    <h1>{{ $t('workshops.pricing.pageTitle') }}</h1>
     <p>To be announced.</p>
   </div>
 </template>

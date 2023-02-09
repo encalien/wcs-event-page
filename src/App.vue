@@ -8,11 +8,13 @@ import EventLocation from "./components/pages/EventLocation.vue";
 import NotFound from "./components/pages/NotFound.vue";
 import Schedule from "./components/pages/Schedule.vue";
 import Registration from "./components/pages/Registration.vue";
+import Pricing from "./components/pages/Pricing.vue";
 
 const routes: any = {
   '/': Home,
   '/staff': Staff,
   '/schedule': Schedule,
+  '/pricing': Pricing,
   '/location': EventLocation,
   '/registration': Registration,
 }
@@ -29,6 +31,7 @@ export default {
     Home,
     Staff,
     Schedule,
+    Pricing,
     EventLocation,
     Registration,
     NotFound
