@@ -16,7 +16,7 @@ export default {
   </section>
   <section>
     <h1>{{ $t('home.aboutWCS.title') }}</h1>
-    <p v-html="$t('home.aboutWCS.description')"></p>
+    <p v-for="i in [0,1,2]">{{ $t(`home.aboutWCS.description[${i}]`) }}</p>
     <div id="video-collage">
       Here come the youtube videos.
     </div>

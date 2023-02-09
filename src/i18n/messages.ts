@@ -9,7 +9,11 @@ const messages = {
       pageTitle: "Home",
       aboutWCS: {
         title: "West Coast Swing",
-        description: `West Coast Swing or WCS is a modern partner dance. It evolved from lindy hop in the 1960s on the west coast of America.<br>It is characterized by the elastic movement of the partners, which results from a specific technique of leading and following. The dance places a strong emphasis on the musical expression of both partners and is one of the few dances that encourages free dance improvisation.<br>Since it is a relatively new dance, it continues to evolve year after year and stylistically adapts to the music to which it is danced. This is usually pop, hip hop, acoustic music and blues.`
+        description: [
+          "West Coast Swing or WCS is a modern partner dance. It evolved from lindy hop in the 1960s on the west coast of America.",
+          "It is characterized by the elastic movement of the partners, which results from a specific technique of leading and following. The dance places a strong emphasis on the musical expression of both partners and is one of the few dances that encourages free dance improvisation.",
+          "Since it is a relatively new dance, it continues to evolve year after year and stylistically adapts to the music to which it is danced. This is usually pop, hip hop, acoustic music and blues."
+        ]
       }
     },
     workshops: {
@@ -18,7 +22,10 @@ const messages = {
         pageTitle: "Teachers",
         teachers: {
           names: "Daniel & Marina",
-          description: `Both Marina and Daniel have over a decade of experience teaching dance, but only recently have they began to travel and teach together. Combining different approaches, Marina's charismatic style and Daniel's structured methodology, they aim to create wholesome classes that reach all kinds of students.<br>They love west coast swing for its freedom and inclusivity that allows such different dancers to be able to create together and hope to share their passion with you.`
+          description: [
+            "Both Marina and Daniel have over a decade of experience teaching dance, but only recently have they began to travel and teach together. Combining different approaches, Marina's charismatic style and Daniel's structured methodology, they aim to create wholesome classes that reach all kinds of students.",
+            "They love west coast swing for its freedom and inclusivity that allows such different dancers to be able to create together and hope to share their passion with you."
+          ]
         }
       },
       schedule: {
@@ -30,6 +37,38 @@ const messages = {
     },
     location: {
       pageTitle: "Location",
+      workshopsLocationText: "The workshops will be held at Studio Dansa dance school, located at:",
+      workshopsLocationAddress: {
+        name: "Studio Dansa",
+        address: "Vilharjeva 3",
+        zipAndCity: "1000 Ljubljana",
+        country: "Slovenia"
+      },
+      hotelSuggestionsText: [
+        "Depending on your budget and service preference, there are multiple hotels as well as hostels, apartmens and airbnbs nearby.",
+        "Here are some hotel suggestions, ordered by distance to the venue:"],
+      hotelList: [
+        {
+          name: "Intercontinental *****",
+          distance: "5 min walk",
+          url: "https://www.booking.com/Share-aDpENI"
+        },
+        {
+          name: "Central hotel ***",
+          distance: "10 min walk",
+          url: "https://www.booking.com/Share-heW9iDT"
+        },
+        {
+          name: "City hotel **",
+          distance: "13 min walk",
+          url: "https://www.booking.com/Share-f8UiHw"
+        },
+        {
+          name: "Park ***",
+          distance: "15 min walk",
+          url: "https://www.booking.com/Share-cQFt8l"
+        },
+      ]
     },
     registration: {
       pageTitle: "Registration",
@@ -40,7 +79,7 @@ const messages = {
     },
   },
   si: {
-    app: {
+    event: {
       name: "West Coast SPRING",
       location: "Ljubljana",
       date: "5. - 7. maj 2023"
@@ -49,7 +88,11 @@ const messages = {
       pageTitle: "Domov",
       aboutWCS: {
         title: "West Coast Swing",
-        description: `West Coast Swing ali WCS je sodoben ples v paru. Razvil se je iz lindy hop-a v 60. letih 20. stoletja na zahodni obali Amerike.<br>Zanj je značilno elastično gibanje partnerjev, ki izhaja iz specifične tehnike vodenja in sledenja. Izrazit poudarek daje na glasbeno izražanje obeh partnerjev in je eden redkih plesov, ki spodbuja prosto plesno improvizacijo.<br>Ker je relativno nov ples, se iz leta v leto še vedno razvija in stilno prilagaja glasbi, na katero se pleše. Običajno je to največkrat pop, hip hop, akustična glasba in blues.`
+        description: [
+          "West Coast Swing ali WCS je sodoben ples v paru. Razvil se je iz lindy hop-a v 60. letih 20. stoletja na zahodni obali Amerike.",
+          "Zanj je značilno elastično gibanje partnerjev, ki izhaja iz specifične tehnike vodenja in sledenja. Izrazit poudarek daje na glasbeno izražanje obeh partnerjev in je eden redkih plesov, ki spodbuja prosto plesno improvizacijo.",
+          "Ker je relativno nov ples, se iz leta v leto še vedno razvija in stilno prilagaja glasbi, na katero se pleše. Običajno je to največkrat pop, hip hop, akustična glasba in blues."
+        ]
       }
     },
     workshops: {
@@ -58,7 +101,10 @@ const messages = {
         pageTitle: "Učitelja",
         teachers: {
           names: "Daniel in Marina",
-          description: `Marina in Daniel imata oba za sabo že več kot 10 let profesionalnega poučevanja plesa, a sta šele pred kratkim začela poučevati in potovati skupaj. Vsak s svojim pristopom, Marina s svojim karizmatičnim stilom in Daniel s strukturirano metodologijo, ustvarjata edinstvne tečaje, ki jih mnogi učenci.<br>West coast swing imata rada zaradi svobode, ki jo dopušča, in inkluzivnosti, zaradi katere lahko raznoliki plesalci skupaj ustvarjajo. Upata, da lahko svojo strast do plesa delita tudi s tabo.`
+          description: [
+            "Marina in Daniel imata oba za sabo že več kot 10 let profesionalnega poučevanja plesa, a sta šele pred kratkim začela poučevati in potovati skupaj. Vsak s svojim pristopom, Marina s svojim karizmatičnim stilom in Daniel s strukturirano metodologijo, ustvarjata edinstvne tečaje, ki jih mnogi učenci.",
+            "West coast swing imata rada zaradi svobode, ki jo dopušča, in inkluzivnosti, zaradi katere lahko raznoliki plesalci skupaj ustvarjajo. Upata, da lahko svojo strast do plesa delita tudi s tabo."
+          ]
         }
       },
       schedule: {
@@ -70,6 +116,39 @@ const messages = {
     },
     location: {
       pageTitle: "Lokacija",
+      workshopsLocationText: "The workshops will be held at Studio Dansa dance school, located at:",
+      workshopsLocationAddress: {
+        name: "Studio Dansa",
+        address: "Vilharjeva 3",
+        zipAndCity: "1000 Ljubljana",
+        country: "Slovenia"
+      },
+      hotelSuggestionsText: [
+        "Depending on your budget and service preference, there are multiple hotels as well as hostels, apartmens and airbnbs nearby.",
+        "Here are some hotel suggestions, ordered by distance to the venue:"
+      ],
+      hotelList: [
+        {
+          name: "Intercontinental *****",
+          distance: "5 min walk",
+          url: "https://www.booking.com/Share-aDpENI"
+        },
+        {
+          name: "Central hotel ***",
+          distance: "10 min walk",
+          url: "https://www.booking.com/Share-heW9iDT"
+        },
+        {
+          name: "City hotel **",
+          distance: "13 min walk",
+          url: "https://www.booking.com/Share-f8UiHw"
+        },
+        {
+          name: "Park ***",
+          distance: "15 min walk",
+          url: "https://www.booking.com/Share-cQFt8l"
+        },
+      ]
     },
     registration: {
       pageTitle: "Registracija",
@@ -81,4 +160,4 @@ const messages = {
   }
 }
 
-export default messages
+export default messages;
