@@ -2,7 +2,9 @@ const en = {
   event: {
     name: "West Coast SPRING",
     location: "Ljubljana",
-    date: "5 - 7 May 2023"
+    date: "5 - 7 May 2023",
+    welcomeText: "Join the fun!",
+    tba: "To be announced."
   },
   contact: {
     text: "If you have any questions, please contact us via email:",
@@ -36,17 +38,17 @@ const en = {
       }
     },
     level: {
-      pageTitle: "Level",
+      title: "Level",
       descriptionText: [
         "Workshops will be held on an improver-intermediate level. They will not be appropriate for complete beginners. Participants should already know the basic patterns (sugar push, side pass, whip) and be aware of basic lead-follow concepts.",
         "The level of workshops will progress over the weekend, starting from improver level on Saturday towards intermediate level on Sunday."
       ]
     },
     schedule: {
-      pageTitle: "Schedule",
+      pageTitle: "Schedule"
     },
     pricing: {
-      pageTitle: "Pricing",
+      pageTitle: "Pricing"
     }
   },
   location: {
@@ -55,7 +57,7 @@ const en = {
       locationText: "The workshops will be held at Studio Dansa dance school, located at:",
       address: {
         name: "Studio Dansa",
-        address: "Vilharjeva 3",
+        address: "Vilharjeva cesta 3",
         zipAndCity: "1000 Ljubljana",
         country: "Slovenia"
       },
@@ -63,38 +65,41 @@ const en = {
       accessText: "Access to the dance school is around the building, not where the entrance is. From the nearest parking lot it looks like this:"
     },
     hotel: {
-    suggestionsText: [
-      "Depending on your budget and service preference, there are multiple hotels as well as hostels, apartmens and airbnbs nearby.",
-      "Here are some hotel suggestions, ordered by distance to the venue:"],
-    list: [
-      {
-        name: "Intercontinental *****",
-        distance: "5 min walk",
-        url: "https://www.booking.com/Share-aDpENI"
-      },
-      {
-        name: "Central hotel ***",
-        distance: "10 min walk",
-        url: "https://www.booking.com/Share-heW9iDT"
-      },
-      {
-        name: "City hotel **",
-        distance: "13 min walk",
-        url: "https://www.booking.com/Share-f8UiHw"
-      },
-      {
-        name: "Park ***",
-        distance: "15 min walk",
-        url: "https://www.booking.com/Share-cQFt8l"
-      },
-    ]}
+      title: "Accommodation",
+      suggestionsText: [
+        "Depending on your budget and service preference, there are multiple hotels as well as hostels, apartmens and airbnbs nearby.",
+        "Here are some hotel suggestions, ordered by distance to the venue:"],
+      list: [
+        {
+          name: "Intercontinental *****",
+          distance: "5 min walk",
+          url: "https://www.booking.com/Share-aDpENI"
+        },
+        {
+          name: "Central hotel ***",
+          distance: "10 min walk",
+          url: "https://www.booking.com/Share-heW9iDT"
+        },
+        {
+          name: "City hotel **",
+          distance: "13 min walk",
+          url: "https://www.booking.com/Share-f8UiHw"
+        },
+        {
+          name: "Park ***",
+          distance: "15 min walk",
+          url: "https://www.booking.com/Share-cQFt8l"
+        },
+      ]
+    }
   },
   registration: {
     pageTitle: "Registration",
+    opensSoonText: "Registration opens soon."
   },
   notFound: {
     pageTitle: "Page not found",
-    description: `We could not find the page you were looking for. Please ensure you have typed the correct URL or <a href="/">navigate back to home page.<a>`
+    description: `We could not find the page you were looking for. Please make sure you have typed the correct URL or <a href="/">navigate back to home page<a>.`
   },
 }
 

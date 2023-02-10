@@ -1,26 +1,27 @@
 <script lang="ts">
 export default {
-  
+
 }
 </script>
 
 <template>
-  <div>
+  <section>
     <h1>{{ $t('workshops.staff.pageTitle') }}</h1>
-    <div class="flex-container">
-      <div class="flex-item flex-basis-40">
+    <div class="flex-container flex-gap">
+      <div class="flex-item margin-0">
         <h2>{{ $t('workshops.staff.teachers.names') }}</h2>
         <p v-for="i in [0,1,]">{{ $t(`workshops.staff.teachers.description[${i}]`) }}</p>
       </div>
-      <img src="/src/assets/images/daniel_marina_jump.jpg" 
-           alt="{{ $t('workshops.staff.teachers.names') }}"
-           class="flex-item">
+      <div class="flex-item margin-0">
+        <img src="/src/assets/images/daniel_marina_stretch.jpeg" alt="{{ $t('workshops.staff.teachers.names') }}">
+      </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style scoped>
   img {
-    width: 30%;
+    height: 100%;
+    width: 100%;
   }
 </style>

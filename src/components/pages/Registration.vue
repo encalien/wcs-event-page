@@ -1,15 +1,16 @@
 <script lang="ts">
 export default {
-  
+
 }
 </script>
 
 <template>
-  <div>
+  <section>
     <h1>{{ $t('registration.pageTitle') }}</h1>
-    <p>Registration will open soon.</p>
-  </div>
+    <p>{{ $t('event.tba') }}</p>
+  </section>
 </template>
 
 <style scoped>
+
 </style>

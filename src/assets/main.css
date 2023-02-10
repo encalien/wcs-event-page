@@ -1,10 +1,55 @@
 @import './base.css';
 
-a, a:visited {
-  text-decoration: none;
-  color: rgb(40, 86, 40);
+/* html tags */
+section {
+  margin: var(--section-gap) auto;
 }
 
+main {
+  padding: 0 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--accent-3);
+  filter: brightness(75%);
+}
+
+a:visited {
+  filter: brightness(50%);
+}
+
+a:hover {
+  filter: brightness(100%);
+}
+
+a:focus, a:active {
+  filter: brightness(120%);
+}
+
+ul {
+  padding-left: 1rem;
+  list-style-position: outside;
+}
+
+/* common classes */
 .hidden {
   display: none;
 }
@@ -12,15 +57,57 @@ a, a:visited {
 .flex-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+.flex-gap {
+  gap: 2rem;
+}
+
+.flex-column {
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .flex-item {
-  flex-grow: 1;
-  flex-shrink: 1;
+  flex: 1 1 auto;
   padding: 1rem;
 }
 
-.flex-basis-40 {
-  flex-basis: 40%;
+.flex-basis-50 {
+  flex-basis: 50%;
 }
+
+.margin-0 {
+  margin: 0;
+  padding: 0
+}
+
+/* buttons */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 2rem;
+  border: 2px solid var(--black-mute);
+  border-radius: 3px;
+  font-size: x-large;
+  font-weight: bold;
+  filter: brightness(100%);
+}
+
+.btn-primary {
+  background-color: var(--accent-1);
+  color: var(--dark-1);
+}
+
+.btn-primary:hover {
+  background-color: var(--dark-1);
+  color: var(--accent-1);
+  filter: brightness(100%);
+}
+/* 
+.btn-primary.disabled, .btn-primary.disabled :hover{
+  background-color: var(--accent-1-disabled);
+  color: var(--color-text-alt);
+  filter: brightness(80%);
+} */

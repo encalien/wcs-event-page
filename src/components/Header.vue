@@ -26,8 +26,9 @@
     <div class="menu-item">
       <a href="#/" class="menu-item-link">{{ $t('home.pageTitle') }}</a>
     </div>
-    <div class="menu-item" :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
-      <div @click="toggleDropdownMenu($t('workshops.pageTitle'))" class="menu-item-link">
+    <div class="menu-item">
+      <div @click="toggleDropdownMenu($t('workshops.pageTitle'))" 
+           class="menu-item-link" :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
         {{ $t('workshops.pageTitle') }}
       </div>
       <div class="hidden" 
@@ -73,24 +74,36 @@
   #menu {
     display: flex;
     width: 100%;
-    background-color: grey;
+    background-color: var(--color-background-alt);
+    /* filter: brightness(80%); */
+    padding: 0 40px;
   }
+
   .menu-item {
     flex: 1 1 100px;
     text-align: center;
   }
+
   .menu-item-link {
     font-size: 1.2rem;
     font-weight: bold;
     display: block;
     width: 100%;
     padding: 0.5rem;
-    color: rgb(40, 86, 40);
+    color: var(--accent-1);
+    filter: brightness(100%);
+    cursor: pointer;
   }
-  .menu-item-link:hover, .active {
-    background-color: rgb(90, 90, 90);
-    color: rgb(60, 127, 60);    
+
+  .menu-item-link:hover, .dropdown-menu-item:hover, .active {
+    background-color: var(--accent-1);
+    color: var(--dark-1);
   }
+
+  .menu-item-link:visited, .active {
+    filter: brightness(100%);
+  }
+
   .dropdown-menu {
     position: absolute;
     z-index: 100;
@@ -98,19 +111,18 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    color: rgb(60, 127, 60);
-    background: grey;
+    background-color: var(--color-background-alt);
   }
+
   .dropdown-menu-item {
-    flex: 1 0 40px;
+    width: 100%;
     margin: 0 auto;
   }
-  .dropdown-menu-item:hover {
-    flex: 1 0 40px;
-    width: 100%;
-    background-color: rgb(90, 90, 90);
-    color: rgb(60, 127, 60);
+
+  .dropdown-menu-item-link {
+    color: var(--accent-1);
   }
+
   #social-icons {
     margin: 0 2rem;
   }

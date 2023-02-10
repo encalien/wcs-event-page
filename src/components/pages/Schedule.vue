@@ -5,16 +5,18 @@ export default {
 </script>
 
 <template>
-  <div>
+  <section>
     <h1>{{ $t('workshops.schedule.pageTitle') }}</h1>
-    <p>To be announced.</p>
-
-    <h1>{{ $t('workshops.level.pageTitle') }}</h1>
+    <p>{{ $t('event.tba') }}</p>
+  </section>  
+  <section>
+    <h1>{{ $t('workshops.level.title') }}</h1>
     <p v-for="i in [0,1]">
       {{ $t(`workshops.level.descriptionText[${i}]`) }}
     </p>
-  </div>
+  </section>
 </template>
 
 <style scoped>
+
 </style>

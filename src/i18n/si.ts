@@ -2,7 +2,9 @@ const si = {
   event: {
     name: "West Coast SPRING",
     location: "Ljubljana",
-    date: "5. - 7. maj 2023"
+    date: "5. - 7. maj 2023",
+    welcomeText: "Pridruži se!",
+    tba: "Več informacij kmalu."
   },
   contact: {
     text: "Za vsa vprašanja smo na voljo preko elektronske pošte:",
@@ -36,17 +38,17 @@ const si = {
       }
     },
     level: {
-      pageTitle: "Zahtevnostna stopnja",
+      title: "Zahtevnostna stopnja",
       descriptionText: [
         "Delavnice bodo potekale na naprednem - nadaljevalnem nivoju. Vsebina ne bo primerna za popolne začetnike, udeleženci morajo poznati vsaj osnovne figure (sugar push, side pass, whip) in biti seznanjeni z osnovnimi koncepti vodenja in sledenja.",
         "Tekom vikenda bo težavnost delavnic progresivno naraščala, delavnice v nedeljo bodo potekale torej na višjem nivoju kot delavnice v soboto."
       ]
     },
     schedule: {
-      pageTitle: "Urnik",
+      pageTitle: "Urnik"
     },
     pricing: {
-      pageTitle: "Cenik",
+      pageTitle: "Cenik"
     }
   },
   location: {
@@ -55,7 +57,7 @@ const si = {
       locationText: "Delavnice bodo potekale v plesni šoli Studio Dansa, na naslovu:",
       address: {
         name: "Studio Dansa",
-        address: "Vilharjeva 3",
+        address: "Vilharjeva cesta 3",
         zipAndCity: "1000 Ljubljana",
         country: "Slovenia"
       },
@@ -63,6 +65,7 @@ const si = {
       accessText: "Dostop je okrog stavbe, ne tam, kjer je vhod v plesno šolo. Od najbližjega parkirišča zgleda nekako takole:"
     },
     hotel: {
+      title: "Prenočišča",
       suggestionsText: [
         "V bližini je več hotelov, hostlov, apartmajev in airbnb, odvisno od vašega proračuna in storitev.",
         "Tukaj je nekaj predlogov hotelov, razvrščenih po razdalji do prizorišča:"
@@ -93,10 +96,11 @@ const si = {
   },
   registration: {
     pageTitle: "Registracija",
+    opensSoonText: "Registracija se odpre kmalu."
   },
   notFound: {
     pageTitle: "Stran ne obstaja",
-    description: `Strani, ki jo iščeš, nismo mogli prikazati. Preveri, da je URL pravilno vpisan ali se <a href="/">vrni na prvo stran</a>`
+    description: `Strani, ki jo iščeš, nismo mogli prikazati. Preveri, da je URL pravilno vpisan, ali se <a href="/">vrni na prvo stran</a>.`
   },
 }
 
