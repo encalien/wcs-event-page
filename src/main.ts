@@ -1,7 +1,8 @@
 import { createApp } from "vue";
 import { createI18n } from 'vue-i18n';
 import App from "./App.vue";
-import messages from "./i18n/messages";
+import en from "./i18n/en";
+import si from "./i18n/si";
 
 import "./assets/main.css";
 
@@ -17,9 +18,9 @@ import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'
 library.add(faEnvelope, faFacebookF, faInstagram)
 
 const i18n = createI18n({
-  locale: 'si', // set locale
-  fallbackLocale: 'en', // set fallback locale
-  messages, // set locale messages
+  locale: 'si',
+  fallbackLocale: 'en',
+  messages: { en, si }
   // something vue-i18n options here ...
 })
 
