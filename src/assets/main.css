@@ -12,7 +12,6 @@ a, a:visited {
 
 .flex-container {
   display: flex;
-  background-color: darkgrey;
 }
 
 .flex-item {

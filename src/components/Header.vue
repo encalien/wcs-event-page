@@ -26,7 +26,7 @@
     <div class="menu-item">
       <a href="#/" class="menu-item-link">{{ $t('home.pageTitle') }}</a>
     </div>
-    <div class="menu-item">
+    <div class="menu-item" :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
       <div @click="toggleDropdownMenu($t('workshops.pageTitle'))" class="menu-item-link">
         {{ $t('workshops.pageTitle') }}
       </div>
@@ -49,10 +49,11 @@
     <div class="menu-item">
       <a href="#/registration" class="menu-item-link">{{ $t('registration.pageTitle') }}</a>
     </div>
-    <div class="locale-changer">
-      <select v-model="$i18n.locale">
-        <option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">{{ locale }}</option>
-      </select>
+    <div class="flex-container">
+      <div v-for="locale in $i18n.availableLocales">
+        <input v-model="$i18n.locale" type="radio" :id="locale" name="locale" :value="locale" class="hidden">
+        <label :for="locale" class="menu-item-link" :class="{ 'active': $i18n.locale === locale }">{{ locale.toUpperCase() }}</label>
+      </div>
     </div>
   </header>
 </template>
@@ -75,7 +76,7 @@
     padding: 0.5rem;
     color: rgb(40, 86, 40);
   }
-  .menu-item-link:hover {
+  .menu-item-link:hover, .active {
     background-color: rgb(90, 90, 90);
     color: rgb(60, 127, 60);    
   }
