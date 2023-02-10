@@ -45,17 +45,22 @@ const messages = {
     },
     location: {
       pageTitle: "Location",
-      workshopsLocationText: "The workshops will be held at Studio Dansa dance school, located at:",
-      workshopsLocationAddress: {
-        name: "Studio Dansa",
-        address: "Vilharjeva 3",
-        zipAndCity: "1000 Ljubljana",
-        country: "Slovenia"
+      venue: {
+        locationText: "The workshops will be held at Studio Dansa dance school, located at:",
+        address: {
+          name: "Studio Dansa",
+          address: "Vilharjeva 3",
+          zipAndCity: "1000 Ljubljana",
+          country: "Slovenia"
+        },
+        parkingText: "Parking is possible in several paid parking lots nearby, the nearest parking lot is on Vilharjeva opposite the dance school. You can also park in public roadside parking areas, where a parking fee is usually free for the weekend, except Saturday mornings.",
+        accessText: "Access to the dance school is around the building, not where the entrance is. From the nearest parking lot it looks like this:"
       },
-      hotelSuggestionsText: [
+      hotel: {
+      suggestionsText: [
         "Depending on your budget and service preference, there are multiple hotels as well as hostels, apartmens and airbnbs nearby.",
         "Here are some hotel suggestions, ordered by distance to the venue:"],
-      hotelList: [
+      list: [
         {
           name: "Intercontinental *****",
           distance: "5 min walk",
@@ -76,7 +81,7 @@ const messages = {
           distance: "15 min walk",
           url: "https://www.booking.com/Share-cQFt8l"
         },
-      ]
+      ]}
     },
     registration: {
       pageTitle: "Registration",
@@ -132,39 +137,45 @@ const messages = {
     },
     location: {
       pageTitle: "Lokacija",
-      workshopsLocationText: "The workshops will be held at Studio Dansa dance school, located at:",
-      workshopsLocationAddress: {
-        name: "Studio Dansa",
-        address: "Vilharjeva 3",
-        zipAndCity: "1000 Ljubljana",
-        country: "Slovenia"
+      venue: {
+        locationText: "Delavnice bodo potekale v plesni šoli Studio Dansa, na naslovu:",
+        address: {
+          name: "Studio Dansa",
+          address: "Vilharjeva 3",
+          zipAndCity: "1000 Ljubljana",
+          country: "Slovenia"
+        },
+        parkingText: "Parkiranje je možno na večih plačljivih parkiriščih v bližini, najbližje parkirišče je na Vilharjevi nasproti plesne šole. Parkirate lahko tudi na javnih obcestnih parkirnih površinah, kjer se med vikendom parkirnina zaračuna običajno samo v soboto dopoldne.",
+        accessText: "Dostop je okrog stavbe, ne tam, kjer je vhod v plesno šolo. Od najbližjega parkirišča zgleda nekako takole:"
       },
-      hotelSuggestionsText: [
-        "Depending on your budget and service preference, there are multiple hotels as well as hostels, apartmens and airbnbs nearby.",
-        "Here are some hotel suggestions, ordered by distance to the venue:"
-      ],
-      hotelList: [
-        {
-          name: "Intercontinental *****",
-          distance: "5 min walk",
-          url: "https://www.booking.com/Share-aDpENI"
-        },
-        {
-          name: "Central hotel ***",
-          distance: "10 min walk",
-          url: "https://www.booking.com/Share-heW9iDT"
-        },
-        {
-          name: "City hotel **",
-          distance: "13 min walk",
-          url: "https://www.booking.com/Share-f8UiHw"
-        },
-        {
-          name: "Park ***",
-          distance: "15 min walk",
-          url: "https://www.booking.com/Share-cQFt8l"
-        },
-      ]
+      hotel: {
+        suggestionsText: [
+          "V bližini je več hotelov, hostlov, apartmajev in airbnb, odvisno od vašega proračuna in storitev.",
+          "Tukaj je nekaj predlogov hotelov, razvrščenih po razdalji do prizorišča:"
+        ],
+        list: [
+          {
+            name: "Intercontinental *****",
+            distance: "5 min hoje",
+            url: "https://www.booking.com/Share-aDpENI"
+          },
+          {
+            name: "Central hotel ***",
+            distance: "10 min hoje",
+            url: "https://www.booking.com/Share-heW9iDT"
+          },
+          {
+            name: "City hotel **",
+            distance: "13 min hoje",
+            url: "https://www.booking.com/Share-f8UiHw"
+          },
+          {
+            name: "Park ***",
+            distance: "15 min hoje",
+            url: "https://www.booking.com/Share-cQFt8l"
+          },
+        ]
+      }
     },
     registration: {
       pageTitle: "Registracija",
