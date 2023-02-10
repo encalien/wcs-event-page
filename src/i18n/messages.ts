@@ -36,6 +36,13 @@ const messages = {
           ]
         }
       },
+      level: {
+        pageTitle: "Level",
+        descriptionText: [
+          "Workshops will be held on an improver-intermediate level. They will not be appropriate for complete beginners. Participants should already know the basic patterns (sugar push, side pass, whip) and be aware of basic lead-follow concepts.",
+          "The level of workshops will progress over the weekend, starting from improver level on Saturday towards intermediate level on Sunday."
+        ]
+      },
       schedule: {
         pageTitle: "Schedule",
       },
@@ -127,6 +134,13 @@ const messages = {
             "West coast swing imata rada zaradi svobode, ki jo dopušča, in inkluzivnosti, zaradi katere lahko raznoliki plesalci skupaj ustvarjajo. Upata, da lahko svojo strast do plesa delita tudi s tabo."
           ]
         }
+      },
+      level: {
+        pageTitle: "Zahtevnostna stopnja",
+        descriptionText: [
+          "Delavnice bodo potekale na naprednem - nadaljevalnem nivoju. Vsebina ne bo primerna za popolne začetnike, udeleženci morajo poznati vsaj osnovne figure (sugar push, side pass, whip) in biti seznanjeni z osnovnimi koncepti vodenja in sledenja.",
+          "Tekom vikenda bo težavnost delavnic progresivno naraščala, delavnice v nedeljo bodo potekale torej na višjem nivoju kot delavnice v soboto."
+        ]
       },
       schedule: {
         pageTitle: "Urnik",
