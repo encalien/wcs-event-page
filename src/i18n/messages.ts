@@ -5,6 +5,10 @@ const messages = {
       location: "Ljubljana",
       date: "5 - 7 May 2023"
     },
+    contact: {
+      text: "If you have any questions, please contact us via email:",
+      email: "info@westcoastspring.dance"
+    },
     home: {
       pageTitle: "Home",
       aboutWCS: {
@@ -83,6 +87,10 @@ const messages = {
       name: "West Coast SPRING",
       location: "Ljubljana",
       date: "5. - 7. maj 2023"
+    },
+    contact: {
+      text: "Za vsa vprašanja smo na voljo preko elektronske pošte:",
+      email: "info{'@'}westcoastspring.dance"
     },
     home: {
       pageTitle: "Domov",

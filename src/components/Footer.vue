@@ -1,17 +1,19 @@
 <script lang="ts">
   export default {
-    data() {
-      return {
-        eventName: import.meta.env.VITE_APP_TITLE
-      }
-    }
+
   }
 </script>
 
 <template>
   <footer id="footer">
-    <div class="footer-item">{{ eventName }}</div>
-    <div class="footer-item">2023</div>
+    <div class="footer-item">
+      <p>{{ $t('contact.text') }}</p>
+      <p><a :href="'mailto:' + $t('contact.email')">{{ $t('contact.email') }}</a></p>
+    </div>
+    <div class="footer-item">
+      <p>{{ $t('event.name') }}</p>
+      <p>&copy;2023</p>
+    </div>
   </footer>
 </template>
 
@@ -24,5 +26,6 @@
 
   .footer-item {
     text-align: center;
+    margin: 10px auto;
   }
 </style>
