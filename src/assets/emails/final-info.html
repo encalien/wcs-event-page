@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WCS plesni vikend</title>
+  <style>
+    body {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    * {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Helvetica', Arial, sans-serif;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    p {
+      margin-bottom: 6px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin: 18px auto 30px;
+      text-align: center;
+    }
+    
+    h2 {
+      font-size: 20px;
+      margin: 12px auto;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-style: bold;
+      margin: 6px auto;
+      text-align: center;
+    }
+
+    hr {
+      width: 30%;
+      border: none;
+      border-top: 1px solid black;
+      margin: 30px auto;
+    }
+
+    img {
+      margin-top: 12px;
+    }
+
+    .topic {
+      margin-bottom: 20px;
+    }
+
+    .row {
+      display: flex;
+      align-content: stretch;
+      margin-bottom: 12px;
+      justify-content: center;
+    }
+
+    .column {
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: flex-start;
+      display: flex;
+      width: 70%;
+    }
+
+    .column.left {
+      width: 30%;
+    }
+
+    .column > div {
+      padding: 6px;
+    }
+
+    .times {
+      text-align: right;
+      padding-right: 12px;
+      margin-bottom: 6px;
+    }
+    
+    .content {
+      margin-bottom: 6px;
+    }
+
+    .content > p {
+      margin-top: 0;
+    }
+    
+    .lvl1 {
+      background-color: rgb(255, 102, 102);
+    }
+    
+    .lvl2 {
+      background-color: rgb(250, 250, 123);
+    }
+    
+    .lvl3 {
+      background-color: rgb(97, 224, 97);
+    }
+    
+    .party {
+      background-color: rgba(0, 0, 255, 0.323);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="" alt="">
+    <h1>Plesni vikend s Tschenom</h1>
+  </header>
+  <main>
+    <div class="topic">
+      <p>Pozdravljeni!</p>
+      <p>Le še nekaj dni nas loči od delavnic west coast swing-a s Tschenom. V nadaljevanju vam pošiljamo nekaj pomembnih informacij, ki jih, prosimo, pozorno preberite. Če imate še kakršna koli vprašanja, smo vedno dosegljivi preko <a href="https://www.facebook.com/events/610011817352903/">Facebook dogodka</a> ali elektronske pošte.</p>
+    </div>
+    <hr>
+    <div class="topic">
+      <h2>Check in</h2>
+      <p>Prijava na vikend bo možna v petek med plesnim večerom in v soboto pred začetkom posameznega nivoja. Za prijavo potrebujemo samo vaše ime in priimek. Tisti, ki delavnic še niste plačali, lahko to uredite ob prijavi.</p>
+    </div>
+    <hr>
+    <div class="topic">
+      <h2>Lokacija</h2>
+      <p>Celoten program plesnega vikenda se bo izvajal v prostorih Studia Dansa, na Vilharjevi 3 v Ljubljani.</p>
+      <p>Parkiranje je možno na večih plačljivih parkiriščih v bližini, najbližje parkirišče je na Vilharjevi nasproti plesne šole. Parkirate lahko tudi na javnih obcestnih parkirnih površinah, kjer se parkirnina zaračuna običajno samo v soboto dopoldne.</p>
+      <p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11074.221017717948!2d14.5084104!3d46.0599686!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3598d33068363f77!2sStudio%20Dansa!5e0!3m2!1sen!2ssi!4v1664880933816!5m2!1sen!2ssi" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- <a target="_blank" href="https://goo.gl/maps/hhDkn5ujZFuDwfg77">
+          <img src="https://i.imgur.com/W1Hh81l.png" width=500 alt="Studio Dansa">
+        </a> -->
+      </p>
+    </div>
+    <hr>
+    <div class="topic">
+      <h2>Program</h2>
+      <p>Program je na voljo tudi v obliki spletnega koledarja. Lahko ga dodate med svoje koledarje direktno preko <a target="_blank" href="https://calendar.google.com/calendar/u/0?cid=d2Nzc2xvLndpeHNpdGVAZ21haWwuY29t">Google koledarja</a> ali pa <a target="_blank" href="https://calendar.google.com/calendar/ical/wcsslo.wixsite%40gmail.com/public/basic.ics">izvozite ics datoteko</a>, ki jo lahko namestite v poljubno aplikacijo. Če se urnik kakorkoli spremeni, bomo najprej posodobili spletni koledar in objavili na  <a href="https://www.facebook.com/events/610011817352903/">Facebook dogodku</a>.</p>
+      <div id="schedule">
+        <br>
+        <!-- <img src="https://i.imgur.com/NCPH2y4.png" alt=""> -->
+        <div class="row">
+          <h3>Petek, 7.10.2022</h3>
+        </div>
+        <div class="row">
+          <div class="column left">
+            <div class="times">od 20:00 naprej</div>
+          </div>
+          <div class="column">
+            <div class="content party">
+              <p>plesni večer - check in</p>
+              <small>Vstopnina je vključena v ceno delavnic. Za zunanje obiskovalce je vstopnina 4 evr na osebo. Na voljo bosta dve plesišči, eno za west coast swing in eno za lindy hop.</small>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h3>Sobota, 8.10.2022</h3>
+        </div>
+        <div class="row">
+          <div class="column left">
+            <div class="times">11:00 - 12:00</div>
+            <div class="times">12:00 - 13:00</div>
+            <div class="times">13:15 - 14:15</div>
+            <div class="times">&nbsp;</div>
+            <div class="times">15:30 - 16:30</div>
+            <div class="times">16:45 - 17:45</div>
+            <div class="times">&nbsp;</div>
+            <div class="times">18:30 - 19:30</div>
+            <div class="times">19:45 - 20:45</div>
+            <div class="times">od 21:00 naprej</div>
+          </div>
+          <div class="column">
+            <div class="content">check in</div>
+            <div class="content lvl3">izobraževanje za plesne pedagoge</div>
+            <div class="content lvl3">izobraževanje za plesne pedagoge</div>
+            <div class="content">odmor - check in</div>
+            <div class="content lvl2">nadaljevalni nivo</div>
+            <div class="content lvl2">nadaljevalni nivo</div>
+            <div class="content">odmor - check in</div>
+            <div class="content lvl1">začetni nivo</div>
+            <div class="content lvl1">začetni nivo</div>
+            <div class="content party">plesni večer</div>
+          </div>
+        </div>
+        <div class="row">
+          <h3>Nedelja, 9.10.2022</h3>
+        </div>
+        <div class="row">
+          <div class="column left">
+            <div class="times">11:00 - 12:00</div>
+            <div class="times">12:15 - 13:15</div>
+            <div class="times">&nbsp;</div>
+            <div class="times">14:15 - 15:15</div>
+            <div class="times">15:30 - 16:30</div>
+          </div>
+          <div class="column">
+            <div class="content lvl2">nadaljevalni nivo</div>
+            <div class="content lvl2">nadaljevalni nivo</div>
+            <div class="content">odmor</div>
+            <div class="content lvl3">izobraževanje za plesne pedagoge</div>
+            <div class="content lvl3">izobraževanje za plesne pedagoge</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="topic">
+      <h2>Individualne ure</h2>
+      <p>Tschen bo tekom vikenda na voljo tudi za individualne ure. Cena je 80 evr za 45 minut poučevanja.</p>
+      <p>Vkolikor vas zanima, se lahko za termin dogovorite direktno z njim preko Facebooka oz. osebno na delavnicah. Ob check-inu bo na voljo tudi seznam, kamor se lahko vpišete, če bodo še na voljo prosti termini.</p>
+    </div>
+    <hr>
+    <div class="topic">
+      <h2>Varnost</h2>
+      <p>Na dogodku bomo upoštevali vsa aktualna zdravstvena priporočila. Prosimo vas, da se dogodka ne udeležite, vkolikor imate simptome respiratornega obolenja ali ste pozitivni na novi koronavirus. V plesni šoli bodo na voljo razkužila, ki jih redno uporabljajte.</p>
+      <p>Osebne predmete imejte v bližini in jih ne puščajte brez nadzora. Za morebitne kraje in izgube ne odgovarjamo.</p>
+      <p>Dogodka se udeležujete na lastno odgovornost.</p>
+    </div>
+    <hr>
+    <div class="topic">
+      <p>S sabo prinesite plastenko za vodo in plesne čevlje oz. drugo čisto notranjo obutev!</p>
+      <p>Lep plesni pozdrav in kmalu na svidenje!</p>
+      <p>Ekipa plesnega vikenda</p>
+    </div>
+    <br>
+  </main>
+</body>
+</html>
