@@ -23,7 +23,7 @@ export default {
       {{ $t(`location.hotelSuggestionsText[${i}]`) }}
     </p>
     <li v-for="i in [0,1,2,3]">
-      <a :href="$t(`location.hotelList[${i}].url`)" v-html="$t(`location.hotelList[${i}].name`)"></a>
+      <a :href="$t(`location.hotelList[${i}].url`)">{{ $t(`location.hotelList[${i}].name`) }}</a>
          - {{ $t(`location.hotelList[${i}].distance`) }}
     </li>
   </div>
