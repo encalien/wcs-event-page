@@ -54,12 +54,12 @@
       <a :href="'mailto:' + $t('contact.email')" class="menu-item-link">
         <font-awesome-icon icon="fa-regular fa-envelope"></font-awesome-icon>
       </a>
-      <a :href="$t('urls.facebook')" class="menu-item-link">
+      <a :href="$t('urls.facebook')" target="_blank" class="menu-item-link">
         <font-awesome-icon icon="fa-brands fa-facebook-f"></font-awesome-icon>
       </a>
-      <a :href="$t('urls.instagram')" class="menu-item-link">
+      <!-- <a :href="$t('urls.instagram')" class="menu-item-link">
         <font-awesome-icon icon="fa-brands fa-instagram"></font-awesome-icon>
-      </a>
+      </a> -->
     </div>
     <div id="localization-menu" class="flex-container">
       <div v-for="locale in $i18n.availableLocales">
