@@ -5,13 +5,14 @@ a, a:visited {
   color: rgb(40, 86, 40);
 }
 
-
 .hidden {
   display: none;
 }
 
 .flex-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-item {

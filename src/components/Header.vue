@@ -49,7 +49,18 @@
     <div class="menu-item">
       <a href="#/registration" class="menu-item-link">{{ $t('registration.pageTitle') }}</a>
     </div>
-    <div class="flex-container">
+    <div id="social-icons" class="flex-container">
+      <a :href="'mailto:' + $t('contact.email')" class="menu-item-link">
+        <font-awesome-icon icon="fa-regular fa-envelope"></font-awesome-icon>
+      </a>
+      <a :href="$t('urls.facebook')" class="menu-item-link">
+        <font-awesome-icon icon="fa-brands fa-facebook-f"></font-awesome-icon>
+      </a>
+      <a :href="$t('urls.instagram')" class="menu-item-link">
+        <font-awesome-icon icon="fa-brands fa-instagram"></font-awesome-icon>
+      </a>
+    </div>
+    <div id="localization-menu" class="flex-container">
       <div v-for="locale in $i18n.availableLocales">
         <input v-model="$i18n.locale" type="radio" :id="locale" name="locale" :value="locale" class="hidden">
         <label :for="locale" class="menu-item-link" :class="{ 'active': $i18n.locale === locale }">{{ locale.toUpperCase() }}</label>
@@ -99,5 +110,8 @@
     width: 100%;
     background-color: rgb(90, 90, 90);
     color: rgb(60, 127, 60);
+  }
+  #social-icons {
+    margin: 0 2rem;
   }
 </style>

@@ -9,6 +9,10 @@ const messages = {
       text: "If you have any questions, please contact us via email:",
       email: "info@westcoastspring.dance"
     },
+    urls: {
+      facebook: "https://www.facebook.com/events/892661502160068",
+      instagram: ""
+    },
     home: {
       pageTitle: "Home",
       aboutWCS: {
@@ -91,6 +95,10 @@ const messages = {
     contact: {
       text: "Za vsa vprašanja smo na voljo preko elektronske pošte:",
       email: "info{'@'}westcoastspring.dance"
+    },
+    urls: {
+      facebook: "https://www.facebook.com/events/892661502160068",
+      instagram: ""
     },
     home: {
       pageTitle: "Domov",
