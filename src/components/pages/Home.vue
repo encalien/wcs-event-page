@@ -63,34 +63,34 @@ export default {
     height: calc(((100vw - 100px) / 3) * 0.56);
   }
 
-  #video-collage > iframe.item-1 {
+  #video-collage > .item-1 {
     width: calc((100vw - 100px) / 3 * 2 + 10px);
     height: calc(((100vw - 100px) / 3 * 2 * 0.56) + 10px);
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
   }
 
-  #video-collage > iframe.item-2 {
+  #video-collage > .item-2 {
     grid-column: 3;
     grid-row: 1;
   }
 
-  #video-collage > iframe.item-3 {
+  #video-collage > .item-3 {
     grid-column: 3;
     grid-row: 2;
   }
 
-  #video-collage > iframe.item-4 {
+  #video-collage > .item-4 {
     grid-column: 1;
     grid-row: 3;
   }
 
-  #video-collage > iframe.item-5 {
+  #video-collage > .item-5 {
     grid-column: 2;
     grid-row: 3;
   }
 
-  #video-collage > iframe.item-6 {
+  #video-collage > .item-6 {
     grid-column: 3;
     grid-row: 3;
   }
