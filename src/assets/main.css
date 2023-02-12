@@ -22,6 +22,10 @@ h2 {
   font-size: 1.4rem;
 }
 
+h3 {
+  text-align: center;
+}
+
 p {
   margin-bottom: 1rem;
 }
@@ -49,11 +53,28 @@ ul {
   list-style-position: outside;
 }
 
+hr {
+  border: none;
+  border-bottom: 6px dotted var(--dark-1);
+  width: 36px;
+  margin: 1.6rem auto;
+}
+
 /* common classes */
 .hidden {
   display: none;
 }
 
+.margin-0 {
+  margin: 0;
+  padding: 0
+}
+
+.center-text {
+  text-align: center;
+}
+
+/* flex */
 .flex-container {
   display: flex;
   justify-content: center;
@@ -77,9 +98,22 @@ ul {
   flex-basis: 50%;
 }
 
-.margin-0 {
-  margin: 0;
-  padding: 0
+/* grid */
+.grid-container {
+  display: grid;
+}
+
+.grid-row {
+  padding: 1rem;
+}
+
+.grid-row.grid-container{
+  grid-template-columns: 1fr 3fr;
+  padding: 0;
+}
+
+.grid-gap {
+  grid-gap: 0.4rem;
 }
 
 /* buttons */

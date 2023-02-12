@@ -71,7 +71,73 @@ const si = {
       ]
     },
     schedule: {
-      pageTitle: "Urnik"
+      pageTitle: "Program",
+      description: "Program je okviren in se lahko še spremeni.",
+      days: [
+        {
+          title: "Petek, 7. maj",
+          items: [
+            {
+              time: "20.00 - 01.00",
+              topic: "Zabava",
+              description: "Vstopnina vključena v ceno vstopnice Vikend paket ali Večerni paket",
+              class: "party"
+            }
+          ]
+        },
+        {
+          title: "Sobota, 8. maj",
+          items: [
+            {
+              time: "12.00 - 13.00",
+              topic: "Delavnica",
+              description: "",
+              class: "class"
+            },
+            {
+              time: "13.15 - 14.15",
+              topic: "Delavnica",
+              description: "",
+              class: "class"
+            },
+            {
+              time: "",
+              topic: "Odmor za kosilo",
+              description: "",
+              class: "break"
+            },
+            {
+              time: "15.30 - 16.30",
+              topic: "Delavnica",
+              description: "",
+              class: "class"
+            },
+            {
+              time: "20.00 - 03.00",
+              topic: "Zabava",
+              description: "Vstopnina vključena v ceno vseh paketov.",
+              class: "party"
+            }
+          ]
+        },
+        {
+          title: "Nedelja, 9. maj",
+          items: [
+            {
+              time: "12.00 - 13.00",
+              topic: "Delavnica",
+              description: "",
+              class: "class"
+            },
+            {
+              time: "13.15 - 14.15",
+              topic: "Delavnica",
+              description: "",
+              class: "class"
+            }
+          ]
+        }
+      ]
     },
     pricing: {
       pageTitle: "Cenik"

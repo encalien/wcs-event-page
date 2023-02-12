@@ -71,7 +71,73 @@ const en = {
       ]
     },
     schedule: {
-      pageTitle: "Schedule"
+      pageTitle: "Schedule",
+      description: "This is a preliminary schedule and is subject to change.",
+      days: [
+        {
+          title: "Friday, May 5",
+          items: [
+            {
+              time: "20.00 - 01.00",
+              topic: "Party",
+              description: "Entrance fee included in Full pass or Party pass.",
+              class: "party"
+            }
+          ]
+        },
+        {
+          title: "Saturday, May 6",
+          items: [
+            {
+              time: "12.00 - 13.00",
+              topic: "Class",
+              description: "",
+              class: "class"
+            },
+            {
+              time: "13.15 - 14.15",
+              topic: "Class",
+              description: "",
+              class: "class"
+            },
+            {
+              time: "",
+              topic: "Lunch Break",
+              description: "",
+              class: "break"
+            },
+            {
+              time: "15.30 - 16.30",
+              topic: "Class",
+              description: "",
+              class: "class"
+            },
+            {
+              time: "20.00 - 03.00",
+              topic: "Party",
+              description: "Entrance fee included in all passes.",
+              class: "party"
+            }
+          ]
+        },
+        {
+          title: "Sunday, May 7",
+          items: [
+            {
+              time: "12.00 - 13.00",
+              topic: "Class",
+              description: "",
+              class: "class"
+            },
+            {
+              time: "13.15 - 14.15",
+              topic: "Class",
+              description: "",
+              class: "class"
+            }
+          ]
+        }
+      ]
     },
     pricing: {
       pageTitle: "Pricing"

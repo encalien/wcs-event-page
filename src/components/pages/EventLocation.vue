@@ -44,4 +44,8 @@ export default {
     height: 100%;
     border: none;
   }
+
+  .flex-column {
+    align-items: flex-start;
+  }
 </style>
