@@ -6,12 +6,12 @@ export default {
 
 <template>
   <section id="landing">
-    <img src="/src/assets/images/website_landing.svg" alt="banner" id="banner">
+    <img src="/src/assets/images/website_landing_narrow.svg" alt="banner" id="banner">
     <div class="landing-content">
       <!-- <h1>{{ $t('event.name') }}</h1>
       <h2>{{ $t('event.location') }}</h2>
       <h2>{{ $t('event.date') }}</h2> -->
-      <h2>{{ $t('event.welcomeText') }}<br>{{ $t('registration.opensSoonText') }}</h2>
+      <h2 class="margin-0">{{ $t('event.welcomeText') }}<br>{{ $t('registration.opensSoonText') }}</h2>
       <!-- <a href="#/registration" class="btn btn-primary">{{ $t('registration.pageTitle') }}</a> -->
     </div>
   </section>
@@ -28,9 +28,10 @@ export default {
   #banner {
     width: 100%;
   }
+
   #landing {
     background-color: var(--light);
-    padding: 1rem 40px;
+    padding: 1rem 40px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,6 +39,7 @@ export default {
     margin: 0 -40px;
     width: calc(100% + 80px);
   }
+
   .landing-content {
     flex: 1 0 auto;
     text-align: center;

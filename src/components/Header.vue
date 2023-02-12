@@ -24,33 +24,36 @@
 <template>
   <header id="menu">
     <div class="menu-item">
-      <a href="#/" class="menu-item-link">{{ $t('home.pageTitle') }}</a>
+      <a href="#/" class="menu-item-link" @click="toggleDropdownMenu('')">{{ $t('home.pageTitle') }}</a>
     </div>
     <div class="menu-item">
       <div @click="toggleDropdownMenu($t('workshops.pageTitle'))" 
            class="menu-item-link" :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
         {{ $t('workshops.pageTitle') }}
       </div>
-      <div class="hidden" 
-           :class="{ 'dropdown-menu':  dropdownMenuActive($t('workshops.pageTitle'))}">
-        <div class="dropdown-menu-item">
+      <div class="modal-backdrop hidden" 
+           :class="{ 'active':  dropdownMenuActive($t('workshops.pageTitle'))}"
+           @click="toggleDropdownMenu('')"></div>
+      <div class="dropdown-menu hidden" 
+           :class="{ 'active':  dropdownMenuActive($t('workshops.pageTitle'))}">
+        <div class="dropdown-menu-item" @click="toggleDropdownMenu('')">
           <a href="#/staff" class="menu-item-link">{{ $t('workshops.staff.pageTitle') }}</a>
         </div>
-        <div class="dropdown-menu-item">
+        <div class="dropdown-menu-item" @click="toggleDropdownMenu('')">
           <a href="#/schedule" class="menu-item-link">{{ $t('workshops.schedule.pageTitle') }}</a>
         </div>
-        <div class="dropdown-menu-item">
+        <div class="dropdown-menu-item" @click="toggleDropdownMenu('')">
           <a href="#/pricing" class="menu-item-link">{{ $t('workshops.pricing.pageTitle') }}</a>
         </div>
       </div>
     </div>
     <div class="menu-item">
-      <a href="#/location" class="menu-item-link">{{ $t('location.pageTitle') }}</a>
+      <a href="#/location" class="menu-item-link" @click="toggleDropdownMenu('')">{{ $t('location.pageTitle') }}</a>
     </div>
     <div class="menu-item">
-      <a href="#/registration" class="menu-item-link">{{ $t('registration.pageTitle') }}</a>
+      <a href="#/registration" class="menu-item-link" @click="toggleDropdownMenu('')">{{ $t('registration.pageTitle') }}</a>
     </div>
-    <div id="social-icons" class="flex-container">
+    <div id="social-icons" class="flex-container" @click="toggleDropdownMenu('')">
       <a :href="'mailto:' + $t('contact.email')" class="menu-item-link">
         <font-awesome-icon icon="fa-regular fa-envelope"></font-awesome-icon>
       </a>
@@ -61,7 +64,7 @@
         <font-awesome-icon icon="fa-brands fa-instagram"></font-awesome-icon>
       </a> -->
     </div>
-    <div id="localization-menu" class="flex-container">
+    <div id="localization-menu" class="flex-container" @click="toggleDropdownMenu('')">
       <div v-for="locale in $i18n.availableLocales">
         <input v-model="$i18n.locale" type="radio" :id="locale" name="locale" :value="locale" class="hidden">
         <label :for="locale" class="menu-item-link" :class="{ 'active': $i18n.locale === locale }">{{ locale.toUpperCase() }}</label>
@@ -77,6 +80,8 @@
     background-color: var(--color-background-alt);
     /* filter: brightness(80%); */
     padding: 0 40px;
+    position: fixed;
+    z-index: 1;
   }
 
   .menu-item {
@@ -95,23 +100,37 @@
     cursor: pointer;
   }
 
-  .menu-item-link:hover, .dropdown-menu-item:hover, .active {
+  .menu-item-link:hover, .dropdown-menu-item:hover, .menu-item-link.active {
+    display: block;
     background-color: var(--accent-1);
     color: var(--dark-1);
   }
 
-  .menu-item-link:visited, .active {
+  .menu-item-link:visited, .menu-item-link.active {
     filter: brightness(100%);
   }
 
   .dropdown-menu {
     position: absolute;
-    z-index: 100;
+    z-index: 2;
     width: 100%;
-    display: flex;
     flex-direction: column;
     align-items: start;
     background-color: var(--color-background-alt);
+    border: 1px solid var(--light);
+    border-top: none;
+  }
+
+  .modal-backdrop {
+    position: fixed;
+    background-color: transparent;
+    width: 150vw;
+    height: 100vh;
+    left: -100px;
+  }
+
+  .active {
+    display: flex;
   }
 
   .dropdown-menu-item {
