@@ -140,7 +140,37 @@ const si = {
       ]
     },
     pricing: {
-      pageTitle: "Cenik"
+      pageTitle: "Cenik",
+      description: [
+        "Na tem dogodku bodo vstopnice na voljo v treh cenovnih razredih.",
+        "Najnižja cena velja za prvih 10 prijavljenih (ne glede na vrsto vstopnice), srednja za naslednjih 10 in najvišja za vse ostale. Z vsakim cenovnim razredom se cena dvigne za 10 evr."
+      ],
+      priceTier: "Najnižja cena",
+      passes: [
+        {
+          title: "Vikend paket",
+          price: "60 evr",
+          includes: [
+            "5 ur delavnic",
+            "vstopnina za obe zabavi"
+          ]
+        },
+        {
+          title: "Sobotni paket",
+          price: "40 evr",
+          includes: [
+            "3 ur delavnic v soboto",
+            "vstopnina za sobotno zabavo"
+          ]
+        },
+        {
+          title: "Večerni paket",
+          price: "15 evr",
+          includes: [
+            "vstopnina za obe zabavi"
+          ]
+        },
+      ]
     }
   },
   location: {

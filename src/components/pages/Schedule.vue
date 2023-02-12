@@ -47,7 +47,6 @@ export default {
   }
 
   h3.grid-row {
-    font-weight: bold;
     margin: 2rem auto 0;
   }
 
