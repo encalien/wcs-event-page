@@ -13,7 +13,7 @@ export default {
         <p v-for="i in [0,1,]">{{ $t(`workshops.staff.teachers.description[${i}]`) }}</p>
       </div>
       <div class="flex-item margin-0">
-        <img src="/src/assets/images/daniel_marina_stretch.jpeg" alt="{{ $t('workshops.staff.teachers.names') }}">
+        <img src="/src/assets/images/daniel_marina_stretch.jpeg" :alt="$t('workshops.staff.teachers.names')">
       </div>
     </div>
   </section>
