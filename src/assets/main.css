@@ -60,20 +60,6 @@ hr {
   margin: 1.6rem auto;
 }
 
-/* common classes */
-.hidden {
-  display: none;
-}
-
-.margin-0 {
-  margin: 0;
-  padding: 0
-}
-
-.center-text {
-  text-align: center;
-}
-
 /* flex */
 .flex-container {
   display: flex;
@@ -145,3 +131,17 @@ hr {
   color: var(--color-text-alt);
   filter: brightness(80%);
 } */
+
+/* common classes */
+.hidden {
+  display: none;
+}
+
+.margin-0 {
+  margin: 0;
+  padding: 0
+}
+
+.center-text {
+  text-align: center;
+}

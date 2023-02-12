@@ -1,6 +1,12 @@
 <script lang="ts">
-export default {
+import messages from '../../i18n/en';
 
+export default {
+  data() {
+    return {
+      messages: messages
+    }
+  }
 }
 </script>
 
@@ -27,11 +33,11 @@ export default {
   </section>
   <section>
     <h1>{{ $t('location.hotel.title') }}</h1>
-    <p v-for="i in [0,1]">
+    <p v-for="i in [...Array(messages.location.hotel.suggestionsText.length).keys()]">
       {{ $t(`location.hotel.suggestionsText[${i}]`) }}
     </p>
     <ul>
-      <li v-for="i in [0,1,2,3]">
+      <li v-for="i in [...Array(messages.location.hotel.list.length).keys()]">
         <a :href="$t(`location.hotel.list[${i}].url`)">{{ $t(`location.hotel.list[${i}].name`) }}</a>
           - {{ $t(`location.hotel.list[${i}].distance`) }}
       </li>

@@ -1,6 +1,12 @@
 <script lang="ts">
-export default {
+import messages from '../../i18n/en';
 
+export default {
+  data() {
+    return {
+      messages: messages
+    }
+  }
 }
 </script>
 
@@ -10,7 +16,7 @@ export default {
     <div class="flex-container flex-gap">
       <div class="flex-item margin-0">
         <h2>{{ $t('workshops.staff.teachers.names') }}</h2>
-        <p v-for="i in [0,1,]">{{ $t(`workshops.staff.teachers.description[${i}]`) }}</p>
+        <p v-for="i in [...Array(messages.workshops.staff.teachers.description.length).keys()]">{{ $t(`workshops.staff.teachers.description[${i}]`) }}</p>
       </div>
       <div class="flex-item margin-0">
         <img src="/src/assets/images/daniel_marina_stretch.jpeg" :alt="$t('workshops.staff.teachers.names')">

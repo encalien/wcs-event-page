@@ -1,6 +1,12 @@
 <script lang="ts">
-export default {
+import messages from '../../i18n/en';
 
+export default {
+  data() {
+    return {
+      messages: messages
+    }
+  }
 }
 </script>
 
@@ -17,9 +23,9 @@ export default {
   </section>
   <section>
     <h1>{{ $t('home.aboutWCS.title') }}</h1>
-    <p v-for="i in [0,1,2]">{{ $t(`home.aboutWCS.description[${i}]`) }}</p>
+    <p v-for="i in [...Array(messages.home.aboutWCS.description.length).keys()]">{{ $t(`home.aboutWCS.description[${i}]`) }}</p>
     <div id="video-collage">
-      <iframe v-for="i in [0,1,2,3,4,5]"
+      <iframe v-for="i in [...Array(messages.home.aboutWCS.yt.length).keys()]"
               :src="$t(`home.aboutWCS.yt[${i}].src`)" 
               :title="$t(`home.aboutWCS.yt[${i}].name`)" 
               frameborder="0" 

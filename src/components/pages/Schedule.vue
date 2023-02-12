@@ -32,7 +32,7 @@ export default {
   </section>  
   <section>
     <h1>{{ $t('workshops.level.title') }}</h1>
-    <p v-for="i in [0,1]">
+    <p v-for="i in [...Array(messages.workshops.level.descriptionText.length).keys()]">
       {{ $t(`workshops.level.descriptionText[${i}]`) }}
     </p>
   </section>
