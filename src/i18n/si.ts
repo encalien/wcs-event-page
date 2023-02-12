@@ -22,6 +22,32 @@ const si = {
         "West Coast Swing ali WCS je sodoben ples v paru. Razvil se je iz lindy hop-a v 60. letih 20. stoletja na zahodni obali Amerike.",
         "Zanj je značilno elastično gibanje partnerjev, ki izhaja iz specifične tehnike vodenja in sledenja. Izrazit poudarek daje na glasbeno izražanje obeh partnerjev in je eden redkih plesov, ki spodbuja prosto plesno improvizacijo.",
         "Ker je relativno nov ples, se iz leta v leto še vedno razvija in stilno prilagaja glasbi, na katero se pleše. Običajno je to največkrat pop, hip hop, akustična glasba in blues."
+      ],
+      yt: [
+        {
+          name: "ASC 2022 Open Strictly Finals - Daniil Pavlov (RUS), Marina Motronenko (RUS) - 1st place",
+          src: "https://youtube.com/embed/BgOa8O8Icbk"
+        },
+        {
+          name: "Daniil Pavlov & Marina Motronenko. Teachers Show. Spring Fever 2022",
+          src: "https://youtube.com/embed/5ptwaPqY_I8"
+        },
+        {
+          name: 'Daniil Pavlov & Marina Motronenko "2step" - Strictly Open Finals - Finnfest 2022',
+          src: "https://youtube.com/embed/srdar3V3GIM"
+        },
+        {
+          name: "Daniil Pavlov & Ani Fuller - 1st place All-Stars Jack&Jill - Baltic Swing 2019",
+          src: "https://youtube.com/embed/j2rZNi7f_a4"
+        },
+        {
+          name: "Leo Lorenzo & Marina Motronenko - Strictly Open Finals - Budafest 2022",
+          src: "https://youtube.com/embed/tAYaLHBZVGI?t=19"
+        },
+        {
+          name: "ASC 2022 All-Stars JnJ Finals - Daniil Pavlov (RUS) - Eszter Moricz (HUN) - 1st place",
+          src: "https://youtube.com/embed/wuBOzILYxZo"
+        },
       ]
     }
   },

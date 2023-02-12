@@ -22,6 +22,32 @@ const en = {
         "West Coast Swing or WCS is a modern partner dance. It evolved from lindy hop in the 1960s on the west coast of America.",
         "It is characterized by the elastic movement of the partners, which results from a specific technique of leading and following. The dance places a strong emphasis on the musical expression of both partners and is one of the few dances that encourages free dance improvisation.",
         "Since it is a relatively new dance, it continues to evolve year after year and stylistically adapts to the music to which it is danced. This is usually pop, hip hop, acoustic music and blues."
+      ],
+      yt: [
+        {
+          name: "ASC 2022 Open Strictly Finals - Daniil Pavlov (RUS), Marina Motronenko (RUS) - 1st place",
+          src: "https://youtube.com/embed/BgOa8O8Icbk"
+        },
+        {
+          name: "Daniil Pavlov & Marina Motronenko. Teachers Show. Spring Fever 2022",
+          src: "https://youtube.com/embed/5ptwaPqY_I8"
+        },
+        {
+          name: 'Daniil Pavlov & Marina Motronenko "2step" - Strictly Open Finals - Finnfest 2022',
+          src: "https://youtube.com/embed/srdar3V3GIM"
+        },
+        {
+          name: "Daniil Pavlov & Ani Fuller - 1st place All-Stars Jack&Jill - Baltic Swing 2019",
+          src: "https://youtube.com/embed/j2rZNi7f_a4"
+        },
+        {
+          name: "Leo Lorenzo & Marina Motronenko - Strictly Open Finals - Budafest 2022",
+          src: "https://youtube.com/embed/tAYaLHBZVGI?t=19"
+        },
+        {
+          name: "ASC 2022 All-Stars JnJ Finals - Daniil Pavlov (RUS) - Eszter Moricz (HUN) - 1st place",
+          src: "https://youtube.com/embed/wuBOzILYxZo"
+        },
       ]
     }
   },

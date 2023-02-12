@@ -19,7 +19,13 @@ export default {
     <h1>{{ $t('home.aboutWCS.title') }}</h1>
     <p v-for="i in [0,1,2]">{{ $t(`home.aboutWCS.description[${i}]`) }}</p>
     <div id="video-collage">
-      Here come the youtube videos.
+      <iframe v-for="i in [0,1,2,3,4,5]"
+              :src="$t(`home.aboutWCS.yt[${i}].src`)" 
+              :title="$t(`home.aboutWCS.yt[${i}].name`)" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen 
+              :class="`item-${i + 1}`">
+      </iframe>
     </div>
   </section>
 </template>
@@ -45,4 +51,49 @@ export default {
     text-align: center;
     padding: 2rem;
   }
+
+  #video-collage {
+    display: grid;
+    grid-gap: 10px;
+    margin-top: 40px;
+  }
+
+  #video-collage > iframe {
+    width: calc((100vw - 100px) / 3);
+    height: calc(((100vw - 100px) / 3) * 0.56);
+  }
+
+  #video-collage > iframe.item-1 {
+    width: calc((100vw - 100px) / 3 * 2 + 10px);
+    height: calc(((100vw - 100px) / 3 * 2 * 0.56) + 10px);
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+  }
+
+  #video-collage > iframe.item-2 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  #video-collage > iframe.item-3 {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  #video-collage > iframe.item-4 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  #video-collage > iframe.item-5 {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  #video-collage > iframe.item-6 {
+    grid-column: 3;
+    grid-row: 3;
+  }
 </style>
+
+<!-- width="560" height="315"  -->
