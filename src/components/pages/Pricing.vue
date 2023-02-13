@@ -42,7 +42,7 @@ export default {
   .pass {
     flex: 1 0 300px;
     padding: 3rem 2rem 2rem;
-    border: 2px solid var(--color-background-alt);
+    border: 2px solid var(--black);
     border-radius: 2px;
     overflow: hidden;
   }

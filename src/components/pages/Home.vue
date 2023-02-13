@@ -43,6 +43,7 @@ export default {
 
   #landing {
     background-color: var(--light);
+    color: var(--dark-1);
     padding: 1rem 40px 0;
     display: flex;
     flex-direction: column;
