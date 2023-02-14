@@ -101,6 +101,26 @@ export default {
     grid-column: 3;
     grid-row: 3;
   }
+
+  @media screen and (max-width:650px) {
+    #banner {
+      content: url('/src/assets/images/website_landing_square.svg')
+    }
+
+    .landing-content {
+      padding: 1rem 0;
+    }
+
+    #video-collage {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #video-collage > iframe {
+      width: 100% !important;
+      height: fit-content !important;
+    }
+  }
 </style>
 
 <!-- width="560" height="315"  -->

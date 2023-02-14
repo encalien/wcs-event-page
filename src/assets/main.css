@@ -154,6 +154,14 @@ hr {
 /* mobile */
 
 @media screen and (max-width:650px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  main {
+    padding: 40px 1rem 0;
+  }
+
   .flex-container {
     flex-direction: column;
     justify-content: center;
