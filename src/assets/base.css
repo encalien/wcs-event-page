@@ -32,6 +32,7 @@
   --color-text-soft: var(--black-soft);
   --color-text-mute: var(--black-mute);
   --color-text-alt: var(--white-soft);
+  --color-text-accent: var(--accent-1);
   
   --section-gap: 60px;
 }
@@ -42,11 +43,12 @@
     --color-background-soft: var(--black-soft);
     --color-background-mute: var(--black-mute);
     --color-background-alt: var(--light);
-
+    
     --color-text: var(--white);
     --color-text-soft: var(--white-soft);
     --color-text-mute: var(--white-mute);
     --color-text-alt: var(--dark-1);
+    --color-text-accent: var(--dark-2);
   }
 }
 

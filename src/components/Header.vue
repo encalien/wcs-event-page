@@ -133,15 +133,15 @@
     display: block;
     width: 100%;
     padding: 0.5rem;
-    color: var(--accent-1);
+    color: var(--color-text-accent);
     filter: brightness(100%);
     cursor: pointer;
   }
 
   .menu-item-link:hover, .dropdown-menu-item:hover, .menu-item-link.active {
     display: block;
-    background-color: var(--accent-1);
-    color: var(--dark-1);
+    background-color: var(--color-text-accent);
+    color: var(--color-background-alt);
   }
 
   .menu-item-link:visited, .menu-item-link.active {
@@ -177,7 +177,7 @@
   }
 
   .dropdown-menu-item-link {
-    color: var(--accent-1);
+    color: var(--color-text-accent);
   }
 
   #social-icons {
