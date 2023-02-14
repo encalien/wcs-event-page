@@ -58,7 +58,7 @@ const si = {
       teachers: {
         names: "Daniel in Marina",
         description: [
-          "Marina in Daniel imata oba za sabo že več kot 10 let profesionalnega poučevanja plesa, a sta šele pred kratkim začela poučevati in potovati skupaj. Vsak s svojim pristopom, Marina s svojim karizmatičnim stilom in Daniel s strukturirano metodologijo, ustvarjata edinstvne tečaje, ki jih mnogi učenci.",
+          "Marina in Daniel imata oba za sabo že več kot 10 let profesionalnega poučevanja plesa, a sta šele pred kratkim začela poučevati in potovati skupaj. Vsak s svojim pristopom, Marina s svojim karizmatičnim stilom in Daniel s strukturirano metodologijo, ustvarjata edinstvne tečaje, ki bodo pisani na kožo mnogim učencem.",
           "West coast swing imata rada zaradi svobode, ki jo dopušča, in inkluzivnosti, zaradi katere lahko raznoliki plesalci skupaj ustvarjajo. Upata, da lahko svojo strast do plesa delita tudi s tabo."
         ]
       }
@@ -159,7 +159,7 @@ const si = {
           title: "Sobotni paket",
           price: "40 evr",
           includes: [
-            "3 ur delavnic v soboto",
+            "3 ure delavnic v soboto",
             "vstopnina za sobotno zabavo"
           ]
         },
