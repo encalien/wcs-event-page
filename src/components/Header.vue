@@ -120,7 +120,11 @@
 
   .menu-item {
     text-align: center;
-    padding: 0 1rem;
+  }
+  
+  .menu-item.flex-item {
+    flex: 1 1 20%;
+    padding: 0;
   }
 
   .menu-item-link {
@@ -191,6 +195,10 @@
     left: 0;
     width: 1.2rem;
     z-index: 1;
+  }
+
+  #localization-menu > .flex-item {
+    padding: 0;
   }
 
   @media screen and (max-width: 650px) {
