@@ -16,7 +16,7 @@ export default {
     <div class="flex-container flex-gap">
       <div class="flex-item margin-0">
         <p>{{ $t(`location.venue.locationText`) }}</p>
-        <p class="flex-container flex-column">
+        <p class="flex-container flex-container-column">
           <span>{{ $t('location.venue.address.name') }}</span>
           <span>{{ $t('location.venue.address.address') }}</span>
           <span>{{ $t('location.venue.address.zipAndCity') }}</span>
@@ -51,7 +51,7 @@ export default {
     border: none;
   }
 
-  .flex-column {
+  .flex-container-column {
     align-items: flex-start;
   }
 </style>

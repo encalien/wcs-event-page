@@ -71,7 +71,11 @@ hr {
   gap: 2rem;
 }
 
-.flex-column {
+.flex-container-row {
+  flex-direction: row !important;
+}
+
+.flex-container-column {
   flex-direction: column;
   align-items: flex-start;
 }
@@ -145,4 +149,23 @@ hr {
 
 .center-text {
   text-align: center;
+}
+
+/* mobile */
+
+@media screen and (max-width:650px) {
+  .flex-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex-item {
+    padding: 0;
+  }
+
+  .dropdown-menu {
+    position: relative;
+    border: none;
+  }
 }
