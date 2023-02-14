@@ -162,6 +162,10 @@ hr {
     padding: 40px 1rem 0;
   }
 
+  section {
+    margin-top: 2rem;
+  }
+
   .flex-container {
     flex-direction: column;
     justify-content: center;

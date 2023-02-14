@@ -88,4 +88,11 @@ export default {
     padding: 0.5rem;
     text-align: center;
   }
+
+  @media screen and (max-width: 650px) {
+    .pass {
+      flex: none;
+      width: 100%;
+    }
+  }
 </style>
