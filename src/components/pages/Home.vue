@@ -50,7 +50,7 @@ export default {
     justify-content: center;
     align-items: center;
     margin: 0 -40px;
-    width: calc(100% + 80px);
+    width: 100vw;
   }
 
   .landing-content {
@@ -104,7 +104,11 @@ export default {
 
   @media screen and (max-width: 650px) {
     #banner {
-      content: url('/src/assets/images/website_landing_square.svg')
+      content: url('/src/assets/images/website_landing_square.svg');
+    }
+
+    #landing {
+      margin: 0 -1rem;
     }
 
     .landing-content {

@@ -38,7 +38,7 @@
     <div id="mobile-menu-toggle" 
          :class="{'block': !isMobileMenuOpen}"
          @click="toggleMobileMenuOpen()">
-      <font-awesome-icon icon="fa-solid fa-bars" class="menu-item-link"></font-awesome-icon>
+      <font-awesome-icon icon="fa-solid fa-bars" class="fa menu-item-link"></font-awesome-icon>
     </div>
     <div class="modal-backdrop hidden" 
          :class="{ 'active': isMobileMenuOpen }"
@@ -110,7 +110,7 @@
 
 <style scoped>
   #menu {
-    width: 100%;
+    width: 100vw;
     background-color: var(--color-background-alt);
     /* filter: brightness(80%); */
     padding: 0 40px;
@@ -136,6 +136,10 @@
     color: var(--color-text-accent);
     filter: brightness(100%);
     cursor: pointer;
+  }
+
+  .fa.mobile-item-link {
+    padding: 0.8rem;
   }
 
   .menu-item-link:hover, .dropdown-menu-item:hover, .menu-item-link.active {
