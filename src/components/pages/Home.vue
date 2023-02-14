@@ -102,7 +102,7 @@ export default {
     grid-row: 3;
   }
 
-  @media screen and (max-width:650px) {
+  @media screen and (max-width: 650px) {
     #banner {
       content: url('/src/assets/images/website_landing_square.svg')
     }

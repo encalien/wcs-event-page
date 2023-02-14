@@ -153,7 +153,7 @@ hr {
 
 /* mobile */
 
-@media screen and (max-width:650px) {
+@media screen and (max-width: 650px) {
   h2 {
     font-size: 1.2rem;
   }

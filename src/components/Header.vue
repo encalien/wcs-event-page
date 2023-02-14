@@ -193,7 +193,7 @@
     z-index: 1;
   }
 
-  @media screen and (max-width:650px) {
+  @media screen and (max-width: 650px) {
   .dropdown-menu {
     position: relative;
     border: none;
