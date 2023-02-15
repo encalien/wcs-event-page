@@ -183,13 +183,13 @@ const en = {
         zipAndCity: "1000 Ljubljana",
         country: "Slovenia"
       },
-      parkingText: "Parking is possible in several paid parking lots nearby, the nearest parking lot is on Vilharjeva opposite the dance school. You can also park in public roadside parking areas, where a parking fee is usually free for the weekend, except Saturday mornings.",
+      parkingText: "Parking is possible in several paid parking lots nearby, the nearest parking lot is on Vilharjeva opposite the dance school. You can also park in public roadside parking areas, where it's usually free during the weekends, except Saturday mornings.",
       accessText: "Access to the dance school is around the building, not where the entrance is. From the nearest parking lot it looks like this:"
     },
     hotel: {
       title: "Accommodation",
       suggestionsText: [
-        "Depending on your budget and service preference, there are multiple hotels as well as hostels, apartmens and airbnbs nearby.",
+        "Depending on your budget and service preferences, there are multiple hotels as well as hostels, apartments and AirBnbs nearby.",
         "Here are some hotel suggestions, ordered by distance to the venue:"],
       list: [
         {
