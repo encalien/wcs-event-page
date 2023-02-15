@@ -1,13 +1,15 @@
 <script lang="ts">
 import Participant from "../../dtos/Participant";
 import axios from 'axios';
+import { store } from '../../store';
+
 
 export default {
   data() {
     return {
       participant: new Participant(),
       formSubmitted: false,
-      alert: {message: "", type: ""}
+      store
     }
   },
   methods: {
@@ -20,16 +22,18 @@ export default {
       axios.post(url, form)
         .then((res) => {
           this.formSubmitted = true;
-          this.alert = {
+          window.scrollTo(0,0);
+          this.store.addAlert({
             message: "Your registration has been submitted successfully.",
             type: "success"
-          }
+          })
         })
         .catch((error) => {
-          this.alert = {
+          window.scrollTo(0,0);
+          this.store.addAlert({
             message: "Oops! Something went wrong! Please try again later.",
             type: "error"
-          }
+          })
           console.log("Error", error)
         })
     },
@@ -47,7 +51,7 @@ export default {
     <h1>{{ $t('registration.pageTitle') }}</h1>
     <!-- <p>{{ $t('event.tba') }}</p> -->
 
-    <div id="alert" v-if="alert.message" :class="alert.type">{{ alert.message }}</div>
+    <!-- <div id="alert" v-if="alert.message" :class="alert.type">{{ alert.message }}</div> -->
 
     <form v-if="!formSubmitted" @submit="submitRegistration" method="post">
       <label for="firstName">firstName</label>

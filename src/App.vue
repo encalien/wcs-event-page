@@ -1,5 +1,6 @@
 <script lang="ts">
 // Import components
+import Alert from "./components/Alert.vue";
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 import Home from "./components/pages/Home.vue";
@@ -26,6 +27,7 @@ export default {
     }
   },
   components: {
+    Alert,
     Header,
     Footer,
     Home,
@@ -52,6 +54,7 @@ export default {
 <template>
   <Header />
   <main>
+    <Alert />
     <component :is="currentView" />
   </main>
   <Footer />
