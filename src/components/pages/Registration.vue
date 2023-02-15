@@ -6,7 +6,8 @@ export default {
   data() {
     return {
       participant: new Participant(),
-      formSubmitted: false
+      formSubmitted: false,
+      alert: {message: "", type: ""}
     }
   },
   methods: {
@@ -19,8 +20,16 @@ export default {
       axios.post(url, form)
         .then((res) => {
           this.formSubmitted = true;
+          this.alert = {
+            message: "Your registration has been submitted successfully.",
+            type: "success"
+          }
         })
         .catch((error) => {
+          this.alert = {
+            message: "Oops! Something went wrong! Please try again later.",
+            type: "error"
+          }
           console.log("Error", error)
         })
     },
@@ -37,6 +46,8 @@ export default {
   <section>
     <h1>{{ $t('registration.pageTitle') }}</h1>
     <!-- <p>{{ $t('event.tba') }}</p> -->
+
+    <div id="alert" v-if="alert.message" :class="alert.type">{{ alert.message }}</div>
 
     <form v-if="!formSubmitted" @submit="submitRegistration" method="post">
       <label for="firstName">firstName</label>
@@ -87,5 +98,18 @@ export default {
 <style scoped>
   input {
     display: block;
+  }
+
+  #alert {
+    padding: 1rem;
+    margin: 1rem auto;
+  }
+  .error {
+    color: rgb(125, 0, 0);
+    background-color: rgb(255, 173, 173);
+  }
+  .success {
+    color: rgb(0, 78, 0);
+    background-color: rgb(195, 249, 195)
   }
 </style>
