@@ -224,7 +224,24 @@ const si = {
   },
   registration: {
     pageTitle: "Registracija",
-    opensSoonText: "Registracija se odpre kmalu."
+    opensSoonText: "Registracija se odpre kmalu.",
+    fields: {
+      firstName: "Ime",
+      lastName: "Priimek",
+      email: "Email",
+      country: "Država",
+      partnerEmail: "Email osebe, s katero se prijavljaš",
+      role: "Plesna vloga",
+      leader: "Leader - oseba, ki vodi",
+      follower: "Follower - oseba, ki sledi",
+      passType: "Vrsta vstopnice",
+      full: "Polni paket",
+      saturday: "Sobotni paket",
+      party: "Večerni paket",
+      subscribed: "Želim prejemati elektronsko pošto z obvestili o prihajajočih dogodkih v Ljubljani.",
+      termsAccepted: "Prebral_a sem Pogoje poslovanja in se z njimi strinjam.",
+      submit: "Pošlji"
+    }
   },
   notFound: {
     pageTitle: "Stran ne obstaja",

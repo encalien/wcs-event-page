@@ -2,11 +2,13 @@
 import Participant from "../../dtos/Participant";
 import axios from 'axios';
 import { store } from '../../store';
+import { fields } from '../../services/Fields';
 
 
 export default {
   data() {
     return {
+      fields,
       participant: new Participant(),
       formSubmitted: false,
       store
@@ -51,36 +53,29 @@ export default {
     <h1>{{ $t('registration.pageTitle') }}</h1>
     <!-- <p>{{ $t('event.tba') }}</p> -->
 
-    <!-- <div id="alert" v-if="alert.message" :class="alert.type">{{ alert.message }}</div> -->
-
     <form v-if="!formSubmitted" @submit="submitRegistration" method="post">
-      <label for="firstName">firstName</label>
-      <input type="text" v-model="participant.firstName" name="participant[firstName]" id="firstName" placeholder="first name">
-      <label for="lastName">lastName</label>
-      <input type="text" v-model="participant.lastName" name="participant[lastName]" id="lastName" placeholder="last name">
-      <label for="email">email</label>
-      <input type="email" v-model="participant.email" name="participant[email]" id="email" placeholder="email">
-      <label for="country">country</label>
-      <input type="text" v-model="participant.country" name="participant[country]" id="country" placeholder="country">
-      <label for="partnerEmail">partnerEmail</label>
-      <input type="email" v-model="participant.partnerEmail" name="participant[partnerEmail]" id="partnerEmail" placeholder="partner's email">
-      <label>pass type</label>
-      <label for="full">full</label>
-      <input type="radio" v-model="participant.passType" name="participant[passType]" id="full" value="full">
-      <label for="saturday">saturday</label>
-      <input type="radio" v-model="participant.passType" name="participant[passType]" id="saturday" value="saturday">
-      <label for="party">party</label>
-      <input type="radio" v-model="participant.passType" name="participant[passType]" id="party" value="party">
-      <label>role</label>
-      <label for="leader">leader</label>
-      <input type="radio" v-model="participant.role" name="participant[role]" id="leader" value="leader">
-      <label for="follower">follower</label>
-      <input type="radio" v-model="participant.role" name="participant[role]" id="follower" value="follower">
-      <label for="subscribed">subscribed</label>
-      <input type="checkbox" v-model="participant.subscribed" name="participant[subscribed]" id="subscribed" value="subscribed">
-      <label for="termsAccepted">termsAccepted</label>
-      <input type="checkbox" v-model="participant.termsAccepted" name="participant[termsAccepted]" id="termsAccepted" value="termsAccepted">
-      <button type="submit">Send</button>
+      <div v-for="field in fields" class="grid-container grid-1-2">
+        <label :for="field.id" class="field-label">{{ $t(`registration.fields.${field.id}`) }}</label>
+        <div v-if="!field.options">
+          <input :type="field.type" 
+                :name="field.id"
+                :id="field.id"
+                v-model="participant[field.id]"
+                :required="field.validations.required">
+        </div>
+        <div v-if="field.options">
+          <div v-for="opt in field.options" class="flex-container flex-column">
+            <input :type="field.type" 
+                  :name="field.id"
+                  :id="opt"
+                  v-model="participant[field.id]"
+                  :required="field.validations.required"
+                  class="field-option-item">
+            <label :for="opt" class="field-label field-option">{{ $t(`registration.fields.${opt}`) }}</label>
+          </div>
+        </div>
+      </div>
+      <button type="submit">{{ $t('registration.fields.submit') }}</button>
     </form>
 
     <div v-if="formSubmitted">

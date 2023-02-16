@@ -223,7 +223,24 @@ const en = {
   },
   registration: {
     pageTitle: "Registration",
-    opensSoonText: "Registration opens soon."
+    opensSoonText: "Registration opens soon.",
+    fields: {
+      firstName: "First name",
+      lastName: "Last name",
+      email: "Email",
+      country: "Country",
+      partnerEmail: "Partner's email",
+      role: "Role",
+      leader: "Leader",
+      follower: "Follower",
+      passType: "Pass type",
+      full: "Full pass",
+      saturday: "Saturday pass",
+      party: "Party pass",
+      subscribed: "I want to receive emails with information about future events in Ljubljana.",
+      termsAccepted: "I have read and agree with Terms & Conditions.",
+      submit: "Submit"
+    }
   },
   notFound: {
     pageTitle: "Page not found",
