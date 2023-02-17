@@ -12,6 +12,7 @@ export default {
       fields: fields as Field[],
       participant: new Participant(),
       formSubmitted: false,
+      invalidFields: [] as string[],
       store
     }
   },
@@ -73,7 +74,8 @@ export default {
                    :id="field.id"
                    v-model="participant[field.id]"
                    :required="field.validations.required"
-                   class="input-field">
+                   class="input-field"
+                   :class="{ 'input-field-invalid': invalidFields.includes(field.id) }">
           </div>
         </div>
         <!-- Radio input -->
@@ -156,6 +158,7 @@ export default {
     height: 100%;
     align-items: center;
   }
+
   .input-field-selectable {
     display: flex;
     gap: 0.5rem;

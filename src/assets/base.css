@@ -19,6 +19,9 @@
   --dark-2: #2D2872;
 
   --light: #C6C5CD;
+
+  --error: rgb(255, 173, 173);
+  --success: rgb(195, 249, 195);
 }
 
 /* semantic color variables for this project */

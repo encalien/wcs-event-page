@@ -24,6 +24,7 @@ export default {
     padding: 1.5rem 0 1.5rem 1.5rem;
     margin: 1rem auto;
     line-height: 1rem;
+    color: var(--black-soft);
   }
 
   #close-alert {
@@ -39,12 +40,10 @@ export default {
   }
 
   .error {
-    color: rgb(125, 0, 0);
-    background-color: rgb(255, 173, 173);
+    background-color: var(--error);
   }
 
   .success {
-    color: rgb(0, 78, 0);
-    background-color: rgb(195, 249, 195)
+    background-color: var(--success);
   }
 </style>
