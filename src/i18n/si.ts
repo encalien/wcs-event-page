@@ -145,7 +145,7 @@ const si = {
         "Na tem dogodku bodo vstopnice na voljo v treh cenovnih razredih.",
         "Najnižja cena velja za prvih 10 prijavljenih (ne glede na vrsto vstopnice), srednja za naslednjih 10 in najvišja za vse ostale. Z vsakim cenovnim razredom se cena dvigne za 10 evr."
       ],
-      priceTier: "Najnižja cena",
+      priceTier: "Prva cena",
       passes: [
         {
           title: "Vikend paket",
