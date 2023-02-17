@@ -7,5 +7,5 @@ export default interface Field {
   type: string;
   options?: string[];
   validations: validations;
-  infoText?: string;
+  showInfoText?: boolean;
 }

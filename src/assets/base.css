@@ -27,6 +27,7 @@
   --color-background-soft: var(--white-soft);
   --color-background-mute: var(--white-mute);
   --color-background-alt: var(--dark-1);
+  --color-background-accent: var(--accent-1);
 
   --color-text: var(--black);
   --color-text-soft: var(--black-soft);
@@ -43,6 +44,7 @@
     --color-background-soft: var(--black-soft);
     --color-background-mute: var(--black-mute);
     --color-background-alt: var(--light);
+    --color-background-accent: var(--accent-1);
     
     --color-text: var(--white);
     --color-text-soft: var(--white-soft);

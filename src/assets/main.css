@@ -103,6 +103,10 @@ hr {
   padding: 0;
 }
 
+.grid-2-3 {
+  grid-template-columns: 2fr 3fr;
+}
+
 .grid-gap {
   grid-gap: 0.4rem;
 }
@@ -121,15 +125,27 @@ hr {
 }
 
 .btn-primary {
-  background-color: var(--accent-1);
+  background-color: var(--color-background-accent);
   color: var(--dark-1);
 }
 
 .btn-primary:hover {
+  background-color: var(--color-background-alt);
+  color: var(--color-text-accent);
+  filter: brightness(100%);
+}
+
+.btn-small {
+  font-size: large;
+
+}
+
+.btn-secondary:hover {
   background-color: var(--dark-1);
   color: var(--accent-1);
   filter: brightness(100%);
 }
+
 /* 
 .btn-primary.disabled, .btn-primary.disabled :hover{
   background-color: var(--accent-1-disabled);

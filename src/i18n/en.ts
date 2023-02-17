@@ -238,8 +238,9 @@ const en = {
       saturday: "Saturday pass",
       party: "Party pass",
       subscribed: "I want to receive emails with information about future events in Ljubljana.",
-      termsAccepted: "I have read and agree with Terms & Conditions.",
-      submit: "Submit"
+      termsAccepted: 'I have read and agree with <a href="#/terms-and-conditions" target="_blank">Terms & Conditions.</a>',
+      submit: "Submit",
+      partnerEmailInfoText: "Required if you're registering as a couple. Make sure you're entering the same address that your partner used for their registration as the system will match you by email."
     }
   },
   notFound: {

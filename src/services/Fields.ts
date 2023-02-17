@@ -35,7 +35,7 @@ export const fields: Field[] = [
     validations: {
       required: false
     },
-    infoText: "If you're registering with a partner, please enter their email address. Make sure you're entering the same address that they have used for their registration as the system will match you by email."
+    showInfoText: true
   },
   {
     id: "role",

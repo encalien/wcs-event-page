@@ -239,8 +239,9 @@ const si = {
       saturday: "Sobotni paket",
       party: "Večerni paket",
       subscribed: "Želim prejemati elektronsko pošto z obvestili o prihajajočih dogodkih v Ljubljani.",
-      termsAccepted: "Prebral_a sem Pogoje poslovanja in se z njimi strinjam.",
-      submit: "Pošlji"
+      termsAccepted: 'Prebral_a sem <a href="#/terms-and-conditions" target="_blank">Pogoje poslovanja</a> in se z njimi strinjam.',
+      submit: "Pošlji",
+      partnerEmailInfoText: "Obvezno, če se prijavljaš v paru. Pazi, da vneseš enak email kot ga je vnesla oseba, s katero se prijavljaš, saj bo vajini prijavi sistem povezal preko emaila."
     }
   },
   notFound: {

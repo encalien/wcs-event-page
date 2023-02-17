@@ -1,5 +1,6 @@
 <script lang="ts">
 import Participant from "../../dtos/Participant";
+import type Field from "../../dtos/Field";
 import axios from 'axios';
 import { store } from '../../store';
 import { fields } from '../../services/Fields';
@@ -8,7 +9,7 @@ import { fields } from '../../services/Fields';
 export default {
   data() {
     return {
-      fields,
+      fields: fields as Field[],
       participant: new Participant(),
       formSubmitted: false,
       store
@@ -43,6 +44,10 @@ export default {
       return string.replace(/([A-Z])/g, (match) => ` ${match}`)
                    .replace(/^./, (match) => match.toUpperCase())
                    .trim();
+    },
+    setRadioFieldValue: function (event: Event, fieldId: string): void {
+      const target = event.target as HTMLInputElement;
+      this.participant[fieldId] = target.value;
     }
   }
 }
@@ -53,29 +58,66 @@ export default {
     <h1>{{ $t('registration.pageTitle') }}</h1>
     <!-- <p>{{ $t('event.tba') }}</p> -->
 
-    <form v-if="!formSubmitted" @submit="submitRegistration" method="post">
-      <div v-for="field in fields" class="grid-container grid-1-2">
-        <label :for="field.id" class="field-label">{{ $t(`registration.fields.${field.id}`) }}</label>
-        <div v-if="!field.options">
-          <input :type="field.type" 
-                :name="field.id"
-                :id="field.id"
-                v-model="participant[field.id]"
-                :required="field.validations.required">
-        </div>
-        <div v-if="field.options">
-          <div v-for="opt in field.options" class="flex-container flex-column">
+    <form v-if="!formSubmitted" @submit="submitRegistration" method="post" id="registration-form">
+      <div v-for="field in fields" class="field">
+        <!-- Text input -->
+        <div v-if="['text', 'email'].includes(field.type)"
+             class="grid-container grid-2-3 grid-gap">
+          <label :for="field.id" class="field-label">
+            {{ $t(`registration.fields.${field.id}`) }}
+            <span v-if="field.validations.required" class="red">*</span>
+          </label>
+          <div>
             <input :type="field.type" 
-                  :name="field.id"
-                  :id="opt"
-                  v-model="participant[field.id]"
-                  :required="field.validations.required"
-                  class="field-option-item">
-            <label :for="opt" class="field-label field-option">{{ $t(`registration.fields.${opt}`) }}</label>
+                   :name="field.id"
+                   :id="field.id"
+                   v-model="participant[field.id]"
+                   :required="field.validations.required"
+                   class="input-field">
           </div>
         </div>
+        <!-- Radio input -->
+        <div v-if="field.type === 'radio'"
+             class="grid-container grid-2-3 grid-gap">
+          <label class="field-label">
+            {{ $t(`registration.fields.${field.id}`) }}
+            <span v-if="field.validations.required" class="red">*</span>
+          </label>
+          <div class="flex-container flex-container-column">
+            <div v-for="opt in field.options" class="input-field-selectable">
+              <input :type="field.type" 
+                     :name="field.id"
+                     :id="opt"
+                     :value="opt"
+                     :checked="participant[field.id] == opt"
+                     @input="setRadioFieldValue($event, field.id)"
+                     :required="field.validations.required"
+                     class="input-field-option-item">
+              <label :for="opt" class="field-label field-option">{{ $t(`registration.fields.${opt}`) }}</label>
+            </div>
+          </div>
+        </div>
+        <!-- Checkbox input -->
+        <div v-if="field.type === 'checkbox'"
+             class="">
+             <div class="input-field-selectable">
+               <input :type="field.type" 
+                      :name="field.id"
+                      :id="field.id"
+                      v-model="participant[field.id]"
+                      :required="field.validations.required"
+                      class="input-field-option-item">
+               <label :for="field.id" class="field-label">
+                 <span v-html="$t(`registration.fields.${field.id}`)"></span>
+                 <span v-if="field.validations.required" class="red">*</span>
+               </label>
+             </div>
+        </div>
+        <div v-if="field.showInfoText" class="info-text">
+          {{ $t(`registration.fields.${field.id}InfoText`) }}
+        </div>
       </div>
-      <button type="submit">{{ $t('registration.fields.submit') }}</button>
+      <button type="submit" class="btn btn-primary btn-small">{{ $t('registration.fields.submit') }}</button>
     </form>
 
     <div v-if="formSubmitted">
@@ -87,7 +129,7 @@ export default {
       <p>Here are the details of the form you submitted:</p>
       <ul>
         <li v-for="(value, attribute) in participant">
-          <span>{{ toTitleCase(attribute) }}:</span> <span>{{ value }}</span>
+          <span>{{ toTitleCase(attribute as string) }}:</span> <span>{{ value }}</span>
         </li>
       </ul>
     </div>
@@ -95,20 +137,64 @@ export default {
 </template>
 
 <style scoped>
-  input {
-    display: block;
+  #registration-form {
+    width: 60%;
+    margin: 0 auto;
   }
 
-  #alert {
-    padding: 1rem;
-    margin: 1rem auto;
+  .field {
+    margin: 1.5rem 0;
   }
-  .error {
-    color: rgb(125, 0, 0);
-    background-color: rgb(255, 173, 173);
+
+  .input-field {
+    width: 100%;
+    padding: 0.5rem;
   }
-  .success {
-    color: rgb(0, 78, 0);
-    background-color: rgb(195, 249, 195)
+
+  .input-field-selectable {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .input-field-selectable > .flex-container {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .red {
+    color: red;
+  }
+
+  .grid-gap {
+    gap: 2rem;
+  }
+
+  .info-text {
+    font-size: smaller;
+    margin-top: 0.5rem;
+  }
+
+  @media screen and (max-width: 1200px) {
+    #registration-form {
+      width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    #registration-form {
+      width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    #registration-form {
+      width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    #registration-form {
+      width: 100%;
+    }
   }
 </style>
