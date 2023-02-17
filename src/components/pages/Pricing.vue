@@ -40,7 +40,7 @@ export default {
   }
 
   .pass {
-    flex: 1 0 300px;
+    flex: 1 1 300px;
     padding: 3rem 2rem 2rem;
     border: 2px solid var(--black);
     border-radius: 2px;
@@ -81,12 +81,24 @@ export default {
     background-color: var(--color-background-alt);
     color: var(--color-text-alt);
     position: absolute;
-    top: 1.4rem;
-    right: -2.4rem;
+    top: 1rem;
+    right: -3rem;
     width: 10rem;
     transform: rotate(45deg);
     padding: 0.5rem;
     text-align: center;
+  }
+
+  @media screen and (max-width: 900px) {
+    #passes {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .pass {
+      flex: none;
+      width: 70%;
+    }
   }
 
   @media screen and (max-width: 650px) {
