@@ -67,7 +67,7 @@ export default {
             {{ $t(`registration.fields.${field.id}`) }}
             <span v-if="field.validations.required" class="red">*</span>
           </label>
-          <div>
+          <div class="input-field-text">
             <input :type="field.type" 
                    :name="field.id"
                    :id="field.id"
@@ -151,14 +151,14 @@ export default {
     padding: 0.5rem;
   }
 
+  .input-field-text {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
   .input-field-selectable {
     display: flex;
     gap: 0.5rem;
-  }
-
-  .input-field-selectable > .flex-container {
-    justify-content: flex-start;
-    gap: 10px;
   }
 
   .red {
@@ -195,6 +195,10 @@ export default {
   @media screen and (max-width: 650px) {
     #registration-form {
       width: 100%;
+    }
+
+    .flex-container-column {
+      align-items: flex-start;
     }
   }
 </style>
