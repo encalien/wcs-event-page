@@ -248,6 +248,10 @@ const si = {
     pageTitle: "Stran ne obstaja",
     description: `Strani, ki jo iščeš, nismo mogli prikazati. Preveri, da je URL pravilno vpisan, ali se <a href="/">vrni na prvo stran</a>.`
   },
+  alert: {
+    registrationError: "Prišlo je do napake. Prosim preveri pravilnost podatkov in poskusi znova.",
+    registrationSuccess: "Prijava uspešno poslana."
+  },
   termsAndConditions: {
     pageTitle: "Pravila in pogoji sodelovanja",
     healthAndSafety: {

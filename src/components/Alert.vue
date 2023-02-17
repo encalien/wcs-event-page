@@ -11,8 +11,8 @@ export default {
 </script>
 
 <template>
-    <div id="alert" v-if="store.alert.message" :class="store.alert.type">
-      {{ store.alert.message }}
+    <div id="alert" v-if="store.alert.messageKey" :class="store.alert.type">
+      {{ $t(`alert.${store.alert.messageKey}`) }}
       <div id="close-alert" @click="store.clearAlert()">
         <font-awesome-icon icon="fa-solid fa-xmark" />
       </div>

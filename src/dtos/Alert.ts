@@ -1,12 +1,12 @@
 export default class Alert {
-  message: string;
+  messageKey: string;
   type: string;
 
   constructor(
-    message?: string,
+    messageKey?: string,
     type?: string,
   ) {
-    this.message = message || "";
+    this.messageKey = messageKey || "";
     this.type = type || "";
   }
 }

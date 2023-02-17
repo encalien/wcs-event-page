@@ -23,19 +23,20 @@ export default {
       const form = { participant: this.participant };
       const url = `${import.meta.env.VITE_APP_API_URL}/participants`;
 
+      console.log(form)
       axios.post(url, form)
         .then((res) => {
           this.formSubmitted = true;
           window.scrollTo(0,0);
           this.store.addAlert({
-            message: "Your registration has been submitted successfully.",
+            messageKey: "registrationSuccess",
             type: "success"
           })
         })
         .catch((error) => {
           window.scrollTo(0,0);
           this.store.addAlert({
-            message: "Oops! Something went wrong! Please try again later.",
+            messageKey: "registrationError",
             type: "error"
           })
           console.log("Error", error)

@@ -247,6 +247,10 @@ const en = {
     pageTitle: "Page not found",
     description: `We could not find the page you were looking for. Please make sure you have typed the correct URL or <a href="/">navigate back to home page<a>.`
   },
+  alert: {
+    registrationError: "Oops! Something went wrong! Please try again later.",
+    registrationSuccess: "Your registration has been submitted successfully."
+  },
   termsAndConditions: {
     pageTitle: "Terms and Conditions",
     healthAndSafety: {
