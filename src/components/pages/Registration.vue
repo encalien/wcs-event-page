@@ -59,8 +59,9 @@ export default {
   <section>
     <h1>{{ $t('registration.pageTitle') }}</h1>
     <!-- <p>{{ $t('event.tba') }}</p> -->
-
+    
     <form v-if="!formSubmitted" @submit="submitRegistration" method="post" id="registration-form">
+      <p>{{ $t('registration.requiredFieldsText') }}</p>
       <div v-for="field in fields" class="field">
         <!-- Text input -->
         <div v-if="['text', 'email'].includes(field.type)"

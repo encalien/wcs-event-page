@@ -225,6 +225,7 @@ const si = {
   registration: {
     pageTitle: "Registracija",
     opensSoonText: "Registracija se odpre kmalu.",
+    requiredFieldsText: "Polja, označena z zvezdico (*), so obvezna.",
     fields: {
       firstName: "Ime",
       lastName: "Priimek",

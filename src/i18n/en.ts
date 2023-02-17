@@ -224,6 +224,7 @@ const en = {
   registration: {
     pageTitle: "Registration",
     opensSoonText: "Registration opens soon.",
+    requiredFieldsText: "Fields marked with a star (*) are required.",
     fields: {
       firstName: "First name",
       lastName: "Last name",
