@@ -26,27 +26,33 @@ const en = {
       yt: [
         {
           name: "ASC 2022 Open Strictly Finals - Daniil Pavlov (RUS), Marina Motronenko (RUS) - 1st place",
-          src: "https://youtube.com/embed/BgOa8O8Icbk"
+          src: "https://img.youtube.com/vi/BgOa8O8Icbk/sddefault.jpg",
+          href: "https://youtube.com/watch?v=BgOa8O8Icbk"
         },
         {
           name: "Daniil Pavlov & Marina Motronenko. Teachers Show. Spring Fever 2022",
-          src: "https://youtube.com/embed/5ptwaPqY_I8"
+          src: "https://img.youtube.com/vi/5ptwaPqY_I8/sddefault.jpg",
+          href: "https://youtube.com/watch?v=5ptwaPqY_I8"
         },
         {
           name: 'Daniil Pavlov & Marina Motronenko "2step" - Strictly Open Finals - Finnfest 2022',
-          src: "https://youtube.com/embed/srdar3V3GIM"
+          src: "https://img.youtube.com/vi/srdar3V3GIM/sddefault.jpg",
+          href: "https://youtube.com/watch?v=srdar3V3GIM"
         },
         {
           name: "Daniil Pavlov & Ani Fuller - 1st place All-Stars Jack&Jill - Baltic Swing 2019",
-          src: "https://youtube.com/embed/j2rZNi7f_a4"
+          src: "https://img.youtube.com/vi/j2rZNi7f_a4/sddefault.jpg",
+          href: "https://youtube.com/watch?v=j2rZNi7f_a4"
         },
         {
           name: "Leo Lorenzo & Marina Motronenko - Strictly Open Finals - Budafest 2022",
-          src: "https://youtube.com/embed/tAYaLHBZVGI?t=19"
+          src: "https://img.youtube.com/vi/tAYaLHBZVGI/sddefault.jpg",
+          href: "https://youtube.com/watch?v=tAYaLHBZVGI?t=19"
         },
         {
           name: "ASC 2022 All-Stars JnJ Finals - Daniil Pavlov (RUS) - Eszter Moricz (HUN) - 1st place",
-          src: "https://youtube.com/embed/wuBOzILYxZo"
+          src: "https://img.youtube.com/vi/wuBOzILYxZo/sddefault.jpg",
+          href: "https://youtube.com/watch?v=wuBOzILYxZo"
         },
       ]
     }

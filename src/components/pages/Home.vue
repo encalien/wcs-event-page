@@ -25,13 +25,20 @@ export default {
     <h1>{{ $t('home.aboutWCS.title') }}</h1>
     <p v-for="(val, i) in messages.home.aboutWCS.description">{{ $t(`home.aboutWCS.description[${i}]`) }}</p>
     <div id="video-collage">
-      <iframe v-for="(val, i) in messages.home.aboutWCS.yt"
+      <a v-for="(val, i) in messages.home.aboutWCS.yt"
+         :href="$t(`home.aboutWCS.yt[${i}].href`)" 
+         target="_blank" 
+         rel="noopener noreferrer"
+         :class="`item-${i + 1}`">
+        <img :src="$t(`home.aboutWCS.yt[${i}].src`)" />
+      </a>
+      <!-- <iframe v-for="(val, i) in messages.home.aboutWCS.yt"
               :src="$t(`home.aboutWCS.yt[${i}].src`)" 
               :title="$t(`home.aboutWCS.yt[${i}].name`)" 
               frameborder="0" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen 
               :class="`item-${i + 1}`">
-      </iframe>
+      </iframe> -->
     </div>
   </section>
 </template>
@@ -65,9 +72,18 @@ export default {
     margin-top: 40px;
   }
 
-  #video-collage > iframe {
+  #video-collage > a {
+    display: flex;
     width: calc((100vw - 100px) / 3);
     height: calc(((100vw - 100px) / 3) * 0.56);
+    align-items: center;
+    overflow: hidden;
+  }
+
+  #video-collage > a > img {
+    width: 100%;
+    height: 135%;
+
   }
 
   #video-collage > .item-1 {
