@@ -9,6 +9,7 @@ import NotFound from "./components/pages/NotFound.vue";
 import Schedule from "./components/pages/Schedule.vue";
 import Registration from "./components/pages/Registration.vue";
 import Pricing from "./components/pages/Pricing.vue";
+import TermsAndConditions from "./components/pages/TermsAndConditions.vue";
 
 const routes: any = {
   '/': Home,
@@ -17,6 +18,7 @@ const routes: any = {
   '/pricing': Pricing,
   '/location': EventLocation,
   '/registration': Registration,
+  '/terms-and-conditions': TermsAndConditions
 }
 
 export default {
@@ -34,6 +36,7 @@ export default {
     Pricing,
     EventLocation,
     Registration,
+    TermsAndConditions,
     NotFound
   },
   computed: {
