@@ -16,7 +16,7 @@ export default {
     <div class="flex-container flex-gap">
       <div class="flex-item margin-0">
         <h2>{{ $t('workshops.staff.teachers.names') }}</h2>
-        <p v-for="i in [...Array(messages.workshops.staff.teachers.description.length).keys()]">
+        <p v-for="(val, i) in messages.workshops.staff.teachers.description">
           {{ $t(`workshops.staff.teachers.description[${i}]`) }}
         </p>
       </div>

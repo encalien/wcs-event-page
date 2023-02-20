@@ -33,11 +33,11 @@ export default {
   </section>
   <section>
     <h1>{{ $t('location.hotel.title') }}</h1>
-    <p v-for="i in [...Array(messages.location.hotel.suggestionsText.length).keys()]">
+    <p v-for="(val, i) in messages.location.hotel.suggestionsText">
       {{ $t(`location.hotel.suggestionsText[${i}]`) }}
     </p>
     <ul>
-      <li v-for="i in [...Array(messages.location.hotel.list.length).keys()]">
+      <li v-for="(val, i) in messages.location.hotel.list">
         <a :href="$t(`location.hotel.list[${i}].url`)">{{ $t(`location.hotel.list[${i}].name`) }}</a>
           - {{ $t(`location.hotel.list[${i}].distance`) }}
       </li>

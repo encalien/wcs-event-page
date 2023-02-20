@@ -13,17 +13,17 @@ export default {
 <template>
   <section>
     <h1>{{ $t('workshops.pricing.pageTitle') }}</h1>
-    <p v-for="i in [...Array(messages.workshops.pricing.description.length).keys()]">
+    <p v-for="(val, i) in messages.workshops.pricing.description">
       {{ $t(`workshops.pricing.description[${i}]`) }}
     </p>
 
     <div id="passes" class="flex-container">
-      <div v-for="i in [...Array(messages.workshops.pricing.passes.length).keys()]" class="pass" :class="`bg-${i+1}`">
+      <div v-for="(val, i) in messages.workshops.pricing.passes" class="pass" :class="`bg-${i + 1}`">
         <div class="num-passes-left-band">{{ $t('workshops.pricing.priceTier') }}</div>
         <h3>{{ $t(`workshops.pricing.passes[${i}].title`) }}</h3>
         <hr>
         <ul>
-          <li v-for="j in [...Array(messages.workshops.pricing.passes[i].includes.length).keys()]">
+          <li v-for="(val, j) in messages.workshops.pricing.passes[i].includes">
             {{ $t(`workshops.pricing.passes[${i}].includes[${j}]`) }}
           </li>
         </ul>
