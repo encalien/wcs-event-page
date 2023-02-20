@@ -16,9 +16,9 @@ export default {
     <p>{{ $t('workshops.schedule.description') }}</p>
 
     <div id="schedule-table" class="grid-container">
-      <div v-for="i in [...Array(messages.workshops.schedule.days.length).keys()]" class="grid-container grid-gap">
+      <div v-for="(val, i) in messages.workshops.schedule.days" class="grid-container grid-gap">
         <h3 class="grid-row">{{ $t(`workshops.schedule.days[${i}].title`) }}</h3>
-        <div v-for="j in [...Array(messages.workshops.schedule.days[i].items.length).keys()]" class="grid-row grid-container">
+        <div v-for="(val, j) in messages.workshops.schedule.days[i].items" class="grid-row grid-container">
           <div class="grid-row mobile-small">{{ $t(`workshops.schedule.days[${i}].items[${j}].time`) }}</div>
           <div class="grid-row" :class="$t(`workshops.schedule.days[${i}].items[${j}].class`)">
             {{ $t(`workshops.schedule.days[${i}].items[${j}].topic`) }}<br>
@@ -32,7 +32,7 @@ export default {
   </section>  
   <section>
     <h1>{{ $t('workshops.level.title') }}</h1>
-    <p v-for="i in [...Array(messages.workshops.level.descriptionText.length).keys()]">
+    <p v-for="(val, i) in messages.workshops.level.descriptionText">
       {{ $t(`workshops.level.descriptionText[${i}]`) }}
     </p>
   </section>

@@ -23,9 +23,9 @@ export default {
   </section>
   <section>
     <h1>{{ $t('home.aboutWCS.title') }}</h1>
-    <p v-for="i in [...Array(messages.home.aboutWCS.description.length).keys()]">{{ $t(`home.aboutWCS.description[${i}]`) }}</p>
+    <p v-for="(val, i) in messages.home.aboutWCS.description">{{ $t(`home.aboutWCS.description[${i}]`) }}</p>
     <div id="video-collage">
-      <iframe v-for="i in [...Array(messages.home.aboutWCS.yt.length).keys()]"
+      <iframe v-for="(val, i) in messages.home.aboutWCS.yt"
               :src="$t(`home.aboutWCS.yt[${i}].src`)" 
               :title="$t(`home.aboutWCS.yt[${i}].name`)" 
               frameborder="0" 
