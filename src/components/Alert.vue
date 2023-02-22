@@ -12,7 +12,10 @@ export default {
 
 <template>
     <div id="alert" v-if="store.alert.messageKey" :class="store.alert.type">
-      {{ $t(`alert.${store.alert.messageKey}`) }}
+      <p>
+        {{ $t(`alerts.${store.alert.messageKey}`) }}
+      </p>
+      <p v-html="$t('alerts.tryAgain')" v-if="store.alert.type === 'error'"></p>
       <div id="close-alert" @click="store.clearAlert()">
         <font-awesome-icon icon="fa-solid fa-xmark" />
       </div>
@@ -21,10 +24,14 @@ export default {
 
 <style scoped>
   #alert {
-    padding: 1.5rem 0 1.5rem 1.5rem;
+    padding: 1.5rem;
     margin: 1rem auto;
     line-height: 1rem;
     color: var(--black-soft);
+  }
+
+  #alert > p:nth-last-child(2) {
+    margin-bottom: 0;
   }
 
   #close-alert {

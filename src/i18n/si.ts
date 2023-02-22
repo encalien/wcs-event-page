@@ -249,9 +249,20 @@ const si = {
     pageTitle: "Stran ne obstaja",
     description: `Strani, ki jo iščeš, nismo mogli prikazati. Preveri, da je URL pravilno vpisan, ali se <a href="/">vrni na prvo stran</a>.`
   },
-  alert: {
-    registrationError: "Prišlo je do napake. Prosim preveri pravilnost podatkov in poskusi znova.",
-    registrationSuccess: "Prijava uspešno poslana."
+  alerts: {
+    registrationError: "Prijava ni uspela.",
+    registrationSuccess: "Prijava uspešno poslana.",
+    tryAgain: `Prosimo, preveri pravilnost podatkov in poskusi znova. Če se težava nadaljuje, nam piši na <a href="mailto:info{'@'}westcoastspring.dance">info{'@'}westcoastspring.dance</a>.`
+  },
+  errors: {
+    email: {
+      taken: "Registracija s tem email naslovom že obstaja."
+    },
+    partnerEmail: {
+      taken: "Ta oseba je že prijavljena z drugim parom.",
+      role: "Ta oseba mora imeti nasprotno plesno vlogo.",
+      pass: "Ta oseba mora biti prijavljena na isti paket."
+    }
   },
   termsAndConditions: {
     pageTitle: "Pravila in pogoji sodelovanja",

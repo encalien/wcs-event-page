@@ -248,9 +248,20 @@ const en = {
     pageTitle: "Page not found",
     description: `We could not find the page you were looking for. Please make sure you have typed the correct URL or <a href="/">navigate back to home page<a>.`
   },
-  alert: {
-    registrationError: "Oops! Something went wrong! Please try again later.",
-    registrationSuccess: "Your registration has been submitted successfully."
+  alerts: {
+    registrationError: "Registration not submitted.",
+    registrationSuccess: "Your registration has been submitted successfully.",
+    tryAgain: `Please check your details and try again. Email us at <a href="mailto:info{'@'}westcoastspring.dance">info{'@'}westcoastspring.dance</a> if the issue persists.`
+  },
+  errors: {
+    email: {
+      taken: "We already have a registration under this email."
+    },
+    partnerEmail: {
+      taken: "The person whose email you entered as a partner, already has a partner.",
+      role: "The person whose email you entered as a partner, is signed up with same role.",
+      pass: "The person whose email you entered as a partner, is signed up for a different pass."
+    }
   },
   termsAndConditions: {
     pageTitle: "Terms and Conditions",

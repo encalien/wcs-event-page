@@ -12,7 +12,6 @@ export default {
       fields: fields as Field[],
       participant: new Participant(),
       formSubmitted: false,
-      invalidFields: [] as string[],
       store
     }
   },
@@ -26,20 +25,29 @@ export default {
       console.log(form)
       axios.post(url, form)
         .then((res) => {
+          window.scrollTo(0, 0);
+
           this.formSubmitted = true;
-          window.scrollTo(0,0);
+
           this.store.addAlert({
             messageKey: "registrationSuccess",
             type: "success"
           })
         })
         .catch((error) => {
-          window.scrollTo(0,0);
+          window.scrollTo(0, 0);
+
+          const errData = error.response.data;
+          this.fields.forEach(field => {
+            const fieldErrorsKey = Object.keys(errData).find((key: string) => field.id.startsWith(key));
+            if (!fieldErrorsKey) return;
+            field.errors = errData[fieldErrorsKey];
+          })
+
           this.store.addAlert({
             messageKey: "registrationError",
             type: "error"
           })
-          console.log("Error", error)
         })
     },
     toTitleCase: function (string: string): string {
@@ -77,7 +85,12 @@ export default {
                    v-model="participant[field.id]"
                    :required="field.validations.required"
                    class="input-field"
-                   :class="{ 'input-field-invalid': invalidFields.includes(field.id) }">
+                   :class="{ 'input-field-invalid': field.errors?.length }">
+            <div class="field-error-detail" v-if="field.errors?.length">
+              <div v-for="errorKey in field.errors">
+                {{ $t(`errors.${field.id}.${errorKey}`) }}
+              </div>
+            </div>
           </div>
         </div>
         <!-- Radio input -->
@@ -158,7 +171,9 @@ export default {
   .input-field-text {
     display: flex;
     height: 100%;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .input-field-selectable {
@@ -166,6 +181,15 @@ export default {
     gap: 0.5rem;
   }
 
+  .input-field-invalid {
+    border: 2px solid red;
+    background-color: var(--error);
+  }
+
+  .field-error-detail {
+    font-size: small;
+    color: red;
+  }
   .red {
     color: red;
   }

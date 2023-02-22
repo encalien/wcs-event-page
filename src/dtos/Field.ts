@@ -8,4 +8,5 @@ export default interface Field {
   options?: string[];
   validations: validations;
   showInfoText?: boolean;
+  errors?: string[]
 }
