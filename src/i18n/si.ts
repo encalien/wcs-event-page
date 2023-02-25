@@ -224,7 +224,9 @@ const si = {
   },
   registration: {
     pageTitle: "Registracija",
-    opensSoonText: "Registracija se odpre kmalu."
+    opensSoonText: "Registracija se odpre kmalu.",
+    registrationInfoText: 'Pred prijavo preberi <a href="#/terms-and-conditions">Pravila in pogoje sodelovanja</a>.',
+    loading: "Nalaganje obrazca..."
   },
   notFound: {
     pageTitle: "Stran ne obstaja",

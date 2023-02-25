@@ -223,7 +223,9 @@ const en = {
   },
   registration: {
     pageTitle: "Registration",
-    opensSoonText: "Registration opens soon."
+    opensSoonText: "Registration opens soon.",
+    registrationInfoText: 'Please read the following <a href="#/terms-and-conditions">Terms and Conditions</a> before registering.',
+    loading: "Loading Registration form..."
   },
   notFound: {
     pageTitle: "Page not found",
