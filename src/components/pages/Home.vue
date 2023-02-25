@@ -136,7 +136,7 @@ export default {
       flex-direction: column;
     }
 
-    #video-collage > iframe {
+    #video-collage > a {
       width: 100% !important;
       height: fit-content !important;
     }
