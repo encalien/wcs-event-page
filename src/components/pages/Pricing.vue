@@ -19,7 +19,7 @@ export default {
 
     <div id="passes" class="flex-container">
       <div v-for="(val, i) in messages.workshops.pricing.passes" class="pass" :class="`bg-${i + 1}`">
-        <div class="num-passes-left-band">{{ $t('workshops.pricing.priceTier') }}</div>
+        <div class="price-tier-band">{{ $t('workshops.pricing.priceTier') }}</div>
         <h3>{{ $t(`workshops.pricing.passes[${i}].title`) }}</h3>
         <hr>
         <ul>
@@ -77,12 +77,12 @@ export default {
     background-color: var(--accent-3);
   }
 
-  .num-passes-left-band {
+  .price-tier-band {
     background-color: var(--color-background-alt);
     color: var(--color-text-alt);
     position: absolute;
-    top: 1rem;
-    right: -3rem;
+    top: 1.2rem;
+    right: -2.7rem;
     width: 10rem;
     transform: rotate(45deg);
     padding: 0.5rem;
