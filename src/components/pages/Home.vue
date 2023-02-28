@@ -12,13 +12,13 @@ export default {
 
 <template>
   <section id="landing">
-    <img src="/src/assets/images/website_landing_narrow.svg" alt="banner" id="banner">
+    <img src="/src/assets/images/website_landing_narrow.png" alt="banner" id="banner">
     <div class="landing-content">
       <!-- <h1>{{ $t('event.name') }}</h1>
       <h2>{{ $t('event.location') }}</h2>
       <h2>{{ $t('event.date') }}</h2> -->
-      <h2 class="margin-0">{{ $t('event.welcomeText') }}<br>{{ $t('registration.opensSoonText') }}</h2>
-      <!-- <a href="#/registration" class="btn btn-primary">{{ $t('registration.pageTitle') }}</a> -->
+      <h2 class="margin-0">{{ $t('event.welcomeText') }}</h2>
+      <a href="#/registration" class="btn btn-primary">{{ $t('registration.pageTitle') }}</a>
     </div>
   </section>
   <section>
@@ -120,7 +120,7 @@ export default {
 
   @media screen and (max-width: 650px) {
     #banner {
-      content: url('/src/assets/images/website_landing_square.svg');
+      content: url('/src/assets/images/website_landing_square.png');
     }
 
     #landing {
@@ -136,7 +136,7 @@ export default {
       flex-direction: column;
     }
 
-    #video-collage > iframe {
+    #video-collage > a {
       width: 100% !important;
       height: fit-content !important;
     }

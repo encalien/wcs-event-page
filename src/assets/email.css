@@ -1,0 +1,54 @@
+@import './main.css';
+body {
+  width: 100vw;
+}
+
+main {
+  margin: 3rem 2rem;
+  padding: 2rem
+}
+
+header > img {
+  width: 100%;
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+
+.main-container {
+  border: 2px solid var(--color-background-alt);
+  width: 100%;
+}
+
+.language-columns {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.column {
+  padding: 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  border: 1px solid var(--color-background-alt);
+}
+
+th {
+  background-color: var(--color-background-alt);
+  color: var(--color-text-alt);
+}
+
+th, td {
+  font-weight: bold;
+  padding: 0.5rem;
+  text-align: left;
+}
