@@ -149,13 +149,13 @@ const en = {
       pageTitle: "Pricing",
       description: [
         "For this event we will have 3 price tiers.",
-        "Early bird price will be offered to first 10 participants (regardless of pass type), normal bird price to the next 10 participants, and late bird price for everyone else. With every tier the price will rise for 10 euros."
+        "Early bird price will be offered to first 10 participants (regardless of pass type), normal bird price to the next 10 participants, and late bird price for everyone else. With every tier the workshop price will rise for 10 euros and the party pass price for 5 euros."
       ],
-      priceTier: "Early Bird",
+      priceTier: "Normal Bird",
       passes: [
         {
           title: "Full Pass",
-          price: "60 euros",
+          price: "70 euros",
           includes: [
             "5 hours of workshops",
             "entrance fee to both parties"
@@ -163,7 +163,7 @@ const en = {
         },
         {
           title: "Saturday Pass",
-          price: "40 euros",
+          price: "50 euros",
           includes: [
             "3 hours of workshops on Saturday",
             "entrance fee to Saturday party"
@@ -171,7 +171,7 @@ const en = {
         },
         {
           title: "Party Pass",
-          price: "15 euros",
+          price: "20 euros",
           includes: [
             "entrance fee to both parties"
           ]
