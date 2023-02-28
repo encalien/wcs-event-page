@@ -81,7 +81,7 @@ const si = {
       description: "Program je okviren in se lahko še spremeni.",
       days: [
         {
-          title: "Petek, 7. maj",
+          title: "Petek, 5. maj",
           items: [
             {
               time: "20.00 - 01.00",
@@ -92,7 +92,7 @@ const si = {
           ]
         },
         {
-          title: "Sobota, 8. maj",
+          title: "Sobota, 6. maj",
           items: [
             {
               time: "12.00 - 13.00",
@@ -127,7 +127,7 @@ const si = {
           ]
         },
         {
-          title: "Nedelja, 9. maj",
+          title: "Nedelja, 7. maj",
           items: [
             {
               time: "12.00 - 13.00",
