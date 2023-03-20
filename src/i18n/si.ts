@@ -149,13 +149,13 @@ const si = {
       pageTitle: "Cenik",
       description: [
         "Na tem dogodku bodo vstopnice na voljo v treh cenovnih razredih.",
-        "Najnižja cena velja za prvih 10 prijavljenih (ne glede na vrsto vstopnice), srednja za naslednjih 10 in najvišja za vse ostale. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr, cena večernega paketa pa za 5 evr."
+        "Najnižja cena velja za prvih 10 prijavljenih (ne glede na vrsto vstopnice), srednja za naslednjih 20 in najvišja za vse ostale. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr, cena večernega paketa pa za 5 evr."
       ],
       priceTier: "Srednja cena",
       passes: [
         {
           title: "Vikend paket",
-          price: "70 evr",
+          price: "80 evr",
           includes: [
             "5 ur delavnic",
             "vstopnina za obe zabavi"
@@ -163,7 +163,7 @@ const si = {
         },
         {
           title: "Sobotni paket",
-          price: "50 evr",
+          price: "60 evr",
           includes: [
             "3 ure delavnic v soboto",
             "vstopnina za sobotno zabavo"
@@ -171,7 +171,7 @@ const si = {
         },
         {
           title: "Večerni paket",
-          price: "20 evr",
+          price: "25 evr",
           includes: [
             "vstopnina za obe zabavi"
           ]
