@@ -84,7 +84,13 @@ const en = {
           title: "Friday, May 5",
           items: [
             {
-              time: "20.00 - 01.00",
+              time: "20.00 - 21.00",
+              topic: "Back to Basics with Aleksandra",
+              description: "Included in all passes.",
+              class: "class"
+            },
+            {
+              time: "21.00 - 01.00",
               topic: "Party",
               description: "Entrance fee included in Full pass or Party pass.",
               class: "party"

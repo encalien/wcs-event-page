@@ -84,6 +84,12 @@ const si = {
           title: "Petek, 5. maj",
           items: [
             {
+              time: "20.00 - 21.00",
+              topic: "Back to Basics z Aleksandro",
+              description: "Vključen v ceno vseh vstopnic.",
+              class: "class"
+            },
+            {
               time: "20.00 - 01.00",
               topic: "Zabava",
               description: "Vstopnina vključena v ceno vstopnice Vikend paket ali Večerni paket",
