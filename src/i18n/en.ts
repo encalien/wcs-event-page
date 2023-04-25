@@ -86,7 +86,7 @@ const en = {
             {
               time: "20.00 - 21.00",
               topic: "Back to Basics with Aleksandra",
-              description: "Included in all passes.",
+              description: "Included in all passes and Friday party entrance fee.",
               class: "class"
             },
             {
