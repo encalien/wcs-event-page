@@ -14,7 +14,7 @@ export default {
   <section>
     <h1>{{ $t('termsAndConditions.pageTitle') }}</h1>
     <template v-for="(content, topic) in messages.termsAndConditions">
-      <div class="topic" v-if="topic !== 'pageTitle'">
+      <div class="topic" v-if="`${topic}` !== 'pageTitle'">
         <h3>{{ $t(`termsAndConditions.${topic}.title`) }}</h3>
         <div v-for="(paragraph, paragraphIndex) in content.infoText">
           <p :class="{ 'margin-0': paragraph.list}">{{ $t(`termsAndConditions.${topic}.infoText[${paragraphIndex}].value`) }}</p>
