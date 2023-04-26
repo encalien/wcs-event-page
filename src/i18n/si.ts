@@ -84,9 +84,15 @@ const si = {
           title: "Petek, 5. maj",
           items: [
             {
+              time: "20.00 - 21.00",
+              topic: "Back to Basics z Aleksandro",
+              description: "Vstopnina vključena v ceno vseh paketov in vstopnino petkove zabave.",
+              class: "class"
+            },
+            {
               time: "20.00 - 01.00",
               topic: "Zabava",
-              description: "Vstopnina vključena v ceno vstopnice Vikend paket ali Večerni paket",
+              description: "Vstopnina vključena v ceno vstopnice Vikend paket ali Večerni paket.",
               class: "party"
             }
           ]
@@ -140,6 +146,12 @@ const si = {
               topic: "Delavnica",
               description: "",
               class: "class"
+            },
+            {
+              time: "14:30 - 16:00",
+              topic: "Westie kosilo",
+              description: "",
+              class: "break"
             }
           ]
         }

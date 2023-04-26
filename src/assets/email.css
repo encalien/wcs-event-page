@@ -81,3 +81,11 @@ hr {
   background-color: #211E52;
   color: #f8f8f8;
 }
+
+.topic {
+  margin: 2rem auto;
+}
+
+.topic > h2 {
+  text-align: center;
+}
