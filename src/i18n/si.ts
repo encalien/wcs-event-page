@@ -146,6 +146,12 @@ const si = {
               topic: "Delavnica",
               description: "",
               class: "class"
+            },
+            {
+              time: "14:30 - 16:00",
+              topic: "Westie kosilo",
+              description: "",
+              class: "break"
             }
           ]
         }

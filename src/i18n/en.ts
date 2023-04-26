@@ -86,7 +86,7 @@ const en = {
             {
               time: "20.00 - 21.00",
               topic: "Back to Basics with Aleksandra",
-              description: "Included in all passes and Friday party entrance fee.",
+              description: "Included in Full pass or Party pass, as well as Friday party entrance fee.",
               class: "class"
             },
             {
@@ -146,6 +146,12 @@ const en = {
               topic: "Class",
               description: "",
               class: "class"
+            },
+            {
+              time: "14:30 - 16:00",
+              topic: "Westie Lunch",
+              description: "",
+              class: "break"
             }
           ]
         }
