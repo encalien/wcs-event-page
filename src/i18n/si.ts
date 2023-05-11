@@ -171,7 +171,7 @@ const si = {
       pageTitle: "Cenik",
       description: [
         "Na tem dogodku bodo vstopnice na voljo v treh cenovnih razredih.",
-        "Najnižja cena velja za prijave prejete do 30. junija,srednja za prijave prejete med 1. julijem in 30. septembrom in zadnja cena za prijave prejete po 1. oktobru. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr."
+        "Najnižja cena velja za prijave prejete do 30. junija, srednja za prijave prejete med 1. julijem in 30. septembrom in zadnja cena za prijave prejete po 1. oktobru. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr."
       ],
       priceTier: "Prva cena",
       passes: [
