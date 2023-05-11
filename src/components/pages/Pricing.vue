@@ -37,6 +37,8 @@ export default {
   #passes {
     justify-content: space-between;
     gap: 2rem;
+    width: 70%;
+    margin: 2rem auto;
   }
 
   .pass {
