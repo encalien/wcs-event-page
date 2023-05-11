@@ -81,7 +81,7 @@ hr {
 }
 
 .flex-item {
-  flex: 1 1 100%;
+  flex: 1 1 auto;
   padding: 1rem;
 }
 
