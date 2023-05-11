@@ -8,17 +8,18 @@
   --black-soft: #222222;
   --black-mute: #282828;
 
-  --accent-1: #FF66C4;
-  --accent-2: #FFDE59;
-  --accent-3: #5CE1E6;
-  --accent-4: #8952FF;
-
   --accent-1-disabled: hsl(323, 100%, 10%, 50%);
-
-  --dark-1: #211E52;
-  --dark-2: #2D2872;
-
-  --light: #C6C5CD;
+  
+  --dark-1: #B14C31;
+  --dark-2: #BD8766;
+  
+  --light: #fed8bc;
+  --light-2: #FAB885;
+  
+  --accent-1: var(--light);
+  --accent-2: var(--dark-2);
+  --accent-3: var(--light-2);
+  --accent-4: var(--dark-1);
 }
 
 /* semantic color variables for this project */
