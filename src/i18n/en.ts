@@ -1,17 +1,17 @@
 const en = {
   event: {
-    name: "West Coast SPRING",
+    name: "Fall Focus WCS",
     location: "Ljubljana",
-    date: "5 - 7 May 2023",
+    date: "24 - 26 November 2023",
     welcomeText: "Join the fun!",
     tba: "To be announced."
   },
   contact: {
     text: "If you have any questions, please contact us via email:",
-    email: "info{'@'}westcoastspring.dance"
+    email: "info{'@'}wcs.si"
   },
   urls: {
-    facebook: "https://www.facebook.com/events/892661502160068",
+    facebook: "#",
     instagram: ""
   },
   home: {
@@ -62,18 +62,22 @@ const en = {
     staff: {
       pageTitle: "Teachers",
       teachers: {
-        names: "Daniel & Marina",
+        names: "Tschen & Louisa",
         description: [
-          "Both Marina and Daniel have over a decade of experience teaching dance, but only recently have they began to travel and teach together. Combining different approaches, Marina's charismatic style and Daniel's structured methodology, they aim to create wholesome classes that reach all kinds of students.",
-          "They love west coast swing for its freedom and inclusivity that allows such different dancers to be able to create together and hope to share their passion with you."
+          "Tschen found his way into dancing when he was 16 years old. Since then, it played a major part in his life.",
+          "He started with ballroom dancing, first, as a hobby, later, professional. He was a part of a latin formation dance club in the northern parts of Germany for 5 years before he met West Coast Swing. Since then, everything else was just a dance, but West Coast Swing was his passion. He visited a lot of events, took privates with champions like Ben Morris, PJ Turner, Brandi Guild, Robert Royston, Cameo McHenry and many more.",
+          "The wide variety of music, patterns, stylings, footworks, teamwork, musicality and freedom is what makes Tschen love WCS. He is constantly trying to get better and share his knowledge within his community in Erding, Germany, where he is currently teaching and living.",
+          "During events, he also Djays, judges and competes in the all-star division.",
         ]
       }
     },
     level: {
       title: "Level",
       descriptionText: [
-        "Workshops will be held on an improver-intermediate level. They will not be appropriate for complete beginners. Participants should already know the basic patterns (sugar push, side pass, whip) and be aware of basic lead-follow concepts.",
-        "The level of workshops will progress over the weekend, starting from improver level on Saturday towards intermediate level on Sunday."
+        "Workshops will be held on an improver-intermediate level. The level of workshops will progress over the weekend, starting from beginner Back to Basics class on Friday, towards improver level on Saturday and finish with intermediate level on Sunday.",
+        "Back to Basics class will be a fast paces introduction to basic rhythms, patterns and concepts. It's intended for dancers who are new to west coast swing.",
+        "Improver level is intended for dancers who are familiar with the basic patterns (push, pass, whip, starter), rhythms and lead-follow concepts.",
+        "Intermediate level will be a continuation of the improver level, with more complex patterns and concepts.",
       ]
     },
     schedule: {
@@ -81,24 +85,24 @@ const en = {
       description: "This is a preliminary schedule and is subject to change.",
       days: [
         {
-          title: "Friday, May 5",
+          title: "Friday, November 24",
           items: [
             {
               time: "20.00 - 21.00",
-              topic: "Back to Basics with Aleksandra",
-              description: "Included in Full pass or Party pass, as well as Friday party entrance fee.",
+              topic: "Back to Basics",
+              description: "Included in Full pass, as well as Friday party entrance fee.",
               class: "class"
             },
             {
-              time: "21.00 - 01.00",
+              time: "21.00 - 02.00",
               topic: "Party",
-              description: "Entrance fee included in Full pass or Party pass.",
+              description: "Entrance fee included in Full pass.",
               class: "party"
             }
           ]
         },
         {
-          title: "Saturday, May 6",
+          title: "Saturday, November 25",
           items: [
             {
               time: "12.00 - 13.00",
@@ -125,15 +129,21 @@ const en = {
               class: "class"
             },
             {
+              time: "16.45 - 17.45",
+              topic: "Class",
+              description: "",
+              class: "class"
+            },
+            {
               time: "20.00 - 03.00",
               topic: "Party",
-              description: "Entrance fee included in all passes.",
+              description: "Entrance free.",
               class: "party"
             }
           ]
         },
         {
-          title: "Sunday, May 7",
+          title: "Sunday, November 26",
           items: [
             {
               time: "12.00 - 13.00",
@@ -161,33 +171,26 @@ const en = {
       pageTitle: "Pricing",
       description: [
         "For this event we will have 3 price tiers.",
-        "Early bird price will be offered to first 10 participants (regardless of pass type), normal bird price to the next 20 participants, and late bird price for everyone else. With every tier the workshop price will rise for 10 euros and the party pass price for 5 euros."
+        "Early bird price until June 30, normal bird price between July 1 and September 30, and late bird price from October 1. With every tier the workshop price will rise by 10 euros."
       ],
-      priceTier: "Late Bird",
+      priceTier: "Early Bird",
       passes: [
         {
           title: "Full Pass",
-          price: "80 euros",
+          price: "60 euros",
           includes: [
-            "5 hours of workshops",
-            "entrance fee to both parties"
+            "7 hours of workshops",
+            "entrance to both parties"
           ]
         },
         {
           title: "Saturday Pass",
-          price: "60 euros",
+          price: "40 euros",
           includes: [
-            "3 hours of workshops on Saturday",
-            "entrance fee to Saturday party"
+            "4 hours of workshops on Saturday",
+            "entrance to Saturday party"
           ]
-        },
-        {
-          title: "Party Pass",
-          price: "25 euros",
-          includes: [
-            "entrance fee to both parties"
-          ]
-        },
+        }
       ]
     }
   },
@@ -278,9 +281,9 @@ const en = {
         {
           value: "In case of cancellation by the participant, we shall offer a payment refund in the following tiers:",
           list: [
-            "For cancellation requests received up to and including 19 March 2023, the received payment will be refunded fully.",
-            "For cancellation requests received between 20 March up to and including 2 April 2023, the received payment will be refunded partially - 50% of received payment.",
-            "For cancellation requests received on April 3 2023 or later, the received payment will not be refunded.",
+            "For cancellation requests received during the Early Bird price range, the received payment will be refunded fully.",
+            "For cancellation requests received during the Normal Bird price range, the received payment will be refunded partially - 50% of received payment.",
+            "For cancellation requests received during the Late Bird price range, the received payment will not be refunded.",
           ]
         },
         {

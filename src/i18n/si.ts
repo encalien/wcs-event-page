@@ -1,17 +1,17 @@
 const si = {
   event: {
-    name: "West Coast SPRING",
+    name: "Fall Focus WCS",
     location: "Ljubljana",
-    date: "5. - 7. maj 2023",
+    date: "24. - 26. november 2023",
     welcomeText: "Pridruži se!",
     tba: "Več informacij kmalu."
   },
   contact: {
     text: "Za vsa vprašanja smo na voljo preko elektronske pošte:",
-    email: "info{'@'}westcoastspring.dance"
+    email: "info{'@'}wcs.si"
   },
   urls: {
-    facebook: "https://www.facebook.com/events/892661502160068",
+    facebook: "#",
     instagram: ""
   },
   home: {
@@ -62,18 +62,22 @@ const si = {
     staff: {
       pageTitle: "Učitelja",
       teachers: {
-        names: "Daniel in Marina",
+        names: "Tschen in Louisa",
         description: [
-          "Marina in Daniel imata oba za sabo že več kot 10 let profesionalnega poučevanja plesa, a sta šele pred kratkim začela poučevati in potovati skupaj. Vsak s svojim pristopom, Marina s svojim karizmatičnim stilom in Daniel s strukturirano metodologijo, ustvarjata edinstvne tečaje, ki bodo pisani na kožo mnogim učencem.",
-          "West coast swing imata rada zaradi svobode, ki jo dopušča, in inkluzivnosti, zaradi katere lahko raznoliki plesalci skupaj ustvarjajo. Upata, da lahko svojo strast do plesa delita tudi s tabo."
+          "Tschen pleše že od svojega 16. leta. Od takrat ples igra pomembno vlogo v njegovem življenju.",
+          "Začel je z družabnimi plesi, najprej kot hobi, nato pa profesionalno. Bil je član kluba za latino formacijo na severu Nemčije pet let, preden je spoznal West Coast Swing. Od takrat je vse ostalo samo ples, West Coast Swing pa je postal njegova strast. Obiskal je veliko dogodkov in imel privatne ure s svetovnimi prvaki, kot so Ben Morris, PJ Turner, Brandi Guild, Robert Royston, Cameo McHenry in mnogi drugi.",
+          "Tschena pri WCS najbolj navdušujejo: raznolika glasba, figure, stil, koraki, komunikacija med partnerjema, muzikalnost in svoboda. Stalno stremi k napredku in deli svoje znanje v svoji skupnosti v mestu Erding v Nemčiji, kjer trenutno poučuje in živi.",
+          "Na dogodkih vrti glasbo, ocenjuje na tekmovanjih in tudi sam tekmuje v kategoriji all-star.",
         ]
       }
     },
     level: {
       title: "Zahtevnostna stopnja",
       descriptionText: [
-        "Delavnice bodo potekale na naprednem - nadaljevalnem nivoju. Vsebina ne bo primerna za popolne začetnike, udeleženci morajo poznati vsaj osnovne figure (sugar push, side pass, whip) in biti seznanjeni z osnovnimi koncepti vodenja in sledenja.",
-        "Tekom vikenda bo težavnost delavnic progresivno naraščala, delavnice v nedeljo bodo potekale torej na višjem nivoju kot delavnice v soboto."
+        "Delavnice bodo potekale na nadaljevalno - naprednem nivoju. Nivo delavnic se bo postopoma dvigoval čez vikend. Začeli bomo z začetniško delavnico Back to Basics v petek, nadaljevali z nadaljevalnim nivojem v soboto ter zaključil z naprednim nivojem v nedeljo.",
+        "Na Back to Basics delavnici bomo s pospešenim tempom predelali osnovne ritme, figure in koncepte. Namenjen je plesalcem_kam, ki se z west coast swingom srečujejo prvič.",
+        "Nadaljevalni nivo je namenjen tistim, ki že poznajo osnovne figure (push, pass, whip, starter), ritme ter koncepte vodenja in sledenja.",
+        "Napredni nivo bo nadgradnja nadaljevalnega nivoja, vključeval pa bo bolj kompleksne figure in koncepte."
       ]
     },
     schedule: {
@@ -81,24 +85,24 @@ const si = {
       description: "Program je okviren in se lahko še spremeni.",
       days: [
         {
-          title: "Petek, 5. maj",
+          title: "Petek, 24. november",
           items: [
             {
               time: "20.00 - 21.00",
-              topic: "Back to Basics z Aleksandro",
-              description: "Vstopnina vključena v ceno vseh paketov in vstopnino petkove zabave.",
+              topic: "Back to Basics",
+              description: "Vstopnina vključena v ceno vstopnice Vikend paket in vstopnino petkove zabave.",
               class: "class"
             },
             {
-              time: "20.00 - 01.00",
+              time: "21.00 - 02.00",
               topic: "Zabava",
-              description: "Vstopnina vključena v ceno vstopnice Vikend paket ali Večerni paket.",
+              description: "Vstopnina vključena v ceno vstopnice Vikend paket.",
               class: "party"
             }
           ]
         },
         {
-          title: "Sobota, 6. maj",
+          title: "Sobota, 25. november",
           items: [
             {
               time: "12.00 - 13.00",
@@ -125,15 +129,21 @@ const si = {
               class: "class"
             },
             {
+              time: "16.45 - 17.45",
+              topic: "Delavnica",
+              description: "",
+              class: "class"
+            },
+            {
               time: "20.00 - 03.00",
               topic: "Zabava",
-              description: "Vstopnina vključena v ceno vseh paketov.",
+              description: "Vstop prost.",
               class: "party"
             }
           ]
         },
         {
-          title: "Nedelja, 7. maj",
+          title: "Nedelja, 26. november",
           items: [
             {
               time: "12.00 - 13.00",
@@ -161,31 +171,24 @@ const si = {
       pageTitle: "Cenik",
       description: [
         "Na tem dogodku bodo vstopnice na voljo v treh cenovnih razredih.",
-        "Najnižja cena velja za prvih 10 prijavljenih (ne glede na vrsto vstopnice), srednja za naslednjih 20 in najvišja za vse ostale. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr, cena večernega paketa pa za 5 evr."
+        "Najnižja cena velja za prijave prejete do 30. junija,srednja za prijave prejete med 1. julijem in 30. septembrom in zadnja cena za prijave prejete po 1. oktobru. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr."
       ],
-      priceTier: "Zadnja cena",
+      priceTier: "Prva cena",
       passes: [
         {
           title: "Vikend paket",
-          price: "80 evr",
+          price: "60 evr",
           includes: [
-            "5 ur delavnic",
-            "vstopnina za obe zabavi"
+            "7 ur delavnic",
+            "vstop na obe zabavi"
           ]
         },
         {
           title: "Sobotni paket",
-          price: "60 evr",
+          price: "40 evr",
           includes: [
-            "3 ure delavnic v soboto",
-            "vstopnina za sobotno zabavo"
-          ]
-        },
-        {
-          title: "Večerni paket",
-          price: "25 evr",
-          includes: [
-            "vstopnina za obe zabavi"
+            "4 ure delavnic v soboto",
+            "vstop na sobotno zabavo"
           ]
         },
       ]
@@ -279,9 +282,9 @@ const si = {
         {
           value: "V primeru odpovedi s strani udeleženca, bomo ponudili vračilo kupnine v naslednjih stopnjah:",
           list: [
-            "Za zahtevke za odpoved, prejete do vključno 19. marca 2023, bo kupnina v celoti povrnjena.",
-            "Za zahtevke za odpoved, prejete med 20. marcem do vključno 2. aprila 2023, bo kupnina delno povrnjena - 50% prejetega plačila.",
-            "Za zahtevke za odpoved, prejete 3. aprila 2023 ali pozneje, kupnina ne bo povrnjena.",
+            "Za zahtevke za odpoved, prejete v času 'prve cene', bo kupnina v celoti povrnjena.",
+            "Za zahtevke za odpoved, prejete v času 'srednje cene', bo kupnina delno povrnjena - 50% prejetega plačila.",
+            "Za zahtevke za odpoved, prejete v času 'zadnje cene', kupnina ne bo povrnjena.",
           ]
         },
         {
