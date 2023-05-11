@@ -107,4 +107,19 @@ export default {
       width: 100%;
     }
   }
+
+  @media (prefers-color-scheme: dark) {
+    .bg-1 {
+      background-color: var(--dark-1);
+    }
+
+    hr {
+      border-color: var(--light);
+    }
+
+    .price-tier-band {
+      color: var(--color-text-alt);
+    }
+  }
+
 </style>

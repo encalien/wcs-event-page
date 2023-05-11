@@ -48,7 +48,7 @@
     --color-text-soft: var(--white-soft);
     --color-text-mute: var(--white-mute);
     --color-text-alt: var(--dark-1);
-    --color-text-accent: var(--dark-2);
+    --color-text-accent: var(--dark-1);
   }
 }
 
