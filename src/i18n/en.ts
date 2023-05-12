@@ -46,7 +46,7 @@ const en = {
         },
         {
           name: "Tschen Fung Wang & Gombos Timea - 1st place Advanced Jack&Jill Finals - Westie Spring Thing 2022",
-          src: "https://img.youtube.com/vi/Auat3OLyO7ws/sddefault.jpg",
+          src: "/src/assets/images/yt_thumbnail_5.png",
           href: "https://www.youtube.com/watch?v=Auat3OLyO7ws"
         },
         {
