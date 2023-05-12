@@ -128,12 +128,12 @@ const si = {
               description: "",
               class: "class"
             },
-            {
-              time: "16.45 - 17.45",
-              topic: "Delavnica",
-              description: "",
-              class: "class"
-            },
+            // {
+            //   time: "16.45 - 17.45",
+            //   topic: "Delavnica",
+            //   description: "",
+            //   class: "class"
+            // },
             {
               time: "20.00 - 03.00",
               topic: "Zabava",
@@ -179,7 +179,7 @@ const si = {
           title: "Vikend paket",
           price: "60 evr",
           includes: [
-            "7 ur delavnic",
+            "6 ur delavnic",
             "vstop na obe zabavi"
           ]
         },
@@ -187,7 +187,7 @@ const si = {
           title: "Sobotni paket",
           price: "40 evr",
           includes: [
-            "4 ure delavnic v soboto",
+            "3 ure delavnic v soboto",
             "vstop na sobotno zabavo"
           ]
         },

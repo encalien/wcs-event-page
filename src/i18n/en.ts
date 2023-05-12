@@ -128,12 +128,12 @@ const en = {
               description: "",
               class: "class"
             },
-            {
-              time: "16.45 - 17.45",
-              topic: "Class",
-              description: "",
-              class: "class"
-            },
+            // {
+            //   time: "16.45 - 17.45",
+            //   topic: "Class",
+            //   description: "",
+            //   class: "class"
+            // },
             {
               time: "20.00 - 03.00",
               topic: "Party",
@@ -179,7 +179,7 @@ const en = {
           title: "Full Pass",
           price: "60 euros",
           includes: [
-            "7 hours of workshops",
+            "6 hours of workshops",
             "entrance to both parties"
           ]
         },
@@ -187,7 +187,7 @@ const en = {
           title: "Saturday Pass",
           price: "40 euros",
           includes: [
-            "4 hours of workshops on Saturday",
+            "3 hours of workshops on Saturday",
             "entrance to Saturday party"
           ]
         }
