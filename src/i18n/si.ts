@@ -237,6 +237,7 @@ const si = {
   registration: {
     pageTitle: "Registracija",
     opensSoonText: "Registracija se odpre kmalu.",
+    closed: "Registracija je zaprta.",
     registrationInfoText: 'Pred prijavo preberi <a href="#/terms-and-conditions">Pravila in pogoje sodelovanja</a>.',
     loading: "Nalaganje obrazca..."
   },

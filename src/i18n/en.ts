@@ -236,6 +236,7 @@ const en = {
   registration: {
     pageTitle: "Registration",
     opensSoonText: "Registration opens soon.",
+    closed: "Registration is closed.",
     registrationInfoText: 'Please read the following <a href="#/terms-and-conditions">Terms and Conditions</a> before registering.',
     loading: "Loading Registration form..."
   },
