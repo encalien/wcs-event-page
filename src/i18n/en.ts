@@ -25,34 +25,34 @@ const en = {
       ],
       yt: [
         {
-          name: "ASC 2022 Open Strictly Finals - Daniil Pavlov (RUS), Marina Motronenko (RUS) - 1st place",
-          src: "https://img.youtube.com/vi/BgOa8O8Icbk/sddefault.jpg",
-          href: "https://youtube.com/watch?v=BgOa8O8Icbk"
+          name: `Tschen Fung Wang & Luisa; "Move me" - West coast swing dance impro @ WCS intensive w. Tschen 2022 🇸🇮`,
+          src: "https://img.youtube.com/vi/RaCBd-EWxwo/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=RaCBd-EWxwo"
         },
         {
-          name: "Daniil Pavlov & Marina Motronenko. Teachers Show. Spring Fever 2022",
-          src: "https://img.youtube.com/vi/5ptwaPqY_I8/sddefault.jpg",
-          href: "https://youtube.com/watch?v=5ptwaPqY_I8"
+          name: "Tschen Fung Wang & Kalina Kwiatkowska - 1st place Jack&Jill Advanced final - Budafest 2022",
+          src: "https://img.youtube.com/vi/hdlVkIJxB_E/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=hdlVkIJxB_E"
         },
         {
-          name: 'Daniil Pavlov & Marina Motronenko "2step" - Strictly Open Finals - Finnfest 2022',
-          src: "https://img.youtube.com/vi/srdar3V3GIM/sddefault.jpg",
-          href: "https://youtube.com/watch?v=srdar3V3GIM"
+          name: "Tschen Fung Wang & Karin Kakun - Winner's Jack&Jill - Budafest 2022",
+          src: "https://img.youtube.com/vi/BhMrBujdm0Y/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=BhMrBujdm0Y"
         },
         {
-          name: "Daniil Pavlov & Ani Fuller - 1st place All-Stars Jack&Jill - Baltic Swing 2019",
-          src: "https://img.youtube.com/vi/j2rZNi7f_a4/sddefault.jpg",
-          href: "https://youtube.com/watch?v=j2rZNi7f_a4"
+          name: "Tschen Fung Wang & Stella Maria Schletterer - 2nd place All-Stars J&J - Westie Spring Thing 2023",
+          src: "https://img.youtube.com/vi/SHKdKtDySw4/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=SHKdKtDySw4"
         },
         {
-          name: "Leo Lorenzo & Marina Motronenko - Strictly Open Finals - Budafest 2022",
-          src: "https://img.youtube.com/vi/tAYaLHBZVGI/sddefault.jpg",
-          href: "https://youtube.com/watch?v=tAYaLHBZVGI?t=19"
+          name: "Tschen Fung Wang & Gombos Timea - 1st place Advanced Jack&Jill Finals - Westie Spring Thing 2022",
+          src: "https://img.youtube.com/vi/Auat3OLyO7ws/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=Auat3OLyO7ws"
         },
         {
-          name: "ASC 2022 All-Stars JnJ Finals - Daniil Pavlov (RUS) - Eszter Moricz (HUN) - 1st place",
-          src: "https://img.youtube.com/vi/wuBOzILYxZo/sddefault.jpg",
-          href: "https://youtube.com/watch?v=wuBOzILYxZo"
+          name: "Tschen Fung Wang & Vanessa Slaski - Advanced Jack&Jill - MunicornSwing 2020",
+          src: "https://img.youtube.com/vi/XOMxNm-VoGk/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=XOMxNm-VoGk"
         },
       ]
     }
