@@ -122,13 +122,13 @@ hr {
 }
 
 .btn-primary {
-  background-color: var(--accent-1);
-  color: var(--dark-1);
+  background-color: var(--dark-1);
+  color: var(--accent-1);
 }
 
 .btn-primary:hover {
-  background-color: var(--dark-1);
-  color: var(--accent-1);
+  background-color: var(--accent-1);
+  color: var(--dark-1);
   filter: brightness(100%);
 }
 /* 
