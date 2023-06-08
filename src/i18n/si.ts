@@ -8,7 +8,7 @@ const si = {
   },
   contact: {
     text: "Za vsa vprašanja smo na voljo preko elektronske pošte:",
-    email: "info{'@'}westcoastspring.dance"
+    email: "wcsslo.wixsite{'@'}gmail.com"
   },
   urls: {
     facebook: "https://www.facebook.com/events/892661502160068",

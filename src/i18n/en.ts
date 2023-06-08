@@ -8,7 +8,7 @@ const en = {
   },
   contact: {
     text: "If you have any questions, please contact us via email:",
-    email: "info{'@'}westcoastspring.dance"
+    email: "wcsslo.wixsite{'@'}gmail.com"
   },
   urls: {
     facebook: "https://www.facebook.com/events/892661502160068",
