@@ -8,7 +8,7 @@ const en = {
   },
   contact: {
     text: "If you have any questions, please contact us via email:",
-    email: "info{'@'}wcs.si"
+    email: "wcsslo.wixsite{'@'}gmail.com"
   },
   urls: {
     facebook: "#",

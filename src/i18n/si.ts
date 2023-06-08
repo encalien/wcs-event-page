@@ -8,7 +8,7 @@ const si = {
   },
   contact: {
     text: "Za vsa vprašanja smo na voljo preko elektronske pošte:",
-    email: "info{'@'}wcs.si"
+    email: "wcsslo.wixsite{'@'}gmail.com"
   },
   urls: {
     facebook: "#",
