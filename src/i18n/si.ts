@@ -173,11 +173,11 @@ const si = {
         "Na tem dogodku bodo vstopnice na voljo v treh cenovnih razredih.",
         "Najnižja cena velja za prijave prejete do 30. junija, srednja za prijave prejete med 1. julijem in 30. septembrom in zadnja cena za prijave prejete po 1. oktobru. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr."
       ],
-      priceTier: "Prva cena",
+      priceTier: "Srednja cena",
       passes: [
         {
           title: "Vikend paket",
-          price: "60 evr",
+          price: "70 evr",
           includes: [
             "6 ur delavnic",
             "vstop na obe zabavi"
@@ -185,7 +185,7 @@ const si = {
         },
         {
           title: "Sobotni paket",
-          price: "40 evr",
+          price: "50 evr",
           includes: [
             "3 ure delavnic v soboto",
             "vstop na sobotno zabavo"

@@ -173,11 +173,11 @@ const en = {
         "For this event we will have 3 price tiers.",
         "Early bird price until June 30, normal bird price between July 1 and September 30, and late bird price from October 1. With every tier the workshop price will rise by 10 euros."
       ],
-      priceTier: "Early Bird",
+      priceTier: "Normal Bird",
       passes: [
         {
           title: "Full Pass",
-          price: "60 euros",
+          price: "70 euros",
           includes: [
             "6 hours of workshops",
             "entrance to both parties"
@@ -185,7 +185,7 @@ const en = {
         },
         {
           title: "Saturday Pass",
-          price: "40 euros",
+          price: "50 euros",
           includes: [
             "3 hours of workshops on Saturday",
             "entrance to Saturday party"
