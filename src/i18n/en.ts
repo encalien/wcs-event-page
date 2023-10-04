@@ -169,7 +169,7 @@ const en = {
           title: "Full Pass",
           price: "80 euros",
           includes: [
-            "5 hours of workshops",
+            "6 hours of workshops",
             "entrance fee to both parties"
           ]
         },

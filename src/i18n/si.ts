@@ -169,7 +169,7 @@ const si = {
           title: "Vikend paket",
           price: "80 evr",
           includes: [
-            "5 ur delavnic",
+            "6 ur delavnic",
             "vstopnina za obe zabavi"
           ]
         },
