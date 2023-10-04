@@ -13,8 +13,7 @@ dist
 dist-ssr
 coverage
 *.local
-deploy_spring.sh
-deploy_fall.sh
+/deploy_scripts
 
 /cypress/videos/
 /cypress/screenshots/
