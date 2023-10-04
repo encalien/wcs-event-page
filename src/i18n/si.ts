@@ -68,6 +68,10 @@ const si = {
           "Začel je z družabnimi plesi, najprej kot hobi, nato pa profesionalno. Bil je član kluba za latino formacijo na severu Nemčije pet let, preden je spoznal West Coast Swing. Od takrat je vse ostalo samo ples, West Coast Swing pa je postal njegova strast. Obiskal je veliko dogodkov in imel privatne ure s svetovnimi prvaki, kot so Ben Morris, PJ Turner, Brandi Guild, Robert Royston, Cameo McHenry in mnogi drugi.",
           "Tschena pri WCS najbolj navdušujejo: raznolika glasba, figure, stil, koraki, komunikacija med partnerjema, muzikalnost in svoboda. Stalno stremi k napredku in deli svoje znanje v svoji skupnosti v mestu Erding v Nemčiji, kjer trenutno poučuje in živi.",
           "Na dogodkih vrti glasbo, ocenjuje na tekmovanjih in tudi sam tekmuje v kategoriji all-star.",
+          "\n",
+          "Luisa je začela plesati s 5 leti, ko je obiskala s svojo prvo uro baleta. Skozi svoje življenje je preizkusila različne plese kot so jazz, hip-hop, line dance, ples v paru in sodobni ples. Svojo prvo strast je našla v hip-hopu in celo tekmovala več kot 5 let kot članica hip-hop formacije.",
+          "Pri 17 letih je obiskala svojo prvo uro West Coast Swinga in se zaljubila v ples. Kombinacija strukture in svobode, partnerstva in dodajanja lastnega sloga, počasne in hitre glasbe ter neskončne možnosti za ustvarjanje so WCS tako odlikovale, da je zapustila svojo hip-hop formacijo, da bi se v celoti posvetila West Coast Swingu.",
+          "Veliko časa preživi na WCS festivalih in zabavah, kjer se dodatno izobražuje in izpopolnjuje, hkrati pa se druži, tekmuje in pleše celo noč. S svojim partnerjem Tschenom v Erdingu tudi redno poučuje."
         ]
       }
     },
@@ -173,11 +177,11 @@ const si = {
         "Na tem dogodku bodo vstopnice na voljo v treh cenovnih razredih.",
         "Najnižja cena velja za prijave prejete do 30. junija, srednja za prijave prejete med 1. julijem in 30. septembrom in zadnja cena za prijave prejete po 1. oktobru. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr."
       ],
-      priceTier: "Srednja cena",
+      priceTier: "Zadnja cena",
       passes: [
         {
           title: "Vikend paket",
-          price: "70 evr",
+          price: "80 evr",
           includes: [
             "6 ur delavnic",
             "vstop na obe zabavi"
@@ -185,7 +189,7 @@ const si = {
         },
         {
           title: "Sobotni paket",
-          price: "50 evr",
+          price: "60 evr",
           includes: [
             "3 ure delavnic v soboto",
             "vstop na sobotno zabavo"

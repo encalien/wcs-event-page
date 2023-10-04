@@ -68,6 +68,10 @@ const en = {
           "He started with ballroom dancing, first, as a hobby, later, professional. He was a part of a latin formation dance club in the northern parts of Germany for 5 years before he met West Coast Swing. Since then, everything else was just a dance, but West Coast Swing was his passion. He visited a lot of events, took privates with champions like Ben Morris, PJ Turner, Brandi Guild, Robert Royston, Cameo McHenry and many more.",
           "The wide variety of music, patterns, stylings, footworks, teamwork, musicality and freedom is what makes Tschen love WCS. He is constantly trying to get better and share his knowledge within his community in Erding, Germany, where he is currently teaching and living.",
           "During events, he also Djays, judges and competes in the all-star division.",
+          "\n",
+          "Luisa started dancing when she was 5 years old with her first ballet class. Through her life she tried several different dances like Jazz Dance, Hip Hop, linedance, ballroom dancing and contemporary. She found her first passion in Hip Hop dancing and even competed for over 5 years as member of a Hip Hop formation.",
+          "At the age of 17 she took her first West Coast Swing class and fell in love with the dance.The combination of structure and freedom, partnership and adding your own style, slow and fast music and the endless possibilities to create a dance made the dance so special, that she even quite her Hip Hop formation to fully dedicate to West Coast Swing.",
+          "She spends lots of time at West Coast Swing Events and Partys, trying to improve her dancing, but also socialising, competing and dancing all night.Additionally she started teaching some time ago with her partner Tschen."
         ]
       }
     },
@@ -173,11 +177,11 @@ const en = {
         "For this event we will have 3 price tiers.",
         "Early bird price until June 30, normal bird price between July 1 and September 30, and late bird price from October 1. With every tier the workshop price will rise by 10 euros."
       ],
-      priceTier: "Normal Bird",
+      priceTier: "Late Bird",
       passes: [
         {
           title: "Full Pass",
-          price: "70 euros",
+          price: "80 euros",
           includes: [
             "6 hours of workshops",
             "entrance to both parties"
@@ -185,7 +189,7 @@ const en = {
         },
         {
           title: "Saturday Pass",
-          price: "50 euros",
+          price: "60 euros",
           includes: [
             "3 hours of workshops on Saturday",
             "entrance to Saturday party"
