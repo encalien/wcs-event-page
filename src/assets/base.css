@@ -8,10 +8,10 @@
   --black-soft: #222222;
   --black-mute: #282828;
 
-  --accent-1: #FF66C4;
-  --accent-2: #FFDE59;
-  --accent-3: #5CE1E6;
-  --accent-4: #8952FF;
+  --accent-1: #F15F53;
+  --accent-2: #F8F3A0;
+  --accent-3: #C5DAD9;
+  --accent-4: #1B696F;
 
   --accent-1-disabled: hsl(323, 100%, 10%, 50%);
 
@@ -26,12 +26,12 @@
   --color-background: var(--white);
   --color-background-soft: var(--white-soft);
   --color-background-mute: var(--white-mute);
-  --color-background-alt: var(--dark-1);
+  --color-background-alt: var(--accent-1);
 
   --color-text: var(--black);
   --color-text-soft: var(--black-soft);
   --color-text-mute: var(--black-mute);
-  --color-text-alt: var(--white-soft);
+  --color-text-alt: var(--accent-2);
   --color-text-accent: var(--accent-1);
   
   --section-gap: 60px;

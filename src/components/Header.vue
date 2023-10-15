@@ -48,7 +48,10 @@
     <div class="flex-item menu-item" 
          :class="{ 'active': isMobileMenuOpen }"
          @click="closeAllMenus()">
-      <a href="#/" class="menu-item-link">{{ $t('home.pageTitle') }}</a>
+      <a href="#/" class="menu-item-link logo-link">
+        <img src="/src/assets/images/logo.png" alt="Slovenian Open">
+        <span>{{ $t('event.name') }}</span>
+      </a>
     </div>
     <div class="flex-item menu-item" :class="{ 'active-block': isMobileMenuOpen }">
       <div @click="toggleDropdownMenu($t('workshops.pageTitle'))" 
@@ -149,14 +152,27 @@
   }
 
   .menu-item-link {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     display: block;
     width: 100%;
     padding: 0.5rem;
-    color: var(--color-text-accent);
+    color: var(--color-text-alt);
     filter: brightness(100%);
     cursor: pointer;
+  }
+
+  .logo-link {
+    font-size: 1.5rem;
+    min-width: 15rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+
+  .logo-link > img {
+    height: 1.5rem;
+    margin-right: 0.5rem;
   }
 
   .fa.mobile-item-link {
@@ -165,7 +181,7 @@
 
   .menu-item-link:hover, .dropdown-menu-item:hover, .menu-item-link.active {
     display: block;
-    background-color: var(--color-text-accent);
+    background-color: var(--color-text-alt);
     color: var(--color-background-alt);
   }
 
@@ -180,7 +196,7 @@
     flex-direction: column;
     align-items: start;
     background-color: var(--color-background-alt);
-    border: 1px solid var(--light);
+    /* border: 1px solid var(--color-background-alt); */
     border-top: none;
   }
 
@@ -202,7 +218,7 @@
   }
 
   .dropdown-menu-item-link {
-    color: var(--color-text-accent);
+    color: var(--color-text-alt);
   }
 
   #social-icons {
