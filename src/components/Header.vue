@@ -4,10 +4,21 @@
       return {
         eventName: import.meta.env.VITE_APP_TITLE,
         openDropdownMenuItem: "",
-        isMobileMenuOpen: false
+        isMobileMenuOpen: false,
+        shrunk: false
       }
     },
+    created () {
+      this.handleScroll();
+      window.addEventListener('scroll', this.handleScroll);
+    },
+    unmounted () {
+      window.removeEventListener('scroll', this.handleScroll);
+    },
     methods: {
+      handleScroll() {
+        this.shrunk = window.scrollY > 0;
+      },
       toggleDropdownMenu: function (menuItemTitle: string) {
         if (this.openDropdownMenuItem === menuItemTitle) {
           this.openDropdownMenuItem = "";
@@ -33,145 +44,193 @@
 </script>
 
 <template>
-  <header id="menu" class="flex-container">
-    <!-- mobile menu toggle -->
-    <div id="mobile-menu-toggle" 
-         :class="{'block': !isMobileMenuOpen}"
-         @click="toggleMobileMenuOpen()">
-      <font-awesome-icon icon="fa-solid fa-bars" class="fa menu-item-link"></font-awesome-icon>
+  <header id="menu" :class="{ 'shrunk': shrunk }">
+    <div class="menu-logo">
+      <img src="/src/assets/images/logo.png" alt="Slovenian Open">
     </div>
-    <div class="modal-backdrop hidden" 
-         :class="{ 'active': isMobileMenuOpen }"
-         @click="setMobileMenuOpen(false)"></div>
+    <div class="menu-inner">
+      <div class="menu-left">
+        <!-- mobile menu toggle -->
+        <div id="mobile-menu-toggle" 
+            :class="{'block': !isMobileMenuOpen}"
+            @click="toggleMobileMenuOpen()">
+          <font-awesome-icon icon="fa-solid fa-bars" class="fa menu-item-link"></font-awesome-icon>
+        </div>
+        <div class="modal-backdrop hidden" 
+            :class="{ 'active': isMobileMenuOpen }"
+            @click="setMobileMenuOpen(false)"></div>
 
-    <!-- menu items -->
-    <div class="flex-item menu-item" 
-         :class="{ 'active': isMobileMenuOpen }"
-         @click="closeAllMenus()">
-      <a href="#/" class="menu-item-link logo-link">
-        <img src="/src/assets/images/logo.png" alt="Slovenian Open">
-        <span>{{ $t('event.name') }}</span>
-      </a>
-    </div>
-    <div class="flex-item menu-item" :class="{ 'active-block': isMobileMenuOpen }">
-      <div @click="toggleDropdownMenu($t('workshops.pageTitle'))" 
-           class="menu-item-link" 
-           :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
-        {{ $t('workshops.pageTitle') }}
-      </div>
-      <div class="modal-backdrop hidden" 
-           :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}"
-           @click="closeAllMenus()"></div>
-      <div class="dropdown-menu hidden" 
-           :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
-        <div class="dropdown-menu-item" @click="closeAllMenus()">
-          <a href="#/workshops/teachers" class="menu-item-link">{{ $t('workshops.staff.pageTitle') }}</a>
-        </div>
-        <div class="dropdown-menu-item" @click="closeAllMenus()">
-          <a href="#/workshops/levels" class="menu-item-link">{{ $t('workshops.levels.pageTitle') }}</a>
+        <!-- menu items -->
+        <div class="menu-item menu-small-logo" 
+            :class="{ 'active': isMobileMenuOpen }"
+            @click="closeAllMenus()">
+          <a href="#/" class="menu-item-link logo-link">
+            <img src="/src/assets/images/logo.png" alt="Slovenian Open">
+            <span>{{ $t('event.name') }}</span>
+          </a>
         </div>
       </div>
-    </div>
-    <div class="flex-item menu-item" 
-         :class="{ 'active': isMobileMenuOpen }"
-         @click="closeAllMenus()">
-         <a href="#/schedule" class="menu-item-link">{{ $t('workshops.schedule.pageTitle') }}</a>
-    </div>
-    <div class="flex-item menu-item" 
-         :class="{ 'active': isMobileMenuOpen }"
-         @click="closeAllMenus()">
-         <a href="#/pricing" class="menu-item-link">{{ $t('workshops.pricing.pageTitle') }}</a>
-    </div>
-    <div class="flex-item menu-item" :class="{ 'active-block': isMobileMenuOpen }">
-      <div @click="toggleDropdownMenu($t('location.pageTitle'))" 
-           class="menu-item-link" 
-           :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}">
-        {{ $t('location.pageTitle') }}
-      </div>
-      <div class="modal-backdrop hidden" 
-           :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}"
-           @click="closeAllMenus()"></div>
-      <div class="dropdown-menu hidden" 
-           :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}">
-        <div class="dropdown-menu-item" @click="closeAllMenus()">
-          <a href="#/location/venue" class="menu-item-link">{{ $t('location.venue.pageTitle') }}</a>
+      <div class="menu-right">
+        <div class="menu-item" :class="{ 'active-block': isMobileMenuOpen }">
+          <div @click="toggleDropdownMenu($t('workshops.pageTitle'))" 
+              class="menu-item-link" 
+              :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
+            {{ $t('workshops.pageTitle') }}
+          </div>
+          <div class="modal-backdrop hidden" 
+              :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}"
+              @click="closeAllMenus()"></div>
+          <div class="dropdown-menu hidden" 
+              :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
+            <div class="dropdown-menu-item" @click="closeAllMenus()">
+              <a href="#/workshops/teachers" class="menu-item-link">{{ $t('workshops.staff.pageTitle') }}</a>
+            </div>
+            <div class="dropdown-menu-item" @click="closeAllMenus()">
+              <a href="#/workshops/levels" class="menu-item-link">{{ $t('workshops.levels.pageTitle') }}</a>
+            </div>
+          </div>
         </div>
-        <div class="dropdown-menu-item" @click="closeAllMenus()">
-          <a href="#/location/slovenia" class="menu-item-link">{{ $t('location.slovenia.pageTitle') }}</a>
+        <div class="menu-item" 
+            :class="{ 'active': isMobileMenuOpen }"
+            @click="closeAllMenus()">
+            <a href="#/schedule" class="menu-item-link">{{ $t('workshops.schedule.pageTitle') }}</a>
         </div>
-      </div>
-    </div>
-    <div class="flex-item menu-item" 
-         :class="{ 'active': isMobileMenuOpen }"
-         @click="closeAllMenus()">
-      <a href="#/registration" class="menu-item-link">{{ $t('registration.pageTitle') }}</a>
-    </div>
-    <div id="social-icons" 
-         class="menu-item flex-container flex-container-row" 
-         :class="{ 'active': isMobileMenuOpen }"
-         @click="closeAllMenus()">
-      <a :href="'mailto:' + $t('contact.email')" class="menu-item-link">
-        <font-awesome-icon icon="fa-regular fa-envelope"></font-awesome-icon>
-      </a>
-      <a :href="$t('urls.facebook')" target="_blank" class="menu-item-link">
-        <font-awesome-icon icon="fa-brands fa-facebook-f"></font-awesome-icon>
-      </a>
-      <!-- <a :href="$t('urls.instagram')" class="menu-item-link">
-        <font-awesome-icon icon="fa-brands fa-instagram"></font-awesome-icon>
-      </a> -->
-    </div>
-    <div id="localization-menu" 
-         class="menu-item flex-container flex-container-row"
-         :class="{ 'active': isMobileMenuOpen }"
-         @click="closeAllMenus()">
-      <div v-for="locale in $i18n.availableLocales" class="flex-item">
-        <input v-model="$i18n.locale" type="radio" :id="locale" name="locale" :value="locale" class="hidden">
-        <label :for="locale" class="menu-item-link" :class="{ 'active': $i18n.locale === locale }">{{ locale.toUpperCase() }}</label>
+        <div class="menu-item" 
+            :class="{ 'active': isMobileMenuOpen }"
+            @click="closeAllMenus()">
+            <a href="#/pricing" class="menu-item-link">{{ $t('workshops.pricing.pageTitle') }}</a>
+        </div>
+        <div class="menu-item" :class="{ 'active-block': isMobileMenuOpen }">
+          <div @click="toggleDropdownMenu($t('location.pageTitle'))" 
+              class="menu-item-link" 
+              :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}">
+            {{ $t('location.pageTitle') }}
+          </div>
+          <div class="modal-backdrop hidden" 
+              :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}"
+              @click="closeAllMenus()"></div>
+          <div class="dropdown-menu hidden" 
+              :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}">
+            <div class="dropdown-menu-item" @click="closeAllMenus()">
+              <a href="#/location/venue" class="menu-item-link">{{ $t('location.venue.pageTitle') }}</a>
+            </div>
+            <div class="dropdown-menu-item" @click="closeAllMenus()">
+              <a href="#/location/slovenia" class="menu-item-link">{{ $t('location.slovenia.pageTitle') }}</a>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item" 
+            :class="{ 'active': isMobileMenuOpen }"
+            @click="closeAllMenus()">
+          <a href="#/registration" class="menu-item-link">{{ $t('registration.pageTitle') }}</a>
+        </div>
+        <div id="social-icons" 
+            class="menu-item flex-container flex-container-row" 
+            :class="{ 'active': isMobileMenuOpen }"
+            @click="closeAllMenus()">
+          <a :href="'mailto:' + $t('contact.email')" class="menu-item-link">
+            <font-awesome-icon icon="fa-regular fa-envelope"></font-awesome-icon>
+          </a>
+          <a :href="$t('urls.facebook')" target="_blank" class="menu-item-link">
+            <font-awesome-icon icon="fa-brands fa-facebook-f"></font-awesome-icon>
+          </a>
+          <!-- <a :href="$t('urls.instagram')" class="menu-item-link">
+            <font-awesome-icon icon="fa-brands fa-instagram"></font-awesome-icon>
+          </a> -->
+        </div>
+        <div id="localization-menu" 
+            class="menu-item"
+            :class="{ 'active': isMobileMenuOpen }"
+            @click="closeAllMenus()">
+          <div v-for="locale in $i18n.availableLocales" :key="locale">
+            <input v-model="$i18n.locale" type="radio" :id="locale" name="locale" :value="locale" class="hidden">
+            <label :for="locale" class="menu-item-link" :class="{ 'active': $i18n.locale === locale }">{{ locale.toUpperCase() }}</label>
+          </div>
+        </div>
       </div>
     </div>
   </header>
 </template>
 
 <style scoped>
-  #menu {
+  .menu-inner {
+    transition: 300ms top;
     width: 100vw;
-    background-color: var(--color-background-alt);
+    background-color: #fff;
     /* filter: brightness(80%); */
-    padding: 0 40px;
-    position: fixed;
+    position: static;
     z-index: 1;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px -3px 10px 0px rgba(0,0,0,0.75);
+  }
+
+  #menu.shrunk {
+    padding-top: 0;
+  }
+
+  #menu.shrunk .menu-inner {
+    position: fixed;
+    top: 0;
+  }
+
+  .menu-small-logo {
+    transition: 600ms opacity;
+    opacity: 0;
+  }
+
+  #menu.shrunk .menu-small-logo {
+    opacity: 1;
+  }
+
+  .menu-logo {
+    text-align: center;
+  }
+
+  .menu-logo img {
+    transition: 500ms height;
+    height: 200px;
+  }
+
+  #menu.shrunk .menu-logo img {
+    height: 0px;
+  }
+
+  .menu-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-left {
+
   }
 
   .menu-item {
     text-align: center;
   }
-  
-  .menu-item.flex-item {
-    flex: 1 1 20%;
-    padding: 0;
-  }
 
   .menu-item-link {
     font-size: 1rem;
-    font-weight: bold;
     display: block;
     width: 100%;
-    padding: 0.5rem;
-    color: var(--color-text-alt);
+    padding: 1rem;
+    color: var(--color-text-accent);
     filter: brightness(100%);
     cursor: pointer;
   }
 
   .logo-link {
-    font-size: 1.5rem;
-    min-width: 15rem;
+    font-size: 1rem;
     display: flex;
     align-items: baseline;
     justify-content: center;
+    text-transform: uppercase;
   }
 
   .logo-link > img {
-    height: 1.5rem;
+    height: 1rem;
     margin-right: 0.5rem;
   }
 
@@ -181,8 +240,7 @@
 
   .menu-item-link:hover, .dropdown-menu-item:hover, .menu-item-link.active {
     display: block;
-    background-color: var(--color-text-alt);
-    color: var(--color-background-alt);
+    text-decoration: underline;
   }
 
   .menu-item-link:visited, .menu-item-link.active {
@@ -225,10 +283,6 @@
     margin: 0 2rem;
   }
 
-  #social-icons > .flex-item {
-    flex: 1 0 50%;
-  }
-
   #mobile-menu-toggle {
     display: none;
     position: absolute;
@@ -238,8 +292,8 @@
     z-index: 1;
   }
 
-  #localization-menu > .flex-item {
-    padding: 0;
+  #localization-menu {
+    display: flex;
   }
 
   @media screen and (max-width: 650px) {
@@ -263,7 +317,7 @@
     display: none;
   }
   
-  .menu-item.flex-item {
+  .menu-item.{
     width: 100%;
   }
 

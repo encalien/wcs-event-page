@@ -12,7 +12,6 @@ export default {
 
 <template>
   <section id="landing">
-    <img src="/src/assets/images/website_landing_landscape.png" alt="banner" id="banner">
     <div class="landing-content">
       <!-- <h1>{{ $t('event.name') }}</h1>
       <h2>{{ $t('event.location') }}</h2>
