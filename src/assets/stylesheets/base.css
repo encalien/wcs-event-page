@@ -31,7 +31,7 @@
   --color-text: var(--black);
   --color-text-soft: var(--black-soft);
   --color-text-mute: var(--black-mute);
-  --color-text-alt: var(--accent-2);
+  --color-text-alt: var(--white-soft);
   --color-text-accent: var(--accent-1);
   
   --section-gap: 60px;
@@ -57,6 +57,13 @@
   src:
     local("Cera Pro"),
     url("/fonts/Cera Pro Medium.otf") format("opentype")
+}
+
+@font-face {
+  font-family: "Cera Pro Bold";
+  src:
+    local("Cera Pro Bold"),
+    url("/fonts/Cera Pro Bold.otf") format("opentype")
 }
 
 *,

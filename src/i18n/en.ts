@@ -143,7 +143,9 @@ const en = {
     pricing: {
       pageTitle: "Pricing",
       description: [
-        "For this event we will have 3 price tiers."
+        "We will offer two types of event passes: Full Pass and Party Pass. Full Pass includes all workshops, access to competitions and parties. Party Pass includes only access to competitions and parties.",
+        "For our newest westies we plan to have a Zero to Hero course and for our most experienced dancers, we will offer a separate ADV+ track.",
+        "Price tiers will be determined based on the time of registration, provided the fee is paid within 14 days of registration acceptance as presented in below table."
       ],
       passPrices: [
         {
@@ -154,6 +156,7 @@ const en = {
             "Normal Bird",
             "Late Bird"
           ],
+          includes: ["INCLUDES"],
           descriptions: [
             "on the first day of registration",
             "until 30 November 2023",
@@ -174,6 +177,11 @@ const en = {
             "130",
             "140",
             "150"
+          ],
+          includes: [
+            "6 hours of workshops",
+            "entrance during competitions",
+            "entrance fee to Fri, Sat, Sun parties"
           ]
         },
         {
@@ -183,47 +191,39 @@ const en = {
             "90",
             "100",
             "110"
+          ],
+          includes: [
+            "entrance during competitions",
+            "entrance fee to Fri, Sat, Sun parties"
+          ],
+          extraText: "Free for all dancers competing in Advanced or All Star division! Registration still required for role balance. We might ask you to help out with judging."
+        },
+        {
+          type: "Zero to Hero",
+          tiers: [
+            "40",
+            "50",
+            "60",
+            "70"
+          ],
+          includes: [
+            "4 hours of workshops",
+            "entrance fee to Friday party"
           ]
         },
         {
-          type: "Advanced+ Pass",
+          type: "ADV+ Track",
           tiers: [
+            "40",
             "50",
             "60",
-            "70",
-            "80"
+            "70"
+          ],
+          includes: [
+            "4 hours of workshops"
           ]
         }
       ],
-      currentPriceTier: "Early Bird",
-      passes: [
-        {
-          title: "Full Pass",
-          price: "120 euros",
-          includes: [
-            "8 hours of workshops",
-            "entrance during competitions",
-            "entrance fee to 3 parties"
-          ]
-        },
-        {
-          title: "Party Pass",
-          price: "80 euros",
-          includes: [
-            "entrance during competitions",
-            "entrance fee to 3 parties"
-          ]
-        },
-        {
-          title: "Advanced+ Pass",
-          price: "50 euros",
-          includes: [
-            "4 hours of workshops",
-            "entrance during competitions",
-            "entrance fee to 3 parties"
-          ]
-        },
-      ]
     }
   },
   location: {

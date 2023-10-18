@@ -145,6 +145,11 @@ hr {
   display: none;
 }
 
+.important {
+  font-family: Cera Pro Bold;
+  color: var(--accent-1);
+}
+
 .margin-0 {
   margin: 0;
   padding: 0
