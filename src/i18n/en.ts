@@ -138,8 +138,8 @@ const en = {
     schedule: {
       pageTitle: "Schedule",
       description: "This is a preliminary schedule and is subject to change.",
-      href: "",
-      scr: ""
+      downloadText: "Download the .pdf file.",
+      src: "/src/assets/files/schedule.pdf"
     },
     pricing: {
       pageTitle: "Pricing",
