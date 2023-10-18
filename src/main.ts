@@ -4,7 +4,7 @@ import App from "./App.vue";
 import en from "./i18n/en";
 import si from "./i18n/si";
 
-import "./assets/main.css";
+import "./assets/stylesheets/main.css";
 
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
