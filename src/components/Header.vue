@@ -89,12 +89,10 @@
               <div class="dropdown-menu-item" @click="closeAllMenus()">
                 <a href="#/workshops/levels" class="menu-item-link">{{ $t('workshops.levels.pageTitle') }}</a>
               </div>
+              <div class="dropdown-menu-item" @click="closeAllMenus()">
+                <a href="#/workshops/schedule" class="menu-item-link">{{ $t('workshops.schedule.pageTitle') }}</a>
+              </div>
             </div>
-          </div>
-          <div class="menu-item" 
-              :class="{ 'active': isMobileMenuOpen }"
-              @click="closeAllMenus()">
-              <a href="#/schedule" class="menu-item-link">{{ $t('workshops.schedule.pageTitle') }}</a>
           </div>
           <div class="menu-item" 
               :class="{ 'active': isMobileMenuOpen }"
