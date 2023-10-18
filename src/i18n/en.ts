@@ -66,31 +66,30 @@ const en = {
           names: "Karin & Ludovic",
           src: "/src/assets/images/teachers_karin_ludo.jpg",
           description: [
-            "Karin Kakun has been dancing all her life. She holds a university dance degree and has now taught dance for more than 14 years. She teaches WCS, Hip-Hop, Stretching, Pole dance. She also choreograph and performs. Before starting dancing WCS, she was the Israeli salsa champion.",
-            "Karin started her WCS career in 2014 and from the first moment she fell in love. She is now competing in Champion divisions and teaching in Israel, where she directs a West Coast Swing line of classes. She actively travels and teaches all around Europe.",
-            "Ludovic Pelegrin has taken its first dancing steps at 10 years old, when he first learned rock'n'roll. His dancing background is as innovative as diversified, as he had taken a quick interest into Lindy-Hop, Balboa, Charleston, Acrobatic rock'n'roll, Salsa, Boogie Woogie and Tap dancing. He has been a Rock and Roll, Lindy Hop and Charleston instructor since 2009.",
-            "His attraction into Swing dancing enabled him to discover West Coast Swing in 2010. Quickly becoming very passionate, he goes from workshops to workshops overseas, where he learned from the best instructors. He also competes in many competitions where he regularly places into the Top 3.",
-            "Driven by the desire to share his passion and helping others to discover and learn it, He started to teach WCS in 2011. After contributing to spread West Coast Swing within its area (in France), he is now giving workshops across France and Europe. Thanks to his knowledge & skills in a variety of dances, he is known for his amazing musical knowledge, his structured and concise teaching and his great generosity."
+            "Karin Kakun has been dancing her entire life. Holding a university degree in dance, she has taught for over 14 years. She teaches WCS, Hip-Hop, Stretching, and Pole dance. She also choreographs and performs. Before embracing WCS, she was the Israeli salsa champion.",
+            "She embarked on her WCS journey in 2014 and from the first moment she fell in love. She now competes in the Champion division and teaches in Israel, where she directs a line of West Coast Swing classes. She actively travels and teaches all around Europe.",
+            "Ludovic Pelegrin started dancing at 10, when he learned rock'n'roll. His innovative and diversified dance background encompasses styles like Lindy-Hop, Balboa, Charleston, Acrobatic rock'n'roll, Salsa, Boogie Woogie, and Tap dancing. He's been a Rock and Roll, Lindy Hop, and Charleston instructor since 2009.",
+            "His fondness for Swing led him to WCS in 2010. With growing enthusiasm, he attended overseas workshops, learning from all the best instructors. He also participates in many competitions, where he regularly places in the Top 3.",
+            "Driven by the desire to share his passion and help others discover WCS, he started teaching WCS in 2011. After contributing to spread WCS within France, he now conducts workshops all across Europe. His diverse dance skills have earned him a reputation for amazing musical knowledge, structured and concise teaching, and great generosity."
           ]
         },
         {
           names: "Savana & João",
-          src: "/src/assets/images/teachers_savana_joao.png",
+          src: "/src/assets/images/teachers_savana_joao.jpg",
           description: [
-            "Savana started jazz dancing at 4 years old and never stopped until then. Being passionate about dance in general, she has practiced many other styles in solo, contemporary, classical, hip hop. She participates in numerous competitions, obtains regional and national prizes, and enters the conservatory during her high school years.",
-            "At the same time she discovers dances at the age of 7 with rock then quickly salsa and a little later West Coast Swing.",
-            "Very young, she was given the opportunity to teach, which she quickly acquired a taste for human relations and sharing with students. On leaving high school, she made the decision to specialize in west and went to live in Switzerland to work in the school of Jang Widler where she still works today.",
-            "João started dancing at the age of 8 in a German folk dance group in southern Brazil. In 2006 he started various other styles such as zouk, salsa, Forro, Samba de Gafiera, and Argentine Tango. Dance then becomes an integral part of his life to which he dedicates several hours a week while following professional training.",
-            "In 2011 he started teaching dance and met West Coast Swing a year later in 2012. He quickly fell in love with this dance.Subsequently, he traveled to many events in Brazil and abroad to train with the greatest.In 2014 he started teaching WCS in Brazil and continues to teach it with passion today in Switzerland and in some European events."
+            "Savana began jazz dancing at age 4 and has been devoted ever since. Passionate about dance in general, she has trained in solo, contemporary, classical, and hip hop. She's competed extensively, securing both regional and national prizes, and joined a conservatory during her high school years.",
+            "She ventured into rock dance at age 7, swiftly moving on to salsa and, later, West Coast Swing. Very young, she was given the opportunity to teach, where she found joy in connecting and sharing with students. After high school, she chose to specialize in WCS and relocated to Switzerland, where she now lives and works at Jang Widler's dance school.",
+            "João started dancing at the age of 8 in a German folk dance group in southern Brazil. By 2006, he had expanded into various other styles such as zouk, salsa, Forro, Samba de Gafiera, and Argentine Tango. Dance became a significant part of his life, and he dedicated numerous hours weekly to professional training.",
+            "In 2011, João started teaching and was introduced to West Coast Swing in 2012. He quickly fell in love with this dance. He pursued training opportunities, attending events both in Brazil and abroad. In 2014, he started teaching WCS in Brazil. He continues to teach it with passion today both in Switzerland and at various European events."
           ]
         },
         {
           names: "Andrea & Attila",
           src: "/src/assets/images/teachers_andrea_attila.png",
           description: [
-            "Attila and Andrea began their dance career as ballroom dancers. They taught latin and standard dances for many years, however, after fifteen years, in the possession of numerous championship titles, they retired when their first child was born.",
-            "They were never able to part from dancing completely, always yearning to be back on the dancefloor.In 2013 they met West Coast Swing and soon became addicted to it. Recognising the differences of ballroom dancing and WCS, this dance became their passion, mostly because of it's endless possibilities and freedom. They were unable to let competing go either, so after some years of competing, they both made it to the prestigious All - Star category.",
-            "They're currently teaching both in Hungary and in foreign countries for groups and private lessons to share their knowledge and passion for WCS, dance is a part of their everyday life."
+            "Attila and Andrea began their dance career as ballroom dancers. They taught latin and standard dances for many years. After a successful fifteen-year stint, in the possession of numerous championship titles, they chose to take a step back from their active careers following the birth of their first child.",
+            "They were never able to part from dancing completely, always yearning to be back on the dancefloor.In 2013, they encountered West Coast Swing and soon became addicted to the genre. Recognising the distinct differences between ballroom and West Coast Swing, this dance became their passion, mostly because of its endless possibilities and freedom. They were unable to let competing go either, so after some years of competing, they both made it to the prestigious All - Star category.",
+            "Today, Attila and Andrea spread their profound love for West Coast Swing by offering classes both in Hungary and abroad. Whether it's group sessions or private lessons, their mission is to share their extensive knowledge and deep-rooted passion. For them, dance is a part of their everyday life."
           ]
         }
       ]
