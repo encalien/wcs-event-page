@@ -43,7 +43,7 @@ a:hover {
 }
 
 a:focus, a:active {
-  filter: brightness(120%);
+  /* filter: brightness(120%); */
 }
 
 ul {
