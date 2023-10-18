@@ -36,11 +36,6 @@ p {
 a {
   text-decoration: none;
   color: var(--accent-3);
-  filter: brightness(75%);
-}
-
-a:visited {
-  filter: brightness(50%);
 }
 
 a:hover {
