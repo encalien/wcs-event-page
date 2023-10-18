@@ -129,7 +129,7 @@ const en = {
         {
           title: "ADV+",
           descriptionText: [
-            "ADVANCED / ALL-STAR with at least 30 WSDC Intermediate points",
+            "ADVANCED / ALL-STAR with at least 30 Intermediate WSDC points",
             "This special track is intended only for Advanced and All Star dancers. There will be no audition for this level, as we expect you have proven your skills enough in competitions. Workshops will be challenging, and fast paced."
           ]
         },
