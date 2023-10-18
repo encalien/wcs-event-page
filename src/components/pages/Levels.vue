@@ -12,12 +12,14 @@ export default {
 
 <template>
   <section>
-    <h1>{{ $t('workshops.level.pageTitle') }}</h1>
-    <div v-for="(level, i) in messages.workshops.levels.levels" class="flex-item flex-basis-100 margin-0">
-      <h2>{{ $t(`workshops.level.levels[${i}].title`) }}</h2>
-      <p v-for="(p, j) in level.descriptionText">
-        {{ $t(`workshops.level.levels[${i}].descriptionText[${j}]`) }}
-      </p>
+    <h1>{{ $t('workshops.levels.pageTitle') }}</h1>
+    <div class="flex-container flex-container-column flex-gap">
+      <div v-for="(level, i) in messages.workshops.levels.levels" class="flex-item flex-basis-100 margin-0">
+        <h2>{{ $t(`workshops.levels.levels[${i}].title`) }}</h2>
+        <p v-for="(p, j) in level.descriptionText">
+          {{ $t(`workshops.levels.levels[${i}].descriptionText[${j}]`) }}
+        </p>
+      </div>
     </div>
   </section>
 </template>

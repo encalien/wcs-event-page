@@ -99,27 +99,38 @@ const en = {
       pageTitle: "Levels",
       levels: [
         {
-          title: "Level 1",
+          title: "Zero to Hero",
           descriptionText: [
-            "NEWCOMER",
+            "NEWCOMER with no WSDC points",
+            "This level is intended for new dancers, who either never tried west coast swing before, or have taken only a couple of classes. It will start from complete basics, and get you ready to enjoy your first west coast swing party.",
           ]
         },
         {
           title: "Level 2",
           descriptionText: [
-            "NOVICE",
+            "NOVICE with no WSDC points",
+            "You are familiar with basic patterns, rhythms and concepts of west coast swing, but are not necessarily yet comfortable on the dancefloor. You are ready to learn more patterns and improve your technique.",
           ]
         },
         {
           title: "Level 3",
           descriptionText: [
-            "INTERMEDIATE",
+            "NOVICE with at least 1 Novice WSDC point or audition",
+            "You feel comfortable dancing with any partner on any music and are ready to learn more complex patterns and concepts. You still want to improve your technique, as well as your musicality and connection.",
           ]
         },
         {
           title: "Level 4",
           descriptionText: [
-            "ADVANCED / ALL-STAR",
+            "INTERMEDIATE with at least 16 Novice WSDC points or audition",
+            "You have solid technique, and are very comfortable on the dancefloor. You already have a good understanding of musicality and connection. You are ready to find your own style and explore advanced concepts."
+          ]
+        },
+        {
+          title: "ADV+",
+          descriptionText: [
+            "ADVANCED / ALL-STAR with at least 30 WSDC Intermediate points",
+            "This special track is intended only for Advanced and All Star dancers. There will be no audition for this level, as we expect you have proven your skills enough in competitions. Workshops will be challenging, and fast paced."
           ]
         },
       ],
