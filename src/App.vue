@@ -17,11 +17,11 @@ const routes: any = {
   '/': Home,
   '/workshops/teachers': Staff,
   '/workshops/levels': Levels,
-  '/schedule': Schedule,
+  '/workshops/schedule': Schedule,
   '/pricing': Pricing,
   '/location/slovenia': Slovenia,
   '/location/venue': EventLocation,
-  '/registration': Registration,
+  // '/registration': Registration,
   '/terms-and-conditions': TermsAndConditions
 }
 
