@@ -11,8 +11,8 @@ const en = {
     email: "info{'@'}slovenianopen.dance"
   },
   urls: {
-    facebook: "",
-    instagram: ""
+    facebook: "https://www.facebook.com/events/819650556370760",
+    instagram: "https://www.instagram.com/slovenian_open_wcs"
   },
   home: {
     pageTitle: "Home",
