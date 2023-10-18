@@ -118,11 +118,11 @@
               </div>
             </div>
           </div>
-          <div class="menu-item" 
+          <!-- <div class="menu-item" 
               :class="{ 'active': isMobileMenuOpen }"
               @click="closeAllMenus()">
             <a href="#/registration" class="menu-item-link">{{ $t('registration.pageTitle') }}</a>
-          </div>
+          </div> -->
           <div id="social-icons" 
               class="menu-item flex-container flex-container-row" 
               :class="{ 'active': isMobileMenuOpen }"
