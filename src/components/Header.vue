@@ -137,7 +137,7 @@
               <font-awesome-icon icon="fa-brands fa-instagram"></font-awesome-icon>
             </a> -->
           </div>
-          <div id="localization-menu" 
+          <!-- <div id="localization-menu" 
               class="menu-item"
               :class="{ 'active': isMobileMenuOpen }"
               @click="closeAllMenus()">
@@ -145,7 +145,7 @@
               <input v-model="$i18n.locale" type="radio" :id="locale" name="locale" :value="locale" class="hidden">
               <label :for="locale" class="menu-item-link" :class="{ 'active': $i18n.locale === locale }">{{ locale.toUpperCase() }}</label>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
