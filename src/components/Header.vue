@@ -49,7 +49,7 @@
          :class="{ 'active': isMobileMenuOpen }"
          @click="closeAllMenus()">
       <a href="#/" class="menu-item-link logo-link">
-        <img src="/src/assets/images/logo.png" alt="Slovenian Open">
+        <img src="/src/assets/images/logo.svg" alt="Slovenian Open">
         <span>{{ $t('event.name') }}</span>
       </a>
     </div>
