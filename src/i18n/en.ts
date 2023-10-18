@@ -282,7 +282,7 @@ const en = {
   },
   registration: {
     pageTitle: "Registration",
-    opensSoonText: "Registration opens soon.",
+    opensSoonText: "Registration opens in November.",
     registrationInfoText: 'Please read the following <a href="#/terms-and-conditions">Terms and Conditions</a> before registering.',
     loading: "Loading Registration form..."
   },

@@ -18,7 +18,8 @@ export default {
       <h2>{{ $t('event.location') }}</h2>
       <h2>{{ $t('event.date') }}</h2> -->
       <h2 class="margin-0">{{ $t('event.welcomeText') }}</h2>
-      <a href="#/registration" class="btn btn-primary">{{ $t('registration.pageTitle') }}</a>
+      <h2 class="margin-0">{{ $t('registration.opensSoonText') }}</h2>
+      <!-- <a href="#/registration" class="btn btn-primary">{{ $t('registration.pageTitle') }}</a> -->
     </div>
   </section>
   <section>
@@ -51,7 +52,6 @@ export default {
   #landing {
     background-color: var(--light);
     color: var(--dark-1);
-    padding: 1rem 40px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,5 +142,3 @@ export default {
     }
   }
 </style>
-
-<!-- width="560" height="315"  -->
