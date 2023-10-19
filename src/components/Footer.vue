@@ -10,31 +10,48 @@
       <p>{{ $t('contact.text') }}</p>
       <p><a :href="'mailto:' + $t('contact.email')">{{ $t('contact.email') }}</a></p>
     </div>
-    <div class="footer-item">
-      <p>{{ $t('event.name') }}</p>
-      <p>&copy;2023</p>
+    <!-- <div class="footer-item">
+      <p>{{ $t('event.name') }} &copy;2024</p>
+    </div> -->
+    <div class="footer-item flex-container">
+      <a :href="'mailto:' + $t('contact.email')" class="menu-item-link">
+        <font-awesome-icon icon="fa-regular fa-envelope"></font-awesome-icon>
+      </a>
+      <a :href="$t('urls.facebook')" target="_blank" class="menu-item-link">
+        <font-awesome-icon icon="fa-brands fa-facebook-f"></font-awesome-icon>
+      </a>
+      <a :href="$t('urls.instagram')" class="menu-item-link">
+        <font-awesome-icon icon="fa-brands fa-instagram"></font-awesome-icon>
+      </a>
     </div>
+
   </footer>
 </template>
 
 <style scoped>
   #footer {
     width: 100%;
-    padding: 1rem;
+    padding: 3rem 1rem;
     background-color: var(--color-background-alt);
     color: var(--color-text-alt);
+    margin-top: auto;
   }
 
   .footer-item {
     text-align: center;
-    margin: 10px auto;
+    margin: 2rem auto;
   }
 
   .footer-item > p {
     margin-bottom: 0;
   }
 
-  .footer-item > p > a {
-    color: var(--accent-1);
+  .footer-item a {
+    text-decoration: none;
+    color: var(--accent-2);
+  }
+
+  .footer-item.flex-container {
+    gap: 1rem;
   }
 </style>

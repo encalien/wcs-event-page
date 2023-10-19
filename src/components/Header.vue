@@ -159,7 +159,7 @@
     background-color: #fff;
     /* filter: brightness(80%); */
     position: static;
-    z-index: 1;
+    z-index: 2;
     top: 200px;
     display: flex;
     align-items: center;
@@ -276,10 +276,15 @@
     z-index: 2000;
   }
 
-  .dropdown-menu.active, .modal-backdrop.active {
+  .dropdown-menu.active{
+    display: flex;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+  }
+  
+  .modal-backdrop.active {
     display: flex;
   }
-
+  
   .dropdown-menu-item {
     width: 100%;
     margin: 0 auto;
@@ -299,7 +304,7 @@
     top: 0;
     left: 0;
     width: 1.2rem;
-    z-index: 1;
+    z-index: 2;
   }
 
   #localization-menu {
