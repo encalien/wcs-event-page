@@ -359,6 +359,10 @@
     font-size: 0.8rem;
   }
 
+  .dropdown-menu.active{
+    box-shadow: none;
+  }
+
   .active-block {
     display: block;
   }

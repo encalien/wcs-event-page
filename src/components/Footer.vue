@@ -54,4 +54,11 @@
   .footer-item.flex-container {
     gap: 1rem;
   }
+
+  @media screen and (max-width: 650px) {
+    .footer-item.flex-container {
+      flex-direction: row;
+      gap: 1rem;
+    }
+  }
 </style>

@@ -133,8 +133,8 @@ export default {
 
   .active {
     background-color: var(--accent-1);
+    color: var(--white-soft);
   }
-
 
   @media screen and (max-width: 1000px) {
     .pass {
@@ -183,6 +183,11 @@ export default {
   @media screen and (max-width: 650px) {
     .grid-item.grid-mobile {
       grid-template-columns: 2fr 1fr;
+    }
+
+    .pass-card {
+      width: calc(100vw - 2rem);
+      margin: 0 auto;
     }
   }
 </style>

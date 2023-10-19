@@ -172,12 +172,9 @@ export default {
       content: url('/src/assets/images/website_landing_square.png');
     }
 
-    #landing {
-      margin: 0 -1rem;
-    }
-
     .landing-content {
       padding: 1rem 0;
+      margin-top: 1rem;
     }
 
     .video-collage-content {

@@ -33,11 +33,18 @@ export default {
     margin: 2rem auto;
     align-items: center;
   }
-  .flex-reverse {
-    flex-direction: row-reverse;
-  }
 
   img {
     max-width: 400px;
+  }
+
+  @media screen and (max-width: 650px) {
+    img {
+      max-width: calc(100vw - 2rem);
+    }
+
+    .flex-gap {
+      gap: 1rem;
+    }
   }
 </style>

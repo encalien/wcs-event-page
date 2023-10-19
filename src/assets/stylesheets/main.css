@@ -96,6 +96,10 @@ hr {
   flex-basis: 50%;
 }
 
+.flex-reverse {
+  flex-direction: row-reverse;
+}
+
 /* grid */
 .grid-container {
   display: grid;
@@ -195,6 +199,10 @@ hr {
 
   .flex-item {
     padding: 0;
+  }
+
+  .flex-reverse {
+    flex-direction: column;
   }
 
   .dropdown-menu {

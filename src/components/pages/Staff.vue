@@ -52,7 +52,6 @@ export default {
   }
 
   .flex-reverse {
-    flex-direction: row-reverse;
     background-color: var(--accent-1);
   }
 
@@ -70,5 +69,11 @@ export default {
   
   .image {
     flex-basis: 100%;
+  }
+
+  @media screen and (max-width: 650px) {
+    .left, .right {
+      margin: 1rem;
+    }
   }
 </style>
