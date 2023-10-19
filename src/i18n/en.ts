@@ -3,7 +3,17 @@ const en = {
     name: "Slovenian Open",
     location: "Ljubljana",
     date: "19 - 21 April 2024",
-    welcomeText: "Join the fun!",
+    welcomeText: "Join us at our first WSDC trial event in Slovenia!",
+    features: {
+      featureText: "FEATURING",
+      features: [
+        "hotel venue",
+        "4 parties",
+        "3 days of workshops",
+        "26 hours of workshops over 5 levels",
+        "Jack & Jill competitions",
+      ]
+    },
     tba: "To be announced."
   },
   contact: {
@@ -17,7 +27,7 @@ const en = {
   home: {
     pageTitle: "Home",
     aboutWCS: {
-      // title: "West Coast Swing",
+      title: "Get inspired by our Pros",
       // description: [
       //   "West Coast Swing or WCS is a modern partner dance. It evolved from lindy hop in the 1960s on the west coast of America.",
       //   "It is characterized by the elastic movement of the partners, which results from a specific technique of leading and following. The dance places a strong emphasis on the musical expression of both partners and is one of the few dances that encourages free dance improvisation.",
@@ -50,7 +60,7 @@ const en = {
           href: "https://www.youtube.com/watch?v=R2h8UKHc5hs"
         },
         {
-          name: "Ludovic Pelegrin Pardou & Karin Kakun | Teachers Show | Hungarian Open 2023",
+          name: "Ludovic Pelegrin Pardou & Karin Kakun - Teachers Show - Hungarian Open 2023",
           src: "https://img.youtube.com/vi/3kjtBrc81WM/hqdefault.jpg",
           href: "https://www.youtube.com/watch?v=3kjtBrc81WM"
         }
