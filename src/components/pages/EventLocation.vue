@@ -16,17 +16,22 @@ export default {
     <div class="flex-container flex-gap">
       <div class="flex-item margin-0">
         <p v-for="(p, i) in messages.location.venue.description">
-          {{ $t(`location.slovenia.description[${i}]`) }}
+          {{ $t(`location.venue.description[${i}]`) }}
         </p>
         <p class="flex-container flex-container-column">
           <span>{{ $t('location.venue.address.name') }}</span>
           <span>{{ $t('location.venue.address.address') }}</span>
           <span>{{ $t('location.venue.address.zipAndCity') }}</span>
         </p>
-        <p class="margin-0">{{ $t(`location.venue.parkingText`) }}</p>
+        <!-- <p class="margin-0">{{ $t(`location.venue.parkingText`) }}</p> -->
+        <p class="margin-0">{{ $t(`location.venue.bookingText`) }}</p>
       </div>
       <div class="flex-item margin-0">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11069.855323518224!2d14.5136321!3d46.0817312!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476532e8018ac3f7%3A0xfdd77079c72ef36c!2sAustria%20Trend%20Hotel%20Ljubljana!5e0!3m2!1ssl!2ssi!4v1698868699761!5m2!1ssl!2ssi" width="400" height="300" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11069.855323518224!2d14.5136321!3d46.0817312!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476532e8018ac3f7%3A0xfdd77079c72ef36c!2sAustria%20Trend%20Hotel%20Ljubljana!5e0!3m2!1ssl!2ssi!4v1698868699761!5m2!1ssl!2ssi" width="400" height="300" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+        <a :href="$t(`location.venue.links.mapHref`)" target="_blank">
+          <img :src="$t(`location.venue.links.mapSrc`)" 
+               :alt="$t(`location.venue.address.name`)">
+        </a>
       </div>
     </div>
     
@@ -51,6 +56,11 @@ export default {
   .map {
     height: 100%;
     border: none;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
   }
 
   .flex-container-column {

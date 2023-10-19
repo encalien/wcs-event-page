@@ -262,7 +262,7 @@ const en = {
       pageTitle: "Venue",
       description: [
         "Nestled in the heart of Ljubljana, the Austria Trend Hotel offers modern amenities, friendly staff, and a prime location just moments away from the city's vibrant Old Town.",
-        "You can book a double or twin room at the hotel at a discounted price. Each room offers modern amenities, including free Wi-Fi and flat-screen TVs, ensuring a comfortable and enjoyable stay during your time in Ljubljana"
+        "You can book a double or twin room at the hotel at a discounted price. Each room offers modern amenities, ensuring a comfortable and enjoyable stay during your time in Ljubljana."
       ],
       howToGetHere: [
         "The hotel's address is:",
@@ -272,7 +272,8 @@ const en = {
       ],
       links: {
         booking: "",
-        map: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9"
+        mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
+        mapSrc: "/src/assets/images/location_hotel_map.png"
       },
       address: {
         name: "Austria Trend Hotel Ljubljana ****",
@@ -281,7 +282,7 @@ const en = {
         country: "Slovenia",
       },
       parkingText: "Parking info...",
-      publicTransportText: "Public transport info...",
+      bookingText: "Hotel booking link will be provided soon."
     },
     accommodation: {
       title: "Other accommodation options",
