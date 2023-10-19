@@ -47,7 +47,7 @@
   <header id="menu" :class="{ 'shrunk': shrunk }">
     <div class="menu-logo">
       <a href="#/">
-        <img src="/src/assets/images/logo_color_circle.svg" alt="Slovenian Open">
+        <img src="/src/assets/images/logo_color_transparent.png" alt="Slovenian Open">
       </a>
     </div>
     <div class="menu-inner">
@@ -60,7 +60,7 @@
         <div class="menu-small-logo" 
             @click="closeAllMenus()">
           <a href="#/" class="logo-link">
-            <img src="/src/assets/images/logo_color_circle.svg" alt="Slovenian Open">
+            <img src="/src/assets/images/logo_black_transparent.svg" alt="Slovenian Open">
           </a>
         </div>
       </div>
