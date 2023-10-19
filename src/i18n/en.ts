@@ -240,10 +240,22 @@ const en = {
     slovenia: {
       pageTitle: "Slovenia",
       description: [
-        "Hey there, fellow westie! Welcome to Slovenia, a land of boundless beauty, rich culture, and the warmest of welcomes. We can't wait to show you our home and share some dances.",
-        "Ljubljana, our event's lively host city, is more than just a location - it's a city with a soul! Stroll through the charming Old Town, where every cobblestone seems to echo the rhythm of the past. The Ljubljanica River flows gently, inviting you for an evening dance under the stars. Visit Ljubljana Castle and explore its rich heritage, enjoy breathtaking views, and dance on top of the Castle hill to take your perfect instagram video.",
-        "If you've got an extra day to spare, there's a world of natural beauty just a stone throw away. Take a short drive to Lake Bled, a fairytale-like destination with its own island and a castle perched on a cliff. Go for a hike in Triglav National Park, with its majestic mountains and crystal-clear lakes. Descend into the mesmerizing Postojna Caves, an underground wonderland. Visit Piran - take your first (quick) dip in the sea of 2024 and enjoy a relaxing day on the coast.",
-        "Get ready for an adventure that'll leave your heart full of beautiful memories and your feet eager for more dance steps!"
+        {
+          src: "/src/assets/images/slovenia_ljubljana.jpg",
+          alt: "Ljubljana",
+          texts: [
+            "Hey there, fellow westie! Welcome to Slovenia, a land of boundless beauty, rich culture, and the warmest of welcomes. We can't wait to show you our home and share some dances.",
+            "Ljubljana, our event's lively host city, is more than just a location - it's a city with a soul! Stroll through the charming Old Town, where every cobblestone seems to echo the rhythm of the past. The Ljubljanica River flows gently, inviting you for an evening dance under the stars. Visit Ljubljana Castle and explore its rich heritage, enjoy breathtaking views, and dance on top of the Castle hill to take your perfect instagram video."
+          ]
+        },
+        {
+          src: "/src/assets/images/slovenia_bled.jpg",
+          alt: "Bled",
+          texts: [
+            "If you've got an extra day to spare, there's a world of natural beauty just a stone throw away. Take a short drive to Lake Bled, a fairytale-like destination with its own island and a castle perched on a cliff. Go for a hike in Triglav National Park, with its majestic mountains and crystal-clear lakes. Descend into the mesmerizing Postojna Caves, an underground wonderland. Visit Piran - take your first (quick) dip in the sea of 2024 and enjoy a relaxing day on the coast.",
+            "Get ready for an adventure that'll leave your heart full of beautiful memories and your feet eager for more dance steps!"
+          ]
+        }
       ],
     },
     venue: {
