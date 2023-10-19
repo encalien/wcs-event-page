@@ -3,7 +3,7 @@ const en = {
     name: "Slovenian Open",
     location: "Ljubljana",
     date: "19 - 21 April 2024",
-    welcomeText: "Join us at our first WSDC trial event in Slovenia!",
+    welcomeText: "Join us at the first edition of Slovenian Open - WSDC trial event!",
     features: {
       featureText: "FEATURING",
       features: [
@@ -46,7 +46,7 @@ const en = {
         {
           name: 'Attila Pártos & Andrea Pártos - 3rd place Strictly Open - D-TownSwing 2016',
           src: "https://img.youtube.com/vi/zPPV9eIQnOk/hqdefault.jpg",
-          href: "https://youtube.com/watch?v=zPPV9eIQnOk"
+          href: "https://www.youtube.com/watch?v=zPPV9eIQnOk"
         },
         {
           name: "FOWCS 2022 - STRICTLY ADVANCED / ALL-STARS - Savana BARREAU & Joao PARADA - 1st place",

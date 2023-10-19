@@ -13,17 +13,16 @@ export default {
 <template>
   <section id="landing">
     <div class="landing-content">
-      <!-- <h1>{{ $t('event.name') }}</h1>
-      <h2>{{ $t('event.location') }}</h2>
-      <h2>{{ $t('event.date') }}</h2> -->
+      <!-- <h1>{{ $t('event.name') }}</h1> -->
       <h2 class="margin-0">{{ $t('event.welcomeText') }}</h2>
-      <ul class="features-list">
+      <h2 class="important">{{ $t('event.location') }}, {{ $t('event.date') }}</h2>
+      <!-- <ul class="features-list">
         <h2>{{ $t('event.features.featureText') }}</h2>
         <li v-for="(desc, i) in messages.event.features.features">
           {{ $t(`event.features.features[${i}]`) }}
         </li>
-      </ul>
-      <h2 class="registration-info">{{ $t('registration.opensSoonText') }}</h2>
+      </ul> -->
+      <h2>{{ $t('registration.opensSoonText') }}</h2>
       <!-- <a href="#/registration" class="btn btn-primary">{{ $t('registration.pageTitle') }}</a> -->
     </div>
   </section>
@@ -84,6 +83,11 @@ export default {
     font-size: 1.2rem;
   }
 
+  .important {
+    color: var(--accent-2);
+    margin: 1rem 0;
+  }
+
   .registration-info {
     margin: 0;
     color: var(--accent-2);
@@ -106,6 +110,7 @@ export default {
     align-items: center;
     overflow: hidden;
     position: relative;
+    color: var(--white-soft);
   }
   
   .video-collage-content > a > h3 {
