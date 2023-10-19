@@ -17,43 +17,43 @@ const en = {
   home: {
     pageTitle: "Home",
     aboutWCS: {
-      title: "West Coast Swing",
-      description: [
-        "West Coast Swing or WCS is a modern partner dance. It evolved from lindy hop in the 1960s on the west coast of America.",
-        "It is characterized by the elastic movement of the partners, which results from a specific technique of leading and following. The dance places a strong emphasis on the musical expression of both partners and is one of the few dances that encourages free dance improvisation.",
-        "Since it is a relatively new dance, it continues to evolve year after year and stylistically adapts to the music to which it is danced. This is usually pop, hip hop, acoustic music and blues."
-      ],
+      // title: "West Coast Swing",
+      // description: [
+      //   "West Coast Swing or WCS is a modern partner dance. It evolved from lindy hop in the 1960s on the west coast of America.",
+      //   "It is characterized by the elastic movement of the partners, which results from a specific technique of leading and following. The dance places a strong emphasis on the musical expression of both partners and is one of the few dances that encourages free dance improvisation.",
+      //   "Since it is a relatively new dance, it continues to evolve year after year and stylistically adapts to the music to which it is danced. This is usually pop, hip hop, acoustic music and blues."
+      // ],
       yt: [
         {
-          name: "ASC 2022 Open Strictly Finals - Daniil Pavlov (RUS), Marina Motronenko (RUS) - 1st place",
-          src: "https://img.youtube.com/vi/BgOa8O8Icbk/sddefault.jpg",
-          href: "https://youtube.com/watch?v=BgOa8O8Icbk"
+          name: "Ludovic Pelegrin & Karin Kakun - Strictly Open Finals - Budafest 2022",
+          src: "https://img.youtube.com/vi/8vgxDAinHEM/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=8vgxDAinHEM"
         },
         {
-          name: "Daniil Pavlov & Marina Motronenko. Teachers Show. Spring Fever 2022",
-          src: "https://img.youtube.com/vi/5ptwaPqY_I8/sddefault.jpg",
-          href: "https://youtube.com/watch?v=5ptwaPqY_I8"
+          name: "João Parada & Savana Barreau - Classic The Open 2022",
+          src: "https://img.youtube.com/vi/Kt25_VQ9dCg/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=Kt25_VQ9dCg"
         },
         {
-          name: 'Daniil Pavlov & Marina Motronenko "2step" - Strictly Open Finals - Finnfest 2022',
-          src: "https://img.youtube.com/vi/srdar3V3GIM/sddefault.jpg",
-          href: "https://youtube.com/watch?v=srdar3V3GIM"
+          name: 'Attila Pártos & Andrea Pártos - 3rd place Strictly Open - D-TownSwing 2016',
+          src: "https://img.youtube.com/vi/zPPV9eIQnOk/hqdefault.jpg",
+          href: "https://youtube.com/watch?v=zPPV9eIQnOk"
         },
         {
-          name: "Daniil Pavlov & Ani Fuller - 1st place All-Stars Jack&Jill - Baltic Swing 2019",
-          src: "https://img.youtube.com/vi/j2rZNi7f_a4/sddefault.jpg",
-          href: "https://youtube.com/watch?v=j2rZNi7f_a4"
+          name: "FOWCS 2022 - STRICTLY ADVANCED / ALL-STARS - Savana BARREAU & Joao PARADA - 1st place",
+          src: "https://img.youtube.com/vi/waxKAtfhEBc/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=waxKAtfhEBc"
         },
         {
-          name: "Leo Lorenzo & Marina Motronenko - Strictly Open Finals - Budafest 2022",
-          src: "https://img.youtube.com/vi/tAYaLHBZVGI/sddefault.jpg",
-          href: "https://youtube.com/watch?v=tAYaLHBZVGI?t=19"
+          name: "Attila Pártos & Andrea Pártos \"Hol Van Az A Lány\" - ProIntro - Westie Spring Thing 2022",
+          src: "https://img.youtube.com/vi/R2h8UKHc5hs/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=R2h8UKHc5hs"
         },
         {
-          name: "ASC 2022 All-Stars JnJ Finals - Daniil Pavlov (RUS) - Eszter Moricz (HUN) - 1st place",
-          src: "https://img.youtube.com/vi/wuBOzILYxZo/sddefault.jpg",
-          href: "https://youtube.com/watch?v=wuBOzILYxZo"
-        },
+          name: "Ludovic Pelegrin Pardou & Karin Kakun | Teachers Show | Hungarian Open 2023",
+          src: "https://img.youtube.com/vi/3kjtBrc81WM/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=3kjtBrc81WM"
+        }
       ]
     }
   },

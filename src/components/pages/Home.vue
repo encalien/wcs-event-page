@@ -21,10 +21,10 @@ export default {
       <!-- <a href="#/registration" class="btn btn-primary">{{ $t('registration.pageTitle') }}</a> -->
     </div>
   </section>
-  <section>
-    <h1>{{ $t('home.aboutWCS.title') }}</h1>
-    <p v-for="(val, i) in messages.home.aboutWCS.description">{{ $t(`home.aboutWCS.description[${i}]`) }}</p>
-    <div id="video-collage">
+  <section id="video-collage">
+    <!-- <h1>{{ $t('home.aboutWCS.title') }}</h1> -->
+    <!-- <p v-for="(val, i) in messages.home.aboutWCS.description">{{ $t(`home.aboutWCS.description[${i}]`) }}</p> -->
+    <div class="video-collage-content">
       <a v-for="(val, i) in messages.home.aboutWCS.yt"
          :href="$t(`home.aboutWCS.yt[${i}].href`)" 
          target="_blank" 
@@ -56,7 +56,6 @@ export default {
     justify-content: center;
     align-items: center;
     margin: 0 -40px;
-    width: 100vw;
   }
 
   .landing-content {
@@ -66,53 +65,57 @@ export default {
   }
 
   #video-collage {
-    display: grid;
-    grid-gap: 10px;
-    margin-top: 40px;
+    margin: 0 -40px;
   }
 
-  #video-collage > a {
+  .video-collage-content {
+    display: grid;
+    grid-gap: 10px;
+    margin: 40px 0;
+  }
+
+  .video-collage-content > a {
     display: flex;
-    width: calc((100vw - 100px) / 3);
-    height: calc(((100vw - 100px) / 3) * 0.56);
+    width: calc((1200px - 20px) / 3);
+    height: calc(((1200px - 20px) / 3) * 0.56);
     align-items: center;
     overflow: hidden;
   }
 
-  #video-collage > a > img {
+  .video-collage-content > a > img {
     width: 100%;
     height: 135%;
 
   }
 
-  #video-collage > .item-1 {
-    width: calc((100vw - 100px) / 3 * 2 + 10px);
-    height: calc(((100vw - 100px) / 3 * 2 * 0.56) + 10px);
+  .video-collage-content > .item-1 {
+    width: calc((1200px - 20px) / 3 * 2 + 10px);
+    height: calc(((1200px - 20px) / 3 * 2 * 0.56) + 10px);
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
   }
 
-  #video-collage > .item-2 {
+  .video-collage-content > .item-2 {
     grid-column: 3;
     grid-row: 1;
   }
 
-  #video-collage > .item-3 {
+  .video-collage-content > .item-3 {
     grid-column: 3;
     grid-row: 2;
   }
 
-  #video-collage > .item-4 {
+  .video-collage-content > .item-4 {
     grid-column: 1;
     grid-row: 3;
   }
 
-  #video-collage > .item-5 {
+  .video-collage-content > .item-5 {
     grid-column: 2;
     grid-row: 3;
   }
 
-  #video-collage > .item-6 {
+  .video-collage-content > .item-6 {
     grid-column: 3;
     grid-row: 3;
   }
