@@ -23,12 +23,12 @@ export default {
           {{ $t(`event.features.features[${i}]`) }}
         </li>
       </ul>
-      <h2 class="margin-0">{{ $t('registration.opensSoonText') }}</h2>
+      <h2 class="registration-info">{{ $t('registration.opensSoonText') }}</h2>
       <!-- <a href="#/registration" class="btn btn-primary">{{ $t('registration.pageTitle') }}</a> -->
     </div>
   </section>
   <section id="video-collage">
-    <h1>{{ $t('home.aboutWCS.title') }}</h1>
+    <!-- <h1>{{ $t('home.aboutWCS.title') }}</h1> -->
     <!-- <p v-for="(val, i) in messages.home.aboutWCS.description">{{ $t(`home.aboutWCS.description[${i}]`) }}</p> -->
     <div class="video-collage-content">
       <a v-for="(yt, i) in messages.home.aboutWCS.yt"
@@ -56,13 +56,14 @@ export default {
   }
 
   #landing {
-    background-color: var(--light);
-    color: var(--dark-1);
+    background-color: var(--accent-1);
+    width: 100vw;
+    color: var(--white-soft);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 -40px;
+    margin: -40px calc(-50vw + 50%) 0;
   }
 
   .landing-content {
@@ -81,6 +82,11 @@ export default {
   .features-list > li {
     margin: 0.5rem 0;
     font-size: 1.2rem;
+  }
+
+  .registration-info {
+    margin: 0;
+    color: var(--accent-2);
   }
 
   #video-collage {

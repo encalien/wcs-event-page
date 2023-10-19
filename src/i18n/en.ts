@@ -10,7 +10,6 @@ const en = {
         "hotel venue",
         "4 parties",
         "3 days of workshops",
-        "26 hours of workshops over 5 levels",
         "Jack & Jill competitions",
       ]
     },
@@ -27,7 +26,7 @@ const en = {
   home: {
     pageTitle: "Home",
     aboutWCS: {
-      title: "Get inspired by our Pros",
+      // title: "Get inspired by our Pros",
       // description: [
       //   "West Coast Swing or WCS is a modern partner dance. It evolved from lindy hop in the 1960s on the west coast of America.",
       //   "It is characterized by the elastic movement of the partners, which results from a specific technique of leading and following. The dance places a strong emphasis on the musical expression of both partners and is one of the few dances that encourages free dance improvisation.",
