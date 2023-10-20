@@ -173,8 +173,12 @@ export default {
     }
 
     .landing-content {
-      padding: 1rem 0;
+      padding: 1rem;
       margin-top: 1rem;
+    }
+
+    #video-collage {
+      margin: 0;
     }
 
     .video-collage-content {
