@@ -52,6 +52,16 @@ export default {
     window.addEventListener('hashchange', () => {
 		  this.currentPath = window.location.hash
 		})
+  },
+  watch: {
+    currentView() {
+      this.scrollToTop();
+    }
+  },
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    }
   }
 }
 </script>
