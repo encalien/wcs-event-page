@@ -156,13 +156,13 @@ const en = {
       description: [
         "Nous offrirons deux types de pass: Full Pass et Party Pass. Full Pass comprend tous les ateliers, l'accès aux compétitions et aux soirées. Le Party Pass comprend uniquement l'accès aux compétitions et aux soirées.",
         "Pour les nouveaux westies, nous prévoyons un cours Zero to Hero et pour nos danseurs les plus expérimentés, nous proposerons un niveau ADV+.",
-        "Les tarifs seront déterminés en fonction du moment de l'inscription, à condition que les frais soient payés dans les 14 jours suivant l'acceptation de l'inscription, comme présenté dans le tableau ci-dessous.",
+        "Les tarifs seront déterminés en fonction du moment de l'inscription, comme présenté dans le tableau ci-dessous. À condition que le paiement ait été fait dans les 14 jours suivant l'acceptation de l'inscription",
       ],
       passPrices: [
         {
           type: "",
           tiers: ["Super Early Bird", "Early Bird", "Normal Bird", "Late Bird"],
-          includes: ["INCLUDES"],
+          includes: ["COMPRENDS"],
           descriptions: [
             "le jour d'ouverture des inscriptions",
             "jusqu'au 30 Novembre 2023",
@@ -220,16 +220,16 @@ const en = {
           src: "images/slovenia_ljubljana.jpg",
           alt: "Ljubljana",
           texts: [
-            "Dobro jutro, chers/chéres westies! Bienvenue en Slovénie, un pays d'une beauté infinie, d'une culture riche et d'un accueil chaleureux. Nous avons hâte de vous montrer ce pays qui est le nôtre et de partager des danses avec vous.",
-            "Ljubljana, notre charmante ville hôte, est plus qu'un simple lieu - c'est une ville avec une âme! Promenez-vous dans la charmante vieille ville, où chaque pavé semble faire écho au rythme du passé. La rivière Ljubljanica coule doucement, vous invitant à une danse nocturne sous les étoiles. Visitez le château de Ljubljana et explorez son riche patrimoine, profitez de vues à couper le souffle et dansez au sommet de la colline du château pour prendre votre vidéo instagram parfaite.",
+            "Dobro jutro, chers/chéres westies! Bienvenue en Slovénie, un pays d'une beauté infinie, avec une culture riche et chaleureux. Nous avons hâte de vous montrer ce pays qui est le nôtre et de partager des danses avec vous.",
+            "Ljubljana, notre charmante ville hôte, est plus qu'un simple lieu - c'est une ville avec une âme! Promenez-vous dans la charmante vieille ville, où chaque pavé semble faire écho au passé. La rivière Ljubljanica coule paisiblement, vous invitant à danser sous les étoiles. Visitez le château de Ljubljana et explorez son riche patrimoine, profitez de vues à couper le souffle et dansez au sommet de la colline du château pour prendre la parfaite vidéo pour votre Instagram.",
           ],
         },
         {
           src: "images/slovenia_bled.jpg",
           alt: "Bled",
           texts: [
-            "Si vous avez un jour de plus à perdre, il y a un monde de beauté naturelle à deux pas. Faites un court trajet en voiture jusqu'au lac de Bled, une destination de conte de fées avec sa propre île et un château perché sur une falaise. Faites une randonnée dans le parc national du Triglav, avec ses majestueuses montagnes et ses lacs d'une clarté cristalline. Descendez dans les fascinantes grottes de Postojna, un monde souterrain. Visitez Piran - faites votre première (rapide) baignade dans la mer de 2024 et profitez d'une journée de détente sur la côte.",
-            "Soyez prêt pour une aventure qui laissera votre cœur plein de beaux souvenirs et vos pieds impatients de danser encore plus !",
+            "Si vous avez un jour de plus, il y a pleins de lieux merveilleux et naturels à deux pas. Faites un court trajet en voiture jusqu'au lac de Bled, une destination de conte de fées avec sa propre île et un château perché sur une falaise. Faites une randonnée dans le parc national du Triglav, avec ses majestueuses montagnes et ses lacs d'une clarté cristalline. Descendez dans les fascinantes grottes de Postojna, un monde souterrain. Visitez Piran - faites votre première (rapide) baignade dans la mer de 2024 et profitez d'une journée de détente sur la côte.",
+            "Soyez prêt pour une aventure qui laissera votre cœur plein de beaux souvenirs et vos pieds impatients de danser toujours plus !",
           ],
         },
       ],
