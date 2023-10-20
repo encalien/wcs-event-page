@@ -147,7 +147,7 @@ const en = {
       pageTitle: "Schedule",
       description: "This is a preliminary schedule and is subject to change.",
       downloadText: "Download the .pdf file.",
-      src: "/srcimages/files/schedule.pdf"
+      src: "files/schedule.pdf"
     },
     pricing: {
       pageTitle: "Pricing",
