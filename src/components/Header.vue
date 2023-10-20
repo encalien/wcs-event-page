@@ -45,7 +45,7 @@
 
 <template>
   <header id="menu" :class="{ 'shrunk': shrunk }">
-    <div class="menu-logo">
+    <div class="menu-logo" @click="closeAllMenus()">
       <a href="#/">
         <img src="/src/assets/images/logo_color_transparent.png" alt="Slovenian Open">
       </a>
@@ -376,6 +376,10 @@
 
   #mobile-menu-toggle > .menu-item-link {
     width: 1.2rem;
+  }
+
+  #social-icons > .menu-item-link {
+    width: fit-content;
   }
 }
 </style>
