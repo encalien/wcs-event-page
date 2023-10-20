@@ -167,7 +167,7 @@ const en = {
           ],
           includes: ["INCLUDES"],
           descriptions: [
-            "on the first day of registration",
+            "on the day registration opens",
             "until 30 November 2023",
             "until 31 January 2024",
             "from 1 February 2024"

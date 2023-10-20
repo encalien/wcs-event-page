@@ -117,7 +117,7 @@ export default {
 
   .grid-item {
     padding: 0.5rem;
-    height: 4rem;
+    height: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
