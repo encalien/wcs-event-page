@@ -73,7 +73,7 @@ const en = {
       teachers: [
         {
           names: "Karin & Ludovic",
-          src: "/src/assets/images/teachers_karin_ludo.jpg",
+          src: "images/teachers_karin_ludo.jpg",
           description: [
             "Karin Kakun has been dancing her entire life. Holding a university degree in dance, she has taught for over 14 years. She teaches WCS, Hip-Hop, Stretching, and Pole dance. She also choreographs and performs. Before embracing WCS, she was the Israeli salsa champion.",
             "She embarked on her WCS journey in 2014 and from the first moment she fell in love. She now competes in the Champion division and teaches in Israel, where she directs a line of West Coast Swing classes. She actively travels and teaches all around Europe.",
@@ -84,7 +84,7 @@ const en = {
         },
         {
           names: "Savana & João",
-          src: "/src/assets/images/teachers_savana_joao.jpg",
+          src: "images/teachers_savana_joao.jpg",
           description: [
             "Savana began jazz dancing at age 4 and has been devoted ever since. Passionate about dance in general, she has trained in solo, contemporary, classical, and hip hop. She's competed extensively, securing both regional and national prizes, and joined a conservatory during her high school years.",
             "She ventured into rock dance at age 7, swiftly moving on to salsa and, later, West Coast Swing. Very young, she was given the opportunity to teach, where she found joy in connecting and sharing with students. After high school, she chose to specialize in WCS and relocated to Switzerland, where she now lives and works at Jang Widler's dance school.",
@@ -94,7 +94,7 @@ const en = {
         },
         {
           names: "Andrea & Attila",
-          src: "/src/assets/images/teachers_andrea_attila.png",
+          src: "images/teachers_andrea_attila.png",
           description: [
             "Attila and Andrea began their dance career as ballroom dancers. They taught latin and standard dances for many years. After a successful fifteen-year stint, in the possession of numerous championship titles, they chose to take a step back from their active careers following the birth of their first child.",
             "They were never able to part from dancing completely, always yearning to be back on the dancefloor.In 2013, they encountered West Coast Swing and soon became addicted to the genre. Recognising the distinct differences between ballroom and West Coast Swing, this dance became their passion, mostly because of its endless possibilities and freedom. They were unable to let competing go either, so after some years of competing, they both made it to the prestigious All - Star category.",
@@ -147,7 +147,7 @@ const en = {
       pageTitle: "Schedule",
       description: "This is a preliminary schedule and is subject to change.",
       downloadText: "Download the .pdf file.",
-      src: "/src/assets/files/schedule.pdf"
+      src: "/srcimages/files/schedule.pdf"
     },
     pricing: {
       pageTitle: "Pricing",
@@ -241,7 +241,7 @@ const en = {
       pageTitle: "Slovenia",
       description: [
         {
-          src: "/src/assets/images/slovenia_ljubljana.jpg",
+          src: "images/slovenia_ljubljana.jpg",
           alt: "Ljubljana",
           texts: [
             "Hey there, fellow westie! Welcome to Slovenia, a land of boundless beauty, rich culture, and the warmest of welcomes. We can't wait to show you our home and share some dances.",
@@ -249,7 +249,7 @@ const en = {
           ]
         },
         {
-          src: "/src/assets/images/slovenia_bled.jpg",
+          src: "images/slovenia_bled.jpg",
           alt: "Bled",
           texts: [
             "If you've got an extra day to spare, there's a world of natural beauty just a stone throw away. Take a short drive to Lake Bled, a fairytale-like destination with its own island and a castle perched on a cliff. Go for a hike in Triglav National Park, with its majestic mountains and crystal-clear lakes. Descend into the mesmerizing Postojna Caves, an underground wonderland. Visit Piran - take your first (quick) dip in the sea of 2024 and enjoy a relaxing day on the coast.",
@@ -273,7 +273,7 @@ const en = {
       links: {
         booking: "",
         mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
-        mapSrc: "/src/assets/images/location_hotel_map.png"
+        mapSrc: "images/location_hotel_map.png"
       },
       address: {
         name: "Austria Trend Hotel Ljubljana ****",
