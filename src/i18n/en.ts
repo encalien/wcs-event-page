@@ -4,15 +4,39 @@ const en = {
     location: "Ljubljana",
     date: "19 - 21 April 2024",
     welcomeText: "Join us at the first edition of Slovenian Open - WSDC trial event!",
-    features: {
-      featureText: "FEATURING",
-      features: [
-        "hotel venue",
-        "4 parties",
-        "3 days of workshops",
-        "Jack & Jill competitions",
-      ]
-    },
+    readMoreText: "Read more",
+    features: [
+      {
+        title: "Meet",
+        intro: "World-class instructors teaching intensive sessions",
+        href: "#/workshops/teachers",
+        list: [
+          "Karin Kakun & Ludovic Pelegrin",
+          "Savana Barreau & João Parada",
+          "Andrea Pártos & Attila Pártos"
+        ]
+      },
+      {
+        title: "Experience",
+        intro: "Three days of workshops, competitions and parties",
+        href: "#/workshops/schedule",
+        list: [
+          "4 amazing parties",
+          "3 days of leveled workshops",
+          "Jack & Jill competitions",
+        ]
+      },
+      {
+        title: "Explore",
+        intro: "Discover the beauty of Ljubljana",
+        href: "#/location/slovenia",
+        list: [
+          "Historic charm of the Old Town",
+          "Green capital of Europe",
+          "Close to the Alps and the sea"
+        ]
+      }
+    ],
     tba: "To be announced."
   },
   contact: {

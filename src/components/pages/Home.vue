@@ -16,14 +16,20 @@ export default {
       <!-- <h1>{{ $t('event.name') }}</h1> -->
       <h2 class="margin-0">{{ $t('event.welcomeText') }}</h2>
       <h2 class="important">{{ $t('event.location') }}, {{ $t('event.date') }}</h2>
-      <!-- <ul class="features-list">
-        <h2>{{ $t('event.features.featureText') }}</h2>
-        <li v-for="(desc, i) in messages.event.features.features">
-          {{ $t(`event.features.features[${i}]`) }}
-        </li>
-      </ul> -->
       <h2>{{ $t('registration.opensSoonText') }}</h2>
       <!-- <a href="#/registration" class="btn btn-primary">{{ $t('registration.pageTitle') }}</a> -->
+    </div>
+    <div class="features-grid">
+      <transition name="fade" mode="out-in" v-for="(feature, i) in messages.event.features">
+        <a :href="$t(`event.features[${i}].href`)"
+           class="feature-box flex-container flex-container-column">
+          <h3 class="feature-title">{{ $t(`event.features[${i}].title`) }}</h3>
+          <p v-for="(item, j) in feature.list">
+            {{ $t(`event.features[${i}].list[${j}]`) }}
+          </p>
+          <span class="read-more">{{ $t(`event.readMoreText`) }}</span>
+        </a>
+      </transition>
     </div>
   </section>
   <section id="video-collage">
@@ -68,19 +74,7 @@ export default {
   .landing-content {
     flex: 1 0 auto;
     text-align: center;
-    padding: 2rem;
-  }
-
-  .features-list {
-    text-align: center;
-    margin: 2rem 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .features-list > li {
-    margin: 0.5rem 0;
-    font-size: 1.2rem;
+    padding: 2rem 2rem 0;
   }
 
   .important {
@@ -91,6 +85,62 @@ export default {
   .registration-info {
     margin: 0;
     color: var(--accent-2);
+  }
+
+  .features-section {
+    text-align: center;
+  }
+
+  .features-grid {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem 2rem;
+    width: 100%;
+  }
+
+  .feature-box {
+    flex: 1;
+    margin: 20px;
+    padding: 30px;
+    background-color: var(--white-soft);
+    transition: transform 0.3s ease;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .feature-box:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+  }
+
+  .feature-box h3 {
+    color: var(--accent-1);
+    text-transform: uppercase;
+  }
+
+  .feature-box p {
+    color: var(--black-soft);
+    margin: 0 0 0.5rem 0;
+    text-align: center;
+  }
+
+  .read-more {
+    width: fit-content;
+    color: var(--white-soft);
+    background-color: var(--accent-1);
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+  }
+
+  /* Transition styles */
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity 1s;
+  }
+
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
   }
 
   #video-collage {
@@ -167,9 +217,14 @@ export default {
     grid-row: 3;
   }
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1100px) {
     #banner {
       content: url('/src/assets/images/website_landing_square.png');
+    }
+
+    .features-grid {
+      flex-direction: column;
+      justify-content: center;
     }
 
     .landing-content {
