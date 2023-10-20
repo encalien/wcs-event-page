@@ -324,8 +324,8 @@
     display: block;
   }
 
-  .modal-backdrop {
-    top: 0;
+  .modal-backdrop.active {
+    display: none;
   }
 
   .menu-item, .menu-small-logo {
@@ -342,7 +342,7 @@
   .menu-left {
     display: none;
   }
-
+  
   .menu-items {
     flex-wrap: wrap;
   }
