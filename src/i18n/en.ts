@@ -61,13 +61,15 @@ const en = {
     pageTitle: "Workshops",
     staff: {
       pageTitle: "Teachers",
-      teachers: {
-        names: "Daniel & Marina",
-        description: [
-          "Both Marina and Daniel have over a decade of experience teaching dance, but only recently have they began to travel and teach together. Combining different approaches, Marina's charismatic style and Daniel's structured methodology, they aim to create wholesome classes that reach all kinds of students.",
-          "They love west coast swing for its freedom and inclusivity that allows such different dancers to be able to create together and hope to share their passion with you."
-        ]
-      }
+      teachers: [
+        {
+          names: "Daniel & Marina",
+          description: [
+            "Both Marina and Daniel have over a decade of experience teaching dance, but only recently have they began to travel and teach together. Combining different approaches, Marina's charismatic style and Daniel's structured methodology, they aim to create wholesome classes that reach all kinds of students.",
+            "They love west coast swing for its freedom and inclusivity that allows such different dancers to be able to create together and hope to share their passion with you."
+          ]
+        }
+      ]
     },
     level: {
       title: "Level",

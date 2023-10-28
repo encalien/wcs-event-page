@@ -30,24 +30,26 @@ export default {
   components: {
     Header,
     Footer,
-    Home,
-    Staff,
-    Schedule,
-    Pricing,
-    EventLocation,
-    Registration,
-    TermsAndConditions,
-    NotFound
   },
-  computed: {
-    currentView() {
-      return routes[this.currentPath.slice(1) || '/'] || NotFound
+  created() {
+    if (window.location.href.includes('#')) {
+      this.$router.replace(`/en${window.location.href.split('#')[1]}`);
+      return;
+    }
+
+    if (window.location.pathname === "/") {
+      this.$router.replace('/en');
     }
   },
-  mounted() {
-    window.addEventListener('hashchange', () => {
-		  this.currentPath = window.location.hash
-		})
+  watch:{
+    $route() {
+      let lang = typeof(this.$route.params.lang) === 'string' ? this.$route.params.lang : 'en';
+      this.$store.commit('changeLang', lang);
+      this.$i18n.locale = this.$store.state.lang;
+      window.scrollTo(0, 0);
+    }
+  },
+  computed: {
   }
 }
 </script>
@@ -55,7 +57,7 @@ export default {
 <template>
   <Header />
   <main>
-    <component :is="currentView" />
+    <router-view></router-view>
   </main>
   <Footer />
 </template>

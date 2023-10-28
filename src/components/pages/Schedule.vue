@@ -15,20 +15,13 @@ export default {
     <h1>{{ $t('workshops.schedule.pageTitle') }}</h1>
     <p>{{ $t('workshops.schedule.description') }}</p>
 
-    <div id="schedule-table" class="grid-container">
-      <div v-for="(val, i) in messages.workshops.schedule.days" class="grid-container grid-gap">
-        <h3 class="grid-row">{{ $t(`workshops.schedule.days[${i}].title`) }}</h3>
-        <div v-for="(val, j) in messages.workshops.schedule.days[i].items" class="grid-row grid-container">
-          <div class="grid-row mobile-small">{{ $t(`workshops.schedule.days[${i}].items[${j}].time`) }}</div>
-          <div class="grid-row" :class="$t(`workshops.schedule.days[${i}].items[${j}].class`)">
-            {{ $t(`workshops.schedule.days[${i}].items[${j}].topic`) }}<br>
-            <small>{{ $t(`workshops.schedule.days[${i}].items[${j}].description`) }}</small>
-          </div>
-        </div>
-        <!-- <hr> -->
-      </div>
-    </div>
-
+    <p><a download :href="$t('workshops.schedule.pdfSrc')" alt="Schedule">
+      {{ $t('workshops.schedule.downloadText') }}
+    </a></p>
+    
+    <a target="_blank" :href="$t('workshops.schedule.pngSrc')" alt="Schedule">
+      <img :src="'/' + $t('workshops.schedule.pngSrc')">
+    </a>
   </section>  
   <section>
     <h1>{{ $t('workshops.level.title') }}</h1>

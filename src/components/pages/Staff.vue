@@ -13,15 +13,24 @@ export default {
 <template>
   <section>
     <h1>{{ $t('workshops.staff.pageTitle') }}</h1>
-    <div class="flex-container flex-gap">
-      <div class="flex-item flex-basis-100 margin-0">
-        <h2>{{ $t('workshops.staff.teachers.names') }}</h2>
-        <p v-for="(val, i) in messages.workshops.staff.teachers.description">
-          {{ $t(`workshops.staff.teachers.description[${i}]`) }}
-        </p>
-      </div>
-      <div class="flex-item flex-basis-100 margin-0 flex-container flex-container-column">
-        <img src="/src/assets/images/teachers.jpg" :alt="$t('workshops.staff.teachers.names')">
+    <div class="flex-container flex-container-column flex-gap">
+      <div v-for="(teacher, i) in messages.workshops.staff.teachers"
+           class="teacher-card" :class="{'background-accent':  i % 2 == 1}">
+        <h2 class="center-text full-width">{{ $t(`workshops.staff.teachers[${i}].names`) }}</h2>
+        <div class="margin-0 flex-container"
+             :class="{'flex-reverse': i % 2 == 1}">
+          <div class="text" :class="{'left': i % 2 == 0, 'right': i % 2 == 1}">
+            <p v-for="(p, j) in teacher.description">
+              {{ $t(`workshops.staff.teachers[${i}].description[${j}]`) }}
+            </p>
+          </div>
+          <div class="image" :class="{'left': i % 2 == 1, 'right': i % 2 == 0}">
+            <div class="margin-0 flex-container">
+              <img :src="'/' + $t(`workshops.staff.teachers[${i}].src`)" 
+                   :alt="$t(`workshops.staff.teachers[${i}].names`)">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>

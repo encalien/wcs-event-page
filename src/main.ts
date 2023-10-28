@@ -3,6 +3,33 @@ import { createI18n } from 'vue-i18n';
 import App from "./App.vue";
 import en from "./i18n/en";
 import si from "./i18n/si";
+import { createStore } from 'vuex';
+
+// Create a new store instance.
+const store = createStore({
+  state() {
+    return {
+      lang: 'en'
+    }
+  },
+  mutations: {
+    changeLang(state, lang) {
+      state.lang = lang;
+    }
+  }
+})
+
+import Home from "./components/pages/Home.vue";
+import Staff from "./components/pages/Staff.vue";
+import EventLocation from "./components/pages/EventLocation.vue";
+import NotFound from "./components/pages/NotFound.vue";
+import Schedule from "./components/pages/Schedule.vue";
+import Registration from "./components/pages/Registration.vue";
+import Pricing from "./components/pages/Pricing.vue";
+import TermsAndConditions from "./components/pages/TermsAndConditions.vue";
+// import Levels from "./components/pages/Levels.vue";
+
+import { createRouter, createWebHistory } from 'vue-router';
 
 import "./assets/main.css";
 
@@ -25,8 +52,26 @@ const i18n = createI18n({
   // something vue-i18n options here ...
 })
 
+const routes: any = [
+  { path: '/:lang(en|si)/', component: Home, },
+  { path: '/:lang(en|si)/workshops/teachers', component: Staff, },
+  // { path: '/:lang(en|si)/workshops/levels', component: Levels, },
+  { path: '/:lang(en|si)/workshops/schedule', component: Schedule, },
+  { path: '/:lang(en|si)/pricing', component: Pricing, },
+  { path: '/:lang(en|si)/location/venue', component: EventLocation, },
+  //{ path: ':lang(en|si)/registration', component: Registration, },
+  { path: '/:lang(en|si)/terms-and-conditions', component: TermsAndConditions },
+]
+
+const router = createRouter({
+  history: createWebHistory(),
+  routes
+})
+
 const app = createApp(App)
   .component('font-awesome-icon', FontAwesomeIcon)
 
+app.use(router)
+app.use(store)
 app.use(i18n)
 app.mount('#app')
