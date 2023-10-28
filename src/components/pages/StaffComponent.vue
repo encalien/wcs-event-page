@@ -12,7 +12,10 @@ export default {
 
 <template>
   <section>
-    <h1>{{ $t("workshops.staff.pageTitle") }}</h1>
+    <h1>
+      {{ $t("workshops.staff.pageTitle") }}:
+      {{ $t("workshops.staff.teachers.names") }}
+    </h1>
     <div class="flex-container flex-gap">
       <div class="flex-item flex-basis-100 margin-0">
         <h2>{{ $t("workshops.staff.teachers.names") }}</h2>

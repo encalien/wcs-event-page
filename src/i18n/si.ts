@@ -63,6 +63,7 @@ const si = {
       pageTitle: "Učitelja",
       teachers: {
         names: "Daniel in Marina",
+        src: "/src/assets/images/teachers.png",
         description: [
           "Marina in Daniel imata oba za sabo že več kot 10 let profesionalnega poučevanja plesa, a sta šele pred kratkim začela poučevati in potovati skupaj. Vsak s svojim pristopom, Marina s svojim karizmatičnim stilom in Daniel s strukturirano metodologijo, ustvarjata edinstvne tečaje, ki bodo pisani na kožo mnogim učencem.",
           "West coast swing imata rada zaradi svobode, ki jo dopušča, in inkluzivnosti, zaradi katere lahko raznoliki plesalci skupaj ustvarjajo. Upata, da lahko svojo strast do plesa delita tudi s tabo.",
