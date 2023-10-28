@@ -38,6 +38,9 @@
       closeAllMenus: function (): void {
         this.setMobileMenuOpen(false);
         this.toggleDropdownMenu("")
+      },
+      localizationPath(locale : string) {
+        return '/' + this.$route.fullPath.replace(/(\/(en|si))/, locale);
       }
     }
   }
@@ -46,9 +49,9 @@
 <template>
   <header id="menu" :class="{ 'shrunk': shrunk }">
     <div class="menu-logo" @click="closeAllMenus()">
-      <a href="#/">
+      <router-link :to="`/${$store.state.lang}/`">
         <img src="/src/assets/images/logo_color_transparent.png" alt="Slovenian Open">
-      </a>
+      </router-link>
     </div>
     <div class="menu-inner">
       <div class="menu-left">
@@ -59,9 +62,9 @@
         <!-- menu items -->
         <div class="menu-small-logo" 
             @click="closeAllMenus()">
-          <a href="#/" class="logo-link">
+          <router-link :to="`/${$store.state.lang}/`" class="logo-link">
             <img src="/src/assets/images/logo_black_transparent.svg" alt="Slovenian Open">
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="menu-right">
@@ -84,20 +87,20 @@
             <div class="dropdown-menu hidden" 
                 :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
               <div class="dropdown-menu-item" @click="closeAllMenus()">
-                <a href="#/workshops/teachers" class="menu-item-link">{{ $t('workshops.staff.pageTitle') }}</a>
+                <router-link :to="`/${$store.state.lang}/workshops/teachers`" class="menu-item-link">{{ $t('workshops.staff.pageTitle') }}</router-link>
               </div>
               <div class="dropdown-menu-item" @click="closeAllMenus()">
-                <a href="#/workshops/levels" class="menu-item-link">{{ $t('workshops.levels.pageTitle') }}</a>
+                <router-link :to="`/${$store.state.lang}/workshops/levels`" class="menu-item-link">{{ $t('workshops.levels.pageTitle') }}</router-link>
               </div>
               <div class="dropdown-menu-item" @click="closeAllMenus()">
-                <a href="#/workshops/schedule" class="menu-item-link">{{ $t('workshops.schedule.pageTitle') }}</a>
+                <router-link :to="`/${$store.state.lang}/workshops/schedule`" class="menu-item-link">{{ $t('workshops.schedule.pageTitle') }}</router-link>
               </div>
             </div>
           </div>
           <div class="menu-item" 
               :class="{ 'active': isMobileMenuOpen }"
               @click="closeAllMenus()">
-              <a href="#/pricing" class="menu-item-link">{{ $t('workshops.pricing.pageTitle') }}</a>
+              <router-link :to="`/${$store.state.lang}/pricing`" class="menu-item-link">{{ $t('workshops.pricing.pageTitle') }}</router-link>
           </div>
           <div class="menu-item" :class="{ 'active-block': isMobileMenuOpen }">
             <div @click="toggleDropdownMenu($t('location.pageTitle'))" 
@@ -111,17 +114,17 @@
             <div class="dropdown-menu hidden"
                 :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}">
               <div class="dropdown-menu-item" @click="closeAllMenus()">
-                <a href="#/location/venue" class="menu-item-link">{{ $t('location.venue.pageTitle') }}</a>
+                <router-link :to="`/${$store.state.lang}/location/venue`" class="menu-item-link">{{ $t('location.venue.pageTitle') }}</router-link>
               </div>
               <div class="dropdown-menu-item" @click="closeAllMenus()">
-                <a href="#/location/slovenia" class="menu-item-link">{{ $t('location.slovenia.pageTitle') }}</a>
+                <router-link :to="`/${$store.state.lang}/location/slovenia`" class="menu-item-link">{{ $t('location.slovenia.pageTitle') }}</router-link>
               </div>
             </div>
           </div>
           <!-- <div class="menu-item" 
               :class="{ 'active': isMobileMenuOpen }"
               @click="closeAllMenus()">
-            <a href="#/registration" class="menu-item-link">{{ $t('registration.pageTitle') }}</a>
+            <router-link :to="`/${$store.state.lang}/registration`" class="menu-item-link">{{ $t('registration.pageTitle') }}</router-link>
           </div> -->
           <div id="social-icons" 
               class="menu-item flex-container flex-container-row" 
@@ -137,15 +140,16 @@
               <font-awesome-icon icon="fa-brands fa-instagram"></font-awesome-icon>
             </a>
           </div>
-          <!-- <div id="localization-menu" 
+          <div id="localization-menu" 
               class="menu-item"
               :class="{ 'active': isMobileMenuOpen }"
               @click="closeAllMenus()">
             <div v-for="locale in $i18n.availableLocales" :key="locale">
-              <input v-model="$i18n.locale" type="radio" :id="locale" name="locale" :value="locale" class="hidden">
-              <label :for="locale" class="menu-item-link" :class="{ 'active': $i18n.locale === locale }">{{ locale.toUpperCase() }}</label>
+              <router-link :to="localizationPath(locale)" :class="{ 'active': $i18n.locale === locale }" class="menu-item-link">
+                {{ locale.toUpperCase() }}
+              </router-link>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
     </div>
