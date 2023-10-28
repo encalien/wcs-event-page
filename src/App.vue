@@ -13,6 +13,16 @@ export default {
     Header,
     Footer,
   },
+  created() {
+    if (window.location.href.indexOf('#') !== -1) {
+      this.$router.push(`/en${window.location.href.split('#')[1]}`);
+      return;
+    }
+
+    if (!this.$route.params.lang) {
+      this.$router.replace('/en');
+    }
+  },
   watch:{
     $route() {
       let lang = typeof(this.$route.params.lang) === 'string' ? this.$route.params.lang : 'en';
