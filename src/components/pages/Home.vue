@@ -42,10 +42,10 @@ export default {
          rel="noopener noreferrer"
          :class="`item-${i + 1}`">
         <h3>{{ $t(`home.aboutWCS.yt[${i}].name`) }}</h3>
-        <img :src="'/' + $t(`home.aboutWCS.yt[${i}].src`)" />
+        <img :src="$t(`home.aboutWCS.yt[${i}].src`)" />
       </a>
       <!-- <iframe v-for="(val, i) in messages.home.aboutWCS.yt"
-              :src="'/' + $t(`home.aboutWCS.yt[${i}].src`)" 
+              :src="$t(`home.aboutWCS.yt[${i}].src`)" 
               :title="$t(`home.aboutWCS.yt[${i}].name`)" 
               frameborder="0" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen 
