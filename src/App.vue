@@ -17,8 +17,8 @@ export default {
     $route() {
       let lang = typeof(this.$route.params.lang) === 'string' ? this.$route.params.lang : 'en';
       this.$store.commit('changeLang', lang);
-
       this.$i18n.locale = this.$store.state.lang;
+      window.scrollTo(0, 0);
     }
   },
   computed: {
