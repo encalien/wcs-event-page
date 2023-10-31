@@ -233,6 +233,20 @@ const en = {
           extraText: "Free for all dancers competing in Advanced or All Star division! Registration still required for role balance. We might ask you to help out with judging."
         },
         {
+          type: "ADV+ Pass",
+          tiers: [
+            "40",
+            "50",
+            "60",
+            "70"
+          ],
+          includes: [
+            "4 hours of workshops",
+            "entrance during competitions",
+            "entrance fee to Fri, Sat, Sun parties"
+          ]
+        },
+        {
           type: "Zero to Hero",
           tiers: [
             "40",
@@ -243,18 +257,6 @@ const en = {
           includes: [
             "4 hours of workshops",
             "entrance fee to Friday party"
-          ]
-        },
-        {
-          type: "ADV+ Track",
-          tiers: [
-            "40",
-            "50",
-            "60",
-            "70"
-          ],
-          includes: [
-            "4 hours of workshops"
           ]
         }
       ],
