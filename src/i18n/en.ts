@@ -171,7 +171,7 @@ const en = {
       pageTitle: "Schedule",
       description: "This is a preliminary schedule and is subject to change.",
       downloadText: "Download the .pdf file.",
-      pdfSrc: "files/schedule.pdf",
+      pdfSrc: "/files/schedule.pdf",
       pngSrc: "/images/schedule.png"
     },
     pricing: {
@@ -263,7 +263,7 @@ const en = {
       groups: {
         title: "International group discounts",
         description: [
-          `Interested in leading a group? We'd love to hear from you! Please reach out to us via <a target="_blank" href="mailto:info@slovenianopen.dance">email</a> or message us through our <a target="_blank" href="https://www.facebook.com/profile.php?id=61552337725994">Facebook page.</a>`,
+          `Interested in leading a group? We'd love to hear from you! Please reach out to us via <a target="_blank" href="mailto:info{'@'}slovenianopen.dance">email</a> or message us through our <a target="_blank" href="https://www.facebook.com/profile.php?id=61552337725994">Facebook page</a>.`,
           "Here are the group rules:"
         ],
         groupRules: [

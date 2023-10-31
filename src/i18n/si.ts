@@ -148,7 +148,7 @@ const si = {
           title: "Nivo 3",
           descriptionText: [
             "NOVICE z vsaj 1 Novice WSDC točko ali avdicijo",
-            "Na plesišču si suveren_a in lahko uživaš ne glede na to, s kom in na katero glasbo plešeš. Pripravljen_a si na učenje bolj zapletenih vzorcev in konceptov. Še vedno si želiš nadgraditi svojo tehniko, kot tudi svojo glasbenost in povezanost."
+            "Na plesišču si suveren_a in lahko uživaš ne glede na to, s kom in na katero glasbo plešeš. Pripravljen_a si na učenje bolj zapletenih vzorcev in konceptov. Še vedno si želiš nadgraditi svojo tehniko, kot tudi svojo glasbeno izražanje in plesno povezavo."
           ]
         },
         {
@@ -162,7 +162,7 @@ const si = {
           title: "ADV+",
           descriptionText: [
             "ADVANCED / ALL-STAR z vsaj 1 Advanced WSDC točko",
-            "Ta posebni intenzivni program je namenjen samo plesalcem na Advanced in All Star nivoj. Za ta nivo ne bo avdicije, saj pričakujemo, da si svoje spretnosti že dovolj dokazal na tekmovanjih."
+            "Ta posebni intenzivni program je namenjen samo plesalcem na Advanced in All Star nivoj. Za ta nivo ne bo avdicije, saj pričakujemo, da si svoje spretnosti že dovolj dokazal_a na tekmovanjih."
           ]
         },
       ]
@@ -171,7 +171,7 @@ const si = {
       pageTitle: "Urnik",
       description: "To je okvirni urnik in se bo verjetno še kaj spremenil.",
       downloadText: "Prenesi .pdf datoteko.",
-      pdfSrc: "files/schedule.pdf",
+      pdfSrc: "/files/schedule.pdf",
       pngSrc: "/images/schedule.png"
     },
     pricing: {
@@ -271,20 +271,20 @@ const si = {
         "Dvoposteljno sobo v hotelu lahko rezervirate po znižani ceni. Vsaka soba nudi sodobne ugodnosti, ki zagotavljajo udobno in prijetno bivanje med dogodkom.",
         "Parkiranje je možno v garaži hotela ali na enem izmed bližnjih parkirišč oz. parkirnih prostorov.",
         "Do hotela lahko prideš tudi z mestnim avtobusom. Do postaje 'Smelt' pred hotelom vozita liniji 6 in 8."
-      ]
+      ],
+      links: {
+        booking: "",
+        mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
+        mapSrc: "/images/location_hotel_map.png"
+      },
+      address: {
+        name: "Austria Trend Hotel Ljubljana ****",
+        address: "Dunajska cesta 154",
+        zipAndCity: "1000 Ljubljana",
+        country: "Slovenia",
+      },
+      bookingText: "Povezava za rezervacijo sob bo kmalu objavljena."
     },
-    links: {
-      booking: "",
-      mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
-      mapSrc: "/images/location_hotel_map.png"
-    },
-    address: {
-      name: "Austria Trend Hotel Ljubljana ****",
-      address: "Dunajska cesta 154",
-      zipAndCity: "1000 Ljubljana",
-      country: "Slovenia",
-    },
-    bookingText: "Povezava za rezervacijo sob bo kmalu objavljena."
   },
   registration: {
     pageTitle: "Registracija",

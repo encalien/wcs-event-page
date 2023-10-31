@@ -63,15 +63,6 @@ const routes: any = [
   { path: '/:lang(en|si)/location/venue', component: EventLocation, },
   //{ path: ':lang(en|si)/registration', component: Registration, },
   { path: '/:lang(en|si)/terms-and-conditions', component: TermsAndConditions },
-  { path: '/', component: Home, },
-  { path: '/workshops/teachers', component: Staff, },
-  { path: '/workshops/levels', component: Levels, },
-  { path: '/workshops/schedule', component: Schedule, },
-  { path: '/pricing', component: Pricing, },
-  { path: '/location/slovenia', component: Slovenia, },
-  { path: '/location/venue', component: EventLocation, },
-  //{ path: '/registration', component: Registration, },
-  { path: '/terms-and-conditions', component: TermsAndConditions }
 ]
 
 const router = createRouter({
