@@ -161,8 +161,8 @@ const en = {
         {
           title: "ADV+",
           descriptionText: [
-            "ADVANCED / ALL-STAR with at least 30 Intermediate WSDC points",
-            "This special track is intended only for Advanced and All Star dancers. There will be no audition for this level, as we expect you have proven your skills enough in competitions. Workshops will be challenging, and fast paced."
+            "ADVANCED / ALL-STAR with at least 1 Advanced WSDC point",
+            "This special track is intended only for Advanced and All Star dancers. There will be no audition for this level, as we expect you have proven your skills enough in competitions."
           ]
         },
       ],
@@ -261,7 +261,7 @@ const en = {
         }
       ],
       groups: {
-        title: "Group discounts",
+        title: "International group discounts",
         description: [
           `Interested in leading a group? We'd love to hear from you! Please reach out to us via <a target="_blank" href="mailto:info@slovenianopen.dance">email</a> or message us through our <a target="_blank" href="https://www.facebook.com/profile.php?id=61552337725994">Facebook page.</a>`,
           "Here are the group rules:"
@@ -305,7 +305,7 @@ const en = {
     venue: {
       pageTitle: "Venue",
       description: [
-        "Nestled in the heart of Ljubljana, the Austria Trend Hotel offers modern amenities, friendly staff, and a prime location just moments away from the city's vibrant Old Town.",
+        "Nestled in the heart of Ljubljana, the Austria Trend Hotel offers modern rooms, friendly staff, and a prime location just moments away from the city's vibrant Old Town.",
         "You can book a double or twin room at the hotel at a discounted price. Each room offers modern amenities, ensuring a comfortable and enjoyable stay during your time in Ljubljana."
       ],
       howToGetHere: {

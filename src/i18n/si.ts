@@ -1,248 +1,300 @@
 const si = {
   event: {
-    name: "West Coast SPRING",
+    name: "Slovenian Open",
     location: "Ljubljana",
-    date: "5. - 7. maj 2023",
-    welcomeText: "Pridruži se!",
-    tba: "Več informacij kmalu."
+    date: "19. - 21. april 2024",
+    welcomeText: "Pridruži se nam na prvem Slovenian Open festivalu - WSDC trial!",
+    readMoreText: "Preberi več",
+    features: [
+      {
+        title: "Spoznaj",
+        intro: "Svetovno znane inštruktorje na intenzivnih delavnicah",
+        href: "workshops/teachers",
+        list: [
+          "Karin Kakun & Ludovic Pelegrin",
+          "Savana Barreau & João Parada",
+          "Andrea Pártos & Attila Pártos"
+        ]
+      },
+      {
+        title: "Doživi",
+        intro: "Tri dni delavnic, tekmovanj in plesnih večerov",
+        href: "workshops/schedule",
+        list: [
+          "4 fantastične zabave",
+          "3 dni delavnic za vse ravni",
+          "Jack & Jill tekmovanja",
+        ]
+      },
+      {
+        title: "Razišči",
+        intro: "Odkrij lepote Ljubljane",
+        href: "location/slovenia",
+        list: [
+          "Čar starega mestnega jedra",
+          "Zelena prestolnica Evrope",
+          "Blizu Alp in morja"
+        ]
+      }
+    ],
+    tba: "Več informacij sledi."
   },
   contact: {
-    text: "Za vsa vprašanja smo na voljo preko elektronske pošte:",
-    email: "wcsslo.wixsite{'@'}gmail.com"
+    text: "Če imaš kakršna koli vprašanja, nam lahko pišeš na email:",
+    email: "info{'@'}slovenianopen.dance"
   },
   urls: {
-    facebook: "https://www.facebook.com/events/892661502160068",
-    instagram: ""
+    facebook: "https://www.facebook.com/events/819650556370760",
+    instagram: "https://www.instagram.com/slovenian_open_wcs"
   },
   home: {
-    pageTitle: "Domov",
+    pageTitle: "Home",
     aboutWCS: {
-      title: "West Coast Swing",
-      description: [
-        "West Coast Swing ali WCS je sodoben ples v paru. Razvil se je iz lindy hop-a v 60. letih 20. stoletja na zahodni obali Amerike.",
-        "Zanj je značilno elastično gibanje partnerjev, ki izhaja iz specifične tehnike vodenja in sledenja. Izrazit poudarek daje na glasbeno izražanje obeh partnerjev in je eden redkih plesov, ki spodbuja prosto plesno improvizacijo.",
-        "Ker je relativno nov ples, se iz leta v leto še vedno razvija in stilno prilagaja glasbi, na katero se pleše. Običajno je to največkrat pop, hip hop, akustična glasba in blues."
-      ],
+      // title: "Get inspired by our Pros",
+      // description: [
+      //   "West Coast Swing or WCS is a modern partner dance. It evolved from lindy hop in the 1960s on the west coast of America.",
+      //   "It is characterized by the elastic movement of the partners, which results from a specific technique of leading and following. The dance places a strong emphasis on the musical expression of both partners and is one of the few dances that encourages free dance improvisation.",
+      //   "Since it is a relatively new dance, it continues to evolve year after year and stylistically adapts to the music to which it is danced. This is usually pop, hip hop, acoustic music and blues."
+      // ],
       yt: [
         {
-          name: "ASC 2022 Open Strictly Finals - Daniil Pavlov (RUS), Marina Motronenko (RUS) - 1st place",
-          src: "https://img.youtube.com/vi/BgOa8O8Icbk/sddefault.jpg",
-          href: "https://youtube.com/watch?v=BgOa8O8Icbk"
+          name: "Ludovic Pelegrin & Karin Kakun - Strictly Open Finals - Budafest 2022",
+          src: "https://img.youtube.com/vi/8vgxDAinHEM/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=8vgxDAinHEM"
         },
         {
-          name: "Daniil Pavlov & Marina Motronenko. Teachers Show. Spring Fever 2022",
-          src: "https://img.youtube.com/vi/5ptwaPqY_I8/sddefault.jpg",
-          href: "https://youtube.com/watch?v=5ptwaPqY_I8"
+          name: "João Parada & Savana Barreau - Classic The Open 2022",
+          src: "https://img.youtube.com/vi/Kt25_VQ9dCg/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=Kt25_VQ9dCg"
         },
         {
-          name: 'Daniil Pavlov & Marina Motronenko "2step" - Strictly Open Finals - Finnfest 2022',
-          src: "https://img.youtube.com/vi/srdar3V3GIM/sddefault.jpg",
-          href: "https://youtube.com/watch?v=srdar3V3GIM"
+          name: 'Attila Pártos & Andrea Pártos - 3rd place Strictly Open - D-TownSwing 2016',
+          src: "https://img.youtube.com/vi/zPPV9eIQnOk/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=zPPV9eIQnOk"
         },
         {
-          name: "Daniil Pavlov & Ani Fuller - 1st place All-Stars Jack&Jill - Baltic Swing 2019",
-          src: "https://img.youtube.com/vi/j2rZNi7f_a4/sddefault.jpg",
-          href: "https://youtube.com/watch?v=j2rZNi7f_a4"
+          name: "FOWCS 2022 - STRICTLY ADVANCED / ALL-STARS - Savana BARREAU & Joao PARADA - 1st place",
+          src: "https://img.youtube.com/vi/waxKAtfhEBc/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=waxKAtfhEBc"
         },
         {
-          name: "Leo Lorenzo & Marina Motronenko - Strictly Open Finals - Budafest 2022",
-          src: "https://img.youtube.com/vi/tAYaLHBZVGI/sddefault.jpg",
-          href: "https://youtube.com/watch?v=tAYaLHBZVGI?t=19"
+          name: "Attila Pártos & Andrea Pártos \"Hol Van Az A Lány\" - ProIntro - Westie Spring Thing 2022",
+          src: "https://img.youtube.com/vi/R2h8UKHc5hs/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=R2h8UKHc5hs"
         },
         {
-          name: "ASC 2022 All-Stars JnJ Finals - Daniil Pavlov (RUS) - Eszter Moricz (HUN) - 1st place",
-          src: "https://img.youtube.com/vi/wuBOzILYxZo/sddefault.jpg",
-          href: "https://youtube.com/watch?v=wuBOzILYxZo"
-        },
+          name: "Ludovic Pelegrin Pardou & Karin Kakun - Teachers Show - Hungarian Open 2023",
+          src: "https://img.youtube.com/vi/3kjtBrc81WM/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=3kjtBrc81WM"
+        }
       ]
     }
   },
   workshops: {
     pageTitle: "Delavnice",
     staff: {
-      pageTitle: "Učitelja",
-      teachers: {
-        names: "Daniel in Marina",
-        description: [
-          "Marina in Daniel imata oba za sabo že več kot 10 let profesionalnega poučevanja plesa, a sta šele pred kratkim začela poučevati in potovati skupaj. Vsak s svojim pristopom, Marina s svojim karizmatičnim stilom in Daniel s strukturirano metodologijo, ustvarjata edinstvne tečaje, ki bodo pisani na kožo mnogim učencem.",
-          "West coast swing imata rada zaradi svobode, ki jo dopušča, in inkluzivnosti, zaradi katere lahko raznoliki plesalci skupaj ustvarjajo. Upata, da lahko svojo strast do plesa delita tudi s tabo."
-        ]
-      }
-    },
-    level: {
-      title: "Zahtevnostna stopnja",
-      descriptionText: [
-        "Delavnice bodo potekale na naprednem - nadaljevalnem nivoju. Vsebina ne bo primerna za popolne začetnike, udeleženci morajo poznati vsaj osnovne figure (sugar push, side pass, whip) in biti seznanjeni z osnovnimi koncepti vodenja in sledenja.",
-        "Tekom vikenda bo težavnost delavnic progresivno naraščala, delavnice v nedeljo bodo potekale torej na višjem nivoju kot delavnice v soboto."
-      ]
-    },
-    schedule: {
-      pageTitle: "Program",
-      description: "Program je okviren in se lahko še spremeni.",
-      days: [
+      pageTitle: "Inštruktorji",
+      teachers: [
         {
-          title: "Petek, 5. maj",
-          items: [
-            {
-              time: "20.00 - 21.00",
-              topic: "Back to Basics z Aleksandro",
-              description: "Vstopnina vključena v ceno vseh paketov in vstopnino petkove zabave.",
-              class: "class"
-            },
-            {
-              time: "20.00 - 01.00",
-              topic: "Zabava",
-              description: "Vstopnina vključena v ceno vstopnice Vikend paket ali Večerni paket.",
-              class: "party"
-            }
+          names: "Karin & Ludovic",
+          src: "/images/teachers_karin_ludo.jpg",
+          description: [
+            "Karin Kakun pleše že celo življenje. Z univerzitetno diplomo iz plesa ima za seboj več kot 14 let učenja plesa. Poučuje WCS, hip hop, raztezanje in ples ob drogu. Poleg tega tudi koreografira in nastopa. Preden se je posvetila WCS, je bila izraelska prvakinja v salsi.",
+            "Svojo pot v WCS je začela leta 2014 in se že takrat popolnoma zaljubila v ta ples. Zdaj tekmuje v Champion kategoriji in poučuje v Izraelu, kjer vodi skupino tečajev west coast swinga. Redno potuje in poučuje po vsej Evropi.",
+            "Ludovic Pelegrin je začel plesati pri 10 letih, ko se je naučil rock'n'rolla. Njegova plesna pot je inovativna in raznolika, saj obsega stile, kot so lindy hop, balboa, charleston, akrobatski rock'n'roll, salsa, boogie woogie in step. Od leta 2009 poučuje rock'n'roll, lindy hop in charleston.",
+            "Njegova ljubezen do swinga ga je leta 2010 pripeljala do WCS. Z vse večjim navdušenjem je obiskoval delavnice po svetu in se učil od najboljših inštruktorjev. Prav tako sodeluje na številnih tekmovanjih, kjer redno dosega mesta med prvimi tremi.",
+            "Poganja ga želja po deljenju svoje strasti in pomoči drugim pri odkrivanju WCS, zato je začel poučevati WCS leta 2011. Po tem, ko je prispeval k širjenju WCS v Franciji, zdaj vodi delavnice po vsej Evropi. Njegove raznolike plesne veščine so mu prinesle sloves odličnega poznavalca glasbe, strukturiranega in jasnega učenja ter velike radodarnosti."
           ]
         },
         {
-          title: "Sobota, 6. maj",
-          items: [
-            {
-              time: "12.00 - 13.00",
-              topic: "Delavnica",
-              description: "",
-              class: "class"
-            },
-            {
-              time: "13.15 - 14.15",
-              topic: "Delavnica",
-              description: "",
-              class: "class"
-            },
-            {
-              time: "",
-              topic: "Odmor za kosilo",
-              description: "",
-              class: "break"
-            },
-            {
-              time: "15.30 - 16.30",
-              topic: "Delavnica",
-              description: "",
-              class: "class"
-            },
-            {
-              time: "20.00 - 03.00",
-              topic: "Zabava",
-              description: "Vstopnina vključena v ceno vseh paketov.",
-              class: "party"
-            }
+          names: "Savana & João",
+          src: "/images/teachers_savana_joao.jpg",
+          description: [
+            "Savana je začela plesati jazz pri štirih letih in je temu posvečena od takrat naprej. Strastna ljubiteljica plesa na splošno se je izobraževala v solo plesih kot so sodobni ples in hip hop. Sodelovala je na številnih tekmovanjih, kjer je osvajala regionalne in nacionalne nagrade, in se med srednjo šolo pridružila konservatoriju.",
+            "Pri sedmih letih se je podala v svet plesov v paru, nato pa hitro prešla na salso in kasneje na west coast swing. Zelo mlada je dobila priložnost za poučevanje, kjer je našla veselje v povezovanju in deljenju z učenci. Po srednji šoli se je odločila specializirati za WCS in se preselila v Švico, kjer zdaj živi in dela v plesni šoli Janga Widlerja.",
+            "João je začel plesati pri osmih letih v skupini nemških ljudskih plesov v južni Braziliji. Do leta 2006 se je razširil na različne druge sloge, kot so zouk, salsa, forro, samba de Gafiera in argentinski tango. Ples je postal pomemben del njegovega življenja in tedensko je namenil številne ure profesionalnemu usposabljanju.",
+            "Leta 2011 je João začel poučevati in leta 2012 se je prvič srečal z West Coast Swing. V ta ples se je hitro zaljubil in iskal priložnosti za izobraževanje, udeleževal se je dogodkov tako v Braziliji kot v tujini. Leta 2014 je začel poučevati WCS v Braziliji. Danes ga s strastjo poučuje tako v Švici kot na različnih evropskih dogodkih."
           ]
         },
         {
-          title: "Nedelja, 7. maj",
-          items: [
-            {
-              time: "12.00 - 13.00",
-              topic: "Delavnica",
-              description: "",
-              class: "class"
-            },
-            {
-              time: "13.15 - 14.15",
-              topic: "Delavnica",
-              description: "",
-              class: "class"
-            },
-            {
-              time: "14:30 - 16:00",
-              topic: "Westie kosilo",
-              description: "",
-              class: "break"
-            }
+          names: "Andrea & Attila",
+          src: "/images/teachers_andrea_attila.png",
+          description: [
+            "Attila in Andrea sta svojo plesno kariero začela kot plesalca standardnih in latinskoameriških plesov. Veliko let sta poučevala te plesne zvrsti in v tem času osvojila številne prvenstvene naslove. Po rojstvu prvega otroka sta se odločila za odmik od aktivne kariere, a plesa nista mogla povsem opustiti in sta vedno hrepenela po vrnitvi na plesišče.",
+            "Leta 2013 sta odkrila West Coast Swing in kmalu postala zasvojena s tem plesnim stilom. Zaradi izrazitih razlik med standardnimi plesi in West Coast Swing, sta v tem plesu našla svojo strast, predvsem zaradi njegovih neskončnih možnosti in svobode. Tekmovanja nista mogla povsem opustiti, tako da sta po nekaj letih tekmovanja oba dosegla prestižno kategorijo All-Star.",
+            "Danes Attila in Andrea širita svojo globoko ljubezen do west coast swinga tako, da ponujata tečaje tako na Madžarskem kot v tujini. Ne glede na to, ali gre za skupinske tečaje ali zasebne ure, je njuna misija deliti svoje obsežno znanje in globoko strast. Za njiju je ples del vsakdanjega življenja."
           ]
         }
       ]
     },
-    pricing: {
-      pageTitle: "Cenik",
-      description: [
-        "Na tem dogodku bodo vstopnice na voljo v treh cenovnih razredih.",
-        "Najnižja cena velja za prvih 10 prijavljenih (ne glede na vrsto vstopnice), srednja za naslednjih 20 in najvišja za vse ostale. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr, cena večernega paketa pa za 5 evr."
-      ],
-      priceTier: "Zadnja cena",
-      passes: [
+    levels: {
+      pageTitle: "Nivoji",
+      levels: [
         {
-          title: "Vikend paket",
-          price: "80 evr",
-          includes: [
-            "6 ur delavnic",
-            "vstopnina za obe zabavi"
+          title: "Zero to Hero",
+          descriptionText: [
+            "NEWCOMER brez WSDC točk",
+            "Če še nikoli nisi poskusil_a west coast swinga, ali pa si ga spoznal_a le na hitro, je ta nivo kot nalašč zate. Začeli bomo od čiste osnove in te pripravili, da boš lahko užival_a na svoji prvi west coast swing zabavi. Pridruži se nam in odkrij čar tega plesa!"
           ]
         },
         {
-          title: "Sobotni paket",
-          price: "60 evr",
-          includes: [
-            "3 ure delavnic v soboto",
-            "vstopnina za sobotno zabavo"
+          title: "Nivo 2",
+          descriptionText: [
+            "NOVICE brez WSDC točk",
+            "Osnovne ritme in koncepte west coast swing že poznaš, a se na plesišču še ne počutiš domače. Želiš si izboljšati svojo tehniko in se naučiti novih figur. Pridruži se nam na poti do plesnega uspeha!"
           ]
         },
         {
-          title: "Večerni paket",
-          price: "25 evr",
-          includes: [
-            "vstopnina za obe zabavi"
+          title: "Nivo 3",
+          descriptionText: [
+            "NOVICE z vsaj 1 Novice WSDC točko ali avdicijo",
+            "Na plesišču si suveren_a in lahko uživaš ne glede na to, s kom in na katero glasbo plešeš. Pripravljen_a si na učenje bolj zapletenih vzorcev in konceptov. Še vedno si želiš nadgraditi svojo tehniko, kot tudi svojo glasbenost in povezanost."
+          ]
+        },
+        {
+          title: "Nivo 4",
+          descriptionText: [
+            "INTERMEDIATE z vsaj 16 Novice WSDC točkami ali avdicijo",
+            "Na plesišču si doma. Tvoja tehnika je dobra, pri plesu se glasbeno izražaš in z veseljem improviziraš s svojimi partnerji. Pripravljen_a si najti svoj lasten stil in raziskovati napredne koncepte."
+          ]
+        },
+        {
+          title: "ADV+",
+          descriptionText: [
+            "ADVANCED / ALL-STAR z vsaj 1 Advanced WSDC točko",
+            "Ta posebni intenzivni program je namenjen samo plesalcem na Advanced in All Star nivoj. Za ta nivo ne bo avdicije, saj pričakujemo, da si svoje spretnosti že dovolj dokazal na tekmovanjih."
           ]
         },
       ]
-    }
+    },
+    schedule: {
+      pageTitle: "Urnik",
+      description: "To je okvirni urnik in se bo verjetno še kaj spremenil.",
+      downloadText: "Prenesi .pdf datoteko.",
+      pdfSrc: "files/schedule.pdf",
+      pngSrc: "/images/schedule.png"
+    },
+    pricing: {
+      pageTitle: "Cenik",
+      description: [
+        "Ponujamo dve vrsti vstopnic: Full Pass in Party Pass. Full Pass vključuje vse delavnice, dostop do tekmovanj in zabav. Party Pass vključuje dostop samo do tekmovanj in zabav.",
+        "Za naše najnovejše westieje smo pripravili intenzivne delavnice 'Zero to Hero', za najbolj izkušene plesalce pa poseben intenzivni program ADV+.",
+        "Cene bodo določene glede na čas prijave, pod pogojem, da je plačilo izvedeno v 14 dneh od sprejetja prijave, kot je prikazano v spodnji tabeli."
+      ],
+      passPrices: [
+        {
+          type: "",
+          tiers: [
+            "Super zgodnja cena",
+            "Zgodnja cena",
+            "Običajna cena",
+            "Pozna cena"
+          ],
+          includes: ["VKLJUČUJE"],
+          descriptions: [
+            "na dan odprtja prijav",
+            "do 10. decembra 2023",
+            "do 18. februarja 2024",
+            "od 19. februarja 2024"
+          ],
+          dates: [
+            { from: "2023-11-07", to: "2023-11-08" },
+            { from: "2023-11-08", to: "2023-12-11" },
+            { from: "2023-12-11", to: "2024-02-19" },
+            { from: "2024-02-19", to: "2024-04-22" },
+          ]
+        },
+        {
+          type: "Full Pass",
+          tiers: [
+            "120",
+            "130",
+            "140",
+            "150"
+          ],
+          includes: [
+            "6 ur delavnic",
+            "vstop med tekmovanji",
+            "vstopnina za zabave v petek, soboto in nedeljo"
+          ]
+        },
+        {
+          type: "Party Pass",
+          tiers: [
+            "80",
+            "90",
+            "100",
+            "110"
+          ],
+          includes: [
+            "vstop med tekmovanji",
+            "vstopnina za zabave v petek, soboto in nedeljo"
+          ],
+          extraText: "Brezplačno za vse plesalce, ki tekmujejo v kategoriji Advanced ali All Star! Prijava je še vedno obvezna zaradi uravnoteženja vlog. Morda vas bomo prosili za pomoč pri sojenju tekmovanj."
+        },
+        {
+          type: "ADV+ paket",
+          tiers: [
+            "40",
+            "50",
+            "60",
+            "70"
+          ],
+          includes: [
+            "4 ure delavnic",
+            "vstop med tekmovanji",
+            "vstopnina za zabave v petek, soboto in nedeljo"
+          ]
+        },
+        {
+          type: "Zero to Hero",
+          tiers: [
+            "40",
+            "50",
+            "60",
+            "70"
+          ],
+          includes: [
+            "4 ure delavnic",
+            "vstopnina za petkovo zabavo"
+          ]
+        }
+      ],
+    },
   },
   location: {
     pageTitle: "Lokacija",
     venue: {
-      locationText: "Delavnice bodo potekale v plesni šoli Studio Dansa, na naslovu:",
-      address: {
-        name: "Studio Dansa",
-        address: "Vilharjeva cesta 3",
-        zipAndCity: "1000 Ljubljana",
-        country: "Slovenia"
-      },
-      parkingText: "Parkiranje je možno na večih plačljivih parkiriščih v bližini, najbližje parkirišče je na Vilharjevi nasproti plesne šole. Parkirate lahko tudi na javnih obcestnih parkirnih površinah, kjer se med vikendom parkirnina zaračuna običajno samo v soboto dopoldne.",
-      accessText: "Dostop je okrog stavbe, ne tam, kjer je vhod v plesno šolo. Od najbližjega parkirišča zgleda nekako takole:"
-    },
-    hotel: {
-      title: "Prenočišča",
-      suggestionsText: [
-        "V bližini je več hotelov, hostlov, apartmajev in airbnb, odvisno od vašega proračuna in storitev.",
-        "Tukaj je nekaj predlogov hotelov, razvrščenih po razdalji do prizorišča:"
-      ],
-      list: [
-        {
-          name: "Intercontinental *****",
-          distance: "5 min hoje",
-          url: "https://www.booking.com/Share-aDpENI"
-        },
-        {
-          name: "Central hotel ***",
-          distance: "10 min hoje",
-          url: "https://www.booking.com/Share-heW9iDT"
-        },
-        {
-          name: "City hotel **",
-          distance: "13 min hoje",
-          url: "https://www.booking.com/Share-f8UiHw"
-        },
-        {
-          name: "Park ***",
-          distance: "15 min hoje",
-          url: "https://www.booking.com/Share-cQFt8l"
-        },
+      pageTitle: "Prizorišče",
+      description: [
+        "Festival bo potekal v Austria Trend Hotelu za Bežigradom. Hotel nudi moderne sobe, prijazno osebje in odlično lokacijo, vse to le lučaj stran od živahnega starega mestnega jedra.",
+        "Dvoposteljno sobo v hotelu lahko rezervirate po znižani ceni. Vsaka soba nudi sodobne ugodnosti, ki zagotavljajo udobno in prijetno bivanje med dogodkom.",
+        "Parkiranje je možno v garaži hotela ali na enem izmed bližnjih parkirišč oz. parkirnih prostorov.",
+        "Do hotela lahko prideš tudi z mestnim avtobusom. Do postaje 'Smelt' pred hotelom vozita liniji 6 in 8."
       ]
-    }
+    },
+    links: {
+      booking: "",
+      mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
+      mapSrc: "/images/location_hotel_map.png"
+    },
+    address: {
+      name: "Austria Trend Hotel Ljubljana ****",
+      address: "Dunajska cesta 154",
+      zipAndCity: "1000 Ljubljana",
+      country: "Slovenia",
+    },
+    bookingText: "Povezava za rezervacijo sob bo kmalu objavljena."
   },
   registration: {
     pageTitle: "Registracija",
-    opensSoonText: "Registracija se odpre kmalu.",
-    registrationInfoText: 'Pred prijavo preberi <a href="#/terms-and-conditions">Pravila in pogoje sodelovanja</a>.',
-    loading: "Nalaganje obrazca..."
+    opensSoonText: "Registracija se odpre 7. novembra 2023.",
+    registrationInfoText: 'Prosimo, preberite naslednje <a target="_blank" href="terms-and-conditions">Pogoje uporabe</a> pred registracijo.',
+    loading: "Nalaganje obrazca za registracijo..."
   },
   notFound: {
     pageTitle: "Stran ne obstaja",
-    description: `Strani, ki jo iščeš, nismo mogli prikazati. Preveri, da je URL pravilno vpisan, ali se <a href="/">vrni na prvo stran</a>.`
+    description: `Strani, ki jo iščeš, nismo mogli najti. Preveri, če je vnešen pravilen URL ali <a target="_blank" href="/">se vrni na domačo stran</a>.`
   },
   termsAndConditions: {
     pageTitle: "Pravila in pogoji sodelovanja",

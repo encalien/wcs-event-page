@@ -23,7 +23,6 @@ export default {
           <span>{{ $t('location.venue.address.address') }}</span>
           <span>{{ $t('location.venue.address.zipAndCity') }}</span>
         </p>
-        <!-- <p class="margin-0">{{ $t(`location.venue.parkingText`) }}</p> -->
         <p class="margin-0">{{ $t(`location.venue.bookingText`) }}</p>
       </div>
       <div class="flex-item margin-0">
@@ -39,7 +38,7 @@ export default {
     <!-- <img src="/src/assets/images/studio_dansa_entrance.jpg" alt="Entrance to Studio Dansa"> -->
   </section>
 
-  <section id="how-to-get-here">
+  <section v-if="$store.state.lang !== 'si'" id="how-to-get-here">
     <h1>{{ $t('location.venue.howToGetHere.title') }}</h1>
     <div class="flex-container flex-gap">
       <div class="flex-item margin-0">

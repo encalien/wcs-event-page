@@ -77,7 +77,7 @@
         <div class="menu-items">
           <div class="menu-item" :class="{ 'active-block': isMobileMenuOpen }">
             <div @click="toggleDropdownMenu($t('workshops.pageTitle'))" 
-                class="menu-item-link" 
+                class="menu-item-link dropdown-header" 
                 :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
               {{ $t('workshops.pageTitle') }}
             </div>
@@ -100,11 +100,11 @@
           <div class="menu-item" 
               :class="{ 'active': isMobileMenuOpen }"
               @click="closeAllMenus()">
-              <router-link :to="`/${$store.state.lang}/pricing`" class="menu-item-link">{{ $t('workshops.pricing.pageTitle') }}</router-link>
+              <router-link :to="`/${$store.state.lang}/pricing`" class="menu-item-link dropdown-header">{{ $t('workshops.pricing.pageTitle') }}</router-link>
           </div>
           <div class="menu-item" :class="{ 'active-block': isMobileMenuOpen }">
             <div @click="toggleDropdownMenu($t('location.pageTitle'))" 
-                class="menu-item-link" 
+                class="menu-item-link dropdown-header" 
                 :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}">
               {{ $t('location.pageTitle') }}
             </div>
@@ -116,7 +116,7 @@
               <div class="dropdown-menu-item" @click="closeAllMenus()">
                 <router-link :to="`/${$store.state.lang}/location/venue`" class="menu-item-link">{{ $t('location.venue.pageTitle') }}</router-link>
               </div>
-              <div class="dropdown-menu-item" @click="closeAllMenus()">
+              <div v-if="$store.state.lang !== 'si'" class="dropdown-menu-item" @click="closeAllMenus()">
                 <router-link :to="`/${$store.state.lang}/location/slovenia`" class="menu-item-link">{{ $t('location.slovenia.pageTitle') }}</router-link>
               </div>
             </div>
@@ -236,6 +236,10 @@
     color: var(--color-text-accent);
     filter: brightness(100%);
     cursor: pointer;
+  }
+
+  .menu-item-link.dropdown-header {
+    padding: 1rem 2rem;
   }
 
   .logo-link {
