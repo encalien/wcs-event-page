@@ -26,7 +26,7 @@ export default {
           </div>
           <div class="image" :class="{'left': i % 2 == 1, 'right': i % 2 == 0}">
             <div class="margin-0 flex-container">
-              <img :src="$t(`workshops.staff.teachers[${i}].src`)" 
+              <img :src="'/' + $t(`workshops.staff.teachers[${i}].src`)" 
                    :alt="$t(`workshops.staff.teachers[${i}].names`)">
             </div>
           </div>
