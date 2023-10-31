@@ -178,7 +178,7 @@ const en = {
       pageTitle: "Pricing",
       description: [
         "We will offer two types of event passes: Full Pass and Party Pass. Full Pass includes all workshops, access to competitions and parties. Party Pass includes only access to competitions and parties.",
-        "For our newest westies we plan to have a Zero to Hero course and for our most experienced dancers, we will offer a separate ADV+ track.",
+        "For our newest westies we plan to have a Zero to Hero course and for our most experienced dancers, we will offer a separate ADV+ intensive track.",
         "Price tiers will be determined based on the time of registration, provided the fee is paid within 14 days of registration acceptance as presented in below table."
       ],
       passPrices: [
@@ -260,6 +260,23 @@ const en = {
           ]
         }
       ],
+      groups: {
+        title: "Group discounts",
+        description: [
+          `Interested in leading a group? We'd love to hear from you! Please reach out to us via <a target="_blank" href="mailto:info@slovenianopen.dance">email</a> or message us through our <a target="_blank" href="https://www.facebook.com/profile.php?id=61552337725994">Facebook page.</a>`,
+          "Here are the group rules:"
+        ],
+        groupRules: [
+          "discounts don't sum up - only regular Full Pass holders count as group members and are eligible for discount,",
+          "a group must consist of at least 10 dancers committed to attending the event,",
+          "a group must be role balanced with a minimum ratio of 2 leaders to every 3 followers,",
+          "ideally, group members should all hail from the same dance community, area, or country,",
+          "all group members receive a 10% discount on their pass, while the group leader enjoys a 50% discount,",
+          "discounts are applied at the time of registration based on the current price tier,",
+          "group leaders will receive a unique code, which their group members must use when registering,",
+          "if the group doesn't reach 10 members at the time of event, the group is disbanded and the participants will be asked to pay the discounted amount on site.",
+        ]
+      }
     }
   },
   location: {
@@ -299,48 +316,48 @@ const en = {
             description: [
               "Ljubljana is conveniently located within a 5-hour drive from major cities in surrounding countries such as Budapest, Vienna, Graz, Munich, Milan, and Zagreb.",
               "If you're driving, the hotel provides a parking garage. Additionally, there are several parking lots nearby. Pariking is also possible on the smaller streets around the hotel, and those parking spots are usually for free over the weekend.",
-              `Please remember that a vignette is required for driving on Slovenian highways. You can purchase it online <a href="https://evinjeta.dars.si/en">here</a> or at any highway entry point.`
+              `Please remember that a vignette is required for driving on Slovenian highways. You can purchase it online <a target="_blank" href="https://evinjeta.dars.si/en">here</a> or at any highway entry point.`
             ],
           },
           {
             title: "By bus or train",
             description: [
-              `Arriving by inter-city bus or train brings you to the <a href="https://www.ap-ljubljana.si/en">Main Bus Station</a> or <a href="https://potniski.sz.si/en/abroad">Main Railway Station</a> respectively. Both are located next to each other in the central part of the city. From there, you can take city bus lines 6 or 8 to the "Smelt" stop near the hotel, or opt for a taxi.`,
-              `To use the city bus, you need to use the Urbana transport card system. The easiest way is via their mobile app, which allows you to pay with credit cards. You can download the app from <a href="https://play.google.com/store/apps/details?id=com.margento.urbanaplus">Google Play</a> or <a href="https://apps.apple.com/us/app/urbana/id1608543324">App Store</a>. Alternatively, you can purchase and top up a physical card. A bus ride costs 1.30 euros, valid for 90 minutes.`,
-              `For taxis, we recommend calling or ordering online from companies like <a href="http://www.taximetro.si/?page_id=335">Metro</a>, <a href="https://www.taxi-laguna.com/">Laguna</a>, or <a href="https://cammeo.hr/en">Cammeo</a>. Note that we don't have Uber or similar services and that flagged down taxis are usually more expensive. While payment can typically be made with card or cash, cash is more reliable.`
+              `Arriving by inter-city bus or train brings you to the <a target="_blank" href="https://www.ap-ljubljana.si/en">Main Bus Station</a> or <a target="_blank" href="https://potniski.sz.si/en/abroad">Main Railway Station</a> respectively. Both are located next to each other in the central part of the city. From there, you can take city bus lines 6 or 8 to the "Smelt" stop near the hotel, or opt for a taxi.`,
+              `To use the city bus, you need to use the Urbana transport card system. The easiest way is via their mobile app, which allows you to pay with credit cards. You can download the app from <a target="_blank" href="https://play.google.com/store/apps/details?id=com.margento.urbanaplus">Google Play</a> or <a target="_blank" href="https://apps.apple.com/us/app/urbana/id1608543324">App Store</a>. Alternatively, you can purchase and top up a physical card. A bus ride costs 1.30 euros, valid for 90 minutes.`,
+              `For taxis, we recommend calling or ordering online from companies like <a target="_blank" href="http://www.taximetro.si/?page_id=335">Metro</a>, <a target="_blank" href="https://www.taxi-laguna.com/">Laguna</a>, or <a target="_blank" href="https://cammeo.hr/en">Cammeo</a>. Note that we don't have Uber or similar services and that flagged down taxis are usually more expensive. While payment can typically be made with card or cash, cash is more reliable.`
             ],
           },
           {
             title: "By plane",
             description: [
-              `The closest international airport is <a href="https://www.lju-airport.si/en/transport/">Ljubljana Jože Pučnik Airport</a>, approximately 25 kilometers from the venue. Buses run to the main bus station, or you can pre-arrange an airport shuttle using the <a href="http://goopti.com/en/">GoOpti</a> service.`,
+              `The closest international airport is <a target="_blank" href="https://www.lju-airport.si/en/transport/">Ljubljana Jože Pučnik Airport</a>, approximately 25 kilometers from the venue. Buses run to the main bus station, or you can pre-arrange an airport shuttle using the <a target="_blank" href="http://goopti.com/en/">GoOpti</a> service.`,
               "Given Slovenia's compact size, you might also consider flying into a nearby country. Here are some alternative nearby airports, potentially offering cheaper flights:"
             ],
             airports: [
               {
                 name: "Zagreb Franjo Tuđman Airport - Croatia",
                 distance: "153 km",
-                access: `Zagreb Airport is one of the closest airports, and is easily accessible from Ljubljana by bus or shuttle service. You can find more info about transport options <a href="https://www.zagreb-airport.hr/en/passengers/to-from-the-airport/35">here</a>.`
+                access: `Zagreb Airport is one of the closest airports, and is easily accessible from Ljubljana by bus or shuttle service. You can find more info about transport options <a target="_blank" href="https://www.zagreb-airport.hr/en/passengers/to-from-the-airport/35">here</a>.`
               },
               {
                 name: "Venice Marco Polo Airport - Italy",
                 distance: "233 km",
-                access: `You can travel from Marco Polo Airport to Ljubljana via Goopti shuttle, bus, or train. Transport details are available <a href="https://www.veneziaairport.it/en/transport/ljubljana.html">here</a>.`
+                access: `You can travel from Marco Polo Airport to Ljubljana via Goopti shuttle, bus, or train. Transport details are available <a target="_blank" href="https://www.veneziaairport.it/en/transport/ljubljana.html">here</a>.`
               },
               {
                 name: "Venice Treviso Airport - Italy",
                 distance: "230 km",
-                access: `From Venice Treviso Airport you can take a regular inter-city bus or train line from Venice to Ljubljana, but the most convenient option is likely <a href="https://www.goopti.com/en/">GoOpti transfers</a>.`
+                access: `From Venice Treviso Airport you can take a regular inter-city bus or train line from Venice to Ljubljana, but the most convenient option is likely <a target="_blank" href="https://www.goopti.com/en/">GoOpti transfers</a>.`
               },
               {
                 name: "Klagenfurt Airport - Austria",
                 distance: "134 km",
-                access: `Klagenfurt Airport is a small airport, but if you can find a good flight connection there, it's the closest one. While it is possible to take a bus from Klagenfurt through Villach to Ljubljana, we recommend using a shuttle service like <a href="https://www.goopti.com/en/">GoOpti transfers</a>.`
+                access: `Klagenfurt Airport is a small airport, but if you can find a good flight connection there, it's the closest one. While it is possible to take a bus from Klagenfurt through Villach to Ljubljana, we recommend using a shuttle service like <a target="_blank" href="https://www.goopti.com/en/">GoOpti transfers</a>.`
               },
               {
                 name: "Graz Airport - Austria",
                 distance: "183 km",
-                access: `From Graz Airport, regular inter-city buses and trains, as well as shuttle services like <a href="https://www.goopti.com/en/">GoOpti transfers</a>, are available to Ljubljana.`
+                access: `From Graz Airport, regular inter-city buses and trains, as well as shuttle services like <a target="_blank" href="https://www.goopti.com/en/">GoOpti transfers</a>, are available to Ljubljana.`
               },
             ],
           },
@@ -392,12 +409,12 @@ const en = {
   registration: {
     pageTitle: "Registration",
     opensSoonText: "Registration opens on 7 November 2023.",
-    registrationInfoText: 'Please read the following <a href="#/terms-and-conditions">Terms and Conditions</a> before registering.',
+    registrationInfoText: 'Please read the following <a target="_blank" href="#/terms-and-conditions">Terms and Conditions</a> before registering.',
     loading: "Loading Registration form..."
   },
   notFound: {
     pageTitle: "Page not found",
-    description: `We could not find the page you were looking for. Please make sure you have typed the correct URL or <a href="/">navigate back to home page<a>.`
+    description: `We could not find the page you were looking for. Please make sure you have typed the correct URL or <a target="_blank" href="/">navigate back to home page<a>.`
   },
   termsAndConditions: {
     pageTitle: "Terms and Conditions",
