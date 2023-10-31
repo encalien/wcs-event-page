@@ -38,6 +38,27 @@ export default {
     <!-- <p>{{ $t(`location.venue.accessText`) }}</p> -->
     <!-- <img src="/src/assets/images/studio_dansa_entrance.jpg" alt="Entrance to Studio Dansa"> -->
   </section>
+
+  <section id="how-to-get-here">
+    <h1>{{ $t('location.venue.howToGetHere.title') }}</h1>
+    <div class="flex-container flex-gap">
+      <div class="flex-item margin-0">
+        <div v-for="(option, i) in messages.location.venue.howToGetHere.options">
+          <h3>{{ $t(`location.venue.howToGetHere.options[${i}].title`) }}</h3>
+          <p v-for="(p, j) in option.description"
+             v-html="$t(`location.venue.howToGetHere.options[${i}].description[${j}]`)">
+          </p>
+          <ul v-if="option.airports">
+            <li v-for="(airport, j) in option.airports">
+              <span class="bold">{{ $t(`location.venue.howToGetHere.options[${i}].airports[${j}].name`) }}</span>
+              - {{ $t(`location.venue.howToGetHere.options[${i}].airports[${j}].distance`) }}<br>
+              <span v-html="$t(`location.venue.howToGetHere.options[${i}].airports[${j}].access`)"></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- <section>
     <h1>{{ $t('location.accommodation.title') }}</h1>
     <p v-for="(val, i) in messages.location.accommodation.description">
@@ -61,6 +82,10 @@ export default {
   img {
     height: 100%;
     width: 100%;
+  }
+
+  li {
+    margin-bottom: 1rem;
   }
 
   .flex-container-column {

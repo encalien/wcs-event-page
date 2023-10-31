@@ -289,12 +289,61 @@ const en = {
         "Nestled in the heart of Ljubljana, the Austria Trend Hotel offers modern amenities, friendly staff, and a prime location just moments away from the city's vibrant Old Town.",
         "You can book a double or twin room at the hotel at a discounted price. Each room offers modern amenities, ensuring a comfortable and enjoyable stay during your time in Ljubljana."
       ],
-      howToGetHere: [
-        "The hotel's address is:",
-        "If you're arriving by plane, Ljubljana Jože Pučnik Airport is the nearest international airport, located approximately 25 kilometers from the hotel. You can hop on a bus that takes you to Ljubljana main bus station or arrange for airport transfers using one of the below providers.",
-        "Arriving by train or inter-city bus your end stop would be Ljubljana's main railway / bus station. From there you can reach the hotel by bus (lines 6 or 8), or get a taxi.",
-        "If you're arriving by car, the hotel offers parking garage, but there are also several parking lots nearby. Don't forget that you need a vignette to drive on slovenian highways."
-      ],
+      howToGetHere: {
+        title: "How to get here",
+        options: [
+          {
+            title: "By car",
+            description: [
+              "Ljubljana is conveniently located within a 5-hour drive from major cities in surrounding countries such as Budapest, Vienna, Graz, Munich, Milan, and Zagreb.",
+              "If you're driving, the hotel provides a parking garage. Additionally, there are several parking lots nearby. Pariking is also possible on the smaller streets around the hotel, and those parking spots are usually for free over the weekend.",
+              `Please remember that a vignette is required for driving on Slovenian highways. You can purchase it online <a href="https://evinjeta.dars.si/en">here</a> or at any highway entry point.`
+            ],
+          },
+          {
+            title: "By bus or train",
+            description: [
+              `Arriving by inter-city bus or train brings you to the <a href="https://www.ap-ljubljana.si/en">Main Bus Station</a> or <a href="https://potniski.sz.si/en/abroad">Main Railway Station</a> respectively. Both are located next to each other in the central part of the city. From there, you can take city bus lines 6 or 8 to the "Smelt" stop near the hotel, or opt for a taxi.`,
+              `To use the city bus, you need to use the Urbana transport card system. The easiest way is via their mobile app, which allows you to pay with credit cards. You can download the app from <a href="https://play.google.com/store/apps/details?id=com.margento.urbanaplus">Google Play</a> or <a href="https://apps.apple.com/us/app/urbana/id1608543324">App Store</a>. Alternatively, you can purchase and top up a physical card. A bus ride costs 1.30 euros, valid for 90 minutes.`,
+              `For taxis, we recommend calling or ordering online from companies like <a href="http://www.taximetro.si/?page_id=335">Metro</a>, <a href="https://www.taxi-laguna.com/">Laguna</a>, or <a href="https://cammeo.hr/en">Cammeo</a>. Note that we don't have Uber or similar services and that flagged down taxis are usually more expensive. While payment can typically be made with card or cash, cash is more reliable.`
+            ],
+          },
+          {
+            title: "By plane",
+            description: [
+              `The closest international airport is <a href="https://www.lju-airport.si/en/transport/">Ljubljana Jože Pučnik Airport</a>, approximately 25 kilometers from the venue. Buses run to the main bus station, or you can pre-arrange an airport shuttle using the <a href="http://goopti.com/en/">GoOpti</a> service.`,
+              "Given Slovenia's compact size, you might also consider flying into a nearby country. Here are some alternative nearby airports, potentially offering cheaper flights:"
+            ],
+            airports: [
+              {
+                name: "Zagreb Franjo Tuđman Airport - Croatia",
+                distance: "153 km",
+                access: `Zagreb Airport is one of the closest airports, and is easily accessible from Ljubljana by bus or shuttle service. You can find more info about transport options <a href="https://www.zagreb-airport.hr/en/passengers/to-from-the-airport/35">here</a>.`
+              },
+              {
+                name: "Venice Marco Polo Airport - Italy",
+                distance: "233 km",
+                access: `You can travel from Marco Polo Airport to Ljubljana via Goopti shuttle, bus, or train. Transport details are available <a href="https://www.veneziaairport.it/en/transport/ljubljana.html">here</a>.`
+              },
+              {
+                name: "Venice Treviso Airport - Italy",
+                distance: "230 km",
+                access: `From Venice Treviso Airport you can take a regular inter-city bus or train line from Venice to Ljubljana, but the most convenient option is likely <a href="https://www.goopti.com/en/">GoOpti transfers</a>.`
+              },
+              {
+                name: "Klagenfurt Airport - Austria",
+                distance: "134 km",
+                access: `Klagenfurt Airport is a small airport, but if you can find a good flight connection there, it's the closest one. While it is possible to take a bus from Klagenfurt through Villach to Ljubljana, we recommend using a shuttle service like <a href="https://www.goopti.com/en/">GoOpti transfers</a>.`
+              },
+              {
+                name: "Graz Airport - Austria",
+                distance: "183 km",
+                access: `From Graz Airport, regular inter-city buses and trains, as well as shuttle services like <a href="https://www.goopti.com/en/">GoOpti transfers</a>, are available to Ljubljana.`
+              },
+            ],
+          },
+        ]
+      },
       links: {
         booking: "",
         mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
@@ -306,7 +355,6 @@ const en = {
         zipAndCity: "1000 Ljubljana",
         country: "Slovenia",
       },
-      parkingText: "Parking info...",
       bookingText: "Hotel booking link will be provided soon."
     },
     accommodation: {
