@@ -227,6 +227,10 @@ export default {
       justify-content: center;
     }
 
+    .feature-box {
+      margin: 20px 0;
+    }
+
     .landing-content {
       padding: 1rem;
       margin-top: 1rem;
