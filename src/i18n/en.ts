@@ -391,7 +391,7 @@ const en = {
   },
   registration: {
     pageTitle: "Registration",
-    opensSoonText: "Registration opens in November.",
+    opensSoonText: "Registration opens on 7 November 2023.",
     registrationInfoText: 'Please read the following <a href="#/terms-and-conditions">Terms and Conditions</a> before registering.',
     loading: "Loading Registration form..."
   },
