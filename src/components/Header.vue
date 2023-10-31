@@ -141,7 +141,7 @@
             </a>
           </div>
           <div id="localization-menu" 
-              class="menu-item"
+              class="menu-item flex-container flex-container-row"
               :class="{ 'active': isMobileMenuOpen }"
               @click="closeAllMenus()">
             <div v-for="locale in $i18n.availableLocales" :key="locale">
@@ -169,6 +169,7 @@
     align-items: center;
     justify-content: space-between;
     box-shadow: 0px -3px 10px 0px rgba(0,0,0,0.75);
+    padding: 0 2rem;
   }
 
   #menu.shrunk {

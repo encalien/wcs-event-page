@@ -21,14 +21,14 @@ export default {
     </div>
     <div class="features-grid">
       <transition name="fade" mode="out-in" v-for="(feature, i) in messages.event.features">
-        <a :href="$t(`event.features[${i}].href`)"
-           class="feature-box flex-container flex-container-column">
+        <router-link :to="`/${$store.state.lang}/` + $t(`event.features[${i}].href`)"
+                     class="feature-box flex-container flex-container-column">
           <h3 class="feature-title">{{ $t(`event.features[${i}].title`) }}</h3>
           <p v-for="(item, j) in feature.list">
             {{ $t(`event.features[${i}].list[${j}]`) }}
           </p>
           <span class="read-more">{{ $t(`event.readMoreText`) }}</span>
-        </a>
+        </router-link>
       </transition>
     </div>
   </section>

@@ -20,7 +20,7 @@ export default {
     </a></p>
     
     <a target="_blank" :href="$t('workshops.schedule.pngSrc')" alt="Schedule">
-      <img :src="'/' + $t('workshops.schedule.pngSrc')">
+      <img :src="$t('workshops.schedule.pngSrc')">
     </a>
   </section>  
 </template>

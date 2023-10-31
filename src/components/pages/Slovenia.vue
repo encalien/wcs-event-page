@@ -20,7 +20,7 @@ export default {
           <div>
             <p v-for="(text, j) in desc.texts" :key="`desc${j}`">{{ $t(`location.slovenia.description[${i}].texts[${j}]`) }}</p>
           </div>
-          <img :src="'/' + $t(`location.slovenia.description[${i}].src`)" 
+          <img :src="$t(`location.slovenia.description[${i}].src`)" 
                :alt="$t(`location.slovenia.description[${i}].alt`)">
         </div>
       </div>
