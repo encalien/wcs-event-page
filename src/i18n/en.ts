@@ -193,15 +193,15 @@ const en = {
           includes: ["INCLUDES"],
           descriptions: [
             "on the day registration opens",
-            "until 30 November 2023",
-            "until 31 January 2024",
-            "from 1 February 2024"
+            "until 10 December 2023",
+            "until 18 February 2024",
+            "from 19 February 2024"
           ],
           dates: [
-            { from: "2023-11-01", to: "2023-11-02" },
-            { from: "2023-11-02", to: "2023-12-01" },
-            { from: "2023-12-01", to: "2024-02-01" },
-            { from: "2024-02-01", to: "2024-04-22" },
+            { from: "2023-11-07", to: "2023-11-08" },
+            { from: "2023-11-08", to: "2023-12-11" },
+            { from: "2023-12-11", to: "2024-02-19" },
+            { from: "2024-02-19", to: "2024-04-22" },
           ]
         },
         {
