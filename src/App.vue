@@ -14,12 +14,12 @@ export default {
     Footer,
   },
   created() {
-    if (window.location.href.indexOf('#') !== -1) {
-      this.$router.push(`/en${window.location.href.split('#')[1]}`);
+    if (window.location.href.includes('#')) {
+      this.$router.replace(`/en${window.location.href.split('#')[1]}`);
       return;
     }
 
-    if (!this.$route.params.lang) {
+    if (window.location.pathname === "/") {
       this.$router.replace('/en');
     }
   },
