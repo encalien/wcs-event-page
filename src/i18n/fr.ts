@@ -99,7 +99,7 @@ const fr = {
       teachers: [
         {
           names: "Karin & Ludovic",
-          src: "images/teachers_karin_ludo.jpg",
+          src: "/images/teachers_karin_ludo.jpg",
           description: [
             "Karin Kakun danse depuis toujours. Titulaire d'une licence en danse, elle enseigne depuis plus de 14 ans. Elle enseigne le WCS, le Hip-Hop, le Stretching et la pole dance. Elle chorégraphie et se produit également. Avant d'embrasser le WCS, elle était championne israélienne de salsa.",
             "Elle a commencé son parcours WCS en 2014 et dès le premier instant, elle est tombée amoureuse de cette danse. Elle voyage et enseigne activement dans toute l'Europe.",
@@ -110,7 +110,7 @@ const fr = {
         },
         {
           names: "Savana & João",
-          src: "images/teachers_savana_joao.jpg",
+          src: "/images/teachers_savana_joao.jpg",
           description: [
             "Savana a commencé à danser le jazz à l'âge de 4 ans et y est restée fidèle depuis. Passionnée de danse en général, elle s'est formée en solo, contemporain, classique et hip hop. Elle a participé à de nombreux concours, remportant des prix régionaux et nationaux, et a rejoint le conservatoire pendant ses années de lycée.",
             "Elle s'est aventurée dans la danse rock à l'âge de 7 ans, passant rapidement à la salsa et, plus tard, au West Coast Swing. Très jeune, elle a eu l'occasion d'enseigner, où elle a trouvé la joie de se connecter et de partager avec les élèves. Après le lycée, elle a choisi de se spécialiser dans le WCS et a déménagé en Suisse, où elle vit et travaille à l'école de danse de Jang Widler.",
@@ -120,7 +120,7 @@ const fr = {
         },
         {
           names: "Andrea & Attila",
-          src: "images/teachers_andrea_attila.png",
+          src: "/images/teachers_andrea_attila.png",
           description: [
             "Attila et Andrea ont commencé leur carrière de danseurs de salon. Ils ont enseigné les danses latines et standard pendant de nombreuses années. Après une carrière de quinze ans couronné de succès, en possession de nombreux titres de champion, ils ont choisi de faire une pause après la naissance de leur premier enfant.",
             "Ils n'ont jamais pu se séparer complètement de la danse, toujours désireux de revenir sur la piste de danse. En 2013, ils ont rencontré le West Coast Swing et sont rapidement devenus accros au genre. Remarquant les différences entre le ballroom et le West Coast Swing, cette danse est devenue leur passion, principalement en raison de ses possibilités infinies et de sa liberté. Ils n'ont pas pu non plus abandonner la compétition, alors après quelques années de compétition, ils ont tous deux atteint la prestigieuse catégorie All-Star.",
@@ -174,7 +174,7 @@ const fr = {
       description:
         "Ceci est un planning préliminaire et est sujet à changement.",
       downloadText: "Télécharger le fichier .pdf.",
-      src: "files/schedule.pdf",
+      src: "/files/schedule.pdf",
     },
     pricing: {
       pageTitle: "Tarifs",
@@ -264,7 +264,7 @@ const fr = {
       pageTitle: "Slovènie",
       description: [
         {
-          src: "images/slovenia_ljubljana.jpg",
+          src: "/images/slovenia_ljubljana.jpg",
           alt: "Ljubljana",
           texts: [
             "Dobro jutro, chers/chéres westies! Bienvenue en Slovénie, un pays d'une beauté infinie, avec une culture riche et chaleureux. Nous avons hâte de vous montrer ce pays qui est le nôtre et de partager des danses avec vous.",
@@ -272,7 +272,7 @@ const fr = {
           ],
         },
         {
-          src: "images/slovenia_bled.jpg",
+          src: "/images/slovenia_bled.jpg",
           alt: "Bled",
           texts: [
             "Si vous avez un jour de plus, il y a pleins de lieux merveilleux et naturels à deux pas. Faites un court trajet en voiture jusqu'au lac de Bled, une destination de conte de fées avec sa propre île et un château perché sur une falaise. Faites une randonnée dans le parc national du Triglav, avec ses majestueuses montagnes et ses lacs d'une clarté cristalline. Descendez dans les fascinantes grottes de Postojna, un monde souterrain. Visitez Piran - faites votre première (rapide) baignade dans la mer de 2024 et profitez d'une journée de détente sur la côte.",
@@ -345,7 +345,7 @@ const fr = {
       links: {
         booking: "",
         mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
-        mapSrc: "images/location_hotel_map.png",
+        mapSrc: "/images/location_hotel_map.png",
       },
       address: {
         name: "Austria Trend Hotel Ljubljana ****",
@@ -393,6 +393,7 @@ const fr = {
     registrationInfoText:
       'Merci de lire les <a href="#/terms-and-conditions">régles et conditions</a> avant de vous inscrire.',
     loading: "Chargement du formulaire d'inscription...",
+    registerNow: "Inscription",
   },
   notFound: {
     pageTitle: "Page non trouvée",

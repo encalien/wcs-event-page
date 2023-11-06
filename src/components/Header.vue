@@ -40,7 +40,7 @@
         this.toggleDropdownMenu("")
       },
       localizationPath(locale : string) {
-        return '/' + this.$route.fullPath.replace(/(\/(en|si))/, locale);
+        return '/' + this.$route.fullPath.replace(/(\/(en|si|fr))/, locale);
       }
     }
   }
