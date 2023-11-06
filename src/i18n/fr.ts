@@ -221,7 +221,7 @@ const fr = {
             "Gratuit pour tous les danseurs qui concourent dans la division Advanced ou All Star! L'inscription est toujours requise pour l'équilibre des rôles. Nous pourrons vous demander de nous aider à juger les compétitions.",
         },
         {
-          type: "ADV+ Pass",
+          type: "ADV+ Full Pass",
           tiers: ["40", "50", "60", "70"],
           includes: [
             "4 heures de workshops",
