@@ -215,7 +215,7 @@ const si = {
           includes: [
             "6 ur delavnic",
             "vstop med tekmovanji",
-            "vstopnina za zabave v petek, soboto in nedeljo"
+            "vstopnina na zabave v petek, soboto in nedeljo"
           ]
         },
         {
@@ -228,9 +228,9 @@ const si = {
           ],
           includes: [
             "vstop med tekmovanji",
-            "vstopnina za zabave v petek, soboto in nedeljo"
+            "vstopnina na zabave v petek, soboto in nedeljo"
           ],
-          extraText: "Brezplačno za vse plesalce, ki tekmujejo v kategoriji Advanced ali All Star! Prijava je še vedno obvezna zaradi uravnoteženja vlog. Morda vas bomo prosili za pomoč pri sojenju tekmovanj."
+          extraText: "Brezplačno za vse plesalce, ki tekmujejo v kategoriji Advanced ali All Star! Prijava je še vedno obvezna zaradi uravnoteženja vlog. Morda te bomo prosili za pomoč pri sojenju tekmovanj."
         },
         {
           type: "ADV+ Full Pass",
@@ -243,7 +243,7 @@ const si = {
           includes: [
             "4 ure delavnic",
             "vstop med tekmovanji",
-            "vstopnina za zabave v petek, soboto in nedeljo"
+            "vstopnina na zabave v petek, soboto in nedeljo"
           ]
         },
         {
@@ -256,7 +256,7 @@ const si = {
           ],
           includes: [
             "4 ure delavnic",
-            "vstopnina za petkovo zabavo"
+            "vstopnina na petkovo zabavo"
           ]
         }
       ],
