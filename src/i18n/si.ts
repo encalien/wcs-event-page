@@ -290,7 +290,8 @@ const si = {
     pageTitle: "Registracija",
     opensSoonText: "Registracija se odpre 7. novembra 2023.",
     registrationInfoText: 'Prosimo, preberite naslednje <a target="_blank" href="terms-and-conditions">Pogoje uporabe</a> pred registracijo.',
-    loading: "Nalaganje obrazca za registracijo..."
+    loading: "Nalaganje obrazca za registracijo...",
+    registerNow: "Prijavi se"
   },
   notFound: {
     pageTitle: "Stran ne obstaja",

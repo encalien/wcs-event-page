@@ -16,7 +16,12 @@ export default {
       <!-- <h1>{{ $t('event.name') }}</h1> -->
       <h2 class="margin-0">{{ $t('event.welcomeText') }}</h2>
       <h2 class="important">{{ $t('event.location') }}, {{ $t('event.date') }}</h2>
-      <h2>{{ $t('registration.opensSoonText') }}</h2>
+      <div>
+        <h2>{{ $t('registration.opensSoonText') }}</h2>
+        <a href="https://danceapp.net/en-us/events/81/" target="_blank" id="register-now-btn">
+          {{ $t('registration.registerNow') }}
+        </a>
+      </div>
       <!-- <a href="#/registration" class="btn btn-primary">{{ $t('registration.pageTitle') }}</a> -->
     </div>
     <div class="features-grid">
@@ -85,6 +90,23 @@ export default {
   .registration-info {
     margin: 0;
     color: var(--accent-2);
+  }
+
+  #register-now-btn {
+    display: block;
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 1rem 3rem;
+    color: var(--accent-1);
+    background-color: var(--accent-2);
+    font-family: Cera Pro Bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  #register-now-btn:hover {
+    background-color: #fbf9c4;
+    text-decoration: none;
   }
 
   .features-section {

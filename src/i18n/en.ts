@@ -411,7 +411,8 @@ const en = {
     pageTitle: "Registration",
     opensSoonText: "Registration opens on 7 November 2023.",
     registrationInfoText: 'Please read the following <a target="_blank" href="terms-and-conditions">Terms and Conditions</a> before registering.',
-    loading: "Loading Registration form..."
+    loading: "Loading Registration form...",
+    registerNow: "Register here"
   },
   notFound: {
     pageTitle: "Page not found",

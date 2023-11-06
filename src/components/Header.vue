@@ -121,11 +121,11 @@
               </div>
             </div>
           </div>
-          <!-- <div class="menu-item" 
+          <div class="menu-item" 
               :class="{ 'active': isMobileMenuOpen }"
               @click="closeAllMenus()">
-            <router-link :to="`/${$store.state.lang}/registration`" class="menu-item-link">{{ $t('registration.pageTitle') }}</router-link>
-          </div> -->
+            <a href="https://danceapp.net/en-us/events/81/" target="_blank" class="menu-item-link">{{ $t('registration.pageTitle') }}</a>
+          </div>
           <div id="social-icons" 
               class="menu-item flex-container flex-container-row" 
               :class="{ 'active': isMobileMenuOpen }"
