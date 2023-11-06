@@ -441,9 +441,8 @@ const fr = {
           value:
             "En cas d'anulation par le participant, nous proposons un remboursement du paiement selon les modalités suivantes :",
           list: [
-            "Pour une demande d'annulation reçue jusqu'au 19 Mars 2023 inclus, le paiement reçu sera remboursé intégralement.",
-            "Pour une demande d'annulation reçue entre le 20 Mars et le 2 Avril 2023 inclus, le paiement reçu sera remboursé partiellement - 50% du paiement reçu.",
-            "Pour une demande d'annulation reçue le 3 Avril 2023 ou après, le paiement reçu ne sera pas remboursé.",
+            "Pour une demande d'annulation reçue jusqu'au 18 Février 2024 inclus, le paiement reçu sera remboursé partiellement - 50% du paiement reçu.",
+            "Pour une demande d'annulation reçue le 19 Février 2024 ou après, le paiement reçu ne sera pas remboursé.",
           ],
         },
         {
@@ -461,6 +460,20 @@ const fr = {
         {
           value:
             "Le programme de l'événement n'est pas contraignant. Si un professeur annule pour quelque raison que ce soit, l'organisateur de l'événement se réserve le droit de trouver un professeur de remplacement ou d'omettre des parties du programme. Dans le cas où le programme change ou que des parties du programme ne sont pas réalisées (par exemple, un professeur ne participe pas en raison d'une maladie ou de vols annulés, etc.), mais que l'événement a toujours lieu, aucun remboursement ne sera offert. L'organisateur de l'événement peut ou non trouver des alternatives au programme omis.",
+        },
+      ],
+    },
+    ethicalCunduct: {
+      title: "Conduite Éthique",
+      infoText: [
+        {
+          value: "Notre événement est dédié à fournir un environnement sûr et inclusif pour tous les participants, le personnel et les bénévoles. Nous appliquons une politique de tolérance zéro stricte contre toute forme de discours haineux, de harcèlement ou de comportement discriminatoire envers quiconque sur la base de la race, de l'ethnie, de la religion, de l'identité de genre, de l'orientation sexuelle, du handicap ou de toute autre caractéristique qui pourrait être utilisée pour cibler un groupe minoritaire, ou tout autre acte pouvant être considéré comme intimidant, hostile ou indésirable."
+        },
+        {
+          value: "Tout participant, membre du personnel ou bénévole reconnu coupable d'un tel comportement sera sujet à une action immédiate. Cette action peut inclure l'exclusion de l'événement sans remboursement, l'interdiction des événements futurs et le signalement aux autorités compétentes. Nous encourageons toute personne qui subit ou est témoin d'actes de haine ou de harcèlement à signaler l'incident dès que possible aux organisateurs de l'événement ou aux bénévoles pour une évaluation et une réponse immédiates."
+        },
+        {
+          value: "Notre engagement envers un environnement exempt de haine s'étend au-delà des locaux de l'événement et englobe toutes les activités associées, y compris les interactions en ligne et la conduite sur les réseaux sociaux. Notre but est de cultiver un esprit communautaire où le respect et la gentillesse sont la base de toutes interactions et échanges."
         },
       ],
     },

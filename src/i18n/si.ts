@@ -332,9 +332,8 @@ const si = {
         {
           value: "V primeru odpovedi s strani udeleženca, bomo ponudili vračilo kupnine v naslednjih stopnjah:",
           list: [
-            "Za zahtevke za odpoved, prejete do vključno 19. marca 2023, bo kupnina v celoti povrnjena.",
-            "Za zahtevke za odpoved, prejete med 20. marcem do vključno 2. aprila 2023, bo kupnina delno povrnjena - 50% prejetega plačila.",
-            "Za zahtevke za odpoved, prejete 3. aprila 2023 ali pozneje, kupnina ne bo povrnjena.",
+            "Za zahtevke za odpoved, prejete do vključno 18. feburarja 2024, bo kupnina delno povrnjena - 50% prejetega plačila.",
+            "Za zahtevke za odpoved, prejete 19. februarja 2024 ali pozneje, kupnina ne bo povrnjena.",
           ]
         },
         {
@@ -349,6 +348,20 @@ const si = {
         {
           value: "Program dogodka je neobvezujoč. V primeru odpovedi učitelja iz kakršnegakoli razloga si organizator dogodka pridržuje pravico poiskati nadomestnega učitelja ali izpustiti del programa. V primeru, da se program spremeni ali deli programa niso izvedeni (npr. učitelj ne sodeluje zaradi bolezni ali odpovedanega leta ipd.), vendar se dogodek kljub temu izvede, vračilo denarja ne bo možno. Organizator dogodka lahko, ni pa primoran, poiskati alternative opuščenemu programu."
         }
+      ],
+    },
+    ethicalCunduct: {
+      title: "Etično vedenje",
+      infoText: [
+        {
+          value: "Organizatorji Slovenian Open smo zavezani k zagotavljanju varnega in vključujočega okolja za vse udeležence, osebje in prostovoljce. Imamo strogo politiko ničelne tolerance do katerekoli oblike sovražnega govora, nadlegovanja ali diskriminatornega obnašanja do kogarkoli na osnovi rase, etničnosti, vere, spolne identitete, spolne usmerjenosti, invalidnosti ali katerekoli druge značilnosti, ki bi lahko bila uporabljena za tarčo manjšinske skupine ali kakršnih koli drugih dejanj, ki bi se lahko štela za zastrašujoča, sovražna ali nezaželena."
+        },
+        {
+          value: "Ukrepali bomo proti komurkoli, ki krši pravila etičnega obnašanja, ne glede na to ali gre za udeleženca ali osebje. Po lastni presoji se lahko organizator odloči za primeren ukrep, kar lahko vključuje: takojšnjo odstranitev z dogodka brez povračila denarja, prepoved udeležbe na prihodnjih dogodkih in poročanje pristojnim organom. Spodbujamo vse, ki so žrtev ali priča tovrstnim dejanjem, da o dogodku obvestijo organizatorja ali volunterje, saj le tako lahko hitro ukrepamo."
+        },
+        {
+          value: "Naša zavezanost k varnemu okolju ni omejena na sam dogodek, pač pa vključuje tudi vse, z dogodkom povezane aktivnosti, interakcije na spletu in vedenje na družbenih omrežjih. Naš cilj je ustvariti duh skupnosti, kjer sta spoštovanje in prijaznost temelja vseh interakcij in izmenjav."
+        },
       ],
     },
     mediaUse: {

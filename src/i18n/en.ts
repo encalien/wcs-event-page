@@ -448,14 +448,13 @@ const en = {
       title: "Payment information and cancellation policy",
       infoText: [
         {
-          value: "All registrations are considered pending until a payment is received. Payment is due in 14 days, after we receive the payment, the ticket is considered confirmed. Should a participant fail to pay for their ticket in due time, the event organizer reserves the right to cancel their ticket. In such a case, the participant who still wants to participate in the event must register again at the price valid at the time of their new registration.",
+          value: "All registrations are considered pending until a payment is received. Payment is due in 14 days. After we receive the payment, the ticket is considered confirmed. Should a participant fail to pay for their ticket in due time, the event organizer reserves the right to cancel their ticket. In such a case, the participant who still wants to participate in the event must register again at the price valid at the time of their new registration.",
         },
         {
           value: "In case of cancellation by the participant, we shall offer a payment refund in the following tiers:",
           list: [
-            "For cancellation requests received up to and including 19 March 2023, the received payment will be refunded fully.",
-            "For cancellation requests received between 20 March up to and including 2 April 2023, the received payment will be refunded partially - 50% of received payment.",
-            "For cancellation requests received on April 3 2023 or later, the received payment will not be refunded.",
+            "For cancellation requests received up to and including 18 February 2024, the received payment will be refunded partially - 50% of received payment.",
+            "For cancellation requests received on 19 February 2024 or later, the received payment will not be refunded.",
           ]
         },
         {
@@ -470,6 +469,20 @@ const en = {
         {
           value: "Event program is non-binding. Should a teacher cancel for whatever reason, the event organizer reserves the right to find a replacement teacher or omit parts of the program. In case the program changes or parts of the program are not realized (e.g. a teacher is not participating because of illness or cancelled flights etc.), but the event still takes place, no refund will be offered. Event organizer may or may not find alternatives to the omitted program."
         }
+      ],
+    },
+    ethicalCunduct: {
+      title: "Ethical Conduct Policy",
+      infoText: [
+        {
+          value: "Our event is dedicated to providing a safe and inclusive environment for all participants, staff, and volunteers. We have a strict zero-tolerance policy for any form of hate speech, harassment, or discriminatory behavior towards anyone based on race, ethnicity, religion, gender identity, sexual orientation, disability, or any other characteristic that might be used to target a minority group, or any other actions that could be considered intimidating, hostile, or unwelcome."
+        },
+        {
+          value: "Any attendee, participant, staff member, or volunteer found to be engaging in any such behavior will be subject to immediate action. This action may include removal from the event without refund, prohibition from future events, and reporting to the appropriate authorities. We encourage anyone who experiences or witnesses any acts of hate or harassment to report the incident as soon as possible to event organizers or volunteers for immediate review and response."
+        },
+        {
+          value: "Our commitment to a hate - free environment extends beyond the event premises and into all related activities, including online interactions and social media conduct. We aim to foster a community spirit where respect and kindness are the cornerstones of all interactions and exchanges."
+        },
       ],
     },
     mediaUse: {
@@ -512,10 +525,10 @@ const en = {
       title: "Additional event rules",
       infoText: [
         {
-          value: "Participants have to wear the wristband at all times. It is mandatory to show the wristband upon request any time during the event.",
+          value: "Participants must wear the wristband at all times. It is mandatory to show the wristband upon request at any time during the event.",
         },
         {
-          value: "Participants have to accept the decisions of the teachers and the event organizer during the event and especially during audition.",
+          value: "Participants must accept the decisions of the teachers and the event organizer during the event and especially during audition.",
         },
         {
           value: "If a participant fails to comply with any of the aformentioned terms, the organizer is entitled to withdraw the participant's pass and ask them to leave the event without refund of any fees.",
