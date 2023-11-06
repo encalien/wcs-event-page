@@ -190,16 +190,16 @@ const fr = {
           includes: ["COMPRENDS"],
           descriptions: [
             "le jour d'ouverture des inscriptions",
-            "jusqu'au 30 Novembre 2023",
-            "jusqu'au 31 Janvier 2024",
-            "à partir du 1 Février 2024",
+            "jusqu'au 10 Décembre 2023",
+            "jusqu'au 18 Février 2024",
+            "à partir du 19 Février 2024",
           ],
           dates: [
-            { from: "2023-11-01", to: "2023-11-02" },
-            { from: "2023-11-02", to: "2023-12-01" },
-            { from: "2023-12-01", to: "2024-02-01" },
-            { from: "2024-02-01", to: "2024-04-22" },
-          ],
+            { from: "2023-11-07", to: "2023-11-08" },
+            { from: "2023-11-08", to: "2023-12-11" },
+            { from: "2023-12-11", to: "2024-02-19" },
+            { from: "2024-02-19", to: "2024-04-22" },
+          ]
         },
         {
           type: "Full Pass",
