@@ -88,6 +88,12 @@ export default {
       </li>
     </ul>
   </section>
+  <section>
+    <span>{{ $t('registration.registrationInfoText') }}&nbsp;</span>
+    <router-link :to="`/${$store.state.lang}/terms-and-conditions`">
+      {{ $t('termsAndConditions.pageTitle') }}
+    </router-link>.
+  </section>
 </template>
 
 <style scoped>

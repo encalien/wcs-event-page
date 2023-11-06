@@ -410,7 +410,7 @@ const en = {
   registration: {
     pageTitle: "Registration",
     opensSoonText: "Registration opens on 7 November 2023.",
-    registrationInfoText: 'Please read the following <a target="_blank" href="terms-and-conditions">Terms and Conditions</a> before registering.',
+    registrationInfoText: 'Before registering, please read our the following',
     loading: "Loading Registration form...",
     registerNow: "Register here"
   },

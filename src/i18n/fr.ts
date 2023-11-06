@@ -391,7 +391,7 @@ const fr = {
     pageTitle: "Inscription",
     opensSoonText: "Les inscriptions ouvriront en Novembre.",
     registrationInfoText:
-      'Merci de lire les <a href="#/terms-and-conditions">régles et conditions</a> avant de vous inscrire.',
+      'Merci de lire avant de vous inscrire les',
     loading: "Chargement du formulaire d'inscription...",
     registerNow: "Inscription",
   },

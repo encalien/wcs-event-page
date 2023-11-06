@@ -7,6 +7,11 @@
 <template>
   <footer id="footer">
     <div class="footer-item">
+      <router-link :to="`/${$store.state.lang}/terms-and-conditions`">
+        {{ $t('termsAndConditions.pageTitle') }}
+      </router-link>
+    </div>
+    <div class="footer-item">
       <p>{{ $t('contact.text') }}</p>
       <p><a :href="'mailto:' + $t('contact.email')">{{ $t('contact.email') }}</a></p>
     </div>
