@@ -331,7 +331,7 @@ const en = {
           {
             title: "By plane",
             description: [
-              `The closest international airport is <a target="_blank" href="https://www.lju-airport.si/en/transport/">Ljubljana Jože Pučnik Airport</a>, approximately 25 kilometers from the venue. Buses run to the main bus station, or you can pre-arrange an airport shuttle using the <a target="_blank" href="http://goopti.com/en/">GoOpti</a> service.`,
+              `The closest international airport is <a target="_blank" href="https://www.lju-airport.si/en/transport/">Ljubljana Jože Pučnik Airport</a>, approximately 25 kilometers from the venue. Buses run to the main bus station, or you can pre-arrange an airport shuttle using the <a target="_blank" href="http://goopti.com/en/">GoOpti</a> or <a target="_blank" href="https://www.easydrive.si/go/647/How-It-Works-">EasyDrive</a> service.`,
               "Given Slovenia's compact size, you might also consider flying into a nearby country. Here are some alternative nearby airports, potentially offering cheaper flights:"
             ],
             airports: [
@@ -348,17 +348,17 @@ const en = {
               {
                 name: "Venice Treviso Airport - Italy",
                 distance: "230 km",
-                access: `From Venice Treviso Airport you can take a regular inter-city bus or train line from Venice to Ljubljana, but the most convenient option is likely <a target="_blank" href="https://www.goopti.com/en/">GoOpti transfers</a>.`
+                access: `From Venice Treviso Airport you can take a regular inter-city bus or train line from Venice to Ljubljana, but the most convenient option is likely <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a> or <a target="_blank" href="https://www.easydrive.si/go/647/How-It-Works-">EasyDrive</a> transfers.`
               },
               {
                 name: "Klagenfurt Airport - Austria",
                 distance: "134 km",
-                access: `Klagenfurt Airport is a small airport, but if you can find a good flight connection there, it's the closest one. While it is possible to take a bus from Klagenfurt through Villach to Ljubljana, we recommend using a shuttle service like <a target="_blank" href="https://www.goopti.com/en/">GoOpti transfers</a>.`
+                access: `Klagenfurt Airport is a small airport, but if you can find a good flight connection there, it's the closest one. While it is possible to take a bus from Klagenfurt through Villach to Ljubljana, we recommend using a shuttle service like <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a> or <a target="_blank" href="https://www.easydrive.si/go/647/How-It-Works-">EasyDrive</a> transfers.`
               },
               {
                 name: "Graz Airport - Austria",
                 distance: "183 km",
-                access: `From Graz Airport, regular inter-city buses and trains, as well as shuttle services like <a target="_blank" href="https://www.goopti.com/en/">GoOpti transfers</a>, are available to Ljubljana.`
+                access: `From Graz Airport, regular inter-city buses and trains, as well as shuttle services like <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a> or <a target="_blank" href="https://www.easydrive.si/go/647/How-It-Works-">EasyDrive</a> transfers, are available to Ljubljana.`
               },
             ],
           },

@@ -309,7 +309,7 @@ const fr = {
           {
             title: "En avion",
             description: [
-              `L'aéroport international le plus proche est l' <a target="_blank" href="https://www.lju-airport.si/en/transport/">Aéroport de Ljubljana Jože Pučnik</a>, à environ 25 kilomètres de l'événement. Des bus desservent la gare routière principale, ou vous pouvez prévoir une navette depuis l'aéroport en utilisant le service <a target="_blank" href="http://goopti.com/en/">GoOpti</a>.`,
+              `L'aéroport international le plus proche est l' <a target="_blank" href="https://www.lju-airport.si/en/transport/">Aéroport de Ljubljana Jože Pučnik</a>, à environ 25 kilomètres de l'événement. Des bus desservent la gare routière principale, ou vous pouvez prévoir une navette depuis l'aéroport en utilisant le service <a target="_blank" href="http://goopti.com/en/">GoOpti</a> ou <a target="_blank" href="https://www.easydrive.si/go/647/How-It-Works-">EasyDrive</a>.`,
               "Compte tenu de la taille compacte de la Slovénie, vous pouvez également envisager d'atterir dans un pays voisin. Voici quelques aéroports alternatifs à proximité, offrant potentiellement des vols moins chers :",
             ],
             airports: [
@@ -321,22 +321,22 @@ const fr = {
               {
                 name: "Aéroport Marco Polo de Venise - Italie",
                 distance: "233 km",
-                access: `Vous pouvez voyager depuis l'aéroport Marco Polo jusqu'à Ljubljana en utilisant le service de navette Goopti, le bus ou le train. Les détails sur le transport sont disponibles <a target="_blank" href="https://www.veneziaairport.it/en/transport/ljubljana.html">ici</a>.`,
+                access: `Vous pouvez voyager depuis l'aéroport Marco Polo jusqu'à Ljubljana en utilisant le service de navette Goopti ou EasyDrive, le bus ou le train. Les détails sur le transport sont disponibles <a target="_blank" href="https://www.veneziaairport.it/en/transport/ljubljana.html">ici</a>.`,
               },
               {
                 name: "Aéroport de Trévise de Venise - Italie",
                 distance: "230 km",
-                access: `Depuis l'aéroport de Trévise de Venise, vous pouvez prendre un bus interurbain régulier ou un train de Venise à Ljubljana, mais l'option la plus pratique est probablement les transferts <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a>.`,
+                access: `Depuis l'aéroport de Trévise de Venise, vous pouvez prendre un bus interurbain régulier ou un train de Venise à Ljubljana, mais l'option la plus pratique est probablement les transferts <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a> ou <a target="_blank" href="https://www.easydrive.si/go/647/How-It-Works-">EasyDrive</a>.`,
               },
               {
                 name: "Aéroport de Klagenfurt - Autriche",
                 distance: "134 km",
-                access: `L'aéroport de Klagenfurt est un petit aéroport, mais si vous trouvez un bon vol, c'est le plus proche. Bien qu'il soit possible de prendre un bus de Klagenfurt traversant Villach jusqu'à Ljubljana, nous vous recommandons d'utiliser un service de navette comme les transferts <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a>.`,
+                access: `L'aéroport de Klagenfurt est un petit aéroport, mais si vous trouvez un bon vol, c'est le plus proche. Bien qu'il soit possible de prendre un bus de Klagenfurt traversant Villach jusqu'à Ljubljana, nous vous recommandons d'utiliser un service de navette comme les transferts <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a> ou <a target="_blank" href="https://www.easydrive.si/go/647/How-It-Works-">EasyDrive</a>.`,
               },
               {
                 name: "Aéroport de Graz - Autriche",
                 distance: "183 km",
-                access: `Depuis l'aéroport de Graz, des bus interurbains et des trains réguliers, ainsi que des services de navette comme les transferts <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a>, sont disponibles pour Ljubljana.`,
+                access: `Depuis l'aéroport de Graz, des bus interurbains et des trains réguliers, ainsi que des services de navette comme les transferts <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a> ou <a target="_blank" href="https://www.easydrive.si/go/647/How-It-Works-">EasyDrive</a>, sont disponibles pour Ljubljana.`,
               },
             ],
           },
