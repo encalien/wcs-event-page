@@ -233,7 +233,7 @@ const en = {
           extraText: "Free for all dancers competing in Advanced or All Star division! Registration still required for role balance. We might ask you to help out with judging."
         },
         {
-          type: "ADV+ Pass",
+          type: "ADV+ Full Pass",
           tiers: [
             "40",
             "50",

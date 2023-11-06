@@ -233,7 +233,7 @@ const si = {
           extraText: "Brezplačno za vse plesalce, ki tekmujejo v kategoriji Advanced ali All Star! Prijava je še vedno obvezna zaradi uravnoteženja vlog. Morda vas bomo prosili za pomoč pri sojenju tekmovanj."
         },
         {
-          type: "ADV+ paket",
+          type: "ADV+ Full Pass",
           tiers: [
             "40",
             "50",
