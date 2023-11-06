@@ -5,15 +5,40 @@ const en = {
     date: "19 - 21 Avril 2024",
     welcomeText:
       "Rejoignez-nous à la première édition du Slovenian Open - événement WSDC trial!",
-    features: {
-      featureText: "AVEC",
-      features: [
-        "un hôtel",
-        "4 soirées",
-        "3 jours de workshops",
-        "compétitions Jack & Jill",
-      ],
-    },
+    readMoreText: "En savoir plus",
+    features: [
+      {
+        title: "Rencontrer",
+        intro:
+          "Instructeurs de classe mondiale enseignant des sessions intensives",
+        href: "workshops/teachers",
+        list: [
+          "Karin Kakun & Ludovic Pelegrin",
+          "Savana Barreau & João Parada",
+          "Andrea Pártos & Attila Pártos",
+        ],
+      },
+      {
+        title: "Expérience",
+        intro: "Trois jours d'ateliers, de compétitions et de soirées",
+        href: "workshops/schedule",
+        list: [
+          "4 soirées exceptionnelles",
+          "3 jours de workshops",
+          "Compétitions Jack & Jill",
+        ],
+      },
+      {
+        title: "Explorer",
+        intro: "Découvrir la beauté de Ljubljana",
+        href: "location/slovenia",
+        list: [
+          "Charme de la vieille ville",
+          "Capitale verte de l'Europe",
+          "Proximité des Alpes et de la mer",
+        ],
+      },
+    ],
     tba: "Plus d'informations à venir bientôt!",
   },
   contact: {
@@ -76,18 +101,18 @@ const en = {
           names: "Karin & Ludovic",
           src: "images/teachers_karin_ludo.jpg",
           description: [
-            "Karin Kakun danse depuis toujours. Titulaire d'une licence en danse, elle enseigne depuis plus de 14 ans. Elle enseigne le WCS, le Hip-Hop, l'étirement et la pole dance. Elle chorégraphie et se produit également. Avant d'embrasser le WCS, elle était championne de salsa israélienne.",
-            "Elle a commencé son parcours WCS en 2014 et dès le premier instant, elle est tombée amoureuse. Elle concourt maintenant dans la division Champion et enseigne en Israël, où elle dirige une ligne de cours de West Coast Swing. Elle voyage et enseigne activement dans toute l'Europe.",
-            "Ludovic Pelegrin a commencé à danser à 10 ans, lorsqu'il a appris le rock'n'roll. Son parcours de danse innovant et diversifié comprend des styles comme le Lindy-Hop, le Balboa, le Charleston, le rock'n'roll acrobatique, la salsa, le Boogie Woogie et le claquettes. Il est professeur de Rock and Roll, Lindy Hop et Charleston depuis 2009.",
+            "Karin Kakun danse depuis toujours. Titulaire d'une licence en danse, elle enseigne depuis plus de 14 ans. Elle enseigne le WCS, le Hip-Hop, le Stretching et la pole dance. Elle chorégraphie et se produit également. Avant d'embrasser le WCS, elle était championne israélienne de salsa.",
+            "Elle a commencé son parcours WCS en 2014 et dès le premier instant, elle est tombée amoureuse de cette danse. Elle voyage et enseigne activement dans toute l'Europe.",
+            "Ludovic Pelegrin a commencé à danser à 10 ans, en commençant par le rock'n'roll. Son parcours de danse innovant et diversifié comprend des styles comme le Lindy-Hop, le Balboa, le Charleston, le rock'n'roll acrobatique, la salsa, le Boogie Woogie et le claquettes. Il est professeur de Rock and Roll, Lindy Hop et Charleston depuis 2009.",
             "Son affection pour le Swing l'a conduit au WCS en 2010. Avec un enthousiasme croissant, il a assisté à des ateliers à l'étranger, apprenant auprès des meilleurs instructeurs. Il participe également à de nombreuses compétitions, où il se classe régulièrement dans le Top 3.",
-            "Guidé par le désir de partager sa passion et d'aider les autres à découvrir le WCS, il a commencé à enseigner le WCS en 2011. Après avoir contribué à répandre le WCS en France, il anime maintenant des ateliers dans toute l'Europe. Ses compétences de danse diverses lui ont valu une réputation pour son incroyable connaissance musicale, son enseignement structuré et concis, et sa grande générosité.",
+            "Guidé par le désir de partager sa passion et d'aider les autres à découvrir le WCS, il a commencé à enseigner le WCS en 2011. Après avoir contribué à répandre le WCS en France, il anime maintenant des ateliers dans toute l'Europe. Ses compétences de danse diverses lui ont valu une réputation pour son incroyable connaissance musicale, son enseignement structuré, et sa grande générosité.",
           ],
         },
         {
           names: "Savana & João",
           src: "images/teachers_savana_joao.jpg",
           description: [
-            "Savana a commencé à danser le jazz à l'âge de 4 ans et y est restée fidèle depuis. Passionnée de danse en général, elle s'est formée en solo, contemporain, classique et hip hop. Elle a participé à de nombreux concours, remportant des prix régionaux et nationaux, et a rejoint un conservatoire pendant ses années de lycée.",
+            "Savana a commencé à danser le jazz à l'âge de 4 ans et y est restée fidèle depuis. Passionnée de danse en général, elle s'est formée en solo, contemporain, classique et hip hop. Elle a participé à de nombreux concours, remportant des prix régionaux et nationaux, et a rejoint le conservatoire pendant ses années de lycée.",
             "Elle s'est aventurée dans la danse rock à l'âge de 7 ans, passant rapidement à la salsa et, plus tard, au West Coast Swing. Très jeune, elle a eu l'occasion d'enseigner, où elle a trouvé la joie de se connecter et de partager avec les élèves. Après le lycée, elle a choisi de se spécialiser dans le WCS et a déménagé en Suisse, où elle vit et travaille à l'école de danse de Jang Widler.",
             "João a commencé à danser à l'âge de 8 ans dans un groupe de danse folklorique allemande dans le sud du Brésil. En 2006, il s'est diversifié dans divers autres styles tels que le zouk, la salsa, le Forro, le Samba de Gafiera et le tango argentin. La danse est devenue une partie importante de sa vie, et il a consacré de nombreuses heures par semaine à une formation professionnelle.",
             "En 2011, João a commencé à enseigner et a découvert le West Coast Swing en 2012. Il est rapidement tombé amoureux de cette danse. Il a poursuivi des opportunités de formation, participant à des événements au Brésil et à l'étranger. En 2014, il a commencé à enseigner le WCS au Brésil. Il continue à l'enseigner avec passion aujourd'hui, en Suisse et dans divers événements européens.",
@@ -97,9 +122,9 @@ const en = {
           names: "Andrea & Attila",
           src: "images/teachers_andrea_attila.png",
           description: [
-            "Attila et Andrea ont commencé leur carrière de danseurs de salon. Ils ont enseigné les danses latines et standard pendant de nombreuses années. Après un séjour de quinze ans couronné de succès, en possession de nombreux titres de champion, ils ont choisi de prendre du recul par rapport à leur carrière active après la naissance de leur premier enfant.",
-            "Ils n'ont jamais pu se séparer complètement de la danse, toujours désireux de revenir sur la piste de danse. En 2013, ils ont rencontré le West Coast Swing et sont rapidement devenus accros au genre. Reconnaissant les différences distinctes entre le ballroom et le West Coast Swing, cette danse est devenue leur passion, principalement en raison de ses possibilités infinies et de sa liberté. Ils n'ont pas pu non plus abandonner la compétition, alors après quelques années de compétition, ils ont tous deux atteint la prestigieuse catégorie All-Star.",
-            "Aujourd'hui, Attila et Andrea partagent leur profond amour pour le West Coast Swing en proposant des cours en Hongrie et à l'étranger. Qu'il s'agisse de cours de groupe ou de cours particuliers, leur mission est de partager leurs connaissances approfondies et leur passion profondément enracinée. Pour eux, la danse fait partie de leur vie quotidienne.",
+            "Attila et Andrea ont commencé leur carrière de danseurs de salon. Ils ont enseigné les danses latines et standard pendant de nombreuses années. Après une carrière de quinze ans couronné de succès, en possession de nombreux titres de champion, ils ont choisi de faire une pause après la naissance de leur premier enfant.",
+            "Ils n'ont jamais pu se séparer complètement de la danse, toujours désireux de revenir sur la piste de danse. En 2013, ils ont rencontré le West Coast Swing et sont rapidement devenus accros au genre. Remarquant les différences entre le ballroom et le West Coast Swing, cette danse est devenue leur passion, principalement en raison de ses possibilités infinies et de sa liberté. Ils n'ont pas pu non plus abandonner la compétition, alors après quelques années de compétition, ils ont tous deux atteint la prestigieuse catégorie All-Star.",
+            "Aujourd'hui, Attila et Andrea partagent leur profond amour pour le West Coast Swing en proposant des cours en Hongrie et à l'étranger. Qu'il s'agisse de cours de groupe ou de cours particuliers, leur mission est de partager leurs connaissances approfondies et leur passion. Pour eux, la danse fait partie de leur vie quotidienne.",
           ],
         },
       ],
@@ -196,6 +221,15 @@ const en = {
             "Gratuit pour tous les danseurs qui concourent dans la division Advanced ou All Star! L'inscription est toujours requise pour l'équilibre des rôles. Nous pourrons vous demander de nous aider à juger les compétitions.",
         },
         {
+          type: "ADV+ Pass",
+          tiers: ["40", "50", "60", "70"],
+          includes: [
+            "4 heures de workshops",
+            "l'accés aux competitions",
+            "l'accés aux soirées de Vendredi, Samedi et Dimanche",
+          ],
+        },
+        {
           type: "Zero to Hero",
           tiers: ["40", "50", "60", "70"],
           includes: [
@@ -203,12 +237,25 @@ const en = {
             "l'accés à la soirée du Vendredi",
           ],
         },
-        {
-          type: "ADV+ Track",
-          tiers: ["40", "50", "60", "70"],
-          includes: ["4 heures de workshops"],
-        },
       ],
+      groups: {
+        title: "Remises pour les groupes internationaux",
+        description: [
+          `Intéressé pour créer un groupe ? N'hésitez pas à nous contacter ! Veuillez nous contacter par <a target="_blank" href="mailto:info{'@'}slovenianopen.dance">email</a> ou nous envoyer un message via notre <a target="_blank" href="https://www.facebook.com/profile.php?id=61552337725994">page Facebook</a>.`,
+          "Voici les règles pour les groupes :",
+        ],
+        groupRules: [
+          "les remises ne se cumulent pas - seuls les détenteurs de Full Pass sont considérés comme membres du groupe et sont éligibles pour la remise,",
+          "un groupe doit être composé d'au moins 10 danseurs engagés à participer à l'événement,",
+          "un groupe doit être équilibré en rôles avec un ratio minimum de 2 leaders pour 3 followers,",
+          "idéalement, les membres du groupe devraient tous provenir de la même communauté de danse, région ou pays,",
+          "tous les membres du groupe bénéficient d'une remise de 10% sur leur pass,",
+          "le chef de groupe compte comme faisant partie du groupe et doit également être détenteur d'un Full Pass,",
+          "les remises sont appliquées au moment de l'inscription en fonction du tarif en vigueur,",
+          "les chefs de groupe recevront un code unique, que leurs membres de groupe doivent utiliser lors de leur inscription,",
+          "si le groupe ne compte pas 10 membres au moment de l'événement, le groupe est dissous et les participants devront payer le montant remisé sur place.",
+        ],
+      },
     },
   },
   location: {
@@ -240,13 +287,61 @@ const en = {
         "Niché au coeur de Ljubljana, l'hôtel Austria Trend offre des équipements modernes, un personnel amical et un emplacement idéal à quelques pas de la vibrante vieille ville.",
         "Vous pouvez réserver une chambre double ou twin à l'hôtel à un prix réduit. Chaque chambre offre des équipements modernes, assurant un séjour confortable et agréable pendant votre séjour à Ljubljana.",
       ],
-      howToGetHere: [
-        "L'adresse de l'hôtel est :",
-        "Si vous arrivé en avion l'aéroport le plus proche est l'aéroport international de Ljubljana Jože Pučnik, situé à environ 25 kilomètres de l'hôtel. Vous pouvez prendre un bus qui vous emmène à la gare routière principale de Ljubljana ou organiser des transferts depuis l'aéroport en utilisant l'un des prestataires ci-dessous.",
-        "Si vous arrivé en train ou bus interurbain votre arrêt final serait la gare principale de Ljubljana. De là, vous pouvez rejoindre l'hôtel en bus (lignes 6 ou 8), ou prendre un taxi.",
-        "Enfin si vous arrivé en voiture, l'hôtel propose un parking, mais il y a aussi plusieurs parkings à proximité. N'oubliez pas que vous avez besoin d'une vignette pour conduire sur les autoroutes slovènes.",
-      ],
-
+      howToGetHere: {
+        title: "Comment se rendre sur place",
+        options: [
+          {
+            title: "En voiture",
+            description: [
+              "Ljubljana est idéalement située à moins de 5 heures de route des principales villes des pays voisins, telles que Budapest, Vienne, Graz, Munich, Milan et Zagreb.",
+              "Si vous conduisez, l'hôtel dispose d'un parking. De plus, il y a plusieurs parkings à proximité. Le stationnement est également possible dans les rues plus petites autour de l'hôtel, et ces places de stationnement sont généralement gratuites le week-end.",
+              `Veuillez noter qu'une vignette est nécessaire pour circuler sur les autoroutes slovènes. Vous pouvez l'acheter en ligne <a target="_blank" href="https://evinjeta.dars.si/en">ici</a> ou à n'importe quel point d'entrée de l'autoroute.`,
+            ],
+          },
+          {
+            title: "En bus ou en train",
+            description: [
+              `Arriver en bus interurbain ou en train vous conduit respectivement à la <a target="_blank" href="https://www.ap-ljubljana.si/en">Gare routière principale</a> ou à la <a target="_blank" href="https://potniski.sz.si/en/abroad">Gare ferroviaire principale</a>. Les deux sont situés côte à côte dans la partie centrale de la ville. De là, vous pouvez prendre les lignes de bus 6 ou 8 jusqu'à l'arrêt "Smelt" près de l'hôtel, ou opter pour un taxi.`,
+              `Pour utiliser le bus, vous devez utiliser le système de carte de transport Urbana. Le moyen le plus simple est via leur application mobile, qui vous permet de payer avec une carte de crédit. Vous pouvez télécharger l'application depuis <a target="_blank" href="https://play.google.com/store/apps/details?id=com.margento.urbanaplus">Google Play</a> ou <a target="_blank" href="https://apps.apple.com/us/app/urbana/id1608543324">App Store</a>. Alternativement, vous pouvez acheter et recharger une carte physique. Un trajet en bus coûte 1,30 euros, valable pendant 90 minutes.`,
+              `Pour les taxis, nous vous recommandons d'appeler ou de commander en ligne auprès de sociétés telles que <a target="_blank" href="http://www.taximetro.si/?page_id=335">Metro</a>, <a target="_blank" href="https://www.taxi-laguna.com/">Laguna</a>, ou <a target="_blank" href="https://cammeo.hr/en">Cammeo</a>. Notez que nous n'avons pas Uber ou des services similaires et que les taxis pris à la volée sont généralement plus chers. Bien que le paiement puisse généralement être effectué par carte ou en espèces, l'espèces est à privilégier.`,
+            ],
+          },
+          {
+            title: "En avion",
+            description: [
+              `L'aéroport international le plus proche est l' <a target="_blank" href="https://www.lju-airport.si/en/transport/">Aéroport de Ljubljana Jože Pučnik</a>, à environ 25 kilomètres de l'événement. Des bus desservent la gare routière principale, ou vous pouvez prévoir une navette depuis l'aéroport en utilisant le service <a target="_blank" href="http://goopti.com/en/">GoOpti</a>.`,
+              "Compte tenu de la taille compacte de la Slovénie, vous pouvez également envisager d'atterir dans un pays voisin. Voici quelques aéroports alternatifs à proximité, offrant potentiellement des vols moins chers :",
+            ],
+            airports: [
+              {
+                name: "Aéroport de Zagreb Franjo Tuđman - Croatie",
+                distance: "153 km",
+                access: `L'aéroport de Zagreb est l'un des aéroports les plus proches et est facilement accessible depuis Ljubljana en bus ou en service de navette. Vous pouvez trouver plus d'informations sur les options de transport <a target="_blank" href="https://www.zagreb-airport.hr/en/passengers/to-from-the-airport/35">ici</a>.`,
+              },
+              {
+                name: "Aéroport Marco Polo de Venise - Italie",
+                distance: "233 km",
+                access: `Vous pouvez voyager depuis l'aéroport Marco Polo jusqu'à Ljubljana en utilisant le service de navette Goopti, le bus ou le train. Les détails sur le transport sont disponibles <a target="_blank" href="https://www.veneziaairport.it/en/transport/ljubljana.html">ici</a>.`,
+              },
+              {
+                name: "Aéroport de Trévise de Venise - Italie",
+                distance: "230 km",
+                access: `Depuis l'aéroport de Trévise de Venise, vous pouvez prendre un bus interurbain régulier ou un train de Venise à Ljubljana, mais l'option la plus pratique est probablement les transferts <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a>.`,
+              },
+              {
+                name: "Aéroport de Klagenfurt - Autriche",
+                distance: "134 km",
+                access: `L'aéroport de Klagenfurt est un petit aéroport, mais si vous trouvez un bon vol, c'est le plus proche. Bien qu'il soit possible de prendre un bus de Klagenfurt traversant Villach jusqu'à Ljubljana, nous vous recommandons d'utiliser un service de navette comme les transferts <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a>.`,
+              },
+              {
+                name: "Aéroport de Graz - Autriche",
+                distance: "183 km",
+                access: `Depuis l'aéroport de Graz, des bus interurbains et des trains réguliers, ainsi que des services de navette comme les transferts <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a>, sont disponibles pour Ljubljana.`,
+              },
+            ],
+          },
+        ],
+      },
       links: {
         booking: "",
         mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
