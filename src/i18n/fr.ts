@@ -1,4 +1,4 @@
-const en = {
+const fr = {
   event: {
     name: "Slovenian Open",
     location: "Ljubljana",
@@ -526,4 +526,4 @@ const en = {
   },
 };
 
-export default en;
+export default fr;
