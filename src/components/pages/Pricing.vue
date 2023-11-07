@@ -14,8 +14,8 @@ export default {
       const today = new Date();
       
       for (let i = 0; i < tierDates.length; i++) {
-        const tierFrom = new Date(tierDates[i].from);
-        const tierTo = new Date(tierDates[i].to);
+        const tierFrom = new Date(`${tierDates[i].from} 00:00:00`);
+        const tierTo = new Date(`${tierDates[i].to} 00:00:00`);
         if (today >= tierFrom && today <= tierTo) {
           this.activeTierIndex = i;
           return;

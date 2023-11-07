@@ -124,7 +124,7 @@
           <div class="menu-item" 
               :class="{ 'active': isMobileMenuOpen }"
               @click="closeAllMenus()">
-            <a href="https://danceapp.net/en-us/events/81/" target="_blank" class="menu-item-link">{{ $t('registration.pageTitle') }}</a>
+            <a href="https://forms.gle/5LZA76MxxWSazadZ7" target="_blank" class="menu-item-link">{{ $t('registration.pageTitle') }}</a>
           </div>
           <div id="social-icons" 
               class="menu-item flex-container flex-container-row" 

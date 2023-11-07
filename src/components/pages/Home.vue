@@ -17,8 +17,7 @@ export default {
       <h2 class="margin-0">{{ $t('event.welcomeText') }}</h2>
       <h2 class="important">{{ $t('event.location') }}, {{ $t('event.date') }}</h2>
       <div>
-        <h2>{{ $t('registration.opensSoonText') }}</h2>
-        <a href="https://danceapp.net/en-us/events/81/" target="_blank" id="register-now-btn">
+        <a href="https://forms.gle/5LZA76MxxWSazadZ7" target="_blank" id="register-now-btn">
           {{ $t('registration.registerNow') }}
         </a>
       </div>
