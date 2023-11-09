@@ -28,6 +28,7 @@ import Schedule from "./components/pages/Schedule.vue";
 import Pricing from "./components/pages/Pricing.vue";
 import TermsAndConditions from "./components/pages/TermsAndConditions.vue";
 import Levels from "./components/pages/Levels.vue";
+import WSDC from "./components/pages/WSDC.vue";
 import Slovenia from "./components/pages/Slovenia.vue";
 
 import { createRouter, createWebHistory } from 'vue-router';
@@ -56,6 +57,9 @@ const routes: any = [
   { path: '/:lang(en|si|fr)/', component: Home, },
   { path: '/:lang(en|si|fr)/workshops/teachers', component: Staff, },
   { path: '/:lang(en|si|fr)/workshops/levels', component: Levels, },
+  { path: '/:lang(si)/workshops/wsdc', component: WSDC, },
+  { path: '/:lang(en)/workshops/wsdc', component: WSDC, redirect: '/en' },
+  { path: '/:lang(fr)/workshops/wsdc', component: WSDC, redirect: '/fr' },
   { path: '/:lang(en|si|fr)/workshops/schedule', component: Schedule, },
   { path: '/:lang(en|si|fr)/pricing', component: Pricing, },
   { path: '/:lang(en|si|fr)/location/slovenia', component: Slovenia, },

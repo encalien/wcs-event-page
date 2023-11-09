@@ -13,6 +13,11 @@ export default {
 <template>
   <section>
     <h1>{{ $t('workshops.levels.pageTitle') }}</h1>
+    <h2 v-if="$store.state.lang === 'si'">
+      <router-link :to="`/${$store.state.lang}/workshops/wsdc`">
+        Pogosta vprašanja o WSDC in točkah
+      </router-link>
+    </h2>
     <div class="flex-container flex-container-column flex-gap">
       <div v-for="(level, i) in messages.workshops.levels.levels" class="flex-item flex-basis-100 margin-0">
         <h2>{{ $t(`workshops.levels.levels[${i}].title`) }}</h2>
