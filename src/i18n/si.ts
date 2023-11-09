@@ -260,6 +260,23 @@ const si = {
           ]
         }
       ],
+      groups: {
+        title: "Skupinski popust",
+        description: [
+          "Pravila skupine:"
+        ],
+        groupRules: [
+          "popusti se ne seštevajo - za člane skupine in upravičene do popusta štejejo le nosilci Full Pass vstopnice,",
+          "skupina mora obsegati najmanj 10 plesalcev, ki se udeležijo dogodka,",
+          "skupina mora biti uravnotežena po vlogah z minimalnim razmerjem 2 leaderja na vsake 3 followerje,",
+          "idealno je, da vsi člani skupine izhajajo iz iste plesne skupnosti, območja ali države,",
+          "vsi člani skupine prejmejo 10% popust na svojo karto,",
+          "vodja skupine šteje kot del skupine in mora biti tudi nosilec Full Pass vstopnice,",
+          "popusti se upoštevaju že ob registraciji na osnovi trenutnega cenovnega razreda,",
+          "vodje skupin prejmejo unikatno kodo, ki jo morajo njihovi člani uporabiti ob registraciji,",
+          "če skupina ne doseže 10 članov ob času dogodka, se skupina razpusti in udeleženci bodo morali na mestu plačati popustni znesek."
+        ]
+      },
     },
   },
   location: {

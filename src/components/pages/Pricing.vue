@@ -77,10 +77,13 @@ export default {
       </div>
     </div>
   </section>
-  <section v-if="$store.state.lang !== 'si'">
+  <section>
     <h2>{{ $t('workshops.pricing.groups.title') }}</h2>
-    <p v-for="(p, i) in messages.workshops.pricing.groups.description">
+    <p v-if="$store.state.lang !== 'si'" v-for="(p, i) in messages.workshops.pricing.groups.description">
       <span v-html="$t(`workshops.pricing.groups.description[${i}]`)"></span>
+    </p>
+    <p v-if="$store.state.lang === 'si'">
+      {{ $t(`workshops.pricing.groups.description[0]`) }}
     </p>
     <ul>
       <li v-for="(rule, i) in messages.workshops.pricing.groups.groupRules">
