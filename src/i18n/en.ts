@@ -363,8 +363,52 @@ const en = {
       pageTitle: "Venue",
       description: [
         "Nestled in the heart of Ljubljana, the Austria Trend Hotel offers modern rooms, friendly staff, and a prime location just moments away from the city's vibrant Old Town.",
-        "You can book a double or twin room at the hotel at a discounted price. Each room offers modern amenities, ensuring a comfortable and enjoyable stay during your time in Ljubljana."
+        "You can book a double or twin room at the hotel at a discounted price. Each room offers modern amenities, ensuring a comfortable and enjoyable stay during your time in Ljubljana.",
+        "They offer 2 types of rooms for a discounted price during the Slovenian Open event. Prices for the rooms per night, valid from Apr 17-23, are:",
       ],
+      roomTypes: [
+        {
+          type: "DELUXE Room",
+          beds: "Double or Twin",
+          prices: [
+            {
+              occupancy: "single occupancy",
+              price: "75 € / 99 € with breakfast"
+            },
+            {
+              occupancy: "double occupancy",
+              price: "99 € / 118 € with breakfast"
+            }
+          ]
+        },
+        {
+          type: "EXECUTIVE Room",
+          beds: "Double or Twin",
+          prices: [
+            {
+              occupancy: "single occupancy",
+              price: "100 € / 124 € with breakfast"
+            },
+            {
+              occupancy: "double occupancy",
+              price: "124 € / 149 € with breakfast"
+            }
+          ]
+        }
+      ],
+      booking: {
+        text: "You can book room of either type on the following links:",
+        links: [
+          {
+            roomType: "book room with breakfast",
+            link: "https://reservations.travelclick.com/75036?groupID=4129307"
+          },
+          {
+            roomType: "book room without breakfast",
+            link: "https://reservations.travelclick.com/75036?groupID=4132278"
+          }
+        ]
+      },
       howToGetHere: {
         title: "How to get here",
         options: [
@@ -421,7 +465,8 @@ const en = {
         ]
       },
       links: {
-        booking: "",
+        bookingWithBreakfast: "",
+        bookingNoBreakfast: "",
         mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
         mapSrc: "/images/location_hotel_map.png"
       },
@@ -431,7 +476,6 @@ const en = {
         zipAndCity: "1000 Ljubljana",
         country: "Slovenia",
       },
-      bookingText: "Hotel booking link will be provided soon."
     },
     accommodation: {
       title: "Other accommodation options",
