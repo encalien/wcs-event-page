@@ -167,6 +167,62 @@ const en = {
         },
       ],
     },
+    wsdc: {
+      pageTitle: "Frequently Asked Questions about WSDC and Points",
+      faq: [
+        {
+          question: "1. What are WSDC points?",
+          answerText: [
+            `<a href="https://www.worldsdc.com" target="_blank">WSDC (World Swing Dance Council)</a> is a global organization that, among other things, awards points at international swing dance events. At these competitions, participants can earn a certain number of points based on their placement.`,
+            `When a competitor earns points, WSDC enters them into <a href="https://www.worldsdc.com/registry-points/" target="_blank">its system</a> and assigns them a unique number (WSDC ID). Points for each competitor are tracked using this number.`,
+            "WSDC licensed competitions are divided into several styles and categories. For us, the important style is Jack & Jill, which is the only one where points are awarded. This competition style is divided into categories based on difficulty:",
+            `Each individual progresses from one category to another based on the total number of points they have accumulated. For a better display, see the <a href="https://www.worldsdc.com/wsdc-points-registry-rules/#figure-tbl03" target="_blank">diagram</a> in the official rulebook.`,
+          ],
+          list: [
+            `<a href="https://www.youtube.com/watch?v=kBEkJRbllTA&pp=ygUYbmV3Y29tZXIgZmluYWxzIGJ1ZGFmZXN0" target="_blank" class="important">Newcomer (NEW)</a> - the lowest level, optional, intended for new dancers;`,
+            `<a href="https://www.youtube.com/watch?v=pEKVcjvBHGQ&pp=ygUWbm92aWNlIGZpbmFscyBidWRhZmVzdA%3D%3D" target="_blank" class="important">Novice (NOV)</a> - the lowest mandatory level, intended for dancers who already have some knowledge, but also accessible to beginner dancers. No points are required to enter this level;`,
+            `<a href="https://www.youtube.com/watch?v=tFX_rgNhChA&pp=ygUTaW50ZXJtZWRpYXRlIGZpbmFscw%3D%3D" target="_blank" class="important">Intermediate (INT)</a> - the middle level, intended for more advanced dancers who have competed several times and have accumulated at least 16 Novice points in total;`,
+            `<a href="https://www.youtube.com/watch?v=bT0ON9V31fw&pp=ygUdYWR2YW5jZWQgZmluYWxzIGF0dGlsYSBwYXJ0b3M%3D" target="_blank" class="important">Advanced (ADV)</a> - high level, for experienced dancers who have collected at least 30 Intermediate points in total;`,
+            `<a href="https://www.youtube.com/watch?v=RUpH6uzM9Hk" target="_blank" class="important">All Star (ALS)</a> - an exceptionally high level, intended for dancers who have accumulated at least 60 Advanced points in total;`,
+            `<a href="https://www.youtube.com/watch?v=KNID2LYJ4xM&pp=ygUZY2hhbXBpb25zIDFzdCBwbGFjZSBrYXJpbg%3D%3D" target="_blank" class="important">Champions (CHA)</a> - the highest level, intended for those at the top of the world ranking and have collected at least 150 All Star points in total.`,
+          ]
+        },
+        {
+          question: "2. What is a WSDC trial event?",
+          answerText: [
+            "A WSDC trial event is an international event lasting at least three days with workshops, parties, and competitions that meets the requirements of the WSDC regulations and competes for their license.",
+            "The WSDC must pre-approve such an event as a trial run. In that year, the event must meet all needs but does not yet award points. If the trial run is successful, then WSDC grants a license for future years, and from then on, the competitions are point-based.",
+          ],
+        },
+        {
+          question: "3. So to which pass should I register?",
+          answerText: [
+            "If you do not have a WSDC ID number and have never competed, or if you compete in the Newcomer, Novice, or Intermediate categories, you can sign up for workshops as part of the Full Pass. These workshops will take place on Saturday and Sunday, divided into 3 levels:",
+            "If you are a complete beginner or have just briefly met WCS and want to learn the basics, then you can join our Friday program Zero to Hero. In 4 hours, you will learn the basics well enough that you will surely be able to dance at the Friday party.",
+            "For the ADV+ Full Pass, which also has workshops only on Friday, you can only register if you compete in the Advanced / All Star / Champion categories.",
+          ],
+          list: [
+            "Level 2 corresponds to the Newcomer division,",
+            "Level 3 corresponds to the Novice division with at least 1 point,",
+            "Level 4 corresponds to the Intermediate division.",
+          ]
+        },
+        {
+          question: "4. What do I write in the WSDC ID field when registering?",
+          answerText: [
+            "If you already have a WSDC ID number that you obtained at a competition, then enter it. Based on this number, we will automatically determine your level upon registration.",
+            "If you do not have a number yet, leave it blank.",
+          ],
+        },
+        {
+          question: "5. OK, but what if I dance well but don't compete?",
+          answerText: [
+            "No problem. If you want to participate in higher-level workshops, you can attend an audition that will take place before the workshops. There, teachers will ask participants to dance several times with different partners and decide based on the displayed skill who can be accepted to the higher level. The teachers' decision is final as they best know what knowledge is expected for their workshops.",
+            "Auditions will be possible for levels 3 and 4. For level 2 and Zero to Hero, it is not necessary. There will be no auditions for ADV+ workshops.",       
+          ],
+        },
+      ]
+    },
     schedule: {
       pageTitle: "Schedule",
       description: "This is a preliminary schedule and is subject to change.",

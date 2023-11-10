@@ -13,9 +13,9 @@ export default {
 <template>
   <section>
     <h1>{{ $t('workshops.levels.pageTitle') }}</h1>
-    <h2 v-if="$store.state.lang === 'si'">
+    <h2 v-if="$store.state.lang !== 'fr'">
       <router-link :to="`/${$store.state.lang}/workshops/wsdc`">
-        Pogosta vprašanja o WSDC in točkah
+        {{ $t('workshops.wsdc.pageTitle') }}
       </router-link>
     </h2>
     <div class="flex-container flex-container-column flex-gap">

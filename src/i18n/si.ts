@@ -167,6 +167,62 @@ const si = {
         },
       ]
     },
+    wsdc: {
+      pageTitle: "Pogosta vprašanja o WSDC in točkah",
+      faq: [
+        {
+          question: "1. Kaj so to WSDC točke?",
+          answerText: [
+            `<a href="https://www.worldsdc.com" target="_blank">WSDC (World Swing Dance Council)</a> je svetovna organizacija, ki med drugim podeljuje mednarodnim swing dogodkom licenco za točkovana tekmovanja. Na teh tekmovanjih udeleženci s svojo uvrstitvijo na določeno mesto lahko osvojijo določeno število točk.`,
+            `Ko tekmovalec pridobi točke, ga WSDC vpiše v <a href="https://www.worldsdc.com/registry-points/" target="_blank">svoj sistem</a> in mu dodeli unikatno številko (WSDC ID). Na podlagi te številke se vodi evidenca točk posameznega tekmovalca.`,
+            "WSDC licencirana tekmovanja so razdeljena v več stilov in kategorij. Za nas je pomemben stil Jack & Jill, ki je edini, kjer se točke pridobivajo. Ta stil tekmovanja je po zahtevnosti razdeljen na kategorije:",
+            `Vsak posameznik tako napreduje iz ene kategorije v drugo glede na to koliko točk je zbral v skupnem seštevku. Za lepši prikaz si oglej <a href="https://www.worldsdc.com/wsdc-points-registry-rules/#figure-tbl03" target="_blank">diagram</a> v uradnem pravilniku.`,
+          ],
+          list: [
+            `<a href="https://www.youtube.com/watch?v=kBEkJRbllTA&pp=ygUYbmV3Y29tZXIgZmluYWxzIGJ1ZGFmZXN0" target="_blank" class="important">Newcomer (NEW)</a> - najnižji nivo, neobvezen, namenjen novim plesalcem;`,
+            `<a href="https://www.youtube.com/watch?v=pEKVcjvBHGQ&pp=ygUWbm92aWNlIGZpbmFscyBidWRhZmVzdA%3D%3D" target="_blank" class="important">Novice (NOV)</a> - najnižji obvezen nivo, namenjen plesalcem, ki že imajo nekaj znanja, lahko pa se mu pridružijo tudi plesalci začetniki. Za vstop v ta nivo točke niso potrebne;`,
+            `<a href="https://www.youtube.com/watch?v=tFX_rgNhChA&pp=ygUTaW50ZXJtZWRpYXRlIGZpbmFscw%3D%3D" target="_blank" class="important">Intermediate (INT)</a> - srednji nivo, namenjen naprednejšim plesalcem, ki so že večkrat tekmovali in v skupnem seštevku nabrali vsaj 16 Novice točk;`,
+            `<a href="https://www.youtube.com/watch?v=bT0ON9V31fw&pp=ygUdYWR2YW5jZWQgZmluYWxzIGF0dGlsYSBwYXJ0b3M%3D" target="_blank" class="important">Advanced (ADV)</a> - visok nivo, namenjen izkušenim plesalcem, ki so v skupnem seštevku zbrali vsaj 30 Intermediate točk;`,
+            `<a href="https://www.youtube.com/watch?v=RUpH6uzM9Hk" target="_blank" class="important">All Star (ALS)</a> - izjemno visok nivo, namenjem plesalcem, ki so v skupnem seštevku zbrali že vsaj 60 Advanced točk;`,
+            `<a href="https://www.youtube.com/watch?v=KNID2LYJ4xM&pp=ygUZY2hhbXBpb25zIDFzdCBwbGFjZSBrYXJpbg%3D%3D" target="_blank" class="important">Champions (CHA)</a> - najvišji nivo, namenjem tistim, ki so v svetovnem vrhu in so v skupnem seštevku zbrali že vsaj 150 All Star točk.`,
+          ]
+        },
+        {
+          question: "2. Kaj je to WSDC trial event?",
+          answerText: [
+            "WSDC trial event, je vsaj 3-dnevni mednarodni dogodek z delavnicami, žuri in tekmovanji, ki ustreza zahtevam pravilnika WSDC in se poteguje za njihovo licenco.",
+            "WSDC mora tak dogodek vnaprej odobriti kot poskusni (trial run). V tem letu mora dogodek zadostiti vsem potrebam, ne podeljuje pa še točk. Če trial run uspe, potem WSDC za prihodnja leta temu dogodku podeli licenco. Od takrat naprej so tekmovanja točkovana.",
+          ],
+        },
+        {
+          question: "3. Kam naj se torej prijavim?",
+          answerText: [
+            "Če še nimaš WSDC ID številke in nisi še nikdar tekmoval_a, ali pa tekmuješ v kategorijah Newcomer, Novice ali Intermediate, se lahko prijaviš na delavnice v sklopu Full Pass. Te delavnice bodo potekale v soboto in nedeljo, razdeljene pa bodo na 3 nivoje:",
+            "Če si popolen začetnik_ca, ali pa si se z WCS le bežno spoznal_a in se želiš naučiti osnov, potem se lahko pridružiš našemu petkovemu programu Zero to Hero. V 4 urah boš spoznal_a osnove dovolj, da boš na petkovi zabavi gotovo lahko plesal_a.",
+            "Na ADV+ Full Pass, ki ima delavnice prav tako samo v petek, se lahko prijaviš samo, če tekmuješ v kategorijah Advanced / All Star / Champion.",
+          ],
+          list: [
+            "Level 2 ustreza stopnji Newcomer,",
+            "Level 3 ustreza stopnji Novice z vsaj 1 točko,",
+            "Level 4 ustreza stopnji Intermediate.",
+          ]
+        },
+        {
+          question: "4. Kaj napišem v polje WSDC ID ob prijavi?",
+          answerText: [
+            "Če že imaš številko WSDC ID, ki si jo pridobil_a na tekmovanju, potem jo vpiši. Na podlagi te številke bomo avtomatsko določili nivo ob prijavi.",
+            "Če številke še nimaš, pusti prazno.",
+          ],
+        },
+        {
+          question: "5. OK, kaj pa, če plešem dobro, ampak se ne udeležujem tekmovanj?",
+          answerText: [
+            "Nič hudega. Če želiš sodelovati na delavnicah višjega nivoja, se lahko udeležiš avdicije, ki bo potekala pred delavnicami. Tam bodo učitelji prosili udeležence, da večkrat odplešejo z različnimi partnerji, in se na podlagi videnega znanja odločili, koga lahko sprejmejo na višji nivo. Odločitev učiteljev je dokončna, saj oni najbolje vejo, katero znanje pričakujejo za svoje delavnice.",
+            "Avdicija bo možna za level 3 in level 4. Za level 2 in Zero to Hero ni potrebna. Za ADV+ delavnice avdicije ne bo."          
+          ],
+        },
+      ]
+    },
     schedule: {
       pageTitle: "Urnik",
       description: "To je okvirni urnik in se bo verjetno še kaj spremenil.",
