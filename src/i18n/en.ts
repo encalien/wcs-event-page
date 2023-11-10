@@ -409,72 +409,20 @@ const en = {
           }
         ]
       },
-      howToGetHere: {
-        title: "How to get here",
-        options: [
-          {
-            title: "By car",
-            description: [
-              "Ljubljana is conveniently located within a 5-hour drive from major cities in surrounding countries such as Budapest, Vienna, Graz, Munich, Milan, and Zagreb.",
-              "If you're driving, the hotel provides a parking garage. Additionally, there are several parking lots nearby. Pariking is also possible on the smaller streets around the hotel, and those parking spots are usually for free over the weekend.",
-              `Please remember that a vignette is required for driving on Slovenian highways. You can purchase it online <a target="_blank" href="https://evinjeta.dars.si/en">here</a> or at any highway entry point.`
-            ],
-          },
-          {
-            title: "By bus or train",
-            description: [
-              `Arriving by inter-city bus or train brings you to the <a target="_blank" href="https://www.ap-ljubljana.si/en">Main Bus Station</a> or <a target="_blank" href="https://potniski.sz.si/en/abroad">Main Railway Station</a> respectively. Both are located next to each other in the central part of the city. From there, you can take city bus lines 6 or 8 to the "Smelt" stop near the hotel, or opt for a taxi.`,
-              `To use the city bus, you need to use the Urbana transport card system. The easiest way is via their mobile app, which allows you to pay with credit cards. You can download the app from <a target="_blank" href="https://play.google.com/store/apps/details?id=com.margento.urbanaplus">Google Play</a> or <a target="_blank" href="https://apps.apple.com/us/app/urbana/id1608543324">App Store</a>. Alternatively, you can purchase and top up a physical card. A bus ride costs 1.30 euros, valid for 90 minutes.`,
-              `For taxis, we recommend calling or ordering online from companies like <a target="_blank" href="http://www.taximetro.si/?page_id=335">Metro</a>, <a target="_blank" href="https://www.taxi-laguna.com/">Laguna</a>, or <a target="_blank" href="https://cammeo.hr/en">Cammeo</a>. Note that we don't have Uber or similar services and that flagged down taxis are usually more expensive. While payment can typically be made with card or cash, cash is more reliable.`
-            ],
-          },
-          {
-            title: "By plane",
-            description: [
-              `The closest international airport is <a target="_blank" href="https://www.lju-airport.si/en/transport/">Ljubljana Jože Pučnik Airport</a>, approximately 25 kilometers from the venue. Buses run to the main bus station, or you can pre-arrange an airport shuttle using the <a target="_blank" href="http://goopti.com/en/">GoOpti</a> or <a target="_blank" href="https://www.easydrive.si/go/647/How-It-Works-">EasyDrive</a> service.`,
-              "Given Slovenia's compact size, you might also consider flying into a nearby country. Here are some alternative nearby airports, potentially offering cheaper flights:"
-            ],
-            airports: [
-              {
-                name: "Zagreb Franjo Tuđman Airport - Croatia",
-                distance: "153 km",
-                access: `Zagreb Airport is one of the closest airports, and is easily accessible from Ljubljana by bus or shuttle service. You can find more info about transport options <a target="_blank" href="https://www.zagreb-airport.hr/en/passengers/to-from-the-airport/35">here</a>.`
-              },
-              {
-                name: "Venice Marco Polo Airport - Italy",
-                distance: "233 km",
-                access: `You can travel from Marco Polo Airport to Ljubljana via Goopti shuttle, bus, or train. Transport details are available <a target="_blank" href="https://www.veneziaairport.it/en/transport/ljubljana.html">here</a>.`
-              },
-              {
-                name: "Venice Treviso Airport - Italy",
-                distance: "230 km",
-                access: `From Venice Treviso Airport you can take a regular inter-city bus or train line from Venice to Ljubljana, but the most convenient option is likely <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a> or <a target="_blank" href="https://www.easydrive.si/go/647/How-It-Works-">EasyDrive</a> transfers.`
-              },
-              {
-                name: "Klagenfurt Airport - Austria",
-                distance: "134 km",
-                access: `Klagenfurt Airport is a small airport, but if you can find a good flight connection there, it's the closest one. While it is possible to take a bus from Klagenfurt through Villach to Ljubljana, we recommend using a shuttle service like <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a> or <a target="_blank" href="https://www.easydrive.si/go/647/How-It-Works-">EasyDrive</a> transfers.`
-              },
-              {
-                name: "Graz Airport - Austria",
-                distance: "183 km",
-                access: `From Graz Airport, regular inter-city buses and trains, as well as shuttle services like <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a> or <a target="_blank" href="https://www.easydrive.si/go/647/How-It-Works-">EasyDrive</a> transfers, are available to Ljubljana.`
-              },
-            ],
-          },
-        ]
-      },
       links: {
-        bookingWithBreakfast: "",
-        bookingNoBreakfast: "",
         mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
         mapSrc: "/images/location_hotel_map.png"
       },
       address: {
+        addressText: "Address",
         name: "Austria Trend Hotel Ljubljana ****",
         address: "Dunajska cesta 154",
         zipAndCity: "1000 Ljubljana",
         country: "Slovenia",
+        access: [
+          "Parking is available in the hotel garage or at one of the nearby parking lots or road-side spaces.",
+          "You can also get to the hotel by city bus. Lines 6 and 8 go to the 'Smelt' station in front of the hotel."
+        ]
       },
     },
     accommodation: {
@@ -505,7 +453,62 @@ const en = {
       //     url: "https://www.booking.com/Share-cQFt8l"
       //   },
       // ]
-    }
+    },
+    howToGetHere: {
+      pageTitle: "How to get here",
+      options: [
+        {
+          title: "By car",
+          description: [
+            "Ljubljana is conveniently located within a 5-hour drive from major cities in surrounding countries such as Budapest, Vienna, Graz, Munich, Milan, and Zagreb.",
+            "If you're driving, the hotel provides a parking garage. Additionally, there are several parking lots nearby. Pariking is also possible on the smaller streets around the hotel, and those parking spots are usually for free over the weekend.",
+            `Please remember that a vignette is required for driving on Slovenian highways. You can purchase it online <a target="_blank" href="https://evinjeta.dars.si/en">here</a> or at any highway entry point.`
+          ],
+        },
+        {
+          title: "By bus or train",
+          description: [
+            `Arriving by inter-city bus or train brings you to the <a target="_blank" href="https://www.ap-ljubljana.si/en">Main Bus Station</a> or <a target="_blank" href="https://potniski.sz.si/en/abroad">Main Railway Station</a> respectively. Both are located next to each other in the central part of the city. From there, you can take city bus lines 6 or 8 to the "Smelt" stop near the hotel, or opt for a taxi.`,
+            `To use the city bus, you need to use the Urbana transport card system. The easiest way is via their mobile app, which allows you to pay with credit cards. You can download the app from <a target="_blank" href="https://play.google.com/store/apps/details?id=com.margento.urbanaplus">Google Play</a> or <a target="_blank" href="https://apps.apple.com/us/app/urbana/id1608543324">App Store</a>. Alternatively, you can purchase and top up a physical card. A bus ride costs 1.30 euros, valid for 90 minutes.`,
+            `For taxis, we recommend calling or ordering online from companies like <a target="_blank" href="http://www.taximetro.si/?page_id=335">Metro</a>, <a target="_blank" href="https://www.taxi-laguna.com/">Laguna</a>, or <a target="_blank" href="https://cammeo.hr/en">Cammeo</a>. Note that we don't have Uber or similar services and that flagged down taxis are usually more expensive. While payment can typically be made with card or cash, cash is more reliable.`
+          ],
+        },
+        {
+          title: "By plane",
+          description: [
+            `The closest international airport is <a target="_blank" href="https://www.lju-airport.si/en/transport/">Ljubljana Jože Pučnik Airport</a>, approximately 25 kilometers from the venue. Buses run to the main bus station, or you can pre-arrange an airport shuttle using the <a target="_blank" href="http://goopti.com/en/">GoOpti</a> or <a target="_blank" href="https://www.easydrive.si/go/647/How-It-Works-">EasyDrive</a> service.`,
+            "Given Slovenia's compact size, you might also consider flying into a nearby country. Here are some alternative nearby airports, potentially offering cheaper flights:"
+          ],
+          airports: [
+            {
+              name: "Zagreb Franjo Tuđman Airport - Croatia",
+              distance: "153 km",
+              access: `Zagreb Airport is one of the closest airports, and is easily accessible from Ljubljana by bus or shuttle service. You can find more info about transport options <a target="_blank" href="https://www.zagreb-airport.hr/en/passengers/to-from-the-airport/35">here</a>.`
+            },
+            {
+              name: "Venice Marco Polo Airport - Italy",
+              distance: "233 km",
+              access: `You can travel from Marco Polo Airport to Ljubljana via Goopti shuttle, bus, or train. Transport details are available <a target="_blank" href="https://www.veneziaairport.it/en/transport/ljubljana.html">here</a>.`
+            },
+            {
+              name: "Venice Treviso Airport - Italy",
+              distance: "230 km",
+              access: `From Venice Treviso Airport you can take a regular inter-city bus or train line from Venice to Ljubljana, but the most convenient option is likely <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a> or <a target="_blank" href="https://www.easydrive.si/go/647/How-It-Works-">EasyDrive</a> transfers.`
+            },
+            {
+              name: "Klagenfurt Airport - Austria",
+              distance: "134 km",
+              access: `Klagenfurt Airport is a small airport, but if you can find a good flight connection there, it's the closest one. While it is possible to take a bus from Klagenfurt through Villach to Ljubljana, we recommend using a shuttle service like <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a> or <a target="_blank" href="https://www.easydrive.si/go/647/How-It-Works-">EasyDrive</a> transfers.`
+            },
+            {
+              name: "Graz Airport - Austria",
+              distance: "183 km",
+              access: `From Graz Airport, regular inter-city buses and trains, as well as shuttle services like <a target="_blank" href="https://www.goopti.com/en/">GoOpti</a> or <a target="_blank" href="https://www.easydrive.si/go/647/How-It-Works-">EasyDrive</a> transfers, are available to Ljubljana.`
+            },
+          ],
+        },
+      ]
+    },
   },
   registration: {
     pageTitle: "Registration",

@@ -22,14 +22,15 @@ const store = createStore({
 
 import Home from "./components/pages/Home.vue";
 import Staff from "./components/pages/Staff.vue";
-import EventLocation from "./components/pages/EventLocation.vue";
 import NotFound from "./components/pages/NotFound.vue";
 import Schedule from "./components/pages/Schedule.vue";
 import Pricing from "./components/pages/Pricing.vue";
 import TermsAndConditions from "./components/pages/TermsAndConditions.vue";
 import Levels from "./components/pages/Levels.vue";
 import WSDC from "./components/pages/WSDC.vue";
+import EventLocation from "./components/pages/EventLocation.vue";
 import Slovenia from "./components/pages/Slovenia.vue";
+import HowToGetHere from "./components/pages/HowToGetHere.vue";
 
 import { createRouter, createWebHistory } from 'vue-router';
 
@@ -58,11 +59,27 @@ const routes: any = [
   { path: '/:lang(en|si|fr)/workshops/teachers', component: Staff, },
   { path: '/:lang(en|si|fr)/workshops/levels', component: Levels, },
   { path: '/:lang(en|si)/workshops/wsdc', component: WSDC, },
-  { path: '/:lang(fr)/workshops/wsdc', component: WSDC, redirect: '/fr' },
+  {
+    path: '/:lang(fr)/workshops/wsdc',
+    component: WSDC,
+    redirect: '/fr'
+  },
   { path: '/:lang(en|si|fr)/workshops/schedule', component: Schedule, },
   { path: '/:lang(en|si|fr)/pricing', component: Pricing, },
-  { path: '/:lang(en|si|fr)/location/slovenia', component: Slovenia, },
   { path: '/:lang(en|si|fr)/location/venue', component: EventLocation, },
+  { path: '/:lang(en|si|fr)/location/slovenia', component: Slovenia, },
+  {
+    path: '/:lang(si)/location/slovenia',
+    component: EventLocation,
+    redirect: '/si/location/venue'
+
+  },
+  { path: '/:lang(en|si|fr)/location/how-to-get-here', component: HowToGetHere, },
+  {
+    path: '/:lang(si)/location/how-to-get-here',
+    component: EventLocation,
+    redirect: '/si/location/venue'
+  },
   { path: '/:lang(en|si|fr)/terms-and-conditions', component: TermsAndConditions },
 ]
 

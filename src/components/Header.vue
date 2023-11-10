@@ -119,12 +119,19 @@
               <div v-if="$store.state.lang !== 'si'" class="dropdown-menu-item" @click="closeAllMenus()">
                 <router-link :to="`/${$store.state.lang}/location/slovenia`" class="menu-item-link">{{ $t('location.slovenia.pageTitle') }}</router-link>
               </div>
+              <div v-if="$store.state.lang !== 'si'" class="dropdown-menu-item" @click="closeAllMenus()">
+                <router-link :to="`/${$store.state.lang}/location/how-to-get-here`" class="menu-item-link">{{ $t('location.howToGetHere.pageTitle') }}</router-link>
+              </div>
             </div>
           </div>
           <div class="menu-item" 
               :class="{ 'active': isMobileMenuOpen }"
               @click="closeAllMenus()">
-            <a href="https://forms.gle/5LZA76MxxWSazadZ7" target="_blank" class="menu-item-link">{{ $t('registration.pageTitle') }}</a>
+            <a href="https://forms.gle/5LZA76MxxWSazadZ7" 
+               target="_blank" 
+               class="menu-item-link dropdown-header">
+              {{ $t('registration.pageTitle') }}
+            </a>
           </div>
           <div id="social-icons" 
               class="menu-item flex-container flex-container-row" 
@@ -239,7 +246,7 @@
   }
 
   .menu-item-link.dropdown-header {
-    padding: 1rem 2rem;
+    padding: 1rem 2.5rem;
   }
 
   .logo-link {
@@ -299,8 +306,8 @@
     margin: 0 auto;
   }
 
-  .dropdown-menu-item-link {
-    color: var(--color-text-alt);
+  .dropdown-menu-item > .menu-item-link {
+    padding: 1rem 0.5rem;
   }
 
   #social-icons {

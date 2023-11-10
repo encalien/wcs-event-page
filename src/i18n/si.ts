@@ -342,21 +342,66 @@ const si = {
       description: [
         "Festival bo potekal v Austria Trend Hotelu za Bežigradom. Hotel nudi moderne sobe, prijazno osebje in odlično lokacijo, vse to le lučaj stran od živahnega starega mestnega jedra.",
         "Dvoposteljno sobo v hotelu lahko rezervirate po znižani ceni. Vsaka soba nudi sodobne ugodnosti, ki zagotavljajo udobno in prijetno bivanje med dogodkom.",
-        "Parkiranje je možno v garaži hotela ali na enem izmed bližnjih parkirišč oz. parkirnih prostorov.",
-        "Do hotela lahko prideš tudi z mestnim avtobusom. Do postaje 'Smelt' pred hotelom vozita liniji 6 in 8."
+        "Med dogodkom Slovenian Open ponujajo 2 vrsti sob po znižani ceni. Cene sob na noč, veljavne od 17. do 23. aprila, so:",
       ],
+      roomTypes: [
+        {
+          type: "DELUXE soba",
+          beds: "Dvoposteljna ali z dvema ločenima ležiščema",
+          prices: [
+            {
+              occupancy: "nastanitev ene osebe",
+              price: "75 € / 99 € s zajtrkom"
+            },
+            {
+              occupancy: "nastanitev dveh oseb",
+              price: "99 € / 118 € s zajtrkom"
+            }
+          ]
+        },
+        {
+          type: "EXECUTIVE soba",
+          beds: "Dvoposteljna ali z dvema ločenima ležiščema",
+          prices: [
+            {
+              occupancy: "nastanitev ene osebe",
+              price: "100 € / 124 € s zajtrkom"
+            },
+            {
+              occupancy: "nastanitev dveh oseb",
+              price: "124 € / 149 € s zajtrkom"
+            }
+          ]
+        }
+      ],
+      booking: {
+        text: "Sobo katere koli vrste lahko rezerviraš na spodnjih povezavah:",
+        links: [
+          {
+            roomType: "rezerviraj sobo z zajtrkom",
+            link: "https://reservations.travelclick.com/75036?groupID=4129307"
+          },
+          {
+            roomType: "rezerviraj sobo brez zajtrka",
+            link: "https://reservations.travelclick.com/75036?groupID=4132278"
+          }
+        ]
+      },
       links: {
-        booking: "",
         mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
         mapSrc: "/images/location_hotel_map.png"
       },
       address: {
+        addressText: "Address",
         name: "Austria Trend Hotel Ljubljana ****",
         address: "Dunajska cesta 154",
         zipAndCity: "1000 Ljubljana",
         country: "Slovenia",
+        access: [
+          "Parkiranje je možno v garaži hotela ali na enem izmed bližnjih parkirišč oz. parkirnih prostorov.",
+          "Do hotela lahko prideš tudi z mestnim avtobusom. Do postaje 'Smelt' pred hotelom vozita liniji 6 in 8.",
+        ]
       },
-      bookingText: "Povezava za rezervacijo sob bo kmalu objavljena."
     },
   },
   registration: {
