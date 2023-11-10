@@ -7,13 +7,6 @@ export default {
       messages: messages
     }
   },
-  // watch:{
-  //   $route() {
-  //     if (this.$store.state.lang !== "si") {
-  //       this.$router.redirect(`/${lang}`)
-  //     }
-  //   }
-  // },
 }
 </script>
 
@@ -27,12 +20,23 @@ export default {
         <p>Ko tekmovalec pridobi točke, ga WSDC vpiše v <a href="https://www.worldsdc.com/registry-points/" target="_blank">svoj sistem</a> in mu dodeli unikatno številko (WSDC ID). Na podlagi te številke se vodi evidenca točk posameznega tekmovalca.</p>
         <p>WSDC licencirana tekmovanja so razdeljena v več stilov in kategorij. Za nas je pomemben stil Jack & Jill, ki je edini, kjer se točke pridobivajo. Ta stil tekmovanja je po zahtevnosti razdeljen na kategorije:
           <ul>
-            <li><span class="important">Newcomer (NEW)</span> - najnižji nivo, neobvezen, namenjen novim plesalcem;</li>
-            <li><span class="important">Novice (NOV)</span> - najnižji obvezen nivo, namenjen plesalcem, ki že imajo nekaj znanja, lahko pa se mu pridružijo tudi plesalci začetniki. Za vstop v ta nivo točke niso potrebne;</li>
-            <li><span class="important">Intermediate (INT)</span> - srednji nivo, namenjen naprednejšim plesalcem, ki so že večkrat tekmovali in v skupnem seštevku nabrali vsaj 16 Novice točk;</li>
-            <li><span class="important">Advanced (ADV)</span> - visok nivo, namenjen izkušenim plesalcem, ki so v skupnem seštevku zbrali vsaj 30 Intermediate točk;</li>
-            <li><span class="important">All Star (ALS)</span> - izjemno visok nivo, namenjem plesalcem, ki so v skupnem seštevku zbrali že vsaj 60 Advanced točk;</li>
-            <li><span class="important">Champions (CHA)</span> - najvišji nivo, namenjem tistim, ki so v svetovnem vrhu in so v skupnem seštevku zbrali že vsaj 150 All Star točk;</li>
+            <li>
+              <span class="important"><a href="https://www.youtube.com/watch?v=kBEkJRbllTA&pp=ygUYbmV3Y29tZXIgZmluYWxzIGJ1ZGFmZXN0" target="_blank">Newcomer (NEW)</a></span>
+               - najnižji nivo, neobvezen, namenjen novim plesalcem;</li>
+            <li>
+              <span class="important"><a href="https://www.youtube.com/watch?v=pEKVcjvBHGQ&pp=ygUWbm92aWNlIGZpbmFscyBidWRhZmVzdA%3D%3D" target="_blank">Novice (NOV)</a></span>
+               - najnižji obvezen nivo, namenjen plesalcem, ki že imajo nekaj znanja, lahko pa se mu pridružijo tudi plesalci začetniki. Za vstop v ta nivo točke niso potrebne;</li>
+            <li>
+              <span class="important"><a href="https://www.youtube.com/watch?v=tFX_rgNhChA&pp=ygUTaW50ZXJtZWRpYXRlIGZpbmFscw%3D%3D" target="_blank">Intermediate (INT)</a></span>
+               - srednji nivo, namenjen naprednejšim plesalcem, ki so že večkrat tekmovali in v skupnem seštevku nabrali vsaj 16 Novice točk;</li>
+            <li>
+              <span class="important"><a href="https://www.youtube.com/watch?v=bT0ON9V31fw&pp=ygUdYWR2YW5jZWQgZmluYWxzIGF0dGlsYSBwYXJ0b3M%3D" target="_blank">Advanced (ADV)</a></span>
+               - visok nivo, namenjen izkušenim plesalcem, ki so v skupnem seštevku zbrali vsaj 30 Intermediate točk;</li>
+            <li><span class="important"><a href="https://www.youtube.com/watch?v=RUpH6uzM9Hk" target="_blank">All Star (ALS)</a></span>
+               - izjemno visok nivo, namenjem plesalcem, ki so v skupnem seštevku zbrali že vsaj 60 Advanced točk;</li>
+            <li>
+              <span class="important"><a href="https://www.youtube.com/watch?v=KNID2LYJ4xM&pp=ygUZY2hhbXBpb25zIDFzdCBwbGFjZSBrYXJpbg%3D%3D" target="_blank">Champions (CHA)</a></span>
+               - najvišji nivo, namenjem tistim, ki so v svetovnem vrhu in so v skupnem seštevku zbrali že vsaj 150 All Star točk.</li>
           </ul>
         </p>
         <p>Vsak posameznik tako napreduje iz ene kategorije v drugo glede na to koliko točk je zbral v skupnem seštevku. Za lepši prikaz si oglej <a href="https://www.worldsdc.com/wsdc-points-registry-rules/#figure-tbl03" target="_blank">diagram</a> v uradnem pravilniku.</p>
@@ -51,18 +55,17 @@ export default {
             <li>Level 4 ustreza stopnji Intermediate.</li>
           </ul>
         </p>
-        <p>Če si popolen začetnik, ali pa si se z WCS le bežno spoznal_a in se želiš naučiti osnov, potem se lahko pridružiš našemu petkovemu programu Zero to Hero. V 4 urah boš spoznal_a osnove tako, da boš na petkovi zabavi gotovo lahko plesal_a.</p>
+        <p>Če si popolen začetnik_ca, ali pa si se z WCS le bežno spoznal_a in se želiš naučiti osnov, potem se lahko pridružiš našemu petkovemu programu Zero to Hero. V 4 urah boš spoznal_a osnove dovolj, da boš na petkovi zabavi gotovo lahko plesal_a.</p>
         <p>Na ADV+ Full Pass, ki ima delavnice prav tako samo v petek, se lahko prijaviš samo, če tekmuješ v kategorijah Advanced / All Star / Champion.</p>
       </div>
       <div class="faq-item">
         <h2>4. Kaj napišem v polje WSDC ID ob prijavi?</h2>
-        <p>Če že imaš številko WSDC ID, ki si jo pridobil na tekmovanju, potem jo vpiši. Na podlagi te številke bomo avtomatsko določili nivo ob prijavi.</p>
+        <p>Če že imaš številko WSDC ID, ki si jo pridobil_a na tekmovanju, potem jo vpiši. Na podlagi te številke bomo avtomatsko določili nivo ob prijavi.</p>
         <p>Če številke še nimaš, pusti prazno.</p>
       </div>
       <div class="faq-item">
-        <h2>5. OK, kaj pa, če se ne udeležujem tekmovanj?</h2>
-        <p>Nič hudega. Ob prijavi željenega nivoja ni potrebno definirati. To bomo določili ob prihodu avtomatsko glede na WSDC točkovni sistem.</p>
-        <p>Če želiš sodelovati na delavnicah višjega nivoja, se lahko udeležiš avdicije, ki bo potekala pred delavnicami. Tam bodo učitelji prosili udeležence, da večkrat odplešejo z različnimi partnerji, in se na podlagi videnega znanja odločili, koga lahko sprejmejo na višji nivo. Odločitev učiteljev je dokončna, saj oni najbolje vejo, katero znanje pričakujejo za svoje delavnice.</p>
+        <h2>5. OK, kaj pa, če plešem dobro, ampak se ne udeležujem tekmovanj?</h2>
+        <p>Nič hudega. Če želiš sodelovati na delavnicah višjega nivoja, se lahko udeležiš avdicije, ki bo potekala pred delavnicami. Tam bodo učitelji prosili udeležence, da večkrat odplešejo z različnimi partnerji, in se na podlagi videnega znanja odločili, koga lahko sprejmejo na višji nivo. Odločitev učiteljev je dokončna, saj oni najbolje vejo, katero znanje pričakujejo za svoje delavnice.</p>
       </div>
     </div>
   </section>
