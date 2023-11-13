@@ -92,15 +92,23 @@
               <div class="dropdown-menu-item" @click="closeAllMenus()">
                 <router-link :to="`/${$store.state.lang}/workshops/levels`" class="menu-item-link">{{ $t('workshops.levels.pageTitle') }}</router-link>
               </div>
-              <div class="dropdown-menu-item" @click="closeAllMenus()">
-                <router-link :to="`/${$store.state.lang}/workshops/schedule`" class="menu-item-link">{{ $t('workshops.schedule.pageTitle') }}</router-link>
-              </div>
             </div>
           </div>
           <div class="menu-item" 
               :class="{ 'active': isMobileMenuOpen }"
               @click="closeAllMenus()">
-              <router-link :to="`/${$store.state.lang}/pricing`" class="menu-item-link dropdown-header">{{ $t('workshops.pricing.pageTitle') }}</router-link>
+              <router-link :to="`/${$store.state.lang}/workshops/schedule`" 
+                           class="menu-item-link dropdown-header">
+                {{ $t('workshops.schedule.pageTitle') }}
+              </router-link>
+          </div>
+          <div class="menu-item" 
+              :class="{ 'active': isMobileMenuOpen }"
+              @click="closeAllMenus()">
+              <router-link :to="`/${$store.state.lang}/pricing`" 
+                           class="menu-item-link dropdown-header">
+                {{ $t('workshops.pricing.pageTitle') }}
+              </router-link>
           </div>
           <div class="menu-item" :class="{ 'active-block': isMobileMenuOpen }">
             <div @click="toggleDropdownMenu($t('location.pageTitle'))" 
@@ -114,7 +122,10 @@
             <div class="dropdown-menu hidden"
                 :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}">
               <div class="dropdown-menu-item" @click="closeAllMenus()">
-                <router-link :to="`/${$store.state.lang}/location/venue`" class="menu-item-link">{{ $t('location.venue.pageTitle') }}</router-link>
+                <router-link :to="`/${$store.state.lang}/location/venue`" 
+                             class="menu-item-link">
+                  {{ $t('location.venue.pageTitle') }}
+                </router-link>
               </div>
               <div v-if="$store.state.lang !== 'si'" class="dropdown-menu-item" @click="closeAllMenus()">
                 <router-link :to="`/${$store.state.lang}/location/slovenia`" class="menu-item-link">{{ $t('location.slovenia.pageTitle') }}</router-link>

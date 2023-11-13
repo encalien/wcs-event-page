@@ -72,7 +72,6 @@ const routes: any = [
     path: '/:lang(si)/location/slovenia',
     component: EventLocation,
     redirect: '/si/location/venue'
-
   },
   { path: '/:lang(en|si|fr)/location/how-to-get-here', component: HowToGetHere, },
   {
