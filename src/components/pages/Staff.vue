@@ -13,15 +13,19 @@ export default {
 <template>
   <section>
     <h1>{{ $t('workshops.staff.pageTitle') }}</h1>
-    <div class="flex-container flex-gap">
-      <div class="flex-item flex-basis-100 margin-0">
-        <h2>{{ $t('workshops.staff.teachers.names') }}</h2>
-        <p v-for="(val, i) in messages.workshops.staff.teachers.description">
-          {{ $t(`workshops.staff.teachers.description[${i}]`) }}
-        </p>
-      </div>
-      <div class="flex-item flex-basis-100 margin-0 flex-container flex-container-column">
-        <img src="/src/assets/images/teachers.jpg" :alt="$t('workshops.staff.teachers.names')">
+    <div class="flex-container flex-container-column flex-gap">
+      <div v-for="(teacher, i) in messages.workshops.staff.teachers" 
+           class="flex-item flex-basis-100 margin-0 flex-container">
+        <div>
+          <h2>{{ $t(`workshops.staff.teachers[${i}].names`) }}</h2>
+          <p v-for="(p, j) in teacher.description">
+            {{ $t(`workshops.staff.teachers[${i}].description[${j}]`) }}
+          </p>
+        </div>
+        <div class="flex-item flex-basis-100 margin-0 flex-container flex-container-column">
+          <img :src="$t(`workshops.staff.teachers[${i}].src`)" 
+               :alt="$t(`workshops.staff.teachers[${i}].names`)">
+        </div>
       </div>
     </div>
   </section>
