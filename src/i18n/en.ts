@@ -1,17 +1,17 @@
 const en = {
   event: {
-    name: "West Coast SPRING",
+    name: "Slovenian Open",
     location: "Ljubljana",
-    date: "5 - 7 May 2023",
+    date: "19 - 21 April 2024",
     welcomeText: "Join the fun!",
     tba: "To be announced."
   },
   contact: {
     text: "If you have any questions, please contact us via email:",
-    email: "wcsslo.wixsite{'@'}gmail.com"
+    email: "info{'@'}slovenianopen.dance"
   },
   urls: {
-    facebook: "https://www.facebook.com/events/892661502160068",
+    facebook: "",
     instagram: ""
   },
   home: {
@@ -61,131 +61,154 @@ const en = {
     pageTitle: "Workshops",
     staff: {
       pageTitle: "Teachers",
-      teachers: {
-        names: "Daniel & Marina",
-        description: [
-          "Both Marina and Daniel have over a decade of experience teaching dance, but only recently have they began to travel and teach together. Combining different approaches, Marina's charismatic style and Daniel's structured methodology, they aim to create wholesome classes that reach all kinds of students.",
-          "They love west coast swing for its freedom and inclusivity that allows such different dancers to be able to create together and hope to share their passion with you."
-        ]
-      }
-    },
-    level: {
-      title: "Level",
-      descriptionText: [
-        "Workshops will be held on an improver-intermediate level. They will not be appropriate for complete beginners. Participants should already know the basic patterns (sugar push, side pass, whip) and be aware of basic lead-follow concepts.",
-        "The level of workshops will progress over the weekend, starting from improver level on Saturday towards intermediate level on Sunday."
-      ]
-    },
-    schedule: {
-      pageTitle: "Schedule",
-      description: "This is a preliminary schedule and is subject to change.",
-      days: [
+      teachers: [
         {
-          title: "Friday, May 5",
-          items: [
-            {
-              time: "20.00 - 21.00",
-              topic: "Back to Basics with Aleksandra",
-              description: "Included in Full pass or Party pass, as well as Friday party entrance fee.",
-              class: "class"
-            },
-            {
-              time: "21.00 - 01.00",
-              topic: "Party",
-              description: "Entrance fee included in Full pass or Party pass.",
-              class: "party"
-            }
+          names: "Karin & Ludovic",
+          src: "/src/assets/images/teachers_karin_ludo.jpg",
+          description: [
+            "Karin Kakun has been dancing all her life. She holds a university dance degree and has now taught dance for more than 14 years. She teaches WCS, Hip-Hop, Stretching, Pole dance. She also choreograph and performs. Before starting dancing WCS, she was the Israeli salsa champion.",
+            "Karin started her WCS career in 2014 and from the first moment she fell in love. She is now competing in Champion divisions and teaching in Israel, where she directs a West Coast Swing line of classes. She actively travels and teaches all around Europe.",
+            "Ludovic Pelegrin has taken its first dancing steps at 10 years old, when he first learned rock'n'roll. His dancing background is as innovative as diversified, as he had taken a quick interest into Lindy-Hop, Balboa, Charleston, Acrobatic rock'n'roll, Salsa, Boogie Woogie and Tap dancing. He has been a Rock and Roll, Lindy Hop and Charleston instructor since 2009.",
+            "His attraction into Swing dancing enabled him to discover West Coast Swing in 2010.",
+            "Quickly becoming very passionate, he goes from workshops to workshops overseas, where he learned from the best instructors. He also competes in many competitions where he regularly places into the Top 3.",
+            "Driven by the desire to share his passion and helping others to discover and learn it, He started to teach WCS in 2011.",
+            "After contributing to spread West Coast Swing within its area (in France), he is now giving workshops across France and Europe. Thanks to his knowledge & skills in a variety of dances, he is known for his amazing musical knowledge, his structured and concise teaching and his great generosity."
           ]
         },
         {
-          title: "Saturday, May 6",
-          items: [
-            {
-              time: "12.00 - 13.00",
-              topic: "Class",
-              description: "",
-              class: "class"
-            },
-            {
-              time: "13.15 - 14.15",
-              topic: "Class",
-              description: "",
-              class: "class"
-            },
-            {
-              time: "",
-              topic: "Lunch Break",
-              description: "",
-              class: "break"
-            },
-            {
-              time: "15.30 - 16.30",
-              topic: "Class",
-              description: "",
-              class: "class"
-            },
-            {
-              time: "20.00 - 03.00",
-              topic: "Party",
-              description: "Entrance fee included in all passes.",
-              class: "party"
-            }
+          names: "Savana & João",
+          src: "/src/assets/images/teachers_savana_joao.jpg",
+          description: [
+            "Savana started jazz dancing at 4 years old and never stopped until then. Being passionate about dance in general, she has practiced many other styles in solo, contemporary, classical, hip hop. She participates in numerous competitions, obtains regional and national prizes, and enters the conservatory during her high school years.",
+            "At the same time she discovers dances at the age of 7 with rock then quickly salsa and a little later West Coast Swing.",
+            "Very young, she was given the opportunity to teach, which she quickly acquired a taste for human relations and sharing with students. On leaving high school, she made the decision to specialize in west and went to live in Switzerland to work in the school of Jang Widler where she still works today.",
+            "João started dancing at the age of 8 in a German folk dance group in southern Brazil. In 2006 he started various other styles such as zouk, salsa, Forro, Samba de Gafiera, and Argentine Tango. Dance then becomes an integral part of his life to which he dedicates several hours a week while following professional training. In 2011 he started teaching dance and met West Coast Swing a year later in 2012. He quickly fell in love with this dance. Subsequently, he traveled to many events in Brazil and abroad to train with the greatest. In 2014 he started teaching WCS in Brazil and continues to teach it with passion today in Switzerland and in some European events."
           ]
         },
         {
-          title: "Sunday, May 7",
-          items: [
-            {
-              time: "12.00 - 13.00",
-              topic: "Class",
-              description: "",
-              class: "class"
-            },
-            {
-              time: "13.15 - 14.15",
-              topic: "Class",
-              description: "",
-              class: "class"
-            },
-            {
-              time: "14:30 - 16:00",
-              topic: "Westie Lunch",
-              description: "",
-              class: "break"
-            }
+          names: "Andrea & Attila",
+          src: "/src/assets/images/teachers_andrea_attila.jpg",
+          description: [
           ]
         }
       ]
     },
-    pricing: {
-      pageTitle: "Pricing",
-      description: [
-        "For this event we will have 3 price tiers.",
-        "Early bird price will be offered to first 10 participants (regardless of pass type), normal bird price to the next 20 participants, and late bird price for everyone else. With every tier the workshop price will rise for 10 euros and the party pass price for 5 euros."
-      ],
-      priceTier: "Late Bird",
-      passes: [
+    levels: {
+      pageTitle: "Levels",
+      levels: [
         {
-          title: "Full Pass",
-          price: "80 euros",
-          includes: [
-            "6 hours of workshops",
-            "entrance fee to both parties"
+          title: "Level 1",
+          descriptionText: [
+            "NEWCOMER",
           ]
         },
         {
-          title: "Saturday Pass",
-          price: "60 euros",
+          title: "Level 2",
+          descriptionText: [
+            "NOVICE",
+          ]
+        },
+        {
+          title: "Level 3",
+          descriptionText: [
+            "INTERMEDIATE",
+          ]
+        },
+        {
+          title: "Level 4",
+          descriptionText: [
+            "ADVANCED / ALL-STAR",
+          ]
+        },
+      ],
+    },
+    schedule: {
+      pageTitle: "Schedule",
+      description: "This is a preliminary schedule and is subject to change.",
+      href: "",
+      scr: ""
+    },
+    pricing: {
+      pageTitle: "Pricing",
+      description: [
+        "For this event we will have 3 price tiers."
+      ],
+      passPrices: [
+        {
+          type: "",
+          tiers: [
+            "Super Early Bird",
+            "Early Bird",
+            "Normal Bird",
+            "Late Bird"
+          ],
+          descriptions: [
+            "on the first day of registration",
+            "until 30 November 2023",
+            "until 31 January 2024",
+            "from 1 February 2024"
+          ],
+          dates: [
+            { from: "2023-11-01", to: "2023-11-02" },
+            { from: "2023-11-02", to: "2023-12-01" },
+            { from: "2023-12-01", to: "2024-02-01" },
+            { from: "2024-02-01", to: "2024-04-22" },
+          ]
+        },
+        {
+          type: "Full Pass",
+          tiers: [
+            "120",
+            "130",
+            "140",
+            "150"
+          ]
+        },
+        {
+          type: "Party Pass",
+          tiers: [
+            "80",
+            "90",
+            "100",
+            "110"
+          ]
+        },
+        {
+          type: "Advanced+ Pass",
+          tiers: [
+            "50",
+            "60",
+            "70",
+            "80"
+          ]
+        }
+      ],
+      currentPriceTier: "Early Bird",
+      passes: [
+        {
+          title: "Full Pass",
+          price: "120 euros",
           includes: [
-            "3 hours of workshops on Saturday",
-            "entrance fee to Saturday party"
+            "8 hours of workshops",
+            "entrance during competitions",
+            "entrance fee to 3 parties"
           ]
         },
         {
           title: "Party Pass",
-          price: "25 euros",
+          price: "80 euros",
           includes: [
-            "entrance fee to both parties"
+            "entrance during competitions",
+            "entrance fee to 3 parties"
+          ]
+        },
+        {
+          title: "Advanced+ Pass",
+          price: "50 euros",
+          includes: [
+            "4 hours of workshops",
+            "entrance during competitions",
+            "entrance fee to 3 parties"
           ]
         },
       ]
@@ -193,44 +216,68 @@ const en = {
   },
   location: {
     pageTitle: "Location",
-    venue: {
-      locationText: "The workshops will be held at Studio Dansa dance school, located at:",
-      address: {
-        name: "Studio Dansa",
-        address: "Vilharjeva cesta 3",
-        zipAndCity: "1000 Ljubljana",
-        country: "Slovenia"
-      },
-      parkingText: "Parking is possible in several paid parking lots nearby, the nearest parking lot is on Vilharjeva opposite the dance school. You can also park in public roadside parking areas, where it's usually free during the weekends, except Saturday mornings.",
-      accessText: "Access to the dance school is around the building, not where the entrance is. From the nearest parking lot it looks like this:"
+    slovenia: {
+      pageTitle: "Slovenia",
+      description: [
+        "Hey there, fellow westie! Welcome to Slovenia, a land of boundless beauty, rich culture, and the warmest of welcomes. We can't wait to show you our home and share some dances.",
+        "Ljubljana, our event's lively host city, is more than just a location - it's a city with a soul! Stroll through the charming Old Town, where every cobblestone seems to echo the rhythm of the past. The Ljubljanica River flows gently, inviting you for an evening dance under the stars. Visit Ljubljana Castle and explore its rich heritage, enjoy breathtaking views, and dance on top of the Castle hill to take your perfect instagram video.",
+        "If you've got an extra day to spare, there's a world of natural beauty just a stone throw away. Take a short drive to Lake Bled, a fairytale-like destination with its own island and a castle perched on a cliff. Go for a hike in Triglav National Park, with its majestic mountains and crystal-clear lakes. Descend into the mesmerizing Postojna Caves, an underground wonderland. Visit Piran - take your first (quick) dip in the sea of 2024 and enjoy a relaxing day on the coast.",
+        "Get ready for an adventure that'll leave your heart full of beautiful memories and your feet eager for more dance steps!"
+      ],
     },
-    hotel: {
-      title: "Accommodation",
-      suggestionsText: [
+    venue: {
+      pageTitle: "Venue",
+      description: [
+        "Nestled in the heart of Ljubljana, the Austria Trend Hotel offers modern amenities, friendly staff, and a prime location just moments away from the city's vibrant Old Town.",
+        "You can book a double or twin room at the hotel at a discounted price. Each room offers modern amenities, including free Wi-Fi and flat-screen TVs, ensuring a comfortable and enjoyable stay during your time in Ljubljana"
+      ],
+      howToGetHere: [
+        "The hotel's address is:",
+        "If you're arriving by plane, Ljubljana Jože Pučnik Airport is the nearest international airport, located approximately 25 kilometers from the hotel. You can hop on a bus that takes you to Ljubljana main bus station or arrange for airport transfers using one of the below providers.",
+        "Arriving by train or inter-city bus your end stop would be Ljubljana's main railway / bus station. From there you can reach the hotel by bus (lines 6 or 8), or get a taxi.",
+        "If you're arriving by car, the hotel offers parking garage, but there are also several parking lots nearby. Don't forget that you need a vignette to drive on slovenian highways."
+      ],
+      links: {
+        booking: "",
+        map: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9"
+      },
+      address: {
+        name: "Austria Trend Hotel Ljubljana ****",
+        address: "Dunajska cesta 154",
+        zipAndCity: "1000 Ljubljana",
+        country: "Slovenia",
+      },
+      parkingText: "Parking info...",
+      publicTransportText: "Public transport info...",
+    },
+    accommodation: {
+      title: "Other accommodation options",
+      description: [
         "Depending on your budget and service preferences, there are multiple hotels as well as hostels, apartments and AirBnbs nearby.",
-        "Here are some hotel suggestions, ordered by distance to the venue:"],
-      list: [
-        {
-          name: "Intercontinental *****",
-          distance: "5 min walk",
-          url: "https://www.booking.com/Share-aDpENI"
-        },
-        {
-          name: "Central hotel ***",
-          distance: "10 min walk",
-          url: "https://www.booking.com/Share-heW9iDT"
-        },
-        {
-          name: "City hotel **",
-          distance: "13 min walk",
-          url: "https://www.booking.com/Share-f8UiHw"
-        },
-        {
-          name: "Park ***",
-          distance: "15 min walk",
-          url: "https://www.booking.com/Share-cQFt8l"
-        },
-      ]
+        "Here are some hotel suggestions, ordered by distance to the venue:"
+      ],
+      // list: [
+      //   {
+      //     name: "Intercontinental *****",
+      //     distance: "5 min walk",
+      //     url: "https://www.booking.com/Share-aDpENI"
+      //   },
+      //   {
+      //     name: "Central hotel ***",
+      //     distance: "10 min walk",
+      //     url: "https://www.booking.com/Share-heW9iDT"
+      //   },
+      //   {
+      //     name: "City hotel **",
+      //     distance: "13 min walk",
+      //     url: "https://www.booking.com/Share-f8UiHw"
+      //   },
+      //   {
+      //     name: "Park ***",
+      //     distance: "15 min walk",
+      //     url: "https://www.booking.com/Share-cQFt8l"
+      //   },
+      // ]
     }
   },
   registration: {
