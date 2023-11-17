@@ -19,8 +19,8 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 library.add(faEnvelope, faFacebookF, faInstagram, faBars)
 
 const i18n = createI18n({
-  locale: 'si',
-  fallbackLocale: 'en',
+  locale: 'en',
+  fallbackLocale: 'si',
   messages: { en, si }
   // something vue-i18n options here ...
 })
