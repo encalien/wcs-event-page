@@ -80,6 +80,11 @@ hr {
   align-items: flex-start;
 }
 
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
 .flex-item {
   flex: 1 1 auto;
   padding: 1rem;
@@ -152,6 +157,10 @@ hr {
   text-align: center;
 }
 
+.mobile-only {
+  display: none;
+}
+
 /* mobile */
 
 @media screen and (max-width: 650px) {
@@ -180,5 +189,9 @@ hr {
   .dropdown-menu {
     position: relative;
     border: none;
+  }
+  
+  .mobile-only {
+    display: block;
   }
 }
