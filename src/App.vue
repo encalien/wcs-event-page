@@ -10,13 +10,17 @@ import Schedule from "./components/pages/Schedule.vue";
 import Registration from "./components/pages/Registration.vue";
 import Pricing from "./components/pages/Pricing.vue";
 import TermsAndConditions from "./components/pages/TermsAndConditions.vue";
+import Levels from "./components/pages/Levels.vue";
+import Slovenia from "./components/pages/Slovenia.vue";
 
 const routes: any = {
   '/': Home,
-  '/staff': Staff,
+  '/workshops/teachers': Staff,
+  '/workshops/levels': Levels,
   '/schedule': Schedule,
   '/pricing': Pricing,
-  '/location': EventLocation,
+  '/location/slovenia': Slovenia,
+  '/location/venue': EventLocation,
   '/registration': Registration,
   '/terms-and-conditions': TermsAndConditions
 }

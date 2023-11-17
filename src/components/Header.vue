@@ -57,25 +57,46 @@
         {{ $t('workshops.pageTitle') }}
       </div>
       <div class="modal-backdrop hidden" 
-           :class="{ 'active':  dropdownMenuActive($t('workshops.pageTitle'))}"
+           :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}"
            @click="closeAllMenus()"></div>
       <div class="dropdown-menu hidden" 
-           :class="{ 'active':  dropdownMenuActive($t('workshops.pageTitle'))}">
+           :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
         <div class="dropdown-menu-item" @click="closeAllMenus()">
-          <a href="#/staff" class="menu-item-link">{{ $t('workshops.staff.pageTitle') }}</a>
+          <a href="#/workshops/teachers" class="menu-item-link">{{ $t('workshops.staff.pageTitle') }}</a>
         </div>
         <div class="dropdown-menu-item" @click="closeAllMenus()">
-          <a href="#/schedule" class="menu-item-link">{{ $t('workshops.schedule.pageTitle') }}</a>
-        </div>
-        <div class="dropdown-menu-item" @click="closeAllMenus()">
-          <a href="#/pricing" class="menu-item-link">{{ $t('workshops.pricing.pageTitle') }}</a>
+          <a href="#/workshops/levels" class="menu-item-link">{{ $t('workshops.levels.pageTitle') }}</a>
         </div>
       </div>
     </div>
     <div class="flex-item menu-item" 
          :class="{ 'active': isMobileMenuOpen }"
          @click="closeAllMenus()">
-      <a href="#/location" class="menu-item-link">{{ $t('location.pageTitle') }}</a>
+         <a href="#/schedule" class="menu-item-link">{{ $t('workshops.schedule.pageTitle') }}</a>
+    </div>
+    <div class="flex-item menu-item" 
+         :class="{ 'active': isMobileMenuOpen }"
+         @click="closeAllMenus()">
+         <a href="#/pricing" class="menu-item-link">{{ $t('workshops.pricing.pageTitle') }}</a>
+    </div>
+    <div class="flex-item menu-item" :class="{ 'active-block': isMobileMenuOpen }">
+      <div @click="toggleDropdownMenu($t('location.pageTitle'))" 
+           class="menu-item-link" 
+           :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}">
+        {{ $t('location.pageTitle') }}
+      </div>
+      <div class="modal-backdrop hidden" 
+           :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}"
+           @click="closeAllMenus()"></div>
+      <div class="dropdown-menu hidden" 
+           :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}">
+        <div class="dropdown-menu-item" @click="closeAllMenus()">
+          <a href="#/location/venue" class="menu-item-link">{{ $t('location.venue.pageTitle') }}</a>
+        </div>
+        <div class="dropdown-menu-item" @click="closeAllMenus()">
+          <a href="#/location/slovenia" class="menu-item-link">{{ $t('location.slovenia.pageTitle') }}</a>
+        </div>
+      </div>
     </div>
     <div class="flex-item menu-item" 
          :class="{ 'active': isMobileMenuOpen }"
