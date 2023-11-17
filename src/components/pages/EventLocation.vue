@@ -12,10 +12,12 @@ export default {
 
 <template>
   <section id="venue">
-    <h1>{{ $t('location.pageTitle') }}</h1>
+    <h1>{{ $t('location.venue.pageTitle') }}</h1>
     <div class="flex-container flex-gap">
       <div class="flex-item margin-0">
-        <p>{{ $t(`location.venue.locationText`) }}</p>
+        <p v-for="(p, i) in messages.location.venue.description">
+          {{ $t(`location.slovenia.description[${i}]`) }}
+        </p>
         <p class="flex-container flex-container-column">
           <span>{{ $t('location.venue.address.name') }}</span>
           <span>{{ $t('location.venue.address.address') }}</span>
@@ -24,25 +26,25 @@ export default {
         <p class="margin-0">{{ $t(`location.venue.parkingText`) }}</p>
       </div>
       <div class="flex-item margin-0">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2768.5550688276053!2d14.506221715189787!3d46.05997230151305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765329bda01817d%3A0x3598d33068363f77!2sStudio%20Dansa!5e0!3m2!1ssl!2ssi!4v1676034152943!5m2!1ssl!2ssi" class="map" allow="fullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11069.855323518224!2d14.5136321!3d46.0817312!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476532e8018ac3f7%3A0xfdd77079c72ef36c!2sAustria%20Trend%20Hotel%20Ljubljana!5e0!3m2!1ssl!2ssi!4v1698868699761!5m2!1ssl!2ssi" width="400" height="300" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
     
     <!-- <p>{{ $t(`location.venue.accessText`) }}</p> -->
     <!-- <img src="/src/assets/images/studio_dansa_entrance.jpg" alt="Entrance to Studio Dansa"> -->
   </section>
-  <section>
-    <h1>{{ $t('location.hotel.title') }}</h1>
-    <p v-for="(val, i) in messages.location.hotel.suggestionsText">
-      {{ $t(`location.hotel.suggestionsText[${i}]`) }}
+  <!-- <section>
+    <h1>{{ $t('location.accommodation.title') }}</h1>
+    <p v-for="(val, i) in messages.location.accommodation.description">
+      {{ $t(`location.accommodation.suggestionsText[${i}]`) }}
     </p>
     <ul>
-      <li v-for="(val, i) in messages.location.hotel.list">
-        <a :href="$t(`location.hotel.list[${i}].url`)">{{ $t(`location.hotel.list[${i}].name`) }}</a>
-          - {{ $t(`location.hotel.list[${i}].distance`) }}
+      <li v-for="(val, i) in messages.location.accommodation.list">
+        <a :href="$t(`location.accommodation.list[${i}].url`)">{{ $t(`location.accommodation.list[${i}].name`) }}</a>
+          - {{ $t(`location.accommodation.list[${i}].distance`) }}
       </li>
     </ul>
-  </section>
+  </section> -->
 </template>
 
 <style scoped>
