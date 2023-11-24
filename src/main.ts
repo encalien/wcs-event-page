@@ -27,7 +27,6 @@ import Schedule from "./components/pages/Schedule.vue";
 import Registration from "./components/pages/Registration.vue";
 import Pricing from "./components/pages/Pricing.vue";
 import TermsAndConditions from "./components/pages/TermsAndConditions.vue";
-// import Levels from "./components/pages/Levels.vue";
 
 import { createRouter, createWebHistory } from 'vue-router';
 
@@ -55,10 +54,9 @@ const i18n = createI18n({
 const routes: any = [
   { path: '/:lang(en|si)/', component: Home, },
   { path: '/:lang(en|si)/workshops/teachers', component: Staff, },
-  // { path: '/:lang(en|si)/workshops/levels', component: Levels, },
   { path: '/:lang(en|si)/workshops/schedule', component: Schedule, },
   { path: '/:lang(en|si)/pricing', component: Pricing, },
-  { path: '/:lang(en|si)/location/venue', component: EventLocation, },
+  { path: '/:lang(en|si)/location', component: EventLocation, },
   //{ path: ':lang(en|si)/registration', component: Registration, },
   { path: '/:lang(en|si)/terms-and-conditions', component: TermsAndConditions },
 ]
