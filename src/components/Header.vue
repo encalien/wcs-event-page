@@ -67,12 +67,12 @@
       <div class="dropdown-menu hidden" 
            :class="{ 'active':  dropdownMenuActive($t('workshops.pageTitle'))}">
         <div class="dropdown-menu-item" @click="closeAllMenus()">
-          <router-link :to="`/${$store.state.lang}/staff`" class="menu-item-link">
+          <router-link :to="`/${$store.state.lang}/workshops/teachers`" class="menu-item-link">
             {{ $t('workshops.staff.pageTitle') }}
           </router-link>
         </div>
         <div class="dropdown-menu-item" @click="closeAllMenus()">
-          <router-link :to="`/${$store.state.lang}/schedule`" class="menu-item-link">
+          <router-link :to="`/${$store.state.lang}/workshops/schedule`" class="menu-item-link">
             {{ $t('workshops.schedule.pageTitle') }}
           </router-link>
         </div>
