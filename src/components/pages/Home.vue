@@ -21,24 +21,26 @@ export default {
       <a href="#/registration" class="btn btn-primary">{{ $t('registration.pageTitle') }}</a>
     </div>
   </section>
-  <section>
+  <section id="video-collage">
     <h1>{{ $t('home.aboutWCS.title') }}</h1>
-    <p v-for="(val, i) in messages.home.aboutWCS.description">{{ $t(`home.aboutWCS.description[${i}]`) }}</p>
-    <div id="video-collage">
-      <a v-for="(val, i) in messages.home.aboutWCS.yt"
+    <p v-for="(val, i) in messages.home.aboutWCS.description">
+      {{ $t(`home.aboutWCS.description[${i}]`) }}
+    </p>
+    <div class="video-collage-content">
+      <a v-for="(yt, i) in messages.home.aboutWCS.yt"
          :href="$t(`home.aboutWCS.yt[${i}].href`)" 
          target="_blank" 
          rel="noopener noreferrer"
          :class="`item-${i + 1}`">
         <h3>{{ $t(`home.aboutWCS.yt[${i}].name`) }}</h3>
-        <img :src="'/' + $t(`home.aboutWCS.yt[${i}].src`)" />
+        <img :src="$t(`home.aboutWCS.yt[${i}].src`)" />
       </a>
       <!-- <iframe v-for="(val, i) in messages.home.aboutWCS.yt"
-              :src="'/' + $t(`home.aboutWCS.yt[${i}].src`)" 
-              :title="$t(`home.aboutWCS.yt[${i}].name`)" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen 
-              :class="`item-${i + 1}`">
+        :src="'/' + $t(`home.aboutWCS.yt[${i}].src`)" 
+        :title="$t(`home.aboutWCS.yt[${i}].name`)" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen 
+        :class="`item-${i + 1}`">
       </iframe> -->
     </div>
   </section>
@@ -47,78 +49,99 @@ export default {
 <style scoped>
   #banner {
     width: 100%;
+    padding: 40px;
   }
 
   #landing {
     background-color: var(--light);
     color: var(--dark-1);
-    padding: 1rem 40px 0;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 -40px;
-    width: 100vw;
+    margin: -40px calc(-50vw + 50%) 0;
   }
 
   .landing-content {
     flex: 1 0 auto;
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 2rem 0;
   }
 
   #video-collage {
+    margin: 4rem -40px;
+  }
+
+  .video-collage-content {
     display: grid;
     grid-gap: 10px;
-    margin-top: 40px;
+    margin: 40px 0;
   }
 
-  #video-collage > a {
+  .video-collage-content > a {
     display: flex;
-    width: calc((100vw - 100px) / 3);
-    height: calc(((100vw - 100px) / 3) * 0.56);
+    width: calc((1200px - 20px) / 3);
+    height: calc(((1200px - 20px) / 3) * 0.56);
     align-items: center;
     overflow: hidden;
+    position: relative;
+    color: var(--white-soft);
+  }
+  
+  .video-collage-content > a > h3 {
+    display: none;
+    width: 100%;
+    height: 110%;
+    position: absolute;
+    z-index: 1;
+    padding: 2rem;
   }
 
-  #video-collage > a > img {
+  .video-collage-content > a:hover > h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+  .video-collage-content > a > img {
     width: 100%;
     height: 135%;
-
   }
 
-  #video-collage > .item-1 {
-    width: calc((100vw - 100px) / 3 * 2 + 10px);
-    height: calc(((100vw - 100px) / 3 * 2 * 0.56) + 10px);
+  .video-collage-content > .item-1 {
+    width: calc((1200px - 20px) / 3 * 2 + 10px);
+    height: calc(((1200px - 20px) / 3 * 2 * 0.56) + 10px);
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
   }
 
-  #video-collage > .item-2 {
+  .video-collage-content > .item-2 {
     grid-column: 3;
     grid-row: 1;
   }
 
-  #video-collage > .item-3 {
+  .video-collage-content > .item-3 {
     grid-column: 3;
     grid-row: 2;
   }
 
-  #video-collage > .item-4 {
+  .video-collage-content > .item-4 {
     grid-column: 1;
     grid-row: 3;
   }
 
-  #video-collage > .item-5 {
+  .video-collage-content > .item-5 {
     grid-column: 2;
     grid-row: 3;
   }
 
-  #video-collage > .item-6 {
+  .video-collage-content > .item-6 {
     grid-column: 3;
     grid-row: 3;
   }
-
+  
   @media screen and (max-width: 650px) {
     #banner {
       content: url('/src/assets/images/website_landing_square.png');
@@ -133,15 +156,17 @@ export default {
     }
 
     #video-collage {
+      margin: 0;
+    }
+
+    .video-collage-content {
       display: flex;
       flex-direction: column;
     }
 
-    #video-collage > a {
+    .video-collage-content > a {
       width: 100% !important;
       height: fit-content !important;
     }
   }
 </style>
-
-<!-- width="560" height="315"  -->
