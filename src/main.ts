@@ -66,7 +66,16 @@ const routes: any = [
   },
   { path: '/:lang(en|si|fr)/workshops/schedule', component: Schedule, },
   { path: '/:lang(en|si|fr)/pricing', component: Pricing, },
-  { path: '/:lang(en|si|fr)/location/venue', component: EventLocation, },
+  {
+    path: '/:lang(en|si|fr)/location/venue/main',
+    component: EventLocation,
+    props: { venueIndex: 0 }
+  },
+  {
+    path: '/:lang(en|si|fr)/location/venue/preparty',
+    component: EventLocation,
+    props: { venueIndex: 1 }
+  },
   { path: '/:lang(en|si|fr)/location/slovenia', component: Slovenia, },
   {
     path: '/:lang(si)/location/slovenia',

@@ -122,9 +122,15 @@
             <div class="dropdown-menu hidden"
                 :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}">
               <div class="dropdown-menu-item" @click="closeAllMenus()">
-                <router-link :to="`/${$store.state.lang}/location/venue`" 
+                <router-link :to="`/${$store.state.lang}/location/venue/main`" 
                              class="menu-item-link">
-                  {{ $t('location.venue.pageTitle') }}
+                  {{ $t('location.venue[0].pageTitle') }}
+                </router-link>
+              </div>
+              <div class="dropdown-menu-item" @click="closeAllMenus()">
+                <router-link :to="`/${$store.state.lang}/location/venue/preparty`" 
+                             class="menu-item-link">
+                  {{ $t('location.venue[1].pageTitle') }}
                 </router-link>
               </div>
               <div v-if="$store.state.lang !== 'si'" class="dropdown-menu-item" @click="closeAllMenus()">
@@ -232,10 +238,6 @@
   .menu-right {
     display: flex;
     align-items: center;
-  }
-
-  .menu-left {
-
   }
 
   .menu-item {

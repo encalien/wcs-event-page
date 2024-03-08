@@ -281,75 +281,99 @@ const fr = {
         },
       ],
     },
-    venue: {
-      pageTitle: "Le lieux de l'événement",
-      description: [
-        "Niché au coeur de Ljubljana, l'hôtel Austria Trend offre des équipements modernes, un personnel amical et un emplacement idéal à quelques pas de la vibrante vieille ville.",
-        "Vous pouvez réserver une chambre double ou twin à l'hôtel à un prix réduit. Chaque chambre offre des équipements modernes, assurant un séjour confortable et agréable pendant votre séjour à Ljubljana.",
-        "Ils proposent 2 types de chambres à un prix réduit pendant l'événement Slovenian Open. Les prix des chambres par nuit, valables du 17 au 23 avril, sont les suivants :",
-      ],
-      roomTypes: [
-        {
-          type: "Chambre DELUXE",
-          beds: "Double ou Twin",
-          prices: [
+    venue: [
+      {
+        pageTitle: "Le lieux de l'événement",
+        description: [
+          "Niché au coeur de Ljubljana, l'hôtel Austria Trend offre des équipements modernes, un personnel amical et un emplacement idéal à quelques pas de la vibrante vieille ville.",
+          "Vous pouvez réserver une chambre double ou twin à l'hôtel à un prix réduit. Chaque chambre offre des équipements modernes, assurant un séjour confortable et agréable pendant votre séjour à Ljubljana.",
+          "Ils proposent 2 types de chambres à un prix réduit pendant l'événement Slovenian Open. Les prix des chambres par nuit, valables du 17 au 23 avril, sont les suivants :",
+        ],
+        roomTypes: [
+          {
+            type: "Chambre DELUXE",
+            beds: "Double ou Twin",
+            prices: [
+              {
+                occupancy: "occupation simple",
+                price: "75 € / 99 € avec petit-déjeuner"
+              },
+              {
+                occupancy: "occupation double",
+                price: "99 € / 118 € avec petit-déjeuner"
+              }
+            ]
+          },
+          {
+            type: "Chambre EXECUTIVE",
+            beds: "Double ou Twin",
+            prices: [
+              {
+                occupancy: "occupation simple",
+                price: "100 € / 124 € avec petit-déjeuner"
+              },
+              {
+                occupancy: "occupation double",
+                price: "124 € / 149 € avec petit-déjeuner"
+              }
+            ]
+          }
+        ],
+        booking: {
+          text: "Vous pouvez réserver une chambre de l'un ou l'autre type sur les liens suivants :",
+          links: [
             {
-              occupancy: "occupation simple",
-              price: "75 € / 99 € avec petit-déjeuner"
+              roomType: "réserver une chambre avec petit-déjeuner",
+              link: "https://reservations.travelclick.com/75036?groupID=4129307"
             },
             {
-              occupancy: "occupation double",
-              price: "99 € / 118 € avec petit-déjeuner"
+              roomType: "réserver une chambre sans petit-déjeuner",
+              link: "https://reservations.travelclick.com/75036?groupID=4132278"
             }
           ]
         },
-        {
-          type: "Chambre EXECUTIVE",
-          beds: "Double ou Twin",
-          prices: [
-            {
-              occupancy: "occupation simple",
-              price: "100 € / 124 € avec petit-déjeuner"
-            },
-            {
-              occupancy: "occupation double",
-              price: "124 € / 149 € avec petit-déjeuner"
-            }
+        links: {
+          booking: "",
+          mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
+          mapSrc: "/images/location_hotel_map.png",
+        },
+        address: {
+          addressText: "Addresse",
+          name: "Austria Trend Hotel Ljubljana ****",
+          address: "Dunajska cesta 154",
+          zipAndCity: "1000 Ljubljana",
+          country: "Slovénie",
+          access: [
+            "Le stationnement est possible dans le garage de l'hôtel ou dans l'un des parkings à proximité.",
+            "Vous pouvez également accéder à l'hôtel en bus urbain. Les lignes 6 et 8 desservent la station 'Smelt' en face de l'hôtel."
           ]
-        }
-      ],
-      booking: {
-        text: "Vous pouvez réserver une chambre de l'un ou l'autre type sur les liens suivants :",
-        links: [
-          {
-            roomType: "réserver une chambre avec petit-déjeuner",
-            link: "https://reservations.travelclick.com/75036?groupID=4129307"
-          },
-          {
-            roomType: "réserver une chambre sans petit-déjeuner",
-            link: "https://reservations.travelclick.com/75036?groupID=4132278"
-          }
-        ]
+        },
+        parkingText: "Informations pour le parking...",
+        bookingText:
+          "Le lien pour la réservation des chambres dans l'hôtel sera bientôt mis en ligne.",
       },
-      links: {
-        booking: "",
-        mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
-        mapSrc: "/images/location_hotel_map.png",
-      },
-      address: {
-        name: "Austria Trend Hotel Ljubljana ****",
-        address: "Dunajska cesta 154",
-        zipAndCity: "1000 Ljubljana",
-        country: "Slovenia",
-        access: [
-          "Le stationnement est possible dans le garage de l'hôtel ou dans l'un des parkings à proximité.",
-          "Vous pouvez également accéder à l'hôtel en bus urbain. Les lignes 6 et 8 desservent la station 'Smelt' en face de l'hôtel."
-        ]
-      },
-      parkingText: "Informations pour le parking...",
-      bookingText:
-        "Le lien pour la réservation des chambres dans l'hôtel sera bientôt mis en ligne.",
-    },
+      {
+        pageTitle: "Pré-fête",
+        description: [
+          "Le château de Ljubljana, perché au sommet d'une colline offrant une vue imprenable sur la ville en contrebas, se dresse comme un repère historique significatif dans la capitale de la Slovénie. Datant du 11ème siècle, le château encapsule des siècles d'histoire riche dans ses murs anciens. Aujourd'hui, il fonctionne comme un centre culturel dynamique, offrant aux visiteurs de vastes panoramas, des expositions captivantes et des lieux d'événements distinctifs tels que la salle de bal enchantée Palacij, où notre pré-fête aura lieu de 20h à 1h jeudi.",
+          "Si vous arrivez tôt, saisissez l'opportunité d'explorer la Tour du Château pour une vue panoramique à 360 degrés ou de vous régaler d'un dîner et de boissons au restaurant ou au bar du château.",
+        ],
+        links: {
+          mapHref: "https://maps.app.goo.gl/4fiDjE4WWUEXvWEz8",
+          mapSrc: "/images/location_castle_map.png"
+        },
+        address: {
+          addressText: "Addresse",
+          name: "Ljubljanski Grad",
+          address: "Grajska planota 1",
+          zipAndCity: "1000 Ljubljana",
+          country: "Slovénie",
+          access: [
+            `Pour atteindre le Château, vous pouvez choisir parmi plusieurs sentiers pédestres qui montent depuis la vieille ville, chacun offrant une agréable ascension de 10 à 20 minutes. Le mode de transport préféré est <a target="_blank" href="https://www.ljubljanskigrad.si/en/plan-your-visit/funicular-railway-en-us/">le funiculaire</a>, équipé d'une cabine en verre, qui offre une belle vue sur la ville pendant la montée. Notez qu'il ne fonctionne que jusqu'à 19h en avril. L'accès en voiture est possible via la route principale, mais il n'est pas recommandé en raison des restrictions de stationnement.`,
+          ]
+        },
+      }
+    ],
     accommodation: {
       title: "Autres possibilités d'hébergement",
       description: [

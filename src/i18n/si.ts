@@ -337,72 +337,95 @@ const si = {
   },
   location: {
     pageTitle: "Lokacija",
-    venue: {
-      pageTitle: "Prizorišče",
-      description: [
-        "Festival bo potekal v Austria Trend Hotelu za Bežigradom. Hotel nudi moderne sobe, prijazno osebje in odlično lokacijo, vse to le lučaj stran od živahnega starega mestnega jedra.",
-        "Dvoposteljno sobo v hotelu lahko rezervirate po znižani ceni. Vsaka soba nudi sodobne ugodnosti, ki zagotavljajo udobno in prijetno bivanje med dogodkom.",
-        "Med dogodkom Slovenian Open ponujajo 2 vrsti sob po znižani ceni. Cene sob na noč, veljavne od 17. do 23. aprila, so:",
-      ],
-      roomTypes: [
-        {
-          type: "DELUXE soba",
-          beds: "Dvoposteljna ali z dvema ločenima ležiščema",
-          prices: [
+    venue: [
+      {
+        pageTitle: "Glavno prizorišče",
+        description: [
+          "Festival bo potekal v Austria Trend Hotelu za Bežigradom. Hotel nudi moderne sobe, prijazno osebje in odlično lokacijo, vse to le lučaj stran od živahnega starega mestnega jedra.",
+          "Dvoposteljno sobo v hotelu lahko rezervirate po znižani ceni. Vsaka soba nudi sodobne ugodnosti, ki zagotavljajo udobno in prijetno bivanje med dogodkom.",
+          "Med dogodkom Slovenian Open ponujajo 2 vrsti sob po znižani ceni. Cene sob na noč, veljavne od 17. do 23. aprila, so:",
+        ],
+        roomTypes: [
+          {
+            type: "DELUXE soba",
+            beds: "Dvoposteljna ali z dvema ločenima ležiščema",
+            prices: [
+              {
+                occupancy: "nastanitev ene osebe",
+                price: "75 € / 99 € s zajtrkom"
+              },
+              {
+                occupancy: "nastanitev dveh oseb",
+                price: "99 € / 118 € s zajtrkom"
+              }
+            ]
+          },
+          {
+            type: "EXECUTIVE soba",
+            beds: "Dvoposteljna ali z dvema ločenima ležiščema",
+            prices: [
+              {
+                occupancy: "nastanitev ene osebe",
+                price: "100 € / 124 € s zajtrkom"
+              },
+              {
+                occupancy: "nastanitev dveh oseb",
+                price: "124 € / 149 € s zajtrkom"
+              }
+            ]
+          }
+        ],
+        booking: {
+          text: "Sobo katere koli vrste lahko rezerviraš na spodnjih povezavah:",
+          links: [
             {
-              occupancy: "nastanitev ene osebe",
-              price: "75 € / 99 € s zajtrkom"
+              roomType: "rezerviraj sobo z zajtrkom",
+              link: "https://reservations.travelclick.com/75036?groupID=4129307"
             },
             {
-              occupancy: "nastanitev dveh oseb",
-              price: "99 € / 118 € s zajtrkom"
+              roomType: "rezerviraj sobo brez zajtrka",
+              link: "https://reservations.travelclick.com/75036?groupID=4132278"
             }
           ]
         },
-        {
-          type: "EXECUTIVE soba",
-          beds: "Dvoposteljna ali z dvema ločenima ležiščema",
-          prices: [
-            {
-              occupancy: "nastanitev ene osebe",
-              price: "100 € / 124 € s zajtrkom"
-            },
-            {
-              occupancy: "nastanitev dveh oseb",
-              price: "124 € / 149 € s zajtrkom"
-            }
+        links: {
+          mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
+          mapSrc: "/images/location_hotel_map.png"
+        },
+        address: {
+          addressText: "Naslov",
+          name: "Austria Trend Hotel Ljubljana ****",
+          address: "Dunajska cesta 154",
+          zipAndCity: "1000 Ljubljana",
+          country: "Slovenija",
+          access: [
+            "Parkiranje je možno v garaži hotela ali na enem izmed bližnjih parkirišč oz. parkirnih prostorov.",
+            "Do hotela lahko prideš tudi z mestnim avtobusom. Do postaje 'Smelt' pred hotelom vozita liniji 6 in 8.",
           ]
-        }
-      ],
-      booking: {
-        text: "Sobo katere koli vrste lahko rezerviraš na spodnjih povezavah:",
-        links: [
-          {
-            roomType: "rezerviraj sobo z zajtrkom",
-            link: "https://reservations.travelclick.com/75036?groupID=4129307"
-          },
-          {
-            roomType: "rezerviraj sobo brez zajtrka",
-            link: "https://reservations.travelclick.com/75036?groupID=4132278"
-          }
-        ]
+        },
       },
-      links: {
-        mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
-        mapSrc: "/images/location_hotel_map.png"
-      },
-      address: {
-        addressText: "Address",
-        name: "Austria Trend Hotel Ljubljana ****",
-        address: "Dunajska cesta 154",
-        zipAndCity: "1000 Ljubljana",
-        country: "Slovenia",
-        access: [
-          "Parkiranje je možno v garaži hotela ali na enem izmed bližnjih parkirišč oz. parkirnih prostorov.",
-          "Do hotela lahko prideš tudi z mestnim avtobusom. Do postaje 'Smelt' pred hotelom vozita liniji 6 in 8.",
-        ]
-      },
-    },
+      {
+        pageTitle: "Predvečer",
+        description: [
+          "Ljubljanski Grad, ki leži na hribu s čudovitim razgledom na mesto pod njim, je pomembna zgodovinska znamenitost slovenske prestolnice. Grad, ki sega v 11. stoletje, združuje stoletja bogate zgodovine znotraj svojega starodavnega obzidja. Danes deluje kot živahno kulturno središče, ki obiskovalcem ponuja osupljive panorame, privlačne razstave in prepoznavna prizorišča dogodkov, kot je očarljiva plesna dvorana Palacij, kjer bo v četrtek od 20.00 do 1.00 potekal naš predvečer.",
+          "Če prispete predčasno, lahko izkoristite priložnost za raziskovanje Gradu. Lahko se povzpnete na Grajski stolp za panoramski razgled ali si privoščite večerjo in pijačo v restavraciji ali baru.",
+        ],
+        links: {
+          mapHref: "https://maps.app.goo.gl/4fiDjE4WWUEXvWEz8",
+          mapSrc: "/images/location_castle_map.png"
+        },
+        address: {
+          addressText: "Naslov",
+          name: "Ljubljanski Grad",
+          address: "Grajska planota 1",
+          zipAndCity: "1000 Ljubljana",
+          country: "Slovenija",
+          access: [
+            `Da pridete do Gradu, lahko izbirate med več pešpotmi, ki se vijejo iz starega mesta, vsaka pa ponuja prijeten 10- do 20-minutni sprehod. Najprijetnejši vzpon je z <a target="_blank" href="https://www.ljubljanskigrad.si/sl/nacrtovanje-obiska/vzpenjaca/">vzpenjačo</a>, opremljeno s stekleno kabino, ki nudi dober pogled na mesto. Upoštevajte, da v aprilu vzpenjača obratuje samo do 19. ure. Dostop z avtomobilom je možen po glavni cesti, vendar zaradi omejitev parkiranja ni priporočljiv.`,
+          ]
+        },
+      }
+    ],
   },
   registration: {
     pageTitle: "Registracija",
