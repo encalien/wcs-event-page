@@ -308,7 +308,7 @@
   .dropdown-menu {
     position: absolute;
     z-index: 2001;
-    width: 100%;
+    min-width: 100%;
     flex-direction: column;
     align-items: start;
     background-color: #fff;
