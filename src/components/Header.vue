@@ -54,124 +54,134 @@
       </router-link>
     </div>
     <div class="menu-inner">
-      <div class="menu-left">
-        <div class="modal-backdrop hidden" 
-            :class="{ 'active': isMobileMenuOpen }"
-            @click="setMobileMenuOpen(false)"></div>
+      <div class="menu-inner-content">
+        <div class="menu-left">
+          <div class="modal-backdrop hidden" 
+              :class="{ 'active': isMobileMenuOpen }"
+              @click="setMobileMenuOpen(false)"></div>
 
-        <!-- menu items -->
-        <div class="menu-small-logo" 
-            @click="closeAllMenus()">
-          <router-link :to="`/${$store.state.lang}/`" class="logo-link">
-            <img src="/src/assets/images/logo_black_transparent.svg" alt="Slovenian Open">
-          </router-link>
-        </div>
-      </div>
-      <div class="menu-right">
-        <!-- mobile menu toggle -->
-        <div id="mobile-menu-toggle" 
-            :class="{'block': !isMobileMenuOpen}"
-            @click="toggleMobileMenuOpen()">
-          <font-awesome-icon icon="fa-solid fa-bars" class="fa menu-item-link"></font-awesome-icon>
-        </div>
-        <div class="menu-items">
-          <div class="menu-item" :class="{ 'active-block': isMobileMenuOpen }">
-            <div @click="toggleDropdownMenu($t('workshops.pageTitle'))" 
-                class="menu-item-link dropdown-header" 
-                :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
-              {{ $t('workshops.pageTitle') }}
-            </div>
-            <div class="modal-backdrop hidden" 
-                :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}"
-                @click="closeAllMenus()"></div>
-            <div class="dropdown-menu hidden" 
-                :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
-              <div class="dropdown-menu-item" @click="closeAllMenus()">
-                <router-link :to="`/${$store.state.lang}/workshops/teachers`" class="menu-item-link">{{ $t('workshops.staff.pageTitle') }}</router-link>
-              </div>
-              <div class="dropdown-menu-item" @click="closeAllMenus()">
-                <router-link :to="`/${$store.state.lang}/workshops/levels`" class="menu-item-link">{{ $t('workshops.levels.pageTitle') }}</router-link>
-              </div>
-            </div>
-          </div>
-          <div class="menu-item" 
-              :class="{ 'active': isMobileMenuOpen }"
+          <!-- menu items -->
+          <div class="menu-small-logo" 
               @click="closeAllMenus()">
-              <router-link :to="`/${$store.state.lang}/workshops/schedule`" 
-                           class="menu-item-link dropdown-header">
-                {{ $t('workshops.schedule.pageTitle') }}
-              </router-link>
+            <router-link :to="`/${$store.state.lang}/`" class="logo-link">
+              <img src="/src/assets/images/logo_black_transparent.svg" alt="Slovenian Open">
+            </router-link>
           </div>
-          <div class="menu-item" 
-              :class="{ 'active': isMobileMenuOpen }"
-              @click="closeAllMenus()">
-              <router-link :to="`/${$store.state.lang}/pricing`" 
-                           class="menu-item-link dropdown-header">
-                {{ $t('workshops.pricing.pageTitle') }}
-              </router-link>
+        </div>
+        <div class="menu-right">
+          <!-- mobile menu toggle -->
+          <div id="mobile-menu-toggle" 
+              :class="{'block': !isMobileMenuOpen}"
+              @click="toggleMobileMenuOpen()">
+            <font-awesome-icon icon="fa-solid fa-bars" class="fa menu-item-link"></font-awesome-icon>
           </div>
-          <div class="menu-item" :class="{ 'active-block': isMobileMenuOpen }">
-            <div @click="toggleDropdownMenu($t('location.pageTitle'))" 
-                class="menu-item-link dropdown-header" 
-                :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}">
-              {{ $t('location.pageTitle') }}
+          <div class="menu-items">
+            <div class="menu-item" :class="{ 'active-block': isMobileMenuOpen }">
+              <div @click="toggleDropdownMenu($t('workshops.pageTitle'))" 
+                  class="menu-item-link dropdown-header" 
+                  :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
+                {{ $t('workshops.pageTitle') }}
+              </div>
+              <div class="modal-backdrop hidden" 
+                  :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}"
+                  @click="closeAllMenus()"></div>
+              <div class="dropdown-menu hidden" 
+                  :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
+                <div class="dropdown-menu-item" @click="closeAllMenus()">
+                  <router-link :to="`/${$store.state.lang}/workshops/teachers`" class="menu-item-link">{{ $t('workshops.staff.pageTitle') }}</router-link>
+                </div>
+                <div class="dropdown-menu-item" @click="closeAllMenus()">
+                  <router-link :to="`/${$store.state.lang}/workshops/levels`" class="menu-item-link">{{ $t('workshops.levels.pageTitle') }}</router-link>
+                </div>
+              </div>
             </div>
-            <div class="modal-backdrop hidden" 
-                :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}"
-                @click="closeAllMenus()"></div>
-            <div class="dropdown-menu hidden"
-                :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}">
-              <div class="dropdown-menu-item" @click="closeAllMenus()">
-                <router-link :to="`/${$store.state.lang}/location/venue/main`" 
-                             class="menu-item-link">
-                  {{ $t('location.venue[0].pageTitle') }}
+            <div class="menu-item" 
+                :class="{ 'active': isMobileMenuOpen }"
+                @click="closeAllMenus()">
+                <router-link :to="`/${$store.state.lang}/workshops/schedule`" 
+                            class="menu-item-link dropdown-header">
+                  {{ $t('workshops.schedule.pageTitle') }}
+                </router-link>
+            </div>
+            <div class="menu-item" 
+                :class="{ 'active': isMobileMenuOpen }"
+                @click="closeAllMenus()">
+                <router-link :to="`/${$store.state.lang}/pricing`" 
+                            class="menu-item-link dropdown-header">
+                  {{ $t('workshops.pricing.pageTitle') }}
+                </router-link>
+            </div>
+            <div class="menu-item" :class="{ 'active-block': isMobileMenuOpen }">
+              <div @click="toggleDropdownMenu($t('location.pageTitle'))" 
+                  class="menu-item-link dropdown-header" 
+                  :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}">
+                {{ $t('location.pageTitle') }}
+              </div>
+              <div class="modal-backdrop hidden" 
+                  :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}"
+                  @click="closeAllMenus()"></div>
+              <div class="dropdown-menu hidden"
+                  :class="{ 'active': dropdownMenuActive($t('location.pageTitle'))}">
+                <div class="dropdown-menu-item" @click="closeAllMenus()">
+                  <router-link :to="`/${$store.state.lang}/location/venue/main`" 
+                              class="menu-item-link">
+                    {{ $t('location.venue[0].pageTitle') }}
+                  </router-link>
+                </div>
+                <div class="dropdown-menu-item" @click="closeAllMenus()">
+                  <router-link :to="`/${$store.state.lang}/location/venue/preparty`" 
+                              class="menu-item-link">
+                    {{ $t('location.venue[1].pageTitle') }}
+                  </router-link>
+                </div>
+                <div v-if="$store.state.lang !== 'si'" class="dropdown-menu-item" @click="closeAllMenus()">
+                  <router-link :to="`/${$store.state.lang}/location/slovenia`" class="menu-item-link">{{ $t('location.slovenia.pageTitle') }}</router-link>
+                </div>
+                <div v-if="$store.state.lang !== 'si'" class="dropdown-menu-item" @click="closeAllMenus()">
+                  <router-link :to="`/${$store.state.lang}/location/how-to-get-here`" class="menu-item-link">{{ $t('location.howToGetHere.pageTitle') }}</router-link>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item" 
+                :class="{ 'active': isMobileMenuOpen }"
+                @click="closeAllMenus()">
+              <router-link :to="`/${$store.state.lang}/day-trip`" 
+                          class="menu-item-link dropdown-header">
+                  {{ $t('dayTrip.pageTitle') }}
+              </router-link>
+            </div>
+            <div class="menu-item" 
+                :class="{ 'active': isMobileMenuOpen }"
+                @click="closeAllMenus()">
+              <a href="https://forms.gle/5LZA76MxxWSazadZ7" 
+                target="_blank" 
+                class="menu-item-link dropdown-header">
+                {{ $t('registration.pageTitle') }}
+              </a>
+            </div>
+            <div id="social-icons" 
+                class="menu-item flex-container flex-container-row" 
+                :class="{ 'active': isMobileMenuOpen }"
+                @click="closeAllMenus()">
+              <a target="_blank" :href="'mailto:' + $t('contact.email')" class="menu-item-link">
+                <font-awesome-icon icon="fa-regular fa-envelope"></font-awesome-icon>
+              </a>
+              <a target="_blank" :href="$t('urls.facebook')" class="menu-item-link">
+                <font-awesome-icon icon="fa-brands fa-facebook-f"></font-awesome-icon>
+              </a>
+              <a target="_blank" :href="$t('urls.instagram')" class="menu-item-link">
+                <font-awesome-icon icon="fa-brands fa-instagram"></font-awesome-icon>
+              </a>
+            </div>
+            <div id="localization-menu" 
+                class="menu-item flex-container flex-container-row"
+                :class="{ 'active': isMobileMenuOpen }"
+                @click="closeAllMenus()">
+              <div v-for="locale in $i18n.availableLocales" :key="locale">
+                <router-link :to="localizationPath(locale)" :class="{ 'active': $i18n.locale === locale }" class="menu-item-link">
+                  {{ locale.toUpperCase() }}
                 </router-link>
               </div>
-              <div class="dropdown-menu-item" @click="closeAllMenus()">
-                <router-link :to="`/${$store.state.lang}/location/venue/preparty`" 
-                             class="menu-item-link">
-                  {{ $t('location.venue[1].pageTitle') }}
-                </router-link>
-              </div>
-              <div v-if="$store.state.lang !== 'si'" class="dropdown-menu-item" @click="closeAllMenus()">
-                <router-link :to="`/${$store.state.lang}/location/slovenia`" class="menu-item-link">{{ $t('location.slovenia.pageTitle') }}</router-link>
-              </div>
-              <div v-if="$store.state.lang !== 'si'" class="dropdown-menu-item" @click="closeAllMenus()">
-                <router-link :to="`/${$store.state.lang}/location/how-to-get-here`" class="menu-item-link">{{ $t('location.howToGetHere.pageTitle') }}</router-link>
-              </div>
-            </div>
-          </div>
-          <div class="menu-item" 
-              :class="{ 'active': isMobileMenuOpen }"
-              @click="closeAllMenus()">
-            <a href="https://forms.gle/5LZA76MxxWSazadZ7" 
-               target="_blank" 
-               class="menu-item-link dropdown-header">
-              {{ $t('registration.pageTitle') }}
-            </a>
-          </div>
-          <div id="social-icons" 
-              class="menu-item flex-container flex-container-row" 
-              :class="{ 'active': isMobileMenuOpen }"
-              @click="closeAllMenus()">
-            <a target="_blank" :href="'mailto:' + $t('contact.email')" class="menu-item-link">
-              <font-awesome-icon icon="fa-regular fa-envelope"></font-awesome-icon>
-            </a>
-            <a target="_blank" :href="$t('urls.facebook')" class="menu-item-link">
-              <font-awesome-icon icon="fa-brands fa-facebook-f"></font-awesome-icon>
-            </a>
-            <a target="_blank" :href="$t('urls.instagram')" class="menu-item-link">
-              <font-awesome-icon icon="fa-brands fa-instagram"></font-awesome-icon>
-            </a>
-          </div>
-          <div id="localization-menu" 
-              class="menu-item flex-container flex-container-row"
-              :class="{ 'active': isMobileMenuOpen }"
-              @click="closeAllMenus()">
-            <div v-for="locale in $i18n.availableLocales" :key="locale">
-              <router-link :to="localizationPath(locale)" :class="{ 'active': $i18n.locale === locale }" class="menu-item-link">
-                {{ locale.toUpperCase() }}
-              </router-link>
             </div>
           </div>
         </div>
@@ -189,11 +199,17 @@
     position: static;
     z-index: 2;
     top: 200px;
+    box-shadow: 0px -3px 10px 0px rgba(0,0,0,0.75);
+  }
+  
+  .menu-inner-content {
+    max-width: 1200px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    box-shadow: 0px -3px 10px 0px rgba(0,0,0,0.75);
-    padding: 0 2rem;
+    justify-content: stretch;
+    gap: 1rem;
+    padding: 0 40px;
+    margin: 0 auto;
   }
 
   #menu.shrunk {
@@ -217,7 +233,7 @@
   .menu-logo {
     background-image: url('/src/assets/images/grad.svg');
     background-repeat: no-repeat;
-    background-position: 0 101%;
+    background-position: 0 105%;
     background-color: var(--accent-1);
     text-align: center;
   }
@@ -236,16 +252,20 @@
   }
 
   .menu-right {
+    flex: 1 1 auto;
     display: flex;
     align-items: center;
   }
 
   .menu-item {
     text-align: center;
+    white-space: nowrap;
   }
 
   .menu-items {
+    flex: 1 1 auto;
     display: flex;
+    justify-content: space-between;
   }
 
   .menu-item-link {
@@ -259,7 +279,7 @@
   }
 
   .menu-item-link.dropdown-header {
-    padding: 1rem 2.5rem;
+    padding: 1rem auto;
   }
 
   .logo-link {
@@ -340,75 +360,86 @@
     display: flex;
   }
 
+  @media screen and (max-width: 1200px) {
+    .dropdown-menu {
+      position: relative;
+      border: none;
+    }
+    .dropdown-menu-item > a {
+      font-size: 1rem;
+    }
+
+    #mobile-menu-toggle {
+      display: block;
+    }
+
+    .modal-backdrop.active {
+      display: none;
+    }
+
+    .menu-item, .menu-small-logo {
+      width: 100%;
+      flex-basis: 100%;
+      display: none;
+    }
+
+    .menu-right {
+      display: flex;
+      width: 100%;
+    }
+
+    .menu-left {
+      display: none;
+    }
+    
+    .menu-items {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
+    .active {
+      display: flex;
+    }
+
+    .dropdown-menu .dropdown-menu-item > a {
+      font-size: 0.8rem;
+    }
+
+    .dropdown-menu.active{
+      box-shadow: none;
+    }
+
+    .active-block {
+      display: block;
+    }
+
+    #mobile-menu-toggle.block {
+      position: relative;
+      width: 100vw;
+      display: flex;
+      justify-content: left;
+    }
+
+    #mobile-menu-toggle > .menu-item-link {
+      width: 1.2rem;
+    }
+
+    #social-icons > .menu-item-link {
+      width: fit-content;
+    }
+
+    #localization-menu {
+      justify-content: right;
+    }
+
+    #localization-menu.active {
+      justify-content: center;
+    }
+  }
+
   @media screen and (max-width: 650px) {
-  .dropdown-menu {
-    position: relative;
-    border: none;
+    .menu-logo {
+      background-size: 50%;
+    }
   }
-  .dropdown-menu-item > a {
-    font-size: 1rem;
-  }
-
-  #mobile-menu-toggle {
-    display: block;
-  }
-
-  .modal-backdrop.active {
-    display: none;
-  }
-
-  .menu-item, .menu-small-logo {
-    width: 100%;
-    flex-basis: 100%;
-    display: none;
-  }
-
-  .menu-right {
-    display: flex;
-    width: 100%;
-  }
-
-  .menu-left {
-    display: none;
-  }
-  
-  .menu-items {
-    flex-wrap: wrap;
-  }
-
-  .active {
-    display: flex;
-  }
-
-  .menu-logo {
-    background-size: 50%;
-  }
-
-  .dropdown-menu .dropdown-menu-item > a {
-    font-size: 0.8rem;
-  }
-
-  .dropdown-menu.active{
-    box-shadow: none;
-  }
-
-  .active-block {
-    display: block;
-  }
-
-  #mobile-menu-toggle.block {
-    position: relative;
-    width: 100vw;
-    display: flex;
-    justify-content: left;
-  }
-
-  #mobile-menu-toggle > .menu-item-link {
-    width: 1.2rem;
-  }
-
-  #social-icons > .menu-item-link {
-    width: fit-content;
-  }
-}
 </style>

@@ -125,23 +125,25 @@ hr {
   align-items: center;
   justify-content: center;
   padding: 0.5rem 2rem;
-  border: 2px solid var(--black-mute);
+  /* border: 2px solid var(--black-mute); */
   border-radius: 3px;
   font-size: x-large;
   font-weight: bold;
   filter: brightness(100%);
   margin: 1rem auto;
+  width: fit-content;
 }
 
 .btn-primary {
-  background-color: var(--dark-1);
-  color: var(--accent-1);
+  background-color: var(--accent-1);
+  color: var(--white);
 }
 
 .btn-primary:hover {
   background-color: var(--accent-1);
-  color: var(--dark-1);
-  filter: brightness(100%);
+  color: var(--white);
+  filter: brightness(130%);
+  text-decoration: none;
 }
 /* 
 .btn-primary.disabled, .btn-primary.disabled :hover{

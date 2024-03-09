@@ -238,7 +238,7 @@ export default {
     grid-row: 3;
   }
 
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     #banner {
       content: url('/src/assets/images/website_landing_square.png');
     }

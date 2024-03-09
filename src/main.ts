@@ -44,6 +44,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import DayTrip from "./components/pages/DayTrip.vue";
 
 /* add icons to the library */
 library.add(faEnvelope, faFacebookF, faInstagram, faBars)
@@ -88,6 +89,7 @@ const routes: any = [
     component: EventLocation,
     redirect: '/si/location/venue'
   },
+  { path: '/:lang(en|si|fr)/day-trip', component: DayTrip },
   { path: '/:lang(en|si|fr)/terms-and-conditions', component: TermsAndConditions },
 ]
 

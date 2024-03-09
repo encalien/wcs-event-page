@@ -427,6 +427,40 @@ const si = {
       }
     ],
   },
+  dayTrip: {
+    pageTitle: "Četrtkov izlet",
+    description: [
+      {
+        src: "/images/day_trip_postojna_cave.jpg",
+        alt: "Slika Postojnske jame",
+        texts: [
+          "Pridruži se nam na nepozabnem enodnevnem izletu, ko se družimo in skupaj raziskujemo dve najbolj ikonični znamenitosti Slovenije: Postojnsko jamo in Predjamski grad.",
+          "Odkrij Postojnsko jamo, obsežen 24-kilometrski kraški jamski sistem, ki predstavlja eno od naravnih čudes Slovenije. Znotraj njegovih obsežnih dvoran in vijugastih prehodov lahko naletiš na vrsto osupljivih stalaktitov in stalagmitov, pa tudi na človeško ribico, zanimivo vrsto, prilagojeno življenju v temi podzemnega sveta. Naš voden ogled bo prestavil fascinantno geologijo in biotsko raznovrstnost jame in ponudil globlje razumevanje tega podzemnega sveta."
+        ]
+      },
+      {
+        src: "/images/day_trip_predjama_castle.jpg",
+        alt: "Slika Predjamskega gradu",
+        texts: [
+          "Po obisku jam se bomo odpravili do Predjamskega gradu, ki je umeščen v ustje jame. Ta renesančna trdnjava, ki je brezhibno integrirana z naravnim kamnom, ponuja vpogled v preteklost in osupljive poglede na okoliško pokrajino.",
+          "Čeprav se lahko točni časi še spremenijo, bo naš dan potekal nekako takole:"
+        ],
+        itinerary: [
+          ["9:30:","Odhod iz Ljubljane."],
+          ["11:00:","Prihod in voden obisk Postojnskih jam."],
+          ["12:30:","Prosti čas za kosilo, nakupovanje spominkov ali obisk Vivarija."],
+          ["14:30:","Raziskovanje Predjamskega gradu."],
+          ["17:00:","Vrnitev v Ljubljano."]
+        ]
+      },
+      {
+        texts: [
+          "Strošek tega izleta je 75 EUR na osebo, kar vključuje prevoz in vodene oglede tako Postojnske jame kot Predjamskega gradu.",
+          "Za izvedbo izleta je potrebnih najmanj 10 udeležencev, registracija pa je obvezna. Prostor na avtobusu je omejen, zato ne zamudi priložnosti, da se nam pridružiš in z nami raziskuješ naravne in zgodovinske zaklade Slovenije!"
+        ]
+      }
+    ],
+  },
   registration: {
     pageTitle: "Registracija",
     opensSoonText: "Registracija se odpre 7. novembra 2023.",

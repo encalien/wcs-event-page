@@ -374,35 +374,6 @@ const fr = {
         },
       }
     ],
-    accommodation: {
-      title: "Autres possibilités d'hébergement",
-      description: [
-        "En fonction de votre budget et de vos préférences de service, il y a plusieurs hôtels ainsi que des auberges de jeunesse, des appartements et des AirBnbs à proximité.",
-        "Voici quelques suggestions d'hôtels, classés par distance par rapport au lieu de l'événement :",
-      ],
-      // list: [
-      //   {
-      //     name: "Intercontinental *****",
-      //     distance: "5 min walk",
-      //     url: "https://www.booking.com/Share-aDpENI"
-      //   },
-      //   {
-      //     name: "Central hotel ***",
-      //     distance: "10 min walk",
-      //     url: "https://www.booking.com/Share-heW9iDT"
-      //   },
-      //   {
-      //     name: "City hotel **",
-      //     distance: "13 min walk",
-      //     url: "https://www.booking.com/Share-f8UiHw"
-      //   },
-      //   {
-      //     name: "Park ***",
-      //     distance: "15 min walk",
-      //     url: "https://www.booking.com/Share-cQFt8l"
-      //   },
-      // ]
-    },
     howToGetHere: {
       pageTitle: "Comment se rendre sur place",
       options: [
@@ -458,6 +429,40 @@ const fr = {
         },
       ],
     },
+  },
+  dayTrip: {
+    pageTitle: "Excursion d'une journée",
+    description: [
+      {
+        src: "/images/day_trip_postojna_cave.jpg",
+        alt: "Image de la grotte de Postojna",
+        texts: [
+          "Rejoignez-nous pour une excursion d'une journée inoubliable alors que nous passons du temps ensemble et explorons deux des attractions les plus emblématiques de la Slovénie : les grottes de Postojna et le château de Predjama.",
+          "Découvrez les grottes de Postojna, un vaste système de grottes karstiques de 24 kilomètres, considéré comme l'une des merveilles naturelles du pays. Au sein de ses vastes chambres et de ses passages sinueux, vous rencontrerez une variété de stalactites et stalagmites impressionnantes, ainsi que l'unique protée anguillard, une espèce intrigante adaptée à la vie dans l'obscurité du monde souterrain. Notre visite guidée éclairera la géologie fascinante et la biodiversité de la grotte, vous offrant une compréhension approfondie de cette merveille souterraine."
+        ]
+      },
+      {
+        src: "/images/day_trip_predjama_castle.jpg",
+        alt: "Image du château de Predjama",
+        texts: [
+          "Après les grottes, nous nous rendrons au château de Predjama, un prodige de l'architecture médiévale perché à l'entrée d'une grotte. Cette forteresse de la Renaissance, intégrée parfaitement dans le rocher naturel, offre un aperçu du passé et des vues spectaculaires sur le paysage environnant.",
+          "Bien que les horaires exacts puissent encore changer, voici à quoi ressemblera notre journée :",
+        ],
+        itinerary: [
+          ["9h30 :","Départ de Ljubljana."],
+          ["11h00 :","Arrivée et visite guidée des grottes de Postojna."],
+          ["12h30 :","Temps libre pour déjeuner, faire du shopping de souvenirs ou visiter le Vivarium."],
+          ["14h30 :","Exploration du château de Predjama."],
+          ["17h00 :","Retour à Ljubljana."]
+        ]
+      },
+      {
+        texts: [
+          "Le coût de cette excursion d'une journée mémorable est de 75 EUR par personne, incluant le transport et les visites guidées de la grotte de Postojna et du château de Predjama.",
+          "Veuillez noter que le voyage nécessite un minimum de 10 participants pour avoir lieu, et l'inscription est nécessaire pour sécuriser votre place. L'espace dans le bus est limité, alors ne manquez pas votre chance de rejoindre cette aventure et d'explorer les trésors naturels et historiques de la Slovénie !"
+        ]
+      }
+    ],
   },
   registration: {
     pageTitle: "Inscription",
