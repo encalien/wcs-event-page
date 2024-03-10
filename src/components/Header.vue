@@ -88,10 +88,19 @@
               <div class="dropdown-menu hidden" 
                   :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
                 <div class="dropdown-menu-item" @click="closeAllMenus()">
-                  <router-link :to="`/${$store.state.lang}/workshops/teachers`" class="menu-item-link">{{ $t('workshops.staff.pageTitle') }}</router-link>
+                  <router-link :to="`/${$store.state.lang}/workshops/teachers`" class="menu-item-link">
+                    {{ $t('workshops.staff[0].pageTitle') }}
+                  </router-link>
                 </div>
                 <div class="dropdown-menu-item" @click="closeAllMenus()">
-                  <router-link :to="`/${$store.state.lang}/workshops/levels`" class="menu-item-link">{{ $t('workshops.levels.pageTitle') }}</router-link>
+                  <router-link :to="`/${$store.state.lang}/workshops/levels`" class="menu-item-link">
+                    {{ $t('workshops.levels.pageTitle') }}
+                  </router-link>
+                </div>
+                <div class="dropdown-menu-item" @click="closeAllMenus()">
+                  <router-link :to="`/${$store.state.lang}/team/djs`" class="menu-item-link">
+                    {{ $t('workshops.staff[1].pageTitle') }}
+                  </router-link>
                 </div>
               </div>
             </div>

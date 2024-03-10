@@ -92,41 +92,145 @@ const si = {
   },
   workshops: {
     pageTitle: "Delavnice",
-    staff: {
-      pageTitle: "Inštruktorji",
-      teachers: [
-        {
-          names: "Karin & Ludovic",
-          src: "/images/teachers_karin_ludo.jpg",
-          description: [
-            "Karin Kakun pleše že celo življenje. Z univerzitetno diplomo iz plesa ima za seboj več kot 14 let učenja plesa. Poučuje WCS, hip hop, raztezanje in ples ob drogu. Poleg tega tudi koreografira in nastopa. Preden se je posvetila WCS, je bila izraelska prvakinja v salsi.",
-            "Svojo pot v WCS je začela leta 2014 in se že takrat popolnoma zaljubila v ta ples. Zdaj tekmuje v Champion kategoriji in poučuje v Izraelu, kjer vodi skupino tečajev west coast swinga. Redno potuje in poučuje po vsej Evropi.",
-            "Ludovic Pelegrin je začel plesati pri 10 letih, ko se je naučil rock'n'rolla. Njegova plesna pot je inovativna in raznolika, saj obsega stile, kot so lindy hop, balboa, charleston, akrobatski rock'n'roll, salsa, boogie woogie in step. Od leta 2009 poučuje rock'n'roll, lindy hop in charleston.",
-            "Njegova ljubezen do swinga ga je leta 2010 pripeljala do WCS. Z vse večjim navdušenjem je obiskoval delavnice po svetu in se učil od najboljših inštruktorjev. Prav tako sodeluje na številnih tekmovanjih, kjer redno dosega mesta med prvimi tremi.",
-            "Poganja ga želja po deljenju svoje strasti in pomoči drugim pri odkrivanju WCS, zato je začel poučevati WCS leta 2011. Po tem, ko je prispeval k širjenju WCS v Franciji, zdaj vodi delavnice po vsej Evropi. Njegove raznolike plesne veščine so mu prinesle sloves odličnega poznavalca glasbe, strukturiranega in jasnega učenja ter velike radodarnosti."
-          ]
-        },
-        {
-          names: "Savana & João",
-          src: "/images/teachers_savana_joao.jpg",
-          description: [
-            "Savana je začela plesati jazz pri štirih letih in je temu posvečena od takrat naprej. Strastna ljubiteljica plesa na splošno se je izobraževala v solo plesih kot so sodobni ples in hip hop. Sodelovala je na številnih tekmovanjih, kjer je osvajala regionalne in nacionalne nagrade, in se med srednjo šolo pridružila konservatoriju.",
-            "Pri sedmih letih se je podala v svet plesov v paru, nato pa hitro prešla na salso in kasneje na west coast swing. Zelo mlada je dobila priložnost za poučevanje, kjer je našla veselje v povezovanju in deljenju z učenci. Po srednji šoli se je odločila specializirati za WCS in se preselila v Švico, kjer zdaj živi in dela v plesni šoli Janga Widlerja.",
-            "João je začel plesati pri osmih letih v skupini nemških ljudskih plesov v južni Braziliji. Do leta 2006 se je razširil na različne druge sloge, kot so zouk, salsa, forro, samba de Gafiera in argentinski tango. Ples je postal pomemben del njegovega življenja in tedensko je namenil številne ure profesionalnemu usposabljanju.",
-            "Leta 2011 je João začel poučevati in leta 2012 se je prvič srečal z West Coast Swing. V ta ples se je hitro zaljubil in iskal priložnosti za izobraževanje, udeleževal se je dogodkov tako v Braziliji kot v tujini. Leta 2014 je začel poučevati WCS v Braziliji. Danes ga s strastjo poučuje tako v Švici kot na različnih evropskih dogodkih."
-          ]
-        },
-        {
-          names: "Andrea & Attila",
-          src: "/images/teachers_andrea_attila.png",
-          description: [
-            "Attila in Andrea sta svojo plesno kariero začela kot plesalca standardnih in latinskoameriških plesov. Veliko let sta poučevala te plesne zvrsti in v tem času osvojila številne prvenstvene naslove. Po rojstvu prvega otroka sta se odločila za odmik od aktivne kariere, a plesa nista mogla povsem opustiti in sta vedno hrepenela po vrnitvi na plesišče.",
-            "Leta 2013 sta odkrila West Coast Swing in kmalu postala zasvojena s tem plesnim stilom. Zaradi izrazitih razlik med standardnimi plesi in West Coast Swing, sta v tem plesu našla svojo strast, predvsem zaradi njegovih neskončnih možnosti in svobode. Tekmovanja nista mogla povsem opustiti, tako da sta po nekaj letih tekmovanja oba dosegla prestižno kategorijo All-Star.",
-            "Danes Attila in Andrea širita svojo globoko ljubezen do west coast swinga tako, da ponujata tečaje tako na Madžarskem kot v tujini. Ne glede na to, ali gre za skupinske tečaje ali zasebne ure, je njuna misija deliti svoje obsežno znanje in globoko strast. Za njiju je ples del vsakdanjega življenja."
-          ]
-        }
-      ]
-    },
+    staff: [
+      {
+        pageTitle: "Inštruktorji",
+        people: [
+          {
+            names: "Karin & Ludovic",
+            src: "/images/teachers_karin_ludo.jpg",
+            description: [
+              "Karin Kakun pleše že celo življenje. Z univerzitetno diplomo iz plesa ima za seboj več kot 14 let učenja plesa. Poučuje WCS, hip hop, raztezanje in ples ob drogu. Poleg tega tudi koreografira in nastopa. Preden se je posvetila WCS, je bila izraelska prvakinja v salsi.",
+              "Svojo pot v WCS je začela leta 2014 in se že takrat popolnoma zaljubila v ta ples. Zdaj tekmuje v Champion kategoriji in poučuje v Izraelu, kjer vodi skupino tečajev west coast swinga. Redno potuje in poučuje po vsej Evropi.",
+              "Ludovic Pelegrin je začel plesati pri 10 letih, ko se je naučil rock'n'rolla. Njegova plesna pot je inovativna in raznolika, saj obsega stile, kot so lindy hop, balboa, charleston, akrobatski rock'n'roll, salsa, boogie woogie in step. Od leta 2009 poučuje rock'n'roll, lindy hop in charleston.",
+              "Njegova ljubezen do swinga ga je leta 2010 pripeljala do WCS. Z vse večjim navdušenjem je obiskoval delavnice po svetu in se učil od najboljših inštruktorjev. Prav tako sodeluje na številnih tekmovanjih, kjer redno dosega mesta med prvimi tremi.",
+              "Poganja ga želja po deljenju svoje strasti in pomoči drugim pri odkrivanju WCS, zato je začel poučevati WCS leta 2011. Po tem, ko je prispeval k širjenju WCS v Franciji, zdaj vodi delavnice po vsej Evropi. Njegove raznolike plesne veščine so mu prinesle sloves odličnega poznavalca glasbe, strukturiranega in jasnega učenja ter velike radodarnosti."
+            ]
+          },
+          {
+            names: "Savana & João",
+            src: "/images/teachers_savana_joao.jpg",
+            description: [
+              "Savana je začela plesati jazz pri štirih letih in je temu posvečena od takrat naprej. Strastna ljubiteljica plesa na splošno se je izobraževala v solo plesih kot so sodobni ples in hip hop. Sodelovala je na številnih tekmovanjih, kjer je osvajala regionalne in nacionalne nagrade, in se med srednjo šolo pridružila konservatoriju.",
+              "Pri sedmih letih se je podala v svet plesov v paru, nato pa hitro prešla na salso in kasneje na west coast swing. Zelo mlada je dobila priložnost za poučevanje, kjer je našla veselje v povezovanju in deljenju z učenci. Po srednji šoli se je odločila specializirati za WCS in se preselila v Švico, kjer zdaj živi in dela v plesni šoli Janga Widlerja.",
+              "João je začel plesati pri osmih letih v skupini nemških ljudskih plesov v južni Braziliji. Do leta 2006 se je razširil na različne druge sloge, kot so zouk, salsa, forro, samba de Gafiera in argentinski tango. Ples je postal pomemben del njegovega življenja in tedensko je namenil številne ure profesionalnemu usposabljanju.",
+              "Leta 2011 je João začel poučevati in leta 2012 se je prvič srečal z West Coast Swing. V ta ples se je hitro zaljubil in iskal priložnosti za izobraževanje, udeleževal se je dogodkov tako v Braziliji kot v tujini. Leta 2014 je začel poučevati WCS v Braziliji. Danes ga s strastjo poučuje tako v Švici kot na različnih evropskih dogodkih."
+            ]
+          },
+          {
+            names: "Andrea & Attila",
+            src: "/images/teachers_andrea_attila.png",
+            description: [
+              "Attila in Andrea sta svojo plesno kariero začela kot plesalca standardnih in latinskoameriških plesov. Veliko let sta poučevala te plesne zvrsti in v tem času osvojila številne prvenstvene naslove. Po rojstvu prvega otroka sta se odločila za odmik od aktivne kariere, a plesa nista mogla povsem opustiti in sta vedno hrepenela po vrnitvi na plesišče.",
+              "Leta 2013 sta odkrila West Coast Swing in kmalu postala zasvojena s tem plesnim stilom. Zaradi izrazitih razlik med standardnimi plesi in West Coast Swing, sta v tem plesu našla svojo strast, predvsem zaradi njegovih neskončnih možnosti in svobode. Tekmovanja nista mogla povsem opustiti, tako da sta po nekaj letih tekmovanja oba dosegla prestižno kategorijo All-Star.",
+              "Danes Attila in Andrea širita svojo globoko ljubezen do west coast swinga tako, da ponujata tečaje tako na Madžarskem kot v tujini. Ne glede na to, ali gre za skupinske tečaje ali zasebne ure, je njuna misija deliti svoje obsežno znanje in globoko strast. Za njiju je ples del vsakdanjega življenja."
+            ]
+          }
+        ]
+      },
+      {
+        pageTitle: "DJ-i",
+        people: [
+          {
+            names: "Ken Knipphals",
+            title: "Glavni DJ",
+            src: "/images/djs_ken.png",
+            description: [
+              "Ken, znan tudi kot DJKendyshop, je DJ za West Coast Swing, ki je svojo pot začel leta 2018. Hitro si je pridobil sloves zaradi svoje sposobnosti ustvarjanja energije polnih plesišč tako na majhnih lokalnih dogodkih kot tudi na velikih WSDC dogodkih, kot so Budafest, Anchor Festival, Baltic Swing in Swing it like it's hot. Kenov stil se nagiba k zapleteni in razburljivi glasbi, črpa navdih iz EDM in Dubstepa ter ustvarja edinstven in dinamičen zvok, ki plesalce ohranja v gibanju.",
+              "Njegove trenutno najljubše pesmi za ples so:",
+            ],
+            songList: [
+              "Forgive Me - Sofi Tucker",
+              "Whisper - Able Heart",
+              "Fake - The Tech Thieves"
+            ]
+          },
+          {
+            names: "Aleksandra Bersan",
+            title: "DJ",
+            src: "/images/djs_aleksandra.png",
+            description: [
+              "Aleksandra aktivno DJ-a v lokalni skupnosti od leta 2019, kjer deli svojo strast do glasbe in moči glasbe, ki jo im pri povezovanju ljudi. Izjemno jo veseli, ko njene skrbno izbrane glasbene izbire odmevajo med množico in privabljajo ljudi na plesišče. Verjame, da je glasba pomemben navdih za ples in lahko vzbudi širok spekter čustev.",
+              "Njene trenutno najljubše pesmi za ples so:",
+            ],
+            songList: [
+              "California King - D.B. Ricapito",
+              "What A Wonderful World - Sofi Tukker",
+              "Seasons - Chloe Adams",
+            ]
+          },
+          {
+            names: "Laszlo Tarkanyi",
+            title: "DJ",
+            src: "/images/djs_laszlo.png",
+            description: [
+              "Laszlo je nenavaden DJ. Sam enostavno rad pleše ob dobri glasbi in se šteje za srečneža, saj pogosto glasba, ki je njemu je všeč, inspirira tudi druge, da se mu pridružijo na plesišču. DJ-a že kar nekaj let lokalno in na mednarodnih festivalih. Videti plesalce, kako uživajo ob njegovih ritmih, je zanj največja nagrada.",
+              "Njegove trenutno najljubše pesmi za ples so:",
+            ],
+            songList: [
+              "No Ordinary - Labrinth",
+              "N'y pense plus - Tayc",
+              "Et c'est parti... - Nâdiya"
+            ]
+          },
+          {
+            names: "Lino Vierheilig",
+            title: "DJ",
+            src: "/images/djs_lino.png",
+            description: [
+              "Lino se je vedno zanimal za odkrivanje novih umetnikov in glasbe, še posebej manj znanih indie izvajalcev, in se že nekaj časa igra z idejo o DJ-anju na festivalih. Nedavno je imel priložnost igrati za nekaj neverjetnih množic na Swing Generation, Berlin Swing Revolution in Carnival Swing, ter na lokalnih zabavah v Berlinu in Erdingu. Njegov stil je mešanje eksperimentalne in pogosto akustične glasbe z mednarodno priljubljenimi pesmimi, znanimi z dogodkov.",
+              "Njegove trenutno najljubše pesmi za ples so:",
+            ],
+            songList: [
+              "Lose It - Oh Wonder",
+              "Papa - SICKOTOY, Eliana Gjata, INNA",
+              "No Ocean - EXES, Jome"
+            ]
+          },
+          {
+            names: "Matt Mickle",
+            title: "DJ",
+            src: "/images/djs_matt.png",
+            description: [
+              "Matt je bil koordinator DJ-ev za Portland Blues in Jazz Society v Portlandu 10 let, plesal je družabne plese približno 20 let in prav tako dolgo DJ-al v West Coast Swing, Blues in Fusion skupnostih. Moderiral je, DJ-al, učil in/ali pomagal koordinirati na več WCS, Blues in Fusion/Alt dogodkih po ZDA in Evropi.",
+              "Njegove trenutno najljubše pesmi za ples so:",
+            ],
+            songList: [
+              "Something Sweeter - LUME",
+              "Oxygen - Emili Sandé",
+              "Island of the Sun - Winona Oak"
+            ]
+          },
+          {
+            names: "Patrice Jäger",
+            title: "DJ",
+            src: "/images/djs_patrice.png",
+            description: [
+              "Patrice je svojo DJ kariero začel pred 5 leti na zabavah z mešanico plesnih stilov, kjer ga je prevzela umetnost ustvarjanja atmosferskega večera, ki zajema različne žanre. Zdaj se vse pogosteje znajde za mešalno mizo na West Coast Swing zabavah, kjer še naprej navdušuje plesalce z mešanjem raznolikih glasbenih stilov.",
+              "Njegove trenutno najljubše pesmi za ples so:",
+            ],
+            songList: [
+              "Fuck it, I love it! - ILIRA",
+              "Wait - Damian Lynn",
+            ]
+          },
+          {
+            names: "Sebastian Pöll",
+            title: "DJ",
+            src: "/images/djs_sebastian.png",
+            description: [
+              "Sebastian je začel s plesi v paru pred 30 leti, razvil ljubezen do kuriranja glasbe, napredoval od ustvarjanja mešanic trakov do mešanih CD-jev, in naposled DJ-al na različnih dogodkih, vključno s zabavami, porokami in drugimi praznovanji. Od leta 2015 ga je prevzela raznolika glasba WCS, kar ga je vodilo do DJ-anja na zabavah WCS v Dunaju in rednega obiskovanja mednarodnih WCS dogodkov po Evropi. Na Swingvestru 23/24 je začel DJ-ati tudi na mednarodnih prizoriščih.",
+              "Njegove trenutno najljubše pesmi za ples so:",
+            ],
+            songList: [
+              "Soap - Melanie Martinez",
+              "Space Ghost Coast To Coast - Glass Animals",
+              "Chariot - Mega"
+            ]
+          },
+        ]
+      }  
+    ],
     levels: {
       pageTitle: "Nivoji",
       levels: [

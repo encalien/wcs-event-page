@@ -57,7 +57,16 @@ const i18n = createI18n({
 
 const routes: any = [
   { path: '/:lang(en|si|fr)/', component: Home, },
-  { path: '/:lang(en|si|fr)/workshops/teachers', component: Staff, },
+  {
+    path: '/:lang(en|si|fr)/workshops/teachers',
+    component: Staff,
+    props: { staffIndex: 0 }
+  },
+  {
+    path: '/:lang(en|si|fr)/team/djs',
+    component: Staff,
+    props: { staffIndex: 1 }
+  },
   { path: '/:lang(en|si|fr)/workshops/levels', component: Levels, },
   { path: '/:lang(en|si)/workshops/wsdc', component: WSDC, },
   {

@@ -92,41 +92,145 @@ const en = {
   },
   workshops: {
     pageTitle: "Workshops",
-    staff: {
-      pageTitle: "Teachers",
-      teachers: [
-        {
-          names: "Karin & Ludovic",
-          src: "/images/teachers_karin_ludo.jpg",
-          description: [
-            "Karin Kakun has been dancing her entire life. Holding a university degree in dance, she has taught for over 14 years. She teaches WCS, Hip-Hop, Stretching, and Pole dance. She also choreographs and performs. Before embracing WCS, she was the Israeli salsa champion.",
-            "She embarked on her WCS journey in 2014 and from the first moment she fell in love. She now competes in the Champion division and teaches in Israel, where she directs a line of West Coast Swing classes. She actively travels and teaches all around Europe.",
-            "Ludovic Pelegrin started dancing at 10, when he learned rock'n'roll. His innovative and diversified dance background encompasses styles like Lindy-Hop, Balboa, Charleston, Acrobatic rock'n'roll, Salsa, Boogie Woogie, and Tap dancing. He's been a Rock and Roll, Lindy Hop, and Charleston instructor since 2009.",
-            "His fondness for Swing led him to WCS in 2010. With growing enthusiasm, he attended overseas workshops, learning from all the best instructors. He also participates in many competitions, where he regularly places in the Top 3.",
-            "Driven by the desire to share his passion and help others discover WCS, he started teaching WCS in 2011. After contributing to spread WCS within France, he now conducts workshops all across Europe. His diverse dance skills have earned him a reputation for amazing musical knowledge, structured and concise teaching, and great generosity."
-          ]
-        },
-        {
-          names: "Savana & João",
-          src: "/images/teachers_savana_joao.jpg",
-          description: [
-            "Savana began jazz dancing at age 4 and has been devoted ever since. Passionate about dance in general, she has trained in solo, contemporary, classical, and hip hop. She's competed extensively, securing both regional and national prizes, and joined a conservatory during her high school years.",
-            "She ventured into rock dance at age 7, swiftly moving on to salsa and, later, West Coast Swing. Very young, she was given the opportunity to teach, where she found joy in connecting and sharing with students. After high school, she chose to specialize in WCS and relocated to Switzerland, where she now lives and works at Jang Widler's dance school.",
-            "João started dancing at the age of 8 in a German folk dance group in southern Brazil. By 2006, he had expanded into various other styles such as zouk, salsa, Forro, Samba de Gafiera, and Argentine Tango. Dance became a significant part of his life, and he dedicated numerous hours weekly to professional training.",
-            "In 2011, João started teaching and was introduced to West Coast Swing in 2012. He quickly fell in love with this dance. He pursued training opportunities, attending events both in Brazil and abroad. In 2014, he started teaching WCS in Brazil. He continues to teach it with passion today both in Switzerland and at various European events."
-          ]
-        },
-        {
-          names: "Andrea & Attila",
-          src: "/images/teachers_andrea_attila.png",
-          description: [
-            "Attila and Andrea began their dance career as ballroom dancers. They taught latin and standard dances for many years. After a successful fifteen-year stint, in the possession of numerous championship titles, they chose to take a step back from their active careers following the birth of their first child.",
-            "They were never able to part from dancing completely, always yearning to be back on the dancefloor.In 2013, they encountered West Coast Swing and soon became addicted to the genre. Recognising the distinct differences between ballroom and West Coast Swing, this dance became their passion, mostly because of its endless possibilities and freedom. They were unable to let competing go either, so after some years of competing, they both made it to the prestigious All - Star category.",
-            "Today, Attila and Andrea spread their profound love for West Coast Swing by offering classes both in Hungary and abroad. Whether it's group sessions or private lessons, their mission is to share their extensive knowledge and deep-rooted passion. For them, dance is a part of their everyday life."
-          ]
-        }
-      ]
-    },
+    staff: [
+      {
+        pageTitle: "Teachers",
+        people: [
+          {
+            names: "Karin & Ludovic",
+            src: "/images/teachers_karin_ludo.jpg",
+            description: [
+              "Karin Kakun has been dancing her entire life. Holding a university degree in dance, she has taught for over 14 years. She teaches WCS, Hip-Hop, Stretching, and Pole dance. She also choreographs and performs. Before embracing WCS, she was the Israeli salsa champion.",
+              "She embarked on her WCS journey in 2014 and from the first moment she fell in love. She now competes in the Champion division and teaches in Israel, where she directs a line of West Coast Swing classes. She actively travels and teaches all around Europe.",
+              "Ludovic Pelegrin started dancing at 10, when he learned rock'n'roll. His innovative and diversified dance background encompasses styles like Lindy-Hop, Balboa, Charleston, Acrobatic rock'n'roll, Salsa, Boogie Woogie, and Tap dancing. He's been a Rock and Roll, Lindy Hop, and Charleston instructor since 2009.",
+              "His fondness for Swing led him to WCS in 2010. With growing enthusiasm, he attended overseas workshops, learning from all the best instructors. He also participates in many competitions, where he regularly places in the Top 3.",
+              "Driven by the desire to share his passion and help others discover WCS, he started teaching WCS in 2011. After contributing to spread WCS within France, he now conducts workshops all across Europe. His diverse dance skills have earned him a reputation for amazing musical knowledge, structured and concise teaching, and great generosity."
+            ]
+          },
+          {
+            names: "Savana & João",
+            src: "/images/teachers_savana_joao.jpg",
+            description: [
+              "Savana began jazz dancing at age 4 and has been devoted ever since. Passionate about dance in general, she has trained in solo, contemporary, classical, and hip hop. She's competed extensively, securing both regional and national prizes, and joined a conservatory during her high school years.",
+              "She ventured into rock dance at age 7, swiftly moving on to salsa and, later, West Coast Swing. Very young, she was given the opportunity to teach, where she found joy in connecting and sharing with students. After high school, she chose to specialize in WCS and relocated to Switzerland, where she now lives and works at Jang Widler's dance school.",
+              "João started dancing at the age of 8 in a German folk dance group in southern Brazil. By 2006, he had expanded into various other styles such as zouk, salsa, Forro, Samba de Gafiera, and Argentine Tango. Dance became a significant part of his life, and he dedicated numerous hours weekly to professional training.",
+              "In 2011, João started teaching and was introduced to West Coast Swing in 2012. He quickly fell in love with this dance. He pursued training opportunities, attending events both in Brazil and abroad. In 2014, he started teaching WCS in Brazil. He continues to teach it with passion today both in Switzerland and at various European events."
+            ]
+          },
+          {
+            names: "Andrea & Attila",
+            src: "/images/teachers_andrea_attila.png",
+            description: [
+              "Attila and Andrea began their dance career as ballroom dancers. They taught latin and standard dances for many years. After a successful fifteen-year stint, in the possession of numerous championship titles, they chose to take a step back from their active careers following the birth of their first child.",
+              "They were never able to part from dancing completely, always yearning to be back on the dancefloor.In 2013, they encountered West Coast Swing and soon became addicted to the genre. Recognising the distinct differences between ballroom and West Coast Swing, this dance became their passion, mostly because of its endless possibilities and freedom. They were unable to let competing go either, so after some years of competing, they both made it to the prestigious All - Star category.",
+              "Today, Attila and Andrea spread their profound love for West Coast Swing by offering classes both in Hungary and abroad. Whether it's group sessions or private lessons, their mission is to share their extensive knowledge and deep-rooted passion. For them, dance is a part of their everyday life."
+            ]
+          }
+        ]
+      },
+      {
+        pageTitle: "DJs",
+        people: [
+          {
+            names: "Ken Knipphals",
+            title: "Head DJ",
+            src: "/images/djs_ken.png",
+            description: [
+              "Ken, also known as DJKendyshop, is a West Coast Swing DJ who began his journey in 2018. He quickly gained a reputation for his ability to energize dance floors at both small local events and large WSDC events such as Budafest, Anchor Festival, Baltic Swing, and Swing it like it's hot. Ken's style leans towards complex and exciting music, drawing inspiration from EDM and Dubstep to create a unique and dynamic sound that keeps dancers moving.",
+              "His favorite songs to dance to right now are:",
+            ],
+            songList: [
+              "Forgive Me by Sofi Tucker",
+              "Whisper by Able Heart",
+              "Fake by The Tech Thieves"
+            ]
+          },
+          {
+            names: "Aleksandra Bersan",
+            title: "DJ",
+            src: "/images/djs_aleksandra.png",
+            description: [
+              "Aleksandra has been actively DJing in the local community since 2019, sharing her passion for music and its ability to connect people. She finds great joy and fulfillment when her carefully selected musical choices resonate with the crowd, enticing them to the dance floor. She believes that music can be a significant inspiration for dancing and can evoke a wide range of emotions.",
+              "Her favorite songs to dance to right now are:",
+            ],
+            songList: [
+              "California King by D.B. Ricapito",
+              "What A Wonderful World by Sofi Tukker",
+              "Seasons by Chloe Adams",
+            ]
+          },
+          {
+            names: "Laszlo Tarkanyi",
+            title: "DJ",
+            src: "/images/djs_laszlo.png",
+            description: [
+              "Laszlo is a weird kind of DJ. He just loves dancing to good music himself and considers himself lucky that most of the time, the music he likes also moves the social dance floor! He has been DJing locally and internationally for quite some years now. Seeing the dancers having a great time to his tunes is the biggest reward he can imagine.",
+              "His favorite songs to dance to right now are:",
+            ],
+            songList: [
+              "No Ordinary by Labrinth",
+              "N'y pense plus by Tayc",
+              "Et c'est parti... by Nâdiya"
+            ]
+          },
+          {
+            names: "Lino Vierheilig",
+            title: "DJ",
+            src: "/images/djs_lino.png",
+            description: [
+              "Lino has always been interested in discovering new artists and music, especially lesser-known indies, and has played with the idea of DJing at events for a while. Recently, he had the opportunity to play for some amazing crowds at Swing Generation, Berlin Swing Revolution, and Carnival Swing, as well as local parties in Berlin and Erding. His style consists of mixing his own experimental and often acoustic music with internationally known songs familiar from events.",
+              "His favorite songs to dance to right now are:",
+            ],
+            songList: [
+              "Lose It by Oh Wonder",
+              "Papa by SICKOTOY, Eliana Gjata, INNA",
+              "No Ocean by EXES, Jome"
+            ]
+          },
+          {
+            names: "Matt Mickle",
+            title: "DJ",
+            src: "/images/djs_matt.png",
+            description: [
+              "Matt was the DJ Coordinator for the Portland Blues and Jazz Society in Portland for 10 years, has been social dancing for ~20 years and DJing almost as long in West Coast, Blues, and Fusion. He has also MCed, DJed, taught, and/or helped coordinate at several WCS, Blues, and Fusion/Alt events across the States and in the EU.",
+              "His favorite songs to dance to right now are:",
+            ],
+            songList: [
+              "Something Sweeter by LUME",
+              "Oxygen by Emili Sandé",
+              "Island of the Sun by Winona Oak"
+            ]
+          },
+          {
+            names: "Patrice Jäger",
+            title: "DJ",
+            src: "/images/djs_patrice.png",
+            description: [
+              "Starting his DJ career 5 years ago at parties with a mix of dance styles, he was captivated by the art of creating an atmospheric evening encompassing various genres. Now, he increasingly finds himself behind the decks at West Coast Swing parties, where he continues to excite dancers by blending a diverse range of musical styles.",
+              "His favorite songs to dance to right now are:",
+            ],
+            songList: [
+              "Fuck it, I love it! by ILIRA",
+              "Wait by Damian Lynn",
+            ]
+          },
+          {
+            names: "Sebastian Pöll",
+            title: "DJ",
+            src: "/images/djs_sebastian.png",
+            description: [
+              "Sebastian began couples dancing 30 years ago, fostering a love for music curation, progressing from mixtapes to mix CDs, and eventually DJing at various events, including parties, weddings, and company celebrations. Since 2015, his fascination with WCS's varied music has seen him DJing at Vienna's WCS parties and frequenting international WCS events in Europe. At Swingvester 23/24, he started playing at international venues.",
+              "His favorite songs to dance to right now are:",
+            ],
+            songList: [
+              "Soap by Melanie Martinez",
+              "Space Ghost Coast To Coast by Glass Animals",
+              "Chariot by Mega"
+            ]
+          },
+        ]
+      },
+    ],
     levels: {
       pageTitle: "Levels",
       levels: [
