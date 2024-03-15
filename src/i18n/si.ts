@@ -297,7 +297,7 @@ const si = {
         {
           title: "ADV+",
           descriptionText: [
-            "ADVANCED / ALL-STAR z vsaj 1 Advanced WSDC točko",
+            "ADVANCED / ALL-STAR z vsaj 30 Intermediate WSDC točkami",
             "Ta posebni intenzivni program je namenjen samo plesalcem na Advanced in All Star nivoj. Za ta nivo ne bo avdicije, saj pričakujemo, da si svoje spretnosti že dovolj dokazal_a na tekmovanjih."
           ]
         },
