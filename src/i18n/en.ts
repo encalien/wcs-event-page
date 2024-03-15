@@ -90,9 +90,9 @@ const en = {
       ]
     }
   },
-  workshops: {
-    pageTitle: "Workshops",
-    staff: [
+  staff: {
+    pageTitle: "Team",
+    teams: [
       {
         pageTitle: "Teachers",
         people: [
@@ -178,7 +178,7 @@ const en = {
             title: "DJ",
             src: "/images/djs_lino.png",
             description: [
-              "Lino has always been interested in discovering new artists and music, especially lesser-known indies, and has played with the idea of DJing at events for a while. Recently, he had the opportunity to play for some amazing crowds at Swing Generation, Berlin Swing Revolution, and Carnival Swing, as well as local parties in Berlin and Erding. His style consists of mixing his own experimental and often acoustic music with internationally known songs familiar from events.",
+              "Lino is passionate about discovering new artists and music, especially lesser-known indies, and has played with the idea of DJing at events for a while. Recently, he had the opportunity to play for some amazing crowds at Swing Generation, Berlin Swing Revolution, and Carnival Swing, as well as local parties in Berlin and Erding. His style consists of mixing his own experimental and often acoustic music with internationally known songs familiar from events.",
               "His favorite songs to dance to right now are:",
             ],
             songList: [
@@ -230,7 +230,42 @@ const en = {
           },
         ]
       },
+      {
+        pageTitle: "Show & Comps",
+        people: [
+          {
+            names: "Jacqueline Karvinen",
+            title: "MC",
+            src: "/images/staff_jacqueline.png",
+            description: [
+              "Originating from a background in stage dancing, Jacqueline's West Coast Swing journey started in 2018 with the Warsaw Westies, where she is still seen regularly, even though she is always on the move.",
+              "She is well known for her distinctive vintage- inspired style. When she is not dancing, you can find her socializing around the dance floor with both old and new friends, enriching the social fabric of the WCS community.",
+            ],
+          },
+          {
+            names: "Andreas Kasper",
+            title: "Scoring",
+            src: "/images/staff_andreas.png",
+            description: [
+              "Andreas is the mastermind behind the Scoreboard system, a prominent and widely used scoring tool for dance competitions. Known for its speed and reliability, Scoreboard has been a game-changer in the way competitions are judged and results are delivered.",
+              "Andreas's expertise and dedication to the dance scene are evident as he is a familiar face at most European dance events, where his system continues to enhance the competitive dance experience for participants and organizers alike.",
+            ],
+          },
+          {
+            names: "Ludovic Pelegrin",
+            title: "Chief Judge",
+            src: "/images/staff_ludovic.png",
+            description: [
+              "Ludovic's extensive experience in various dance forms, coupled with his significant achievements as both a competitor and instructor, render him an indispensable asset to any judging panel.",
+              "His comprehensive understanding of dance dynamics and technical proficiency equips him with a keen eye for detail, ensuring a fair and insightful evaluation of performances.",
+            ],
+          },
+        ]
+      },
     ],
+  },
+  workshops: {
+    pageTitle: "Workshops",
     levels: {
       pageTitle: "Levels",
       levels: [

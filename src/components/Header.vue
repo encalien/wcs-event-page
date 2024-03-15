@@ -76,33 +76,13 @@
             <font-awesome-icon icon="fa-solid fa-bars" class="fa menu-item-link"></font-awesome-icon>
           </div>
           <div class="menu-items">
-            <div class="menu-item" :class="{ 'active-block': isMobileMenuOpen }">
-              <div @click="toggleDropdownMenu($t('workshops.pageTitle'))" 
-                  class="menu-item-link dropdown-header" 
-                  :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
-                {{ $t('workshops.pageTitle') }}
-              </div>
-              <div class="modal-backdrop hidden" 
-                  :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}"
-                  @click="closeAllMenus()"></div>
-              <div class="dropdown-menu hidden" 
-                  :class="{ 'active': dropdownMenuActive($t('workshops.pageTitle'))}">
-                <div class="dropdown-menu-item" @click="closeAllMenus()">
-                  <router-link :to="`/${$store.state.lang}/workshops/teachers`" class="menu-item-link">
-                    {{ $t('workshops.staff[0].pageTitle') }}
-                  </router-link>
-                </div>
-                <div class="dropdown-menu-item" @click="closeAllMenus()">
-                  <router-link :to="`/${$store.state.lang}/workshops/levels`" class="menu-item-link">
-                    {{ $t('workshops.levels.pageTitle') }}
-                  </router-link>
-                </div>
-                <div class="dropdown-menu-item" @click="closeAllMenus()">
-                  <router-link :to="`/${$store.state.lang}/team/djs`" class="menu-item-link">
-                    {{ $t('workshops.staff[1].pageTitle') }}
-                  </router-link>
-                </div>
-              </div>
+            <div class="menu-item" 
+                :class="{ 'active': isMobileMenuOpen }"
+                @click="closeAllMenus()">
+                <router-link :to="`/${$store.state.lang}/team`" 
+                            class="menu-item-link dropdown-header">
+                  {{ $t('staff.pageTitle') }}
+                </router-link>
             </div>
             <div class="menu-item" 
                 :class="{ 'active': isMobileMenuOpen }"
@@ -118,6 +98,14 @@
                 <router-link :to="`/${$store.state.lang}/pricing`" 
                             class="menu-item-link dropdown-header">
                   {{ $t('workshops.pricing.pageTitle') }}
+                </router-link>
+            </div>
+            <div class="menu-item" 
+                :class="{ 'active': isMobileMenuOpen }"
+                @click="closeAllMenus()">
+                <router-link :to="`/${$store.state.lang}/levels`" 
+                            class="menu-item-link dropdown-header">
+                  {{ $t('workshops.levels.pageTitle') }}
                 </router-link>
             </div>
             <div class="menu-item" :class="{ 'active-block': isMobileMenuOpen }">

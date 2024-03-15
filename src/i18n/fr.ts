@@ -92,9 +92,9 @@ const fr = {
       ],
     },
   },
-  workshops: {
-    pageTitle: "Workshops",
-    staff: [
+  staff: {
+    pageTitle: "L'equipe",
+    teams: [
       {
         pageTitle: "Profs",
         people: [
@@ -180,7 +180,7 @@ const fr = {
             title: "DJ",
             src: "/images/djs_lino.png",
             description: [
-              "Lino s'est toujours intéressé à la découverte de nouveaux artistes et musiques, en particulier les indies moins connus, et a joué avec l'idée de devenir DJ lors d'événements depuis un moment. Récemment, il a eu l'opportunité de jouer pour des foules incroyables au Swing Generation, Berlin Swing Revolution et Carnival Swing, ainsi que lors de fêtes locales à Berlin et Erding. Son style consiste à mélanger sa propre musique expérimentale et souvent acoustique avec des chansons internationalement connues issues des événements.",
+              "Lino a toujours exploré de nouveaux artistes et musiques, surtout les indies peu connus, envisageant le DJing depuis un moment. Il a récemment joué devant des foules impressionnantes au Swing Generation, Berlin Swing Revolution et Carnival Swing, et lors de fêtes à Berlin et Erding. Son style mélange sa musique expérimentale, souvent acoustique, avec des chansons reconnues des événements.",
               "Ses chansons préférées pour danser en ce moment sont :",
             ],
             songList: [
@@ -221,7 +221,7 @@ const fr = {
             title: "DJ",
             src: "/images/djs_sebastian.png",
             description: [
-              "Sebastian a commencé à danser en couple il y a 30 ans, développant une passion pour la curation musicale, passant de mixtapes à mix CDs, et finalement DJing lors de divers événements, y compris des fêtes, mariages et célébrations d'entreprise. Depuis 2015, sa fascination pour la musique variée du WCS l'a amené à DJing lors de fêtes WCS à Vienne et à participer régulièrement à des événements WCS internationaux en Europe. Au Swingvester 23/24, il a commencé à jouer sur des scènes internationales.",
+              "Sebastian a commencé à danser en couple il y a 30 ans, développant une passion pour la curation musicale, passant de mixtapes à mix CDs, et finalement DJing lors de divers événements. Depuis 2015, sa fascination pour la musique variée du WCS l'a amené à DJing lors de fêtes WCS à Vienne et à participer régulièrement à des événements WCS internationaux en Europe. Au Swingvester 23/24, il a commencé à jouer sur des scènes internationales.",
               "Ses chansons préférées pour danser en ce moment sont :",
             ],
             songList: [
@@ -231,8 +231,43 @@ const fr = {
             ]
           },
         ]
-      }    
+      },
+      {
+        pageTitle: "Spectacles & Compétitions",
+        people: [
+          {
+            names: "Jacqueline Karvinen",
+            title: "MC",
+            src: "/images/staff_jacqueline.png",
+            description: [
+              "Issue d'un milieu de danse de scène, le parcours de Jacqueline en West Coast Swing a commencé en 2018 avec les Warsaw Westies, où elle est encore régulièrement vue, bien qu'elle soit toujours en déplacement.",
+              "Elle est bien connue pour son style vintage distinctif. Lorsqu'elle ne danse pas, vous pouvez la trouver en train de socialiser autour de la piste de danse avec des amis anciens et nouveaux, enrichissant le tissu social de la communauté WCS.",
+            ],
+          },
+          {
+            names: "Andreas Kasper",
+            title: "Scoring",
+            src: "/images/staff_andreas.png",
+            description: [
+              "Andreas est le cerveau derrière le système Scoreboard, un outil de notation important et largement utilisé pour les compétitions de danse. Connu pour sa rapidité et sa fiabilité, Scoreboard a changé la manière dont les compétitions sont jugées et les résultats sont délivrés.",
+              "L'expertise et le dévouement d'Andreas pour la scène de la danse sont évidents puisqu'il est un visage familier dans la plupart des événements de danse européens, où son système continue d'améliorer l'expérience de la compétition pour les participants et les organisateurs.",
+            ],
+          },
+          {
+            names: "Ludovic Pelegrin",
+            title: "Juge Principal",
+            src: "/images/staff_ludovic.png",
+            description: [
+              "L'expérience étendue de Ludovic dans diverses formes de danse, combinée à ses réalisations significatives en tant que compétiteur et instructeur, le rendent un atout indispensable pour tout panel de juges.",
+              "Sa compréhension approfondie de la dynamique de la danse et sa compétence technique lui donnent un œil aiguisé pour le détail, assurant une évaluation juste et perspicace des performances.",
+            ],
+          },
+        ]
+      }      
     ],
+  },
+  workshops: {
+    pageTitle: "Workshops",
     levels: {
       pageTitle: "Niveaux",
       levels: [
@@ -535,7 +570,7 @@ const fr = {
     },
   },
   dayTrip: {
-    pageTitle: "Excursion d'une journée",
+    pageTitle: "Excursion",
     description: [
       {
         src: "/images/day_trip_postojna_cave.jpg",

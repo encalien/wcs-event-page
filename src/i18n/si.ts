@@ -90,9 +90,9 @@ const si = {
       ]
     }
   },
-  workshops: {
-    pageTitle: "Delavnice",
-    staff: [
+  staff: {
+    pageTitle: "Ekipa",
+    teams: [
       {
         pageTitle: "Inštruktorji",
         people: [
@@ -137,7 +137,7 @@ const si = {
             src: "/images/djs_ken.png",
             description: [
               "Ken, znan tudi kot DJKendyshop, je DJ za West Coast Swing, ki je svojo pot začel leta 2018. Hitro si je pridobil sloves zaradi svoje sposobnosti ustvarjanja energije polnih plesišč tako na majhnih lokalnih dogodkih kot tudi na velikih WSDC dogodkih, kot so Budafest, Anchor Festival, Baltic Swing in Swing it like it's hot. Kenov stil se nagiba k zapleteni in razburljivi glasbi, črpa navdih iz EDM in Dubstepa ter ustvarja edinstven in dinamičen zvok, ki plesalce ohranja v gibanju.",
-              "Njegove trenutno najljubše pesmi za ples so:",
+              "Trenutno najraje pleša na:",
             ],
             songList: [
               "Forgive Me - Sofi Tucker",
@@ -151,7 +151,7 @@ const si = {
             src: "/images/djs_aleksandra.png",
             description: [
               "Aleksandra aktivno DJ-a v lokalni skupnosti od leta 2019, kjer deli svojo strast do glasbe in moči glasbe, ki jo im pri povezovanju ljudi. Izjemno jo veseli, ko njene skrbno izbrane glasbene izbire odmevajo med množico in privabljajo ljudi na plesišče. Verjame, da je glasba pomemben navdih za ples in lahko vzbudi širok spekter čustev.",
-              "Njene trenutno najljubše pesmi za ples so:",
+              "Trenutno najraje pleše na:",
             ],
             songList: [
               "California King - D.B. Ricapito",
@@ -165,7 +165,7 @@ const si = {
             src: "/images/djs_laszlo.png",
             description: [
               "Laszlo je nenavaden DJ. Sam enostavno rad pleše ob dobri glasbi in se šteje za srečneža, saj pogosto glasba, ki je njemu je všeč, inspirira tudi druge, da se mu pridružijo na plesišču. DJ-a že kar nekaj let lokalno in na mednarodnih festivalih. Videti plesalce, kako uživajo ob njegovih ritmih, je zanj največja nagrada.",
-              "Njegove trenutno najljubše pesmi za ples so:",
+              "Trenutno najraje pleša na:",
             ],
             songList: [
               "No Ordinary - Labrinth",
@@ -178,8 +178,8 @@ const si = {
             title: "DJ",
             src: "/images/djs_lino.png",
             description: [
-              "Lino se je vedno zanimal za odkrivanje novih umetnikov in glasbe, še posebej manj znanih indie izvajalcev, in se že nekaj časa igra z idejo o DJ-anju na festivalih. Nedavno je imel priložnost igrati za nekaj neverjetnih množic na Swing Generation, Berlin Swing Revolution in Carnival Swing, ter na lokalnih zabavah v Berlinu in Erdingu. Njegov stil je mešanje eksperimentalne in pogosto akustične glasbe z mednarodno priljubljenimi pesmimi, znanimi z dogodkov.",
-              "Njegove trenutno najljubše pesmi za ples so:",
+              "Lino se je vedno zanimal za odkrivanje novih umetnikov in glasbe, še posebej manj znanih indie izvajalcev. Nedavno je imel priložnost DJ-ati na dogodkih Swing Generation, Berlin Swing Revolution in Carnival Swing, ter na lokalnih zabavah v Berlinu in Erdingu. Njegov stil je mešanje eksperimentalne in pogosto akustične glasbe z mednarodno priljubljenimi pesmimi, znanimi z dogodkov.",
+              "Trenutno najraje pleša na:",
             ],
             songList: [
               "Lose It - Oh Wonder",
@@ -193,7 +193,7 @@ const si = {
             src: "/images/djs_matt.png",
             description: [
               "Matt je bil koordinator DJ-ev za Portland Blues in Jazz Society v Portlandu 10 let, plesal je družabne plese približno 20 let in prav tako dolgo DJ-al v West Coast Swing, Blues in Fusion skupnostih. Moderiral je, DJ-al, učil in/ali pomagal koordinirati na več WCS, Blues in Fusion/Alt dogodkih po ZDA in Evropi.",
-              "Njegove trenutno najljubše pesmi za ples so:",
+              "Trenutno najraje pleša na:",
             ],
             songList: [
               "Something Sweeter - LUME",
@@ -207,7 +207,7 @@ const si = {
             src: "/images/djs_patrice.png",
             description: [
               "Patrice je svojo DJ kariero začel pred 5 leti na zabavah z mešanico plesnih stilov, kjer ga je prevzela umetnost ustvarjanja atmosferskega večera, ki zajema različne žanre. Zdaj se vse pogosteje znajde za mešalno mizo na West Coast Swing zabavah, kjer še naprej navdušuje plesalce z mešanjem raznolikih glasbenih stilov.",
-              "Njegove trenutno najljubše pesmi za ples so:",
+              "Trenutno najraje pleša na:",
             ],
             songList: [
               "Fuck it, I love it! - ILIRA",
@@ -219,8 +219,8 @@ const si = {
             title: "DJ",
             src: "/images/djs_sebastian.png",
             description: [
-              "Sebastian je začel s plesi v paru pred 30 leti, razvil ljubezen do kuriranja glasbe, napredoval od ustvarjanja mešanic trakov do mešanih CD-jev, in naposled DJ-al na različnih dogodkih, vključno s zabavami, porokami in drugimi praznovanji. Od leta 2015 ga je prevzela raznolika glasba WCS, kar ga je vodilo do DJ-anja na zabavah WCS v Dunaju in rednega obiskovanja mednarodnih WCS dogodkov po Evropi. Na Swingvestru 23/24 je začel DJ-ati tudi na mednarodnih prizoriščih.",
-              "Njegove trenutno najljubše pesmi za ples so:",
+              "Sebastian je začel s plesi v paru pred 30 leti, razvil ljubezen do kuriranja glasbe, napredoval od ustvarjanja mešanic trakov do mešanih CD-jev, in naposled DJ-al na različnih dogodkih. Leta 2015 ga je prevzela raznolika glasba WCS, kar ga je vodilo do DJ-anja na zabavah WCS v Dunaju, naa Swingvestru 23/24 pa je začel DJ-ati tudi na mednarodnih festivalih.",
+              "Trenutno najraje pleša na:",
             ],
             songList: [
               "Soap - Melanie Martinez",
@@ -228,8 +228,40 @@ const si = {
               "Chariot - Mega"
             ]
           },
+        ],
+      },
+      {
+        pageTitle: "Nastopi & Tekmovanja",
+        people: [
+          {
+            names: "Jacqueline Karvinen",
+            title: "MC",
+            src: "/images/staff_jacqueline.png",
+            description: [
+              "Izhajajoč iz ozadja plesa na odru se je Jacquelineina pot v West Coast Swing začela leta 2018 z Warsaw Westies, kjer je še vedno redno videna, čeprav je nenehno na poti.",
+              "Poznana je po svojem značilnem vintage navdihnjenem stilu. Ko ne pleše, jo lahko najdete, kako se druži okoli plesišča z novimi in starimi prijatelji, s čimer bogati socialno tkivo skupnosti WCS.",
+            ],
+          },
+          {
+            names: "Andreas Kasper",
+            title: "Ocenjevanje",
+            src: "/images/staff_andreas.png",
+            description: [
+              "Andreas je možgani za sistemom Scoreboard, izstopajočim in široko uporabljenim orodjem za ocenjevanje plesnih tekmovanj. Poznan po svoji hitrosti in zanesljivosti je Scoreboard spremenil način sodniškega ocenjevanja in dostave rezultatov.",
+              "Andreasova strokovnost in predanost plesni sceni sta očitna, saj je znan obraz na večini evropskih plesnih dogodkov, kjer njegov sistem nadaljuje z izboljševanjem tekmovalne izkušnje za udeležence in organizatorje.",
+            ],
+          },
+          {
+            names: "Ludovic Pelegrin",
+            title: "Glavni sodnik",
+            src: "/images/staff_ludovic.png",
+            description: [
+              "Ludovikove obsežne izkušnje v različnih plesnih oblikah, skupaj z njegovimi pomembnimi dosežki kot tekmovalca in inštruktorja, ga naredijo nepogrešljivega člana katerekoli sodniške ekipe.",
+              "Njegovo celovito razumevanje plesne dinamike in tehnične spretnosti mu daje izostren občutek za detajle, kar zagotavlja pošteno in vpogledno ocenjevanje nastopov.",
+            ],
+          },
         ]
-      }  
+      }      
     ],
     levels: {
       pageTitle: "Nivoji",
@@ -271,6 +303,9 @@ const si = {
         },
       ]
     },
+  },
+  workshops: {
+    pageTitle: "Delavnice",
     wsdc: {
       pageTitle: "Pogosta vprašanja o WSDC in točkah",
       faq: [
