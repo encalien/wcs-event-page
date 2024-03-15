@@ -137,7 +137,7 @@ const si = {
             src: "/images/djs_ken.png",
             description: [
               "Ken, znan tudi kot DJKendyshop, je DJ za West Coast Swing, ki je svojo pot začel leta 2018. Hitro si je pridobil sloves zaradi svoje sposobnosti ustvarjanja energije polnih plesišč tako na majhnih lokalnih dogodkih kot tudi na velikih WSDC dogodkih, kot so Budafest, Anchor Festival, Baltic Swing in Swing it like it's hot. Kenov stil se nagiba k zapleteni in razburljivi glasbi, črpa navdih iz EDM in Dubstepa ter ustvarja edinstven in dinamičen zvok, ki plesalce ohranja v gibanju.",
-              "Trenutno najraje pleša na:",
+              "Trenutno najraje pleše na:",
             ],
             songList: [
               "Forgive Me - Sofi Tucker",
@@ -165,7 +165,7 @@ const si = {
             src: "/images/djs_laszlo.png",
             description: [
               "Laszlo je nenavaden DJ. Sam enostavno rad pleše ob dobri glasbi in se šteje za srečneža, saj pogosto glasba, ki je njemu je všeč, inspirira tudi druge, da se mu pridružijo na plesišču. DJ-a že kar nekaj let lokalno in na mednarodnih festivalih. Videti plesalce, kako uživajo ob njegovih ritmih, je zanj največja nagrada.",
-              "Trenutno najraje pleša na:",
+              "Trenutno najraje pleše na:",
             ],
             songList: [
               "No Ordinary - Labrinth",
@@ -179,7 +179,7 @@ const si = {
             src: "/images/djs_lino.png",
             description: [
               "Lino se je vedno zanimal za odkrivanje novih umetnikov in glasbe, še posebej manj znanih indie izvajalcev. Nedavno je imel priložnost DJ-ati na dogodkih Swing Generation, Berlin Swing Revolution in Carnival Swing, ter na lokalnih zabavah v Berlinu in Erdingu. Njegov stil je mešanje eksperimentalne in pogosto akustične glasbe z mednarodno priljubljenimi pesmimi, znanimi z dogodkov.",
-              "Trenutno najraje pleša na:",
+              "Trenutno najraje pleše na:",
             ],
             songList: [
               "Lose It - Oh Wonder",
@@ -193,7 +193,7 @@ const si = {
             src: "/images/djs_matt.png",
             description: [
               "Matt je bil koordinator DJ-ev za Portland Blues in Jazz Society v Portlandu 10 let, plesal je družabne plese približno 20 let in prav tako dolgo DJ-al v West Coast Swing, Blues in Fusion skupnostih. Moderiral je, DJ-al, učil in/ali pomagal koordinirati na več WCS, Blues in Fusion/Alt dogodkih po ZDA in Evropi.",
-              "Trenutno najraje pleša na:",
+              "Trenutno najraje pleše na:",
             ],
             songList: [
               "Something Sweeter - LUME",
@@ -207,7 +207,7 @@ const si = {
             src: "/images/djs_patrice.png",
             description: [
               "Patrice je svojo DJ kariero začel pred 5 leti na zabavah z mešanico plesnih stilov, kjer ga je prevzela umetnost ustvarjanja atmosferskega večera, ki zajema različne žanre. Zdaj se vse pogosteje znajde za mešalno mizo na West Coast Swing zabavah, kjer še naprej navdušuje plesalce z mešanjem raznolikih glasbenih stilov.",
-              "Trenutno najraje pleša na:",
+              "Trenutno najraje pleše na:",
             ],
             songList: [
               "Fuck it, I love it! - ILIRA",
@@ -220,7 +220,7 @@ const si = {
             src: "/images/djs_sebastian.png",
             description: [
               "Sebastian je začel s plesi v paru pred 30 leti, razvil ljubezen do kuriranja glasbe, napredoval od ustvarjanja mešanic trakov do mešanih CD-jev, in naposled DJ-al na različnih dogodkih. Leta 2015 ga je prevzela raznolika glasba WCS, kar ga je vodilo do DJ-anja na zabavah WCS v Dunaju, naa Swingvestru 23/24 pa je začel DJ-ati tudi na mednarodnih festivalih.",
-              "Trenutno najraje pleša na:",
+              "Trenutno najraje pleše na:",
             ],
             songList: [
               "Soap - Melanie Martinez",
@@ -238,8 +238,8 @@ const si = {
             title: "MC",
             src: "/images/staff_jacqueline.png",
             description: [
-              "Izhajajoč iz ozadja plesa na odru se je Jacquelineina pot v West Coast Swing začela leta 2018 z Warsaw Westies, kjer je še vedno redno videna, čeprav je nenehno na poti.",
-              "Poznana je po svojem značilnem vintage navdihnjenem stilu. Ko ne pleše, jo lahko najdete, kako se druži okoli plesišča z novimi in starimi prijatelji, s čimer bogati socialno tkivo skupnosti WCS.",
+              "Jacqueline je začela svojo plesno pot v stage plesih. Leta 2018 se je priključila Warsaw Westies in se začela ukvarjati z west coast swingom. Čeprav veliko potuje po tujini, jo tam še vedno redno videvajo.",
+              "V WCS skupnosti je znana je po svojem značilnem vintage stilu. Kadar ne pleše, se zadržuje v bližini plesišča, kjer se druži z novimi in starimi prijatelji in tako bogati družbeno mrežo skupnosti WCS.",
             ],
           },
           {
@@ -247,8 +247,8 @@ const si = {
             title: "Ocenjevanje",
             src: "/images/staff_andreas.png",
             description: [
-              "Andreas je možgani za sistemom Scoreboard, izstopajočim in široko uporabljenim orodjem za ocenjevanje plesnih tekmovanj. Poznan po svoji hitrosti in zanesljivosti je Scoreboard spremenil način sodniškega ocenjevanja in dostave rezultatov.",
-              "Andreasova strokovnost in predanost plesni sceni sta očitna, saj je znan obraz na večini evropskih plesnih dogodkov, kjer njegov sistem nadaljuje z izboljševanjem tekmovalne izkušnje za udeležence in organizatorje.",
+              "Andreas je idejni vodja sistema Scoreboard, ki je izvrstno in pogosto uporabljano orodje za ocenjevanje plesnih tekmovanj. Poznan po svoji hitrosti in zanesljivosti je Scoreboard spremenil način sodniškega ocenjevanja in objave rezultatov.",
+              "Andreasova strokovnost in predanost plesni sceni sta očitna, saj je znan obraz na večini evropskih plesnih dogodkov, kjer njegov sistem izboljšuje tekmovalne izkušnje udeležencev, organizatorjev in sodnikov.",
             ],
           },
           {
@@ -256,8 +256,8 @@ const si = {
             title: "Glavni sodnik",
             src: "/images/staff_ludovic.png",
             description: [
-              "Ludovikove obsežne izkušnje v različnih plesnih oblikah, skupaj z njegovimi pomembnimi dosežki kot tekmovalca in inštruktorja, ga naredijo nepogrešljivega člana katerekoli sodniške ekipe.",
-              "Njegovo celovito razumevanje plesne dinamike in tehnične spretnosti mu daje izostren občutek za detajle, kar zagotavlja pošteno in vpogledno ocenjevanje nastopov.",
+              "Ludovic je zaradi obsežnih izkušnej v različnih plesnih zvrsteh in svojih pomembnih dosežkov kot tekmovalec in inštruktor nepogrešljiv član katerekoli sodniške ekipe.",
+              "Njegovo celovito razumevanje plesne dinamike in tehnične spretnosti mu daje izostren občutek za detajle, kar zagotavlja pošteno in natančno ocenjevanje tekmovalcev.",
             ],
           },
         ]
