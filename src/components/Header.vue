@@ -103,7 +103,7 @@
             <div class="menu-item" 
                 :class="{ 'active': isMobileMenuOpen }"
                 @click="closeAllMenus()">
-                <router-link :to="`/${$store.state.lang}/levels`" 
+                <router-link :to="`/${$store.state.lang}/workshops/levels`" 
                             class="menu-item-link dropdown-header">
                   {{ $t('workshops.levels.pageTitle') }}
                 </router-link>

@@ -263,6 +263,9 @@ const si = {
         ]
       }      
     ],
+  },
+  workshops: {
+    pageTitle: "Delavnice",
     levels: {
       pageTitle: "Nivoji",
       levels: [
@@ -303,9 +306,6 @@ const si = {
         },
       ]
     },
-  },
-  workshops: {
-    pageTitle: "Delavnice",
     wsdc: {
       pageTitle: "Pogosta vprašanja o WSDC in točkah",
       faq: [
@@ -408,7 +408,7 @@ const si = {
             "150"
           ],
           includes: [
-            "6 ur delavnic",
+            "6 ur delavnic - nivo 2/3/4",
             "vstop med tekmovanji",
             "vstopnina na zabave v petek, soboto in nedeljo"
           ]
@@ -425,7 +425,7 @@ const si = {
             "vstop med tekmovanji",
             "vstopnina na zabave v petek, soboto in nedeljo"
           ],
-          extraText: "Brezplačno za vse plesalce, ki tekmujejo v kategoriji Advanced ali All Star! Prijava je še vedno obvezna zaradi uravnoteženja vlog. Morda te bomo prosili za pomoč pri sojenju tekmovanj."
+          extraText: "Brezplačno za vse plesalce, ki tekmujejo v kategoriji Advanced ali All Star v zameno za pomoč pri sojenju tekmovanj! Prijava obvezna zaradi uravnoteženja vlog."
         },
         {
           type: "ADV+ Full Pass",
@@ -436,10 +436,11 @@ const si = {
             "70"
           ],
           includes: [
-            "4 ure delavnic",
+            "4 ure delavnic - nivo 5",
             "vstop med tekmovanji",
             "vstopnina na zabave v petek, soboto in nedeljo"
-          ]
+          ],
+          extraText: "Za vse plesalce, ki tekmujejo v kategoriji Advanced ali All Star. Morda te bomo prosili za pomoč pri sojenju tekmovanj."
         },
         {
           type: "Zero to Hero",
@@ -450,7 +451,7 @@ const si = {
             "70"
           ],
           includes: [
-            "4 ure delavnic",
+            "4 ure delavnic - nivo 1",
             "vstopnina na petkovo zabavo"
           ]
         }

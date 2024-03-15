@@ -52,12 +52,6 @@ const fr = {
   home: {
     pageTitle: "Accueil",
     aboutWCS: {
-      // title: "Get inspired by our Pros",
-      // description: [
-      //   "West Coast Swing or WCS is a modern partner dance. It evolved from lindy hop in the 1960s on the west coast of America.",
-      //   "It is characterized by the elastic movement of the partners, which results from a specific technique of leading and following. The dance places a strong emphasis on the musical expression of both partners and is one of the few dances that encourages free dance improvisation.",
-      //   "Since it is a relatively new dance, it continues to evolve year after year and stylistically adapts to the music to which it is danced. This is usually pop, hip hop, acoustic music and blues."
-      // ],
       yt: [
         {
           name: "Ludovic Pelegrin & Karin Kakun - Strictly Open Finals - Budafest 2022",
@@ -344,7 +338,7 @@ const fr = {
           type: "Full Pass",
           tiers: ["120", "130", "140", "150"],
           includes: [
-            "6 heures de workshops",
+            "6 heures de workshops - niveaux 2/3/4",
             "l'accés aux competitions",
             "l'accés aux soirées de Vendredi, Samedi et Dimanche",
           ],
@@ -357,22 +351,24 @@ const fr = {
             "l'accés aux soirées de Vendredi, Samedi et Dimanche",
           ],
           extraText:
-            "Gratuit pour tous les danseurs qui concourent dans la division Advanced ou All Star! L'inscription est toujours requise pour l'équilibre des rôles. Nous pourrons vous demander de nous aider à juger les compétitions.",
-        },
-        {
-          type: "ADV+ Full Pass",
-          tiers: ["40", "50", "60", "70"],
-          includes: [
-            "4 heures de workshops",
-            "l'accés aux competitions",
-            "l'accés aux soirées de Vendredi, Samedi et Dimanche",
-          ],
+            "Gratuit pour tous les danseurs qui concourent dans la divisions Advanced ou All Star en échange de votre aide à juger les compétitions! L'inscription est toujours requise pour l'équilibre des rôles.",
+          },
+          {
+            type: "ADV+ Full Pass",
+            tiers: ["40", "50", "60", "70"],
+            includes: [
+              "4 heures de workshops - niveau 5",
+              "l'accés aux competitions",
+              "l'accés aux soirées de Vendredi, Samedi et Dimanche",
+            ],
+            extraText:
+              "Disponible pour tous les danseurs concourant dans les divisions Advanced ou All Star. Nous pourrons vous demander de nous aider à juger les compétitions.",
         },
         {
           type: "Zero to Hero",
           tiers: ["40", "50", "60", "70"],
           includes: [
-            "4 heures de workshops",
+            "4 heures de workshops - niveau 1",
             "l'accés à la soirée du Vendredi",
           ],
         },

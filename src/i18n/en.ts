@@ -408,7 +408,7 @@ const en = {
             "150"
           ],
           includes: [
-            "6 hours of workshops",
+            "6 hours of workshops - level 2/3/4",
             "entrance during competitions",
             "entrance fee to Fri, Sat, Sun parties"
           ]
@@ -425,7 +425,7 @@ const en = {
             "entrance during competitions",
             "entrance fee to Fri, Sat, Sun parties"
           ],
-          extraText: "Free for all dancers competing in Advanced or All Star division! Registration still required for role balance. We might ask you to help out with judging."
+          extraText: "Free for all dancers competing in Advanced or All Star division in exchange for your help with judging. Registration still required for role balance."
         },
         {
           type: "ADV+ Full Pass",
@@ -436,10 +436,11 @@ const en = {
             "70"
           ],
           includes: [
-            "4 hours of workshops",
+            "4 hours of workshops - level 5",
             "entrance during competitions",
             "entrance fee to Fri, Sat, Sun parties"
-          ]
+          ],
+          extraText: "Available to all dancers competing in Advanced or All Star division. We might ask you for your help with judging."
         },
         {
           type: "Zero to Hero",
@@ -450,7 +451,7 @@ const en = {
             "70"
           ],
           includes: [
-            "4 hours of workshops",
+            "4 hours of workshops - level 1",
             "entrance fee to Friday party"
           ]
         }
