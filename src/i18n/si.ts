@@ -132,7 +132,7 @@ const si = {
         pageTitle: "DJ-i",
         people: [
           {
-            names: "Ken Knipphals",
+            names: "Ken",
             title: "Glavni DJ",
             src: "/images/djs_ken.png",
             description: [
@@ -146,7 +146,7 @@ const si = {
             ]
           },
           {
-            names: "Aleksandra Bersan",
+            names: "Aleksandra",
             title: "DJ",
             src: "/images/djs_aleksandra.png",
             description: [
@@ -160,7 +160,7 @@ const si = {
             ]
           },
           {
-            names: "Laszlo Tarkanyi",
+            names: "Laszlo",
             title: "DJ",
             src: "/images/djs_laszlo.png",
             description: [
@@ -174,7 +174,7 @@ const si = {
             ]
           },
           {
-            names: "Lino Vierheilig",
+            names: "Lino",
             title: "DJ",
             src: "/images/djs_lino.png",
             description: [
@@ -188,7 +188,7 @@ const si = {
             ]
           },
           {
-            names: "Matt Mickle",
+            names: "Matt",
             title: "DJ",
             src: "/images/djs_matt.png",
             description: [
@@ -202,7 +202,7 @@ const si = {
             ]
           },
           {
-            names: "Patrice Jäger",
+            names: "Patrice",
             title: "DJ",
             src: "/images/djs_patrice.png",
             description: [
@@ -215,11 +215,11 @@ const si = {
             ]
           },
           {
-            names: "Sebastian Pöll",
+            names: "Sepgod",
             title: "DJ",
             src: "/images/djs_sebastian.png",
             description: [
-              "Sebastian je začel s plesi v paru pred 30 leti, razvil ljubezen do kuriranja glasbe, napredoval od ustvarjanja mešanic trakov do mešanih CD-jev, in naposled DJ-al na različnih dogodkih. Leta 2015 ga je prevzela raznolika glasba WCS, kar ga je vodilo do DJ-anja na zabavah WCS v Dunaju, naa Swingvestru 23/24 pa je začel DJ-ati tudi na mednarodnih festivalih.",
+              "Sepgod je začel s plesi v paru pred 30 leti, razvil ljubezen do kuriranja glasbe, napredoval od ustvarjanja mešanic trakov do mešanih CD-jev, in naposled DJ-al na različnih dogodkih. Leta 2015 ga je prevzela raznolika glasba WCS, kar ga je vodilo do DJ-anja na zabavah WCS v Dunaju, naa Swingvestru 23/24 pa je začel DJ-ati tudi na mednarodnih festivalih.",
               "Trenutno najraje pleše na:",
             ],
             songList: [
@@ -234,7 +234,7 @@ const si = {
         pageTitle: "Nastopi & Tekmovanja",
         people: [
           {
-            names: "Jacqueline Karvinen",
+            names: "Jacqueline",
             title: "MC",
             src: "/images/staff_jacqueline.png",
             description: [
@@ -243,7 +243,7 @@ const si = {
             ],
           },
           {
-            names: "Andreas Kasper",
+            names: "Andreas",
             title: "Ocenjevanje",
             src: "/images/staff_andreas.png",
             description: [
@@ -252,7 +252,7 @@ const si = {
             ],
           },
           {
-            names: "Ludovic Pelegrin",
+            names: "Ludovic",
             title: "Glavni sodnik",
             src: "/images/staff_ludovic.png",
             description: [

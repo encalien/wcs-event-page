@@ -132,7 +132,7 @@ const en = {
         pageTitle: "DJs",
         people: [
           {
-            names: "Ken Knipphals",
+            names: "Ken",
             title: "Head DJ",
             src: "/images/djs_ken.png",
             description: [
@@ -146,7 +146,7 @@ const en = {
             ]
           },
           {
-            names: "Aleksandra Bersan",
+            names: "Aleksandra",
             title: "DJ",
             src: "/images/djs_aleksandra.png",
             description: [
@@ -160,7 +160,7 @@ const en = {
             ]
           },
           {
-            names: "Laszlo Tarkanyi",
+            names: "Laszlo",
             title: "DJ",
             src: "/images/djs_laszlo.png",
             description: [
@@ -174,7 +174,7 @@ const en = {
             ]
           },
           {
-            names: "Lino Vierheilig",
+            names: "Lino",
             title: "DJ",
             src: "/images/djs_lino.png",
             description: [
@@ -188,7 +188,7 @@ const en = {
             ]
           },
           {
-            names: "Matt Mickle",
+            names: "Matt",
             title: "DJ",
             src: "/images/djs_matt.png",
             description: [
@@ -202,7 +202,7 @@ const en = {
             ]
           },
           {
-            names: "Patrice Jäger",
+            names: "Patrice",
             title: "DJ",
             src: "/images/djs_patrice.png",
             description: [
@@ -215,11 +215,11 @@ const en = {
             ]
           },
           {
-            names: "Sebastian Pöll",
+            names: "Sepgod",
             title: "DJ",
             src: "/images/djs_sebastian.png",
             description: [
-              "Sebastian began couples dancing 30 years ago, fostering a love for music curation, progressing from mixtapes to mix CDs, and eventually DJing at various events, including parties, weddings, and company celebrations. Since 2015, his fascination with WCS's varied music has seen him DJing at Vienna's WCS parties and frequenting international WCS events in Europe. At Swingvester 23/24, he started playing at international venues.",
+              "Sepgod began couples dancing 30 years ago, fostering a love for music curation, progressing from mixtapes to mix CDs, and eventually DJing at various events, including parties, weddings, and company celebrations. Since 2015, his fascination with WCS's varied music has seen him DJing at Vienna's WCS parties and frequenting international WCS events in Europe. At Swingvester 23/24, he started playing at international venues.",
               "His favorite songs to dance to right now are:",
             ],
             songList: [
@@ -234,7 +234,7 @@ const en = {
         pageTitle: "Show & Comps",
         people: [
           {
-            names: "Jacqueline Karvinen",
+            names: "Jacqueline",
             title: "MC",
             src: "/images/staff_jacqueline.png",
             description: [
@@ -243,7 +243,7 @@ const en = {
             ],
           },
           {
-            names: "Andreas Kasper",
+            names: "Andreas",
             title: "Scoring",
             src: "/images/staff_andreas.png",
             description: [
@@ -252,7 +252,7 @@ const en = {
             ],
           },
           {
-            names: "Ludovic Pelegrin",
+            names: "Ludovic",
             title: "Chief Judge",
             src: "/images/staff_ludovic.png",
             description: [
