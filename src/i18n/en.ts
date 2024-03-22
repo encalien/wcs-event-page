@@ -262,6 +262,29 @@ const en = {
           },
         ]
       },
+      {
+        pageTitle: "Collaborators",
+        people: [
+          {
+            names: "Sarah",
+            title: "Shoe Seller",
+            src: "/images/collaborators_sarah.png",
+            description: [
+              "As a dancer, she always noticed that many dancers wear the wrong shoes. Observing the lack of specialized dance shoe shops in Carinthia and people's reluctance to buy from dance schools or online, she became self-employed in December 2018, creating a business focused on dance shoes.",
+              "She's eager to offer advice on personal concerns and assist in finding the ideal dance shoe for each individual.",
+            ],
+          },
+          {
+            names: "Marine",
+            title: "Masseuse",
+            src: "/images/collaborators_marine.png",
+            description: [
+              "Marine is a French WCS dancer and teacher, as well as the founder of Art'Potential. She offers sports massages and mental coaching sessions with sophrology to dancers during some events. She has learned to perform sports massages in India and Thailand and continues to learn about massages in France.",
+              "She has been offering this service at events since 2023, and everyone who has tried it loves it!",
+            ],
+          },
+        ]
+      }
     ],
   },
   workshops: {

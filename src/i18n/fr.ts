@@ -257,6 +257,29 @@ const fr = {
             ],
           },
         ]
+      },
+      {
+        pageTitle: "Collaborateurs",
+        people: [
+          {
+            names: "Sarah",
+            title: "Vendeuse de chaussures",
+            src: "/images/collaborators_sarah.png",
+            description: [
+              "En tant que danseuse, elle a toujours remarqué que de nombreux danseurs portent les mauvaises chaussures. Constatant le manque de magasins spécialisés en chaussures de danse en Carinthie et la réticence des gens à acheter dans les écoles de danse ou en ligne, elle est devenue indépendante en décembre 2018, créant une entreprise axée sur les chaussures de danse.",
+              "Elle est désireuse de proposer des conseils sur les préoccupations personnelles et d'aider à trouver la chaussure de danse idéale pour chaque individu."
+            ],
+          },
+          {
+            names: "Marine",
+            title: "Masseuse",
+            src: "/images/collaborators_marine.png",
+            description: [
+              "Marine est une danseuse et enseignante de WCS française, ainsi que la fondatrice d'Art'Potential. Elle propose des massages sportifs et des séances de coaching mental avec la sophrologie aux danseurs lors de certains événements. Elle a appris à effectuer des massages sportifs en Inde et en Thaïlande et continue à se former sur les massages en France.",
+              "Elle propose ce service lors d'événements depuis 2023, et tous ceux qui l'ont essayé l'adorent !"
+            ],
+          },
+        ]
       }      
     ],
   },

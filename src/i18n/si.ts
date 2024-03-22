@@ -261,6 +261,29 @@ const si = {
             ],
           },
         ]
+      },
+      {
+        pageTitle: "Sodelavci",
+        people: [
+          {
+            names: "Sarah",
+            title: "Prodajalka čevljev",
+            src: "/images/collaborators_sarah.png",
+            description: [
+              "Kot plesalka je vedno opažala, da mnogi plesalci nosijo napačne čevlje. Opazila je pomanjkanje specializiranih trgovin s plesnimi čevlji na Koroškem in ljudje so se obotavljali kupovati v plesnih šolah ali prek spleta, zato se je decembra 2018 odločila za samostojno podjetniško pot in ustanovila podjetje, osredotočeno na plesne čevlje.",
+              "Z veseljem ponuja nasvete glede osebnih zadev in pomoč pri iskanju idealnih plesnih čevljev za posameznike."
+            ],
+          },
+          {
+            names: "Marine",
+            title: "Maserka",
+            src: "/images/collaborators_marine.png",
+            description: [
+              "Marine je francoska plesalka in učiteljica WCS ter ustanoviteljica Art'Potentiala. Na nekaterih dogodkih ponuja športne masaže in seje mentalnega coachinga s sofrologijo plesalcem. Športne masaže se je naučila izvajati v Indiji in na Tajskem, še naprej pa se o masažah izobražuje v Franciji.",
+              "Masaže na plesih dogodkih ponuja od leta 2023, in navduši vse, ki se prepustijo njenim veščim rokam!"
+            ],
+          },
+        ]
       }      
     ],
   },
