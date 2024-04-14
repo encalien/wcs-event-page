@@ -280,7 +280,20 @@ const fr = {
             ],
           },
         ]
-      }      
+      },
+      {
+        pageTitle: "Photographie",
+        people: [
+          {
+            names: "Marko",
+            src: "/images/photographer_marko.png",
+            description: [
+              "Marko, un danseur enthousiaste de Salsa (et Bachata), a récemment exploré les rythmes du West Coast Swing.",
+              "Animé par son amour pour la danse et la photographie, il apporte souvent son appareil photo aux soirées dansantes, désireux de capturer l'essence et l'énergie du moment sur pellicule, entrelaçant sa passion pour le mouvement avec sa vision artistique derrière l'objectif.",
+            ],
+          },
+        ]
+      },
     ],
   },
   workshops: {

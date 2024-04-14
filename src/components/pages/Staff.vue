@@ -18,7 +18,7 @@ export default {
         <div v-for="(person, i) in team.people"
             class="person-card" :class="{'background-accent':  i % 2 == 1}">
           <h2 class="center-text full-width">{{ $t(`staff.teams[${t}].people[${i}].names`) }}</h2>
-          <p v-if="t > 0" class="center-text full-width title-text">
+          <p v-if="t > 0 && t < messages.staff.teams.length - 1" class="center-text full-width title-text">
             {{ $t(`staff.teams[${t}].people[${i}].title`) }}
           </p>
           <div class="margin-0 flex-container"

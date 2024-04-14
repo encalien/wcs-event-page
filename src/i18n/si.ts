@@ -284,7 +284,20 @@ const si = {
             ],
           },
         ]
-      }      
+      },
+      {
+        pageTitle: "Fotograf",
+        people: [
+          {
+            names: "Marko",
+            src: "/images/photographer_marko.png",
+            description: [
+              "Marko, navdušen plesalec salse in bachate, se v zadnjem času vedno bolj ogreva za ritme west coast swinga.",
+              "Predan tako ljubezni do plesa kot tudi do fotografije, pogosto na plesne zabave prinese svoj fotoaparat, željan zajeti bistvo in energijo trenutka in ovekovečiti lepe spomine.",
+            ],
+          },
+        ]
+      },
     ],
   },
   workshops: {
