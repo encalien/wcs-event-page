@@ -50,7 +50,7 @@
   <header id="menu" :class="{ 'shrunk': shrunk }">
     <div class="menu-logo" @click="closeAllMenus()">
       <router-link :to="`/${$store.state.lang}/`">
-        <img src="/src/assets/images/logo_color_transparent.png" alt="Slovenian Open">
+        <img src="/images/logo_color_transparent.png" alt="Slovenian Open">
       </router-link>
     </div>
     <div class="menu-inner">
@@ -64,7 +64,7 @@
           <div class="menu-small-logo" 
               @click="closeAllMenus()">
             <router-link :to="`/${$store.state.lang}/`" class="logo-link">
-              <img src="/src/assets/images/logo_black_transparent.svg" alt="Slovenian Open">
+              <img src="/images/logo_black_transparent.svg" alt="Slovenian Open">
             </router-link>
           </div>
         </div>
@@ -228,7 +228,7 @@
   }
 
   .menu-logo {
-    background-image: url('/src/assets/images/grad.svg');
+    background-image: url('/images/grad.svg');
     background-repeat: no-repeat;
     background-position: 0 105%;
     background-color: var(--accent-1);
