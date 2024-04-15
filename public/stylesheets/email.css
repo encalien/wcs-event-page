@@ -1,0 +1,74 @@
+
+@font-face {
+  font-family: "Cera Pro";
+  src:
+    local("Cera Pro"),
+    url("/fonts/Cera Pro Medium.otf") format("opentype")
+}
+
+@font-face {
+  font-family: "Cera Pro Bold";
+  src:
+    local("Cera Pro Bold"),
+    url("/fonts/Cera Pro Bold.otf") format("opentype")
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  line-height: 1.6;
+  font-family: Cera Pro;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #181818;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  padding: 40px 40px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #F15F53;
+}
+  
+
+h3 {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+
+div {
+  margin: 3rem auto;
+}
+
+a {
+  text-decoration: none;
+  color: #F15F53;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  width: 50px;
+  border: none;
+  border-top: 5px dotted #F15F53;
+}
+
+.bold {
+  font-weight: bold;
+}
