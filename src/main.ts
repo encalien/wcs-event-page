@@ -1,24 +1,24 @@
 import { createApp } from "vue";
-import { createI18n } from 'vue-i18n';
+import { createI18n } from "vue-i18n";
 import App from "./App.vue";
 import en from "./i18n/en";
 import si from "./i18n/si";
 import fr from "./i18n/fr";
-import { createStore } from 'vuex';
+import { createStore } from "vuex";
 
 // Create a new store instance.
 const store = createStore({
   state() {
     return {
-      lang: 'en'
-    }
+      lang: "en",
+    };
   },
   mutations: {
     changeLang(state, lang) {
       state.lang = lang;
-    }
-  }
-})
+    },
+  },
+});
 
 import Home from "./components/pages/Home.vue";
 import Staff from "./components/pages/Staff.vue";
@@ -32,33 +32,33 @@ import EventLocation from "./components/pages/EventLocation.vue";
 import Slovenia from "./components/pages/Slovenia.vue";
 import HowToGetHere from "./components/pages/HowToGetHere.vue";
 
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHistory } from "vue-router";
 
 import "./assets/stylesheets/main.css";
 
 /* import the fontawesome core */
-import { library } from '@fortawesome/fontawesome-svg-core'
+import { library } from "@fortawesome/fontawesome-svg-core";
 /* import font awesome icon component */
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 /* import specific icons */
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
-import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import DayTrip from "./components/pages/DayTrip.vue";
 
 /* add icons to the library */
-library.add(faEnvelope, faFacebookF, faInstagram, faBars)
+library.add(faEnvelope, faFacebookF, faInstagram, faBars);
 
 const i18n = createI18n({
-  locale: 'en',
-  fallbackLocale: 'en',
-  messages: { en, si, fr }
-})
+  locale: "en",
+  fallbackLocale: "en",
+  messages: { en, si, fr },
+});
 
 const routes: any = [
-  { path: '/:lang(en|si|fr)/', component: Home, },
+  { path: "/:lang(en|si|fr)/", component: Home },
   {
-    path: '/:lang(en|si|fr)/team',
+    path: "/:lang(en|si|fr)/team",
     component: Staff,
   },
   // {
@@ -76,6 +76,7 @@ const routes: any = [
   //   component: Staff,
   //   props: { staffIndex: 3 }
   // },
+  /*
   { path: '/:lang(en|si|fr)/workshops/levels', component: Levels, },
   { path: '/:lang(en|si)/workshops/wsdc', component: WSDC, },
   {
@@ -108,18 +109,17 @@ const routes: any = [
     redirect: '/si/location/venue'
   },
   { path: '/:lang(en|si|fr)/day-trip', component: DayTrip },
-  { path: '/:lang(en|si|fr)/terms-and-conditions', component: TermsAndConditions },
-]
+  { path: '/:lang(en|si|fr)/terms-and-conditions', component: TermsAndConditions },*/
+];
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
-})
+  routes,
+});
 
-const app = createApp(App)
-  .component('font-awesome-icon', FontAwesomeIcon)
+const app = createApp(App).component("font-awesome-icon", FontAwesomeIcon);
 
-app.use(router)
-app.use(store)
-app.use(i18n)
-app.mount('#app')
+app.use(router);
+app.use(store);
+app.use(i18n);
+app.mount("#app");
