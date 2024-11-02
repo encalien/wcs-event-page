@@ -20,17 +20,18 @@ const store = createStore({
   },
 });
 
-import Home from "./components/pages/Home.vue";
-import Staff from "./components/pages/Staff.vue";
-import NotFound from "./components/pages/NotFound.vue";
-import Schedule from "./components/pages/Schedule.vue";
-import Pricing from "./components/pages/Pricing.vue";
-import TermsAndConditions from "./components/pages/TermsAndConditions.vue";
-import Levels from "./components/pages/Levels.vue";
-import WSDC from "./components/pages/WSDC.vue";
-import EventLocation from "./components/pages/EventLocation.vue";
-import Slovenia from "./components/pages/Slovenia.vue";
-import HowToGetHere from "./components/pages/HowToGetHere.vue";
+import HomeComponent from "./components/pages/HomeComponent.vue";
+import StaffComponent from "./components/pages/StaffComponent.vue";
+// import NotFoundComponent from "./components/pages/NotFoundComponent.vue";
+import ScheduleComponent from "./components/pages/ScheduleComponent.vue";
+import PricingComponent from "./components/pages/PricingComponent.vue";
+import TermsAndConditionsComponent from "./components/pages/TermsAndConditionsComponent.vue";
+import LevelsComponent from "./components/pages/LevelsComponent.vue";
+import WSDCComponent from "./components/pages/WSDCComponent.vue";
+import EventLocationComponent from "./components/pages/EventLocationComponent.vue";
+import SloveniaComponent from "./components/pages/SloveniaComponent.vue";
+import HowToGetHereComponent from "./components/pages/HowToGetHereComponent.vue";
+import DayTripComponent from "./components/pages/DayTripComponent.vue";
 
 import { createRouter, createWebHistory } from "vue-router";
 
@@ -44,7 +45,6 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import DayTrip from "./components/pages/DayTrip.vue";
 
 /* add icons to the library */
 library.add(faEnvelope, faFacebookF, faInstagram, faBars);
@@ -56,10 +56,10 @@ const i18n = createI18n({
 });
 
 const routes: any = [
-  { path: "/:lang(en|si|fr)/", component: Home },
+  { path: "/:lang(en|si|fr)/", component: HomeComponent },
   {
     path: "/:lang(en|si|fr)/team",
-    component: Staff,
+    component: StaffComponent,
   },
   // {
   //   path: '/:lang(en|si|fr)/team/djs',
@@ -76,44 +76,44 @@ const routes: any = [
   //   component: Staff,
   //   props: { staffIndex: 3 }
   // },
-  { path: "/:lang(en|si|fr)/workshops/levels", component: Levels },
-  { path: "/:lang(en|si)/workshops/wsdc", component: WSDC },
+  { path: "/:lang(en|si|fr)/workshops/levels", component: LevelsComponent },
+  { path: "/:lang(en|si)/workshops/wsdc", component: WSDCComponent },
   {
     path: "/:lang(fr)/workshops/wsdc",
-    component: WSDC,
+    component: WSDCComponent,
     redirect: "/fr",
   },
-  { path: "/:lang(en|si|fr)/workshops/schedule", component: Schedule },
-  { path: "/:lang(en|si|fr)/pricing", component: Pricing },
+  { path: "/:lang(en|si|fr)/workshops/schedule", component: ScheduleComponent },
+  { path: "/:lang(en|si|fr)/pricing", component: PricingComponent },
   {
     path: "/:lang(en|si|fr)/location/venue/main",
-    component: EventLocation,
+    component: EventLocationComponent,
     props: { venueIndex: 0 },
   },
   {
     path: "/:lang(en|si|fr)/location/venue/preparty",
-    component: EventLocation,
+    component: EventLocationComponent,
     props: { venueIndex: 1 },
   },
-  { path: "/:lang(en|si|fr)/location/slovenia", component: Slovenia },
+  { path: "/:lang(en|si|fr)/location/slovenia", component: SloveniaComponent },
   {
     path: "/:lang(si)/location/slovenia",
-    component: EventLocation,
+    component: EventLocationComponent,
     redirect: "/si/location/venue",
   },
   {
     path: "/:lang(en|si|fr)/location/how-to-get-here",
-    component: HowToGetHere,
+    component: HowToGetHereComponent,
   },
   {
     path: "/:lang(si)/location/how-to-get-here",
-    component: EventLocation,
+    component: EventLocationComponent,
     redirect: "/si/location/venue",
   },
-  { path: "/:lang(en|si|fr)/day-trip", component: DayTrip },
+  { path: "/:lang(en|si|fr)/day-trip", component: DayTripComponent },
   {
     path: "/:lang(en|si|fr)/terms-and-conditions",
-    component: TermsAndConditions,
+    component: TermsAndConditionsComponent,
   },
 ];
 
@@ -125,6 +125,7 @@ const router = createRouter({
 const app = createApp(App).component("font-awesome-icon", FontAwesomeIcon);
 
 app.use(router);
+app.config.globalProperties.$store = store;
 app.use(store);
 app.use(i18n);
 app.mount("#app");

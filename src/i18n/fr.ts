@@ -138,8 +138,8 @@ const fr = {
             songList: [
               "Forgive Me - Sofi Tucker",
               "Whisper - Able Heart",
-              "Fake - The Tech Thieves"
-            ]
+              "Fake - The Tech Thieves",
+            ],
           },
           {
             names: "Aleksandra",
@@ -153,7 +153,7 @@ const fr = {
               "California King - D.B. Ricapito",
               "What A Wonderful World - Sofi Tukker",
               "Seasons - Chloe Adams",
-            ]
+            ],
           },
           {
             names: "Laszlo",
@@ -166,8 +166,8 @@ const fr = {
             songList: [
               "No Ordinary - Labrinth",
               "N'y pense plus - Tayc",
-              "Et c'est parti... - Nâdiya"
-            ]
+              "Et c'est parti... - Nâdiya",
+            ],
           },
           {
             names: "Lino",
@@ -180,8 +180,8 @@ const fr = {
             songList: [
               "Lose It - Oh Wonder",
               "Papa - SICKOTOY, Eliana Gjata, INNA",
-              "No Ocean - EXES, Jome"
-            ]
+              "No Ocean - EXES, Jome",
+            ],
           },
           {
             names: "Matt",
@@ -194,8 +194,8 @@ const fr = {
             songList: [
               "Something Sweeter - LUME",
               "Oxygen - Emili Sandé",
-              "Island of the Sun - Winona Oak"
-            ]
+              "Island of the Sun - Winona Oak",
+            ],
           },
           {
             names: "Patrice",
@@ -205,10 +205,7 @@ const fr = {
               "Patrice a commencé sa carrière de DJ il y a 5 ans lors de fêtes avec un mélange de styles de danse, captivé par l'art de créer une soirée atmosphérique englobant divers genres. Désormais, il se retrouve de plus en plus aux platines lors des soirées West Coast Swing, où il continue d'exciter les danseurs en mélangeant une gamme variée de styles musicaux.",
               "Ses chansons préférées pour danser en ce moment sont :",
             ],
-            songList: [
-              "Fuck it, I love it! - ILIRA",
-              "Wait - Damian Lynn",
-            ]
+            songList: ["Fuck it, I love it! - ILIRA", "Wait - Damian Lynn"],
           },
           {
             names: "Sepgod",
@@ -221,10 +218,10 @@ const fr = {
             songList: [
               "Soap - Melanie Martinez",
               "Space Ghost Coast To Coast - Glass Animals",
-              "Chariot - Mega"
-            ]
+              "Chariot - Mega",
+            ],
           },
-        ]
+        ],
       },
       {
         pageTitle: "Spectacles & Compétitions",
@@ -256,7 +253,7 @@ const fr = {
               "Sa compréhension approfondie de la dynamique de la danse et sa compétence technique lui donnent un œil aiguisé pour le détail, assurant une évaluation juste et perspicace des performances.",
             ],
           },
-        ]
+        ],
       },
       {
         pageTitle: "Collaborateurs",
@@ -267,7 +264,7 @@ const fr = {
             src: "/images/collaborators_sarah.png",
             description: [
               "En tant que danseuse, elle a toujours remarqué que de nombreux danseurs portent les mauvaises chaussures. Constatant le manque de magasins spécialisés en chaussures de danse en Carinthie et la réticence des gens à acheter dans les écoles de danse ou en ligne, elle est devenue indépendante en décembre 2018, créant une entreprise axée sur les chaussures de danse.",
-              "Elle est désireuse de proposer des conseils sur les préoccupations personnelles et d'aider à trouver la chaussure de danse idéale pour chaque individu."
+              "Elle est désireuse de proposer des conseils sur les préoccupations personnelles et d'aider à trouver la chaussure de danse idéale pour chaque individu.",
             ],
           },
           {
@@ -276,10 +273,10 @@ const fr = {
             src: "/images/collaborators_marine.png",
             description: [
               "Marine est une danseuse et enseignante de WCS française, ainsi que la fondatrice d'Art'Potential. Elle propose des massages sportifs et des séances de coaching mental avec la sophrologie aux danseurs lors de certains événements. Elle a appris à effectuer des massages sportifs en Inde et en Thaïlande et continue à se former sur les massages en France.",
-              "Elle propose ce service lors d'événements depuis 2023, et tous ceux qui l'ont essayé l'adorent !"
+              "Elle propose ce service lors d'événements depuis 2023, et tous ceux qui l'ont essayé l'adorent !",
             ],
           },
-        ]
+        ],
       },
       {
         pageTitle: "Photographie",
@@ -292,7 +289,7 @@ const fr = {
               "Animé par son amour pour la danse et la photographie, il apporte souvent son appareil photo aux soirées dansantes, désireux de capturer l'essence et l'énergie du moment sur pellicule, entrelaçant sa passion pour le mouvement avec sa vision artistique derrière l'objectif.",
             ],
           },
-        ]
+        ],
       },
     ],
   },
@@ -368,7 +365,7 @@ const fr = {
             { from: "2023-11-08", to: "2023-12-11" },
             { from: "2023-12-11", to: "2024-02-19" },
             { from: "2024-02-19", to: "2024-04-22" },
-          ]
+          ],
         },
         {
           type: "Full Pass",
@@ -388,17 +385,17 @@ const fr = {
           ],
           extraText:
             "Gratuit pour tous les danseurs qui concourent dans la divisions Advanced ou All Star en échange de votre aide à juger les compétitions! L'inscription est toujours requise pour l'équilibre des rôles.",
-          },
-          {
-            type: "ADV+ Full Pass",
-            tiers: ["40", "50", "60", "70"],
-            includes: [
-              "4 heures de workshops - niveau 5",
-              "l'accés aux competitions",
-              "l'accés aux soirées de Vendredi, Samedi et Dimanche",
-            ],
-            extraText:
-              "Disponible pour tous les danseurs concourant dans les divisions Advanced ou All Star. Nous pourrons vous demander de nous aider à juger les compétitions.",
+        },
+        {
+          type: "ADV+ Full Pass",
+          tiers: ["40", "50", "60", "70"],
+          includes: [
+            "4 heures de workshops - niveau 5",
+            "l'accés aux competitions",
+            "l'accés aux soirées de Vendredi, Samedi et Dimanche",
+          ],
+          extraText:
+            "Disponible pour tous les danseurs concourant dans les divisions Advanced ou All Star. Nous pourrons vous demander de nous aider à juger les compétitions.",
         },
         {
           type: "Zero to Hero",
@@ -467,13 +464,13 @@ const fr = {
             prices: [
               {
                 occupancy: "occupation simple",
-                price: "75 € / 99 € avec petit-déjeuner"
+                price: "75 € / 99 € avec petit-déjeuner",
               },
               {
                 occupancy: "occupation double",
-                price: "99 € / 118 € avec petit-déjeuner"
-              }
-            ]
+                price: "99 € / 118 € avec petit-déjeuner",
+              },
+            ],
           },
           {
             type: "Chambre EXECUTIVE",
@@ -481,27 +478,27 @@ const fr = {
             prices: [
               {
                 occupancy: "occupation simple",
-                price: "100 € / 124 € avec petit-déjeuner"
+                price: "100 € / 124 € avec petit-déjeuner",
               },
               {
                 occupancy: "occupation double",
-                price: "124 € / 149 € avec petit-déjeuner"
-              }
-            ]
-          }
+                price: "124 € / 149 € avec petit-déjeuner",
+              },
+            ],
+          },
         ],
         booking: {
           text: "Vous pouvez réserver une chambre de l'un ou l'autre type sur les liens suivants :",
           links: [
             {
               roomType: "réserver une chambre avec petit-déjeuner",
-              link: "https://reservations.travelclick.com/75036?groupID=4129307"
+              link: "https://reservations.travelclick.com/75036?groupID=4129307",
             },
             {
               roomType: "réserver une chambre sans petit-déjeuner",
-              link: "https://reservations.travelclick.com/75036?groupID=4132278"
-            }
-          ]
+              link: "https://reservations.travelclick.com/75036?groupID=4132278",
+            },
+          ],
         },
         links: {
           booking: "",
@@ -516,8 +513,8 @@ const fr = {
           country: "Slovénie",
           access: [
             "Le stationnement est possible dans le garage de l'hôtel ou dans l'un des parkings à proximité.",
-            "Vous pouvez également accéder à l'hôtel en bus urbain. Les lignes 6 et 8 desservent la station 'Smelt' en face de l'hôtel."
-          ]
+            "Vous pouvez également accéder à l'hôtel en bus urbain. Les lignes 6 et 8 desservent la station 'Smelt' en face de l'hôtel.",
+          ],
         },
         parkingText: "Informations pour le parking...",
         bookingText:
@@ -531,7 +528,7 @@ const fr = {
         ],
         links: {
           mapHref: "https://maps.app.goo.gl/4fiDjE4WWUEXvWEz8",
-          mapSrc: "/images/location_castle_map.png"
+          mapSrc: "/images/location_castle_map.png",
         },
         address: {
           addressText: "Addresse",
@@ -541,9 +538,9 @@ const fr = {
           country: "Slovénie",
           access: [
             `Pour atteindre le Château, vous pouvez choisir parmi plusieurs sentiers pédestres qui montent depuis la vieille ville, chacun offrant une agréable ascension de 10 à 20 minutes. Le mode de transport préféré est <a target="_blank" href="https://www.ljubljanskigrad.si/en/plan-your-visit/funicular-railway-en-us/">le funiculaire</a>, équipé d'une cabine en verre, qui offre une belle vue sur la ville pendant la montée. Notez qu'il ne fonctionne que jusqu'à 19h en avril. L'accès en voiture est possible via la route principale, mais il n'est pas recommandé en raison des restrictions de stationnement.`,
-          ]
+          ],
         },
-      }
+      },
     ],
     howToGetHere: {
       pageTitle: "Comment se rendre sur place",
@@ -609,8 +606,8 @@ const fr = {
         alt: "Image de la grotte de Postojna",
         texts: [
           "Rejoignez-nous pour une excursion d'une journée inoubliable alors que nous passons du temps ensemble et explorons deux des attractions les plus emblématiques de la Slovénie : les grottes de Postojna et le château de Predjama.",
-          "Découvrez les grottes de Postojna, un vaste système de grottes karstiques de 24 kilomètres, considéré comme l'une des merveilles naturelles du pays. Au sein de ses vastes chambres et de ses passages sinueux, vous rencontrerez une variété de stalactites et stalagmites impressionnantes, ainsi que l'unique protée anguillard, une espèce intrigante adaptée à la vie dans l'obscurité du monde souterrain. Notre visite guidée éclairera la géologie fascinante et la biodiversité de la grotte, vous offrant une compréhension approfondie de cette merveille souterraine."
-        ]
+          "Découvrez les grottes de Postojna, un vaste système de grottes karstiques de 24 kilomètres, considéré comme l'une des merveilles naturelles du pays. Au sein de ses vastes chambres et de ses passages sinueux, vous rencontrerez une variété de stalactites et stalagmites impressionnantes, ainsi que l'unique protée anguillard, une espèce intrigante adaptée à la vie dans l'obscurité du monde souterrain. Notre visite guidée éclairera la géologie fascinante et la biodiversité de la grotte, vous offrant une compréhension approfondie de cette merveille souterraine.",
+        ],
       },
       {
         src: "/images/day_trip_predjama_castle.jpg",
@@ -620,26 +617,28 @@ const fr = {
           "Bien que les horaires exacts puissent encore changer, voici à quoi ressemblera notre journée :",
         ],
         itinerary: [
-          ["9h30 :","Départ de Ljubljana."],
-          ["11h00 :","Arrivée et visite guidée des grottes de Postojna."],
-          ["12h30 :","Temps libre pour déjeuner, faire du shopping de souvenirs ou visiter le Vivarium."],
-          ["14h30 :","Exploration du château de Predjama."],
-          ["17h00 :","Retour à Ljubljana."]
-        ]
+          ["9h30 :", "Départ de Ljubljana."],
+          ["11h00 :", "Arrivée et visite guidée des grottes de Postojna."],
+          [
+            "12h30 :",
+            "Temps libre pour déjeuner, faire du shopping de souvenirs ou visiter le Vivarium.",
+          ],
+          ["14h30 :", "Exploration du château de Predjama."],
+          ["17h00 :", "Retour à Ljubljana."],
+        ],
       },
       {
         texts: [
           "Le coût de cette excursion d'une journée mémorable est de 75 EUR par personne, incluant le transport et les visites guidées de la grotte de Postojna et du château de Predjama.",
-          "Veuillez noter que le voyage nécessite un minimum de 10 participants pour avoir lieu, et l'inscription est nécessaire pour sécuriser votre place. L'espace dans le bus est limité, alors ne manquez pas votre chance de rejoindre cette aventure et d'explorer les trésors naturels et historiques de la Slovénie !"
-        ]
-      }
+          "Veuillez noter que le voyage nécessite un minimum de 10 participants pour avoir lieu, et l'inscription est nécessaire pour sécuriser votre place. L'espace dans le bus est limité, alors ne manquez pas votre chance de rejoindre cette aventure et d'explorer les trésors naturels et historiques de la Slovénie !",
+        ],
+      },
     ],
   },
   registration: {
     pageTitle: "Inscription",
     opensSoonText: "Les inscriptions ouvriront en Novembre.",
-    registrationInfoText:
-      'Merci de lire avant de vous inscrire les',
+    registrationInfoText: "Merci de lire avant de vous inscrire les",
     loading: "Chargement du formulaire d'inscription...",
     registerNow: "Inscription",
   },
@@ -715,13 +714,16 @@ const fr = {
       title: "Conduite Éthique",
       infoText: [
         {
-          value: "Notre événement est dédié à fournir un environnement sûr et inclusif pour tous les participants, le personnel et les bénévoles. Nous appliquons une politique de tolérance zéro stricte contre toute forme de discours haineux, de harcèlement ou de comportement discriminatoire envers quiconque sur la base de la race, de l'ethnie, de la religion, de l'identité de genre, de l'orientation sexuelle, du handicap ou de toute autre caractéristique qui pourrait être utilisée pour cibler un groupe minoritaire, ou tout autre acte pouvant être considéré comme intimidant, hostile ou indésirable."
+          value:
+            "Notre événement est dédié à fournir un environnement sûr et inclusif pour tous les participants, le personnel et les bénévoles. Nous appliquons une politique de tolérance zéro stricte contre toute forme de discours haineux, de harcèlement ou de comportement discriminatoire envers quiconque sur la base de la race, de l'ethnie, de la religion, de l'identité de genre, de l'orientation sexuelle, du handicap ou de toute autre caractéristique qui pourrait être utilisée pour cibler un groupe minoritaire, ou tout autre acte pouvant être considéré comme intimidant, hostile ou indésirable.",
         },
         {
-          value: "Tout participant, membre du personnel ou bénévole reconnu coupable d'un tel comportement sera sujet à une action immédiate. Cette action peut inclure l'exclusion de l'événement sans remboursement, l'interdiction des événements futurs et le signalement aux autorités compétentes. Nous encourageons toute personne qui subit ou est témoin d'actes de haine ou de harcèlement à signaler l'incident dès que possible aux organisateurs de l'événement ou aux bénévoles pour une évaluation et une réponse immédiates."
+          value:
+            "Tout participant, membre du personnel ou bénévole reconnu coupable d'un tel comportement sera sujet à une action immédiate. Cette action peut inclure l'exclusion de l'événement sans remboursement, l'interdiction des événements futurs et le signalement aux autorités compétentes. Nous encourageons toute personne qui subit ou est témoin d'actes de haine ou de harcèlement à signaler l'incident dès que possible aux organisateurs de l'événement ou aux bénévoles pour une évaluation et une réponse immédiates.",
         },
         {
-          value: "Notre engagement envers un environnement exempt de haine s'étend au-delà des locaux de l'événement et englobe toutes les activités associées, y compris les interactions en ligne et la conduite sur les réseaux sociaux. Notre but est de cultiver un esprit communautaire où le respect et la gentillesse sont la base de toutes interactions et échanges."
+          value:
+            "Notre engagement envers un environnement exempt de haine s'étend au-delà des locaux de l'événement et englobe toutes les activités associées, y compris les interactions en ligne et la conduite sur les réseaux sociaux. Notre but est de cultiver un esprit communautaire où le respect et la gentillesse sont la base de toutes interactions et échanges.",
         },
       ],
     },

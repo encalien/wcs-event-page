@@ -3,7 +3,8 @@ const si = {
     name: "Slovenian Open",
     location: "Ljubljana",
     date: "19. - 21. april 2024",
-    welcomeText: "Pridruži se nam na prvem Slovenian Open festivalu - WSDC trial!",
+    welcomeText:
+      "Pridruži se nam na prvem Slovenian Open festivalu - WSDC trial!",
     readMoreText: "Preberi več",
     features: [
       {
@@ -13,8 +14,8 @@ const si = {
         list: [
           "Karin Kakun & Ludovic Pelegrin",
           "Savana Barreau & João Parada",
-          "Andrea Pártos & Attila Pártos"
-        ]
+          "Andrea Pártos & Attila Pártos",
+        ],
       },
       {
         title: "Doživi",
@@ -24,7 +25,7 @@ const si = {
           "4 fantastične zabave",
           "3 dni delavnic za vse ravni",
           "Jack & Jill tekmovanja",
-        ]
+        ],
       },
       {
         title: "Razišči",
@@ -33,19 +34,19 @@ const si = {
         list: [
           "Čar starega mestnega jedra",
           "Zelena prestolnica Evrope",
-          "Blizu Alp in morja"
-        ]
-      }
+          "Blizu Alp in morja",
+        ],
+      },
     ],
-    tba: "Več informacij sledi."
+    tba: "Več informacij sledi.",
   },
   contact: {
     text: "Če imaš kakršna koli vprašanja, nam lahko pišeš na email:",
-    email: "info{'@'}slovenianopen.dance"
+    email: "info{'@'}slovenianopen.dance",
   },
   urls: {
     facebook: "https://www.facebook.com/events/819650556370760",
-    instagram: "https://www.instagram.com/slovenian_open_wcs"
+    instagram: "https://www.instagram.com/slovenian_open_wcs",
   },
   home: {
     pageTitle: "Home",
@@ -60,35 +61,35 @@ const si = {
         {
           name: "Ludovic Pelegrin & Karin Kakun - Strictly Open Finals - Budafest 2022",
           src: "https://img.youtube.com/vi/8vgxDAinHEM/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=8vgxDAinHEM"
+          href: "https://www.youtube.com/watch?v=8vgxDAinHEM",
         },
         {
           name: "João Parada & Savana Barreau - Classic The Open 2022",
           src: "https://img.youtube.com/vi/Kt25_VQ9dCg/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=Kt25_VQ9dCg"
+          href: "https://www.youtube.com/watch?v=Kt25_VQ9dCg",
         },
         {
-          name: 'Attila Pártos & Andrea Pártos - 3rd place Strictly Open - D-TownSwing 2016',
+          name: "Attila Pártos & Andrea Pártos - 3rd place Strictly Open - D-TownSwing 2016",
           src: "https://img.youtube.com/vi/zPPV9eIQnOk/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=zPPV9eIQnOk"
+          href: "https://www.youtube.com/watch?v=zPPV9eIQnOk",
         },
         {
           name: "FOWCS 2022 - STRICTLY ADVANCED / ALL-STARS - Savana BARREAU & Joao PARADA - 1st place",
           src: "https://img.youtube.com/vi/waxKAtfhEBc/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=waxKAtfhEBc"
+          href: "https://www.youtube.com/watch?v=waxKAtfhEBc",
         },
         {
-          name: "Attila Pártos & Andrea Pártos \"Hol Van Az A Lány\" - ProIntro - Westie Spring Thing 2022",
+          name: 'Attila Pártos & Andrea Pártos "Hol Van Az A Lány" - ProIntro - Westie Spring Thing 2022',
           src: "https://img.youtube.com/vi/R2h8UKHc5hs/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=R2h8UKHc5hs"
+          href: "https://www.youtube.com/watch?v=R2h8UKHc5hs",
         },
         {
           name: "Ludovic Pelegrin Pardou & Karin Kakun - Teachers Show - Hungarian Open 2023",
           src: "https://img.youtube.com/vi/3kjtBrc81WM/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=3kjtBrc81WM"
-        }
-      ]
-    }
+          href: "https://www.youtube.com/watch?v=3kjtBrc81WM",
+        },
+      ],
+    },
   },
   staff: {
     pageTitle: "Ekipa",
@@ -104,8 +105,8 @@ const si = {
               "Svojo pot v WCS je začela leta 2014 in se že takrat popolnoma zaljubila v ta ples. Zdaj tekmuje v Champion kategoriji in poučuje v Izraelu, kjer vodi skupino tečajev west coast swinga. Redno potuje in poučuje po vsej Evropi.",
               "Ludovic Pelegrin je začel plesati pri 10 letih, ko se je naučil rock'n'rolla. Njegova plesna pot je inovativna in raznolika, saj obsega stile, kot so lindy hop, balboa, charleston, akrobatski rock'n'roll, salsa, boogie woogie in step. Od leta 2009 poučuje rock'n'roll, lindy hop in charleston.",
               "Njegova ljubezen do swinga ga je leta 2010 pripeljala do WCS. Z vse večjim navdušenjem je obiskoval delavnice po svetu in se učil od najboljših inštruktorjev. Prav tako sodeluje na številnih tekmovanjih, kjer redno dosega mesta med prvimi tremi.",
-              "Poganja ga želja po deljenju svoje strasti in pomoči drugim pri odkrivanju WCS, zato je začel poučevati WCS leta 2011. Po tem, ko je prispeval k širjenju WCS v Franciji, zdaj vodi delavnice po vsej Evropi. Njegove raznolike plesne veščine so mu prinesle sloves odličnega poznavalca glasbe, strukturiranega in jasnega učenja ter velike radodarnosti."
-            ]
+              "Poganja ga želja po deljenju svoje strasti in pomoči drugim pri odkrivanju WCS, zato je začel poučevati WCS leta 2011. Po tem, ko je prispeval k širjenju WCS v Franciji, zdaj vodi delavnice po vsej Evropi. Njegove raznolike plesne veščine so mu prinesle sloves odličnega poznavalca glasbe, strukturiranega in jasnega učenja ter velike radodarnosti.",
+            ],
           },
           {
             names: "Savana & João",
@@ -114,8 +115,8 @@ const si = {
               "Savana je začela plesati jazz pri štirih letih in je temu posvečena od takrat naprej. Strastna ljubiteljica plesa na splošno se je izobraževala v solo plesih kot so sodobni ples in hip hop. Sodelovala je na številnih tekmovanjih, kjer je osvajala regionalne in nacionalne nagrade, in se med srednjo šolo pridružila konservatoriju.",
               "Pri sedmih letih se je podala v svet plesov v paru, nato pa hitro prešla na salso in kasneje na west coast swing. Zelo mlada je dobila priložnost za poučevanje, kjer je našla veselje v povezovanju in deljenju z učenci. Po srednji šoli se je odločila specializirati za WCS in se preselila v Švico, kjer zdaj živi in dela v plesni šoli Janga Widlerja.",
               "João je začel plesati pri osmih letih v skupini nemških ljudskih plesov v južni Braziliji. Do leta 2006 se je razširil na različne druge sloge, kot so zouk, salsa, forro, samba de Gafiera in argentinski tango. Ples je postal pomemben del njegovega življenja in tedensko je namenil številne ure profesionalnemu usposabljanju.",
-              "Leta 2011 je João začel poučevati in leta 2012 se je prvič srečal z West Coast Swing. V ta ples se je hitro zaljubil in iskal priložnosti za izobraževanje, udeleževal se je dogodkov tako v Braziliji kot v tujini. Leta 2014 je začel poučevati WCS v Braziliji. Danes ga s strastjo poučuje tako v Švici kot na različnih evropskih dogodkih."
-            ]
+              "Leta 2011 je João začel poučevati in leta 2012 se je prvič srečal z West Coast Swing. V ta ples se je hitro zaljubil in iskal priložnosti za izobraževanje, udeleževal se je dogodkov tako v Braziliji kot v tujini. Leta 2014 je začel poučevati WCS v Braziliji. Danes ga s strastjo poučuje tako v Švici kot na različnih evropskih dogodkih.",
+            ],
           },
           {
             names: "Andrea & Attila",
@@ -123,10 +124,10 @@ const si = {
             description: [
               "Attila in Andrea sta svojo plesno kariero začela kot plesalca standardnih in latinskoameriških plesov. Veliko let sta poučevala te plesne zvrsti in v tem času osvojila številne prvenstvene naslove. Po rojstvu prvega otroka sta se odločila za odmik od aktivne kariere, a plesa nista mogla povsem opustiti in sta vedno hrepenela po vrnitvi na plesišče.",
               "Leta 2013 sta odkrila West Coast Swing in kmalu postala zasvojena s tem plesnim stilom. Zaradi izrazitih razlik med standardnimi plesi in West Coast Swing, sta v tem plesu našla svojo strast, predvsem zaradi njegovih neskončnih možnosti in svobode. Tekmovanja nista mogla povsem opustiti, tako da sta po nekaj letih tekmovanja oba dosegla prestižno kategorijo All-Star.",
-              "Danes Attila in Andrea širita svojo globoko ljubezen do west coast swinga tako, da ponujata tečaje tako na Madžarskem kot v tujini. Ne glede na to, ali gre za skupinske tečaje ali zasebne ure, je njuna misija deliti svoje obsežno znanje in globoko strast. Za njiju je ples del vsakdanjega življenja."
-            ]
-          }
-        ]
+              "Danes Attila in Andrea širita svojo globoko ljubezen do west coast swinga tako, da ponujata tečaje tako na Madžarskem kot v tujini. Ne glede na to, ali gre za skupinske tečaje ali zasebne ure, je njuna misija deliti svoje obsežno znanje in globoko strast. Za njiju je ples del vsakdanjega življenja.",
+            ],
+          },
+        ],
       },
       {
         pageTitle: "DJ-i",
@@ -142,8 +143,8 @@ const si = {
             songList: [
               "Forgive Me - Sofi Tucker",
               "Whisper - Able Heart",
-              "Fake - The Tech Thieves"
-            ]
+              "Fake - The Tech Thieves",
+            ],
           },
           {
             names: "Aleksandra",
@@ -157,7 +158,7 @@ const si = {
               "California King - D.B. Ricapito",
               "What A Wonderful World - Sofi Tukker",
               "Seasons - Chloe Adams",
-            ]
+            ],
           },
           {
             names: "Laszlo",
@@ -170,8 +171,8 @@ const si = {
             songList: [
               "No Ordinary - Labrinth",
               "N'y pense plus - Tayc",
-              "Et c'est parti... - Nâdiya"
-            ]
+              "Et c'est parti... - Nâdiya",
+            ],
           },
           {
             names: "Lino",
@@ -184,8 +185,8 @@ const si = {
             songList: [
               "Lose It - Oh Wonder",
               "Papa - SICKOTOY, Eliana Gjata, INNA",
-              "No Ocean - EXES, Jome"
-            ]
+              "No Ocean - EXES, Jome",
+            ],
           },
           {
             names: "Matt",
@@ -198,8 +199,8 @@ const si = {
             songList: [
               "Something Sweeter - LUME",
               "Oxygen - Emili Sandé",
-              "Island of the Sun - Winona Oak"
-            ]
+              "Island of the Sun - Winona Oak",
+            ],
           },
           {
             names: "Patrice",
@@ -209,10 +210,7 @@ const si = {
               "Patrice je svojo DJ kariero začel pred 5 leti na zabavah z mešanico plesnih stilov, kjer ga je prevzela umetnost ustvarjanja atmosferskega večera, ki zajema različne žanre. Zdaj se vse pogosteje znajde za mešalno mizo na West Coast Swing zabavah, kjer še naprej navdušuje plesalce z mešanjem raznolikih glasbenih stilov.",
               "Trenutno najraje pleše na:",
             ],
-            songList: [
-              "Fuck it, I love it! - ILIRA",
-              "Wait - Damian Lynn",
-            ]
+            songList: ["Fuck it, I love it! - ILIRA", "Wait - Damian Lynn"],
           },
           {
             names: "Sepgod",
@@ -225,8 +223,8 @@ const si = {
             songList: [
               "Soap - Melanie Martinez",
               "Space Ghost Coast To Coast - Glass Animals",
-              "Chariot - Mega"
-            ]
+              "Chariot - Mega",
+            ],
           },
         ],
       },
@@ -260,7 +258,7 @@ const si = {
               "Njegovo celovito razumevanje plesne dinamike in tehnične spretnosti mu daje izostren občutek za detajle, kar zagotavlja pošteno in natančno ocenjevanje tekmovalcev.",
             ],
           },
-        ]
+        ],
       },
       {
         pageTitle: "Sodelavci",
@@ -271,7 +269,7 @@ const si = {
             src: "/images/collaborators_sarah.png",
             description: [
               "Kot plesalka je vedno opažala, da mnogi plesalci nosijo napačne čevlje. Opazila je pomanjkanje specializiranih trgovin s plesnimi čevlji na Koroškem in ljudje so se obotavljali kupovati v plesnih šolah ali prek spleta, zato se je decembra 2018 odločila za samostojno podjetniško pot in ustanovila podjetje, osredotočeno na plesne čevlje.",
-              "Z veseljem ponuja nasvete glede osebnih zadev in pomoč pri iskanju idealnih plesnih čevljev za posameznike."
+              "Z veseljem ponuja nasvete glede osebnih zadev in pomoč pri iskanju idealnih plesnih čevljev za posameznike.",
             ],
           },
           {
@@ -280,10 +278,10 @@ const si = {
             src: "/images/collaborators_marine.png",
             description: [
               "Marine je francoska plesalka in učiteljica WCS ter ustanoviteljica Art'Potentiala. Na nekaterih dogodkih ponuja športne masaže in seje mentalnega coachinga s sofrologijo plesalcem. Športne masaže se je naučila izvajati v Indiji in na Tajskem, še naprej pa se o masažah izobražuje v Franciji.",
-              "Masaže na plesih dogodkih ponuja od leta 2023, in navduši vse, ki se prepustijo njenim veščim rokam!"
+              "Masaže na plesih dogodkih ponuja od leta 2023, in navduši vse, ki se prepustijo njenim veščim rokam!",
             ],
           },
-        ]
+        ],
       },
       {
         pageTitle: "Fotograf",
@@ -296,7 +294,7 @@ const si = {
               "Predan tako ljubezni do plesa kot tudi do fotografije, pogosto na plesne zabave prinese svoj fotoaparat, željan zajeti bistvo in energijo trenutka in ovekovečiti lepe spomine.",
             ],
           },
-        ]
+        ],
       },
     ],
   },
@@ -309,38 +307,38 @@ const si = {
           title: "Zero to Hero",
           descriptionText: [
             "NEWCOMER brez WSDC točk",
-            "Če še nikoli nisi poskusil_a west coast swinga, ali pa si ga spoznal_a le na hitro, je ta nivo kot nalašč zate. Začeli bomo od čiste osnove in te pripravili, da boš lahko užival_a na svoji prvi west coast swing zabavi. Pridruži se nam in odkrij čar tega plesa!"
-          ]
+            "Če še nikoli nisi poskusil_a west coast swinga, ali pa si ga spoznal_a le na hitro, je ta nivo kot nalašč zate. Začeli bomo od čiste osnove in te pripravili, da boš lahko užival_a na svoji prvi west coast swing zabavi. Pridruži se nam in odkrij čar tega plesa!",
+          ],
         },
         {
           title: "Nivo 2",
           descriptionText: [
             "NOVICE brez WSDC točk",
-            "Osnovne ritme in koncepte west coast swing že poznaš, a se na plesišču še ne počutiš domače. Želiš si izboljšati svojo tehniko in se naučiti novih figur. Pridruži se nam na poti do plesnega uspeha!"
-          ]
+            "Osnovne ritme in koncepte west coast swing že poznaš, a se na plesišču še ne počutiš domače. Želiš si izboljšati svojo tehniko in se naučiti novih figur. Pridruži se nam na poti do plesnega uspeha!",
+          ],
         },
         {
           title: "Nivo 3",
           descriptionText: [
             "NOVICE z vsaj 1 Novice WSDC točko ali avdicijo",
-            "Na plesišču si suveren_a in lahko uživaš ne glede na to, s kom in na katero glasbo plešeš. Pripravljen_a si na učenje bolj zapletenih vzorcev in konceptov. Še vedno si želiš nadgraditi svojo tehniko, kot tudi svojo glasbeno izražanje in plesno povezavo."
-          ]
+            "Na plesišču si suveren_a in lahko uživaš ne glede na to, s kom in na katero glasbo plešeš. Pripravljen_a si na učenje bolj zapletenih vzorcev in konceptov. Še vedno si želiš nadgraditi svojo tehniko, kot tudi svojo glasbeno izražanje in plesno povezavo.",
+          ],
         },
         {
           title: "Nivo 4",
           descriptionText: [
             "INTERMEDIATE z vsaj 16 Novice WSDC točkami ali avdicijo",
-            "Na plesišču si doma. Tvoja tehnika je dobra, pri plesu se glasbeno izražaš in z veseljem improviziraš s svojimi partnerji. Pripravljen_a si najti svoj lasten stil in raziskovati napredne koncepte."
-          ]
+            "Na plesišču si doma. Tvoja tehnika je dobra, pri plesu se glasbeno izražaš in z veseljem improviziraš s svojimi partnerji. Pripravljen_a si najti svoj lasten stil in raziskovati napredne koncepte.",
+          ],
         },
         {
           title: "ADV+",
           descriptionText: [
             "ADVANCED / ALL-STAR z vsaj 30 Intermediate WSDC točkami",
-            "Ta posebni intenzivni program je namenjen samo plesalcem na Advanced in All Star nivoj. Za ta nivo ne bo avdicije, saj pričakujemo, da si svoje spretnosti že dovolj dokazal_a na tekmovanjih."
-          ]
+            "Ta posebni intenzivni program je namenjen samo plesalcem na Advanced in All Star nivoj. Za ta nivo ne bo avdicije, saj pričakujemo, da si svoje spretnosti že dovolj dokazal_a na tekmovanjih.",
+          ],
         },
-      ]
+      ],
     },
     wsdc: {
       pageTitle: "Pogosta vprašanja o WSDC in točkah",
@@ -360,7 +358,7 @@ const si = {
             `<a href="https://www.youtube.com/watch?v=bT0ON9V31fw&pp=ygUdYWR2YW5jZWQgZmluYWxzIGF0dGlsYSBwYXJ0b3M%3D" target="_blank" class="important">Advanced (ADV)</a> - visok nivo, namenjen izkušenim plesalcem, ki so v skupnem seštevku zbrali vsaj 30 Intermediate točk;`,
             `<a href="https://www.youtube.com/watch?v=RUpH6uzM9Hk" target="_blank" class="important">All Star (ALS)</a> - izjemno visok nivo, namenjem plesalcem, ki so v skupnem seštevku zbrali že vsaj 60 Advanced točk;`,
             `<a href="https://www.youtube.com/watch?v=KNID2LYJ4xM&pp=ygUZY2hhbXBpb25zIDFzdCBwbGFjZSBrYXJpbg%3D%3D" target="_blank" class="important">Champions (CHA)</a> - najvišji nivo, namenjem tistim, ki so v svetovnem vrhu in so v skupnem seštevku zbrali že vsaj 150 All Star točk.`,
-          ]
+          ],
         },
         {
           question: "2. Kaj je to WSDC trial event?",
@@ -380,7 +378,7 @@ const si = {
             "Level 2 ustreza stopnji Newcomer,",
             "Level 3 ustreza stopnji Novice z vsaj 1 točko,",
             "Level 4 ustreza stopnji Intermediate.",
-          ]
+          ],
         },
         {
           question: "4. Kaj napišem v polje WSDC ID ob prijavi?",
@@ -390,27 +388,28 @@ const si = {
           ],
         },
         {
-          question: "5. OK, kaj pa, če plešem dobro, ampak se ne udeležujem tekmovanj?",
+          question:
+            "5. OK, kaj pa, če plešem dobro, ampak se ne udeležujem tekmovanj?",
           answerText: [
             "Nič hudega. Če želiš sodelovati na delavnicah višjega nivoja, se lahko udeležiš avdicije, ki bo potekala pred delavnicami. Tam bodo učitelji prosili udeležence, da večkrat odplešejo z različnimi partnerji, in se na podlagi videnega znanja odločili, koga lahko sprejmejo na višji nivo. Odločitev učiteljev je dokončna, saj oni najbolje vejo, katero znanje pričakujejo za svoje delavnice.",
-            "Avdicija bo možna za level 3 in level 4. Za level 2 in Zero to Hero ni potrebna. Za ADV+ delavnice avdicije ne bo."          
+            "Avdicija bo možna za level 3 in level 4. Za level 2 in Zero to Hero ni potrebna. Za ADV+ delavnice avdicije ne bo.",
           ],
         },
-      ]
+      ],
     },
     schedule: {
       pageTitle: "Urnik",
       description: "To je okvirni urnik in se bo verjetno še kaj spremenil.",
       downloadText: "Prenesi .pdf datoteko.",
       pdfSrc: "/files/schedule.pdf",
-      pngSrc: "/images/schedule.png"
+      pngSrc: "/images/schedule.png",
     },
     pricing: {
       pageTitle: "Cenik",
       description: [
         "Ponujamo dve vrsti vstopnic: Full Pass in Party Pass. Full Pass vključuje vse delavnice, dostop do tekmovanj in zabav. Party Pass vključuje dostop samo do tekmovanj in zabav.",
         "Za naše najnovejše westieje smo pripravili intenzivne delavnice 'Zero to Hero', za najbolj izkušene plesalce pa poseben intenzivni program ADV+.",
-        "Cene bodo določene glede na čas prijave, pod pogojem, da je plačilo izvedeno v 14 dneh od sprejetja prijave, kot je prikazano v spodnji tabeli."
+        "Cene bodo določene glede na čas prijave, pod pogojem, da je plačilo izvedeno v 14 dneh od sprejetja prijave, kot je prikazano v spodnji tabeli.",
       ],
       passPrices: [
         {
@@ -419,84 +418,61 @@ const si = {
             "Super zgodnja cena",
             "Zgodnja cena",
             "Običajna cena",
-            "Pozna cena"
+            "Pozna cena",
           ],
           includes: ["VKLJUČUJE"],
           descriptions: [
             "na dan odprtja prijav",
             "do 10. decembra 2023",
             "do 18. februarja 2024",
-            "od 19. februarja 2024"
+            "od 19. februarja 2024",
           ],
           dates: [
             { from: "2023-11-07", to: "2023-11-08" },
             { from: "2023-11-08", to: "2023-12-11" },
             { from: "2023-12-11", to: "2024-02-19" },
             { from: "2024-02-19", to: "2024-04-22" },
-          ]
+          ],
         },
         {
           type: "Full Pass",
-          tiers: [
-            "120",
-            "130",
-            "140",
-            "150"
-          ],
+          tiers: ["120", "130", "140", "150"],
           includes: [
             "6 ur delavnic - nivo 2/3/4",
             "vstop med tekmovanji",
-            "vstopnina na zabave v petek, soboto in nedeljo"
-          ]
+            "vstopnina na zabave v petek, soboto in nedeljo",
+          ],
         },
         {
           type: "Party Pass",
-          tiers: [
-            "80",
-            "90",
-            "100",
-            "110"
-          ],
+          tiers: ["80", "90", "100", "110"],
           includes: [
             "vstop med tekmovanji",
-            "vstopnina na zabave v petek, soboto in nedeljo"
+            "vstopnina na zabave v petek, soboto in nedeljo",
           ],
-          extraText: "Brezplačno za vse plesalce, ki tekmujejo v kategoriji Advanced ali All Star v zameno za pomoč pri sojenju tekmovanj! Prijava obvezna zaradi uravnoteženja vlog."
+          extraText:
+            "Brezplačno za vse plesalce, ki tekmujejo v kategoriji Advanced ali All Star v zameno za pomoč pri sojenju tekmovanj! Prijava obvezna zaradi uravnoteženja vlog.",
         },
         {
           type: "ADV+ Full Pass",
-          tiers: [
-            "40",
-            "50",
-            "60",
-            "70"
-          ],
+          tiers: ["40", "50", "60", "70"],
           includes: [
             "4 ure delavnic - nivo 5",
             "vstop med tekmovanji",
-            "vstopnina na zabave v petek, soboto in nedeljo"
+            "vstopnina na zabave v petek, soboto in nedeljo",
           ],
-          extraText: "Za vse plesalce, ki tekmujejo v kategoriji Advanced ali All Star. Morda te bomo prosili za pomoč pri sojenju tekmovanj."
+          extraText:
+            "Za vse plesalce, ki tekmujejo v kategoriji Advanced ali All Star. Morda te bomo prosili za pomoč pri sojenju tekmovanj.",
         },
         {
           type: "Zero to Hero",
-          tiers: [
-            "40",
-            "50",
-            "60",
-            "70"
-          ],
-          includes: [
-            "4 ure delavnic - nivo 1",
-            "vstopnina na petkovo zabavo"
-          ]
-        }
+          tiers: ["40", "50", "60", "70"],
+          includes: ["4 ure delavnic - nivo 1", "vstopnina na petkovo zabavo"],
+        },
       ],
       groups: {
         title: "Skupinski popust",
-        description: [
-          "Pravila skupine:"
-        ],
+        description: ["Pravila skupine:"],
         groupRules: [
           "popusti se ne seštevajo - za člane skupine in upravičene do popusta štejejo le nosilci Full Pass vstopnice,",
           "skupina mora obsegati najmanj 10 plesalcev, ki se udeležijo dogodka,",
@@ -506,8 +482,8 @@ const si = {
           "vodja skupine šteje kot del skupine in mora biti tudi nosilec Full Pass vstopnice,",
           "popusti se upoštevaju že ob registraciji na osnovi trenutnega cenovnega razreda,",
           "vodje skupin prejmejo unikatno kodo, ki jo morajo njihovi člani uporabiti ob registraciji,",
-          "če skupina ne doseže 10 članov ob času dogodka, se skupina razpusti in udeleženci bodo morali na mestu plačati popustni znesek."
-        ]
+          "če skupina ne doseže 10 članov ob času dogodka, se skupina razpusti in udeleženci bodo morali na mestu plačati popustni znesek.",
+        ],
       },
     },
   },
@@ -528,13 +504,13 @@ const si = {
             prices: [
               {
                 occupancy: "nastanitev ene osebe",
-                price: "75 € / 99 € s zajtrkom"
+                price: "75 € / 99 € s zajtrkom",
               },
               {
                 occupancy: "nastanitev dveh oseb",
-                price: "99 € / 118 € s zajtrkom"
-              }
-            ]
+                price: "99 € / 118 € s zajtrkom",
+              },
+            ],
           },
           {
             type: "EXECUTIVE soba",
@@ -542,31 +518,31 @@ const si = {
             prices: [
               {
                 occupancy: "nastanitev ene osebe",
-                price: "100 € / 124 € s zajtrkom"
+                price: "100 € / 124 € s zajtrkom",
               },
               {
                 occupancy: "nastanitev dveh oseb",
-                price: "124 € / 149 € s zajtrkom"
-              }
-            ]
-          }
+                price: "124 € / 149 € s zajtrkom",
+              },
+            ],
+          },
         ],
         booking: {
           text: "Sobo katere koli vrste lahko rezerviraš na spodnjih povezavah:",
           links: [
             {
               roomType: "rezerviraj sobo z zajtrkom",
-              link: "https://reservations.travelclick.com/75036?groupID=4129307"
+              link: "https://reservations.travelclick.com/75036?groupID=4129307",
             },
             {
               roomType: "rezerviraj sobo brez zajtrka",
-              link: "https://reservations.travelclick.com/75036?groupID=4132278"
-            }
-          ]
+              link: "https://reservations.travelclick.com/75036?groupID=4132278",
+            },
+          ],
         },
         links: {
           mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
-          mapSrc: "/images/location_hotel_map.png"
+          mapSrc: "/images/location_hotel_map.png",
         },
         address: {
           addressText: "Naslov",
@@ -577,7 +553,7 @@ const si = {
           access: [
             "Parkiranje je možno v garaži hotela ali na enem izmed bližnjih parkirišč oz. parkirnih prostorov.",
             "Do hotela lahko prideš tudi z mestnim avtobusom. Do postaje 'Smelt' pred hotelom vozita liniji 6 in 8.",
-          ]
+          ],
         },
       },
       {
@@ -588,7 +564,7 @@ const si = {
         ],
         links: {
           mapHref: "https://maps.app.goo.gl/4fiDjE4WWUEXvWEz8",
-          mapSrc: "/images/location_castle_map.png"
+          mapSrc: "/images/location_castle_map.png",
         },
         address: {
           addressText: "Naslov",
@@ -598,9 +574,9 @@ const si = {
           country: "Slovenija",
           access: [
             `Da prideš do Gradu, lahko izbiraš med več pešpotmi, ki se vijejo iz starega mesta, vsaka pa ponuja prijeten 10- do 20-minutni sprehod. Najprijetnejši vzpon je z <a target="_blank" href="https://www.ljubljanskigrad.si/sl/nacrtovanje-obiska/vzpenjaca/">vzpenjačo</a>, opremljeno s stekleno kabino, ki nudi dober pogled na mesto. Upoštevaj, da v aprilu vzpenjača obratuje samo do 19. ure. Dostop z avtomobilom je možen po glavni cesti, vendar zaradi omejitev parkiranja ni priporočljiv.`,
-          ]
+          ],
         },
-      }
+      },
     ],
   },
   dayTrip: {
@@ -611,42 +587,45 @@ const si = {
         alt: "Slika Postojnske jame",
         texts: [
           "Pridruži se nam na nepozabnem enodnevnem izletu, ko se družimo in skupaj raziskujemo dve najbolj ikonični znamenitosti Slovenije: Postojnsko jamo in Predjamski grad.",
-          "Odkrij Postojnsko jamo, obsežen 24-kilometrski kraški jamski sistem, ki predstavlja eno od naravnih čudes Slovenije. Znotraj njegovih obsežnih dvoran in vijugastih prehodov lahko naletiš na vrsto osupljivih stalaktitov in stalagmitov, pa tudi na človeško ribico, zanimivo vrsto, prilagojeno življenju v temi podzemnega sveta. Naš voden ogled bo prestavil fascinantno geologijo in biotsko raznovrstnost jame in ponudil globlje razumevanje tega podzemnega sveta."
-        ]
+          "Odkrij Postojnsko jamo, obsežen 24-kilometrski kraški jamski sistem, ki predstavlja eno od naravnih čudes Slovenije. Znotraj njegovih obsežnih dvoran in vijugastih prehodov lahko naletiš na vrsto osupljivih stalaktitov in stalagmitov, pa tudi na človeško ribico, zanimivo vrsto, prilagojeno življenju v temi podzemnega sveta. Naš voden ogled bo prestavil fascinantno geologijo in biotsko raznovrstnost jame in ponudil globlje razumevanje tega podzemnega sveta.",
+        ],
       },
       {
         src: "/images/day_trip_predjama_castle.jpg",
         alt: "Slika Predjamskega gradu",
         texts: [
           "Po obisku jam se bomo odpravili do Predjamskega gradu, ki je umeščen v ustje jame. Ta renesančna trdnjava, ki je brezhibno integrirana z naravnim kamnom, ponuja vpogled v preteklost in osupljive poglede na okoliško pokrajino.",
-          "Čeprav se lahko točni časi še spremenijo, bo naš dan potekal nekako takole:"
+          "Čeprav se lahko točni časi še spremenijo, bo naš dan potekal nekako takole:",
         ],
         itinerary: [
-          ["9:30:","Odhod iz Ljubljane."],
-          ["11:00:","Prihod in voden obisk Postojnskih jam."],
-          ["12:30:","Prosti čas za kosilo, nakupovanje spominkov ali obisk Vivarija."],
-          ["14:30:","Raziskovanje Predjamskega gradu."],
-          ["17:00:","Vrnitev v Ljubljano."]
-        ]
+          ["9:30:", "Odhod iz Ljubljane."],
+          ["11:00:", "Prihod in voden obisk Postojnskih jam."],
+          [
+            "12:30:",
+            "Prosti čas za kosilo, nakupovanje spominkov ali obisk Vivarija.",
+          ],
+          ["14:30:", "Raziskovanje Predjamskega gradu."],
+          ["17:00:", "Vrnitev v Ljubljano."],
+        ],
       },
       {
         texts: [
           "Strošek tega izleta je 75 EUR na osebo, kar vključuje prevoz in vodene oglede tako Postojnske jame kot Predjamskega gradu.",
-          "Za izvedbo izleta je potrebnih najmanj 10 udeležencev, registracija pa je obvezna. Prostor na avtobusu je omejen, zato ne zamudi priložnosti, da se nam pridružiš in z nami raziskuješ naravne in zgodovinske zaklade Slovenije!"
-        ]
-      }
+          "Za izvedbo izleta je potrebnih najmanj 10 udeležencev, registracija pa je obvezna. Prostor na avtobusu je omejen, zato ne zamudi priložnosti, da se nam pridružiš in z nami raziskuješ naravne in zgodovinske zaklade Slovenije!",
+        ],
+      },
     ],
   },
   registration: {
     pageTitle: "Registracija",
     opensSoonText: "Registracija se odpre 7. novembra 2023.",
-    registrationInfoText: 'Pred registracijo si obvezno preberi:',
+    registrationInfoText: "Pred registracijo si obvezno preberi:",
     loading: "Nalaganje obrazca za registracijo...",
-    registerNow: "Prijavi se"
+    registerNow: "Prijavi se",
   },
   notFound: {
     pageTitle: "Stran ne obstaja",
-    description: `Strani, ki jo iščeš, nismo mogli najti. Preveri, če je vnešen pravilen URL ali <a target="_blank" href="/">se vrni na domačo stran</a>.`
+    description: `Strani, ki jo iščeš, nismo mogli najti. Preveri, če je vnešen pravilen URL ali <a target="_blank" href="/">se vrni na domačo stran</a>.`,
   },
   termsAndConditions: {
     pageTitle: "Pravila in pogoji sodelovanja",
@@ -654,64 +633,77 @@ const si = {
       title: "Zdravje in varnost",
       infoText: [
         {
-          value: "Med športnimi aktivnostmi obstaja nevarnost telesnih poškodb. Udeleženci se vseh dejavnosti med dogodkom udeležujejo na lastno odgovornost. Organizator ne prevzema nikakršne odgovornosti za poškodbe ali bolezni udeležencev.",
+          value:
+            "Med športnimi aktivnostmi obstaja nevarnost telesnih poškodb. Udeleženci se vseh dejavnosti med dogodkom udeležujejo na lastno odgovornost. Organizator ne prevzema nikakršne odgovornosti za poškodbe ali bolezni udeležencev.",
         },
         {
-          value: "Udeleženi morajo upoštevati pravila dogodka in poskrbeti, da se obnašajo tako, da omejijo pojav ali resnost morebitnih zdravstvenih težav. To vključuje, vendar ni omejeno na:",
+          value:
+            "Udeleženi morajo upoštevati pravila dogodka in poskrbeti, da se obnašajo tako, da omejijo pojav ali resnost morebitnih zdravstvenih težav. To vključuje, vendar ni omejeno na:",
           list: [
             "udeleženci se dogodka ne smejo udeležiti, če se počutijo slabo in/ali kažejo znake nalezljive bolezni,",
             "udeleženci morajo vzdrževati ustrezno higieno in redno uporabljati razkužila za roke,",
             "udeleženci naj poskrbijo za ustrezno hidracijo,",
             "udeleženci se ne smejo udeleževati nobene dejavnosti, za katero vedo, da bi lahko bila zanje tvegana,",
             "udeleženci ne smejo siliti ali spodbujati soudeležencev k sodelovanju ali izvajanju kakršnih koli dejavnosti, ki bi lahko soudeležencem bile nevarne,",
-          ]
+          ],
         },
         {
-          value: "V primeru, da se udeleženec zavestno vede tvegano, še posebej, če bi bilo njegovo ravnanje lahko nevarno za druge udeležence, si organizator dogodka pridržuje pravico, da takemu udeležencu brez povrnitve stroškov omeji dostop do dogodka.",
+          value:
+            "V primeru, da se udeleženec zavestno vede tvegano, še posebej, če bi bilo njegovo ravnanje lahko nevarno za druge udeležence, si organizator dogodka pridržuje pravico, da takemu udeležencu brez povrnitve stroškov omeji dostop do dogodka.",
         },
         {
-          value: "Udeleženci se s prijavo vnaprej strinjajo z vsemi morebitnimi dodatnimi zdravstvenimi in varnostnimi ukrepi, ki jih lahko kadar koli uvede organizator dogodka, vključno z, vendar ne omejeno na: obvezno uporabo obraznih mask, zahtevo za imunsko zaščito proti SARS-CoV-2, zahtevo za testiranje na SARS-CoV-2 itd."
-        }
+          value:
+            "Udeleženci se s prijavo vnaprej strinjajo z vsemi morebitnimi dodatnimi zdravstvenimi in varnostnimi ukrepi, ki jih lahko kadar koli uvede organizator dogodka, vključno z, vendar ne omejeno na: obvezno uporabo obraznih mask, zahtevo za imunsko zaščito proti SARS-CoV-2, zahtevo za testiranje na SARS-CoV-2 itd.",
+        },
       ],
     },
     cancelationPolicy: {
       title: "Informacije o plačilu in pravila odpovedi",
       infoText: [
         {
-          value: "Vse registracije veljajo za čakajoče, dokler organizator dogodka ne prejme plačila. Plačilo je potrebno poravnati v roku 14 dni, po prejemu plačila se registracija šteje za potrjeno. Če udeleženec plačila ne poravna v danem roku, si organizator dogodka pridržuje pravico preklicati registracijo. V takem primeru se mora udeleženec, ki vseeno želi sodelovati na dogodku, prijaviti ponovno po ceni, ki velja v času njegove nove prijave.",
+          value:
+            "Vse registracije veljajo za čakajoče, dokler organizator dogodka ne prejme plačila. Plačilo je potrebno poravnati v roku 14 dni, po prejemu plačila se registracija šteje za potrjeno. Če udeleženec plačila ne poravna v danem roku, si organizator dogodka pridržuje pravico preklicati registracijo. V takem primeru se mora udeleženec, ki vseeno želi sodelovati na dogodku, prijaviti ponovno po ceni, ki velja v času njegove nove prijave.",
         },
         {
-          value: "V primeru odpovedi s strani udeleženca, bomo ponudili vračilo kupnine v naslednjih stopnjah:",
+          value:
+            "V primeru odpovedi s strani udeleženca, bomo ponudili vračilo kupnine v naslednjih stopnjah:",
           list: [
             "Za zahtevke za odpoved, prejete do vključno 18. feburarja 2024, bo kupnina delno povrnjena - 50% prejetega plačila.",
             "Za zahtevke za odpoved, prejete 19. februarja 2024 ali pozneje, kupnina ne bo povrnjena.",
-          ]
+          ],
         },
         {
-          value: "Vsi zahtevki za odpoved morajo biti podani v pisni obliki po e-pošti in potrjeni s strani organizatorja. Vse stroške, nastale s postopkom vračila, nosi udeleženec in se odštejejo od vrnjenega zneska.",
+          value:
+            "Vsi zahtevki za odpoved morajo biti podani v pisni obliki po e-pošti in potrjeni s strani organizatorja. Vse stroške, nastale s postopkom vračila, nosi udeleženec in se odštejejo od vrnjenega zneska.",
         },
         {
-          value: "Udeleženec, ki se dogodka ne more udeležiti, lahko svojo vstopnico prenese na drugo osebo. Vodeči (leader), lahko prenese vstopnico samo na drugega vodečega. Sledeči (follower) lahko prenese vstopnico na vodečega ali sledečega. Vsi prenosi vstopnic morajo biti sporočeni v pisni obliki po e-pošti in potrjeni obema stranema s strani organizatorja. Brezplačne ali znižane vstopnice niso prenosljive.",
+          value:
+            "Udeleženec, ki se dogodka ne more udeležiti, lahko svojo vstopnico prenese na drugo osebo. Vodeči (leader), lahko prenese vstopnico samo na drugega vodečega. Sledeči (follower) lahko prenese vstopnico na vodečega ali sledečega. Vsi prenosi vstopnic morajo biti sporočeni v pisni obliki po e-pošti in potrjeni obema stranema s strani organizatorja. Brezplačne ali znižane vstopnice niso prenosljive.",
         },
         {
-          value: "Organizator si pridržuje pravico do odpovedi dogodka zaradi premajhnega števila prijav ali višje sile (npr. požar, neurje, epidemija in druge naravne nesreče). V takšnih primerih bo imetnikom vstopnic povrnjena polna cena vstopnice ali pa bo podan vavčer - možnost prenosa vstopnice na prihodnji dogodek. Drugi zahtevki zoper organizatorja dogodka niso možni.",
+          value:
+            "Organizator si pridržuje pravico do odpovedi dogodka zaradi premajhnega števila prijav ali višje sile (npr. požar, neurje, epidemija in druge naravne nesreče). V takšnih primerih bo imetnikom vstopnic povrnjena polna cena vstopnice ali pa bo podan vavčer - možnost prenosa vstopnice na prihodnji dogodek. Drugi zahtevki zoper organizatorja dogodka niso možni.",
         },
         {
-          value: "Program dogodka je neobvezujoč. V primeru odpovedi učitelja iz kakršnegakoli razloga si organizator dogodka pridržuje pravico poiskati nadomestnega učitelja ali izpustiti del programa. V primeru, da se program spremeni ali deli programa niso izvedeni (npr. učitelj ne sodeluje zaradi bolezni ali odpovedanega leta ipd.), vendar se dogodek kljub temu izvede, vračilo denarja ne bo možno. Organizator dogodka lahko, ni pa primoran, poiskati alternative opuščenemu programu."
-        }
+          value:
+            "Program dogodka je neobvezujoč. V primeru odpovedi učitelja iz kakršnegakoli razloga si organizator dogodka pridržuje pravico poiskati nadomestnega učitelja ali izpustiti del programa. V primeru, da se program spremeni ali deli programa niso izvedeni (npr. učitelj ne sodeluje zaradi bolezni ali odpovedanega leta ipd.), vendar se dogodek kljub temu izvede, vračilo denarja ne bo možno. Organizator dogodka lahko, ni pa primoran, poiskati alternative opuščenemu programu.",
+        },
       ],
     },
     ethicalCunduct: {
       title: "Etično vedenje",
       infoText: [
         {
-          value: "Organizatorji Slovenian Open smo zavezani k zagotavljanju varnega in vključujočega okolja za vse udeležence, osebje in prostovoljce. Imamo strogo politiko ničelne tolerance do katerekoli oblike sovražnega govora, nadlegovanja ali diskriminatornega obnašanja do kogarkoli na osnovi rase, etničnosti, vere, spolne identitete, spolne usmerjenosti, invalidnosti ali katerekoli druge značilnosti, ki bi lahko bila uporabljena za tarčo manjšinske skupine ali kakršnih koli drugih dejanj, ki bi se lahko štela za zastrašujoča, sovražna ali nezaželena."
+          value:
+            "Organizatorji Slovenian Open smo zavezani k zagotavljanju varnega in vključujočega okolja za vse udeležence, osebje in prostovoljce. Imamo strogo politiko ničelne tolerance do katerekoli oblike sovražnega govora, nadlegovanja ali diskriminatornega obnašanja do kogarkoli na osnovi rase, etničnosti, vere, spolne identitete, spolne usmerjenosti, invalidnosti ali katerekoli druge značilnosti, ki bi lahko bila uporabljena za tarčo manjšinske skupine ali kakršnih koli drugih dejanj, ki bi se lahko štela za zastrašujoča, sovražna ali nezaželena.",
         },
         {
-          value: "Ukrepali bomo proti komurkoli, ki krši pravila etičnega obnašanja, ne glede na to ali gre za udeleženca ali osebje. Po lastni presoji se lahko organizator odloči za primeren ukrep, kar lahko vključuje: takojšnjo odstranitev z dogodka brez povračila denarja, prepoved udeležbe na prihodnjih dogodkih in poročanje pristojnim organom. Spodbujamo vse, ki so žrtev ali priča tovrstnim dejanjem, da o dogodku obvestijo organizatorja ali volunterje, saj le tako lahko hitro ukrepamo."
+          value:
+            "Ukrepali bomo proti komurkoli, ki krši pravila etičnega obnašanja, ne glede na to ali gre za udeleženca ali osebje. Po lastni presoji se lahko organizator odloči za primeren ukrep, kar lahko vključuje: takojšnjo odstranitev z dogodka brez povračila denarja, prepoved udeležbe na prihodnjih dogodkih in poročanje pristojnim organom. Spodbujamo vse, ki so žrtev ali priča tovrstnim dejanjem, da o dogodku obvestijo organizatorja ali volunterje, saj le tako lahko hitro ukrepamo.",
         },
         {
-          value: "Naša zavezanost k varnemu okolju ni omejena na sam dogodek, pač pa vključuje tudi vse, z dogodkom povezane aktivnosti, interakcije na spletu in vedenje na družbenih omrežjih. Naš cilj je ustvariti duh skupnosti, kjer sta spoštovanje in prijaznost temelja vseh interakcij in izmenjav."
+          value:
+            "Naša zavezanost k varnemu okolju ni omejena na sam dogodek, pač pa vključuje tudi vse, z dogodkom povezane aktivnosti, interakcije na spletu in vedenje na družbenih omrežjih. Naš cilj je ustvariti duh skupnosti, kjer sta spoštovanje in prijaznost temelja vseh interakcij in izmenjav.",
         },
       ],
     },
@@ -719,53 +711,63 @@ const si = {
       title: "Uporaba grafične podobe",
       infoText: [
         {
-          value: "Z registracijo se udeleženci strinjajo, da lahko organizator dogodka ali druga oseba po navodilu organizatorja dogodka med dogodkom zbira grafično gradivo, ki vsebuje podobo udeležencev, vključno, a ne omejeno na video posnetke, fotografije, avdio posnetke itd. Ves grafični material, pridobljen med dogodkom, se lahko javno objavi, deli na družbenih omrežjih in/ali uporabi v promocijske namene za prihodnje dogodke.",
+          value:
+            "Z registracijo se udeleženci strinjajo, da lahko organizator dogodka ali druga oseba po navodilu organizatorja dogodka med dogodkom zbira grafično gradivo, ki vsebuje podobo udeležencev, vključno, a ne omejeno na video posnetke, fotografije, avdio posnetke itd. Ves grafični material, pridobljen med dogodkom, se lahko javno objavi, deli na družbenih omrežjih in/ali uporabi v promocijske namene za prihodnje dogodke.",
         },
         {
-          value: "Udeleženci dogodka smejo tudi med dogodkom tudi sami fotografirati ali snemati. Takšna gradiva lahko prosto delijo po svoji presoji, organizator dogodka ne more biti odgovoren za primernost njihove uporabe.",
+          value:
+            "Udeleženci dogodka smejo tudi med dogodkom tudi sami fotografirati ali snemati. Takšna gradiva lahko prosto delijo po svoji presoji, organizator dogodka ne more biti odgovoren za primernost njihove uporabe.",
         },
         {
-          value: "Snemanje (video ali avdio) učiteljev ali udeležencev med delavnicami ni dovoljeno, razen v primeru izrecnega dovoljenja organizatorja dogodka."
-        }
+          value:
+            "Snemanje (video ali avdio) učiteljev ali udeležencev med delavnicami ni dovoljeno, razen v primeru izrecnega dovoljenja organizatorja dogodka.",
+        },
       ],
     },
     personalInfoUse: {
       title: "Uporaba osebnih podatkov",
       infoText: [
         {
-          value: "S prijavo se udeleženci strinjajo, da organizator dogodka zbira njihove osebne podatke in jih uporablja za statistiko, podajo informacij in/ali trženje prihodnjih dogodkov.",
+          value:
+            "S prijavo se udeleženci strinjajo, da organizator dogodka zbira njihove osebne podatke in jih uporablja za statistiko, podajo informacij in/ali trženje prihodnjih dogodkov.",
         },
         {
-          value: "Vsi zbrani podatki bodo varno shranjeni in dostopni samo orgnaizacijski ekipi. Organizator dogodka zagotavlja, da zbranih podatkov ne bo delil s tretjimi osebami."
-        }
+          value:
+            "Vsi zbrani podatki bodo varno shranjeni in dostopni samo orgnaizacijski ekipi. Organizator dogodka zagotavlja, da zbranih podatkov ne bo delil s tretjimi osebami.",
+        },
       ],
     },
     personalAffairs: {
       title: "Osebni predmeti",
       infoText: [
         {
-          value: "Organizator dogodka ne more biti odgovoren za morebitne poškodbe, krajo ali izgubo osebnih predmetov med dogodkom.",
+          value:
+            "Organizator dogodka ne more biti odgovoren za morebitne poškodbe, krajo ali izgubo osebnih predmetov med dogodkom.",
         },
         {
-          value: "Vse predmete, ki so najdeni med dogodkom, je treba prinesti organizatorju dogodka, ki jih bo do konca dogodka shranil v označenem prostoru za 'izgubljene in najdene predmete'. Vse take predmete lahko lastnik predmeta prevzame osebno do konca dogodka. Predmete, ki v času dogodka niso prevzeti, bo organizator dogodka hranil še 14 dni. V tem času lahko lastnik izgubljenega predmeta pisno preko e-pošte zahtevajo, da se njihovi predmeti vrnejo po pošti. V tem primeru nosi lastnik teh predmetov vse stroške pakiranja in dostave ter prevzema polno odgovornost za morebitno poškodbo, izgubo ali krajo, do katere lahko pride med dostavo."
-        }
+          value:
+            "Vse predmete, ki so najdeni med dogodkom, je treba prinesti organizatorju dogodka, ki jih bo do konca dogodka shranil v označenem prostoru za 'izgubljene in najdene predmete'. Vse take predmete lahko lastnik predmeta prevzame osebno do konca dogodka. Predmete, ki v času dogodka niso prevzeti, bo organizator dogodka hranil še 14 dni. V tem času lahko lastnik izgubljenega predmeta pisno preko e-pošte zahtevajo, da se njihovi predmeti vrnejo po pošti. V tem primeru nosi lastnik teh predmetov vse stroške pakiranja in dostave ter prevzema polno odgovornost za morebitno poškodbo, izgubo ali krajo, do katere lahko pride med dostavo.",
+        },
       ],
     },
     eventRules: {
       title: "Dodatna pravila dogodka",
       infoText: [
         {
-          value: "Udeleženci morajo ves čas nositi zapestnico. Zapestnico je obvezno pokazati na zahtevo kadarkoli med dogodkom.",
+          value:
+            "Udeleženci morajo ves čas nositi zapestnico. Zapestnico je obvezno pokazati na zahtevo kadarkoli med dogodkom.",
         },
         {
-          value: "Udeleženci morajo sprejeti odločitve učiteljev in organizatorja dogodka sprejete kadarkoli med dogodkom in še posebej med avdicijo.",
+          value:
+            "Udeleženci morajo sprejeti odločitve učiteljev in organizatorja dogodka sprejete kadarkoli med dogodkom in še posebej med avdicijo.",
         },
         {
-          value: "Če udeleženec ne upošteva katerega koli od zgoraj navedenih pogojev, ima organizator dogodka pravico udeležencu odvzeti vstopnico in ga pozvati, da zapusti dogodek brez kakršnega koli povračila vstopnine.",
-        }
+          value:
+            "Če udeleženec ne upošteva katerega koli od zgoraj navedenih pogojev, ima organizator dogodka pravico udeležencu odvzeti vstopnico in ga pozvati, da zapusti dogodek brez kakršnega koli povračila vstopnine.",
+        },
       ],
-    }
-  }
-}
+    },
+  },
+};
 
 export default si;

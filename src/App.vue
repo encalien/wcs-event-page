@@ -1,8 +1,8 @@
 <script lang="ts">
 // Import components
-import Header from "./components/Header.vue";
-import Footer from "./components/Footer.vue";
 import ComingSoonComponent from "./components/pages/ComingSoonComponent.vue";
+import HeaderComponent from "./components/HeaderComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
 
 export default {
   data() {
@@ -12,9 +12,9 @@ export default {
   },
   components: {
     // eslint-disable-next-line vue/no-reserved-component-names
-    Header,
+    HeaderComponent,
     // eslint-disable-next-line vue/no-reserved-component-names
-    Footer,
+    FooterComponent,
     ComingSoonComponent,
   },
   created() {},
@@ -44,12 +44,12 @@ export default {
 </script>
 
 <template>
-  <Header />
+  <HeaderComponent />
   <main>
     <!-- <router-view></router-view> -->
     <ComingSoonComponent />
   </main>
-  <Footer />
+  <FooterComponent />
 </template>
 
 <style scoped></style>
