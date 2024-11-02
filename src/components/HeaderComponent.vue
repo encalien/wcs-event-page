@@ -49,12 +49,232 @@ export default {
 <template>
   <header id="menu" :class="{ shrunk: shrunk }">
     <div class="menu-logo" @click="closeAllMenus()">
-      <img src="/images/logo_color_transparent.png" alt="Slovenian Open" />
+      <router-link :to="`/${$store.state.lang}/`">
+        <img src="/images/logo_color_transparent.png" alt="Slovenian Open" />
+      </router-link>
     </div>
     <div class="menu-inner">
       <div class="menu-inner-content">
-        <div class="menu-left"></div>
-        <div class="menu-right"></div>
+        <div class="menu-left">
+          <div
+            class="modal-backdrop hidden"
+            :class="{ active: isMobileMenuOpen }"
+            @click="setMobileMenuOpen(false)"
+          ></div>
+          <!-- menu items -->
+          <div class="menu-small-logo" @click="closeAllMenus()">
+            <router-link :to="`/${$store.state.lang}/`" class="logo-link">
+              <img
+                src="/images/logo_black_transparent.svg"
+                alt="Slovenian Open"
+              />
+            </router-link>
+          </div>
+        </div>
+        <div class="menu-right">
+          <!-- mobile menu toggle -->
+          <div
+            id="mobile-menu-toggle"
+            :class="{ block: !isMobileMenuOpen }"
+            @click="toggleMobileMenuOpen()"
+          >
+            <font-awesome-icon
+              icon="fa-solid fa-bars"
+              class="fa menu-item-link"
+            ></font-awesome-icon>
+          </div>
+          <div class="menu-items">
+            <div
+              class="menu-item"
+              :class="{ active: isMobileMenuOpen }"
+              @click="closeAllMenus()"
+            >
+              <router-link
+                :to="`/${$store.state.lang}/team`"
+                class="menu-item-link dropdown-header"
+              >
+                {{ $t("staff.pageTitle") }}
+              </router-link>
+            </div>
+            <div
+              class="menu-item"
+              :class="{ active: isMobileMenuOpen }"
+              @click="closeAllMenus()"
+            >
+              <router-link
+                :to="`/${$store.state.lang}/workshops/schedule`"
+                class="menu-item-link dropdown-header"
+              >
+                {{ $t("workshops.schedule.pageTitle") }}
+              </router-link>
+            </div>
+            <div
+              class="menu-item"
+              :class="{ active: isMobileMenuOpen }"
+              @click="closeAllMenus()"
+            >
+              <router-link
+                :to="`/${$store.state.lang}/pricing`"
+                class="menu-item-link dropdown-header"
+              >
+                {{ $t("workshops.pricing.pageTitle") }}
+              </router-link>
+            </div>
+            <div
+              class="menu-item"
+              :class="{ active: isMobileMenuOpen }"
+              @click="closeAllMenus()"
+            >
+              <router-link
+                :to="`/${$store.state.lang}/workshops/levels`"
+                class="menu-item-link dropdown-header"
+              >
+                {{ $t("workshops.levels.pageTitle") }}
+              </router-link>
+            </div>
+            <div
+              class="menu-item"
+              :class="{ 'active-block': isMobileMenuOpen }"
+            >
+              <div
+                @click="toggleDropdownMenu($t('location.pageTitle'))"
+                class="menu-item-link dropdown-header"
+                :class="{
+                  active: dropdownMenuActive($t('location.pageTitle')),
+                }"
+              >
+                {{ $t("location.pageTitle") }}
+              </div>
+              <div
+                class="modal-backdrop hidden"
+                :class="{
+                  active: dropdownMenuActive($t('location.pageTitle')),
+                }"
+                @click="closeAllMenus()"
+              ></div>
+              <div
+                class="dropdown-menu hidden"
+                :class="{
+                  active: dropdownMenuActive($t('location.pageTitle')),
+                }"
+              >
+                <div class="dropdown-menu-item" @click="closeAllMenus()">
+                  <router-link
+                    :to="`/${$store.state.lang}/location/venue/main`"
+                    class="menu-item-link"
+                  >
+                    {{ $t("location.venue[0].pageTitle") }}
+                  </router-link>
+                </div>
+                <div class="dropdown-menu-item" @click="closeAllMenus()">
+                  <router-link
+                    :to="`/${$store.state.lang}/location/venue/preparty`"
+                    class="menu-item-link"
+                  >
+                    {{ $t("location.venue[1].pageTitle") }}
+                  </router-link>
+                </div>
+                <div
+                  v-if="$store.state.lang !== 'si'"
+                  class="dropdown-menu-item"
+                  @click="closeAllMenus()"
+                >
+                  <router-link
+                    :to="`/${$store.state.lang}/location/slovenia`"
+                    class="menu-item-link"
+                    >{{ $t("location.slovenia.pageTitle") }}</router-link
+                  >
+                </div>
+                <div
+                  v-if="$store.state.lang !== 'si'"
+                  class="dropdown-menu-item"
+                  @click="closeAllMenus()"
+                >
+                  <router-link
+                    :to="`/${$store.state.lang}/location/how-to-get-here`"
+                    class="menu-item-link"
+                    >{{ $t("location.howToGetHere.pageTitle") }}</router-link
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="menu-item"
+              :class="{ active: isMobileMenuOpen }"
+              @click="closeAllMenus()"
+            >
+              <router-link
+                :to="`/${$store.state.lang}/day-trip`"
+                class="menu-item-link dropdown-header"
+              >
+                {{ $t("dayTrip.pageTitle") }}
+              </router-link>
+            </div>
+            <div
+              class="menu-item"
+              :class="{ active: isMobileMenuOpen }"
+              @click="closeAllMenus()"
+            >
+              <a
+                href="https://forms.gle/5LZA76MxxWSazadZ7"
+                target="_blank"
+                class="menu-item-link dropdown-header"
+              >
+                {{ $t("registration.pageTitle") }}
+              </a>
+            </div>
+            <div
+              id="social-icons"
+              class="menu-item flex-container flex-container-row"
+              :class="{ active: isMobileMenuOpen }"
+              @click="closeAllMenus()"
+            >
+              <a
+                target="_blank"
+                :href="'mailto:' + $t('contact.email')"
+                class="menu-item-link"
+              >
+                <font-awesome-icon
+                  icon="fa-regular fa-envelope"
+                ></font-awesome-icon>
+              </a>
+              <a
+                target="_blank"
+                :href="$t('urls.facebook')"
+                class="menu-item-link"
+              >
+                <font-awesome-icon
+                  icon="fa-brands fa-facebook-f"
+                ></font-awesome-icon>
+              </a>
+              <a
+                target="_blank"
+                :href="$t('urls.instagram')"
+                class="menu-item-link"
+              >
+                <font-awesome-icon
+                  icon="fa-brands fa-instagram"
+                ></font-awesome-icon>
+              </a>
+            </div>
+            <div
+              id="localization-menu"
+              class="menu-item flex-container flex-container-row"
+              :class="{ active: isMobileMenuOpen }"
+              @click="closeAllMenus()"
+            >
+              <div v-for="locale in $i18n.availableLocales" :key="locale">
+                <router-link
+                  :to="localizationPath(locale)"
+                  :class="{ active: $i18n.locale === locale }"
+                  class="menu-item-link"
+                >
+                  {{ locale.toUpperCase() }}
+                </router-link>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </header>
@@ -101,6 +321,7 @@ export default {
 }
 
 .menu-logo {
+  background-image: url("/images/grad.svg");
   background-repeat: no-repeat;
   background-position: 0 105%;
   background-color: var(--accent-1);
@@ -230,12 +451,12 @@ export default {
 #localization-menu {
   display: flex;
 }
-
 @media screen and (max-width: 1200px) {
   .dropdown-menu {
     position: relative;
     border: none;
   }
+
   .dropdown-menu-item > a {
     font-size: 1rem;
   }

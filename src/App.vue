@@ -11,34 +11,33 @@ export default {
     };
   },
   components: {
-    // eslint-disable-next-line vue/no-reserved-component-names
     HeaderComponent,
-    // eslint-disable-next-line vue/no-reserved-component-names
     FooterComponent,
+    // eslint-disable-next-line vue/no-unused-components
     ComingSoonComponent,
   },
-  created() {},
-  //     created() {
-  //     if (window.location.href.includes('#')) {
-  //       this.$router.replace(`/en${window.location.href.split('#')[1]}`);
-  //       return;
-  //     }
+  created() {
+    if (window.location.href.includes("#")) {
+      this.$router.replace(`/en${window.location.href.split("#")[1]}`);
+      return;
+    }
 
-  //     if (window.location.pathname === "/") {
-  //       this.$router.replace('/en');
-  //     }
-  //   },
-  //   watch:{
-  //     $route() {
-  //       let lang = typeof(this.$route.params.lang) === 'string' ? this.$route.params.lang : 'en';
-  //       this.$store.commit('changeLang', lang);
-  //       this.$i18n.locale = this.$store.state.lang;
-  //       window.scrollTo(0, 0);
-  //     }
-  //   },
-  //   computed: {
-  //   }
-  // },
+    if (window.location.pathname === "/") {
+      this.$router.replace("/en");
+    }
+  },
+  watch: {
+    $route() {
+      let lang =
+        typeof this.$route.params.lang === "string"
+          ? this.$route.params.lang
+          : "en";
+      this.$store.commit("changeLang", lang);
+      this.$i18n.locale = this.$store.state.lang;
+      window.scrollTo(0, 0);
+    },
+  },
+  // created() {},
   computed: {},
 };
 </script>
@@ -46,8 +45,8 @@ export default {
 <template>
   <HeaderComponent />
   <main>
-    <!-- <router-view></router-view> -->
-    <ComingSoonComponent />
+    <router-view></router-view>
+    <!-- <ComingSoonComponent /> -->
   </main>
   <FooterComponent />
 </template>
