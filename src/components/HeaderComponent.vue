@@ -198,7 +198,7 @@ export default {
                 </div>
               </div>
             </div>
-            <div
+            <!-- <div
               class="menu-item"
               :class="{ active: isMobileMenuOpen }"
               @click="closeAllMenus()"
@@ -209,8 +209,8 @@ export default {
               >
                 {{ $t("dayTrip.pageTitle") }}
               </router-link>
-            </div>
-            <div
+            </div> -->
+            <!-- <div
               class="menu-item"
               :class="{ active: isMobileMenuOpen }"
               @click="closeAllMenus()"
@@ -222,7 +222,7 @@ export default {
               >
                 {{ $t("registration.pageTitle") }}
               </a>
-            </div>
+            </div> -->
             <div
               id="social-icons"
               class="menu-item flex-container flex-container-row"

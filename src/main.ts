@@ -77,12 +77,7 @@ const routes: any = [
   //   props: { staffIndex: 3 }
   // },
   { path: "/:lang(en|si|fr)/workshops/levels", component: LevelsComponent },
-  { path: "/:lang(en|si)/workshops/wsdc", component: WSDCComponent },
-  {
-    path: "/:lang(fr)/workshops/wsdc",
-    component: WSDCComponent,
-    redirect: "/fr",
-  },
+  { path: "/:lang(en|si|fr)/workshops/wsdc", component: WSDCComponent },
   { path: "/:lang(en|si|fr)/workshops/schedule", component: ScheduleComponent },
   { path: "/:lang(en|si|fr)/pricing", component: PricingComponent },
   {
@@ -95,20 +90,20 @@ const routes: any = [
     component: EventLocationComponent,
     props: { venueIndex: 1 },
   },
-  { path: "/:lang(en|si|fr)/location/slovenia", component: SloveniaComponent },
+  { path: "/:lang(en|fr)/location/slovenia", component: SloveniaComponent },
   {
     path: "/:lang(si)/location/slovenia",
     component: EventLocationComponent,
-    redirect: "/si/location/venue",
+    redirect: "/si/location/venue/main",
   },
   {
-    path: "/:lang(en|si|fr)/location/how-to-get-here",
+    path: "/:lang(en|fr)/location/how-to-get-here",
     component: HowToGetHereComponent,
   },
   {
     path: "/:lang(si)/location/how-to-get-here",
     component: EventLocationComponent,
-    redirect: "/si/location/venue",
+    redirect: "/si/location/venue/main",
   },
   { path: "/:lang(en|si|fr)/day-trip", component: DayTripComponent },
   {

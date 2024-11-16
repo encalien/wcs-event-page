@@ -15,11 +15,11 @@ export default {
     <h1>{{ $t("workshops.schedule.pageTitle") }}</h1>
     <p>{{ $t("workshops.schedule.description") }}</p>
 
-    <p>
+    <!-- <p>
       <a download :href="$t('workshops.schedule.pdfSrc')" alt="Schedule">
         {{ $t("workshops.schedule.downloadText") }}
       </a>
-    </p>
+    </p> -->
 
     <a target="_blank" :href="$t('workshops.schedule.pngSrc')" alt="Schedule">
       <img :src="$t('workshops.schedule.pngSrc')" />

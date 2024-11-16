@@ -9,23 +9,22 @@ export default {
     };
   },
   methods: {
-    setActiveTierIndex: function () {
-      const tierDates = messages.workshops.pricing.passPrices[0].dates as any[];
-      const today = new Date();
-
-      for (let i = 0; i < tierDates.length; i++) {
-        const tierFrom = new Date(`${tierDates[i].from} 00:00:00`);
-        const tierTo = new Date(`${tierDates[i].to} 00:00:00`);
-        if (today >= tierFrom && today <= tierTo) {
-          this.activeTierIndex = i;
-          return;
-        }
-      }
-      this.activeTierIndex = -1;
-    },
+    // setActiveTierIndex: function () {
+    //   const tierDates = messages.workshops.pricing.passPrices[0].dates as any[];
+    //   const today = new Date();
+    //   for (let i = 0; i < tierDates.length; i++) {
+    //     const tierFrom = new Date(`${tierDates[i].from} 00:00:00`);
+    //     const tierTo = new Date(`${tierDates[i].to} 00:00:00`);
+    //     if (today >= tierFrom && today <= tierTo) {
+    //       this.activeTierIndex = i;
+    //       return;
+    //     }
+    //   }
+    //   this.activeTierIndex = -1;
+    // },
   },
   created() {
-    this.setActiveTierIndex();
+    // this.setActiveTierIndex();
   },
 };
 </script>
@@ -78,7 +77,11 @@ export default {
           <span class="mobile-only">
             {{ $t(`workshops.pricing.passPrices[0].includes[0]`) }} <br />
           </span>
-          <span v-for="(info, j) in pass.includes" :key="`${j}`">
+          <span
+            class="pass-includes"
+            v-for="(info, j) in pass.includes"
+            :key="`${j}`"
+          >
             {{ $t(`workshops.pricing.passPrices[${i}].includes[${j}]`) }}
           </span>
         </div>
@@ -94,7 +97,7 @@ export default {
       </div>
     </div>
   </section>
-  <section>
+  <!-- <section>
     <h2>{{ $t("workshops.pricing.groups.title") }}</h2>
     <div v-if="$store.state.lang !== 'si'">
       <p
@@ -115,7 +118,7 @@ export default {
         {{ $t(`workshops.pricing.groups.groupRules[${i}]`) }}
       </li>
     </ul>
-  </section>
+  </section> -->
   <section>
     <span>{{ $t("registration.registrationInfoText") }}&nbsp;</span>
     <router-link :to="`/${$store.state.lang}/terms-and-conditions`">
@@ -130,7 +133,7 @@ export default {
 }
 
 .grid-container {
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: -0.5rem;
   align-items: start;
   padding: 2rem 0;
@@ -141,7 +144,7 @@ export default {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-flow: row;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   margin: 0;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
@@ -156,8 +159,12 @@ export default {
   flex-direction: column;
   align-items: stretch;
   text-align: center;
-  gap: 1rem;
+  gap: 0.5rem;
   height: 14rem;
+}
+
+.pass-includes {
+  min-height: 3.2rem;
 }
 
 .grid-item {
@@ -233,6 +240,10 @@ export default {
   .pass-card {
     width: calc(100vw - 2rem);
     margin: 0 auto;
+  }
+
+  .pass-includes {
+    min-height: 0;
   }
 }
 </style>

@@ -2,16 +2,16 @@ const fr = {
   event: {
     name: "Slovenian Open",
     location: "Ljubljana",
-    date: "19 - 21 Avril 2024",
+    date: "10 - 14 Avril 2025",
     welcomeText:
-      "Rejoignez-nous à la première édition du Slovenian Open - événement WSDC trial!",
+      "Rejoignez-nous à la première édition du Slovenian Open - événement WSDC enregistré!",
     readMoreText: "En savoir plus",
     features: [
       {
         title: "Rencontrer",
         intro:
           "Instructeurs de classe mondiale enseignant des sessions intensives",
-        href: "workshops/teachers",
+        href: "team",
         list: [
           "Karin Kakun & Ludovic Pelegrin",
           "Savana Barreau & João Parada",
@@ -20,17 +20,17 @@ const fr = {
       },
       {
         title: "Expérience",
-        intro: "Trois jours d'ateliers, de compétitions et de soirées",
+        intro: "Quatre jours d'ateliers, de compétitions et de soirées",
         href: "workshops/schedule",
         list: [
           "4 soirées exceptionnelles",
-          "3 jours de workshops",
-          "Compétitions Jack & Jill",
+          "3 jours de workshops par niveau",
+          "Compétitions Jack & Jill WSDC",
         ],
       },
       {
         title: "Explorer",
-        intro: "Découvrir la beauté de Ljubljana",
+        intro: "Découvrir la beauté de Ljubljana et Slovènie",
         href: "location/slovenia",
         list: [
           "Charme de la vieille ville",
@@ -46,7 +46,7 @@ const fr = {
     email: "info{'@'}slovenianopen.dance",
   },
   urls: {
-    facebook: "https://www.facebook.com/events/819650556370760",
+    facebook: "https://www.facebook.com/events/333172752914194",
     instagram: "https://www.instagram.com/slovenian_open_wcs",
   },
   home: {
@@ -124,173 +124,173 @@ const fr = {
           },
         ],
       },
-      {
-        pageTitle: "DJs",
-        people: [
-          {
-            names: "Ken",
-            title: "DJ principal",
-            src: "/images/djs_ken.png",
-            description: [
-              "Ken, également connu sous le nom de DJKendyshop, est un DJ de West Coast Swing qui a commencé son parcours en 2018. Il a rapidement acquis une réputation pour sa capacité à dynamiser les pistes de danse, tant lors de petits événements locaux que lors de grands événements WSDC tels que Budafest, Anchor Festival, Baltic Swing et Swing it like it's hot. Le style de Ken se penche vers une musique complexe et palpitante, tirant inspiration de l'EDM et du Dubstep pour créer un son unique et dynamique qui garde les danseurs en mouvement.",
-              "Ses chansons préférées pour danser en ce moment sont :",
-            ],
-            songList: [
-              "Forgive Me - Sofi Tucker",
-              "Whisper - Able Heart",
-              "Fake - The Tech Thieves",
-            ],
-          },
-          {
-            names: "Aleksandra",
-            title: "DJ",
-            src: "/images/djs_aleksandra.png",
-            description: [
-              "Aleksandra est active en tant que DJ dans la communauté locale depuis 2019, partageant sa passion pour la musique et sa capacité à connecter les gens. Elle trouve une grande joie et satisfaction lorsque ses choix musicaux soigneusement sélectionnés résonnent avec la foule, les incitant à rejoindre la piste de danse. Elle croit que la musique peut être une source d'inspiration significative pour la danse et évoquer une large gamme d'émotions.",
-              "Ses chansons préférées pour danser en ce moment sont :",
-            ],
-            songList: [
-              "California King - D.B. Ricapito",
-              "What A Wonderful World - Sofi Tukker",
-              "Seasons - Chloe Adams",
-            ],
-          },
-          {
-            names: "Laszlo",
-            title: "DJ",
-            src: "/images/djs_laszlo.png",
-            description: [
-              "Laszlo est un DJ atypique. Il adore danser lui-même sur de la bonne musique et se considère chanceux que la musique qu'il aime fasse également bouger le dancefloor social ! Il est DJ localement et internationalement depuis plusieurs années maintenant. Voir les danseurs s'amuser sur ses morceaux est la plus grande récompense qu'il puisse imaginer.",
-              "Ses chansons préférées pour danser en ce moment sont :",
-            ],
-            songList: [
-              "No Ordinary - Labrinth",
-              "N'y pense plus - Tayc",
-              "Et c'est parti... - Nâdiya",
-            ],
-          },
-          {
-            names: "Lino",
-            title: "DJ",
-            src: "/images/djs_lino.png",
-            description: [
-              "Lino a toujours exploré de nouveaux artistes et musiques, surtout les indies peu connus, envisageant le DJing depuis un moment. Il a récemment joué devant des foules impressionnantes au Swing Generation, Berlin Swing Revolution et Carnival Swing, et lors de fêtes à Berlin et Erding. Son style mélange sa musique expérimentale, souvent acoustique, avec des chansons reconnues des événements.",
-              "Ses chansons préférées pour danser en ce moment sont :",
-            ],
-            songList: [
-              "Lose It - Oh Wonder",
-              "Papa - SICKOTOY, Eliana Gjata, INNA",
-              "No Ocean - EXES, Jome",
-            ],
-          },
-          {
-            names: "Matt",
-            title: "DJ",
-            src: "/images/djs_matt.png",
-            description: [
-              "Matt a été coordinateur des DJ pour la Portland Blues and Jazz Society à Portland pendant 10 ans, danse socialement depuis environ 20 ans et fait le DJ presque aussi longtemps en West Coast, Blues et Fusion. Il a également été MC, DJ, enseignant et/ou coordinateur lors de plusieurs événements WCS, Blues et Fusion/Alt aux États-Unis et dans l'UE.",
-              "Ses chansons préférées pour danser en ce moment sont :",
-            ],
-            songList: [
-              "Something Sweeter - LUME",
-              "Oxygen - Emili Sandé",
-              "Island of the Sun - Winona Oak",
-            ],
-          },
-          {
-            names: "Patrice",
-            title: "DJ",
-            src: "/images/djs_patrice.png",
-            description: [
-              "Patrice a commencé sa carrière de DJ il y a 5 ans lors de fêtes avec un mélange de styles de danse, captivé par l'art de créer une soirée atmosphérique englobant divers genres. Désormais, il se retrouve de plus en plus aux platines lors des soirées West Coast Swing, où il continue d'exciter les danseurs en mélangeant une gamme variée de styles musicaux.",
-              "Ses chansons préférées pour danser en ce moment sont :",
-            ],
-            songList: ["Fuck it, I love it! - ILIRA", "Wait - Damian Lynn"],
-          },
-          {
-            names: "Sepgod",
-            title: "DJ",
-            src: "/images/djs_sebastian.png",
-            description: [
-              "Sepgod a commencé à danser en couple il y a 30 ans, développant une passion pour la curation musicale, passant de mixtapes à mix CDs, et finalement DJing lors de divers événements. Depuis 2015, sa fascination pour la musique variée du WCS l'a amené à DJing lors de fêtes WCS à Vienne et à participer régulièrement à des événements WCS internationaux en Europe. Au Swingvester 23/24, il a commencé à jouer sur des scènes internationales.",
-              "Ses chansons préférées pour danser en ce moment sont :",
-            ],
-            songList: [
-              "Soap - Melanie Martinez",
-              "Space Ghost Coast To Coast - Glass Animals",
-              "Chariot - Mega",
-            ],
-          },
-        ],
-      },
-      {
-        pageTitle: "Spectacles & Compétitions",
-        people: [
-          {
-            names: "Jacqueline",
-            title: "MC",
-            src: "/images/staff_jacqueline.png",
-            description: [
-              "Issue d'un milieu de danse de scène, le parcours de Jacqueline en West Coast Swing a commencé en 2018 avec les Warsaw Westies, où elle est encore régulièrement vue, bien qu'elle soit toujours en déplacement.",
-              "Elle est bien connue pour son style vintage distinctif. Lorsqu'elle ne danse pas, vous pouvez la trouver en train de socialiser autour de la piste de danse avec des amis anciens et nouveaux, enrichissant le tissu social de la communauté WCS.",
-            ],
-          },
-          {
-            names: "Andreas",
-            title: "Scoring",
-            src: "/images/staff_andreas.png",
-            description: [
-              "Andreas est le cerveau derrière le système Scoreboard, un outil de notation important et largement utilisé pour les compétitions de danse. Connu pour sa rapidité et sa fiabilité, Scoreboard a changé la manière dont les compétitions sont jugées et les résultats sont délivrés.",
-              "L'expertise et le dévouement d'Andreas pour la scène de la danse sont évidents puisqu'il est un visage familier dans la plupart des événements de danse européens, où son système continue d'améliorer l'expérience de la compétition pour les participants et les organisateurs.",
-            ],
-          },
-          {
-            names: "Ludovic",
-            title: "Juge Principal",
-            src: "/images/staff_ludovic.png",
-            description: [
-              "L'expérience étendue de Ludovic dans diverses formes de danse, combinée à ses réalisations significatives en tant que compétiteur et instructeur, le rendent un atout indispensable pour tout panel de juges.",
-              "Sa compréhension approfondie de la dynamique de la danse et sa compétence technique lui donnent un œil aiguisé pour le détail, assurant une évaluation juste et perspicace des performances.",
-            ],
-          },
-        ],
-      },
-      {
-        pageTitle: "Collaborateurs",
-        people: [
-          {
-            names: "Sarah",
-            title: "Vendeuse de chaussures",
-            src: "/images/collaborators_sarah.png",
-            description: [
-              "En tant que danseuse, elle a toujours remarqué que de nombreux danseurs portent les mauvaises chaussures. Constatant le manque de magasins spécialisés en chaussures de danse en Carinthie et la réticence des gens à acheter dans les écoles de danse ou en ligne, elle est devenue indépendante en décembre 2018, créant une entreprise axée sur les chaussures de danse.",
-              "Elle est désireuse de proposer des conseils sur les préoccupations personnelles et d'aider à trouver la chaussure de danse idéale pour chaque individu.",
-            ],
-          },
-          {
-            names: "Marine",
-            title: "Masseuse",
-            src: "/images/collaborators_marine.png",
-            description: [
-              "Marine est une danseuse et enseignante de WCS française, ainsi que la fondatrice d'Art'Potential. Elle propose des massages sportifs et des séances de coaching mental avec la sophrologie aux danseurs lors de certains événements. Elle a appris à effectuer des massages sportifs en Inde et en Thaïlande et continue à se former sur les massages en France.",
-              "Elle propose ce service lors d'événements depuis 2023, et tous ceux qui l'ont essayé l'adorent !",
-            ],
-          },
-        ],
-      },
-      {
-        pageTitle: "Photographie",
-        people: [
-          {
-            names: "Marko",
-            src: "/images/photographer_marko.png",
-            description: [
-              "Marko, un danseur enthousiaste de Salsa (et Bachata), a récemment exploré les rythmes du West Coast Swing.",
-              "Animé par son amour pour la danse et la photographie, il apporte souvent son appareil photo aux soirées dansantes, désireux de capturer l'essence et l'énergie du moment sur pellicule, entrelaçant sa passion pour le mouvement avec sa vision artistique derrière l'objectif.",
-            ],
-          },
-        ],
-      },
+      //   {
+      //     pageTitle: "DJs",
+      //     people: [
+      //       {
+      //         names: "Ken",
+      //         title: "DJ principal",
+      //         src: "/images/djs_ken.png",
+      //         description: [
+      //           "Ken, également connu sous le nom de DJKendyshop, est un DJ de West Coast Swing qui a commencé son parcours en 2018. Il a rapidement acquis une réputation pour sa capacité à dynamiser les pistes de danse, tant lors de petits événements locaux que lors de grands événements WSDC tels que Budafest, Anchor Festival, Baltic Swing et Swing it like it's hot. Le style de Ken se penche vers une musique complexe et palpitante, tirant inspiration de l'EDM et du Dubstep pour créer un son unique et dynamique qui garde les danseurs en mouvement.",
+      //           "Ses chansons préférées pour danser en ce moment sont :",
+      //         ],
+      //         songList: [
+      //           "Forgive Me - Sofi Tucker",
+      //           "Whisper - Able Heart",
+      //           "Fake - The Tech Thieves",
+      //         ],
+      //       },
+      //       {
+      //         names: "Aleksandra",
+      //         title: "DJ",
+      //         src: "/images/djs_aleksandra.png",
+      //         description: [
+      //           "Aleksandra est active en tant que DJ dans la communauté locale depuis 2019, partageant sa passion pour la musique et sa capacité à connecter les gens. Elle trouve une grande joie et satisfaction lorsque ses choix musicaux soigneusement sélectionnés résonnent avec la foule, les incitant à rejoindre la piste de danse. Elle croit que la musique peut être une source d'inspiration significative pour la danse et évoquer une large gamme d'émotions.",
+      //           "Ses chansons préférées pour danser en ce moment sont :",
+      //         ],
+      //         songList: [
+      //           "California King - D.B. Ricapito",
+      //           "What A Wonderful World - Sofi Tukker",
+      //           "Seasons - Chloe Adams",
+      //         ],
+      //       },
+      //       {
+      //         names: "Laszlo",
+      //         title: "DJ",
+      //         src: "/images/djs_laszlo.png",
+      //         description: [
+      //           "Laszlo est un DJ atypique. Il adore danser lui-même sur de la bonne musique et se considère chanceux que la musique qu'il aime fasse également bouger le dancefloor social ! Il est DJ localement et internationalement depuis plusieurs années maintenant. Voir les danseurs s'amuser sur ses morceaux est la plus grande récompense qu'il puisse imaginer.",
+      //           "Ses chansons préférées pour danser en ce moment sont :",
+      //         ],
+      //         songList: [
+      //           "No Ordinary - Labrinth",
+      //           "N'y pense plus - Tayc",
+      //           "Et c'est parti... - Nâdiya",
+      //         ],
+      //       },
+      //       {
+      //         names: "Lino",
+      //         title: "DJ",
+      //         src: "/images/djs_lino.png",
+      //         description: [
+      //           "Lino a toujours exploré de nouveaux artistes et musiques, surtout les indies peu connus, envisageant le DJing depuis un moment. Il a récemment joué devant des foules impressionnantes au Swing Generation, Berlin Swing Revolution et Carnival Swing, et lors de fêtes à Berlin et Erding. Son style mélange sa musique expérimentale, souvent acoustique, avec des chansons reconnues des événements.",
+      //           "Ses chansons préférées pour danser en ce moment sont :",
+      //         ],
+      //         songList: [
+      //           "Lose It - Oh Wonder",
+      //           "Papa - SICKOTOY, Eliana Gjata, INNA",
+      //           "No Ocean - EXES, Jome",
+      //         ],
+      //       },
+      //       {
+      //         names: "Matt",
+      //         title: "DJ",
+      //         src: "/images/djs_matt.png",
+      //         description: [
+      //           "Matt a été coordinateur des DJ pour la Portland Blues and Jazz Society à Portland pendant 10 ans, danse socialement depuis environ 20 ans et fait le DJ presque aussi longtemps en West Coast, Blues et Fusion. Il a également été MC, DJ, enseignant et/ou coordinateur lors de plusieurs événements WCS, Blues et Fusion/Alt aux États-Unis et dans l'UE.",
+      //           "Ses chansons préférées pour danser en ce moment sont :",
+      //         ],
+      //         songList: [
+      //           "Something Sweeter - LUME",
+      //           "Oxygen - Emili Sandé",
+      //           "Island of the Sun - Winona Oak",
+      //         ],
+      //       },
+      //       {
+      //         names: "Patrice",
+      //         title: "DJ",
+      //         src: "/images/djs_patrice.png",
+      //         description: [
+      //           "Patrice a commencé sa carrière de DJ il y a 5 ans lors de fêtes avec un mélange de styles de danse, captivé par l'art de créer une soirée atmosphérique englobant divers genres. Désormais, il se retrouve de plus en plus aux platines lors des soirées West Coast Swing, où il continue d'exciter les danseurs en mélangeant une gamme variée de styles musicaux.",
+      //           "Ses chansons préférées pour danser en ce moment sont :",
+      //         ],
+      //         songList: ["Fuck it, I love it! - ILIRA", "Wait - Damian Lynn"],
+      //       },
+      //       {
+      //         names: "Sepgod",
+      //         title: "DJ",
+      //         src: "/images/djs_sebastian.png",
+      //         description: [
+      //           "Sepgod a commencé à danser en couple il y a 30 ans, développant une passion pour la curation musicale, passant de mixtapes à mix CDs, et finalement DJing lors de divers événements. Depuis 2015, sa fascination pour la musique variée du WCS l'a amené à DJing lors de fêtes WCS à Vienne et à participer régulièrement à des événements WCS internationaux en Europe. Au Swingvester 23/24, il a commencé à jouer sur des scènes internationales.",
+      //           "Ses chansons préférées pour danser en ce moment sont :",
+      //         ],
+      //         songList: [
+      //           "Soap - Melanie Martinez",
+      //           "Space Ghost Coast To Coast - Glass Animals",
+      //           "Chariot - Mega",
+      //         ],
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     pageTitle: "Spectacles & Compétitions",
+      //     people: [
+      //       {
+      //         names: "Jacqueline",
+      //         title: "MC",
+      //         src: "/images/staff_jacqueline.png",
+      //         description: [
+      //           "Issue d'un milieu de danse de scène, le parcours de Jacqueline en West Coast Swing a commencé en 2018 avec les Warsaw Westies, où elle est encore régulièrement vue, bien qu'elle soit toujours en déplacement.",
+      //           "Elle est bien connue pour son style vintage distinctif. Lorsqu'elle ne danse pas, vous pouvez la trouver en train de socialiser autour de la piste de danse avec des amis anciens et nouveaux, enrichissant le tissu social de la communauté WCS.",
+      //         ],
+      //       },
+      //       {
+      //         names: "Andreas",
+      //         title: "Scoring",
+      //         src: "/images/staff_andreas.png",
+      //         description: [
+      //           "Andreas est le cerveau derrière le système Scoreboard, un outil de notation important et largement utilisé pour les compétitions de danse. Connu pour sa rapidité et sa fiabilité, Scoreboard a changé la manière dont les compétitions sont jugées et les résultats sont délivrés.",
+      //           "L'expertise et le dévouement d'Andreas pour la scène de la danse sont évidents puisqu'il est un visage familier dans la plupart des événements de danse européens, où son système continue d'améliorer l'expérience de la compétition pour les participants et les organisateurs.",
+      //         ],
+      //       },
+      //       {
+      //         names: "Ludovic",
+      //         title: "Juge Principal",
+      //         src: "/images/staff_ludovic.png",
+      //         description: [
+      //           "L'expérience étendue de Ludovic dans diverses formes de danse, combinée à ses réalisations significatives en tant que compétiteur et instructeur, le rendent un atout indispensable pour tout panel de juges.",
+      //           "Sa compréhension approfondie de la dynamique de la danse et sa compétence technique lui donnent un œil aiguisé pour le détail, assurant une évaluation juste et perspicace des performances.",
+      //         ],
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     pageTitle: "Collaborateurs",
+      //     people: [
+      //       {
+      //         names: "Sarah",
+      //         title: "Vendeuse de chaussures",
+      //         src: "/images/collaborators_sarah.png",
+      //         description: [
+      //           "En tant que danseuse, elle a toujours remarqué que de nombreux danseurs portent les mauvaises chaussures. Constatant le manque de magasins spécialisés en chaussures de danse en Carinthie et la réticence des gens à acheter dans les écoles de danse ou en ligne, elle est devenue indépendante en décembre 2018, créant une entreprise axée sur les chaussures de danse.",
+      //           "Elle est désireuse de proposer des conseils sur les préoccupations personnelles et d'aider à trouver la chaussure de danse idéale pour chaque individu.",
+      //         ],
+      //       },
+      //       {
+      //         names: "Marine",
+      //         title: "Masseuse",
+      //         src: "/images/collaborators_marine.png",
+      //         description: [
+      //           "Marine est une danseuse et enseignante de WCS française, ainsi que la fondatrice d'Art'Potential. Elle propose des massages sportifs et des séances de coaching mental avec la sophrologie aux danseurs lors de certains événements. Elle a appris à effectuer des massages sportifs en Inde et en Thaïlande et continue à se former sur les massages en France.",
+      //           "Elle propose ce service lors d'événements depuis 2023, et tous ceux qui l'ont essayé l'adorent !",
+      //         ],
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     pageTitle: "Photographie",
+      //     people: [
+      //       {
+      //         names: "Marko",
+      //         src: "/images/photographer_marko.png",
+      //         description: [
+      //           "Marko, un danseur enthousiaste de Salsa (et Bachata), a récemment exploré les rythmes du West Coast Swing.",
+      //           "Animé par son amour pour la danse et la photographie, il apporte souvent son appareil photo aux soirées dansantes, désireux de capturer l'essence et l'énergie du moment sur pellicule, entrelaçant sa passion pour le mouvement avec sa vision artistique derrière l'objectif.",
+      //         ],
+      //       },
+      //     ],
+      //   },
     ],
   },
   workshops: {
@@ -327,10 +327,67 @@ const fr = {
           ],
         },
         {
-          title: "ADV+",
+          title: "Niveau 5",
           descriptionText: [
             "ADVANCED / ALL-STAR avec au moins 30 points intermediate WSDC",
-            "Ce niveau spécial est destiné uniquement aux danseurs avancés et All Star. Il n'y aura pas d'audition pour ce niveau, car nous pensons que vous avez déjà prouvé vos compétences dans les compétitions. Les ateliers seront stimulants et intenses.",
+            "Vous concourez dans la division Advanced ou All Star. Votre technique, votre connexion et votre musicalité sont déjà au plus haut niveau. Vous cherchez maintenant à affiner vos compétences en tant que danseur et compétiteur.",
+          ],
+        },
+      ],
+    },
+    wsdc: {
+      pageTitle: "Questions fréquentes sur le WSDC et les points",
+      faq: [
+        {
+          question: "1. Qu'est-ce que les points WSDC ?",
+          answerText: [
+            `<a href="https://www.worldsdc.com" target="_blank">WSDC (World Swing Dance Council)</a> est une organisation mondiale qui, entre autres, attribue des points lors d'événements internationaux de danse swing. Lors de ces compétitions, les participants peuvent gagner un certain nombre de points en fonction de leur classement.`,
+            `Lorsqu'un concurrent gagne des points, le WSDC les enregistre dans <a href="https://www.worldsdc.com/registry-points/" target="_blank">son système</a> et lui attribue un numéro unique (WSDC ID). Les points de chaque concurrent sont suivis à l'aide de ce numéro.`,
+            "Les compétitions sous licence WSDC sont divisées en plusieurs styles et catégories. Pour nous, le style important est le Jack & Jill, qui est le seul où des points sont attribués. Ce style de compétition est divisé en catégories selon le niveau de difficulté :",
+            `Chaque individu progresse d'une catégorie à une autre en fonction du nombre total de points accumulés. Pour une meilleure visualisation, consultez le <a href="https://www.worldsdc.com/wsdc-points-registry-rules/#figure-tbl03" target="_blank">diagramme</a> dans le règlement officiel.`,
+          ],
+          list: [
+            `<a href="https://www.youtube.com/watch?v=kBEkJRbllTA&pp=ygUYbmV3Y29tZXIgZmluYWxzIGJ1ZGFmZXN0" target="_blank" class="important">Newcomer (NEW)</a> - le niveau le plus bas, optionnel, destiné aux nouveaux danseurs ;`,
+            `<a href="https://www.youtube.com/watch?v=pEKVcjvBHGQ&pp=ygUWbm92aWNlIGZpbmFscyBidWRhZmVzdA%3D%3D" target="_blank" class="important">Novice (NOV)</a> - le niveau obligatoire le plus bas, destiné aux danseurs ayant déjà quelques connaissances, mais également accessible aux débutants. Aucun point n'est requis pour entrer à ce niveau ;`,
+            `<a href="https://www.youtube.com/watch?v=tFX_rgNhChA&pp=ygUTaW50ZXJtZWRpYXRlIGZpbmFscw%3D%3D" target="_blank" class="important">Intermediate (INT)</a> - le niveau intermédiaire, destiné aux danseurs plus avancés ayant participé à plusieurs compétitions et accumulé au moins 16 points Novice ;`,
+            `<a href="https://www.youtube.com/watch?v=bT0ON9V31fw&pp=ygUdYWR2YW5jZWQgZmluYWxzIGF0dGlsYSBwYXJ0b3M%3D" target="_blank" class="important">Advanced (ADV)</a> - un niveau élevé, pour les danseurs expérimentés ayant accumulé au moins 30 points Intermediate ;`,
+            `<a href="https://www.youtube.com/watch?v=RUpH6uzM9Hk" target="_blank" class="important">All Star (ALS)</a> - un niveau exceptionnellement élevé, destiné aux danseurs ayant accumulé au moins 60 points Advanced ;`,
+            `<a href="https://www.youtube.com/watch?v=KNID2LYJ4xM&pp=ygUZY2hhbXBpb25zIDFzdCBwbGFjZSBrYXJpbg%3D%3D" target="_blank" class="important">Champions (CHA)</a> - le niveau le plus haut, destiné à ceux qui sont au sommet du classement mondial et ont accumulé au moins 150 points All Star.`,
+          ],
+        },
+        {
+          question: "2. Qu'est-ce qu'un événement d'essai WSDC ?",
+          answerText: [
+            "Un événement d'essai WSDC est un événement international d'au moins trois jours avec des ateliers, des soirées et des compétitions, qui répond aux exigences des règlements WSDC et concourt pour leur licence.",
+            "Le WSDC doit approuver préalablement un tel événement comme essai. Cette année-là, l'événement doit répondre à tous les besoins mais n'attribue pas encore de points. Si l'essai est concluant, le WSDC accorde une licence pour les années futures, et dès lors, les compétitions sont basées sur les points.",
+          ],
+        },
+        {
+          question: "3. Alors, à quel pass devrais-je m'inscrire ?",
+          answerText: [
+            "Si vous n'avez pas de numéro WSDC ID et n'avez jamais participé à une compétition, ou si vous concourez dans les catégories Newcomer, Novice ou Intermediate, vous pouvez vous inscrire aux ateliers dans le cadre du Full Pass. Ces ateliers auront lieu le samedi et le dimanche, répartis en 4 niveaux :",
+            "Si vous êtes un débutant complet ou avez à peine découvert le WCS et souhaitez apprendre les bases, vous pouvez rejoindre notre programme Zero to Hero le vendredi. En 4 heures, vous apprendrez les bases suffisamment bien pour pouvoir danser à la soirée du vendredi.",
+          ],
+          list: [
+            "Le niveau 2 correspond à la division Newcomer,",
+            "Le niveau 3 correspond à la division Novice avec au moins 1 point,",
+            "Le niveau 4 correspond à la division Intermediate,",
+            "Le niveau 5 correspond à la division Advanced / All Star.",
+          ],
+        },
+        {
+          question:
+            "4. Que dois-je écrire dans le champ WSDC ID lors de l'inscription ?",
+          answerText: [
+            "Si vous avez déjà un numéro WSDC ID obtenu lors d'une compétition, entrez-le. Sur la base de ce numéro, nous déterminerons automatiquement votre niveau lors de l'inscription.",
+            "Si vous n'avez pas encore de numéro, laissez ce champ vide.",
+          ],
+        },
+        {
+          question: "5. D'accord, mais si je danse bien sans concourir ?",
+          answerText: [
+            "Pas de problème. Si vous souhaitez participer à des ateliers de niveau supérieur, vous pouvez passer une audition qui aura lieu avant les ateliers. Les enseignants demanderont aux participants de danser plusieurs fois avec différents partenaires et décideront, en fonction des compétences montrées, qui peut être accepté à un niveau supérieur. La décision des enseignants est définitive, car ils savent mieux quelles connaissances sont attendues pour leurs ateliers.",
+            "Des auditions seront possibles pour les niveaux 3, 4 et 5. Pour les niveaux 2 et Zero to Hero, ce n'est pas nécessaire.",
           ],
         },
       ],
@@ -339,91 +396,75 @@ const fr = {
       pageTitle: "Planning",
       description:
         "Ceci est un planning préliminaire et est sujet à changement.",
-      downloadText: "Télécharger le fichier .pdf.",
-      src: "/files/schedule.pdf",
+      //   downloadText: "Télécharger le fichier .pdf.",
+      //   src: "/files/schedule.pdf",
     },
     pricing: {
       pageTitle: "Tarifs",
       description: [
-        "Nous offrirons deux types de pass: Full Pass et Party Pass. Full Pass comprend tous les ateliers, l'accès aux compétitions et aux soirées. Le Party Pass comprend uniquement l'accès aux compétitions et aux soirées.",
-        "Pour les nouveaux westies, nous prévoyons un cours Zero to Hero et pour nos danseurs les plus expérimentés, nous proposerons un niveau ADV+.",
-        "Les tarifs seront déterminés en fonction du moment de l'inscription, comme présenté dans le tableau ci-dessous. À condition que le paiement ait été fait dans les 14 jours suivant l'acceptation de l'inscription",
+        "Nous proposerons deux types de passes pour le week-end : Full Pass et Party Pass. Le Full Pass comprend tous les ateliers pour votre niveau assigné, l'accès aux compétitions et aux soirées. Le Party Pass comprend uniquement l'accès aux compétitions et aux soirées. La participation aux compétitions est facturée séparément.",
+        "Pour nos nouveaux westies, nous proposons un programme Zero to Hero d'une journée, où vous serez initié au west coast swing à un rythme accéléré par des instructeurs de classe mondiale. En plus des ateliers, il y aura d'autres activités sociales pour vous aider à vous intégrer à la communauté existante. Vous pouvez passer du Zero to Hero Pass au Party Pass lors de l'inscription ou sur place.",
+        "Les niveaux de prix seront déterminés en fonction du nombre d'inscriptions acceptées. Les frais d'inscription doivent être payés dans les 14 jours suivant l'acceptation, faute de quoi nous nous réservons le droit d'annuler votre inscription et d'offrir votre place à quelqu'un d'autre.",
       ],
       passPrices: [
         {
           type: "",
-          tiers: ["Super Early Bird", "Early Bird", "Normal Bird", "Late Bird"],
+          tiers: ["Early Bird", "Normal Bird", "Late Bird"],
           includes: ["COMPRENDS"],
           descriptions: [
-            "le jour d'ouverture des inscriptions",
-            "jusqu'au 10 Décembre 2023",
-            "jusqu'au 18 Février 2024",
-            "à partir du 19 Février 2024",
-          ],
-          dates: [
-            { from: "2023-11-07", to: "2023-11-08" },
-            { from: "2023-11-08", to: "2023-12-11" },
-            { from: "2023-12-11", to: "2024-02-19" },
-            { from: "2024-02-19", to: "2024-04-22" },
+            "les 40 premiers Full Pass + 10 Party Pass + 10 ZtH Pass",
+            "les 80 Full Pass suivants + 20 Party Pass + 10 ZtH Pass",
+            "jusqu'à épuisement des stocks",
           ],
         },
         {
           type: "Full Pass",
-          tiers: ["120", "130", "140", "150"],
+          tiers: ["140", "150", "160"],
           includes: [
-            "6 heures de workshops - niveaux 2/3/4",
-            "l'accés aux competitions",
-            "l'accés aux soirées de Vendredi, Samedi et Dimanche",
+            "6 heures d'ateliers - niveau 2/3/4/5",
+            "entrée pendant les compétitions",
+            "entrée aux soirées de jeudi, vendredi, samedi, dimanche",
           ],
         },
         {
           type: "Party Pass",
-          tiers: ["80", "90", "100", "110"],
+          tiers: ["100", "110", "120"],
           includes: [
-            "l'accés aux competitions",
-            "l'accés aux soirées de Vendredi, Samedi et Dimanche",
+            "",
+            "entrée pendant les compétitions",
+            "entrée aux soirées de jeudi, vendredi, samedi, dimanche",
           ],
           extraText:
-            "Gratuit pour tous les danseurs qui concourent dans la divisions Advanced ou All Star en échange de votre aide à juger les compétitions! L'inscription est toujours requise pour l'équilibre des rôles.",
-        },
-        {
-          type: "ADV+ Full Pass",
-          tiers: ["40", "50", "60", "70"],
-          includes: [
-            "4 heures de workshops - niveau 5",
-            "l'accés aux competitions",
-            "l'accés aux soirées de Vendredi, Samedi et Dimanche",
-          ],
-          extraText:
-            "Disponible pour tous les danseurs concourant dans les divisions Advanced ou All Star. Nous pourrons vous demander de nous aider à juger les compétitions.",
+            "Gratuit pour les 10 premiers danseurs, participant à la division All Star en échange de votre aide au jugement. Inscription toujours requise pour l'équilibre des rôles. Vous pouvez le passer à un Full Pass.",
         },
         {
           type: "Zero to Hero",
-          tiers: ["40", "50", "60", "70"],
+          tiers: ["50", "60", "70"],
           includes: [
-            "4 heures de workshops - niveau 1",
-            "l'accés à la soirée du Vendredi",
+            "4 heures d'ateliers le vendredi - niveau 1",
+            "",
+            "entrée à la soirée de vendredi",
           ],
         },
       ],
-      groups: {
-        title: "Remises pour les groupes internationaux",
-        description: [
-          `Intéressé pour créer un groupe ? N'hésitez pas à nous contacter ! Veuillez nous contacter par <a target="_blank" href="mailto:info{'@'}slovenianopen.dance">email</a> ou nous envoyer un message via notre <a target="_blank" href="https://www.facebook.com/profile.php?id=61552337725994">page Facebook</a>.`,
-          "Voici les règles pour les groupes :",
-        ],
-        groupRules: [
-          "les remises ne se cumulent pas - seuls les détenteurs de Full Pass sont considérés comme membres du groupe et sont éligibles pour la remise,",
-          "un groupe doit être composé d'au moins 10 danseurs engagés à participer à l'événement,",
-          "un groupe doit être équilibré en rôles avec un ratio minimum de 2 leaders pour 3 followers,",
-          "idéalement, les membres du groupe devraient tous provenir de la même communauté de danse, région ou pays,",
-          "tous les membres du groupe bénéficient d'une remise de 10% sur leur pass,",
-          "le chef de groupe compte comme faisant partie du groupe et doit également être détenteur d'un Full Pass,",
-          "les remises sont appliquées au moment de l'inscription en fonction du tarif en vigueur,",
-          "les chefs de groupe recevront un code unique, que leurs membres de groupe doivent utiliser lors de leur inscription,",
-          "si le groupe ne compte pas 10 membres au moment de l'événement, le groupe est dissous et les participants devront payer le montant remisé sur place.",
-        ],
-      },
+      //   groups: {
+      //     title: "Remises pour les groupes internationaux",
+      //     description: [
+      //       `Intéressé pour créer un groupe ? N'hésitez pas à nous contacter ! Veuillez nous contacter par <a target="_blank" href="mailto:info{'@'}slovenianopen.dance">email</a> ou nous envoyer un message via notre <a target="_blank" href="https://www.facebook.com/profile.php?id=61552337725994">page Facebook</a>.`,
+      //       "Voici les règles pour les groupes :",
+      //     ],
+      //     groupRules: [
+      //       "les remises ne se cumulent pas - seuls les détenteurs de Full Pass sont considérés comme membres du groupe et sont éligibles pour la remise,",
+      //       "un groupe doit être composé d'au moins 10 danseurs engagés à participer à l'événement,",
+      //       "un groupe doit être équilibré en rôles avec un ratio minimum de 2 leaders pour 3 followers,",
+      //       "idéalement, les membres du groupe devraient tous provenir de la même communauté de danse, région ou pays,",
+      //       "tous les membres du groupe bénéficient d'une remise de 10% sur leur pass,",
+      //       "le chef de groupe compte comme faisant partie du groupe et doit également être détenteur d'un Full Pass,",
+      //       "les remises sont appliquées au moment de l'inscription en fonction du tarif en vigueur,",
+      //       "les chefs de groupe recevront un code unique, que leurs membres de groupe doivent utiliser lors de leur inscription,",
+      //       "si le groupe ne compte pas 10 membres au moment de l'événement, le groupe est dissous et les participants devront payer le montant remisé sur place.",
+      //     ],
+      //   },
     },
   },
   location: {
@@ -459,46 +500,46 @@ const fr = {
         ],
         roomTypes: [
           {
-            type: "Chambre DELUXE",
+            type: "Chambre SUPERIOR",
             beds: "Double ou Twin",
             prices: [
               {
                 occupancy: "occupation simple",
-                price: "75 € / 99 € avec petit-déjeuner",
+                price: "80 € / 104 € avec petit-déjeuner",
               },
               {
                 occupancy: "occupation double",
-                price: "99 € / 118 € avec petit-déjeuner",
+                price: "85 € / 128 € avec petit-déjeuner",
               },
             ],
           },
           {
-            type: "Chambre EXECUTIVE",
+            type: "Chambre PREMIUM",
             beds: "Double ou Twin",
             prices: [
               {
                 occupancy: "occupation simple",
-                price: "100 € / 124 € avec petit-déjeuner",
+                price: "105 € / 130 € avec petit-déjeuner",
               },
               {
                 occupancy: "occupation double",
-                price: "124 € / 149 € avec petit-déjeuner",
+                price: "110 € / 153 € avec petit-déjeuner",
               },
             ],
           },
         ],
         booking: {
-          text: "Vous pouvez réserver une chambre de l'un ou l'autre type sur les liens suivants :",
-          links: [
-            {
-              roomType: "réserver une chambre avec petit-déjeuner",
-              link: "https://reservations.travelclick.com/75036?groupID=4129307",
-            },
-            {
-              roomType: "réserver une chambre sans petit-déjeuner",
-              link: "https://reservations.travelclick.com/75036?groupID=4132278",
-            },
-          ],
+          text: "Les liens de réservation seront envoyés aux participants par e-mail au moment de l'acceptation.",
+          //   links: [
+          //     {
+          //       roomType: "réserver une chambre avec petit-déjeuner",
+          //       link: "https://reservations.travelclick.com/75036?groupID=4129307",
+          //     },
+          //     {
+          //       roomType: "réserver une chambre sans petit-déjeuner",
+          //       link: "https://reservations.travelclick.com/75036?groupID=4132278",
+          //     },
+          //   ],
         },
         links: {
           booking: "",
@@ -598,47 +639,47 @@ const fr = {
       ],
     },
   },
-  dayTrip: {
-    pageTitle: "Excursion",
-    description: [
-      {
-        src: "/images/day_trip_postojna_cave.jpg",
-        alt: "Image de la grotte de Postojna",
-        texts: [
-          "Rejoignez-nous pour une excursion d'une journée inoubliable alors que nous passons du temps ensemble et explorons deux des attractions les plus emblématiques de la Slovénie : les grottes de Postojna et le château de Predjama.",
-          "Découvrez les grottes de Postojna, un vaste système de grottes karstiques de 24 kilomètres, considéré comme l'une des merveilles naturelles du pays. Au sein de ses vastes chambres et de ses passages sinueux, vous rencontrerez une variété de stalactites et stalagmites impressionnantes, ainsi que l'unique protée anguillard, une espèce intrigante adaptée à la vie dans l'obscurité du monde souterrain. Notre visite guidée éclairera la géologie fascinante et la biodiversité de la grotte, vous offrant une compréhension approfondie de cette merveille souterraine.",
-        ],
-      },
-      {
-        src: "/images/day_trip_predjama_castle.jpg",
-        alt: "Image du château de Predjama",
-        texts: [
-          "Après les grottes, nous nous rendrons au château de Predjama, un prodige de l'architecture médiévale perché à l'entrée d'une grotte. Cette forteresse de la Renaissance, intégrée parfaitement dans le rocher naturel, offre un aperçu du passé et des vues spectaculaires sur le paysage environnant.",
-          "Bien que les horaires exacts puissent encore changer, voici à quoi ressemblera notre journée :",
-        ],
-        itinerary: [
-          ["9h30 :", "Départ de Ljubljana."],
-          ["11h00 :", "Arrivée et visite guidée des grottes de Postojna."],
-          [
-            "12h30 :",
-            "Temps libre pour déjeuner, faire du shopping de souvenirs ou visiter le Vivarium.",
-          ],
-          ["14h30 :", "Exploration du château de Predjama."],
-          ["17h00 :", "Retour à Ljubljana."],
-        ],
-      },
-      {
-        texts: [
-          "Le coût de cette excursion d'une journée mémorable est de 75 EUR par personne, incluant le transport et les visites guidées de la grotte de Postojna et du château de Predjama.",
-          "Veuillez noter que le voyage nécessite un minimum de 10 participants pour avoir lieu, et l'inscription est nécessaire pour sécuriser votre place. L'espace dans le bus est limité, alors ne manquez pas votre chance de rejoindre cette aventure et d'explorer les trésors naturels et historiques de la Slovénie !",
-        ],
-      },
-    ],
-  },
+  //   dayTrip: {
+  //     pageTitle: "Excursion",
+  //     description: [
+  //       {
+  //         src: "/images/day_trip_postojna_cave.jpg",
+  //         alt: "Image de la grotte de Postojna",
+  //         texts: [
+  //           "Rejoignez-nous pour une excursion d'une journée inoubliable alors que nous passons du temps ensemble et explorons deux des attractions les plus emblématiques de la Slovénie : les grottes de Postojna et le château de Predjama.",
+  //           "Découvrez les grottes de Postojna, un vaste système de grottes karstiques de 24 kilomètres, considéré comme l'une des merveilles naturelles du pays. Au sein de ses vastes chambres et de ses passages sinueux, vous rencontrerez une variété de stalactites et stalagmites impressionnantes, ainsi que l'unique protée anguillard, une espèce intrigante adaptée à la vie dans l'obscurité du monde souterrain. Notre visite guidée éclairera la géologie fascinante et la biodiversité de la grotte, vous offrant une compréhension approfondie de cette merveille souterraine.",
+  //         ],
+  //       },
+  //       {
+  //         src: "/images/day_trip_predjama_castle.jpg",
+  //         alt: "Image du château de Predjama",
+  //         texts: [
+  //           "Après les grottes, nous nous rendrons au château de Predjama, un prodige de l'architecture médiévale perché à l'entrée d'une grotte. Cette forteresse de la Renaissance, intégrée parfaitement dans le rocher naturel, offre un aperçu du passé et des vues spectaculaires sur le paysage environnant.",
+  //           "Bien que les horaires exacts puissent encore changer, voici à quoi ressemblera notre journée :",
+  //         ],
+  //         itinerary: [
+  //           ["9h30 :", "Départ de Ljubljana."],
+  //           ["11h00 :", "Arrivée et visite guidée des grottes de Postojna."],
+  //           [
+  //             "12h30 :",
+  //             "Temps libre pour déjeuner, faire du shopping de souvenirs ou visiter le Vivarium.",
+  //           ],
+  //           ["14h30 :", "Exploration du château de Predjama."],
+  //           ["17h00 :", "Retour à Ljubljana."],
+  //         ],
+  //       },
+  //       {
+  //         texts: [
+  //           "Le coût de cette excursion d'une journée mémorable est de 75 EUR par personne, incluant le transport et les visites guidées de la grotte de Postojna et du château de Predjama.",
+  //           "Veuillez noter que le voyage nécessite un minimum de 10 participants pour avoir lieu, et l'inscription est nécessaire pour sécuriser votre place. L'espace dans le bus est limité, alors ne manquez pas votre chance de rejoindre cette aventure et d'explorer les trésors naturels et historiques de la Slovénie !",
+  //         ],
+  //       },
+  //     ],
+  //   },
   registration: {
     pageTitle: "Inscription",
-    opensSoonText: "Les inscriptions ouvriront en Novembre.",
-    registrationInfoText: "Merci de lire avant de vous inscrire les",
+    opensSoonText: "Les inscriptions ouvriront en Novembre 25, 2024 - 18:00",
+    registrationInfoText: "Merci de lire avant de vous inscrire les ",
     loading: "Chargement du formulaire d'inscription...",
     registerNow: "Inscription",
   },
@@ -688,8 +729,8 @@ const fr = {
           value:
             "En cas d'anulation par le participant, nous proposons un remboursement du paiement selon les modalités suivantes :",
           list: [
-            "Pour une demande d'annulation reçue jusqu'au 18 Février 2024 inclus, le paiement reçu sera remboursé partiellement - 50% du paiement reçu.",
-            "Pour une demande d'annulation reçue le 19 Février 2024 ou après, le paiement reçu ne sera pas remboursé.",
+            "Pour une demande d'annulation reçue jusqu'au 9 Février 2025 inclus, le paiement reçu sera remboursé partiellement - 50% du paiement reçu.",
+            "Pour une demande d'annulation reçue le 10 Février 2025 ou après, le paiement reçu ne sera pas remboursé.",
           ],
         },
         {

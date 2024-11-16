@@ -2,15 +2,15 @@ const si = {
   event: {
     name: "Slovenian Open",
     location: "Ljubljana",
-    date: "19. - 21. april 2024",
+    date: "10. - 14. april 2025",
     welcomeText:
-      "Pridruži se nam na prvem Slovenian Open festivalu - WSDC trial!",
+      "Pridruži se nam na WSDC registriranem Slovenian Open festivalu!",
     readMoreText: "Preberi več",
     features: [
       {
         title: "Spoznaj",
         intro: "Svetovno znane inštruktorje na intenzivnih delavnicah",
-        href: "workshops/teachers",
+        href: "team",
         list: [
           "Karin Kakun & Ludovic Pelegrin",
           "Savana Barreau & João Parada",
@@ -19,17 +19,17 @@ const si = {
       },
       {
         title: "Doživi",
-        intro: "Tri dni delavnic, tekmovanj in plesnih večerov",
+        intro: "Štiri dni delavnic, tekmovanj in plesnih večerov",
         href: "workshops/schedule",
         list: [
           "4 fantastične zabave",
-          "3 dni delavnic za vse ravni",
-          "Jack & Jill tekmovanja",
+          "3 dni delavnic po nivojih",
+          "WSDC Jack & Jill tekmovanja",
         ],
       },
       {
         title: "Razišči",
-        intro: "Odkrij lepote Ljubljane",
+        intro: "Odkrij lepote Ljubljane in Slovenije",
         href: "location/slovenia",
         list: [
           "Čar starega mestnega jedra",
@@ -45,7 +45,7 @@ const si = {
     email: "info{'@'}slovenianopen.dance",
   },
   urls: {
-    facebook: "https://www.facebook.com/events/819650556370760",
+    facebook: "https://www.facebook.com/events/333172752914194",
     instagram: "https://www.instagram.com/slovenian_open_wcs",
   },
   home: {
@@ -129,173 +129,173 @@ const si = {
           },
         ],
       },
-      {
-        pageTitle: "DJ-i",
-        people: [
-          {
-            names: "Ken",
-            title: "Glavni DJ",
-            src: "/images/djs_ken.png",
-            description: [
-              "Ken, znan tudi kot DJKendyshop, je DJ za West Coast Swing, ki je svojo pot začel leta 2018. Hitro si je pridobil sloves zaradi svoje sposobnosti ustvarjanja energije polnih plesišč tako na majhnih lokalnih dogodkih kot tudi na velikih WSDC dogodkih, kot so Budafest, Anchor Festival, Baltic Swing in Swing it like it's hot. Kenov stil se nagiba k zapleteni in razburljivi glasbi, črpa navdih iz EDM in Dubstepa ter ustvarja edinstven in dinamičen zvok, ki plesalce ohranja v gibanju.",
-              "Trenutno najraje pleše na:",
-            ],
-            songList: [
-              "Forgive Me - Sofi Tucker",
-              "Whisper - Able Heart",
-              "Fake - The Tech Thieves",
-            ],
-          },
-          {
-            names: "Aleksandra",
-            title: "DJ",
-            src: "/images/djs_aleksandra.png",
-            description: [
-              "Aleksandra aktivno DJ-a v lokalni skupnosti od leta 2019, kjer deli svojo strast do glasbe in moči glasbe, ki jo im pri povezovanju ljudi. Izjemno jo veseli, ko njene skrbno izbrane glasbene izbire odmevajo med množico in privabljajo ljudi na plesišče. Verjame, da je glasba pomemben navdih za ples in lahko vzbudi širok spekter čustev.",
-              "Trenutno najraje pleše na:",
-            ],
-            songList: [
-              "California King - D.B. Ricapito",
-              "What A Wonderful World - Sofi Tukker",
-              "Seasons - Chloe Adams",
-            ],
-          },
-          {
-            names: "Laszlo",
-            title: "DJ",
-            src: "/images/djs_laszlo.png",
-            description: [
-              "Laszlo je nenavaden DJ. Sam enostavno rad pleše ob dobri glasbi in se šteje za srečneža, saj pogosto glasba, ki je njemu je všeč, inspirira tudi druge, da se mu pridružijo na plesišču. DJ-a že kar nekaj let lokalno in na mednarodnih festivalih. Videti plesalce, kako uživajo ob njegovih ritmih, je zanj največja nagrada.",
-              "Trenutno najraje pleše na:",
-            ],
-            songList: [
-              "No Ordinary - Labrinth",
-              "N'y pense plus - Tayc",
-              "Et c'est parti... - Nâdiya",
-            ],
-          },
-          {
-            names: "Lino",
-            title: "DJ",
-            src: "/images/djs_lino.png",
-            description: [
-              "Lino se je vedno zanimal za odkrivanje novih umetnikov in glasbe, še posebej manj znanih indie izvajalcev. Nedavno je imel priložnost DJ-ati na dogodkih Swing Generation, Berlin Swing Revolution in Carnival Swing, ter na lokalnih zabavah v Berlinu in Erdingu. Njegov stil je mešanje eksperimentalne in pogosto akustične glasbe z mednarodno priljubljenimi pesmimi, znanimi z dogodkov.",
-              "Trenutno najraje pleše na:",
-            ],
-            songList: [
-              "Lose It - Oh Wonder",
-              "Papa - SICKOTOY, Eliana Gjata, INNA",
-              "No Ocean - EXES, Jome",
-            ],
-          },
-          {
-            names: "Matt",
-            title: "DJ",
-            src: "/images/djs_matt.png",
-            description: [
-              "Matt je bil koordinator DJ-ev za Portland Blues in Jazz Society v Portlandu 10 let, plesal je družabne plese približno 20 let in prav tako dolgo DJ-al v West Coast Swing, Blues in Fusion skupnostih. Moderiral je, DJ-al, učil in/ali pomagal koordinirati na več WCS, Blues in Fusion/Alt dogodkih po ZDA in Evropi.",
-              "Trenutno najraje pleše na:",
-            ],
-            songList: [
-              "Something Sweeter - LUME",
-              "Oxygen - Emili Sandé",
-              "Island of the Sun - Winona Oak",
-            ],
-          },
-          {
-            names: "Patrice",
-            title: "DJ",
-            src: "/images/djs_patrice.png",
-            description: [
-              "Patrice je svojo DJ kariero začel pred 5 leti na zabavah z mešanico plesnih stilov, kjer ga je prevzela umetnost ustvarjanja atmosferskega večera, ki zajema različne žanre. Zdaj se vse pogosteje znajde za mešalno mizo na West Coast Swing zabavah, kjer še naprej navdušuje plesalce z mešanjem raznolikih glasbenih stilov.",
-              "Trenutno najraje pleše na:",
-            ],
-            songList: ["Fuck it, I love it! - ILIRA", "Wait - Damian Lynn"],
-          },
-          {
-            names: "Sepgod",
-            title: "DJ",
-            src: "/images/djs_sebastian.png",
-            description: [
-              "Sepgod je začel s plesi v paru pred 30 leti, razvil ljubezen do kuriranja glasbe, napredoval od ustvarjanja mešanic trakov do mešanih CD-jev, in naposled DJ-al na različnih dogodkih. Leta 2015 ga je prevzela raznolika glasba WCS, kar ga je vodilo do DJ-anja na zabavah WCS v Dunaju, naa Swingvestru 23/24 pa je začel DJ-ati tudi na mednarodnih festivalih.",
-              "Trenutno najraje pleše na:",
-            ],
-            songList: [
-              "Soap - Melanie Martinez",
-              "Space Ghost Coast To Coast - Glass Animals",
-              "Chariot - Mega",
-            ],
-          },
-        ],
-      },
-      {
-        pageTitle: "Nastopi & Tekmovanja",
-        people: [
-          {
-            names: "Jacqueline",
-            title: "MC",
-            src: "/images/staff_jacqueline.png",
-            description: [
-              "Jacqueline je začela svojo plesno pot v stage plesih. Leta 2018 se je priključila Warsaw Westies in se začela ukvarjati z west coast swingom. Čeprav veliko potuje po tujini, jo tam še vedno redno videvajo.",
-              "V WCS skupnosti je znana je po svojem značilnem vintage stilu. Kadar ne pleše, se zadržuje v bližini plesišča, kjer se druži z novimi in starimi prijatelji in tako bogati družbeno mrežo skupnosti WCS.",
-            ],
-          },
-          {
-            names: "Andreas",
-            title: "Ocenjevanje",
-            src: "/images/staff_andreas.png",
-            description: [
-              "Andreas je idejni vodja sistema Scoreboard, ki je izvrstno in pogosto uporabljano orodje za ocenjevanje plesnih tekmovanj. Poznan po svoji hitrosti in zanesljivosti je Scoreboard spremenil način sodniškega ocenjevanja in objave rezultatov.",
-              "Andreasova strokovnost in predanost plesni sceni sta očitna, saj je znan obraz na večini evropskih plesnih dogodkov, kjer njegov sistem izboljšuje tekmovalne izkušnje udeležencev, organizatorjev in sodnikov.",
-            ],
-          },
-          {
-            names: "Ludovic",
-            title: "Glavni sodnik",
-            src: "/images/staff_ludovic.png",
-            description: [
-              "Ludovic je zaradi obsežnih izkušnej v različnih plesnih zvrsteh in svojih pomembnih dosežkov kot tekmovalec in inštruktor nepogrešljiv član katerekoli sodniške ekipe.",
-              "Njegovo celovito razumevanje plesne dinamike in tehnične spretnosti mu daje izostren občutek za detajle, kar zagotavlja pošteno in natančno ocenjevanje tekmovalcev.",
-            ],
-          },
-        ],
-      },
-      {
-        pageTitle: "Sodelavci",
-        people: [
-          {
-            names: "Sarah",
-            title: "Prodajalka čevljev",
-            src: "/images/collaborators_sarah.png",
-            description: [
-              "Kot plesalka je vedno opažala, da mnogi plesalci nosijo napačne čevlje. Opazila je pomanjkanje specializiranih trgovin s plesnimi čevlji na Koroškem in ljudje so se obotavljali kupovati v plesnih šolah ali prek spleta, zato se je decembra 2018 odločila za samostojno podjetniško pot in ustanovila podjetje, osredotočeno na plesne čevlje.",
-              "Z veseljem ponuja nasvete glede osebnih zadev in pomoč pri iskanju idealnih plesnih čevljev za posameznike.",
-            ],
-          },
-          {
-            names: "Marine",
-            title: "Maserka",
-            src: "/images/collaborators_marine.png",
-            description: [
-              "Marine je francoska plesalka in učiteljica WCS ter ustanoviteljica Art'Potentiala. Na nekaterih dogodkih ponuja športne masaže in seje mentalnega coachinga s sofrologijo plesalcem. Športne masaže se je naučila izvajati v Indiji in na Tajskem, še naprej pa se o masažah izobražuje v Franciji.",
-              "Masaže na plesih dogodkih ponuja od leta 2023, in navduši vse, ki se prepustijo njenim veščim rokam!",
-            ],
-          },
-        ],
-      },
-      {
-        pageTitle: "Fotograf",
-        people: [
-          {
-            names: "Marko",
-            src: "/images/photographer_marko.png",
-            description: [
-              "Marko, navdušen plesalec salse in bachate, se v zadnjem času vedno bolj ogreva za ritme west coast swinga.",
-              "Predan tako ljubezni do plesa kot tudi do fotografije, pogosto na plesne zabave prinese svoj fotoaparat, željan zajeti bistvo in energijo trenutka in ovekovečiti lepe spomine.",
-            ],
-          },
-        ],
-      },
+      //   {
+      //     pageTitle: "DJ-i",
+      //     people: [
+      //       {
+      //         names: "Ken",
+      //         title: "Glavni DJ",
+      //         src: "/images/djs_ken.png",
+      //         description: [
+      //           "Ken, znan tudi kot DJKendyshop, je DJ za West Coast Swing, ki je svojo pot začel leta 2018. Hitro si je pridobil sloves zaradi svoje sposobnosti ustvarjanja energije polnih plesišč tako na majhnih lokalnih dogodkih kot tudi na velikih WSDC dogodkih, kot so Budafest, Anchor Festival, Baltic Swing in Swing it like it's hot. Kenov stil se nagiba k zapleteni in razburljivi glasbi, črpa navdih iz EDM in Dubstepa ter ustvarja edinstven in dinamičen zvok, ki plesalce ohranja v gibanju.",
+      //           "Trenutno najraje pleše na:",
+      //         ],
+      //         songList: [
+      //           "Forgive Me - Sofi Tucker",
+      //           "Whisper - Able Heart",
+      //           "Fake - The Tech Thieves",
+      //         ],
+      //       },
+      //       {
+      //         names: "Aleksandra",
+      //         title: "DJ",
+      //         src: "/images/djs_aleksandra.png",
+      //         description: [
+      //           "Aleksandra aktivno DJ-a v lokalni skupnosti od leta 2019, kjer deli svojo strast do glasbe in moči glasbe, ki jo im pri povezovanju ljudi. Izjemno jo veseli, ko njene skrbno izbrane glasbene izbire odmevajo med množico in privabljajo ljudi na plesišče. Verjame, da je glasba pomemben navdih za ples in lahko vzbudi širok spekter čustev.",
+      //           "Trenutno najraje pleše na:",
+      //         ],
+      //         songList: [
+      //           "California King - D.B. Ricapito",
+      //           "What A Wonderful World - Sofi Tukker",
+      //           "Seasons - Chloe Adams",
+      //         ],
+      //       },
+      //       {
+      //         names: "Laszlo",
+      //         title: "DJ",
+      //         src: "/images/djs_laszlo.png",
+      //         description: [
+      //           "Laszlo je nenavaden DJ. Sam enostavno rad pleše ob dobri glasbi in se šteje za srečneža, saj pogosto glasba, ki je njemu je všeč, inspirira tudi druge, da se mu pridružijo na plesišču. DJ-a že kar nekaj let lokalno in na mednarodnih festivalih. Videti plesalce, kako uživajo ob njegovih ritmih, je zanj največja nagrada.",
+      //           "Trenutno najraje pleše na:",
+      //         ],
+      //         songList: [
+      //           "No Ordinary - Labrinth",
+      //           "N'y pense plus - Tayc",
+      //           "Et c'est parti... - Nâdiya",
+      //         ],
+      //       },
+      //       {
+      //         names: "Lino",
+      //         title: "DJ",
+      //         src: "/images/djs_lino.png",
+      //         description: [
+      //           "Lino se je vedno zanimal za odkrivanje novih umetnikov in glasbe, še posebej manj znanih indie izvajalcev. Nedavno je imel priložnost DJ-ati na dogodkih Swing Generation, Berlin Swing Revolution in Carnival Swing, ter na lokalnih zabavah v Berlinu in Erdingu. Njegov stil je mešanje eksperimentalne in pogosto akustične glasbe z mednarodno priljubljenimi pesmimi, znanimi z dogodkov.",
+      //           "Trenutno najraje pleše na:",
+      //         ],
+      //         songList: [
+      //           "Lose It - Oh Wonder",
+      //           "Papa - SICKOTOY, Eliana Gjata, INNA",
+      //           "No Ocean - EXES, Jome",
+      //         ],
+      //       },
+      //       {
+      //         names: "Matt",
+      //         title: "DJ",
+      //         src: "/images/djs_matt.png",
+      //         description: [
+      //           "Matt je bil koordinator DJ-ev za Portland Blues in Jazz Society v Portlandu 10 let, plesal je družabne plese približno 20 let in prav tako dolgo DJ-al v West Coast Swing, Blues in Fusion skupnostih. Moderiral je, DJ-al, učil in/ali pomagal koordinirati na več WCS, Blues in Fusion/Alt dogodkih po ZDA in Evropi.",
+      //           "Trenutno najraje pleše na:",
+      //         ],
+      //         songList: [
+      //           "Something Sweeter - LUME",
+      //           "Oxygen - Emili Sandé",
+      //           "Island of the Sun - Winona Oak",
+      //         ],
+      //       },
+      //       {
+      //         names: "Patrice",
+      //         title: "DJ",
+      //         src: "/images/djs_patrice.png",
+      //         description: [
+      //           "Patrice je svojo DJ kariero začel pred 5 leti na zabavah z mešanico plesnih stilov, kjer ga je prevzela umetnost ustvarjanja atmosferskega večera, ki zajema različne žanre. Zdaj se vse pogosteje znajde za mešalno mizo na West Coast Swing zabavah, kjer še naprej navdušuje plesalce z mešanjem raznolikih glasbenih stilov.",
+      //           "Trenutno najraje pleše na:",
+      //         ],
+      //         songList: ["Fuck it, I love it! - ILIRA", "Wait - Damian Lynn"],
+      //       },
+      //       {
+      //         names: "Sepgod",
+      //         title: "DJ",
+      //         src: "/images/djs_sebastian.png",
+      //         description: [
+      //           "Sepgod je začel s plesi v paru pred 30 leti, razvil ljubezen do kuriranja glasbe, napredoval od ustvarjanja mešanic trakov do mešanih CD-jev, in naposled DJ-al na različnih dogodkih. Leta 2015 ga je prevzela raznolika glasba WCS, kar ga je vodilo do DJ-anja na zabavah WCS v Dunaju, naa Swingvestru 23/24 pa je začel DJ-ati tudi na mednarodnih festivalih.",
+      //           "Trenutno najraje pleše na:",
+      //         ],
+      //         songList: [
+      //           "Soap - Melanie Martinez",
+      //           "Space Ghost Coast To Coast - Glass Animals",
+      //           "Chariot - Mega",
+      //         ],
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     pageTitle: "Nastopi & Tekmovanja",
+      //     people: [
+      //       {
+      //         names: "Jacqueline",
+      //         title: "MC",
+      //         src: "/images/staff_jacqueline.png",
+      //         description: [
+      //           "Jacqueline je začela svojo plesno pot v stage plesih. Leta 2018 se je priključila Warsaw Westies in se začela ukvarjati z west coast swingom. Čeprav veliko potuje po tujini, jo tam še vedno redno videvajo.",
+      //           "V WCS skupnosti je znana je po svojem značilnem vintage stilu. Kadar ne pleše, se zadržuje v bližini plesišča, kjer se druži z novimi in starimi prijatelji in tako bogati družbeno mrežo skupnosti WCS.",
+      //         ],
+      //       },
+      //       {
+      //         names: "Andreas",
+      //         title: "Ocenjevanje",
+      //         src: "/images/staff_andreas.png",
+      //         description: [
+      //           "Andreas je idejni vodja sistema Scoreboard, ki je izvrstno in pogosto uporabljano orodje za ocenjevanje plesnih tekmovanj. Poznan po svoji hitrosti in zanesljivosti je Scoreboard spremenil način sodniškega ocenjevanja in objave rezultatov.",
+      //           "Andreasova strokovnost in predanost plesni sceni sta očitna, saj je znan obraz na večini evropskih plesnih dogodkov, kjer njegov sistem izboljšuje tekmovalne izkušnje udeležencev, organizatorjev in sodnikov.",
+      //         ],
+      //       },
+      //       {
+      //         names: "Ludovic",
+      //         title: "Glavni sodnik",
+      //         src: "/images/staff_ludovic.png",
+      //         description: [
+      //           "Ludovic je zaradi obsežnih izkušnej v različnih plesnih zvrsteh in svojih pomembnih dosežkov kot tekmovalec in inštruktor nepogrešljiv član katerekoli sodniške ekipe.",
+      //           "Njegovo celovito razumevanje plesne dinamike in tehnične spretnosti mu daje izostren občutek za detajle, kar zagotavlja pošteno in natančno ocenjevanje tekmovalcev.",
+      //         ],
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     pageTitle: "Sodelavci",
+      //     people: [
+      //       {
+      //         names: "Sarah",
+      //         title: "Prodajalka čevljev",
+      //         src: "/images/collaborators_sarah.png",
+      //         description: [
+      //           "Kot plesalka je vedno opažala, da mnogi plesalci nosijo napačne čevlje. Opazila je pomanjkanje specializiranih trgovin s plesnimi čevlji na Koroškem in ljudje so se obotavljali kupovati v plesnih šolah ali prek spleta, zato se je decembra 2018 odločila za samostojno podjetniško pot in ustanovila podjetje, osredotočeno na plesne čevlje.",
+      //           "Z veseljem ponuja nasvete glede osebnih zadev in pomoč pri iskanju idealnih plesnih čevljev za posameznike.",
+      //         ],
+      //       },
+      //       {
+      //         names: "Marine",
+      //         title: "Maserka",
+      //         src: "/images/collaborators_marine.png",
+      //         description: [
+      //           "Marine je francoska plesalka in učiteljica WCS ter ustanoviteljica Art'Potentiala. Na nekaterih dogodkih ponuja športne masaže in seje mentalnega coachinga s sofrologijo plesalcem. Športne masaže se je naučila izvajati v Indiji in na Tajskem, še naprej pa se o masažah izobražuje v Franciji.",
+      //           "Masaže na plesih dogodkih ponuja od leta 2023, in navduši vse, ki se prepustijo njenim veščim rokam!",
+      //         ],
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     pageTitle: "Fotograf",
+      //     people: [
+      //       {
+      //         names: "Marko",
+      //         src: "/images/photographer_marko.png",
+      //         description: [
+      //           "Marko, navdušen plesalec salse in bachate, se v zadnjem času vedno bolj ogreva za ritme west coast swinga.",
+      //           "Predan tako ljubezni do plesa kot tudi do fotografije, pogosto na plesne zabave prinese svoj fotoaparat, željan zajeti bistvo in energijo trenutka in ovekovečiti lepe spomine.",
+      //         ],
+      //       },
+      //     ],
+      //   },
     ],
   },
   workshops: {
@@ -332,10 +332,10 @@ const si = {
           ],
         },
         {
-          title: "ADV+",
+          title: "Nivo 5",
           descriptionText: [
             "ADVANCED / ALL-STAR z vsaj 30 Intermediate WSDC točkami",
-            "Ta posebni intenzivni program je namenjen samo plesalcem na Advanced in All Star nivoj. Za ta nivo ne bo avdicije, saj pričakujemo, da si svoje spretnosti že dovolj dokazal_a na tekmovanjih.",
+            "Tekmuješ v Advanced ali All Star kategoriji. Tvoja tehnika, povezava in muzikalnost so že na najvišji ravni. Zdaj želiš izpopolniti svoje veščine kot plesalec_ka in tekmovalec_ka.",
           ],
         },
       ],
@@ -370,14 +370,14 @@ const si = {
         {
           question: "3. Kam naj se torej prijavim?",
           answerText: [
-            "Če še nimaš WSDC ID številke in nisi še nikdar tekmoval_a, ali pa tekmuješ v kategorijah Newcomer, Novice ali Intermediate, se lahko prijaviš na delavnice v sklopu Full Pass. Te delavnice bodo potekale v soboto in nedeljo, razdeljene pa bodo na 3 nivoje:",
+            "Če še nimaš WSDC ID številke in nisi še nikdar tekmoval_a, ali pa tekmuješ v kategorijah Newcomer, Novice ali Intermediate, se lahko prijaviš na delavnice v sklopu Full Pass. Te delavnice bodo potekale v soboto in nedeljo, razdeljene pa bodo na 4 nivoje:",
             "Če si popolen začetnik_ca, ali pa si se z WCS le bežno spoznal_a in se želiš naučiti osnov, potem se lahko pridružiš našemu petkovemu programu Zero to Hero. V 4 urah boš spoznal_a osnove dovolj, da boš na petkovi zabavi gotovo lahko plesal_a.",
-            "Na ADV+ Full Pass, ki ima delavnice prav tako samo v petek, se lahko prijaviš samo, če tekmuješ v kategorijah Advanced / All Star / Champion.",
           ],
           list: [
-            "Level 2 ustreza stopnji Newcomer,",
-            "Level 3 ustreza stopnji Novice z vsaj 1 točko,",
-            "Level 4 ustreza stopnji Intermediate.",
+            "Nivo 2 ustreza stopnji Newcomer,",
+            "Nivo 3 ustreza stopnji Novice z vsaj 1 točko,",
+            "Nivo 4 ustreza stopnji Intermediate,",
+            "Nivo 5 ustreza kategoriji Advanced / All Star.",
           ],
         },
         {
@@ -392,7 +392,7 @@ const si = {
             "5. OK, kaj pa, če plešem dobro, ampak se ne udeležujem tekmovanj?",
           answerText: [
             "Nič hudega. Če želiš sodelovati na delavnicah višjega nivoja, se lahko udeležiš avdicije, ki bo potekala pred delavnicami. Tam bodo učitelji prosili udeležence, da večkrat odplešejo z različnimi partnerji, in se na podlagi videnega znanja odločili, koga lahko sprejmejo na višji nivo. Odločitev učiteljev je dokončna, saj oni najbolje vejo, katero znanje pričakujejo za svoje delavnice.",
-            "Avdicija bo možna za level 3 in level 4. Za level 2 in Zero to Hero ni potrebna. Za ADV+ delavnice avdicije ne bo.",
+            "Avdicija bo možna za nivo 3, 4 in 5. Za level 2 in Zero to Hero ni potrebna.",
           ],
         },
       ],
@@ -400,91 +400,79 @@ const si = {
     schedule: {
       pageTitle: "Urnik",
       description: "To je okvirni urnik in se bo verjetno še kaj spremenil.",
-      downloadText: "Prenesi .pdf datoteko.",
-      pdfSrc: "/files/schedule.pdf",
+      //   downloadText: "Prenesi .pdf datoteko.",
+      //   pdfSrc: "/files/schedule.pdf",
       pngSrc: "/images/schedule.png",
     },
     pricing: {
       pageTitle: "Cenik",
       description: [
-        "Ponujamo dve vrsti vstopnic: Full Pass in Party Pass. Full Pass vključuje vse delavnice, dostop do tekmovanj in zabav. Party Pass vključuje dostop samo do tekmovanj in zabav.",
-        "Za naše najnovejše westieje smo pripravili intenzivne delavnice 'Zero to Hero', za najbolj izkušene plesalce pa poseben intenzivni program ADV+.",
-        "Cene bodo določene glede na čas prijave, pod pogojem, da je plačilo izvedeno v 14 dneh od sprejetja prijave, kot je prikazano v spodnji tabeli.",
+        "Ponujamo dva tipa vikend vstopnic: Full Pass in Party Pass. Full Pass vključuje vse delavnice za vašo dodeljeno raven, dostop do tekmovanj in zabav. Party Pass vključuje le dostop do tekmovanj in zabav. Udeležba na tekmovanjih je dodatno zaračunana.",
+        "Za naše nove westije ponujamo enodnevni program Zero to Hero, kjer vas bodo svetovni inštruktorji spoznali z west coast swingom v pospešenem tempu. Poleg delavnic bodo potekale še druge družabne aktivnosti, ki vam bodo pomagale pri vključevanju v obstoječo skupnost. Svoj Zero to Hero Pass lahko nadgradite v Party Pass ob prijavi ali na dogodku.",
+        "Cenovni razredi bodo določeni glede na število sprejetih prijav. Prijavnina mora biti poravnana v 14 dneh od sprejetja, sicer si pridržujemo pravico, da odpovemo vašo prijavo in ponudimo vaše mesto nekomu drugemu.",
       ],
       passPrices: [
         {
           type: "",
-          tiers: [
-            "Super zgodnja cena",
-            "Zgodnja cena",
-            "Običajna cena",
-            "Pozna cena",
-          ],
+          tiers: ["Zgodnja cena", "Običajna cena", "Pozna cena"],
           includes: ["VKLJUČUJE"],
           descriptions: [
-            "na dan odprtja prijav",
-            "do 10. decembra 2023",
-            "do 18. februarja 2024",
-            "od 19. februarja 2024",
+            "prvih 40 Full pass + 10 Party pass + 10 Zero to Hero vstopnic",
+            "naslednjih 80 Full pass + 20 Party pass + 10 Zero to Hero vstopnic",
+            "do razprodaje",
           ],
-          dates: [
-            { from: "2023-11-07", to: "2023-11-08" },
-            { from: "2023-11-08", to: "2023-12-11" },
-            { from: "2023-12-11", to: "2024-02-19" },
-            { from: "2024-02-19", to: "2024-04-22" },
-          ],
+          //   dates: [
+          //     { from: "2023-11-07", to: "2023-11-08" },
+          //     { from: "2023-11-08", to: "2023-12-11" },
+          //     { from: "2023-12-11", to: "2024-02-19" },
+          //     { from: "2024-02-19", to: "2024-04-22" },
+          //   ],
         },
         {
           type: "Full Pass",
-          tiers: ["120", "130", "140", "150"],
+          tiers: ["140", "150", "160"],
           includes: [
-            "6 ur delavnic - nivo 2/3/4",
+            "6 ur delavnic - nivo 2/3/4/5",
             "vstop med tekmovanji",
-            "vstopnina na zabave v petek, soboto in nedeljo",
+            "vstop na zabave v četrtek, petek, soboto in nedeljo",
           ],
         },
         {
           type: "Party Pass",
-          tiers: ["80", "90", "100", "110"],
+          tiers: ["100", "110", "120"],
           includes: [
+            "",
             "vstop med tekmovanji",
-            "vstopnina na zabave v petek, soboto in nedeljo",
+            "vstop na zabave v četrtek, petek, soboto in nedeljo",
           ],
           extraText:
-            "Brezplačno za vse plesalce, ki tekmujejo v kategoriji Advanced ali All Star v zameno za pomoč pri sojenju tekmovanj! Prijava obvezna zaradi uravnoteženja vlog.",
-        },
-        {
-          type: "ADV+ Full Pass",
-          tiers: ["40", "50", "60", "70"],
-          includes: [
-            "4 ure delavnic - nivo 5",
-            "vstop med tekmovanji",
-            "vstopnina na zabave v petek, soboto in nedeljo",
-          ],
-          extraText:
-            "Za vse plesalce, ki tekmujejo v kategoriji Advanced ali All Star. Morda te bomo prosili za pomoč pri sojenju tekmovanj.",
+            "Brezplačno za vse plesalce, ki tekmujejo v kategoriji All Star v zameno za pomoč pri sojenju tekmovanj! Prijava obvezna zaradi uravnoteženja vlog.",
         },
         {
           type: "Zero to Hero",
-          tiers: ["40", "50", "60", "70"],
-          includes: ["4 ure delavnic - nivo 1", "vstopnina na petkovo zabavo"],
+          tiers: ["50", "60", "70"],
+          includes: [
+            "4 ure delavnic - nivo 1",
+            "",
+            "vstopnina na petkovo zabavo",
+          ],
         },
       ],
-      groups: {
-        title: "Skupinski popust",
-        description: ["Pravila skupine:"],
-        groupRules: [
-          "popusti se ne seštevajo - za člane skupine in upravičene do popusta štejejo le nosilci Full Pass vstopnice,",
-          "skupina mora obsegati najmanj 10 plesalcev, ki se udeležijo dogodka,",
-          "skupina mora biti uravnotežena po vlogah z minimalnim razmerjem 2 leaderja na vsake 3 followerje,",
-          "idealno je, da vsi člani skupine izhajajo iz iste plesne skupnosti, območja ali države,",
-          "vsi člani skupine prejmejo 10% popust na svojo karto,",
-          "vodja skupine šteje kot del skupine in mora biti tudi nosilec Full Pass vstopnice,",
-          "popusti se upoštevaju že ob registraciji na osnovi trenutnega cenovnega razreda,",
-          "vodje skupin prejmejo unikatno kodo, ki jo morajo njihovi člani uporabiti ob registraciji,",
-          "če skupina ne doseže 10 članov ob času dogodka, se skupina razpusti in udeleženci bodo morali na mestu plačati popustni znesek.",
-        ],
-      },
+      //   groups: {
+      //     title: "Skupinski popust",
+      //     description: ["Pravila skupine:"],
+      //     groupRules: [
+      //       "popusti se ne seštevajo - za člane skupine in upravičene do popusta štejejo le nosilci Full Pass vstopnice,",
+      //       "skupina mora obsegati najmanj 10 plesalcev, ki se udeležijo dogodka,",
+      //       "skupina mora biti uravnotežena po vlogah z minimalnim razmerjem 2 leaderja na vsake 3 followerje,",
+      //       "idealno je, da vsi člani skupine izhajajo iz iste plesne skupnosti, območja ali države,",
+      //       "vsi člani skupine prejmejo 10% popust na svojo karto,",
+      //       "vodja skupine šteje kot del skupine in mora biti tudi nosilec Full Pass vstopnice,",
+      //       "popusti se upoštevaju že ob registraciji na osnovi trenutnega cenovnega razreda,",
+      //       "vodje skupin prejmejo unikatno kodo, ki jo morajo njihovi člani uporabiti ob registraciji,",
+      //       "če skupina ne doseže 10 članov ob času dogodka, se skupina razpusti in udeleženci bodo morali na mestu plačati popustni znesek.",
+      //     ],
+      //   },
     },
   },
   location: {
@@ -499,46 +487,46 @@ const si = {
         ],
         roomTypes: [
           {
-            type: "DELUXE soba",
+            type: "SUPERIOR soba",
             beds: "Dvoposteljna ali z dvema ločenima ležiščema",
             prices: [
               {
                 occupancy: "nastanitev ene osebe",
-                price: "75 € / 99 € s zajtrkom",
+                price: "80 € / 104 € s zajtrkom",
               },
               {
                 occupancy: "nastanitev dveh oseb",
-                price: "99 € / 118 € s zajtrkom",
+                price: "85 € / 128 € s zajtrkom",
               },
             ],
           },
           {
-            type: "EXECUTIVE soba",
+            type: "PREMIUM soba",
             beds: "Dvoposteljna ali z dvema ločenima ležiščema",
             prices: [
               {
                 occupancy: "nastanitev ene osebe",
-                price: "100 € / 124 € s zajtrkom",
+                price: "105 € / 130 € s zajtrkom",
               },
               {
                 occupancy: "nastanitev dveh oseb",
-                price: "124 € / 149 € s zajtrkom",
+                price: "110 € / 153 € s zajtrkom",
               },
             ],
           },
         ],
         booking: {
-          text: "Sobo katere koli vrste lahko rezerviraš na spodnjih povezavah:",
-          links: [
-            {
-              roomType: "rezerviraj sobo z zajtrkom",
-              link: "https://reservations.travelclick.com/75036?groupID=4129307",
-            },
-            {
-              roomType: "rezerviraj sobo brez zajtrka",
-              link: "https://reservations.travelclick.com/75036?groupID=4132278",
-            },
-          ],
+          text: "Povezavo za rezervacijo sob bomo poslali po mejlu ob sprejetju prijave.",
+          //   links: [
+          //     {
+          //       roomType: "rezerviraj sobo z zajtrkom",
+          //       link: "https://reservations.travelclick.com/75036?groupID=4129307",
+          //     },
+          //     {
+          //       roomType: "rezerviraj sobo brez zajtrka",
+          //       link: "https://reservations.travelclick.com/75036?groupID=4132278",
+          //     },
+          //   ],
         },
         links: {
           mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
@@ -579,47 +567,47 @@ const si = {
       },
     ],
   },
-  dayTrip: {
-    pageTitle: "Četrtkov izlet",
-    description: [
-      {
-        src: "/images/day_trip_postojna_cave.jpg",
-        alt: "Slika Postojnske jame",
-        texts: [
-          "Pridruži se nam na nepozabnem enodnevnem izletu, ko se družimo in skupaj raziskujemo dve najbolj ikonični znamenitosti Slovenije: Postojnsko jamo in Predjamski grad.",
-          "Odkrij Postojnsko jamo, obsežen 24-kilometrski kraški jamski sistem, ki predstavlja eno od naravnih čudes Slovenije. Znotraj njegovih obsežnih dvoran in vijugastih prehodov lahko naletiš na vrsto osupljivih stalaktitov in stalagmitov, pa tudi na človeško ribico, zanimivo vrsto, prilagojeno življenju v temi podzemnega sveta. Naš voden ogled bo prestavil fascinantno geologijo in biotsko raznovrstnost jame in ponudil globlje razumevanje tega podzemnega sveta.",
-        ],
-      },
-      {
-        src: "/images/day_trip_predjama_castle.jpg",
-        alt: "Slika Predjamskega gradu",
-        texts: [
-          "Po obisku jam se bomo odpravili do Predjamskega gradu, ki je umeščen v ustje jame. Ta renesančna trdnjava, ki je brezhibno integrirana z naravnim kamnom, ponuja vpogled v preteklost in osupljive poglede na okoliško pokrajino.",
-          "Čeprav se lahko točni časi še spremenijo, bo naš dan potekal nekako takole:",
-        ],
-        itinerary: [
-          ["9:30:", "Odhod iz Ljubljane."],
-          ["11:00:", "Prihod in voden obisk Postojnskih jam."],
-          [
-            "12:30:",
-            "Prosti čas za kosilo, nakupovanje spominkov ali obisk Vivarija.",
-          ],
-          ["14:30:", "Raziskovanje Predjamskega gradu."],
-          ["17:00:", "Vrnitev v Ljubljano."],
-        ],
-      },
-      {
-        texts: [
-          "Strošek tega izleta je 75 EUR na osebo, kar vključuje prevoz in vodene oglede tako Postojnske jame kot Predjamskega gradu.",
-          "Za izvedbo izleta je potrebnih najmanj 10 udeležencev, registracija pa je obvezna. Prostor na avtobusu je omejen, zato ne zamudi priložnosti, da se nam pridružiš in z nami raziskuješ naravne in zgodovinske zaklade Slovenije!",
-        ],
-      },
-    ],
-  },
+  //   dayTrip: {
+  //     pageTitle: "Četrtkov izlet",
+  //     description: [
+  //       {
+  //         src: "/images/day_trip_postojna_cave.jpg",
+  //         alt: "Slika Postojnske jame",
+  //         texts: [
+  //           "Pridruži se nam na nepozabnem enodnevnem izletu, ko se družimo in skupaj raziskujemo dve najbolj ikonični znamenitosti Slovenije: Postojnsko jamo in Predjamski grad.",
+  //           "Odkrij Postojnsko jamo, obsežen 24-kilometrski kraški jamski sistem, ki predstavlja eno od naravnih čudes Slovenije. Znotraj njegovih obsežnih dvoran in vijugastih prehodov lahko naletiš na vrsto osupljivih stalaktitov in stalagmitov, pa tudi na človeško ribico, zanimivo vrsto, prilagojeno življenju v temi podzemnega sveta. Naš voden ogled bo prestavil fascinantno geologijo in biotsko raznovrstnost jame in ponudil globlje razumevanje tega podzemnega sveta.",
+  //         ],
+  //       },
+  //       {
+  //         src: "/images/day_trip_predjama_castle.jpg",
+  //         alt: "Slika Predjamskega gradu",
+  //         texts: [
+  //           "Po obisku jam se bomo odpravili do Predjamskega gradu, ki je umeščen v ustje jame. Ta renesančna trdnjava, ki je brezhibno integrirana z naravnim kamnom, ponuja vpogled v preteklost in osupljive poglede na okoliško pokrajino.",
+  //           "Čeprav se lahko točni časi še spremenijo, bo naš dan potekal nekako takole:",
+  //         ],
+  //         itinerary: [
+  //           ["9:30:", "Odhod iz Ljubljane."],
+  //           ["11:00:", "Prihod in voden obisk Postojnskih jam."],
+  //           [
+  //             "12:30:",
+  //             "Prosti čas za kosilo, nakupovanje spominkov ali obisk Vivarija.",
+  //           ],
+  //           ["14:30:", "Raziskovanje Predjamskega gradu."],
+  //           ["17:00:", "Vrnitev v Ljubljano."],
+  //         ],
+  //       },
+  //       {
+  //         texts: [
+  //           "Strošek tega izleta je 75 EUR na osebo, kar vključuje prevoz in vodene oglede tako Postojnske jame kot Predjamskega gradu.",
+  //           "Za izvedbo izleta je potrebnih najmanj 10 udeležencev, registracija pa je obvezna. Prostor na avtobusu je omejen, zato ne zamudi priložnosti, da se nam pridružiš in z nami raziskuješ naravne in zgodovinske zaklade Slovenije!",
+  //         ],
+  //       },
+  //     ],
+  //   },
   registration: {
     pageTitle: "Registracija",
-    opensSoonText: "Registracija se odpre 7. novembra 2023.",
-    registrationInfoText: "Pred registracijo si obvezno preberi:",
+    opensSoonText: "Registracija se odpre 25. novembra 2024 ob 18:00",
+    registrationInfoText: "Pred registracijo si obvezno preberi ",
     loading: "Nalaganje obrazca za registracijo...",
     registerNow: "Prijavi se",
   },
@@ -668,8 +656,8 @@ const si = {
           value:
             "V primeru odpovedi s strani udeleženca, bomo ponudili vračilo kupnine v naslednjih stopnjah:",
           list: [
-            "Za zahtevke za odpoved, prejete do vključno 18. feburarja 2024, bo kupnina delno povrnjena - 50% prejetega plačila.",
-            "Za zahtevke za odpoved, prejete 19. februarja 2024 ali pozneje, kupnina ne bo povrnjena.",
+            "Za zahtevke za odpoved, prejete do vključno 9. feburarja 2025, bo kupnina delno povrnjena - 50% prejetega plačila.",
+            "Za zahtevke za odpoved, prejete 10. februarja 2025 ali pozneje, kupnina ne bo povrnjena.",
           ],
         },
         {
