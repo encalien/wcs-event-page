@@ -655,9 +655,82 @@ const en = {
   registration: {
     pageTitle: "Registration",
     opensSoonText: "Registration opens on 25 November 2024 at 18:00 (SLO time)",
-    registrationInfoText: "Before registering, please read the following ",
+    registrationInfoTexts: {
+      pleaseReadText: "Before registering, please read the following:",
+      links: [
+        {
+          urlPath: "terms-and-conditions",
+          urlText: "Terms and Conditions",
+        },
+        {
+          urlPath: "workshops/levels",
+          urlText: "level descriptions",
+        },
+        {
+          urlPath: "pricing",
+          urlText: "pass type options",
+        },
+      ],
+    },
     loading: "Loading Registration form...",
     registerNow: "Register here",
+    instructions: [
+      {
+        title: "Signing up in a couple",
+        textsList: [
+          "Both partners must be on the same pass type (e.g. both full pass or both party pass).",
+          "Partners must be of opposite roles (1 leader + 1 follower).",
+          "Each partner needs to submit their own registration form.",
+          `In the "Partner's email" field each of the participant must enter the same email as their partner used for their registration in order for us to match the partners correctly.`,
+        ],
+        postText:
+          "Your registration will be processed as soon as both you and your partner submit the registration forms. Until then, your registration will be placed on waitlist, waiting for your partner.",
+      },
+      {
+        title: "Signing up solo",
+        textsList: [
+          `Leave the "Partner's email" field empty.`,
+          "You will be on the waitlist until we can role balance your registration. During that time you can still add a partner, by having them sign up, and put your email down as their partner when registering.",
+          "Once we role balance you and your registration is accepted, you can no longer add a partner.",
+        ],
+      },
+      {
+        title: "Signing up as switch",
+        preTexts: [
+          "We recognize that more and more people dance both roles at WCS events. You may sign up with a switch if you actively dance both roles, and agree to the following:",
+        ],
+        textsList: [
+          "If participating in workshops, you agree to take them in the role where we have fewer dancers (most likely leaders).",
+          "During parties you agree to actively ask people as both leader and follower in roughly equal parts.",
+        ],
+        postText:
+          "Note that participants registering as switch are NOT allowed to add a partner.",
+      },
+      {
+        title: "Signing up with a free pass",
+        preTexts: [
+          "If you are one of the lucky free pass holders to the event, congratulations!",
+          "Please write in the comment field:",
+        ],
+        textsList: [
+          "which type of the pass (full or party) you have,",
+          "where and for what competition and role you won the pass.",
+        ],
+        postText:
+          "Note that free pass holders are NOT allowed to add a partner to their registration.",
+      },
+      {
+        title: "Signing up as an All Star judge",
+        preTexts: [
+          "First 10 All Star participants are entitled to a free party pass in exchange for your help with judging. You may upgrade this pass to a Full pass for the price difference.",
+          "If you would like to use this offer:",
+        ],
+        textsList: [
+          "choose the pass you want,",
+          `in the "Comment" field write that you would like to help with judging.`,
+        ],
+      },
+    ],
   },
   notFound: {
     pageTitle: "Page not found",

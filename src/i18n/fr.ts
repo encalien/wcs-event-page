@@ -679,9 +679,82 @@ const fr = {
   registration: {
     pageTitle: "Inscription",
     opensSoonText: "Les inscriptions ouvriront en Novembre 25, 2024 - 18:00",
-    registrationInfoText: "Merci de lire avant de vous inscrire les ",
+    registrationInfoTexts: {
+      pleaseReadText: "Avant de vous inscrire, veuillez lire ce qui suit :",
+      links: [
+        {
+          urlPath: "terms-and-conditions",
+          urlText: "Termes et Conditions",
+        },
+        {
+          urlPath: "workshops/levels",
+          urlText: "descriptions des niveaux",
+        },
+        {
+          urlPath: "pricing",
+          urlText: "options de types de pass",
+        },
+      ],
+    },
     loading: "Chargement du formulaire d'inscription...",
-    registerNow: "Inscription",
+    registerNow: "Inscrivez-vous ici",
+    instructions: [
+      {
+        title: "Inscription en couple",
+        textsList: [
+          "Les deux partenaires doivent choisir le même type de pass (par exemple, les deux pass complet ou les deux pass fête).",
+          "Les partenaires doivent avoir des rôles opposés (1 leader + 1 follower).",
+          "Chaque partenaire doit soumettre son propre formulaire d'inscription.",
+          `Dans le champ "Partner's email", chaque participant doit entrer le même email que celui utilisé par son partenaire lors de son inscription pour que nous puissions correctement associer les partenaires.`,
+        ],
+        postText:
+          "Votre inscription sera traitée dès que vous et votre partenaire aurez soumis les formulaires d'inscription. En attendant, votre inscription sera placée sur liste d'attente, en attente de votre partenaire.",
+      },
+      {
+        title: "Inscription en solo",
+        textsList: [
+          `Laissez le champ "Partner's email" vide.`,
+          "Vous serez sur liste d'attente jusqu'à ce que nous puissions équilibrer les rôles pour votre inscription. Pendant ce temps, vous pouvez toujours ajouter un partenaire en lui demandant de s'inscrire et d'indiquer votre email comme partenaire lors de son inscription.",
+          "Une fois votre inscription équilibrée et acceptée, vous ne pourrez plus ajouter de partenaire.",
+        ],
+      },
+      {
+        title: "Inscription en switch",
+        preTexts: [
+          "Nous reconnaissons que de plus en plus de personnes dansent les deux rôles lors des événements WCS. Vous pouvez vous inscrire en switch si vous dansez activement les deux rôles et acceptez les conditions suivantes :",
+        ],
+        textsList: [
+          "Si vous choisissez un pass pour les ateliers, vous acceptez de participer dans le rôle où nous avons moins de danseurs (très probablement leaders).",
+          "Pendant les soirées, vous acceptez de demander activement des partenaires en tant que leader et follower de manière à peu près égale.",
+        ],
+        postText:
+          "Veuillez noter que les participants s'inscrivant en switch NE sont PAS autorisés à ajouter un partenaire.",
+      },
+      {
+        title: "Inscription avec un pass gratuit",
+        preTexts: [
+          "Si vous êtes l'un des heureux détenteurs d'un pass gratuit pour l'événement, félicitations !",
+          "Veuillez écrire dans le champ de commentaire :",
+        ],
+        textsList: [
+          "le type de pass (complet ou fête) que vous avez,",
+          "où et pour quelle compétition et rôle vous avez gagné le pass.",
+        ],
+        postText:
+          "Veuillez noter que les détenteurs de pass gratuits NE sont PAS autorisés à ajouter un partenaire à leur inscription.",
+      },
+      {
+        title: "Inscription en tant que juge All Star",
+        preTexts: [
+          "Les 10 premiers participants All Star ont droit à un pass fête gratuit en échange de votre aide en tant que juge. Vous pouvez améliorer ce pass en un pass complet en payant la différence de prix.",
+          "Si vous souhaitez profiter de cette offre :",
+        ],
+        textsList: [
+          "choisissez le pass que vous souhaitez,",
+          `dans le champ "Comment", indiquez que vous souhaitez aider en tant que juge.`,
+        ],
+      },
+    ],
   },
   notFound: {
     pageTitle: "Page non trouvée",

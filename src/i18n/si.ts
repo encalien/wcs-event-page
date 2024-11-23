@@ -607,9 +607,71 @@ const si = {
   registration: {
     pageTitle: "Registracija",
     opensSoonText: "Registracija se odpre 25. novembra 2024 ob 18:00",
-    registrationInfoText: "Pred registracijo si obvezno preberi ",
+    registrationInfoTexts: {
+      pleaseReadText: "Pred registracijo si pozorno preberi:",
+      links: [
+        {
+          urlPath: "terms-and-conditions",
+          urlText: "Pravila in pogoje sodelovanja",
+        },
+        {
+          urlPath: "workshops/levels",
+          urlText: "opise nivojev delavnic",
+        },
+        {
+          urlPath: "pricing",
+          urlText: "opise vrst vstopnic",
+        },
+      ],
+    },
     loading: "Nalaganje obrazca za registracijo...",
     registerNow: "Prijavi se",
+    instructions: [
+      {
+        title: "Registracija v paru",
+        textsList: [
+          "Oba partnerja morata izbrati isto vrsto vstopnice (npr. oba full pass ali oba party pass).",
+          "Partnerja morata imeti nasprotni vlogi (1 leader + 1 follower).",
+          "Vsak partner mora oddati svoj obrazec za registracijo.",
+          `V polje "Partner's email" mora vsak udeleženec vnesti isti email naslov, kot ga je njegov partner uporabil pri registraciji, da bomo lahko v sistemu registraciji pravilno povezali.`,
+        ],
+        postText:
+          "Tvoja registracija bo obdelana takoj, ko bosta oba s partnerjem oddala prijavnico. Do takrat bo tvoja registracija na čakalnem seznamu.",
+      },
+      {
+        title: "Registracija brez para",
+        textsList: [
+          `Polje "Partner's email" pusti prazno.`,
+          `Tvoja prijava bo uvrščena v čakalno vrsto, dokler ti ne najdemo para. V tem času lahko še vedno dodaš partnerja tako, da se le-ta prijavi in ob prijavi navede vaš email naslov kot pod "Partner's email"`,
+          "Ko je registracija sprejeta iz čakalne vrste, partnerja ne možno več dodati.",
+        ],
+      },
+      {
+        title: "Registracija kot switch",
+        preTexts: [
+          "Zavedamo se, da vedno več ljudi na dogodkih WCS pleše obe vlogi. Kot switch se lahko prijaviš, če aktivno plešeš obe vlogi in se strinjaš z naslednjim:",
+        ],
+        textsList: [
+          "Če se odločiš za full pass, se strinjaš, da jih boš obiskoval_a v vlogi, ki je v pomanjkanju (najverjetneje leader).",
+          "Na zabavah boš aktivno plesal_a kot leader in kot follower v približno enakem razmerju.",
+        ],
+        postText:
+          "Udeležencem, ki se prijavijo kot switch, NI dovoljeno dodati partnerja.",
+      },
+      {
+        title: "Registracija z brezplačno vstopnico",
+        preTexts: [
+          "Če imaš brezplačno vstopnico za dogodek, čestitamo!",
+          "V polje za komentar napiši:",
+        ],
+        textsList: [
+          "katero vrsto vstopnice (full pass ali party pass) imaš,",
+          "na katerem dogodku, za katero tekmovanje ter v kateri vlogi si vstopnico osvojil.",
+        ],
+        postText:
+          "Imetnikom brezplačnih vstopnic NI dovoljeno dodati partnerja k prijavi.",
+      },
+    ],
   },
   notFound: {
     pageTitle: "Stran ne obstaja",

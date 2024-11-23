@@ -120,7 +120,9 @@ export default {
     </ul>
   </section> -->
   <section>
-    <span>{{ $t("registration.registrationInfoText") }}&nbsp;</span>
+    <span
+      >{{ $t("registration.registrationInfoTexts.pleaseReadText") }}&nbsp;</span
+    >
     <router-link :to="`/${$store.state.lang}/terms-and-conditions`">
       {{ $t("termsAndConditions.pageTitle") }} </router-link
     >.

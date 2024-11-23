@@ -19,11 +19,7 @@ export default {
         {{ $t("event.location") }}, {{ $t("event.date") }}
       </h2>
       <div>
-        <div
-          href="https://forms.gle/5LZA76MxxWSazadZ7"
-          target="_blank"
-          id="register-now-btn"
-        >
+        <div href="#" target="_blank" id="register-now-btn">
           {{ $t("registration.opensSoonText") }}
         </div>
       </div>
@@ -120,7 +116,7 @@ export default {
 }
 
 #register-now-btn:hover {
-  background-color: #fbf9c4;
+  /* background-color: #fbf9c4; */
   text-decoration: none;
 }
 

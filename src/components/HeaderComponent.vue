@@ -210,19 +210,18 @@ export default {
                 {{ $t("dayTrip.pageTitle") }}
               </router-link>
             </div> -->
-            <!-- <div
+            <div
               class="menu-item"
               :class="{ active: isMobileMenuOpen }"
               @click="closeAllMenus()"
             >
-              <a
-                href="https://forms.gle/5LZA76MxxWSazadZ7"
-                target="_blank"
+              <router-link
+                :to="`/${$store.state.lang}/registration`"
                 class="menu-item-link dropdown-header"
               >
                 {{ $t("registration.pageTitle") }}
-              </a>
-            </div> -->
+              </router-link>
+            </div>
             <div
               id="social-icons"
               class="menu-item flex-container flex-container-row"
