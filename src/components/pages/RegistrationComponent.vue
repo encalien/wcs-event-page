@@ -13,9 +13,13 @@ export default {
   <section>
     <h1>{{ $t("registration.pageTitle") }}</h1>
     <!-- <p>{{ $t("registration.opensSoonText") }}</p> -->
-    <div href="#" target="_blank" id="register-now-btn">
-      {{ $t("registration.opensSoonText") }}
-    </div>
+    <a
+      href="https://forms.gle/3yyfug7jyT1uuk3i8"
+      target="_blank"
+      id="register-now-btn"
+    >
+      {{ $t("registration.registerNow") }}
+    </a>
 
     <section>
       <p>{{ $t(`registration.registrationInfoTexts.pleaseReadText`) }}</p>
@@ -87,7 +91,7 @@ ul {
 }
 
 #register-now-btn:hover {
-  /* background-color: #f06d62; */
+  background-color: #f06d62;
   text-decoration: none;
 }
 </style>

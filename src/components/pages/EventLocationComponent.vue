@@ -54,7 +54,7 @@ export default {
       <div v-if="messages.location.venue[venueIndex].booking">
         <div>
           {{ $t(`location.venue[${venueIndex}].booking.text`) }}
-          <ul>
+          <!-- <ul>
             <li
               v-for="(link, i) in messages.location.venue[venueIndex].booking
                 ?.links"
@@ -72,7 +72,7 @@ export default {
                 }}</a
               >
             </li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </div>
@@ -120,6 +120,10 @@ img {
 
 hr {
   margin: 4rem auto;
+}
+
+ul {
+  margin-bottom: 1rem;
 }
 
 #hotel-info {

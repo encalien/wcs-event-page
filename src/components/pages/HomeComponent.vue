@@ -19,9 +19,13 @@ export default {
         {{ $t("event.location") }}, {{ $t("event.date") }}
       </h2>
       <div>
-        <div href="#" target="_blank" id="register-now-btn">
-          {{ $t("registration.opensSoonText") }}
-        </div>
+        <a
+          href="https://forms.gle/3yyfug7jyT1uuk3i8"
+          target="_blank"
+          id="register-now-btn"
+        >
+          {{ $t("registration.registerNow") }}
+        </a>
       </div>
       <!-- <a href="#/registration" class="btn btn-primary">{{ $t('registration.pageTitle') }}</a> -->
     </div>
