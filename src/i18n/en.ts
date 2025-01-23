@@ -14,6 +14,7 @@ const en = {
           "Karin Kakun & Ludovic Pelegrin",
           "Savana Barreau & João Parada",
           "Andrea Pártos & Attila Pártos",
+          "Evgenia Itkina & Clement Turpain",
         ],
       },
       {
@@ -126,6 +127,15 @@ const en = {
               "Today, Attila and Andrea spread their profound love for West Coast Swing by offering classes both in Hungary and abroad. Whether it's group sessions or private lessons, their mission is to share their extensive knowledge and deep-rooted passion. For them, dance is a part of their everyday life.",
             ],
           },
+          {
+            names: "Evgenia & Clement",
+            src: "/images/teachers_evgenia_clement.jpg",
+            description: [
+              "Clevi - Clem & Evi - are two passionate West Coast Swing dancers based in Berlin. With a decade of experience each, they have joined forces to teach and dance together. Clement, an All-Star Division leader and an Advanced Division follower, brings a unique sense of musicality and creativity to the dance floor with his decade of musical studies and his background in solo dances like Ballet, Hip-Hop, and Contemporary.",
+              "Evi, an All-Star Division follower with a professional contemporary dance background and experience in Ballet, Jazz, and Modern dance, adds her unique flavor to WCS.",
+              "Clem & Evi love communication and connection in WCS, which allow them to co-create and express the music both as individual dancers and as a couple. They also love choreographies and achieved a 5th place in the Rising Star division at the Open 2023, as well as a 1st place at Global Grand Prix 2023 and French Open 2024.",
+            ],
+          },
         ],
       },
       //   {
@@ -178,9 +188,9 @@ const en = {
       //           "His favorite songs to dance to right now are:",
       //         ],
       //         songList: [
-      //           "Lose It by Oh Wonder",
-      //           "Papa by SICKOTOY, Eliana Gjata, INNA",
-      //           "No Ocean by EXES, Jome",
+      // "Lose It by Oh Wonder",
+      // "Papa by SICKOTOY, Eliana Gjata, INNA",
+      // "No Ocean by EXES, Jome",
       //         ],
       //       },
       //       {

@@ -15,6 +15,7 @@ const si = {
           "Karin Kakun & Ludovic Pelegrin",
           "Savana Barreau & João Parada",
           "Andrea Pártos & Attila Pártos",
+          "Evgenia Itkina & Clement Turpain",
         ],
       },
       {
@@ -125,6 +126,16 @@ const si = {
               "Attila in Andrea sta svojo plesno kariero začela kot plesalca standardnih in latinskoameriških plesov. Veliko let sta poučevala te plesne zvrsti in v tem času osvojila številne prvenstvene naslove. Po rojstvu prvega otroka sta se odločila za odmik od aktivne kariere, a plesa nista mogla povsem opustiti in sta vedno hrepenela po vrnitvi na plesišče.",
               "Leta 2013 sta odkrila West Coast Swing in kmalu postala zasvojena s tem plesnim stilom. Zaradi izrazitih razlik med standardnimi plesi in West Coast Swing, sta v tem plesu našla svojo strast, predvsem zaradi njegovih neskončnih možnosti in svobode. Tekmovanja nista mogla povsem opustiti, tako da sta po nekaj letih tekmovanja oba dosegla prestižno kategorijo All-Star.",
               "Danes Attila in Andrea širita svojo globoko ljubezen do west coast swinga tako, da ponujata tečaje tako na Madžarskem kot v tujini. Ne glede na to, ali gre za skupinske tečaje ali zasebne ure, je njuna misija deliti svoje obsežno znanje in globoko strast. Za njiju je ples del vsakdanjega življenja.",
+            ],
+          },
+          {
+            names: "Evgenia & Clement",
+            src: "/images/teachers_evgenia_clement.jpg",
+            description: [
+              "Clevi – Clem in Evi – sta strastna plesalca West Coast Swinga iz Berlina. Vsak z desetletnimi izkušnjami sta združila moči, da skupaj poučujeta in plešeta. Clement, plesalec v All-Star Diviziji in plesalka v Advanced Diviziji, prinaša na plesišče edinstven občutek za muzikalnost in kreativnost, ki izhajata iz njegovih desetletnih glasbenih študij in njegovega ozadja v solo plesih, kot so balet, hip-hop in sodobni ples.",
+              "Evi, plesalka v All-Star Diviziji, s profesionalnim ozadjem v sodobnem plesu ter izkušnjami v baletu, jazzu in modernem plesu, prispeva svoj edinstven pridih k WCS.",
+              "Clem in Evi obožujeta komunikacijo in povezovanje v WCS, ki jima omogočata, da soustvarjata in izražata glasbo tako kot posamezna plesalca kot tudi kot par.",
+              "Obožujeta tudi koreografije, saj sta dosegla 5. mesto v Rising Star diviziji na Open 2023, 1. mesto na Global Grand Prix 2023 in French Open 2024.",
             ],
           },
         ],

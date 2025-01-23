@@ -16,6 +16,7 @@ const fr = {
           "Karin Kakun & Ludovic Pelegrin",
           "Savana Barreau & João Parada",
           "Andrea Pártos & Attila Pártos",
+          "Evgenia Itkina & Clement Turpain",
         ],
       },
       {
@@ -120,6 +121,16 @@ const fr = {
               "Attila et Andrea ont commencé leur carrière de danseurs de salon. Ils ont enseigné les danses latines et standard pendant de nombreuses années. Après une carrière de quinze ans couronné de succès, en possession de nombreux titres de champion, ils ont choisi de faire une pause après la naissance de leur premier enfant.",
               "Ils n'ont jamais pu se séparer complètement de la danse, toujours désireux de revenir sur la piste de danse. En 2013, ils ont rencontré le West Coast Swing et sont rapidement devenus accros au genre. Remarquant les différences entre le ballroom et le West Coast Swing, cette danse est devenue leur passion, principalement en raison de ses possibilités infinies et de sa liberté. Ils n'ont pas pu non plus abandonner la compétition, alors après quelques années de compétition, ils ont tous deux atteint la prestigieuse catégorie All-Star.",
               "Aujourd'hui, Attila et Andrea partagent leur profond amour pour le West Coast Swing en proposant des cours en Hongrie et à l'étranger. Qu'il s'agisse de cours de groupe ou de cours particuliers, leur mission est de partager leurs connaissances approfondies et leur passion. Pour eux, la danse fait partie de leur vie quotidienne.",
+            ],
+          },
+          {
+            names: "Evgenia & Clement",
+            src: "/images/teachers_evgenia_clement.jpg",
+            description: [
+              "Clevi – Clem & Evi – sont deux danseurs passionnés de West Coast Swing basés à Berlin. Avec une décennie d’expérience chacun, ils ont uni leurs forces pour enseigner et danser ensemble. Clement, leader en All-Star Division et follower en Advanced Division, apporte une musicalité et une créativité uniques sur la piste de danse grâce à ses dix années d’études musicales et son expérience dans les danses solo comme le ballet, le hip-hop et la danse contemporaine.",
+              "Evi, follower en All-Star Division avec une formation professionnelle en danse contemporaine et une expérience en ballet, jazz et danse moderne, ajoute sa touche unique au West Coast Swing.",
+              "Clem & Evi aiment la communication et la connexion dans le West Coast Swing, ce qui leur permet de co-créer et d’exprimer la musique à la fois en tant que danseurs individuels et en tant que couple.",
+              "Ils adorent également les chorégraphies et ont obtenu une 5e place dans la division Rising Star à l’Open 2023, ainsi qu’une 1re place au Global Grand Prix 2023 et au French Open 2024.",
             ],
           },
         ],
