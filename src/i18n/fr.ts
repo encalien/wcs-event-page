@@ -664,43 +664,41 @@ const fr = {
       ],
     },
   },
-  //   dayTrip: {
-  //     pageTitle: "Excursion",
-  //     description: [
-  //       {
-  //         src: "/images/day_trip_postojna_cave.jpg",
-  //         alt: "Image de la grotte de Postojna",
-  //         texts: [
-  //           "Rejoignez-nous pour une excursion d'une journée inoubliable alors que nous passons du temps ensemble et explorons deux des attractions les plus emblématiques de la Slovénie : les grottes de Postojna et le château de Predjama.",
-  //           "Découvrez les grottes de Postojna, un vaste système de grottes karstiques de 24 kilomètres, considéré comme l'une des merveilles naturelles du pays. Au sein de ses vastes chambres et de ses passages sinueux, vous rencontrerez une variété de stalactites et stalagmites impressionnantes, ainsi que l'unique protée anguillard, une espèce intrigante adaptée à la vie dans l'obscurité du monde souterrain. Notre visite guidée éclairera la géologie fascinante et la biodiversité de la grotte, vous offrant une compréhension approfondie de cette merveille souterraine.",
-  //         ],
-  //       },
-  //       {
-  //         src: "/images/day_trip_predjama_castle.jpg",
-  //         alt: "Image du château de Predjama",
-  //         texts: [
-  //           "Après les grottes, nous nous rendrons au château de Predjama, un prodige de l'architecture médiévale perché à l'entrée d'une grotte. Cette forteresse de la Renaissance, intégrée parfaitement dans le rocher naturel, offre un aperçu du passé et des vues spectaculaires sur le paysage environnant.",
-  //           "Bien que les horaires exacts puissent encore changer, voici à quoi ressemblera notre journée :",
-  //         ],
-  //         itinerary: [
-  //           ["9h30 :", "Départ de Ljubljana."],
-  //           ["11h00 :", "Arrivée et visite guidée des grottes de Postojna."],
-  //           [
-  //             "12h30 :",
-  //             "Temps libre pour déjeuner, faire du shopping de souvenirs ou visiter le Vivarium.",
-  //           ],
-  //           ["14h30 :", "Exploration du château de Predjama."],
-  //           ["17h00 :", "Retour à Ljubljana."],
-  //         ],
-  //       },
-  //       {
-  //         texts: [
-  //           "Le coût de cette excursion d'une journée mémorable est de 75 EUR par personne, incluant le transport et les visites guidées de la grotte de Postojna et du château de Predjama.",
-  //           "Veuillez noter que le voyage nécessite un minimum de 10 participants pour avoir lieu, et l'inscription est nécessaire pour sécuriser votre place. L'espace dans le bus est limité, alors ne manquez pas votre chance de rejoindre cette aventure et d'explorer les trésors naturels et historiques de la Slovénie !",
-  //         ],
-  //       },
-  //     ],
-  //   },
+  dayTrip: {
+    pageTitle: "Excursion d'une journée",
+    description: [
+      {
+        src: "/images/day_trip_tolmin_gorges.png",
+        alt: "Gorges de Tolmin img",
+        texts: [
+          "Rejoignez-nous pour une excursion inoubliable dans la magnifique vallée de la Soča, qui abrite certains des plus beaux trésors naturels de Slovénie. Cette année, nous visiterons les gorges de Tolmin, un joyau caché connu pour ses eaux turquoise, ses formations rocheuses spectaculaires et sa végétation luxuriante.",
+          "Notre visite guidée nous mènera à travers le canyon étroit sculpté par les rivières Tolminka et Zadlaščica, où nous verrons des formations géologiques fascinantes, notamment la roche de la Tête d'Ours, le Pont du Diable et la Grotte de Dante, nommée d'après le célèbre poète qui aurait trouvé ici son inspiration pour l'Enfer. En chemin, nous découvrirons l'écosystème unique de la vallée et son histoire riche.",
+        ],
+      },
+      {
+        src: "/images/day_trip_most_na_soci.png",
+        alt: "Most na Soči img",
+        texts: [
+          "Après notre aventure dans les gorges, nous nous dirigerons vers Most na Soči, une charmante ville au bord d'un lac où les eaux émeraude de la rivière Soča rencontrent la rivière Idrijca. Nous y déjeunerons et profiterons d'un peu de temps libre pour apprécier l'atmosphère paisible, nous promener le long de la rive ou simplement nous détendre avec un café tout en admirant la vue. Il est également possible de se baigner, bien que l'eau puisse être assez froide.",
+          "Bien que le programme puisse encore changer, voici un aperçu de notre journée :",
+        ],
+        itinerary: [
+          ["9:00 am:", "Départ de Ljubljana."],
+          ["11:00 am:", "Arrivée et visite guidée des gorges de Tolmin."],
+          ["13:15 pm:", "Départ pour Most na Soči."],
+          ["13:30 pm:", "Déjeuner et temps libre au bord du lac."],
+          ["18:00 pm:", "Retour à Ljubljana."],
+        ],
+      },
+      {
+        texts: [
+          "Le coût de cette excursion mémorable est de 55 EUR par personne, incluant le transport, les guides et les frais d'entrée.",
+          "Veuillez noter que les places dans le bus sont très limitées et qu'une inscription (bientôt ouverte !) est nécessaire pour garantir votre place. Nous nous réservons le droit de modifier des parties importantes du programme ou d'annuler complètement l'excursion pour toute raison. En cas d'annulation de notre part, tous les paiements seront remboursés ; en cas d'annulation de la part du participant, aucun remboursement ne sera possible.",
+          "Cette excursion est une tradition que nous adorons - chaque année, nous explorons une nouvelle région de Slovénie afin que nos participants puissent se rencontrer et découvrir la beauté du pays au-delà de la piste de danse. Ne manquez pas cette opportunité de découvrir l'une des régions les plus spectaculaires de Slovénie !",
+        ],
+      },
+    ],
+  },
   registration: {
     pageTitle: "Inscription",
     opensSoonText: "Les inscriptions ouvriront en Novembre 25, 2024 - 18:00",

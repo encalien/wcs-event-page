@@ -592,43 +592,41 @@ const si = {
       },
     ],
   },
-  //   dayTrip: {
-  //     pageTitle: "Četrtkov izlet",
-  //     description: [
-  //       {
-  //         src: "/images/day_trip_postojna_cave.jpg",
-  //         alt: "Slika Postojnske jame",
-  //         texts: [
-  //           "Pridruži se nam na nepozabnem enodnevnem izletu, ko se družimo in skupaj raziskujemo dve najbolj ikonični znamenitosti Slovenije: Postojnsko jamo in Predjamski grad.",
-  //           "Odkrij Postojnsko jamo, obsežen 24-kilometrski kraški jamski sistem, ki predstavlja eno od naravnih čudes Slovenije. Znotraj njegovih obsežnih dvoran in vijugastih prehodov lahko naletiš na vrsto osupljivih stalaktitov in stalagmitov, pa tudi na človeško ribico, zanimivo vrsto, prilagojeno življenju v temi podzemnega sveta. Naš voden ogled bo prestavil fascinantno geologijo in biotsko raznovrstnost jame in ponudil globlje razumevanje tega podzemnega sveta.",
-  //         ],
-  //       },
-  //       {
-  //         src: "/images/day_trip_predjama_castle.jpg",
-  //         alt: "Slika Predjamskega gradu",
-  //         texts: [
-  //           "Po obisku jam se bomo odpravili do Predjamskega gradu, ki je umeščen v ustje jame. Ta renesančna trdnjava, ki je brezhibno integrirana z naravnim kamnom, ponuja vpogled v preteklost in osupljive poglede na okoliško pokrajino.",
-  //           "Čeprav se lahko točni časi še spremenijo, bo naš dan potekal nekako takole:",
-  //         ],
-  //         itinerary: [
-  //           ["9:30:", "Odhod iz Ljubljane."],
-  //           ["11:00:", "Prihod in voden obisk Postojnskih jam."],
-  //           [
-  //             "12:30:",
-  //             "Prosti čas za kosilo, nakupovanje spominkov ali obisk Vivarija.",
-  //           ],
-  //           ["14:30:", "Raziskovanje Predjamskega gradu."],
-  //           ["17:00:", "Vrnitev v Ljubljano."],
-  //         ],
-  //       },
-  //       {
-  //         texts: [
-  //           "Strošek tega izleta je 75 EUR na osebo, kar vključuje prevoz in vodene oglede tako Postojnske jame kot Predjamskega gradu.",
-  //           "Za izvedbo izleta je potrebnih najmanj 10 udeležencev, registracija pa je obvezna. Prostor na avtobusu je omejen, zato ne zamudi priložnosti, da se nam pridružiš in z nami raziskuješ naravne in zgodovinske zaklade Slovenije!",
-  //         ],
-  //       },
-  //     ],
-  //   },
+  dayTrip: {
+    pageTitle: "Četrtkov izlet",
+    description: [
+      {
+        src: "/images/day_trip_tolmin_gorges.png",
+        alt: "Tolminska korita img",
+        texts: [
+          "Pridruži se nam na nepozabnem enodnevnem izletu v osupljivo dolino Soče, ki skriva nekaj najlepših naravnih zakladov Slovenije. Letos bomo obiskali Tolminska korita, skriti dragulj, znan po turkizni vodi, dramatičnih skalnih formacijah in bujnem zelenju.",
+          "Naša vodena tura nas bo popeljala skozi ozko sotesko, ki sta jo izoblikovali reki Tolminka in Zadlaščica. Ogledali si bomo edinstvene geološke formacije, kot so Medvedova glava, Hudičev most in Dantejeva jama, poimenovana po slovitem pesniku, ki naj bi prav tu našel navdih za Pekel. Ob poti bomo spoznali edinstven ekosistem doline in njeno bogato zgodovino.",
+        ],
+      },
+      {
+        src: "/images/day_trip_most_na_soci.png",
+        alt: "Most na Soči img",
+        texts: [
+          "Po raziskovanju korit se bomo odpravili v Most na Soči, slikovito mestece ob jezeru, kjer se smaragdna reka Soča združi z Idrijco. Tukaj bomo imeli kosilo in nekaj prostega časa, da uživamo v mirnem vzdušju, se sprehodimo ob vodi ali preprosto posedimo ob kavi in občudujemo razgled. Možno je tudi kopanje, čeprav zna biti voda precej hladna.",
+          "Čeprav se lahko urnik še spremeni, bo naš dan približno takšen:",
+        ],
+        itinerary: [
+          ["9:00 am:", "Odhod iz Ljubljane."],
+          ["11:00 am:", "Prihod in vodeni ogled Tolminskih korit."],
+          ["13:15 pm:", "Odhod proti Mostu na Soči."],
+          ["13:30 pm:", "Kosilo in prosti čas ob jezeru."],
+          ["18:00 pm:", "Povratek v Ljubljano."],
+        ],
+      },
+      {
+        texts: [
+          "Cena tega nepozabnega izleta je 55 EUR na osebo in vključuje prevoz, vodnike in vstopnine.",
+          "Število mest na avtobusu je omejeno, zato je prijava (ki se kmalu odpre!) potrebna za zagotovitev mesta. Pridržujemo si pravico do večjih sprememb izleta ali do njegove odpovedi iz kakršnegakoli razloga. V primeru odpovedi z naše strani bodo vsa plačila povrnjena, v primeru odpovedi s strani udeleženca pa vračilo ni mogoče.",
+          "Četrtkov izlet je tradicija, ki nam je zelo pri srcu - vsako leto izberemo drugo lokacijo, da se naši udeleženci lahko povežejo in spoznajo lepote Slovenije tudi zunaj plesne dvorane. Ne zamudi te priložnosti za odkrivanje ene najlepših pokrajin v Sloveniji!",
+        ],
+      },
+    ],
+  },
   registration: {
     pageTitle: "Registracija",
     opensSoonText: "Registracija se odpre 25. novembra 2024 ob 18:00",

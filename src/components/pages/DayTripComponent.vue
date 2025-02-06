@@ -45,13 +45,13 @@ export default {
           :alt="$t(`dayTrip.description[${i}].alt`)"
         />
       </div>
-      <a
+      <!-- <a
         href="https://forms.gle/5rLsXo6aH7uMghEZ7"
         target="_blank"
         class="btn btn-primary"
       >
         {{ $t("registration.registerNow") }}
-      </a>
+      </a> -->
     </div>
   </section>
 </template>

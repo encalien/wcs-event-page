@@ -198,7 +198,7 @@ export default {
                 </div>
               </div>
             </div>
-            <!-- <div
+            <div
               class="menu-item"
               :class="{ active: isMobileMenuOpen }"
               @click="closeAllMenus()"
@@ -209,7 +209,7 @@ export default {
               >
                 {{ $t("dayTrip.pageTitle") }}
               </router-link>
-            </div> -->
+            </div>
             <div
               class="menu-item"
               :class="{ active: isMobileMenuOpen }"

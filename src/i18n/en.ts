@@ -651,43 +651,41 @@ const en = {
       ],
     },
   },
-  //   dayTrip: {
-  //     pageTitle: "Day Trip",
-  //     description: [
-  //       {
-  //         src: "/images/day_trip_postojna_cave.jpg",
-  //         alt: "Postojna Cave img",
-  //         texts: [
-  //           "Join us for an unforgettable day trip as we hang out and explore two of Slovenia's most iconic attractions: Postojna Caves and Predjama Castle.",
-  //           `Discover the Postojna Caves, a sprawling 24-kilometer karst cave system that stands as one of the country's natural wonders. Within its vast chambers and winding passages, you'll encounter an array of stunning stalactites and stalagmites, as well as the unique olm or "human fish", an intriguing species adapted to life in the darkness of the underground world. Our guided tour will illuminate the cave's fascinating geology and biodiversity, providing a deeper understanding of this underground marvel.`,
-  //         ],
-  //       },
-  //       {
-  //         src: "/images/day_trip_predjama_castle.jpg",
-  //         alt: "Predjama Castle img",
-  //         texts: [
-  //           "Following the caves, we'll venture to the Predjama Castle, a marvel of medieval architecture perched in the mouth of a cave. This Renaissance fortress, seamlessly integrated with the natural rock, offers a glimpse into the past and stunning views of the surrounding landscape.",
-  //           "Even though the exact times may still change, here's what our day will look like:",
-  //         ],
-  //         itinerary: [
-  //           ["9:30 am:", "Departure from Ljubljana."],
-  //           ["11:00 am:", "Arrival and guided visit at Postojna Caves."],
-  //           [
-  //             "12:30 pm:",
-  //             "Free time for lunch, souvenir shopping, or a visit to the Vivarium.",
-  //           ],
-  //           ["2:30 pm:", "Exploration of Predjama Castle."],
-  //           ["5:00 pm:", "Return to Ljubljana."],
-  //         ],
-  //       },
-  //       {
-  //         texts: [
-  //           "The cost of this memorable day trip is 75 EUR per person, which includes transportation and guided visits to both the Postojna Cave and Predjama Castle.",
-  //           "Please note that the trip requires a minimum of 10 participants to proceed, and registration is necessary to secure your spot. Space on the bus is limited, so don't miss your chance to join this adventure and explore Slovenia's natural and historical treasures!",
-  //         ],
-  //       },
-  //     ],
-  //   },
+  dayTrip: {
+    pageTitle: "Day Trip",
+    description: [
+      {
+        src: "/images/day_trip_tolmin_gorges.png",
+        alt: "Tolmin Gorges img",
+        texts: [
+          "Join us for an unforgettable day trip as we explore the breathtaking Soča Valley, home to some of Slovenia's most stunning natural wonders. This year, we'll visit the Tolmin Gorges, a hidden gem known for its turquoise waters, dramatic rock formations, and lush greenery.",
+          `Our guided tour will take us through the narrow canyon carved by the Tolminka and Zadlaščica rivers, where we'll see fascinating geological formations, including the Bear's Head rock, the Devil's Bridge, and the Dante's Cave, named after the legendary poet who is rumored to have drawn inspiration for Inferno here. Along the way, we'll learn about the valley's unique ecosystem and rich history.`,
+        ],
+      },
+      {
+        src: "/images/day_trip_most_na_soci.png",
+        alt: "Most na Soči img",
+        texts: [
+          "After our adventure through the gorges, we'll head to Most na Soči, a picturesque lakeside town where the emerald waters of the Soča River meet the Idrijca River. Here, we'll enjoy lunch and have some free time to take in the serene atmosphere, wander along the waterfront, or simply relax with a coffee while admiring the view. It is allowed to swim there too, although it might be quite cold.",
+          "Even though the exact schedule may still change, here's roughly what our day will look like:",
+        ],
+        itinerary: [
+          ["9:00 am:", "Departure from Ljubljana."],
+          ["11:00 am:", "Arrival & guided tour of Tolmin Gorges."],
+          ["13:15 pm:", "Departure for Most na Soči."],
+          ["13:30 pm:", "Lunch & free time by the lake."],
+          ["18:00 pm:", "Return to Ljubljana."],
+        ],
+      },
+      {
+        texts: [
+          "The cost of this memorable day trip is 55 EUR per person, which includes transportation, guides, and entrance fees.",
+          "Please note that the space on the bus is very limited, and registration (opening soon!) is necessary to secure your spot. We reserve the right to change major parts of the trip or cancel the trip completely for any reason. In case of cancellation from our side, all payments will be refunded, in case of cancellation from participant's side, no refund is possible.",
+          "This day trip is a tradition we love - each year, we explore a different part of Slovenia so our participants can connect and experience the country's beauty beyond the dance floor. Don't miss this opportunity to discover one of Slovenia's most stunning regions!",
+        ],
+      },
+    ],
+  },
   registration: {
     pageTitle: "Registration",
     opensSoonText: "Registration opens on 25 November 2024 at 18:00 (SLO time)",
