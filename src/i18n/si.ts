@@ -271,6 +271,20 @@ const si = {
       //       },
       //     ],
       //   },
+      {
+        pageTitle: "Mediji",
+        people: [
+          {
+            names: "Jake",
+            title: "Video in prenos v živo",
+            src: "/images/staff_jake.png",
+            description: [
+              "Jake je del ekipe Affinity Swing kot videograf in glavni spletni razvijalec. Skupaj s Haroldom in preostalo ekipo si prizadevajo deliti ta čudovit, presunljiv ples, ki ga imamo vsi tako radi - s čim več ljudmi na planetu!",
+              "Uživajo v snemanju in montaži videoposnetkov za družbena omrežja, prenosih dogodkov v živo s takojšnjimi ponovitvami ter dodajanju dogodkov na njihov globalni zemljevid West Coast Swinga.",
+            ],
+          },
+        ],
+      },
       //   {
       //     pageTitle: "Sodelavci",
       //     people: [

@@ -138,132 +138,158 @@ const en = {
           },
         ],
       },
-      //   {
-      //     pageTitle: "DJs",
-      //     people: [
-      //       {
-      //         names: "Ken",
-      //         title: "Head DJ",
-      //         src: "/images/djs_ken.png",
-      //         description: [
-      //           "Ken, also known as DJKendyshop, is a West Coast Swing DJ who began his journey in 2018. He quickly gained a reputation for his ability to energize dance floors at both small local events and large WSDC events such as Budafest, Anchor Festival, Baltic Swing, and Swing it like it's hot. Ken's style leans towards complex and exciting music, drawing inspiration from EDM and Dubstep to create a unique and dynamic sound that keeps dancers moving.",
-      //           "His favorite songs to dance to right now are:",
-      //         ],
-      //         songList: [
-      //           "Forgive Me by Sofi Tucker",
-      //           "Whisper by Able Heart",
-      //           "Fake by The Tech Thieves",
-      //         ],
-      //       },
-      //       {
-      //         names: "Patrice",
-      //         title: "Technical head DJ",
-      //         src: "/images/djs_patrice.png",
-      //         description: [
-      //           "Starting his DJ career 5 years ago at parties with a mix of dance styles, he was captivated by the art of creating an atmospheric evening encompassing various genres. Now, he increasingly finds himself behind the decks at West Coast Swing parties, where he continues to excite dancers by blending a diverse range of musical styles.",
-      //           "His favorite songs to dance to right now are:",
-      //         ],
-      //         songList: ["Fuck it, I love it! by ILIRA", "Wait by Damian Lynn"],
-      //       },
-      //       {
-      //         names: "Aleksandra",
-      //         title: "DJ",
-      //         src: "/images/djs_aleksandra.png",
-      //         description: [
-      //           "Aleksandra has been actively DJing in the local community since 2019, sharing her passion for music and its ability to connect people. She finds great joy and fulfillment when her carefully selected musical choices resonate with the crowd, enticing them to the dance floor. She believes that music can be a significant inspiration for dancing and can evoke a wide range of emotions.",
-      //           "Her favorite songs to dance to right now are:",
-      //         ],
-      //         songList: [
-      //           "California King by D.B. Ricapito",
-      //           "What A Wonderful World by Sofi Tukker",
-      //           "Seasons by Chloe Adams",
-      //         ],
-      //       },
-      //       {
-      //         names: "Lino",
-      //         title: "DJ",
-      //         src: "/images/djs_lino.png",
-      //         description: [
-      //           "Lino is passionate about discovering new artists and music, especially lesser-known indies, and has played with the idea of DJing at events for a while. Recently, he had the opportunity to play for some amazing crowds at Swing Generation, Berlin Swing Revolution, and Carnival Swing, as well as local parties in Berlin and Erding. His style consists of mixing his own experimental and often acoustic music with internationally known songs familiar from events.",
-      //           "His favorite songs to dance to right now are:",
-      //         ],
-      //         songList: [
-      // "Lose It by Oh Wonder",
-      // "Papa by SICKOTOY, Eliana Gjata, INNA",
-      // "No Ocean by EXES, Jome",
-      //         ],
-      //       },
-      //       {
-      //         names: "Sepgod",
-      //         title: "DJ",
-      //         src: "/images/djs_sebastian.png",
-      //         description: [
-      //           "Sepgod began couples dancing 30 years ago, fostering a love for music curation, progressing from mixtapes to mix CDs, and eventually DJing at various events, including parties, weddings, and company celebrations. Since 2015, his fascination with WCS's varied music has seen him DJing at Vienna's WCS parties and frequenting international WCS events in Europe. At Swingvester 23/24, he started playing at international venues.",
-      //           "His favorite songs to dance to right now are:",
-      //         ],
-      //         songList: [
-      //           "Soap by Melanie Martinez",
-      //           "Space Ghost Coast To Coast by Glass Animals",
-      //           "Chariot by Mega",
-      //         ],
-      //       },
-      //     ],
-      //   },
-      //   {
-      //     pageTitle: "Show & Comps",
-      //     people: [
-      //       {
-      //         names: "Jacqueline",
-      //         title: "MC",
-      //         src: "/images/staff_jacqueline.png",
-      //         description: [
-      //           "Originating from a background in stage dancing, Jacqueline's West Coast Swing journey started in 2018 with the Warsaw Westies, where she is still seen regularly, even though she is always on the move.",
-      //           "She is well known for her distinctive vintage- inspired style. When she is not dancing, you can find her socializing around the dance floor with both old and new friends, enriching the social fabric of the WCS community.",
-      //         ],
-      //       },
-      //       {
-      //         names: "Andreas",
-      //         title: "Scoring",
-      //         src: "/images/staff_andreas.png",
-      //         description: [
-      //           "Andreas is the mastermind behind the Scoreboard system, a prominent and widely used scoring tool for dance competitions. Known for its speed and reliability, Scoreboard has been a game-changer in the way competitions are judged and results are delivered.",
-      //           "Andreas's expertise and dedication to the dance scene are evident as he is a familiar face at most European dance events, where his system continues to enhance the competitive dance experience for participants and organizers alike.",
-      //         ],
-      //       },
-      //       {
-      //         names: "Ludovic",
-      //         title: "Chief Judge",
-      //         src: "/images/staff_ludovic.png",
-      //         description: [
-      //           "Ludovic's extensive experience in various dance forms, coupled with his significant achievements as both a competitor and instructor, render him an indispensable asset to any judging panel.",
-      //           "His comprehensive understanding of dance dynamics and technical proficiency equips him with a keen eye for detail, ensuring a fair and insightful evaluation of performances.",
-      //         ],
-      //       },
-      //     ],
-      //   },
-      //   {
-      //     pageTitle: "Collaborators",
-      //     people: [
-      //       {
-      //         names: "Sarah",
-      //         title: "Shoe Seller",
-      //         src: "/images/collaborators_sarah.png",
-      //         description: [
-      //           "As a dancer, she always noticed that many dancers wear the wrong shoes. Observing the lack of specialized dance shoe shops in Carinthia and people's reluctance to buy from dance schools or online, she became self-employed in December 2018, creating a business focused on dance shoes.",
-      //           "She's eager to offer advice on personal concerns and assist in finding the ideal dance shoe for each individual.",
-      //         ],
-      //       },
-      //       {
-      //         names: "Marine",
-      //         title: "Masseuse",
-      //         src: "/images/collaborators_marine.png",
-      //         description: [
-      //           "Marine is a French WCS dancer and teacher, as well as the founder of Art'Potential. She offers sports massages and mental coaching sessions with sophrology to dancers during some events. She has learned to perform sports massages in India and Thailand and continues to learn about massages in France.",
-      //           "She has been offering this service at events since 2023, and everyone who has tried it loves it!",
-      //         ],
-      //       },
-      //     ],
-      //   },
+      // {
+      //   pageTitle: "DJs",
+      //   people: [
+      //     {
+      //       names: "Ken",
+      //       title: "Head DJ",
+      //       src: "/images/djs_ken.png",
+      //       description: [
+      //         "Ken, also known as DJKendyshop, is a West Coast Swing DJ who began his journey in 2018. He quickly gained a reputation for his ability to energize dance floors at both small local events and large WSDC events such as Budafest, Anchor Festival, Baltic Swing, and Swing it like it's hot. Ken's style leans towards complex and exciting music, drawing inspiration from EDM and Dubstep to create a unique and dynamic sound that keeps dancers moving.",
+      //         "His favorite songs to dance to right now are:",
+      //       ],
+      //       songList: [
+      //         "Forgive Me by Sofi Tucker",
+      //         "Whisper by Able Heart",
+      //         "Fake by The Tech Thieves",
+      //       ],
+      //     },
+      //     {
+      //       names: "Patrice",
+      //       title: "Technical head DJ",
+      //       src: "/images/djs_patrice.png",
+      //       description: [
+      //         "Starting his DJ career 5 years ago at parties with a mix of dance styles, he was captivated by the art of creating an atmospheric evening encompassing various genres. Now, he increasingly finds himself behind the decks at West Coast Swing parties, where he continues to excite dancers by blending a diverse range of musical styles.",
+      //         "His favorite songs to dance to right now are:",
+      //       ],
+      //       songList: ["Fuck it, I love it! by ILIRA", "Wait by Damian Lynn"],
+      //     },
+      //     {
+      //       names: "Balázs",
+      //       title: "DJ",
+      //       src: "/images/djs_balazs.png",
+      //       description: [
+      //         "Balázs played his first international set at Slovenian open 2025, when he participated in and won the DJ Battle. Since then, Balázs has been regularly DJing at local parties in Budapest and also had the pleasure of spinning at the Autumn Swing Challenge in 2024. He's passionate about music as a dancer and as a DJ and brings his great sets and energy to the dance floor!",
+      //         "His favorite songs to dance to right now are:",
+      //       ],
+      //       songList: [
+      //         "Becoming Young by Cherry Twist",
+      //         "Slow It Down by Benson Boone",
+      //         "How I Want Ya (Dawn Remix) by Hudson Thames",
+      //       ],
+      //     },
+      //     {
+      //       names: "Kamila",
+      //       title: "DJ",
+      //       src: "/images/djs_kamila.png",
+      //       description: ["Her favorite songs to dance to right now are:"],
+      //       songList: [],
+      //     },
+      //     {
+      //       names: "Kasia",
+      //       title: "DJ",
+      //       src: "/images/djs_kasia.png",
+      //       description: [
+      //         "Kasia started her adventure as a WCS DJ around 2019 in Warsaw. Since then she played music at local Polish events and soon after started getting invites to DJ at international events in Sweden, Finland, Poland, Germany and Hungary. She also played prime slots at Asia Open and Wild Wild Westie. She regularly receives positive feedback about the atmosphere she creates with her sets. Her friends call her “Walking Shazam” since she knows and recognizes tons of songs at first note.",
+      //         "Her favorite songs to dance to right now are:",
+      //       ],
+      //       songList: [
+      //         "Untouchable by Bera",
+      //         "LONELY NIGHTS by Riles",
+      //         "NIGHTS LIKE THESE by Benson Boone",
+      //       ],
+      //     },
+      //     {
+      //       names: "Lino",
+      //       title: "DJ",
+      //       src: "/images/djs_lino.png",
+      //       description: [
+      //         "Lino is passionate about discovering new artists and music, especially lesser-known indies, and has played with the idea of DJing at events for a while. Recently, he had the opportunity to play for some amazing crowds at Swing Generation, Berlin Swing Revolution, and Carnival Swing, as well as local parties in Berlin and Erding. His style consists of mixing his own experimental and often acoustic music with internationally known songs familiar from events.",
+      //         "His favorite songs to dance to right now are:",
+      //       ],
+      //       songList: [
+      //         "Lose It by Oh Wonder",
+      //         "Papa by SICKOTOY, Eliana Gjata, INNA",
+      //         "No Ocean by EXES, Jome",
+      //       ],
+      //     },
+      //     {
+      //       names: "Sepgod",
+      //       title: "DJ",
+      //       src: "/images/djs_sepgod.png",
+      //       description: [
+      //         "Sepgod began couples dancing 30 years ago, fostering a love for music curation, progressing from mixtapes to mix CDs, and eventually DJing at various events, including parties, weddings, and company celebrations. Since 2015, his fascination with WCS's varied music has seen him DJing at Vienna's WCS parties and frequenting international WCS events in Europe. At Swingvester 23/24, he started playing at international venues.",
+      //         "His favorite songs to dance to right now are:",
+      //       ],
+      //       songList: [
+      //         "Soap by Melanie Martinez",
+      //         "Space Ghost Coast To Coast by Glass Animals",
+      //         "Chariot by Mega",
+      //       ],
+      //     },
+      //   ],
+      // },
+      // {
+      //   pageTitle: "Show & Comps",
+      //   people: [
+      //     {
+      //       names: "Jacqueline",
+      //       title: "MC",
+      //       src: "/images/staff_jacqueline.png",
+      //       description: [
+      //         "Originating from a background in stage dancing, Jacqueline's West Coast Swing journey started in 2018 with the Warsaw Westies, where she is still seen regularly, even though she is always on the move.",
+      //         "She is well known for her distinctive vintage- inspired style. When she is not dancing, you can find her socializing around the dance floor with both old and new friends, enriching the social fabric of the WCS community.",
+      //       ],
+      //     },
+      //     {
+      //       names: "Sabrina",
+      //       title: "Scoring",
+      //       src: "/images/staff_sabrina.png",
+      //       description: [
+      //         "Andreas is the mastermind behind the Scoreboard system, a prominent and widely used scoring tool for dance competitions. Known for its speed and reliability, Scoreboard has been a game-changer in the way competitions are judged and results are delivered.",
+      //         "Andreas's expertise and dedication to the dance scene are evident as he is a familiar face at most European dance events, where his system continues to enhance the competitive dance experience for participants and organizers alike.",
+      //       ],
+      //     },
+      //     {
+      //       names: "Ludovic",
+      //       title: "Chief Judge",
+      //       src: "/images/staff_ludovic.png",
+      //       description: [
+      //         "Ludovic's extensive experience in various dance forms, coupled with his significant achievements as both a competitor and instructor, render him an indispensable asset to any judging panel.",
+      //         "His comprehensive understanding of dance dynamics and technical proficiency equips him with a keen eye for detail, ensuring a fair and insightful evaluation of performances.",
+      //       ],
+      //     },
+      //   ],
+      // },
+      {
+        pageTitle: "Media",
+        people: [
+          {
+            names: "Jake",
+            title: "Video & Live stream",
+            src: "/images/staff_jake.png",
+            description: [
+              "Jake is part of the Affinity Swing team, as videographer and lead web developer. Together with Harold and the rest of the crew, their mission is to share this beautiful, breathtaking dance that we all love - with as many people on the planet as possible!",
+              "They love filming and editing social media videos, live streaming events with instant replays, and adding classes to their global map of West Coast Swing.",
+            ],
+          },
+        ],
+      },
+      // {
+      //   pageTitle: "Collaborators",
+      //   people: [
+      //     {
+      //       names: "Sarah",
+      //       title: "Shoe Seller",
+      //       src: "/images/collaborators_sarah.png",
+      //       description: [
+      //         "As a dancer, she always noticed that many dancers wear the wrong shoes. Observing the lack of specialized dance shoe shops in Carinthia and people's reluctance to buy from dance schools or online, she became self-employed in December 2018, creating a business focused on dance shoes.",
+      //         "She's eager to offer advice on personal concerns and assist in finding the ideal dance shoe for each individual.",
+      //       ],
+      //     },
+      //   ],
+      // },
       //   {
       //     pageTitle: "Photography",
       //     people: [

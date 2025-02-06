@@ -266,6 +266,20 @@ const fr = {
       //       },
       //     ],
       //   },
+      {
+        pageTitle: "Médias",
+        people: [
+          {
+            names: "Jake",
+            title: "Vidéo & diffusion en direct",
+            src: "/images/staff_jake.png",
+            description: [
+              "Jake fait partie de l'équipe Affinity Swing en tant que vidéaste et développeur web principal. Avec Harold et le reste de l'équipe, leur mission est de partager cette danse magnifique et captivante que nous aimons tous - avec le plus de monde possible sur la planète !",
+              "Ils adorent filmer et monter des vidéos pour les réseaux sociaux, diffuser des événements en direct avec des replays instantanés et ajouter des cours à leur carte mondiale du West Coast Swing.",
+            ],
+          },
+        ],
+      },
       //   {
       //     pageTitle: "Collaborateurs",
       //     people: [
