@@ -925,6 +925,36 @@ const fr = {
       ],
     },
   },
+  userProfile: {
+    pageTitle: "Demandez votre lien de connexion à votre profil",
+    inputText:
+      "Entrez l'email que vous avez utilisé lors de votre inscription :",
+    btnText: "Soumettre",
+    infoText:
+      "Si une inscription correspond dans le système, vous recevrez un lien de connexion à l'adresse e-mail que vous avez saisie.",
+    messages: {
+      successfulRequest:
+        "Le lien de connexion a été généré avec succès. Veuillez vérifier votre email.",
+      failedRequest: "Le lien de connexion n'a pas pu être généré.",
+      invalidEmail:
+        "L'email que vous avez saisi n'est pas dans un format valide",
+    },
+    details: {
+      id: "ID d'inscription",
+      receivedAt: "Reçu le",
+      name: "Nom",
+      email: "Email",
+      country: "Pays",
+      wsdc: "ID WSDC",
+      role: "Rôle",
+      passType: "Type de pass",
+      level: "Niveau de l'atelier",
+      status: "Statut",
+      price: "Prix",
+      paid: "Paiement",
+      notPaid: "Aucun paiement reçu pour l'instant",
+    },
+  },
 };
 
 export default fr;

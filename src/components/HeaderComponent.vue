@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      eventName: import.meta.env.VITE_APP_TITLE,
+      eventName: import.meta.env.VITE_EVENT_NAME,
       openDropdownMenuItem: "",
       isMobileMenuOpen: false,
       shrunk: false,

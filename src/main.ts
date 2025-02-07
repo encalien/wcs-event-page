@@ -32,6 +32,9 @@ import EventLocationComponent from "./components/pages/EventLocationComponent.vu
 import SloveniaComponent from "./components/pages/SloveniaComponent.vue";
 import HowToGetHereComponent from "./components/pages/HowToGetHereComponent.vue";
 import DayTripComponent from "./components/pages/DayTripComponent.vue";
+import RegistrationComponent from "./components/pages/RegistrationComponent.vue";
+import RequestAccessComponent from "./components/pages/RequestAccessComponent.vue";
+import UserProfileComponent from "./components/pages/UserProfileComponent.vue";
 
 import { createRouter, createWebHistory } from "vue-router";
 
@@ -45,7 +48,6 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import RegistrationComponent from "./components/pages/RegistrationComponent.vue";
 
 /* add icons to the library */
 library.add(faEnvelope, faFacebookF, faInstagram, faBars);
@@ -114,6 +116,14 @@ const routes: any = [
   {
     path: "/:lang(en|si|fr)/registration",
     component: RegistrationComponent,
+  },
+  {
+    path: "/:lang(en|si|fr)/profile/request-link",
+    component: RequestAccessComponent,
+  },
+  {
+    path: "/:lang(en|si|fr)/profile/:hash",
+    component: UserProfileComponent,
   },
 ];
 

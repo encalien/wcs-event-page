@@ -841,6 +841,34 @@ const si = {
       ],
     },
   },
+  userProfile: {
+    pageTitle: "Zahtevaj povezavo za prijavo v svoj profil",
+    inputText: "Vnesi elektronski naslov, ki si ga uporabil_a pri prijavi:",
+    btnText: "Pošlji",
+    infoText:
+      "Če obstaja registracija, ki se ujema z navedenim emailom, boš prejel_a povezavo za prijavo na vneseni email.",
+    messages: {
+      successfulRequest:
+        "Povezava za prijavo je bila uspešno ustvarjena. Preveri svojo e-pošto.",
+      failedRequest: "Povezave za prijavo ni bilo mogoče ustvariti.",
+      invalidEmail: "Vneseni e-poštni naslov ni v veljavnem formatu",
+    },
+    details: {
+      id: "Številka prijave",
+      receivedAt: "Prejeto ob",
+      name: "Ime",
+      email: "Email",
+      country: "Država",
+      wsdc: "WSDC ID",
+      role: "Vloga",
+      passType: "Vrsta vstopnice",
+      level: "Nivo delavnice",
+      status: "Status",
+      price: "Cena",
+      paid: "Plačilo",
+      notPaid: "Plačilo še ni bilo prejeto",
+    },
+  },
 };
 
 export default si;

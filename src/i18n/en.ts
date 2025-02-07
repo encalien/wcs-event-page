@@ -911,6 +911,34 @@ const en = {
       ],
     },
   },
+  userProfile: {
+    pageTitle: "Request your profile login link",
+    inputText: "Enter the email you used in your registration:",
+    btnText: "Submit",
+    infoText:
+      "If there's a matching registration in the system, you will receive a login link to the email account you entered.",
+    messages: {
+      successfulRequest:
+        "The login link generated successfully. Please check your email.",
+      failedRequest: "The login link could not be generated.",
+      invalidEmail: "The email you entered is not in a valid format",
+    },
+    details: {
+      id: "Registration ID",
+      receivedAt: "Received at",
+      name: "Name",
+      email: "Email",
+      country: "Country",
+      wsdc: "WSDC ID",
+      role: "Role",
+      passType: "Pass type",
+      level: "Workshop level",
+      status: "Status",
+      price: "Price",
+      paid: "Payment",
+      notPaid: "No payment received yet",
+    },
+  },
 };
 
 export default en;

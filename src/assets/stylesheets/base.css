@@ -8,17 +8,23 @@
   --black-soft: #222222;
   --black-mute: #282828;
 
-  --accent-1: #F15F53;
-  --accent-2: #F8F3A0;
-  --accent-3: #C5DAD9;
-  --accent-4: #1B696F;
+  --accent-1: #f15f53;
+  --accent-2: #f8f3a0;
+  --accent-3: #c5dad9;
+  --accent-4: #1b696f;
 
   --accent-1-disabled: hsl(323, 100%, 10%, 50%);
 
-  --dark-1: #211E52;
-  --dark-2: #2D2872;
+  --dark-1: #211e52;
+  --dark-2: #2d2872;
 
-  --light: #C6C5CD;
+  --light: #c6c5cd;
+
+  --received: darkgrey;
+  --waitlist: moccasin;
+  --accepted: lightskyblue;
+  --confirmed: lightgreen;
+  --other: coral;
 }
 
 /* semantic color variables for this project */
@@ -33,7 +39,7 @@
   --color-text-mute: var(--black-mute);
   --color-text-alt: var(--white-soft);
   --color-text-accent: var(--accent-1);
-  
+
   --section-gap: 60px;
 }
 
@@ -54,16 +60,13 @@
 
 @font-face {
   font-family: "Cera Pro";
-  src:
-    local("Cera Pro"),
-    url("/fonts/Cera Pro Medium.otf") format("opentype")
+  src: local("Cera Pro"), url("/fonts/Cera Pro Medium.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Cera Pro Bold";
-  src:
-    local("Cera Pro Bold"),
-    url("/fonts/Cera Pro Bold.otf") format("opentype")
+  src: local("Cera Pro Bold"),
+    url("/fonts/Cera Pro Bold.otf") format("opentype");
 }
 
 *,
