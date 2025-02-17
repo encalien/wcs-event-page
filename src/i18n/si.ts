@@ -239,38 +239,39 @@ const si = {
       //       },
       //     ],
       //   },
-      //   {
-      //     pageTitle: "Nastopi & Tekmovanja",
-      //     people: [
-      //       {
-      //         names: "Jacqueline",
-      //         title: "MC",
-      //         src: "/images/staff_jacqueline.png",
-      //         description: [
-      //           "Jacqueline je začela svojo plesno pot v stage plesih. Leta 2018 se je priključila Warsaw Westies in se začela ukvarjati z west coast swingom. Čeprav veliko potuje po tujini, jo tam še vedno redno videvajo.",
-      //           "V WCS skupnosti je znana je po svojem značilnem vintage stilu. Kadar ne pleše, se zadržuje v bližini plesišča, kjer se druži z novimi in starimi prijatelji in tako bogati družbeno mrežo skupnosti WCS.",
-      //         ],
-      //       },
-      //       {
-      //         names: "Andreas",
-      //         title: "Ocenjevanje",
-      //         src: "/images/staff_andreas.png",
-      //         description: [
-      //           "Andreas je idejni vodja sistema Scoreboard, ki je izvrstno in pogosto uporabljano orodje za ocenjevanje plesnih tekmovanj. Poznan po svoji hitrosti in zanesljivosti je Scoreboard spremenil način sodniškega ocenjevanja in objave rezultatov.",
-      //           "Andreasova strokovnost in predanost plesni sceni sta očitna, saj je znan obraz na večini evropskih plesnih dogodkov, kjer njegov sistem izboljšuje tekmovalne izkušnje udeležencev, organizatorjev in sodnikov.",
-      //         ],
-      //       },
-      //       {
-      //         names: "Ludovic",
-      //         title: "Glavni sodnik",
-      //         src: "/images/staff_ludovic.png",
-      //         description: [
-      //           "Ludovic je zaradi obsežnih izkušnej v različnih plesnih zvrsteh in svojih pomembnih dosežkov kot tekmovalec in inštruktor nepogrešljiv član katerekoli sodniške ekipe.",
-      //           "Njegovo celovito razumevanje plesne dinamike in tehnične spretnosti mu daje izostren občutek za detajle, kar zagotavlja pošteno in natančno ocenjevanje tekmovalcev.",
-      //         ],
-      //       },
-      //     ],
-      //   },
+      {
+        pageTitle: "Nastopi & Tekmovanja",
+        people: [
+          {
+            names: "Jacqueline",
+            title: "MC",
+            src: "/images/staff_jacqueline.png",
+            description: [
+              "Od svojega debija kot MC na Slovenian Open lani je njena prisotnost na dogodkih po skupnosti vse bolj opazna—tudi kot MC na Finnfestu.",
+              "Jacqueline je začela svojo plesno pot v stage plesih. Leta 2018 se je priključila Warsaw Westies in se začela ukvarjati z west coast swingom. Čeprav veliko potuje po tujini, jo tam še vedno redno videvajo.",
+              "V WCS skupnosti je znana je po svojem značilnem vintage stilu. Kadar ne pleše, se zadržuje v bližini plesišča, kjer se druži z novimi in starimi prijatelji in tako bogati družbeno mrežo skupnosti WCS.",
+            ],
+          },
+          //       {
+          //         names: "Andreas",
+          //         title: "Ocenjevanje",
+          //         src: "/images/staff_andreas.png",
+          //         description: [
+          //           "Andreas je idejni vodja sistema Scoreboard, ki je izvrstno in pogosto uporabljano orodje za ocenjevanje plesnih tekmovanj. Poznan po svoji hitrosti in zanesljivosti je Scoreboard spremenil način sodniškega ocenjevanja in objave rezultatov.",
+          //           "Andreasova strokovnost in predanost plesni sceni sta očitna, saj je znan obraz na večini evropskih plesnih dogodkov, kjer njegov sistem izboljšuje tekmovalne izkušnje udeležencev, organizatorjev in sodnikov.",
+          //         ],
+          //       },
+          //       {
+          //         names: "Ludovic",
+          //         title: "Glavni sodnik",
+          //         src: "/images/staff_ludovic.png",
+          //         description: [
+          //           "Ludovic je zaradi obsežnih izkušnej v različnih plesnih zvrsteh in svojih pomembnih dosežkov kot tekmovalec in inštruktor nepogrešljiv član katerekoli sodniške ekipe.",
+          //           "Njegovo celovito razumevanje plesne dinamike in tehnične spretnosti mu daje izostren občutek za detajle, kar zagotavlja pošteno in natančno ocenjevanje tekmovalcev.",
+          //         ],
+          //       },
+        ],
+      },
       {
         pageTitle: "Mediji",
         people: [

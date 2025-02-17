@@ -234,38 +234,39 @@ const fr = {
       //       },
       //     ],
       //   },
-      //   {
-      //     pageTitle: "Spectacles & Compétitions",
-      //     people: [
-      //       {
-      //         names: "Jacqueline",
-      //         title: "MC",
-      //         src: "/images/staff_jacqueline.png",
-      //         description: [
-      //           "Issue d'un milieu de danse de scène, le parcours de Jacqueline en West Coast Swing a commencé en 2018 avec les Warsaw Westies, où elle est encore régulièrement vue, bien qu'elle soit toujours en déplacement.",
-      //           "Elle est bien connue pour son style vintage distinctif. Lorsqu'elle ne danse pas, vous pouvez la trouver en train de socialiser autour de la piste de danse avec des amis anciens et nouveaux, enrichissant le tissu social de la communauté WCS.",
-      //         ],
-      //       },
-      //       {
-      //         names: "Andreas",
-      //         title: "Scoring",
-      //         src: "/images/staff_andreas.png",
-      //         description: [
-      //           "Andreas est le cerveau derrière le système Scoreboard, un outil de notation important et largement utilisé pour les compétitions de danse. Connu pour sa rapidité et sa fiabilité, Scoreboard a changé la manière dont les compétitions sont jugées et les résultats sont délivrés.",
-      //           "L'expertise et le dévouement d'Andreas pour la scène de la danse sont évidents puisqu'il est un visage familier dans la plupart des événements de danse européens, où son système continue d'améliorer l'expérience de la compétition pour les participants et les organisateurs.",
-      //         ],
-      //       },
-      //       {
-      //         names: "Ludovic",
-      //         title: "Juge Principal",
-      //         src: "/images/staff_ludovic.png",
-      //         description: [
-      //           "L'expérience étendue de Ludovic dans diverses formes de danse, combinée à ses réalisations significatives en tant que compétiteur et instructeur, le rendent un atout indispensable pour tout panel de juges.",
-      //           "Sa compréhension approfondie de la dynamique de la danse et sa compétence technique lui donnent un œil aiguisé pour le détail, assurant une évaluation juste et perspicace des performances.",
-      //         ],
-      //       },
-      //     ],
-      //   },
+      {
+        pageTitle: "Spectacles & Compétitions",
+        people: [
+          {
+            names: "Jacqueline",
+            title: "MC",
+            src: "/images/staff_jacqueline.png",
+            description: [
+              "Depuis ses débuts en tant que MC au Slovenian Open l'année dernière, sa présence s'est renforcée lors d'événements à travers la communauté, notamment en tant que MC à Finnfest.",
+              "Issue d'un parcours en danse de scène, Jacqueline a découvert le West Coast Swing en 2018 avec les Warsaw Westies, où elle est encore régulièrement présente, bien qu'elle soit toujours en déplacement.",
+              "Elle est connue pour son style distinctif inspiré du vintage. Lorsqu'elle ne danse pas, on la retrouve en train de socialiser autour de la piste de danse, avec des amis de longue date comme de nouvelles rencontres, enrichissant ainsi le tissu social de la communauté WCS.",
+            ],
+          },
+          //       {
+          //         names: "Andreas",
+          //         title: "Scoring",
+          //         src: "/images/staff_andreas.png",
+          //         description: [
+          //           "Andreas est le cerveau derrière le système Scoreboard, un outil de notation important et largement utilisé pour les compétitions de danse. Connu pour sa rapidité et sa fiabilité, Scoreboard a changé la manière dont les compétitions sont jugées et les résultats sont délivrés.",
+          //           "L'expertise et le dévouement d'Andreas pour la scène de la danse sont évidents puisqu'il est un visage familier dans la plupart des événements de danse européens, où son système continue d'améliorer l'expérience de la compétition pour les participants et les organisateurs.",
+          //         ],
+          //       },
+          //       {
+          //         names: "Ludovic",
+          //         title: "Juge Principal",
+          //         src: "/images/staff_ludovic.png",
+          //         description: [
+          //           "L'expérience étendue de Ludovic dans diverses formes de danse, combinée à ses réalisations significatives en tant que compétiteur et instructeur, le rendent un atout indispensable pour tout panel de juges.",
+          //           "Sa compréhension approfondie de la dynamique de la danse et sa compétence technique lui donnent un œil aiguisé pour le détail, assurant une évaluation juste et perspicace des performances.",
+          //         ],
+          //       },
+        ],
+      },
       {
         pageTitle: "Médias",
         people: [

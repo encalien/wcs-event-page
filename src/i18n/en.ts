@@ -230,38 +230,39 @@ const en = {
       //     },
       //   ],
       // },
-      // {
-      //   pageTitle: "Show & Comps",
-      //   people: [
-      //     {
-      //       names: "Jacqueline",
-      //       title: "MC",
-      //       src: "/images/staff_jacqueline.png",
-      //       description: [
-      //         "Originating from a background in stage dancing, Jacqueline's West Coast Swing journey started in 2018 with the Warsaw Westies, where she is still seen regularly, even though she is always on the move.",
-      //         "She is well known for her distinctive vintage- inspired style. When she is not dancing, you can find her socializing around the dance floor with both old and new friends, enriching the social fabric of the WCS community.",
-      //       ],
-      //     },
-      //     {
-      //       names: "Sabrina",
-      //       title: "Scoring",
-      //       src: "/images/staff_sabrina.png",
-      //       description: [
-      //         "Andreas is the mastermind behind the Scoreboard system, a prominent and widely used scoring tool for dance competitions. Known for its speed and reliability, Scoreboard has been a game-changer in the way competitions are judged and results are delivered.",
-      //         "Andreas's expertise and dedication to the dance scene are evident as he is a familiar face at most European dance events, where his system continues to enhance the competitive dance experience for participants and organizers alike.",
-      //       ],
-      //     },
-      //     {
-      //       names: "Ludovic",
-      //       title: "Chief Judge",
-      //       src: "/images/staff_ludovic.png",
-      //       description: [
-      //         "Ludovic's extensive experience in various dance forms, coupled with his significant achievements as both a competitor and instructor, render him an indispensable asset to any judging panel.",
-      //         "His comprehensive understanding of dance dynamics and technical proficiency equips him with a keen eye for detail, ensuring a fair and insightful evaluation of performances.",
-      //       ],
-      //     },
-      //   ],
-      // },
+      {
+        pageTitle: "Show & Comps",
+        people: [
+          {
+            names: "Jacqueline",
+            title: "MC",
+            src: "/images/staff_jacqueline.png",
+            description: [
+              "Since her debut as MC at Slovenian Open last year, her presence has grown at events across the community—including as an MC at Finnfest.",
+              "Originating from a background in stage dancing, Jacqueline's West Coast Swing journey started in 2018 with the Warsaw Westies, where she is still seen regularly, even though she is always on the move.",
+              "She is well known for her distinctive vintage-inspired style. When she is not dancing, you can find her socializing around the dance floor with both old and new friends, enriching the social fabric of the WCS community.",
+            ],
+          },
+          //     {
+          //       names: "Sabrina",
+          //       title: "Scoring",
+          //       src: "/images/staff_sabrina.png",
+          //       description: [
+          //         "Andreas is the mastermind behind the Scoreboard system, a prominent and widely used scoring tool for dance competitions. Known for its speed and reliability, Scoreboard has been a game-changer in the way competitions are judged and results are delivered.",
+          //         "Andreas's expertise and dedication to the dance scene are evident as he is a familiar face at most European dance events, where his system continues to enhance the competitive dance experience for participants and organizers alike.",
+          //       ],
+          //     },
+          //     {
+          //       names: "Ludovic",
+          //       title: "Chief Judge",
+          //       src: "/images/staff_ludovic.png",
+          //       description: [
+          //         "Ludovic's extensive experience in various dance forms, coupled with his significant achievements as both a competitor and instructor, render him an indispensable asset to any judging panel.",
+          //         "His comprehensive understanding of dance dynamics and technical proficiency equips him with a keen eye for detail, ensuring a fair and insightful evaluation of performances.",
+          //       ],
+          //     },
+        ],
+      },
       {
         pageTitle: "Media",
         people: [
