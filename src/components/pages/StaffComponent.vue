@@ -36,7 +36,16 @@ export default {
           >
             <div class="text" :class="{ left: i % 2 == 0, right: i % 2 == 1 }">
               <p v-for="(p, j) in person.description" :key="`${j}`">
-                {{ $t(`staff.teams[${t}].people[${i}].description[${j}]`) }}
+                <span v-if="person.names === 'Sarah' && j === 2">
+                  <span
+                    v-html="
+                      $t(`staff.teams[${t}].people[${i}].description[${j}]`)
+                    "
+                  ></span>
+                </span>
+                <span v-else>
+                  {{ $t(`staff.teams[${t}].people[${i}].description[${j}]`) }}
+                </span>
               </p>
               <!-- <div v-if="t == 1">
                 <ul v-for="(s, j) in person.songList" :key="`${j}`">

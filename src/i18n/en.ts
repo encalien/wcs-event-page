@@ -277,20 +277,21 @@ const en = {
           },
         ],
       },
-      // {
-      //   pageTitle: "Collaborators",
-      //   people: [
-      //     {
-      //       names: "Sarah",
-      //       title: "Shoe Seller",
-      //       src: "/images/collaborators_sarah.png",
-      //       description: [
-      //         "As a dancer, she always noticed that many dancers wear the wrong shoes. Observing the lack of specialized dance shoe shops in Carinthia and people's reluctance to buy from dance schools or online, she became self-employed in December 2018, creating a business focused on dance shoes.",
-      //         "She's eager to offer advice on personal concerns and assist in finding the ideal dance shoe for each individual.",
-      //       ],
-      //     },
-      //   ],
-      // },
+      {
+        pageTitle: "Collaborators",
+        people: [
+          {
+            names: "Sarah",
+            title: "Shoe Seller",
+            src: "/images/collaborators_sarah.png",
+            description: [
+              "As a dancer, she always noticed that many dancers wear the wrong shoes. Observing the lack of specialized dance shoe shops in Carinthia and people's reluctance to buy from dance schools or online, she became self-employed in December 2018, creating a business focused on dance shoes.",
+              "She's eager to offer advice on personal concerns and assist in finding the ideal dance shoe for each individual.",
+              `Preorder your shoes <a href="https://www.tanzschuh.at/slovenian-open" target="_blank">HERE</a>.`,
+            ],
+          },
+        ],
+      },
       //   {
       //     pageTitle: "Photography",
       //     people: [
@@ -938,6 +939,38 @@ const en = {
       price: "Price",
       paid: "Payment",
       notPaid: "No payment received yet",
+      addOns: "Add-ons",
+      notSignedUp: "Not signed up yet",
+      notOrdered: "Not ordered yet",
+      dayTrip: {
+        title: "Thursday Day Trip",
+        info: "Price of the trip is 55 EUR per person, to be paid within 7 days of acceptance. Please read more about the day trip on the website.",
+        status: [
+          "Not participating.",
+          "Registration received.",
+          "On waitlist.",
+          "Registration accepted.",
+          "Registration paid.",
+          "Registration confirmed.",
+          "",
+        ],
+      },
+      tShirt: {
+        title: "T-shirt",
+        model: "Model",
+        size: "Size",
+        info: "Please specify your T-shirt preferences.",
+        selectModel: "Select model",
+        selectSize: "Select size",
+      },
+      planToCompete: "Competing in Jack & Jill.",
+      planToAttendPreparty: "Attending Thursday preparty.",
+      planToAttendCityTour: "Attending Friday city tour.",
+      signUp: "Add to registration!",
+      signedUp: "✓ Added",
+      close: "Close",
+      edit: "Edit",
+      save: "Save changes",
     },
   },
 };
