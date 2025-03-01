@@ -48,6 +48,7 @@ const si = {
   urls: {
     facebook: "https://www.facebook.com/events/333172752914194",
     instagram: "https://www.instagram.com/slovenian_open_wcs",
+    whatsapp: "https://chat.whatsapp.com/JTEX5hcklqv85Q3iwHKS9h",
   },
   home: {
     pageTitle: "Home",
@@ -844,31 +845,80 @@ const si = {
     },
   },
   userProfile: {
-    pageTitle: "Zahtevaj povezavo za prijavo v svoj profil",
-    inputText: "Vnesi elektronski naslov, ki si ga uporabil_a pri prijavi:",
-    btnText: "Pošlji",
-    infoText:
-      "Če obstaja registracija, ki se ujema z navedenim emailom, boš prejel_a povezavo za prijavo na vneseni email.",
+    profilePageTitle: "Tvoje registracije",
+    loading: "Nalaganje",
+    requestLink: {
+      title: "Zahtevaj povezavo za prijavo v profil",
+      inputText: "Vnesi e-poštni naslov, ki si ga uporabil_a pri registraciji:",
+      btnText: "Pošlji",
+      infoText:
+        "Če obstaja ustrezna registracija v sistemu, boš prejel_a prijavno povezavo na vnesen e-poštni naslov.",
+    },
     messages: {
-      successfulRequest:
-        "Povezava za prijavo je bila uspešno ustvarjena. Preveri svojo e-pošto.",
-      failedRequest: "Povezave za prijavo ni bilo mogoče ustvariti.",
-      invalidEmail: "Vneseni e-poštni naslov ni v veljavnem formatu",
+      errorRetrievingData:
+        "Pri pridobivanju podatkov o registraciji je prišlo do napake.",
+      errorSavingSelection: "Pri shranjevanju izbire je prišlo do napake.",
+      expiredToken:
+        "Tvoj dostopni žeton je potekel. Prosimo, zahtevaj novo povezavo in poskusi znova.",
+      loginLinkGenerated:
+        "Povezava za prijavo je bila uspešno ustvarjena! Preveri svoj e-poštni predal.",
+      loginLinkNotGenerated: `Povezave za prijavo ni bilo mogoče ustvariti.<br>Preveri pravilnost vnešenega e-poštnega naslova in poskusi znova.<br>Če se težava ponavlja, nas kontaktiraj na <a target="_blank" href="mailto:info{'@'}slovenianopen.dance" style="color: black; text-decoration: underline">info{'@'}slovenianopen.dance</a>.`,
+      invalidEmail: "Vnesen e-poštni naslov ni veljaven.",
     },
     details: {
-      id: "Številka prijave",
+      noRegistrationFound: "Za ta e-poštni naslov ni registracij.",
+      id: "ID registracije",
       receivedAt: "Prejeto ob",
       name: "Ime",
-      email: "Email",
+      email: "E-pošta",
       country: "Država",
       wsdc: "WSDC ID",
       role: "Vloga",
-      passType: "Vrsta vstopnice",
-      level: "Nivo delavnice",
+      leader: "Leader",
+      follower: "Follower",
+      passType: "Tip vstopnice",
+      level: "Stopnja delavnic",
       status: "Status",
       price: "Cena",
       paid: "Plačilo",
-      notPaid: "Plačilo še ni bilo prejeto",
+      notPaid: "Plačilo še ni prejeto",
+    },
+    form: {
+      edit: "Uredi",
+      save: "Shrani",
+      pleaseSelect: "Izberi možnost.",
+      yes: "Da",
+      no: "Ne",
+    },
+    addons: {
+      title: "Dodatki",
+      dayTrip: {
+        title: "Četrtkov izlet",
+        info: "Cena izleta je 55 EUR na osebo, plačilo je potrebno poravnati v roku 7 dni po potrditvi. Več informacij o izletu najdeš na spletni strani. Število mest je zelo omejeno.",
+      },
+      competitions: {
+        title: "Tekmovanja",
+        info: "To še ni prijava na tekmovanja, temveč zgolj izkaz zanimanja, ki nam olajša načrtovanje urnika. Kasneje se boš lahko prijavil_a na tekmovanja preko scoring.dance.",
+      },
+      preparty: {
+        title: "Četrtkov predvečer",
+        info: "Predvečer je vključen v Full pass in Party pass, vendar je število mest v dvorani omejeno. Prosimo, navedi, ali se nameravaš udeležiti.",
+      },
+      cityTour: {
+        title: "Petkov ogled mesta",
+        info: "Ogled mesta je vključen v Full pass in Party pass. Prosimo, navedi, ali se nameravaš pridružiti, da lahko pripravimo dovolj vodnikov.",
+      },
+      status: [
+        "Še ni izbrano.",
+        "Registracija prejeta.",
+        "Na čakalnem seznamu.",
+        "Registracija sprejeta.",
+        "Registracija plačana.",
+        "Registracija potrjena.",
+        "Registracija preklicana.",
+        "Registracija prenesena.",
+        "Ne bom sodeloval_a.",
+      ],
     },
   },
 };

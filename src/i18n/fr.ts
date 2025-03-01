@@ -49,6 +49,7 @@ const fr = {
   urls: {
     facebook: "https://www.facebook.com/events/333172752914194",
     instagram: "https://www.instagram.com/slovenian_open_wcs",
+    whatsapp: "https://chat.whatsapp.com/JTEX5hcklqv85Q3iwHKS9h",
   },
   home: {
     pageTitle: "Accueil",
@@ -928,33 +929,82 @@ const fr = {
     },
   },
   userProfile: {
-    pageTitle: "Demandez votre lien de connexion à votre profil",
-    inputText:
-      "Entrez l'email que vous avez utilisé lors de votre inscription :",
-    btnText: "Soumettre",
-    infoText:
-      "Si une inscription correspond dans le système, vous recevrez un lien de connexion à l'adresse e-mail que vous avez saisie.",
+    profilePageTitle: "Vos Inscriptions",
+    loading: "Chargement",
+    requestLink: {
+      title: "Demandez votre lien de connexion au profil",
+      inputText:
+        "Entrez l'e-mail que vous avez utilisé lors de votre inscription :",
+      btnText: "Envoyer",
+      infoText:
+        "Si une inscription correspondante existe dans le système, vous recevrez un lien de connexion à l'adresse e-mail indiquée.",
+    },
     messages: {
-      successfulRequest:
-        "Le lien de connexion a été généré avec succès. Veuillez vérifier votre email.",
-      failedRequest: "Le lien de connexion n'a pas pu être généré.",
-      invalidEmail:
-        "L'email que vous avez saisi n'est pas dans un format valide",
+      errorRetrievingData:
+        "Une erreur est survenue lors de la récupération de vos données d'inscription.",
+      errorSavingSelection:
+        "Une erreur est survenue lors de l'enregistrement de votre sélection.",
+      expiredToken:
+        "Votre jeton d'accès a expiré. Veuillez demander un nouveau lien magique et réessayer.",
+      loginLinkGenerated:
+        "Le lien de connexion a été généré avec succès ! Veuillez vérifier votre boîte de réception.",
+      loginLinkNotGenerated: `Le lien de connexion n'a pas pu être généré.<br>Vérifiez l'adresse e-mail saisie et réessayez.<br>Si le problème persiste, contactez-nous par e-mail à <a target="_blank" href="mailto:info{'@'}slovenianopen.dance" style="color: black; text-decoration: underline">info{'@'}slovenianopen.dance</a>.`,
+      invalidEmail: "L'adresse e-mail saisie n'est pas valide.",
     },
     details: {
-      id: "ID d'inscription",
+      noRegistrationFound: "Aucune inscription trouvée pour cet e-mail.",
+      id: "ID d'Inscription",
       receivedAt: "Reçu le",
       name: "Nom",
-      email: "Email",
+      email: "E-mail",
       country: "Pays",
       wsdc: "ID WSDC",
       role: "Rôle",
+      leader: "Leader",
+      follower: "Follower",
       passType: "Type de pass",
-      level: "Niveau de l'atelier",
+      level: "Niveau d'atelier",
       status: "Statut",
       price: "Prix",
       paid: "Paiement",
       notPaid: "Aucun paiement reçu pour l'instant",
+    },
+    form: {
+      edit: "Modifier",
+      save: "Enregistrer",
+      pleaseSelect: "Veuillez sélectionner une option.",
+      yes: "Oui",
+      no: "Non",
+    },
+    addons: {
+      title: "Extras",
+      dayTrip: {
+        title: "Excursion du Jeudi",
+        info: "Le prix de l'excursion est de 55 EUR par personne, à payer sous 7 jours après acceptation. Veuillez consulter le site web pour plus d'informations. Les places sont très limitées.",
+      },
+      competitions: {
+        title: "Compétitions",
+        info: "Ceci n'est pas une inscription aux compétitions, mais une déclaration d'intérêt. Vous pourrez vous inscrire aux compétitions plus tard via scoring.dance.",
+      },
+      preparty: {
+        title: "Pré-soirée du Jeudi",
+        info: "La pré-soirée est incluse dans le Full pass et le Party pass, mais la capacité du lieu est limitée. Merci d'indiquer si vous prévoyez d'y assister.",
+      },
+      cityTour: {
+        title: "Visite de la Ville du Vendredi",
+        info: "La visite de la ville est incluse dans le Full pass et le Party pass. Merci d'indiquer si vous souhaitez y participer afin que nous puissions prévoir suffisamment de guides.",
+      },
+      status: [
+        "Pas encore sélectionné.",
+        "Inscription reçue.",
+        "Sur liste d'attente.",
+        "Inscription acceptée.",
+        "Inscription payée.",
+        "Inscription confirmée.",
+        "Inscription annulée.",
+        "Inscription transférée.",
+        "Ne participe pas.",
+      ],
     },
   },
 };

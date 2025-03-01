@@ -58,7 +58,6 @@ export default {
         if (error instanceof AxiosError && error.response?.status === 403) {
           this.handleExpiredToken();
         } else {
-          //   this.error = "An error occurred while retrieving your data.";
           (window as any).alertComponent.show("errorRetrievingData", "error");
         }
       } finally {
@@ -91,7 +90,6 @@ export default {
         if (error instanceof AxiosError && error.response?.status === 401) {
           this.handleExpiredToken();
         } else {
-          //   this.error = "An error occurred while saving your selection.";
           (window as any).alertComponent.show("errorSavingSelection", "error");
         }
         console.log(error);
@@ -100,18 +98,15 @@ export default {
       }
     },
     handleExpiredToken() {
-      // Redirect to request new token
-      //   this.error =
-      //     "Your access token has expired. Please request a new magic link and try again.";
       (window as any).alertComponent.show("expiredToken", "error");
 
       this.$router.push({
         path: `/${this.$store.state.lang}/profile/request-link`,
       });
     },
-    formatTimestamp(timestamp: string) {
+    formatTimestamp(timestamp: string, showHour: boolean) {
       return DateTime.fromISO(timestamp, { setZone: true }).toFormat(
-        "dd.MM.yyyy HH:mm:ss"
+        showHour ? "dd.MM.yyyy HH:mm:ss" : "dd.MM.yyyy"
       );
     },
     validateFieldSelections(registrationId: number) {
@@ -144,8 +139,8 @@ export default {
 
 <template>
   <div>
-    <h1>Your Registrations</h1>
-    <p v-if="isLoading">Loading...</p>
+    <h1>{{ $t("userProfile.profilePageTitle") }}</h1>
+    <p v-if="isLoading">{{ $t("userProfile.loading") }}...</p>
     <p v-else-if="error">{{ error }}</p>
     <div v-else>
       <div
@@ -180,7 +175,7 @@ export default {
                 {{ $t("userProfile.details.receivedAt") }}:
               </span>
               <span class="grid-item">
-                {{ formatTimestamp(registration.received_at) }}
+                {{ formatTimestamp(registration.received_at, true) }}
               </span>
             </span>
             <span class="grid-container grid-row">
@@ -220,7 +215,9 @@ export default {
                 {{ $t("userProfile.details.role") }}:
               </span>
               <span class="grid-item">
-                {{ registration.role }}
+                {{
+                  $t(`userProfile.details.${registration.role.toLowerCase()}`)
+                }}
               </span>
             </span>
             <span class="grid-container grid-row">
@@ -259,9 +256,9 @@ export default {
                 {{ $t("userProfile.details.paid") }}:
               </span>
               <span class="grid-item">
-                <span v-if="registration.paid_amount">
-                  {{ registration.paid_amount ?? 0 }} ({{
-                    registration.paid_at ?? $t("userProfile.details.notPaid")
+                <span v-if="registration.paid_at">
+                  {{ registration.paid_amount }} EUR ({{
+                    formatTimestamp(registration.paid_at, false)
                   }})
                 </span>
                 <span v-else>{{ $t("userProfile.details.notPaid") }}</span>
@@ -292,20 +289,18 @@ export default {
                     {{ $t(`userProfile.addons.${addOn.translate_key}.title`) }}
                   </div>
                   <div
-                    v-if="!isFormEnabled[registration.id]"
                     class="grid-item flex-container"
+                    v-if="!isFormEnabled[registration.id]"
                   >
-                    <div>
-                      {{
-                        $t(
-                          `userProfile.addons.status[${
-                            registration.add_ons.find(
-                              (ra) => ra.add_on.id === addOn.id
-                            )?.status || 0
-                          }]`
-                        )
-                      }}
-                    </div>
+                    {{
+                      $t(
+                        `userProfile.addons.status[${
+                          registration.add_ons.find(
+                            (ra) => ra.add_on.id === addOn.id
+                          )?.status || 0
+                        }]`
+                      )
+                    }}
                   </div>
                   <fieldset
                     v-if="isFormEnabled[registration.id]"
@@ -321,7 +316,7 @@ export default {
                           :value="true"
                         />
                         <label :for="addOn.translate_key + 'Yes' + i">
-                          {{ $t("userProfile.addons.yes") }}
+                          {{ $t("userProfile.form.yes") }}
                         </label>
                       </div>
                       <div class="flex-item flex-container">
@@ -333,7 +328,7 @@ export default {
                           :value="false"
                         />
                         <label :for="addOn.translate_key + 'No' + i">
-                          {{ $t("userProfile.addons.no") }}
+                          {{ $t("userProfile.form.no") }}
                         </label>
                       </div>
                     </div>
@@ -344,13 +339,21 @@ export default {
                     >
                       {{
                         $t(
-                          `userProfile.addons.${
+                          `userProfile.form.${
                             fieldErrors[registration.id][addOn.id]
                           }`
                         )
                       }}
                     </span>
                   </fieldset>
+                </div>
+                <div
+                  class="grid-item flex-container"
+                  style="margin-bottom: 1.5rem; font-size: small"
+                >
+                  <div>
+                    {{ $t(`userProfile.addons.${addOn.translate_key}.info`) }}
+                  </div>
                 </div>
               </div>
 
@@ -361,7 +364,7 @@ export default {
                 :disabled="isSubmitting"
                 class="btn btn-primary"
               >
-                {{ $t("userProfile.addons.save") }}
+                {{ $t("userProfile.form.save") }}
               </button>
               <button
                 v-if="!isFormEnabled[registration.id]"
@@ -369,7 +372,7 @@ export default {
                 class="btn btn-primary"
                 @click="isFormEnabled[registration.id] = true"
               >
-                {{ $t("userProfile.addons.edit") }}
+                {{ $t("userProfile.form.edit") }}
               </button>
             </form>
           </div>
@@ -500,7 +503,8 @@ fieldset {
   border-color: var(--accepted);
 }
 
-.confirmed {
+.confirmed,
+.paid {
   background-color: var(--confirmed);
   border-color: var(--confirmed);
 }

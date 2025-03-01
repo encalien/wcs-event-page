@@ -21,9 +21,9 @@ export default {
             lang: this.$store.state.lang,
           }
         );
-        (window as any).alertComponent.show("successfulRequest", "success");
+        (window as any).alertComponent.show("loginLinkGenerated", "success");
       } catch (error) {
-        (window as any).alertComponent.show("failedRequest", "error");
+        (window as any).alertComponent.show("loginLinkNotGenerated", "error");
       }
     },
   },
@@ -31,15 +31,15 @@ export default {
 </script>
 
 <template>
-  <h1>{{ $t("userProfile.pageTitle") }}</h1>
+  <h1>{{ $t("userProfile.requestLink.title") }}</h1>
   <div class="container flex-container">
     <form @submit.prevent="requestLoginLink">
-      <label for="email">{{ $t("userProfile.inputText") }}</label>
+      <label for="email">{{ $t("userProfile.requestLink.inputText") }}</label>
       <input type="email" v-model="email" required />
       <button type="submit" class="btn btn-primary">
-        {{ $t("userProfile.btnText") }}
+        {{ $t("userProfile.requestLink.btnText") }}
       </button>
-      <p>{{ $t("userProfile.infoText") }}</p>
+      <p>{{ $t("userProfile.requestLink.infoText") }}</p>
     </form>
   </div>
 </template>

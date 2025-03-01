@@ -47,6 +47,7 @@ const en = {
   urls: {
     facebook: "https://www.facebook.com/events/333172752914194",
     instagram: "https://www.instagram.com/slovenian_open_wcs",
+    whatsapp: "https://chat.whatsapp.com/JTEX5hcklqv85Q3iwHKS9h",
   },
   home: {
     pageTitle: "Home",
@@ -914,16 +915,25 @@ const en = {
     },
   },
   userProfile: {
-    pageTitle: "Request your profile login link",
-    inputText: "Enter the email you used in your registration:",
-    btnText: "Submit",
-    infoText:
-      "If there's a matching registration in the system, you will receive a login link to the email account you entered.",
+    profilePageTitle: "Your Registrations",
+    loading: "Loading",
+    requestLink: {
+      title: "Request your profile login link",
+      inputText: "Enter the email you used in your registration:",
+      btnText: "Submit",
+      infoText:
+        "If there's a matching registration in the system, you will receive a login link to the email account you entered.",
+    },
     messages: {
-      successfulRequest:
+      errorRetrievingData:
+        "An error occurred while retrieving your registration data.",
+      errorSavingSelection: "An error occurred while saving your selection.",
+      expiredToken:
+        "Your access token has expired. Please request a new magic link and try again.",
+      loginLinkGenerated:
         "The login link generated successfully! Please check your email inbox.",
-      failedRequest: `The login link could not be generated.<br>Double check the email you entered for typos and try again.<br>If the problem persists, contact us via email at <a target="_blank" href="mailto:info{'@'}slovenianopen.dance" style="color: black; text-decoration: underline">info{'@'}slovenianopen.dance</a>.`,
-      invalidEmail: "The email you entered is not in a valid format",
+      loginLinkNotGenerated: `The login link could not be generated.<br>Double check the email you entered for typos and try again.<br>If the problem persists, contact us via email at <a target="_blank" href="mailto:info{'@'}slovenianopen.dance" style="color: black; text-decoration: underline">info{'@'}slovenianopen.dance</a>.`,
+      invalidEmail: "The email you entered is not in a valid format.",
     },
     details: {
       noRegistrationFound: "No registrations found for this email.",
@@ -934,6 +944,8 @@ const en = {
       country: "Country",
       wsdc: "WSDC ID",
       role: "Role",
+      leader: "Leader",
+      follower: "Follower",
       passType: "Pass type",
       level: "Workshop level",
       status: "Status",
@@ -943,26 +955,29 @@ const en = {
     },
     form: {
       edit: "Edit",
-      save: "Save changes",
+      save: "Save",
+      pleaseSelect: "Please select an option.",
+      yes: "Yes",
+      no: "No",
     },
     addons: {
       title: "Add-ons",
       dayTrip: {
         title: "Thursday Day Trip",
-        info: "Price of the trip is 55 EUR per person, to be paid within 7 days of acceptance. Please read more about the day trip on the website.",
+        info: "Price of the trip is 55 EUR per person, to be paid within 7 days of acceptance. Please read more about the day trip on the website. There's a very limited number of spots available.",
       },
       competitions: {
         title: "Competitions",
+        info: "This is not a registration for competitions, but a declaration of interest. You will be able to register for competitions at a later time through scoring.dance",
       },
       preparty: {
         title: "Thursday Preparty",
+        info: "The preparty is included in Full pass and Party pass, but spaces at the venue are limited. Please state if you plan to attend the preparty.",
       },
       cityTour: {
         title: "Friday City Tour",
+        info: "The city tour is included in Full pass and Party pass. Please state if you plan to attend the city tour, so we can prepare enough guides.",
       },
-      notSelected: "Not selected yet.",
-      save: "Save",
-      edit: "Edit",
       status: [
         "Not selected yet.",
         "Registration received.",
@@ -974,19 +989,6 @@ const en = {
         "Registration transferred.",
         "Not participating.",
       ],
-      yes: "Yes",
-      no: "No",
-      pleaseSelect: "Please select an option.",
-    },
-    merchItems: {
-      tShirt: {
-        title: "T-shirt",
-        model: "Model",
-        size: "Size",
-        info: "Please specify your T-shirt preferences.",
-        selectModel: "Select model",
-        selectSize: "Select size",
-      },
     },
   },
 };
