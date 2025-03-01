@@ -3,6 +3,7 @@
 import ComingSoonComponent from "./components/pages/ComingSoonComponent.vue";
 import HeaderComponent from "./components/HeaderComponent.vue";
 import FooterComponent from "./components/FooterComponent.vue";
+import AlertComponent from "./components/AlertComponent.vue";
 
 export default {
   data() {
@@ -11,6 +12,7 @@ export default {
     };
   },
   components: {
+    AlertComponent,
     HeaderComponent,
     FooterComponent,
     // eslint-disable-next-line vue/no-unused-components
@@ -37,7 +39,6 @@ export default {
       window.scrollTo(0, 0);
     },
   },
-  // created() {},
   computed: {},
 };
 </script>
@@ -49,6 +50,7 @@ export default {
     <!-- <ComingSoonComponent /> -->
   </main>
   <FooterComponent />
+  <AlertComponent />
 </template>
 
 <style scoped></style>

@@ -1,16 +1,48 @@
+export type AddOnDTO = {
+  id: number;
+  name: string;
+  translate_key: string;
+  price: number;
+  event: number;
+};
+
+export type MerchItemDTO = {
+  id: number;
+  model: string;
+  translate_key: string;
+  size: "XXS" | "XS" | "S" | "M" | "L" | "XL" | "XXL";
+  price: number;
+  event: number;
+};
+
+export type PassTypeDTO = {
+  id: number;
+  name: string;
+  total_available_count: number;
+  event: number;
+};
+
 export type RegistrationDTO = {
   id: number;
+  add_ons: { add_on: AddOnDTO; status: number }[];
   country: string;
+  email: string;
   first_name: string;
   last_name: string;
   level: string | null;
+  merch_items: MerchItemDTO[];
   paid_amount: number | null;
   paid_at: string | null;
-  pass_type: string;
+  pass_type: PassTypeDTO;
   price: number | null;
   received_at: string;
   role: string;
   status: string;
   submitted_email: string;
   wsdc_number: string | null;
+};
+
+export type AddonSelectionDTO = {
+  id: number;
+  [key: number]: boolean | null;
 };

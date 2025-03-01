@@ -7,21 +7,23 @@ export default {
     return {
       messages: messages,
       email: "",
-      messageKey: "",
     };
   },
   methods: {
     async requestLoginLink() {
-      this.messageKey = "";
       try {
-        await axios.post(`${import.meta.env.VITE_API_URL}request-login-link`, {
-          email: this.email,
-          eventName: import.meta.env.VITE_EVENT_NAME,
-          lang: this.$store.state.lang,
-        });
-        this.messageKey = "successfulRequest";
+        await axios.post(
+          `${import.meta.env.VITE_API_URL}events/${
+            import.meta.env.VITE_EVENT_ID
+          }/request-profile-link`,
+          {
+            email: this.email,
+            lang: this.$store.state.lang,
+          }
+        );
+        (window as any).alertComponent.show("successfulRequest", "success");
       } catch (error) {
-        this.messageKey = "failedRequest";
+        (window as any).alertComponent.show("failedRequest", "error");
       }
     },
   },
@@ -38,9 +40,6 @@ export default {
         {{ $t("userProfile.btnText") }}
       </button>
       <p>{{ $t("userProfile.infoText") }}</p>
-      <p v-if="messageKey">
-        {{ $t(`userProfile.messages.${messageKey}`) }}
-      </p>
     </form>
   </div>
 </template>

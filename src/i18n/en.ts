@@ -921,11 +921,12 @@ const en = {
       "If there's a matching registration in the system, you will receive a login link to the email account you entered.",
     messages: {
       successfulRequest:
-        "The login link generated successfully. Please check your email.",
-      failedRequest: "The login link could not be generated.",
+        "The login link generated successfully! Please check your email inbox.",
+      failedRequest: `The login link could not be generated.<br>Double check the email you entered for typos and try again.<br>If the problem persists, contact us via email at <a target="_blank" href="mailto:info{'@'}slovenianopen.dance" style="color: black; text-decoration: underline">info{'@'}slovenianopen.dance</a>.`,
       invalidEmail: "The email you entered is not in a valid format",
     },
     details: {
+      noRegistrationFound: "No registrations found for this email.",
       id: "Registration ID",
       receivedAt: "Received at",
       name: "Name",
@@ -939,22 +940,45 @@ const en = {
       price: "Price",
       paid: "Payment",
       notPaid: "No payment received yet",
-      addOns: "Add-ons",
-      notSignedUp: "Not signed up yet",
-      notOrdered: "Not ordered yet",
+    },
+    form: {
+      edit: "Edit",
+      save: "Save changes",
+    },
+    addons: {
+      title: "Add-ons",
       dayTrip: {
         title: "Thursday Day Trip",
         info: "Price of the trip is 55 EUR per person, to be paid within 7 days of acceptance. Please read more about the day trip on the website.",
-        status: [
-          "Not participating.",
-          "Registration received.",
-          "On waitlist.",
-          "Registration accepted.",
-          "Registration paid.",
-          "Registration confirmed.",
-          "",
-        ],
       },
+      competitions: {
+        title: "Competitions",
+      },
+      preparty: {
+        title: "Thursday Preparty",
+      },
+      cityTour: {
+        title: "Friday City Tour",
+      },
+      notSelected: "Not selected yet.",
+      save: "Save",
+      edit: "Edit",
+      status: [
+        "Not selected yet.",
+        "Registration received.",
+        "On waitlist.",
+        "Registration accepted.",
+        "Registration paid.",
+        "Registration confirmed.",
+        "Registration canceled.",
+        "Registration transferred.",
+        "Not participating.",
+      ],
+      yes: "Yes",
+      no: "No",
+      pleaseSelect: "Please select an option.",
+    },
+    merchItems: {
       tShirt: {
         title: "T-shirt",
         model: "Model",
@@ -963,14 +987,6 @@ const en = {
         selectModel: "Select model",
         selectSize: "Select size",
       },
-      planToCompete: "Competing in Jack & Jill.",
-      planToAttendPreparty: "Attending Thursday preparty.",
-      planToAttendCityTour: "Attending Friday city tour.",
-      signUp: "Add to registration!",
-      signedUp: "✓ Added",
-      close: "Close",
-      edit: "Edit",
-      save: "Save changes",
     },
   },
 };
