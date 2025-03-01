@@ -255,6 +255,15 @@ export default {
                   icon="fa-brands fa-instagram"
                 ></font-awesome-icon>
               </a>
+              <a
+                target="_blank"
+                :href="$t('urls.whatsapp')"
+                class="menu-item-link"
+              >
+                <font-awesome-icon
+                  icon="fa-brands fa-whatsapp"
+                ></font-awesome-icon>
+              </a>
             </div>
             <div
               id="localization-menu"
