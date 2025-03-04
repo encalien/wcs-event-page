@@ -281,6 +281,20 @@ export default {
                 </router-link>
               </div>
             </div>
+            <div
+              id="profile-menu"
+              class="menu-item flex-container flex-container-row"
+              :class="{ active: isMobileMenuOpen }"
+            >
+              <router-link
+                :to="`/${$store.state.lang}/profile/request-link`"
+                class="menu-item-link"
+              >
+                <font-awesome-icon
+                  icon="fa-regular fa-user"
+                ></font-awesome-icon>
+              </router-link>
+            </div>
           </div>
         </div>
       </div>
@@ -443,8 +457,21 @@ export default {
   padding: 1rem 0.5rem;
 }
 
-#social-icons {
-  margin: 0 2rem;
+#social-icons,
+#localization-menu,
+#profile-menu {
+  margin-left: 2rem;
+}
+
+#social-icons.flex-container,
+#localization-menu.flex-container {
+  gap: 0;
+}
+
+#social-icons .menu-item-link,
+#localization-menu .menu-item-link,
+#profile-menu .menu-item-link {
+  padding: 1rem 0.5rem;
 }
 
 #mobile-menu-toggle {
@@ -456,9 +483,6 @@ export default {
   z-index: 2;
 }
 
-#localization-menu {
-  display: flex;
-}
 @media screen and (max-width: 1200px) {
   .dropdown-menu {
     position: relative;
@@ -533,8 +557,11 @@ export default {
     justify-content: right;
   }
 
-  #localization-menu.active {
+  #social-icons.active,
+  #localization-menu.active,
+  #profile-menu.active {
     justify-content: center;
+    margin: 0;
   }
 }
 

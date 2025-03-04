@@ -724,6 +724,11 @@ const fr = {
     },
     loading: "Chargement du formulaire d'inscription...",
     registerNow: "Inscrivez-vous ici",
+    alreadyRegistered: [
+      "Déjà inscrit ? ",
+      " pour demander le lien d'accès à voir votre inscription",
+    ],
+    clickHere: "Cliquez ici",
     instructions: [
       {
         title: "Inscription en couple",
@@ -960,14 +965,21 @@ const fr = {
       country: "Pays",
       wsdc: "ID WSDC",
       role: "Rôle",
-      leader: "Leader",
-      follower: "Follower",
       passType: "Type de pass",
       level: "Niveau d'atelier",
       status: "Statut",
       price: "Prix",
       paid: "Paiement",
       notPaid: "Aucun paiement reçu pour l'instant",
+      statusStage: {
+        recieved: "REÇU",
+        waitlist: "LISTE D'ATTENTE",
+        accepted: "ACCEPTÉ",
+        paid: "PAYÉ",
+        confirmed: "CONFIRMÉ",
+        canceled: "ANNULÉ",
+        transferred: "TRANSFÉRÉ",
+      },
     },
     form: {
       edit: "Modifier",
@@ -984,7 +996,7 @@ const fr = {
       },
       competitions: {
         title: "Compétitions",
-        info: "Ceci n'est pas une inscription aux compétitions, mais une déclaration d'intérêt. Vous pourrez vous inscrire aux compétitions plus tard via scoring.dance.",
+        info: "Ceci n'est pas une inscription aux compétitions, mais une déclaration d'intérêt. Vous pourrez vous inscrire aux compétitions plus tard via scoring.dance. Il y a un supplément de 15 € par inscription pour chaque compétition.",
       },
       preparty: {
         title: "Pré-soirée du Jeudi",

@@ -20,6 +20,16 @@ export default {
     >
       {{ $t("registration.registerNow") }}
     </a>
+    <h3 class="center-text">
+      {{ $t("registration.alreadyRegistered[0]") }}
+      <router-link
+        :to="`/${$store.state.lang}/profile/request-link`"
+        class="important link"
+      >
+        {{ $t("registration.clickHere") }}
+      </router-link>
+      {{ $t("registration.alreadyRegistered[1]") }}
+    </h3>
 
     <section>
       <p>{{ $t(`registration.registrationInfoTexts.pleaseReadText`) }}</p>

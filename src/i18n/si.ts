@@ -652,6 +652,12 @@ const si = {
     },
     loading: "Nalaganje obrazca za registracijo...",
     registerNow: "Prijavi se",
+    alreadyRegistered: [
+      "Si že prijavljen_a? ",
+      " za pridobivanje povezave, na kateri lahko pogledaš svojo prijavo.",
+    ],
+    clickHere: "Klkni tukaj",
+    viewRegistration: "Poglej svojo prijavo",
     instructions: [
       {
         title: "Registracija v paru",
@@ -874,14 +880,21 @@ const si = {
       country: "Država",
       wsdc: "WSDC ID",
       role: "Vloga",
-      leader: "Leader",
-      follower: "Follower",
       passType: "Tip vstopnice",
       level: "Stopnja delavnic",
       status: "Status",
       price: "Cena",
       paid: "Plačilo",
       notPaid: "Plačilo še ni prejeto",
+      statusStage: {
+        recieved: "PREJETO",
+        waitlist: "ČAKALNA LISTA",
+        accepted: "SPREJETO",
+        paid: "PLAČANO",
+        confirmed: "POTRJENO",
+        canceled: "PREKLICANO",
+        transferred: "PRENESENO",
+      },
     },
     form: {
       edit: "Uredi",
@@ -898,7 +911,7 @@ const si = {
       },
       competitions: {
         title: "Tekmovanja",
-        info: "To še ni prijava na tekmovanja, temveč zgolj izkaz zanimanja, ki nam olajša načrtovanje urnika. Kasneje se boš lahko prijavil_a na tekmovanja preko scoring.dance.",
+        info: "To še ni prijava na tekmovanja, temveč zgolj izkaz zanimanja, ki nam olajša načrtovanje urnika. Kasneje se boš lahko prijavil_a na tekmovanja preko scoring.dance. Za vsako tekmovanje je doplačilo 15 € na prijavo.",
       },
       preparty: {
         title: "Četrtkov predvečer",

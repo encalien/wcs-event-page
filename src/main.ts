@@ -45,7 +45,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 /* import font awesome icon component */
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 /* import specific icons */
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faEnvelope, faUser } from "@fortawesome/free-regular-svg-icons";
 import {
   faFacebookF,
   faInstagram,
@@ -54,7 +54,7 @@ import {
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
-library.add(faEnvelope, faFacebookF, faInstagram, faWhatsapp, faBars);
+library.add(faEnvelope, faUser, faFacebookF, faInstagram, faWhatsapp, faBars);
 
 const i18n = createI18n({
   locale: "en",

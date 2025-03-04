@@ -711,6 +711,11 @@ const en = {
     },
     loading: "Loading Registration form...",
     registerNow: "Register here",
+    alreadyRegistered: [
+      "Already registered? ",
+      " to request access link to view your registration",
+    ],
+    clickHere: "Click here",
     instructions: [
       {
         title: "Signing up in a couple",
@@ -944,14 +949,21 @@ const en = {
       country: "Country",
       wsdc: "WSDC ID",
       role: "Role",
-      leader: "Leader",
-      follower: "Follower",
       passType: "Pass type",
       level: "Workshop level",
       status: "Status",
       price: "Price",
       paid: "Payment",
       notPaid: "No payment received yet",
+      statusStage: {
+        recieved: "RECIEVED",
+        waitlist: "WAITLIST",
+        accepted: "ACCEPTED",
+        paid: "PAID",
+        confirmed: "CONFIRMED",
+        canceled: "CANCELLED",
+        transferred: "TRANSFERRED",
+      },
     },
     form: {
       edit: "Edit",
@@ -968,7 +980,7 @@ const en = {
       },
       competitions: {
         title: "Competitions",
-        info: "This is not a registration for competitions, but a declaration of interest. You will be able to register for competitions at a later time through scoring.dance",
+        info: "This is not a registration for competitions, but a declaration of interest. You will be able to register for competitions at a later time through scoring.dance. There's a surcharge of 15 eur per entry for each competition.",
       },
       preparty: {
         title: "Thursday Preparty",

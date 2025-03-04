@@ -157,7 +157,11 @@ export default {
                 {{ $t("userProfile.details.status") }}:
               </span>
               <span class="grid-item important">
-                {{ registration.status.toUpperCase() }}
+                {{
+                  $t(
+                    `userProfile.details.statusStage.${registration.status.toLowerCase()}`
+                  )
+                }}
               </span>
             </span>
           </div>
@@ -215,9 +219,7 @@ export default {
                 {{ $t("userProfile.details.role") }}:
               </span>
               <span class="grid-item">
-                {{
-                  $t(`userProfile.details.${registration.role.toLowerCase()}`)
-                }}
+                {{ registration.role }}
               </span>
             </span>
             <span class="grid-container grid-row">
@@ -382,7 +384,7 @@ export default {
   </div>
 </template>
 
-<style>
+<style scoped>
 .grid-row.grid-container {
   grid-template-columns: 1fr 1fr !important;
   padding: 0;
