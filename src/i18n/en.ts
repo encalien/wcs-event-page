@@ -139,98 +139,98 @@ const en = {
           },
         ],
       },
-      // {
-      //   pageTitle: "DJs",
-      //   people: [
-      //     {
-      //       names: "Ken",
-      //       title: "Head DJ",
-      //       src: "/images/djs_ken.png",
-      //       description: [
-      //         "Ken, also known as DJKendyshop, is a West Coast Swing DJ who began his journey in 2018. He quickly gained a reputation for his ability to energize dance floors at both small local events and large WSDC events such as Budafest, Anchor Festival, Baltic Swing, and Swing it like it's hot. Ken's style leans towards complex and exciting music, drawing inspiration from EDM and Dubstep to create a unique and dynamic sound that keeps dancers moving.",
-      //         "His favorite songs to dance to right now are:",
-      //       ],
-      //       songList: [
-      //         "Forgive Me by Sofi Tucker",
-      //         "Whisper by Able Heart",
-      //         "Fake by The Tech Thieves",
-      //       ],
-      //     },
-      //     {
-      //       names: "Patrice",
-      //       title: "Technical head DJ",
-      //       src: "/images/djs_patrice.png",
-      //       description: [
-      //         "Starting his DJ career 5 years ago at parties with a mix of dance styles, he was captivated by the art of creating an atmospheric evening encompassing various genres. Now, he increasingly finds himself behind the decks at West Coast Swing parties, where he continues to excite dancers by blending a diverse range of musical styles.",
-      //         "His favorite songs to dance to right now are:",
-      //       ],
-      //       songList: ["Fuck it, I love it! by ILIRA", "Wait by Damian Lynn"],
-      //     },
-      //     {
-      //       names: "Balázs",
-      //       title: "DJ",
-      //       src: "/images/djs_balazs.png",
-      //       description: [
-      //         "Balázs played his first international set at Slovenian open 2025, when he participated in and won the DJ Battle. Since then, Balázs has been regularly DJing at local parties in Budapest and also had the pleasure of spinning at the Autumn Swing Challenge in 2024. He's passionate about music as a dancer and as a DJ and brings his great sets and energy to the dance floor!",
-      //         "His favorite songs to dance to right now are:",
-      //       ],
-      //       songList: [
-      //         "Becoming Young by Cherry Twist",
-      //         "Slow It Down by Benson Boone",
-      //         "How I Want Ya (Dawn Remix) by Hudson Thames",
-      //       ],
-      //     },
-      //     {
-      //       names: "Kamila",
-      //       title: "DJ",
-      //       src: "/images/djs_kamila.png",
-      //       description: ["Her favorite songs to dance to right now are:"],
-      //       songList: [],
-      //     },
-      //     {
-      //       names: "Kasia",
-      //       title: "DJ",
-      //       src: "/images/djs_kasia.png",
-      //       description: [
-      //         "Kasia started her adventure as a WCS DJ around 2019 in Warsaw. Since then she played music at local Polish events and soon after started getting invites to DJ at international events in Sweden, Finland, Poland, Germany and Hungary. She also played prime slots at Asia Open and Wild Wild Westie. She regularly receives positive feedback about the atmosphere she creates with her sets. Her friends call her “Walking Shazam” since she knows and recognizes tons of songs at first note.",
-      //         "Her favorite songs to dance to right now are:",
-      //       ],
-      //       songList: [
-      //         "Untouchable by Bera",
-      //         "LONELY NIGHTS by Riles",
-      //         "NIGHTS LIKE THESE by Benson Boone",
-      //       ],
-      //     },
-      //     {
-      //       names: "Lino",
-      //       title: "DJ",
-      //       src: "/images/djs_lino.png",
-      //       description: [
-      //         "Lino is passionate about discovering new artists and music, especially lesser-known indies, and has played with the idea of DJing at events for a while. Recently, he had the opportunity to play for some amazing crowds at Swing Generation, Berlin Swing Revolution, and Carnival Swing, as well as local parties in Berlin and Erding. His style consists of mixing his own experimental and often acoustic music with internationally known songs familiar from events.",
-      //         "His favorite songs to dance to right now are:",
-      //       ],
-      //       songList: [
-      //         "Lose It by Oh Wonder",
-      //         "Papa by SICKOTOY, Eliana Gjata, INNA",
-      //         "No Ocean by EXES, Jome",
-      //       ],
-      //     },
-      //     {
-      //       names: "Sepgod",
-      //       title: "DJ",
-      //       src: "/images/djs_sepgod.png",
-      //       description: [
-      //         "Sepgod began couples dancing 30 years ago, fostering a love for music curation, progressing from mixtapes to mix CDs, and eventually DJing at various events, including parties, weddings, and company celebrations. Since 2015, his fascination with WCS's varied music has seen him DJing at Vienna's WCS parties and frequenting international WCS events in Europe. At Swingvester 23/24, he started playing at international venues.",
-      //         "His favorite songs to dance to right now are:",
-      //       ],
-      //       songList: [
-      //         "Soap by Melanie Martinez",
-      //         "Space Ghost Coast To Coast by Glass Animals",
-      //         "Chariot by Mega",
-      //       ],
-      //     },
-      //   ],
-      // },
+      {
+        pageTitle: "DJs",
+        people: [
+          {
+            names: "Ken",
+            title: "Head DJ",
+            src: "/images/djs_ken.png",
+            description: [
+              "Ken, also known as DJKendyshop, is a West Coast Swing DJ who began his journey in 2018. He quickly gained a reputation for his ability to energize dance floors at both small local events and large WSDC events such as Budafest, Anchor Festival, Baltic Swing, and Swing it like it's hot. Ken's style leans towards complex and exciting music, drawing inspiration from EDM and Dubstep to create a unique and dynamic sound that keeps dancers moving.",
+              "His favorite songs to dance to right now are:",
+            ],
+            songList: [
+              "Forgive Me by Sofi Tucker",
+              "Whisper by Able Heart",
+              "Fake by The Tech Thieves",
+            ],
+          },
+          //     {
+          //       names: "Patrice",
+          //       title: "Technical head DJ",
+          //       src: "/images/djs_patrice.png",
+          //       description: [
+          //         "Starting his DJ career 5 years ago at parties with a mix of dance styles, he was captivated by the art of creating an atmospheric evening encompassing various genres. Now, he increasingly finds himself behind the decks at West Coast Swing parties, where he continues to excite dancers by blending a diverse range of musical styles.",
+          //         "His favorite songs to dance to right now are:",
+          //       ],
+          //       songList: ["Fuck it, I love it! by ILIRA", "Wait by Damian Lynn"],
+          //     },
+          //     {
+          //       names: "Balázs",
+          //       title: "DJ",
+          //       src: "/images/djs_balazs.png",
+          //       description: [
+          //         "Balázs played his first international set at Slovenian open 2025, when he participated in and won the DJ Battle. Since then, Balázs has been regularly DJing at local parties in Budapest and also had the pleasure of spinning at the Autumn Swing Challenge in 2024. He's passionate about music as a dancer and as a DJ and brings his great sets and energy to the dance floor!",
+          //         "His favorite songs to dance to right now are:",
+          //       ],
+          //       songList: [
+          //         "Becoming Young by Cherry Twist",
+          //         "Slow It Down by Benson Boone",
+          //         "How I Want Ya (Dawn Remix) by Hudson Thames",
+          //       ],
+          //     },
+          //     {
+          //       names: "Kamila",
+          //       title: "DJ",
+          //       src: "/images/djs_kamila.png",
+          //       description: ["Her favorite songs to dance to right now are:"],
+          //       songList: [],
+          //     },
+          //     {
+          //       names: "Kasia",
+          //       title: "DJ",
+          //       src: "/images/djs_kasia.png",
+          //       description: [
+          //         "Kasia started her adventure as a WCS DJ around 2019 in Warsaw. Since then she played music at local Polish events and soon after started getting invites to DJ at international events in Sweden, Finland, Poland, Germany and Hungary. She also played prime slots at Asia Open and Wild Wild Westie. She regularly receives positive feedback about the atmosphere she creates with her sets. Her friends call her “Walking Shazam” since she knows and recognizes tons of songs at first note.",
+          //         "Her favorite songs to dance to right now are:",
+          //       ],
+          //       songList: [
+          //         "Untouchable by Bera",
+          //         "LONELY NIGHTS by Riles",
+          //         "NIGHTS LIKE THESE by Benson Boone",
+          //       ],
+          //     },
+          //     {
+          //       names: "Lino",
+          //       title: "DJ",
+          //       src: "/images/djs_lino.png",
+          //       description: [
+          //         "Lino is passionate about discovering new artists and music, especially lesser-known indies, and has played with the idea of DJing at events for a while. Recently, he had the opportunity to play for some amazing crowds at Swing Generation, Berlin Swing Revolution, and Carnival Swing, as well as local parties in Berlin and Erding. His style consists of mixing his own experimental and often acoustic music with internationally known songs familiar from events.",
+          //         "His favorite songs to dance to right now are:",
+          //       ],
+          //       songList: [
+          //         "Lose It by Oh Wonder",
+          //         "Papa by SICKOTOY, Eliana Gjata, INNA",
+          //         "No Ocean by EXES, Jome",
+          //       ],
+          //     },
+          //     {
+          //       names: "Sepgod",
+          //       title: "DJ",
+          //       src: "/images/djs_sepgod.png",
+          //       description: [
+          //         "Sepgod began couples dancing 30 years ago, fostering a love for music curation, progressing from mixtapes to mix CDs, and eventually DJing at various events, including parties, weddings, and company celebrations. Since 2015, his fascination with WCS's varied music has seen him DJing at Vienna's WCS parties and frequenting international WCS events in Europe. At Swingvester 23/24, he started playing at international venues.",
+          //         "His favorite songs to dance to right now are:",
+          //       ],
+          //       songList: [
+          //         "Soap by Melanie Martinez",
+          //         "Space Ghost Coast To Coast by Glass Animals",
+          //         "Chariot by Mega",
+          //       ],
+          //     },
+        ],
+      },
       {
         pageTitle: "Show & Comps",
         people: [

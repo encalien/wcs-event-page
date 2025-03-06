@@ -141,105 +141,105 @@ const si = {
           },
         ],
       },
-      //   {
-      //     pageTitle: "DJ-i",
-      //     people: [
-      //       {
-      //         names: "Ken",
-      //         title: "Glavni DJ",
-      //         src: "/images/djs_ken.png",
-      //         description: [
-      //           "Ken, znan tudi kot DJKendyshop, je DJ za West Coast Swing, ki je svojo pot začel leta 2018. Hitro si je pridobil sloves zaradi svoje sposobnosti ustvarjanja energije polnih plesišč tako na majhnih lokalnih dogodkih kot tudi na velikih WSDC dogodkih, kot so Budafest, Anchor Festival, Baltic Swing in Swing it like it's hot. Kenov stil se nagiba k zapleteni in razburljivi glasbi, črpa navdih iz EDM in Dubstepa ter ustvarja edinstven in dinamičen zvok, ki plesalce ohranja v gibanju.",
-      //           "Trenutno najraje pleše na:",
-      //         ],
-      //         songList: [
-      //           "Forgive Me - Sofi Tucker",
-      //           "Whisper - Able Heart",
-      //           "Fake - The Tech Thieves",
-      //         ],
-      //       },
-      //       {
-      //         names: "Aleksandra",
-      //         title: "DJ",
-      //         src: "/images/djs_aleksandra.png",
-      //         description: [
-      //           "Aleksandra aktivno DJ-a v lokalni skupnosti od leta 2019, kjer deli svojo strast do glasbe in moči glasbe, ki jo im pri povezovanju ljudi. Izjemno jo veseli, ko njene skrbno izbrane glasbene izbire odmevajo med množico in privabljajo ljudi na plesišče. Verjame, da je glasba pomemben navdih za ples in lahko vzbudi širok spekter čustev.",
-      //           "Trenutno najraje pleše na:",
-      //         ],
-      //         songList: [
-      //           "California King - D.B. Ricapito",
-      //           "What A Wonderful World - Sofi Tukker",
-      //           "Seasons - Chloe Adams",
-      //         ],
-      //       },
-      //       {
-      //         names: "Laszlo",
-      //         title: "DJ",
-      //         src: "/images/djs_laszlo.png",
-      //         description: [
-      //           "Laszlo je nenavaden DJ. Sam enostavno rad pleše ob dobri glasbi in se šteje za srečneža, saj pogosto glasba, ki je njemu je všeč, inspirira tudi druge, da se mu pridružijo na plesišču. DJ-a že kar nekaj let lokalno in na mednarodnih festivalih. Videti plesalce, kako uživajo ob njegovih ritmih, je zanj največja nagrada.",
-      //           "Trenutno najraje pleše na:",
-      //         ],
-      //         songList: [
-      //           "No Ordinary - Labrinth",
-      //           "N'y pense plus - Tayc",
-      //           "Et c'est parti... - Nâdiya",
-      //         ],
-      //       },
-      //       {
-      //         names: "Lino",
-      //         title: "DJ",
-      //         src: "/images/djs_lino.png",
-      //         description: [
-      //           "Lino se je vedno zanimal za odkrivanje novih umetnikov in glasbe, še posebej manj znanih indie izvajalcev. Nedavno je imel priložnost DJ-ati na dogodkih Swing Generation, Berlin Swing Revolution in Carnival Swing, ter na lokalnih zabavah v Berlinu in Erdingu. Njegov stil je mešanje eksperimentalne in pogosto akustične glasbe z mednarodno priljubljenimi pesmimi, znanimi z dogodkov.",
-      //           "Trenutno najraje pleše na:",
-      //         ],
-      //         songList: [
-      //           "Lose It - Oh Wonder",
-      //           "Papa - SICKOTOY, Eliana Gjata, INNA",
-      //           "No Ocean - EXES, Jome",
-      //         ],
-      //       },
-      //       {
-      //         names: "Matt",
-      //         title: "DJ",
-      //         src: "/images/djs_matt.png",
-      //         description: [
-      //           "Matt je bil koordinator DJ-ev za Portland Blues in Jazz Society v Portlandu 10 let, plesal je družabne plese približno 20 let in prav tako dolgo DJ-al v West Coast Swing, Blues in Fusion skupnostih. Moderiral je, DJ-al, učil in/ali pomagal koordinirati na več WCS, Blues in Fusion/Alt dogodkih po ZDA in Evropi.",
-      //           "Trenutno najraje pleše na:",
-      //         ],
-      //         songList: [
-      //           "Something Sweeter - LUME",
-      //           "Oxygen - Emili Sandé",
-      //           "Island of the Sun - Winona Oak",
-      //         ],
-      //       },
-      //       {
-      //         names: "Patrice",
-      //         title: "DJ",
-      //         src: "/images/djs_patrice.png",
-      //         description: [
-      //           "Patrice je svojo DJ kariero začel pred 5 leti na zabavah z mešanico plesnih stilov, kjer ga je prevzela umetnost ustvarjanja atmosferskega večera, ki zajema različne žanre. Zdaj se vse pogosteje znajde za mešalno mizo na West Coast Swing zabavah, kjer še naprej navdušuje plesalce z mešanjem raznolikih glasbenih stilov.",
-      //           "Trenutno najraje pleše na:",
-      //         ],
-      //         songList: ["Fuck it, I love it! - ILIRA", "Wait - Damian Lynn"],
-      //       },
-      //       {
-      //         names: "Sepgod",
-      //         title: "DJ",
-      //         src: "/images/djs_sebastian.png",
-      //         description: [
-      //           "Sepgod je začel s plesi v paru pred 30 leti, razvil ljubezen do kuriranja glasbe, napredoval od ustvarjanja mešanic trakov do mešanih CD-jev, in naposled DJ-al na različnih dogodkih. Leta 2015 ga je prevzela raznolika glasba WCS, kar ga je vodilo do DJ-anja na zabavah WCS v Dunaju, naa Swingvestru 23/24 pa je začel DJ-ati tudi na mednarodnih festivalih.",
-      //           "Trenutno najraje pleše na:",
-      //         ],
-      //         songList: [
-      //           "Soap - Melanie Martinez",
-      //           "Space Ghost Coast To Coast - Glass Animals",
-      //           "Chariot - Mega",
-      //         ],
-      //       },
-      //     ],
-      //   },
+      {
+        pageTitle: "DJ-i",
+        people: [
+          {
+            names: "Ken",
+            title: "Glavni DJ",
+            src: "/images/djs_ken.png",
+            description: [
+              "Ken, znan tudi kot DJKendyshop, je DJ za West Coast Swing, ki je svojo pot začel leta 2018. Hitro si je pridobil sloves zaradi svoje sposobnosti ustvarjanja energije polnih plesišč tako na majhnih lokalnih dogodkih kot tudi na velikih WSDC dogodkih, kot so Budafest, Anchor Festival, Baltic Swing in Swing it like it's hot. Kenov stil se nagiba k zapleteni in razburljivi glasbi, črpa navdih iz EDM in Dubstepa ter ustvarja edinstven in dinamičen zvok, ki plesalce ohranja v gibanju.",
+              "Trenutno najraje pleše na:",
+            ],
+            songList: [
+              "Forgive Me - Sofi Tucker",
+              "Whisper - Able Heart",
+              "Fake - The Tech Thieves",
+            ],
+          },
+          //       {
+          //         names: "Aleksandra",
+          //         title: "DJ",
+          //         src: "/images/djs_aleksandra.png",
+          //         description: [
+          //           "Aleksandra aktivno DJ-a v lokalni skupnosti od leta 2019, kjer deli svojo strast do glasbe in moči glasbe, ki jo im pri povezovanju ljudi. Izjemno jo veseli, ko njene skrbno izbrane glasbene izbire odmevajo med množico in privabljajo ljudi na plesišče. Verjame, da je glasba pomemben navdih za ples in lahko vzbudi širok spekter čustev.",
+          //           "Trenutno najraje pleše na:",
+          //         ],
+          //         songList: [
+          //           "California King - D.B. Ricapito",
+          //           "What A Wonderful World - Sofi Tukker",
+          //           "Seasons - Chloe Adams",
+          //         ],
+          //       },
+          //       {
+          //         names: "Laszlo",
+          //         title: "DJ",
+          //         src: "/images/djs_laszlo.png",
+          //         description: [
+          //           "Laszlo je nenavaden DJ. Sam enostavno rad pleše ob dobri glasbi in se šteje za srečneža, saj pogosto glasba, ki je njemu je všeč, inspirira tudi druge, da se mu pridružijo na plesišču. DJ-a že kar nekaj let lokalno in na mednarodnih festivalih. Videti plesalce, kako uživajo ob njegovih ritmih, je zanj največja nagrada.",
+          //           "Trenutno najraje pleše na:",
+          //         ],
+          //         songList: [
+          //           "No Ordinary - Labrinth",
+          //           "N'y pense plus - Tayc",
+          //           "Et c'est parti... - Nâdiya",
+          //         ],
+          //       },
+          //       {
+          //         names: "Lino",
+          //         title: "DJ",
+          //         src: "/images/djs_lino.png",
+          //         description: [
+          //           "Lino se je vedno zanimal za odkrivanje novih umetnikov in glasbe, še posebej manj znanih indie izvajalcev. Nedavno je imel priložnost DJ-ati na dogodkih Swing Generation, Berlin Swing Revolution in Carnival Swing, ter na lokalnih zabavah v Berlinu in Erdingu. Njegov stil je mešanje eksperimentalne in pogosto akustične glasbe z mednarodno priljubljenimi pesmimi, znanimi z dogodkov.",
+          //           "Trenutno najraje pleše na:",
+          //         ],
+          //         songList: [
+          //           "Lose It - Oh Wonder",
+          //           "Papa - SICKOTOY, Eliana Gjata, INNA",
+          //           "No Ocean - EXES, Jome",
+          //         ],
+          //       },
+          //       {
+          //         names: "Matt",
+          //         title: "DJ",
+          //         src: "/images/djs_matt.png",
+          //         description: [
+          //           "Matt je bil koordinator DJ-ev za Portland Blues in Jazz Society v Portlandu 10 let, plesal je družabne plese približno 20 let in prav tako dolgo DJ-al v West Coast Swing, Blues in Fusion skupnostih. Moderiral je, DJ-al, učil in/ali pomagal koordinirati na več WCS, Blues in Fusion/Alt dogodkih po ZDA in Evropi.",
+          //           "Trenutno najraje pleše na:",
+          //         ],
+          //         songList: [
+          //           "Something Sweeter - LUME",
+          //           "Oxygen - Emili Sandé",
+          //           "Island of the Sun - Winona Oak",
+          //         ],
+          //       },
+          //       {
+          //         names: "Patrice",
+          //         title: "DJ",
+          //         src: "/images/djs_patrice.png",
+          //         description: [
+          //           "Patrice je svojo DJ kariero začel pred 5 leti na zabavah z mešanico plesnih stilov, kjer ga je prevzela umetnost ustvarjanja atmosferskega večera, ki zajema različne žanre. Zdaj se vse pogosteje znajde za mešalno mizo na West Coast Swing zabavah, kjer še naprej navdušuje plesalce z mešanjem raznolikih glasbenih stilov.",
+          //           "Trenutno najraje pleše na:",
+          //         ],
+          //         songList: ["Fuck it, I love it! - ILIRA", "Wait - Damian Lynn"],
+          //       },
+          //       {
+          //         names: "Sepgod",
+          //         title: "DJ",
+          //         src: "/images/djs_sebastian.png",
+          //         description: [
+          //           "Sepgod je začel s plesi v paru pred 30 leti, razvil ljubezen do kuriranja glasbe, napredoval od ustvarjanja mešanic trakov do mešanih CD-jev, in naposled DJ-al na različnih dogodkih. Leta 2015 ga je prevzela raznolika glasba WCS, kar ga je vodilo do DJ-anja na zabavah WCS v Dunaju, naa Swingvestru 23/24 pa je začel DJ-ati tudi na mednarodnih festivalih.",
+          //           "Trenutno najraje pleše na:",
+          //         ],
+          //         songList: [
+          //           "Soap - Melanie Martinez",
+          //           "Space Ghost Coast To Coast - Glass Animals",
+          //           "Chariot - Mega",
+          //         ],
+          //       },
+        ],
+      },
       {
         pageTitle: "Nastopi & Tekmovanja",
         people: [

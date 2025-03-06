@@ -136,105 +136,105 @@ const fr = {
           },
         ],
       },
-      //   {
-      //     pageTitle: "DJs",
-      //     people: [
-      //       {
-      //         names: "Ken",
-      //         title: "DJ principal",
-      //         src: "/images/djs_ken.png",
-      //         description: [
-      //           "Ken, également connu sous le nom de DJKendyshop, est un DJ de West Coast Swing qui a commencé son parcours en 2018. Il a rapidement acquis une réputation pour sa capacité à dynamiser les pistes de danse, tant lors de petits événements locaux que lors de grands événements WSDC tels que Budafest, Anchor Festival, Baltic Swing et Swing it like it's hot. Le style de Ken se penche vers une musique complexe et palpitante, tirant inspiration de l'EDM et du Dubstep pour créer un son unique et dynamique qui garde les danseurs en mouvement.",
-      //           "Ses chansons préférées pour danser en ce moment sont :",
-      //         ],
-      //         songList: [
-      //           "Forgive Me - Sofi Tucker",
-      //           "Whisper - Able Heart",
-      //           "Fake - The Tech Thieves",
-      //         ],
-      //       },
-      //       {
-      //         names: "Aleksandra",
-      //         title: "DJ",
-      //         src: "/images/djs_aleksandra.png",
-      //         description: [
-      //           "Aleksandra est active en tant que DJ dans la communauté locale depuis 2019, partageant sa passion pour la musique et sa capacité à connecter les gens. Elle trouve une grande joie et satisfaction lorsque ses choix musicaux soigneusement sélectionnés résonnent avec la foule, les incitant à rejoindre la piste de danse. Elle croit que la musique peut être une source d'inspiration significative pour la danse et évoquer une large gamme d'émotions.",
-      //           "Ses chansons préférées pour danser en ce moment sont :",
-      //         ],
-      //         songList: [
-      //           "California King - D.B. Ricapito",
-      //           "What A Wonderful World - Sofi Tukker",
-      //           "Seasons - Chloe Adams",
-      //         ],
-      //       },
-      //       {
-      //         names: "Laszlo",
-      //         title: "DJ",
-      //         src: "/images/djs_laszlo.png",
-      //         description: [
-      //           "Laszlo est un DJ atypique. Il adore danser lui-même sur de la bonne musique et se considère chanceux que la musique qu'il aime fasse également bouger le dancefloor social ! Il est DJ localement et internationalement depuis plusieurs années maintenant. Voir les danseurs s'amuser sur ses morceaux est la plus grande récompense qu'il puisse imaginer.",
-      //           "Ses chansons préférées pour danser en ce moment sont :",
-      //         ],
-      //         songList: [
-      //           "No Ordinary - Labrinth",
-      //           "N'y pense plus - Tayc",
-      //           "Et c'est parti... - Nâdiya",
-      //         ],
-      //       },
-      //       {
-      //         names: "Lino",
-      //         title: "DJ",
-      //         src: "/images/djs_lino.png",
-      //         description: [
-      //           "Lino a toujours exploré de nouveaux artistes et musiques, surtout les indies peu connus, envisageant le DJing depuis un moment. Il a récemment joué devant des foules impressionnantes au Swing Generation, Berlin Swing Revolution et Carnival Swing, et lors de fêtes à Berlin et Erding. Son style mélange sa musique expérimentale, souvent acoustique, avec des chansons reconnues des événements.",
-      //           "Ses chansons préférées pour danser en ce moment sont :",
-      //         ],
-      //         songList: [
-      //           "Lose It - Oh Wonder",
-      //           "Papa - SICKOTOY, Eliana Gjata, INNA",
-      //           "No Ocean - EXES, Jome",
-      //         ],
-      //       },
-      //       {
-      //         names: "Matt",
-      //         title: "DJ",
-      //         src: "/images/djs_matt.png",
-      //         description: [
-      //           "Matt a été coordinateur des DJ pour la Portland Blues and Jazz Society à Portland pendant 10 ans, danse socialement depuis environ 20 ans et fait le DJ presque aussi longtemps en West Coast, Blues et Fusion. Il a également été MC, DJ, enseignant et/ou coordinateur lors de plusieurs événements WCS, Blues et Fusion/Alt aux États-Unis et dans l'UE.",
-      //           "Ses chansons préférées pour danser en ce moment sont :",
-      //         ],
-      //         songList: [
-      //           "Something Sweeter - LUME",
-      //           "Oxygen - Emili Sandé",
-      //           "Island of the Sun - Winona Oak",
-      //         ],
-      //       },
-      //       {
-      //         names: "Patrice",
-      //         title: "DJ",
-      //         src: "/images/djs_patrice.png",
-      //         description: [
-      //           "Patrice a commencé sa carrière de DJ il y a 5 ans lors de fêtes avec un mélange de styles de danse, captivé par l'art de créer une soirée atmosphérique englobant divers genres. Désormais, il se retrouve de plus en plus aux platines lors des soirées West Coast Swing, où il continue d'exciter les danseurs en mélangeant une gamme variée de styles musicaux.",
-      //           "Ses chansons préférées pour danser en ce moment sont :",
-      //         ],
-      //         songList: ["Fuck it, I love it! - ILIRA", "Wait - Damian Lynn"],
-      //       },
-      //       {
-      //         names: "Sepgod",
-      //         title: "DJ",
-      //         src: "/images/djs_sebastian.png",
-      //         description: [
-      //           "Sepgod a commencé à danser en couple il y a 30 ans, développant une passion pour la curation musicale, passant de mixtapes à mix CDs, et finalement DJing lors de divers événements. Depuis 2015, sa fascination pour la musique variée du WCS l'a amené à DJing lors de fêtes WCS à Vienne et à participer régulièrement à des événements WCS internationaux en Europe. Au Swingvester 23/24, il a commencé à jouer sur des scènes internationales.",
-      //           "Ses chansons préférées pour danser en ce moment sont :",
-      //         ],
-      //         songList: [
-      //           "Soap - Melanie Martinez",
-      //           "Space Ghost Coast To Coast - Glass Animals",
-      //           "Chariot - Mega",
-      //         ],
-      //       },
-      //     ],
-      //   },
+      {
+        pageTitle: "DJs",
+        people: [
+          {
+            names: "Ken",
+            title: "DJ principal",
+            src: "/images/djs_ken.png",
+            description: [
+              "Ken, également connu sous le nom de DJKendyshop, est un DJ de West Coast Swing qui a commencé son parcours en 2018. Il a rapidement acquis une réputation pour sa capacité à dynamiser les pistes de danse, tant lors de petits événements locaux que lors de grands événements WSDC tels que Budafest, Anchor Festival, Baltic Swing et Swing it like it's hot. Le style de Ken se penche vers une musique complexe et palpitante, tirant inspiration de l'EDM et du Dubstep pour créer un son unique et dynamique qui garde les danseurs en mouvement.",
+              "Ses chansons préférées pour danser en ce moment sont :",
+            ],
+            songList: [
+              "Forgive Me - Sofi Tucker",
+              "Whisper - Able Heart",
+              "Fake - The Tech Thieves",
+            ],
+          },
+          //       {
+          //         names: "Aleksandra",
+          //         title: "DJ",
+          //         src: "/images/djs_aleksandra.png",
+          //         description: [
+          //           "Aleksandra est active en tant que DJ dans la communauté locale depuis 2019, partageant sa passion pour la musique et sa capacité à connecter les gens. Elle trouve une grande joie et satisfaction lorsque ses choix musicaux soigneusement sélectionnés résonnent avec la foule, les incitant à rejoindre la piste de danse. Elle croit que la musique peut être une source d'inspiration significative pour la danse et évoquer une large gamme d'émotions.",
+          //           "Ses chansons préférées pour danser en ce moment sont :",
+          //         ],
+          //         songList: [
+          //           "California King - D.B. Ricapito",
+          //           "What A Wonderful World - Sofi Tukker",
+          //           "Seasons - Chloe Adams",
+          //         ],
+          //       },
+          //       {
+          //         names: "Laszlo",
+          //         title: "DJ",
+          //         src: "/images/djs_laszlo.png",
+          //         description: [
+          //           "Laszlo est un DJ atypique. Il adore danser lui-même sur de la bonne musique et se considère chanceux que la musique qu'il aime fasse également bouger le dancefloor social ! Il est DJ localement et internationalement depuis plusieurs années maintenant. Voir les danseurs s'amuser sur ses morceaux est la plus grande récompense qu'il puisse imaginer.",
+          //           "Ses chansons préférées pour danser en ce moment sont :",
+          //         ],
+          //         songList: [
+          //           "No Ordinary - Labrinth",
+          //           "N'y pense plus - Tayc",
+          //           "Et c'est parti... - Nâdiya",
+          //         ],
+          //       },
+          //       {
+          //         names: "Lino",
+          //         title: "DJ",
+          //         src: "/images/djs_lino.png",
+          //         description: [
+          //           "Lino a toujours exploré de nouveaux artistes et musiques, surtout les indies peu connus, envisageant le DJing depuis un moment. Il a récemment joué devant des foules impressionnantes au Swing Generation, Berlin Swing Revolution et Carnival Swing, et lors de fêtes à Berlin et Erding. Son style mélange sa musique expérimentale, souvent acoustique, avec des chansons reconnues des événements.",
+          //           "Ses chansons préférées pour danser en ce moment sont :",
+          //         ],
+          //         songList: [
+          //           "Lose It - Oh Wonder",
+          //           "Papa - SICKOTOY, Eliana Gjata, INNA",
+          //           "No Ocean - EXES, Jome",
+          //         ],
+          //       },
+          //       {
+          //         names: "Matt",
+          //         title: "DJ",
+          //         src: "/images/djs_matt.png",
+          //         description: [
+          //           "Matt a été coordinateur des DJ pour la Portland Blues and Jazz Society à Portland pendant 10 ans, danse socialement depuis environ 20 ans et fait le DJ presque aussi longtemps en West Coast, Blues et Fusion. Il a également été MC, DJ, enseignant et/ou coordinateur lors de plusieurs événements WCS, Blues et Fusion/Alt aux États-Unis et dans l'UE.",
+          //           "Ses chansons préférées pour danser en ce moment sont :",
+          //         ],
+          //         songList: [
+          //           "Something Sweeter - LUME",
+          //           "Oxygen - Emili Sandé",
+          //           "Island of the Sun - Winona Oak",
+          //         ],
+          //       },
+          //       {
+          //         names: "Patrice",
+          //         title: "DJ",
+          //         src: "/images/djs_patrice.png",
+          //         description: [
+          //           "Patrice a commencé sa carrière de DJ il y a 5 ans lors de fêtes avec un mélange de styles de danse, captivé par l'art de créer une soirée atmosphérique englobant divers genres. Désormais, il se retrouve de plus en plus aux platines lors des soirées West Coast Swing, où il continue d'exciter les danseurs en mélangeant une gamme variée de styles musicaux.",
+          //           "Ses chansons préférées pour danser en ce moment sont :",
+          //         ],
+          //         songList: ["Fuck it, I love it! - ILIRA", "Wait - Damian Lynn"],
+          //       },
+          //       {
+          //         names: "Sepgod",
+          //         title: "DJ",
+          //         src: "/images/djs_sebastian.png",
+          //         description: [
+          //           "Sepgod a commencé à danser en couple il y a 30 ans, développant une passion pour la curation musicale, passant de mixtapes à mix CDs, et finalement DJing lors de divers événements. Depuis 2015, sa fascination pour la musique variée du WCS l'a amené à DJing lors de fêtes WCS à Vienne et à participer régulièrement à des événements WCS internationaux en Europe. Au Swingvester 23/24, il a commencé à jouer sur des scènes internationales.",
+          //           "Ses chansons préférées pour danser en ce moment sont :",
+          //         ],
+          //         songList: [
+          //           "Soap - Melanie Martinez",
+          //           "Space Ghost Coast To Coast - Glass Animals",
+          //           "Chariot - Mega",
+          //         ],
+          //       },
+        ],
+      },
       {
         pageTitle: "Spectacles & Compétitions",
         people: [

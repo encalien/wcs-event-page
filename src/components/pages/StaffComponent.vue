@@ -47,13 +47,13 @@ export default {
                   {{ $t(`staff.teams[${t}].people[${i}].description[${j}]`) }}
                 </span>
               </p>
-              <!-- <div v-if="t == 1">
+              <div v-if="person.songList">
                 <ul v-for="(s, j) in person.songList" :key="`${j}`">
                   <li>
                     {{ $t(`staff.teams[${t}].people[${i}].songList[${j}]`) }}
                   </li>
                 </ul>
-              </div> -->
+              </div>
             </div>
             <div class="image" :class="{ left: i % 2 == 1, right: i % 2 == 0 }">
               <div class="margin-0 flex-container">
