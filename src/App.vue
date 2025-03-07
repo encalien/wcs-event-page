@@ -40,6 +40,34 @@ export default {
     },
   },
   computed: {},
+  metaInfo() {
+    let lang =
+      typeof this.$route.params.lang === "string"
+        ? this.$route.params.lang
+        : "en";
+
+    return {
+      meta: [
+        { property: "og:url", content: `https://slovenianopen.dance/${lang}` },
+        { property: "og:locale", content: this.getOgLocale(lang) },
+        { property: "og:locale:alternate", content: "en_US" },
+        { property: "og:locale:alternate", content: "fr_FR" },
+        { property: "og:locale:alternate", content: "sl_SI" },
+      ],
+    };
+  },
+  methods: {
+    getOgLocale(lang: string) {
+      switch (lang) {
+        case "fr":
+          return "fr_FR";
+        case "si":
+          return "sl_SI";
+        default:
+          return "en_US";
+      }
+    },
+  },
 };
 </script>
 
