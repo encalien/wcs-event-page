@@ -47,8 +47,8 @@ export default {
                   {{ $t(`staff.teams[${t}].people[${i}].description[${j}]`) }}
                 </span>
               </p>
-              <div v-if="person.songList">
-                <ul v-for="(s, j) in person.songList" :key="`${j}`">
+              <div v-if="(person as any).songList">
+                <ul v-for="(s, j) in (person as any).songList" :key="`${j}`">
                   <li>
                     {{ $t(`staff.teams[${t}].people[${i}].songList[${j}]`) }}
                   </li>

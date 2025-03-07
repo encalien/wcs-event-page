@@ -158,86 +158,86 @@ const si = {
               "Fake - The Tech Thieves",
             ],
           },
-          //       {
-          //         names: "Aleksandra",
-          //         title: "DJ",
-          //         src: "/images/djs_aleksandra.png",
-          //         description: [
-          //           "Aleksandra aktivno DJ-a v lokalni skupnosti od leta 2019, kjer deli svojo strast do glasbe in moči glasbe, ki jo im pri povezovanju ljudi. Izjemno jo veseli, ko njene skrbno izbrane glasbene izbire odmevajo med množico in privabljajo ljudi na plesišče. Verjame, da je glasba pomemben navdih za ples in lahko vzbudi širok spekter čustev.",
-          //           "Trenutno najraje pleše na:",
-          //         ],
-          //         songList: [
-          //           "California King - D.B. Ricapito",
-          //           "What A Wonderful World - Sofi Tukker",
-          //           "Seasons - Chloe Adams",
-          //         ],
-          //       },
-          //       {
-          //         names: "Laszlo",
-          //         title: "DJ",
-          //         src: "/images/djs_laszlo.png",
-          //         description: [
-          //           "Laszlo je nenavaden DJ. Sam enostavno rad pleše ob dobri glasbi in se šteje za srečneža, saj pogosto glasba, ki je njemu je všeč, inspirira tudi druge, da se mu pridružijo na plesišču. DJ-a že kar nekaj let lokalno in na mednarodnih festivalih. Videti plesalce, kako uživajo ob njegovih ritmih, je zanj največja nagrada.",
-          //           "Trenutno najraje pleše na:",
-          //         ],
-          //         songList: [
-          //           "No Ordinary - Labrinth",
-          //           "N'y pense plus - Tayc",
-          //           "Et c'est parti... - Nâdiya",
-          //         ],
-          //       },
-          //       {
-          //         names: "Lino",
-          //         title: "DJ",
-          //         src: "/images/djs_lino.png",
-          //         description: [
-          //           "Lino se je vedno zanimal za odkrivanje novih umetnikov in glasbe, še posebej manj znanih indie izvajalcev. Nedavno je imel priložnost DJ-ati na dogodkih Swing Generation, Berlin Swing Revolution in Carnival Swing, ter na lokalnih zabavah v Berlinu in Erdingu. Njegov stil je mešanje eksperimentalne in pogosto akustične glasbe z mednarodno priljubljenimi pesmimi, znanimi z dogodkov.",
-          //           "Trenutno najraje pleše na:",
-          //         ],
-          //         songList: [
-          //           "Lose It - Oh Wonder",
-          //           "Papa - SICKOTOY, Eliana Gjata, INNA",
-          //           "No Ocean - EXES, Jome",
-          //         ],
-          //       },
-          //       {
-          //         names: "Matt",
-          //         title: "DJ",
-          //         src: "/images/djs_matt.png",
-          //         description: [
-          //           "Matt je bil koordinator DJ-ev za Portland Blues in Jazz Society v Portlandu 10 let, plesal je družabne plese približno 20 let in prav tako dolgo DJ-al v West Coast Swing, Blues in Fusion skupnostih. Moderiral je, DJ-al, učil in/ali pomagal koordinirati na več WCS, Blues in Fusion/Alt dogodkih po ZDA in Evropi.",
-          //           "Trenutno najraje pleše na:",
-          //         ],
-          //         songList: [
-          //           "Something Sweeter - LUME",
-          //           "Oxygen - Emili Sandé",
-          //           "Island of the Sun - Winona Oak",
-          //         ],
-          //       },
-          //       {
-          //         names: "Patrice",
-          //         title: "DJ",
-          //         src: "/images/djs_patrice.png",
-          //         description: [
-          //           "Patrice je svojo DJ kariero začel pred 5 leti na zabavah z mešanico plesnih stilov, kjer ga je prevzela umetnost ustvarjanja atmosferskega večera, ki zajema različne žanre. Zdaj se vse pogosteje znajde za mešalno mizo na West Coast Swing zabavah, kjer še naprej navdušuje plesalce z mešanjem raznolikih glasbenih stilov.",
-          //           "Trenutno najraje pleše na:",
-          //         ],
-          //         songList: ["Fuck it, I love it! - ILIRA", "Wait - Damian Lynn"],
-          //       },
-          //       {
-          //         names: "Sepgod",
-          //         title: "DJ",
-          //         src: "/images/djs_sebastian.png",
-          //         description: [
-          //           "Sepgod je začel s plesi v paru pred 30 leti, razvil ljubezen do kuriranja glasbe, napredoval od ustvarjanja mešanic trakov do mešanih CD-jev, in naposled DJ-al na različnih dogodkih. Leta 2015 ga je prevzela raznolika glasba WCS, kar ga je vodilo do DJ-anja na zabavah WCS v Dunaju, naa Swingvestru 23/24 pa je začel DJ-ati tudi na mednarodnih festivalih.",
-          //           "Trenutno najraje pleše na:",
-          //         ],
-          //         songList: [
-          //           "Soap - Melanie Martinez",
-          //           "Space Ghost Coast To Coast - Glass Animals",
-          //           "Chariot - Mega",
-          //         ],
-          //       },
+          {
+            names: "Patrice",
+            title: "Tonski inženir in DJ",
+            src: "/images/djs_patrice.png",
+            description: [
+              "Patrice je svojo DJ kariero začel pred 5 leti na zabavah z mešanico plesnih stilov, kjer ga je prevzela umetnost ustvarjanja atmosferskega večera, ki zajema različne žanre. Zdaj se vse pogosteje znajde za mešalno mizo na West Coast Swing zabavah, kjer še naprej navdušuje plesalce z mešanjem raznolikih glasbenih stilov.",
+              "Trenutno najraje pleše na:",
+            ],
+            songList: ["Fuck it, I love it! - ILIRA", "Wait - Damian Lynn"],
+          },
+          {
+            names: "Balázs",
+            title: "DJ",
+            src: "/images/djs_balazs.png",
+            description: [
+              "Balázs je svoj prvi mednarodni set odigral na Slovenian Open 2024, kjer je sodeloval in zmagal na DJ Battle tekmovanju. Od takrat redno DJ-ja na lokalnih zabavah v Budimpešti, poleg tega pa je imel priložnost vrteti glasbo na Autumn Swing Challenge leta 2024. Je strasten ljubitelj glasbe tako kot plesalec kot DJ in s svojimi seti ter energijo oživi plesišče!",
+              "Njegove najljubše pesmi za ples trenutno so:",
+            ],
+            songList: [
+              "Becoming Young - Cherry Twist",
+              "Slow It Down - Benson Boone",
+              "How I Want Ya (Dawn Remix) - Hudson Thames",
+            ],
+          },
+          {
+            names: "Kamila",
+            title: "DJ",
+            src: "/images/djs_kamila.png",
+            description: [
+              "Kamila prihaja iz čudovitega mesta Krakov na Poljskem. Rada pleše, odkriva nova mesta in raziskuje okuse lokalne kave. Njena največja strast je West Coast Swing, saj ji omogoča svobodno interpretacijo glasbe in ustvarjanje nečesa posebnega – in pogosto igrivega – z vsakim novim plesnim partnerjem. Kot DJ-ka se lahko še globlje potopi v svet glasbe in ga bolje razume. Nič ji ne prinese večjega veselja kot videti plesalce, ki uživajo ob njenih setih.",
+              "Njene najljubše pesmi za ples trenutno so:",
+            ],
+            songList: [
+              "Empty Crown - YAS",
+              "Baptize - RKCB",
+              "Wonderful nothing (edit version) - Glass Animals",
+            ],
+          },
+          {
+            names: "Kasia",
+            title: "DJ",
+            src: "/images/djs_kasia.png",
+            description: [
+              "Kasia je svojo DJ-jevsko WCS pustolovščino začela okoli leta 2019 v Varšavi. Od takrat je vrtela glasbo na lokalnih dogodkih na Poljskem, kmalu zatem pa so jo začeli vabiti na mednarodne dogodke na Švedskem, Finskem, Poljskem, v Nemčiji in na Madžarskem. Prav tako je igrala v vrhunskih terminih na Asia Open in Wild Wild Westie. Redno prejema pozitivne povratne informacije o vzdušju, ki ga ustvarja s svojimi seti. Prijatelji jo imenujejo »Hodeči Shazam«, saj pozna in prepozna ogromno pesmi že ob prvem tonu.",
+              "Njene najljubše pesmi za ples trenutno so:",
+            ],
+            songList: [
+              "Untouchable - Bera",
+              "LONELY NIGHTS - Riles",
+              "NIGHTS LIKE THESE - Benson Boone",
+            ],
+          },
+          {
+            names: "Lino",
+            title: "DJ",
+            src: "/images/djs_lino.png",
+            description: [
+              "Lino se je vedno zanimal za odkrivanje novih umetnikov in glasbe, še posebej manj znanih indie izvajalcev. Nedavno je imel priložnost DJ-ati na dogodkih Swing Generation, Berlin Swing Revolution in Carnival Swing, ter na lokalnih zabavah v Berlinu in Erdingu. Njegov stil je mešanje eksperimentalne in pogosto akustične glasbe z mednarodno priljubljenimi pesmimi, znanimi z dogodkov.",
+              "Trenutno najraje pleše na:",
+            ],
+            songList: [
+              "Lose It - Oh Wonder",
+              "Papa - SICKOTOY, Eliana Gjata, INNA",
+              "No Ocean - EXES, Jome",
+            ],
+          },
+          {
+            names: "Sepgod",
+            title: "DJ",
+            src: "/images/djs_sepgod.png",
+            description: [
+              "Sepgod je začel s plesi v paru pred 30 leti, razvil ljubezen do kuriranja glasbe, napredoval od ustvarjanja mešanic trakov do mešanih CD-jev, in naposled DJ-al na različnih dogodkih. Leta 2015 ga je prevzela raznolika glasba WCS, kar ga je vodilo do DJ-anja na zabavah WCS v Dunaju, naa Swingvestru 23/24 pa je začel DJ-ati tudi na mednarodnih festivalih.",
+              "Trenutno najraje pleše na:",
+            ],
+            songList: [
+              "Soap - Melanie Martinez",
+              "Space Ghost Coast To Coast - Glass Animals",
+              "Chariot - Mega",
+            ],
+          },
         ],
       },
       {
