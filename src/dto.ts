@@ -8,11 +8,11 @@ export type AddOnDTO = {
 
 export type MerchItemDTO = {
   id: number;
-  model: string;
-  translate_key: string;
-  size: "XXS" | "XS" | "S" | "M" | "L" | "XL" | "XXL";
-  price: number;
   event: number;
+  available_sizes: ("XXS" | "XS" | "S" | "M" | "L" | "XL" | "XXL")[];
+  model: string;
+  price: number;
+  translate_key: string;
 };
 
 export type PassTypeDTO = {

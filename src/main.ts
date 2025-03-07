@@ -33,8 +33,8 @@ import SloveniaComponent from "./components/pages/SloveniaComponent.vue";
 import HowToGetHereComponent from "./components/pages/HowToGetHereComponent.vue";
 import DayTripComponent from "./components/pages/DayTripComponent.vue";
 import RegistrationComponent from "./components/pages/RegistrationComponent.vue";
-import RequestAccessComponent from "./components/pages/RequestAccessComponent.vue";
-import UserProfileComponent from "./components/pages/UserProfileComponent.vue";
+import RequestAccessComponent from "./components/pages/profile/RequestAccessComponent.vue";
+import UserProfileComponent from "./components/pages/profile/UserProfileComponent.vue";
 
 import { createRouter, createWebHistory } from "vue-router";
 

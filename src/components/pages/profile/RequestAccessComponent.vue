@@ -1,6 +1,6 @@
 <script lang="ts">
 import axios from "axios";
-import messages from "../../i18n/en";
+import messages from "../../../i18n/en";
 
 export default {
   data() {

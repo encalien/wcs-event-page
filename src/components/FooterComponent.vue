@@ -60,6 +60,7 @@ export default {};
 
 .footer-item.flex-container {
   gap: 1rem;
+  justify-content: center;
 }
 
 @media screen and (max-width: 650px) {

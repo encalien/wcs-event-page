@@ -55,7 +55,7 @@ export default {
 }
 
 .error {
-  background-color: var(--other);
+  background-color: var(--waitlist);
   border: 1px solid var(--black);
 }
 </style>
