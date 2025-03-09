@@ -31,7 +31,12 @@ export default {
       this.formData = { id: this.registration.id };
 
       this.availableAddOns.forEach((addOn: AddOnDTO) => {
-        this.formData[addOn.id] = null;
+        const reg_add_on = this.registration?.add_ons.find(
+          (ra) => ra.add_on.id === addOn.id
+        );
+        this.formData[addOn.id] = reg_add_on
+          ? [1, 2, 3, 4, 5, 9].includes(reg_add_on.status)
+          : null;
       });
     },
     validateFieldSelections() {
@@ -97,6 +102,14 @@ export default {
 </script>
 
 <template v-if="registration">
+  <div v-if="!availableAddOns">
+    {{ $t("userProfile.addons.title") }}{{ " " }}
+    {{ $t("userProfile.loading").toLowerCase() }}...
+  </div>
+  <div v-if="availableAddOns && !availableAddOns.length">
+    {{ $t("userProfile.noAddOnsAvailable") }}
+  </div>
+
   <div
     class="section-header"
     v-if="
