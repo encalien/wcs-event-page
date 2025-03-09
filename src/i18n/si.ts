@@ -921,6 +921,14 @@ const si = {
         title: "Petkov ogled mesta",
         info: "Ogled mesta je vključen v Full pass in Party pass. Prosimo, navedi, ali se nameravaš pridružiti, da lahko pripravimo dovolj vodnikov.",
       },
+      lunchPackage: {
+        title: "Paket kosil",
+        info: "Za naše udeležence je na voljo samopostrežno kosilo v bližnji restavraciji Vinka, z eno mesno in eno vegetarijansko možnostjo. Cena je 26 EUR, kar vključuje 2 obroka v določenih terminih v soboto in nedeljo. Prosimo, navedi, ali želiš naročiti paket kosila.",
+      },
+      dinnerPackage: {
+        title: "Paket večerij",
+        info: "Za naše udeležence je na voljo samopostrežna večerja v bližnji restavraciji Vinka, z eno mesno in eno vegetarijansko možnostjo. Cena je 38 EUR, kar vključuje 3 obroke v določenih terminih v petek, soboto in nedeljo. Prosimo, navedi, ali želiš naročiti paket večerje.",
+      },
       status: [
         "Še ni izbrano.",
         "Registracija prejeta.",

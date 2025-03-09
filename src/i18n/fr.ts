@@ -1006,6 +1006,14 @@ const fr = {
         title: "Visite de la Ville du Vendredi",
         info: "La visite de la ville est incluse dans le Full pass et le Party pass. Merci d'indiquer si vous souhaitez y participer afin que nous puissions prévoir suffisamment de guides.",
       },
+      lunchPackage: {
+        title: "Forfait Déjeuner",
+        info: "Pour nos participants, un déjeuner buffet est disponible au restaurant Vinka à proximité, avec une option viande et une option végétarienne. Le coût est de 26 EUR, ce qui comprend 2 repas aux créneaux horaires alloués le samedi et le dimanche. Veuillez indiquer si vous souhaitez commander le forfait déjeuner.",
+      },
+      dinnerPackage: {
+        title: "Forfait Dîner",
+        info: "Pour nos participants, un dîner buffet est disponible au restaurant Vinka à proximité, avec une option viande et une option végétarienne. Le coût est de 38 EUR, ce qui comprend 3 repas aux créneaux horaires alloués le vendredi, le samedi et le dimanche. Veuillez indiquer si vous souhaitez commander le forfait dîner.",
+      },
       status: [
         "Pas encore sélectionné.",
         "Inscription reçue.",

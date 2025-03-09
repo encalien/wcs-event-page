@@ -997,6 +997,14 @@ const en = {
         title: "Friday City Tour",
         info: "The city tour is included in Full pass and Party pass. Please state if you plan to attend the city tour, so we can prepare enough guides.",
       },
+      lunchPackage: {
+        title: "Lunch Package",
+        info: "For our participants buffet-style lunch in nearby Restaurant Vinka is available with one meat and one vegetarian option. Cost is 26 EUR, which includes 2 meals in allocated time slots on Saturday and Sunday. Please state if you would like to order the lunch package.",
+      },
+      dinnerPackage: {
+        title: "Dinner Package",
+        info: "For our participants buffet-style dinner in nearby Restaurant Vinka is available with one meat and one vegetarian option. Cost is 38 EUR, which includes 3 meals in allocated time slots on Friday, Saturday and Sunday. Please state if you would like to order the dinner package.",
+      },
       status: [
         "Not selected yet.",
         "Registration received.",
