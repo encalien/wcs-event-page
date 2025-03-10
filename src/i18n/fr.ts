@@ -283,6 +283,20 @@ const fr = {
         ],
       },
       {
+        pageTitle: "Zero to Hero",
+        people: [
+          {
+            names: "Vicky",
+            title: "Responsable du programme Zero to Hero",
+            src: "/images/staff_vicky.png",
+            description: [
+              "Vicky est originaire de Lituanie mais vit désormais à Londres, où elle a découvert la joie et la créativité du West Coast Swing en janvier 2023. De l'exploration de la musique et de la danse à l'accueil des nouveaux venus dans la communauté, elle est passionnée par le WCS et enthousiaste à l'idée de voir cette incroyable communauté continuer à grandir.",
+              "Ses compétences particulières résident dans l'intégration des nouveaux danseurs, en les aidant à se sentir bienvenus et à l'aise, et à trouver leur place dans le monde de la danse. Elle a dirigé le programme Zero to Hero lors de plusieurs événements et apporte désormais son expertise au Slovenian Open.",
+            ],
+          },
+        ],
+      },
+      {
         pageTitle: "Collaborateurs",
         people: [
           {
@@ -977,7 +991,7 @@ const fr = {
         accepted: "ACCEPTÉ",
         paid: "PAYÉ",
         confirmed: "CONFIRMÉ",
-        canceled: "ANNULÉ",
+        cancelled: "ANNULÉ",
         transferred: "TRANSFÉRÉ",
       },
     },

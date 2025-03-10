@@ -288,6 +288,20 @@ const si = {
         ],
       },
       {
+        pageTitle: "Zero to Hero",
+        people: [
+          {
+            names: "Vicki",
+            title: "Vodja programa Zero to Hero",
+            src: "/images/staff_vicky.png",
+            description: [
+              " Vicky prihaja iz Litve, zdaj pa živi v Londonu, kjer je januarja 2023 odkrila veselje in ustvarjalnost West Coast Swinga. Od raziskovanja glasbe in plesa do sprejemanja novih članov v skupnost - strastno ljubi WCS in je navdušena nad tem, kako ta neverjetna skupnost raste.",
+              "Njena posebna spretnost je vključevanje novih plesalcev v skupnost, tako da se počutijo dobrodošle in samozavestne ter lažje najdejo svoje mesto v plesnem svetu. Vodila je program Zero to Hero na več dogodkih, zdaj pa svojo strokovnost prinaša na Slovenian Open.",
+            ],
+          },
+        ],
+      },
+      {
         pageTitle: "Sodelavci",
         people: [
           {
@@ -892,7 +906,7 @@ const si = {
         accepted: "SPREJETO",
         paid: "PLAČANO",
         confirmed: "POTRJENO",
-        canceled: "PREKLICANO",
+        cancelled: "PREKLICANO",
         transferred: "PRENESENO",
       },
     },
