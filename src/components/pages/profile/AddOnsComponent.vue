@@ -14,7 +14,7 @@ export default {
       token: this.$route.params.hash,
       isLoading: true,
       error: "",
-      fieldErrors: {} as Record<number, string>,
+      fieldErrors: {} as Record<number | string, string>,
       formData: {} as AddonSelectionDTO,
       isFormEnabled: false,
       isSubmitting: false,
@@ -28,15 +28,18 @@ export default {
     initializeFormData() {
       if (!this.registration || !this.availableAddOns) return;
 
-      this.formData = { id: this.registration.id };
+      this.formData = {};
 
       this.availableAddOns.forEach((addOn: AddOnDTO) => {
         const reg_add_on = this.registration?.add_ons.find(
           (ra) => ra.add_on.id === addOn.id
         );
-        this.formData[addOn.id] = reg_add_on
-          ? [1, 2, 3, 4, 5, 9].includes(reg_add_on.status)
-          : null;
+        this.formData[addOn.id] = {
+          added: reg_add_on
+            ? [1, 2, 3, 4, 5, 9].includes(reg_add_on.status)
+            : null,
+          options: reg_add_on?.options || {},
+        };
       });
     },
     validateFieldSelections() {
@@ -48,6 +51,17 @@ export default {
         if (this.formData[key] == undefined) {
           this.fieldErrors[key] = "pleaseSelect";
           isValid = false;
+        } else if (this.formData[key].added && this.availableAddOns) {
+          const addOn = this.availableAddOns.find((a) => a.id === +key);
+
+          if (addOn?.options.length) {
+            for (const option of addOn.options) {
+              if (this.formData[key].options[option.key] == undefined) {
+                this.fieldErrors[option.key] = "pleaseSelect";
+                isValid = false;
+              }
+            }
+          }
         }
       }
 
@@ -146,24 +160,24 @@ export default {
               <div class="flex-item flex-container">
                 <input
                   type="radio"
-                  v-model="formData[addOn.id]"
-                  :id="addOn.translate_key + 'Yes' + registration?.id"
+                  v-model="formData[addOn.id].added"
+                  :id="addOn.translate_key + 'Yes'"
                   :name="addOn.translate_key"
                   :value="true"
                 />
-                <label :for="addOn.translate_key + 'Yes' + registration?.id">
+                <label :for="addOn.translate_key + 'Yes'">
                   {{ $t("userProfile.form.yes") }}
                 </label>
               </div>
               <div class="flex-item flex-container">
                 <input
                   type="radio"
-                  v-model="formData[addOn.id]"
-                  :id="addOn.translate_key + 'No' + registration?.id"
+                  v-model="formData[addOn.id].added"
+                  :id="addOn.translate_key + 'No'"
                   :name="addOn.translate_key"
                   :value="false"
                 />
-                <label :for="addOn.translate_key + 'No' + registration?.id">
+                <label :for="addOn.translate_key + 'No'">
                   {{ $t("userProfile.form.no") }}
                 </label>
               </div>
@@ -173,6 +187,86 @@ export default {
               {{ $t(`userProfile.form.${fieldErrors[addOn.id]}`) }}
             </span>
           </fieldset>
+        </div>
+        <div
+          class="grid-container grid-row"
+          v-if="
+            addOn.options.length && isFormEnabled && formData[addOn.id].added
+          "
+        >
+          <div
+            v-for="(option, i) in addOn.options"
+            :key="i"
+            class="grid-item flex-container flex-column"
+          >
+            <input
+              v-if="!['select', 'radio'].includes(option.type)"
+              :type="option.type"
+              :placeholder="
+                $t(
+                  `userProfile.addons.${addOn.translate_key}.options${option.key}`
+                )
+              "
+              :min="option.min"
+              :max="option.max"
+              v-model="formData[addOn.id].options[option.key]"
+            />
+            <fieldset
+              v-if="option.type === 'radio'"
+              class="grid-item flex-container flex-column"
+            >
+              <div class="flex-item flex-container">
+                <div
+                  class="flex-item flex-container"
+                  v-for="choice in option.choices"
+                  :key="choice"
+                >
+                  <input
+                    type="radio"
+                    v-model="formData[addOn.id].options[option.key]"
+                    :id="option.key + '-' + choice"
+                    :name="choice"
+                    :value="choice"
+                  />
+                  <label :for="option.key + '-' + choice">
+                    {{
+                      $t(
+                        `userProfile.addons.${addOn.translate_key}.options.${choice}`
+                      )
+                    }}
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+            <select
+              v-if="option.type === 'select'"
+              v-model="formData[addOn.id].options[option.key]"
+              class="grid-item"
+            >
+              <option disabled :value="undefined">
+                {{
+                  $t(
+                    `userProfile.addons.${addOn.translate_key}.options.${option.key}`
+                  )
+                }}
+              </option>
+              <option
+                v-for="(choice, j) in option.choices"
+                :key="j"
+                :value="choice"
+              >
+                {{
+                  $t(
+                    `userProfile.addons.${addOn.translate_key}.options.${choice}`
+                  )
+                }}
+              </option>
+            </select>
+            <!-- Error message under the sub-form -->
+            <span v-if="fieldErrors?.[option.key]" class="field-error">
+              {{ $t(`userProfile.form.${fieldErrors[option.key]}`) }}
+            </span>
+          </div>
         </div>
         <div class="grid-item flex-container info">
           {{ $t(`userProfile.addons.${addOn.translate_key}.info`) }}
@@ -199,3 +293,29 @@ export default {
     </form>
   </div>
 </template>
+
+<style scoped lang="scss">
+.sub-form {
+  .grid-item.flex-container.flex-column {
+    align-items: stretch;
+
+    .grid-item {
+      margin: 0.5rem 0;
+      height: 2rem;
+
+      &.flex-container.flex-column {
+        align-items: flex-start;
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .grid-row.grid-container.sub-form {
+    grid-template-columns: 1fr 1fr !important;
+    padding: 0;
+    margin-top: -0.8rem;
+  }
+}
+</style>

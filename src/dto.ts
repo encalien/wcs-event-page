@@ -1,9 +1,18 @@
+export type AddOnOptionDTO = {
+  key: string;
+  type: string;
+  choices?: string[];
+  min?: number;
+  max?: number;
+};
+
 export type AddOnDTO = {
   id: number;
-  name: string;
-  translate_key: string;
-  price: number;
   event: number;
+  name: string;
+  options: AddOnOptionDTO[];
+  price: number;
+  translate_key: string;
 };
 
 export type MerchItemDTO = {
@@ -24,7 +33,12 @@ export type PassTypeDTO = {
 
 export type RegistrationDTO = {
   id: number;
-  add_ons: { add_on: AddOnDTO; status: number }[];
+  add_ons: {
+    add_on: AddOnDTO;
+    status: number;
+    total_price: number | null;
+    options: Record<string, string>;
+  }[];
   country: string;
   email: string;
   first_name: string;
@@ -43,6 +57,8 @@ export type RegistrationDTO = {
 };
 
 export type AddonSelectionDTO = {
-  id: number;
-  [key: number]: boolean | null;
+  [key: number]: {
+    added: boolean | null;
+    options: Record<string, string>;
+  };
 };
