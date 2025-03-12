@@ -81,7 +81,7 @@ export default {
             <font-awesome-icon
               icon="fa-solid fa-bars"
               class="fa menu-item-link"
-            ></font-awesome-icon>
+            />
           </div>
           <div class="menu-items">
             <div
@@ -233,36 +233,28 @@ export default {
                 :href="'mailto:' + $t('contact.email')"
                 class="menu-item-link"
               >
-                <font-awesome-icon
-                  icon="fa-regular fa-envelope"
-                ></font-awesome-icon>
+                <font-awesome-icon icon="fa-regular fa-envelope" />
               </a>
               <a
                 target="_blank"
                 :href="$t('urls.facebook')"
                 class="menu-item-link"
               >
-                <font-awesome-icon
-                  icon="fa-brands fa-facebook-f"
-                ></font-awesome-icon>
+                <font-awesome-icon icon="fa-brands fa-facebook-f" />
               </a>
               <a
                 target="_blank"
                 :href="$t('urls.instagram')"
                 class="menu-item-link"
               >
-                <font-awesome-icon
-                  icon="fa-brands fa-instagram"
-                ></font-awesome-icon>
+                <font-awesome-icon icon="fa-brands fa-instagram" />
               </a>
               <a
                 target="_blank"
                 :href="$t('urls.whatsapp')"
                 class="menu-item-link"
               >
-                <font-awesome-icon
-                  icon="fa-brands fa-whatsapp"
-                ></font-awesome-icon>
+                <font-awesome-icon icon="fa-brands fa-whatsapp" />
               </a>
             </div>
             <div
@@ -290,9 +282,7 @@ export default {
                 :to="`/${$store.state.lang}/profile/request-link`"
                 class="menu-item-link"
               >
-                <font-awesome-icon
-                  icon="fa-regular fa-user"
-                ></font-awesome-icon>
+                <font-awesome-icon icon="fa-regular fa-user" />
               </router-link>
             </div>
           </div>

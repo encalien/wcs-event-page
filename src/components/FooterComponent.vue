@@ -19,17 +19,17 @@ export default {};
         :href="'mailto:' + $t('contact.email')"
         class="menu-item-link"
       >
-        <font-awesome-icon icon="fa-regular fa-envelope"></font-awesome-icon>
+        <font-awesome-icon icon="fa-regular fa-envelope" />
       </a>
       <a
         target="_blank"
         href="https://www.facebook.com/events/333172752914194/"
         class="menu-item-link"
       >
-        <font-awesome-icon icon="fa-brands fa-facebook-f"></font-awesome-icon>
+        <font-awesome-icon icon="fa-brands fa-facebook-f" />
       </a>
       <a target="_blank" :href="$t('urls.instagram')" class="menu-item-link">
-        <font-awesome-icon icon="fa-brands fa-instagram"></font-awesome-icon>
+        <font-awesome-icon icon="fa-brands fa-instagram" />
       </a>
     </div>
   </footer>
