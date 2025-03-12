@@ -959,6 +959,18 @@ const si = {
         "Ne bom sodeloval_a.",
       ],
     },
+    merchItems: {
+      title: "Merchandise",
+      info: "Izberi izdelke, ki jih želiš kupiti. Izdelki bodo pripravljeni za prevzem na festivalu, kjer jih lahko pomeriš in plačaš. Če ti ne ustrezajo, jih ni potrebno kupiti.",
+      size: "Velikost",
+      quantity: "Količina",
+      orderedItems: "Naročeni izdelki",
+      availableItems: "Razpoložljivi izdelki",
+      noItems: "Ni naročenih izdelkov.",
+      tShirt: {
+        title: "Majica",
+      },
+    },
   },
 };
 

@@ -51,10 +51,19 @@ import {
   faInstagram,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faPlus, faTrashCan } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
-library.add(faEnvelope, faUser, faFacebookF, faInstagram, faWhatsapp, faBars);
+library.add(
+  faEnvelope,
+  faUser,
+  faFacebookF,
+  faInstagram,
+  faWhatsapp,
+  faBars,
+  faPlus,
+  faTrashCan
+);
 
 const i18n = createI18n({
   locale: "en",

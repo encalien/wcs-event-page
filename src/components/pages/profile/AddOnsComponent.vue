@@ -24,6 +24,7 @@ export default {
     registration: Object as () => RegistrationDTO,
     availableAddOns: Array as () => AddOnDTO[],
   },
+  emits: ["expired-token", "update-registration"],
   methods: {
     initializeFormData() {
       if (!this.registration || !this.availableAddOns) return;
@@ -80,12 +81,12 @@ export default {
           { headers: { Authorization: `Token ${this.token}` } }
         );
 
-        this.$emit("updateRegistration", updatedRegistration.data);
+        this.$emit("update-registration", updatedRegistration.data);
 
         this.isFormEnabled = false;
       } catch (error) {
         if (error instanceof AxiosError && error.response?.status === 403) {
-          this.$emit("expiredToken");
+          this.$emit("expired-token");
         } else {
           (window as any).alertComponent.show("errorSavingSelection", "error");
         }
@@ -189,7 +190,7 @@ export default {
           </fieldset>
         </div>
         <div
-          class="grid-container grid-row"
+          class="grid-container grid-row sub-form"
           v-if="
             addOn.options.length && isFormEnabled && formData[addOn.id].added
           "

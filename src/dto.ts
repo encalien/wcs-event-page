@@ -24,6 +24,13 @@ export type MerchItemDTO = {
   translate_key: string;
 };
 
+export type MerchItemOrderDTO = {
+  merch_item: MerchItemDTO;
+  size: string;
+  quantity: number;
+  status: number;
+};
+
 export type PassTypeDTO = {
   id: number;
   name: string;
@@ -44,7 +51,12 @@ export type RegistrationDTO = {
   first_name: string;
   last_name: string;
   level: string | null;
-  merch_items: MerchItemDTO[];
+  merch_items: {
+    merch_item: MerchItemDTO;
+    status: number;
+    size: string;
+    quantity: number;
+  }[];
   paid_amount: number | null;
   paid_at: string | null;
   pass_type: PassTypeDTO;
@@ -60,5 +72,11 @@ export type AddonSelectionDTO = {
   [key: number]: {
     added: boolean | null;
     options: Record<string, string>;
+  };
+};
+
+export type MerchItemSelectionDTO = {
+  [key: number]: {
+    [key: string]: number;
   };
 };

@@ -3,6 +3,7 @@ import axios, { AxiosError } from "axios";
 import type { AddOnDTO, MerchItemDTO, RegistrationDTO } from "../../../dto";
 import AddOnsComponent from "./AddOnsComponent.vue";
 import RegistrationDetailsComponent from "./RegistrationDetailsComponent.vue";
+import MerchItemsComponent from "./MerchItemsComponent.vue";
 
 export default {
   data() {
@@ -20,6 +21,7 @@ export default {
   components: {
     AddOnsComponent,
     RegistrationDetailsComponent,
+    MerchItemsComponent,
   },
   methods: {
     async fetchData() {
@@ -80,7 +82,7 @@ export default {
       >
         {{ $t("userProfile.details.noRegistrationFound") }}
       </div>
-      <template v-for="(registration, i) in userRegistrations" :key="{ i }">
+      <div v-for="(registration, i) in userRegistrations" :key="i">
         <div class="registration" :class="registration.status.toLowerCase()">
           <RegistrationDetailsComponent :registration="registration" />
           <AddOnsComponent
@@ -91,8 +93,16 @@ export default {
               (updatedRegistration) => setRegistration(updatedRegistration)
             "
           />
+          <MerchItemsComponent
+            :registration="registration"
+            :availableMerchItems="availableMerchItems"
+            @expired-token="handleExpiredToken"
+            @update-registration="
+              (updatedRegistration) => setRegistration(updatedRegistration)
+            "
+          />
         </div>
-      </template>
+      </div>
     </div>
   </div>
 </template>
@@ -141,8 +151,6 @@ export default {
   max-width: none;
   margin: 0;
   background-color: var(--white);
-  border-bottom-right-radius: 1rem;
-  border-bottom-left-radius: 1rem;
   gap: 0.3rem;
 }
 
@@ -257,7 +265,6 @@ fieldset {
   }
 
   :deep(.registration-update-form .grid-container.grid-row > .grid-item) {
-    flex-direction: column;
     padding: 0;
     line-height: 1.6;
   }

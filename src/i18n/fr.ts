@@ -1044,6 +1044,19 @@ const fr = {
         "Ne participe pas.",
       ],
     },
+
+    merchItems: {
+      title: "Articles de Merchandising",
+      info: "Veuillez sélectionner les articles que vous souhaitez acheter. Les articles seront disponibles pour retrait lors de l'événement, où vous pourrez les essayer et les payer. Vous n'êtes pas obligé(e) de les acheter s'ils ne vous conviennent pas.",
+      size: "Taille",
+      quantity: "Quantité",
+      orderedItems: "Articles commandés",
+      availableItems: "Articles disponibles",
+      noItems: "Aucun article commandé.",
+      tShirt: {
+        title: "T-shirt",
+      },
+    },
   },
 };
 
