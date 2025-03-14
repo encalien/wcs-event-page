@@ -919,6 +919,7 @@ const si = {
     },
     addons: {
       title: "Dodatki",
+      noAddOnsAvailable: "Ni razpoložljivih dodatkov.",
       dayTrip: {
         title: "Četrtkov izlet",
         info: "Cena izleta je 55 EUR na osebo, plačilo je potrebno poravnati v roku 7 dni po potrditvi. Več informacij o izletu najdeš na spletni strani. Število mest je zelo omejeno.",
@@ -995,10 +996,11 @@ const si = {
       ],
     },
     merchItems: {
-      title: "Merchandise",
-      info: "Izberi izdelke, ki jih želiš kupiti. Izdelki bodo pripravljeni za prevzem na festivalu, kjer jih lahko pomeriš in plačaš. Če ti ne ustrezajo, jih ni potrebno kupiti.",
+      title: "Trgovina",
+      info: "Izberi izdelke, ki jih želiš kupiti. Izdelki bodo pripravljeni za prevzem na festivalu, kjer jih lahko pomeriš in plačaš. Če ti ne ustrezajo, jih ni potrebno kupiti. Cena za majico je 15 EUR.",
       size: "Velikost",
       quantity: "Količina",
+      noMerchItemsAvailable: "Ni razpoložljivih izdelkov.",
       orderedItems: "Naročeni izdelki",
       availableItems: "Razpoložljivi izdelki",
       noItems: "Ni naročenih izdelkov.",

@@ -44,7 +44,10 @@ export default {
           added: reg_add_on
             ? [1, 2, 3, 4, 5, 9].includes(reg_add_on.status)
             : null,
-          options: reg_add_on?.options || {},
+          options:
+            reg_add_on && Object.keys(reg_add_on.options).length
+              ? reg_add_on.options
+              : {},
         };
       });
     },
@@ -122,26 +125,36 @@ export default {
 </script>
 
 <template v-if="registration">
-  <div v-if="!availableAddOns">
-    {{ $t("userProfile.addons.title") }}{{ " " }}
-    {{ $t("userProfile.loading").toLowerCase() }}...
-  </div>
-  <div v-if="availableAddOns && !availableAddOns.length">
-    {{ $t("userProfile.noAddOnsAvailable") }}
-  </div>
-
   <div
     class="section-header"
-    v-if="
-      registration?.pass_type.name !== 'Zero to Hero' && availableAddOns?.length
-    "
+    v-if="registration?.pass_type.name !== 'Zero to Hero'"
   >
     <span class="grid-container grid-row">
       <span class="grid-item important center-text" style="grid-column: span 2">
         {{ $t("userProfile.addons.title").toUpperCase() }}
       </span>
     </span>
-    <form @submit.prevent="() => saveAddOns()" class="registration-update-form">
+    <div
+      v-if="!availableAddOns"
+      class="registration-update-form center-text"
+      style="padding-bottom: 1rem"
+    >
+      {{ $t("userProfile.addons.title") }}{{ " " }}
+      {{ $t("userProfile.loading").toLowerCase() }}...
+    </div>
+    <div
+      v-if="availableAddOns && !availableAddOns.length"
+      class="registration-update-form center-text"
+      style="padding-bottom: 1rem"
+    >
+      {{ $t("userProfile.addons.noAddOnsAvailable") }}
+    </div>
+
+    <form
+      v-if="availableAddOns?.length"
+      @submit.prevent="() => saveAddOns()"
+      class="registration-update-form"
+    >
       <div v-for="addOn in availableAddOns" :key="addOn.id">
         <div class="grid-container grid-row">
           <div class="grid-item important flex-container">
@@ -150,6 +163,7 @@ export default {
               v-if="(messages.userProfile.addons as any)[addOn.translate_key].infoModal"
             >
               <button
+                type="button"
                 class="btn btn-secondary"
                 @click="addOnModal = addOn.translate_key"
               >
@@ -435,7 +449,7 @@ export default {
 }
 
 .btn.btn-secondary {
-  margin: 0;
+  margin: 0 0 0.3rem;
   height: 2rem;
   font-size: unset;
   align-items: center;

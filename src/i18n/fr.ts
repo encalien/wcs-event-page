@@ -1004,6 +1004,7 @@ const fr = {
     },
     addons: {
       title: "Extras",
+      noAddOnsAvailable: "Aucun extra disponible.",
       dayTrip: {
         title: "Excursion du Jeudi",
         info: "Le prix de l'excursion est de 55 EUR par personne, à payer sous 7 jours après acceptation. Veuillez consulter le site web pour plus d'informations. Les places sont très limitées.",
@@ -1084,9 +1085,10 @@ const fr = {
     },
     merchItems: {
       title: "Articles de Merchandising",
-      info: "Veuillez sélectionner les articles que vous souhaitez acheter. Les articles seront disponibles pour retrait lors de l'événement, où vous pourrez les essayer et les payer. Vous n'êtes pas obligé(e) de les acheter s'ils ne vous conviennent pas.",
+      info: "Veuillez sélectionner les articles que vous souhaitez acheter. Les articles seront disponibles pour retrait lors de l'événement, où vous pourrez les essayer et les payer. Vous n'êtes pas obligé(e) de les acheter s'ils ne vous conviennent pas. Le prix par T-shirt est de 15 EUR.",
       size: "Taille",
       quantity: "Quantité",
+      noMerchItemsAvailable: "Aucun article de marchandise disponible.",
       orderedItems: "Articles commandés",
       availableItems: "Articles disponibles",
       noItems: "Aucun article commandé.",

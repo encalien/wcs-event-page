@@ -128,21 +128,28 @@ export default {
 </script>
 
 <template v-if="registration">
-  <div v-if="!availableMerchItems">
-    {{ $t("userProfile.merchItems.title") }}{{ " " }}
-    {{ $t("userProfile.loading").toLowerCase() }}...
-  </div>
-  <div v-if="availableMerchItems && !availableMerchItems.length">
-    {{ $t("userProfile.noMerchItemsAvailable") }}
-  </div>
-
-  <div class="section-header" v-if="availableMerchItems?.length">
+  <div class="section-header">
     <span class="grid-container grid-row">
       <span class="grid-item important center-text" style="grid-column: span 2">
         {{ $t("userProfile.merchItems.title").toUpperCase() }}
       </span>
     </span>
+    <div
+      v-if="!availableMerchItems"
+      class="registration-update-form center-text"
+    >
+      {{ $t("userProfile.merchItems.title") }}{{ " " }}
+      {{ $t("userProfile.loading").toLowerCase() }}...
+    </div>
+
+    <div
+      v-if="availableMerchItems && !availableMerchItems.length"
+      class="registration-update-form center-text"
+    >
+      {{ $t("userProfile.merchItems.noMerchItemsAvailable") }}
+    </div>
     <form
+      v-if="availableMerchItems?.length"
       class="registration-update-form"
       novalidate
       @submit.prevent="() => {}"
@@ -266,8 +273,13 @@ export default {
 <style scoped lang="scss">
 .important {
   color: var(--black);
+
   &.center-text {
     margin-top: 0.6rem;
+
+    &.grid-item {
+      margin-top: 0;
+    }
   }
 }
 

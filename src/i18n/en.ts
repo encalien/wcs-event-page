@@ -995,6 +995,7 @@ const en = {
     },
     addons: {
       title: "Add-ons",
+      noAddOnsAvailable: "No add-ons available.",
       dayTrip: {
         title: "Thursday Day Trip",
         info: "Price of the trip is 55 EUR per person, to be paid within 7 days of acceptance. Please read more about the day trip on the website. There's a very limited number of spots available.",
@@ -1072,9 +1073,10 @@ const en = {
     },
     merchItems: {
       title: "Merchandise",
-      info: "Please select the items you would like to purchase. The items will be available for pick-up at the event, where you may try them on and pay for them. You're not required to buy them if they don't suit you.",
+      info: "Please select the items you would like to purchase. The items will be available for pick-up at the event, where you may try them on and pay for them. You're not required to buy them if they don't suit you. Price per T-shirt is 15 EUR.",
       size: "Size",
       quantity: "Quantity",
+      noMerchItemsAvailable: "No merchandise available.",
       orderedItems: "Ordered items",
       availableItems: "Available items",
       noItems: "No items ordered.",
