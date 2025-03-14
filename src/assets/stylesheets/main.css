@@ -139,6 +139,7 @@ hr {
   filter: brightness(100%);
   margin: 1rem auto;
   width: fit-content;
+  cursor: pointer;
 }
 
 .btn-primary {
@@ -171,6 +172,10 @@ hr {
 
 .bold {
   font-family: Cera Pro Bold;
+}
+
+.small {
+  font-size: 0.8rem;
 }
 
 .margin-0 {

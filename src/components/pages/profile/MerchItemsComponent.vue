@@ -1,18 +1,18 @@
 <script lang="ts">
 import axios, { AxiosError } from "axios";
+import ModalComponent from "../../ModalComponent.vue";
 import type {
   MerchItemDTO,
   MerchItemOrderDTO,
-  MerchItemSelectionDTO,
   RegistrationDTO,
 } from "../../../dto";
 
 export default {
   data() {
     return {
-      orderedItems: [] as MerchItemOrderDTO[],
-      formData: {} as MerchItemSelectionDTO,
-      newItem: {} as Record<number, { size: string; quantity: number }>,
+      token: this.$route.params.hash,
+      orders: [] as MerchItemOrderDTO[],
+      newOrder: {} as Record<number, { size: string; quantity: number }>,
       isFormEnabled: false,
       isSubmitting: false,
       fieldErrors: {} as Record<number, string>,
@@ -23,64 +23,77 @@ export default {
     registration: Object as () => RegistrationDTO,
     availableMerchItems: Array as () => MerchItemDTO[],
   },
+  components: { ModalComponent },
   emits: ["expired-token", "update-registration"],
-
   methods: {
-    initializeFormData() {
-      if (!this.registration || !this.availableMerchItems) return;
-
-      this.orderedItems = this.registration.merch_items;
-      this.formData = {};
-      this.newItem = {};
-
-      for (const item of this.availableMerchItems) {
-        this.formData[item.id] = {};
-        this.newItem[item.id] = { size: "", quantity: 0 };
-        for (const size of item.available_sizes) {
-          this.formData[item.id][size] =
-            this.orderedItems.find(
-              (i: MerchItemOrderDTO) =>
-                i.merch_item.id === item.id && i.size === size
-            )?.quantity ?? 0;
-        }
+    initializeNewOrder() {
+      if (!this.availableMerchItems) return;
+      for (const merchItem of this.availableMerchItems) {
+        this.newOrder[merchItem.id] = { size: "", quantity: 0 };
       }
     },
-    async addItemToOrder(merchItem: MerchItemDTO) {
-      const size = this.newItem[merchItem.id].size;
-      const quantity = this.newItem[merchItem.id].quantity;
-
-      if (quantity === 0 || !size) {
+    validateAddOrderForm(merchItem: MerchItemDTO): boolean {
+      if (
+        this.newOrder[merchItem.id].quantity === 0 ||
+        !this.newOrder[merchItem.id].size
+      ) {
         this.fieldErrors[merchItem.id] = "pleaseSelect";
-        return;
+        return false;
       }
+
       this.fieldErrors[merchItem.id] = "";
+
+      return true;
+    },
+    async addOrder(merchItem: MerchItemDTO) {
+      if (!this.validateAddOrderForm(merchItem)) return;
+
+      const order: {
+        merchItemId: number;
+        size: string;
+        quantity: number;
+      } = { merchItemId: merchItem.id, ...this.newOrder[merchItem.id] };
 
       this.isFormEnabled = false;
       this.isSubmitting = true;
 
-      const order: MerchItemSelectionDTO = {};
+      const existingOrder = this.orders.find(
+        (o) => o.merch_item.id === merchItem.id && o.size === order.size
+      );
 
-      for (const merchItemId in this.formData) {
-        order[merchItemId] = {};
-        for (const size in this.formData[merchItemId]) {
-          order[merchItemId][size] = this.formData[merchItemId][size];
-        }
-      }
+      if (existingOrder) order.quantity += existingOrder.quantity;
 
-      order[merchItem.id][size] += quantity;
-
-      await this.saveMerchItems(order);
-
-      this.newItem[merchItem.id] = { size: "", quantity: 0 };
-    },
-    async saveMerchItems(order: MerchItemSelectionDTO) {
       try {
-        const updatedRegistration = await axios.put(
+        const updatedRegistration = await axios.post(
           `${import.meta.env.VITE_API_URL}events/${
             import.meta.env.VITE_EVENT_ID
-          }/registrations/${this.registration?.id}/order`,
+          }/registrations/${this.registration?.id}/orders`,
           order,
-          { headers: { Authorization: `Token ${this.$route.params.hash}` } }
+          { headers: { Authorization: `Token ${this.token}` } }
+        );
+
+        this.$emit("update-registration", updatedRegistration.data);
+
+        this.initializeNewOrder();
+      } catch (error) {
+        if (error instanceof AxiosError && error.response?.status === 403) {
+          this.$emit("expired-token");
+        } else {
+          (window as any).alertComponent.show("errorSavingSelection", "error");
+        }
+      } finally {
+        this.isSubmitting = false;
+      }
+    },
+    async removeOrder(order: MerchItemOrderDTO) {
+      this.isSubmitting = true;
+
+      try {
+        const updatedRegistration = await axios.delete(
+          `${import.meta.env.VITE_API_URL}events/${
+            import.meta.env.VITE_EVENT_ID
+          }/registrations/${this.registration?.id}/orders/${order.id}`,
+          { headers: { Authorization: `Token ${this.token}` } }
         );
 
         this.$emit("update-registration", updatedRegistration.data);
@@ -99,38 +112,13 @@ export default {
         .toLowerCase()
         .replace(/ /g, "_")}.png`;
     },
-    openModal(imageUrl: string) {
-      this.selectedImage = imageUrl;
-      document.addEventListener("keydown", this.closeOnEscape);
-    },
-    closeModal() {
-      this.selectedImage = null;
-      document.removeEventListener("keydown", this.closeOnEscape);
-    },
-    closeOnEscape(event: any) {
-      if (event.key === "Escape") this.closeModal();
-    },
-    removeItemFromOrder(item: MerchItemOrderDTO) {
-      this.isSubmitting = true;
-
-      this.formData[item.merch_item.id][item.size] = 0;
-
-      this.saveMerchItems(this.formData);
-    },
   },
   watch: {
     registration: {
       handler() {
-        if (this.registration && this.availableMerchItems) {
-          this.initializeFormData();
-        }
-      },
-      immediate: true,
-    },
-    availableMerchItems: {
-      handler() {
-        if (this.registration && this.availableMerchItems) {
-          this.initializeFormData();
+        if (this.registration) {
+          this.orders = this.registration.merch_items;
+          this.initializeNewOrder();
         }
       },
       immediate: true,
@@ -163,41 +151,41 @@ export default {
       <span class="important center-text">
         {{ $t("userProfile.merchItems.orderedItems") }}
       </span>
-      <div v-if="orderedItems?.length">
+      <div v-if="orders?.length">
         <div
-          v-for="(item, i) in orderedItems"
+          v-for="(order, i) in orders"
           :key="i"
           class="grid-container grid-row"
         >
           <div class="grid-item flex-container">
             <img
-              :src="getImageUrl(item.merch_item)"
-              :alt="item.merch_item.model"
+              :src="getImageUrl(order.merch_item)"
+              :alt="order.merch_item.model"
               class="thumbnail"
-              @click="openModal(getImageUrl(item.merch_item))"
+              @click="selectedImage = getImageUrl(order.merch_item)"
             />
             <span>
               {{
                 $t(
-                  `userProfile.merchItems.${item.merch_item.translate_key}.title`
+                  `userProfile.merchItems.${order.merch_item.translate_key}.title`
                 )
               }}: {{ " " }}
               <span class="important">
-                {{ item.merch_item.model.toUpperCase() }}
+                {{ order.merch_item.model.toUpperCase() }}
               </span>
             </span>
           </div>
           <div class="grid-item grid-container grid-row">
             <span class="grid-item">
-              {{ $t("userProfile.merchItems.size") }}: {{ item.size }}
+              {{ $t("userProfile.merchItems.size") }}: {{ order.size }}
             </span>
             <span class="grid-item"
               >{{ $t("userProfile.merchItems.quantity") }}:
-              {{ item.quantity }}</span
+              {{ order.quantity }}</span
             >
             <button
               class="grid-item btn btn-secondary"
-              @click="removeItemFromOrder(item)"
+              @click="removeOrder(order)"
             >
               <font-awesome-icon icon="fa-solid fa-trash-can" />
             </button>
@@ -223,7 +211,7 @@ export default {
                 :src="getImageUrl(merchItem)"
                 :alt="merchItem.model"
                 class="thumbnail"
-                @click="openModal(getImageUrl(merchItem))"
+                @click="selectedImage = getImageUrl(merchItem)"
               />
               <span>
                 {{
@@ -235,7 +223,7 @@ export default {
               </span>
             </div>
             <fieldset class="grid-item grid-container grid-row">
-              <select v-model="newItem[merchItem.id].size" class="grid-item">
+              <select v-model="newOrder[merchItem.id].size" class="grid-item">
                 <option disabled value="">
                   {{ $t("userProfile.merchItems.size") }}
                 </option>
@@ -246,13 +234,13 @@ export default {
               <input
                 class="grid-item"
                 type="number"
-                v-model.number="newItem[merchItem.id].quantity"
+                v-model.number="newOrder[merchItem.id].quantity"
                 min="1"
                 :placeholder="$t('userProfile.merchItems.quantity')"
               />
               <button
                 class="grid-item btn btn-secondary"
-                @click="addItemToOrder(merchItem)"
+                @click="addOrder(merchItem)"
               >
                 <font-awesome-icon icon="fa-solid fa-plus" />
               </button>
@@ -270,13 +258,9 @@ export default {
       </div>
     </form>
   </div>
-  <!-- Modal -->
-  <div v-if="selectedImage" class="modal-overlay" @click="closeModal">
-    <div class="modal-content" @click.stop>
-      <button class="close-btn" @click="closeModal">✕</button>
-      <img :src="selectedImage" class="full-image" />
-    </div>
-  </div>
+  <ModalComponent v-if="selectedImage" @close="selectedImage = null">
+    <img :src="selectedImage" class="full-image" />
+  </ModalComponent>
 </template>
 
 <style scoped lang="scss">
@@ -351,39 +335,9 @@ export default {
   }
 }
 
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10;
-
-  .modal-content {
-    position: relative;
-    background: white;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-
-    .full-image {
-      max-width: 90vw;
-      max-height: 80vh;
-      border-radius: 4px;
-    }
-
-    .close-btn {
-      width: 1.6rem;
-      height: 1.6rem;
-      position: absolute;
-      z-index: 10;
-      right: 1rem;
-      top: 1rem;
-    }
-  }
+.full-image {
+  max-width: 90vw;
+  max-height: 80vh;
+  border-radius: 4px;
 }
 </style>

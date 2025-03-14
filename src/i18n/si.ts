@@ -946,6 +946,41 @@ const si = {
           meat: "Meso",
           vegetarian: "Vegetarijansko",
         },
+        infoModal: {
+          title: "Meni",
+          info: "Meni je okviren in se lahko še spremeni.",
+          meals: {
+            lunch: [
+              {
+                date: "Sobota, 12. 4.",
+                meat: "čevapčiči, ocvrt krompir, solata",
+                veggie: "domači bučkini polpeti, ocvrt krompir, solata",
+              },
+              {
+                date: "Nedelja, 13. 4.",
+                meat: "mesni polpeti, špinača, pire krompir, solata",
+                veggie: "sojini polpeti, špinača, pire krompir, solata",
+              },
+            ],
+            dinner: [
+              {
+                date: "Petek, 11. 4.",
+                meat: "piščančji file z ementalerjem v jurčkovi omaki, pražen krompir, solata",
+                veggie: "rižota z jurčki, solata",
+              },
+              {
+                date: "Sobota, 12. 4.",
+                meat: "svinjska medaljončka po istrsko, pražen krompir, solata",
+                veggie: "ocvrt sir, pomfri, tatarska omaka, solata",
+              },
+              {
+                date: "Nedelja, 13. 4.",
+                meat: "puranji zrezek v smetanovi omaki s tartufi, kuhan riž, solata",
+                veggie: "ocvrti njoki v smetanovi omaki z gorgonzolo, solata",
+              },
+            ],
+          },
+        },
       },
       status: [
         "Še ni izbrano.",

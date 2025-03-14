@@ -1031,6 +1031,44 @@ const fr = {
           meat: "Viande",
           vegetarian: "Végétarien",
         },
+        infoModal: {
+          title: "Menu",
+          info: "Notez que le menu est susceptible de changer.",
+          meals: {
+            lunch: [
+              {
+                date: "Samedi 12 avril",
+                meat: "Ćevapčiči, pommes de terre frites, salade",
+                veggie:
+                  "Galettes de courgettes maison, pommes de terre frites, salade",
+              },
+              {
+                date: "Dimanche 13 avril",
+                meat: "Galettes de viande, épinards, purée de pommes de terre, salade",
+                veggie:
+                  "Galettes de soja, épinards, purée de pommes de terre, salade",
+              },
+            ],
+            dinner: [
+              {
+                date: "Vendredi 11 avril",
+                meat: "Filet de poulet à l'Emmental dans une sauce aux cèpes, pommes de terre rissolées, salade",
+                veggie: "Risotto aux cèpes, salade",
+              },
+              {
+                date: "Samedi 12 avril",
+                meat: "Médaillons de porc à l'istrienne, pommes de terre rissolées, salade",
+                veggie: "Fromage pané, frites, sauce tartare, salade",
+              },
+              {
+                date: "Dimanche 13 avril",
+                meat: "Escalope de dinde en sauce crémeuse aux truffes, riz bouilli, salade",
+                veggie:
+                  "Gnocchis frits en sauce crémeuse au Gorgonzola, salade",
+              },
+            ],
+          },
+        },
       },
       status: [
         "Pas encore sélectionné.",
@@ -1044,7 +1082,6 @@ const fr = {
         "Ne participe pas.",
       ],
     },
-
     merchItems: {
       title: "Articles de Merchandising",
       info: "Veuillez sélectionner les articles que vous souhaitez acheter. Les articles seront disponibles pour retrait lors de l'événement, où vous pourrez les essayer et les payer. Vous n'êtes pas obligé(e) de les acheter s'ils ne vous conviennent pas.",

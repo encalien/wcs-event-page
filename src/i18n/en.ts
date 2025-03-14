@@ -1022,6 +1022,41 @@ const en = {
           meat: "Meat",
           vegetarian: "Vegetarian",
         },
+        infoModal: {
+          title: "Menu",
+          info: "Note that the menu is subject to change.",
+          meals: {
+            lunch: [
+              {
+                date: "Saturday, April 12",
+                meat: "Ćevapčiči, fried potatoes, salad",
+                veggie: "Homemade zucchini patties, fried potatoes, salad",
+              },
+              {
+                date: "Sunday, April 13",
+                meat: "Meat patties, spinach, mashed potatoes, salad",
+                veggie: "Soy patties, spinach, mashed potatoes, salad",
+              },
+            ],
+            dinner: [
+              {
+                date: "Friday, April 11",
+                meat: "Chicken fillet with Emmental cheese in porcini mushroom sauce, roasted potatoes, salad",
+                veggie: "Porcini mushroom risotto, salad",
+              },
+              {
+                date: "Saturday, April 12",
+                meat: "Istrian-style pork medallions, roasted potatoes, salad",
+                veggie: "Fried cheese, French fries, tartar sauce, salad",
+              },
+              {
+                date: "Sunday, April 13",
+                meat: "Turkey steak in creamy truffle sauce, boiled rice, salad",
+                veggie: "Fried gnocchi in creamy Gorgonzola sauce, salad",
+              },
+            ],
+          },
+        },
       },
       status: [
         "Not selected yet.",

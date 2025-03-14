@@ -123,7 +123,7 @@ export default {
 
 .registration {
   margin: auto;
-  max-width: 600px;
+  max-width: 650px;
   border: 3px solid black;
   border-radius: 1rem;
   margin: 1rem auto 2rem;
@@ -245,7 +245,7 @@ fieldset {
   font-size: small;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 730px) {
   :deep(.grid-row.grid-container) {
     grid-template-columns: 1fr !important;
     padding: 0.6rem 1rem;
