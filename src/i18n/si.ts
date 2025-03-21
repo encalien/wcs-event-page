@@ -442,9 +442,9 @@ const si = {
     schedule: {
       pageTitle: "Urnik",
       description: "To je okvirni urnik in se bo verjetno še kaj spremenil.",
-      //   downloadText: "Prenesi .pdf datoteko.",
-      //   pdfSrc: "/files/schedule.pdf",
-      pngSrc: "/images/schedule.png",
+      downloadText: "Prenesi .pdf datoteko.",
+      pdfSrc: "/files/schedule.pdf",
+      pngSrc: "/images/schedule.jpg",
     },
     pricing: {
       pageTitle: "Cenik",

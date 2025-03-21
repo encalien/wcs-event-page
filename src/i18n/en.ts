@@ -430,9 +430,9 @@ const en = {
     schedule: {
       pageTitle: "Schedule",
       description: "This is a preliminary schedule and is subject to change.",
-      //   downloadText: "Download the .pdf file.",
-      //   pdfSrc: "/files/schedule.pdf",
-      pngSrc: "/images/schedule.png",
+      downloadText: "Download the .pdf file.",
+      pdfSrc: "/files/schedule.pdf",
+      pngSrc: "/images/schedule.jpg",
     },
     pricing: {
       pageTitle: "Pricing",
