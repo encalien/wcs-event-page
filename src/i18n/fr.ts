@@ -439,8 +439,8 @@ const fr = {
       description:
         "Ceci est un planning préliminaire et est sujet à changement.",
       downloadText: "Télécharger le fichier .pdf.",
-      src: "/files/schedule.pdf",
-      pngSrc: "/images/schedule.jpg",
+      src: "/files/schedule_v3.pdf",
+      pngSrc: "/images/schedule_v3.jpg",
     },
     pricing: {
       pageTitle: "Tarifs",
