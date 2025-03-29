@@ -248,15 +248,6 @@ const fr = {
               "Elle est connue pour son style distinctif inspiré du vintage. Lorsqu'elle ne danse pas, on la retrouve en train de socialiser autour de la piste de danse, avec des amis de longue date comme de nouvelles rencontres, enrichissant ainsi le tissu social de la communauté WCS.",
             ],
           },
-          {
-            names: "Henri",
-            title: "Dancing Mind",
-            src: "/images/staff_henri.png",
-            description: [
-              "Henri a découvert le West Coast Swing en 2017, attiré par une passion de toujours pour la musique malgré aucune expérience en danse.",
-              "Tout en explorant le WCS, il a poursuivi une carrière en médecine, devenant médecin généraliste, et a passé plus de huit ans à étudier la psychologie, y compris la psychologie du sport. Cette double expertise lui offre une perspective unique sur la connexion entre le corps et l'esprit dans la danse. En tant que médecin de l'équipe des Special Olympics Finland, il a pu observer de près le pouvoir transformateur du mouvement et du plaisir. Son premier webinaire a eu lieu le 26 novembre 2023.",
-            ],
-          },
           //       {
           //         names: "Andreas",
           //         title: "Scoring",
@@ -266,15 +257,33 @@ const fr = {
           //           "L'expertise et le dévouement d'Andreas pour la scène de la danse sont évidents puisqu'il est un visage familier dans la plupart des événements de danse européens, où son système continue d'améliorer l'expérience de la compétition pour les participants et les organisateurs.",
           //         ],
           //       },
-          //       {
-          //         names: "Ludovic",
-          //         title: "Juge Principal",
-          //         src: "/images/staff_ludovic.png",
-          //         description: [
-          //           "L'expérience étendue de Ludovic dans diverses formes de danse, combinée à ses réalisations significatives en tant que compétiteur et instructeur, le rendent un atout indispensable pour tout panel de juges.",
-          //           "Sa compréhension approfondie de la dynamique de la danse et sa compétence technique lui donnent un œil aiguisé pour le détail, assurant une évaluation juste et perspicace des performances.",
-          //         ],
-          //       },
+          {
+            names: "Ludovic",
+            title: "Juge Principal",
+            src: "/images/staff_ludovic.png",
+            description: [
+              "L'expérience étendue de Ludovic dans diverses formes de danse, combinée à ses réalisations significatives en tant que compétiteur et instructeur, le rendent un atout indispensable pour tout panel de juges.",
+              "Sa compréhension approfondie de la dynamique de la danse et sa compétence technique lui donnent un œil aiguisé pour le détail, assurant une évaluation juste et perspicace des performances.",
+            ],
+          },
+          {
+            names: "Karin",
+            title: "Juge en chef adjointe",
+            src: "/images/staff_karin.png",
+            description: [
+              "Passionnée de danse depuis toujours, Karin Kakun apporte une riche expérience au panel de juges. Titulaire d'un diplôme universitaire en danse et forte de plus de 14 ans d'enseignement, elle a formé des danseurs dans plusieurs disciplines, dont le WCS, le Hip-Hop, le Stretching et la Pole dance.",
+              "Son parcours diversifié en tant que compétitrice, instructrice et chorégraphe lui confère une approche globale, lui permettant d'évaluer les performances avec un regard aiguisé sur le mouvement, la musicalité et la technique.",
+            ],
+          },
+          {
+            names: "Henri",
+            title: "Dancing Mind",
+            src: "/images/staff_henri.png",
+            description: [
+              "Henri a découvert le West Coast Swing en 2017, attiré par une passion de toujours pour la musique malgré aucune expérience en danse.",
+              "Tout en explorant le WCS, il a poursuivi une carrière en médecine, devenant médecin généraliste, et a passé plus de huit ans à étudier la psychologie, y compris la psychologie du sport. Cette double expertise lui offre une perspective unique sur la connexion entre le corps et l'esprit dans la danse. En tant que médecin de l'équipe des Special Olympics Finland, il a pu observer de près le pouvoir transformateur du mouvement et du plaisir. Son premier webinaire a eu lieu le 26 novembre 2023.",
+            ],
+          },
         ],
       },
       {

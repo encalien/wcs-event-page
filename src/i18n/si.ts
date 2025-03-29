@@ -253,15 +253,6 @@ const si = {
               "V WCS skupnosti je znana je po svojem značilnem vintage stilu. Kadar ne pleše, se zadržuje v bližini plesišča, kjer se druži z novimi in starimi prijatelji in tako bogati družbeno mrežo skupnosti WCS.",
             ],
           },
-          {
-            names: "Henri",
-            title: "Dancing Mind",
-            src: "/images/staff_henri.png",
-            description: [
-              "Henri je odkril West Coast Swing leta 2017, saj ga je kljub pomanjkanju plesnih izkušenj pritegnila njegova dolgoletna strast do glasbe.",
-              "Med raziskovanjem WCS je nadaljeval kariero v medicini, postal splošni zdravnik in več kot osem let preučeval psihologijo, vključno s športno psihologijo. Ta dvojna strokovnost mu omogoča edinstven vpogled v povezavo med umom in telesom v plesu. Kot zdravnik ekipe Special Olympics Finland je iz prve roke videl preobrazbeno moč gibanja in veselja. Njegov prvi spletni seminar je potekal 26. novembra 2023.",
-            ],
-          },
           //       {
           //         names: "Andreas",
           //         title: "Ocenjevanje",
@@ -271,15 +262,33 @@ const si = {
           //           "Andreasova strokovnost in predanost plesni sceni sta očitna, saj je znan obraz na večini evropskih plesnih dogodkov, kjer njegov sistem izboljšuje tekmovalne izkušnje udeležencev, organizatorjev in sodnikov.",
           //         ],
           //       },
-          //       {
-          //         names: "Ludovic",
-          //         title: "Glavni sodnik",
-          //         src: "/images/staff_ludovic.png",
-          //         description: [
-          //           "Ludovic je zaradi obsežnih izkušnej v različnih plesnih zvrsteh in svojih pomembnih dosežkov kot tekmovalec in inštruktor nepogrešljiv član katerekoli sodniške ekipe.",
-          //           "Njegovo celovito razumevanje plesne dinamike in tehnične spretnosti mu daje izostren občutek za detajle, kar zagotavlja pošteno in natančno ocenjevanje tekmovalcev.",
-          //         ],
-          //       },
+          {
+            names: "Ludovic",
+            title: "Glavni sodnik",
+            src: "/images/staff_ludovic.png",
+            description: [
+              "Ludovic je zaradi obsežnih izkušnej v različnih plesnih zvrsteh in svojih pomembnih dosežkov kot tekmovalec in inštruktor nepogrešljiv član katerekoli sodniške ekipe.",
+              "Njegovo celovito razumevanje plesne dinamike in tehnične spretnosti mu daje izostren občutek za detajle, kar zagotavlja pošteno in natančno ocenjevanje tekmovalcev.",
+            ],
+          },
+          {
+            names: "Karin",
+            title: "Pomočnica glavnega sodnika",
+            src: "/images/staff_karin.png",
+            description: [
+              "S svojo dolgoletno predanostjo plesu Karin Kakun prinaša bogate izkušnje sodniški ekipi. Ima univerzitetno diplomo iz plesa in več kot 14 let poučevanja, pri čemer je trenirala plesalce v različnih disciplinah, vključno z WCS, hip-hopom, razteznimi vajami in pole danceom.",
+              "Kot tekmovalka, inštruktorica in koreografinja ima celovit pogled na ples, s katerim lahko ocenjuje tekmovanja z občutkom za gibanje, muzikalnost in tehniko.",
+            ],
+          },
+          {
+            names: "Henri",
+            title: "Dancing Mind",
+            src: "/images/staff_henri.png",
+            description: [
+              "Henri je odkril West Coast Swing leta 2017, saj ga je kljub pomanjkanju plesnih izkušenj pritegnila njegova dolgoletna strast do glasbe.",
+              "Med raziskovanjem WCS je nadaljeval kariero v medicini, postal splošni zdravnik in več kot osem let preučeval psihologijo, vključno s športno psihologijo. Ta dvojna strokovnost mu omogoča edinstven vpogled v povezavo med umom in telesom v plesu. Kot zdravnik ekipe Special Olympics Finland je iz prve roke videl preobrazbeno moč gibanja in veselja. Njegov prvi spletni seminar je potekal 26. novembra 2023.",
+            ],
+          },
         ],
       },
       {

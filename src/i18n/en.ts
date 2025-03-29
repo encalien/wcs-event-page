@@ -251,15 +251,6 @@ const en = {
               "She is well known for her distinctive vintage-inspired style. When she is not dancing, you can find her socializing around the dance floor with both old and new friends, enriching the social fabric of the WCS community.",
             ],
           },
-          {
-            names: "Henri",
-            title: "Dancing Mind",
-            src: "/images/staff_henri.png",
-            description: [
-              "Henri discovered West Coast Swing in 2017, drawn by a lifelong passion for music despite no prior dance background.",
-              "While exploring WCS, he pursued a career in medicine, becoming a general physician, and spent over eight years studying psychology, including sports psychology. This dual expertise gives him a unique perspective on the mind-body connection in dance. As the team doctor for Special Olympics Finland, he has witnessed firsthand the transformative power of movement and joy. His first webinar was held on November 26, 2023.",
-            ],
-          },
           //     {
           //       names: "Sabrina",
           //       title: "Scoring",
@@ -269,15 +260,33 @@ const en = {
           //         "Andreas's expertise and dedication to the dance scene are evident as he is a familiar face at most European dance events, where his system continues to enhance the competitive dance experience for participants and organizers alike.",
           //       ],
           //     },
-          //     {
-          //       names: "Ludovic",
-          //       title: "Chief Judge",
-          //       src: "/images/staff_ludovic.png",
-          //       description: [
-          //         "Ludovic's extensive experience in various dance forms, coupled with his significant achievements as both a competitor and instructor, render him an indispensable asset to any judging panel.",
-          //         "His comprehensive understanding of dance dynamics and technical proficiency equips him with a keen eye for detail, ensuring a fair and insightful evaluation of performances.",
-          //       ],
-          //     },
+          {
+            names: "Ludovic",
+            title: "Chief Judge",
+            src: "/images/staff_ludovic.png",
+            description: [
+              "Ludovic's extensive experience in various dance forms, coupled with his significant achievements as both a competitor and instructor, render him an indispensable asset to any judging panel.",
+              "His comprehensive understanding of dance dynamics and technical proficiency equips him with a keen eye for detail, ensuring a fair and insightful evaluation of performances.",
+            ],
+          },
+          {
+            names: "Karin",
+            title: "Assistant Chief Judge",
+            src: "/images/staff_karin.png",
+            description: [
+              "With a lifelong dedication to dance, Karin Kakun brings a wealth of experience to the judging panel. Holding a university degree in dance and over 14 years of teaching experience, she has trained dancers across multiple disciplines, including WCS, Hip-Hop, Stretching, and Pole dance.",
+              "Her extensive background as a competitor, instructor, and choreographer gives her a well-rounded perspective, allowing her to assess performances with a keen eye for movement, musicality, and technique.",
+            ],
+          },
+          {
+            names: "Henri",
+            title: "Dancing Mind",
+            src: "/images/staff_henri.png",
+            description: [
+              "Henri discovered West Coast Swing in 2017, drawn by a lifelong passion for music despite no prior dance background.",
+              "While exploring WCS, he pursued a career in medicine, becoming a general physician, and spent over eight years studying psychology, including sports psychology. This dual expertise gives him a unique perspective on the mind-body connection in dance. As the team doctor for Special Olympics Finland, he has witnessed firsthand the transformative power of movement and joy. His first webinar was held on November 26, 2023.",
+            ],
+          },
         ],
       },
       {
