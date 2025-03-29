@@ -251,6 +251,15 @@ const en = {
               "She is well known for her distinctive vintage-inspired style. When she is not dancing, you can find her socializing around the dance floor with both old and new friends, enriching the social fabric of the WCS community.",
             ],
           },
+          {
+            names: "Henri",
+            title: "Dancing Mind",
+            src: "/images/staff_henri.png",
+            description: [
+              "Henri discovered West Coast Swing in 2017, drawn by a lifelong passion for music despite no prior dance background.",
+              "While exploring WCS, he pursued a career in medicine, becoming a general physician, and spent over eight years studying psychology, including sports psychology. This dual expertise gives him a unique perspective on the mind-body connection in dance. As the team doctor for Special Olympics Finland, he has witnessed firsthand the transformative power of movement and joy. His first webinar was held on November 26, 2023.",
+            ],
+          },
           //     {
           //       names: "Sabrina",
           //       title: "Scoring",
@@ -431,8 +440,8 @@ const en = {
       pageTitle: "Schedule",
       description: "This is a preliminary schedule and is subject to change.",
       downloadText: "Download the .pdf file.",
-      pdfSrc: "/files/schedule_v3.pdf",
-      pngSrc: "/images/schedule_v3.jpg",
+      pdfSrc: "/files/schedule_v4.pdf",
+      pngSrc: "/images/schedule_v4.jpg",
     },
     pricing: {
       pageTitle: "Pricing",

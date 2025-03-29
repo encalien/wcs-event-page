@@ -253,6 +253,15 @@ const si = {
               "V WCS skupnosti je znana je po svojem značilnem vintage stilu. Kadar ne pleše, se zadržuje v bližini plesišča, kjer se druži z novimi in starimi prijatelji in tako bogati družbeno mrežo skupnosti WCS.",
             ],
           },
+          {
+            names: "Henri",
+            title: "Dancing Mind",
+            src: "/images/staff_henri.png",
+            description: [
+              "Henri je odkril West Coast Swing leta 2017, saj ga je kljub pomanjkanju plesnih izkušenj pritegnila njegova dolgoletna strast do glasbe.",
+              "Med raziskovanjem WCS je nadaljeval kariero v medicini, postal splošni zdravnik in več kot osem let preučeval psihologijo, vključno s športno psihologijo. Ta dvojna strokovnost mu omogoča edinstven vpogled v povezavo med umom in telesom v plesu. Kot zdravnik ekipe Special Olympics Finland je iz prve roke videl preobrazbeno moč gibanja in veselja. Njegov prvi spletni seminar je potekal 26. novembra 2023.",
+            ],
+          },
           //       {
           //         names: "Andreas",
           //         title: "Ocenjevanje",
@@ -443,8 +452,8 @@ const si = {
       pageTitle: "Urnik",
       description: "To je okvirni urnik in se bo verjetno še kaj spremenil.",
       downloadText: "Prenesi .pdf datoteko.",
-      pdfSrc: "/files/schedule_v3.pdf",
-      pngSrc: "/images/schedule_v3.jpg",
+      pdfSrc: "/files/schedule_v4.pdf",
+      pngSrc: "/images/schedule_v4.jpg",
     },
     pricing: {
       pageTitle: "Cenik",
