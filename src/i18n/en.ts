@@ -476,7 +476,7 @@ const en = {
           includes: [
             "6 hours of workshops - level 2/3/4/5",
             "entrance during competitions",
-            "entrance to Thu, Fri, Sat, Sun parties",
+            "entrance to Thu*, Fri, Sat, Sun parties",
           ],
         },
         {
@@ -485,7 +485,7 @@ const en = {
           includes: [
             "",
             "entrance during competitions",
-            "entrance to Thu, Fri, Sat, Sun parties",
+            "entrance to Thu*, Fri, Sat, Sun parties",
           ],
           extraText:
             "Free for first 10 dancers, competing in All Star division in exchange for your help with judging. Registration still required for role balance. You may upgrade it to a Full pass.",
@@ -612,8 +612,10 @@ const en = {
       },
       {
         pageTitle: "Preparty",
+        disclaimer:
+          "Even though preparty's entrance fee is included in the Full pass and Party pass, you will need to register and be confirmed for it separately through your profile page. The space at the preparty is severely limited due to safety regulations of the venue, so not everyone can participate.",
         description: [
-          "Ljubljana Castle, perched atop a hill with breathtaking views of the city below, stands as a significant historical landmark in Slovenia's capital. Dating back to the 11th century, the castle encapsulates centuries of rich history within its ancient walls. Today, it functions as a vibrant cultural center, offering visitors sweeping panoramas, engaging exhibitions, and distinctive event venues such as the enchanting Palacij ballroom, where our preparty will take place from 8 pm to 1 am on Thursday.",
+          "Ljubljana Castle, perched atop a hill with breathtaking views of the city below, stands as a significant historical landmark in Slovenia's capital. Dating back to the 11th century, the castle encapsulates centuries of rich history within its ancient walls. Today, it functions as a vibrant cultural center, offering visitors sweeping panoramas, engaging exhibitions, and distinctive event venues such as the enchanting Palacij ballroom, where our preparty will take place from 8 pm to 3 am on Thursday.",
           "If you arrive early, take the opportunity to explore the Castle Tower for a panoramic 360-degree view or indulge in dinner and drinks at the castle's restaurant or bar.",
         ],
         links: {
@@ -627,7 +629,7 @@ const en = {
           zipAndCity: "1000 Ljubljana",
           country: "Slovenia",
           access: [
-            `To reach the Castle, you can choose from several walking paths winding up from the old town, each offering a pleasant 10-20 minute ascent. The preferred mode of transport is the <a target="_blank" href="https://www.ljubljanskigrad.si/en/plan-your-visit/funicular-railway-en-us/">funicular</a>, equipped with a glass cabin, which provides a good view of the city as you go up. Note that it operates only until 7 pm in April. Car access is possible via the main road, but it's not recommended due to parking restrictions.`,
+            `To reach the Castle, you can choose from several walking paths winding up from the old town, each offering a pleasant 10-20 minute ascent. The preferred mode of transport is the <a target="_blank" href="https://www.ljubljanskigrad.si/en/plan-your-visit/funicular-railway-en-us/">funicular</a>, equipped with a glass cabin, which provides a good view of the city as you go up. The funicular operating time has been extended until 9:00 PM for the purpose of our event. Car access is possible via the main road, but it's not recommended due to parking restrictions.`,
           ],
         },
       },
@@ -735,16 +737,24 @@ const en = {
       pleaseReadText: "Before registering, please read the following:",
       links: [
         {
-          urlPath: "terms-and-conditions",
-          urlText: "Terms and Conditions",
-        },
-        {
           urlPath: "workshops/levels",
           urlText: "level descriptions",
         },
         {
           urlPath: "pricing",
           urlText: "pass type options",
+        },
+        {
+          urlPath: "terms-and-conditions",
+          urlText: "Terms and Conditions",
+        },
+        {
+          urlPath: "code-of-conduct",
+          urlText: "Code of Conduct",
+        },
+        {
+          urlPath: "competition-rules",
+          urlText: "Competition Rules",
         },
       ],
     },

@@ -494,7 +494,7 @@ const si = {
           includes: [
             "6 ur delavnic - nivo 2/3/4/5",
             "vstop med tekmovanji",
-            "vstop na zabave v četrtek, petek, soboto in nedeljo",
+            "vstop na zabave v četrtek*, petek, soboto in nedeljo",
           ],
         },
         {
@@ -503,7 +503,7 @@ const si = {
           includes: [
             "",
             "vstop med tekmovanji",
-            "vstop na zabave v četrtek, petek, soboto in nedeljo",
+            "vstop na zabave v četrtek*, petek, soboto in nedeljo",
           ],
           extraText:
             "Brezplačno za vse plesalce, ki tekmujejo v kategoriji All Star v zameno za pomoč pri sojenju tekmovanj! Prijava obvezna zaradi uravnoteženja vlog.",
@@ -606,8 +606,10 @@ const si = {
       },
       {
         pageTitle: "Predvečer",
+        disclaimer:
+          "Čeprav je vstopnina za predvečer vključena v Full pass in Party pass, se moraš zanj posebej prijaviti preko svoje profilne strani. Prostor na predvečeru je zelo omejen zaradi varnostnih predpisov dvorane, zato ne moremo sprejeti vseh prijav.",
         description: [
-          "Ljubljanski Grad, ki leži na hribu s čudovitim razgledom na mesto pod njim, je pomembna zgodovinska znamenitost slovenske prestolnice. Grad, ki sega v 11. stoletje, združuje stoletja bogate zgodovine znotraj svojega starodavnega obzidja. Danes deluje kot živahno kulturno središče, ki obiskovalcem ponuja osupljive panorame, privlačne razstave in prepoznavna prizorišča dogodkov, kot je očarljiva plesna dvorana Palacij, kjer bo v četrtek od 20.00 do 1.00 potekal naš predvečer.",
+          "Ljubljanski Grad, ki leži na hribu s čudovitim razgledom na mesto pod njim, je pomembna zgodovinska znamenitost slovenske prestolnice. Grad, ki sega v 11. stoletje, združuje stoletja bogate zgodovine znotraj svojega starodavnega obzidja. Danes deluje kot živahno kulturno središče, ki obiskovalcem ponuja osupljive panorame, privlačne razstave in prepoznavna prizorišča dogodkov, kot je očarljiva plesna dvorana Palacij, kjer bo v četrtek od 20.00 do 3.00 potekal naš predvečer.",
           "Če prispeš predčasno, lahko izkoristiš priložnost za raziskovanje Gradu. Lahko se povzpneš na Grajski stolp za panoramski razgled ali si privoščiš večerjo in pijačo v restavraciji ali baru.",
         ],
         links: {
@@ -621,7 +623,7 @@ const si = {
           zipAndCity: "1000 Ljubljana",
           country: "Slovenija",
           access: [
-            `Da prideš do Gradu, lahko izbiraš med več pešpotmi, ki se vijejo iz starega mesta, vsaka pa ponuja prijeten 10- do 20-minutni sprehod. Najprijetnejši vzpon je z <a target="_blank" href="https://www.ljubljanskigrad.si/sl/nacrtovanje-obiska/vzpenjaca/">vzpenjačo</a>, opremljeno s stekleno kabino, ki nudi dober pogled na mesto. Upoštevaj, da v aprilu vzpenjača obratuje samo do 19. ure. Dostop z avtomobilom je možen po glavni cesti, vendar zaradi omejitev parkiranja ni priporočljiv.`,
+            `Da prideš do Gradu, lahko izbiraš med več pešpotmi, ki se vijejo iz starega mesta, vsaka pa ponuja prijeten 10- do 20-minutni sprehod. Najprijetnejši vzpon je z <a target="_blank" href="https://www.ljubljanskigrad.si/sl/nacrtovanje-obiska/vzpenjaca/">vzpenjačo</a>, opremljeno s stekleno kabino, ki nudi dober pogled na mesto. Obratovanje vzpenjača je za namen našega dogodka podaljšano do 21. ure. Dostop z avtomobilom je možen po glavni cesti, vendar zaradi omejitev parkiranja ni priporočljiv.`,
           ],
         },
       },

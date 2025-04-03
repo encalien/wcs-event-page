@@ -484,7 +484,7 @@ const fr = {
           includes: [
             "6 heures d'ateliers - niveau 2/3/4/5",
             "entrée pendant les compétitions",
-            "entrée aux soirées de jeudi, vendredi, samedi, dimanche",
+            "entrée aux soirées de jeudi*, vendredi, samedi, dimanche",
           ],
         },
         {
@@ -493,7 +493,7 @@ const fr = {
           includes: [
             "",
             "entrée pendant les compétitions",
-            "entrée aux soirées de jeudi, vendredi, samedi, dimanche",
+            "entrée aux soirées de jeudi*, vendredi, samedi, dimanche",
           ],
           extraText:
             "Gratuit pour les 10 premiers danseurs, participant à la division All Star en échange de votre aide au jugement. Inscription toujours requise pour l'équilibre des rôles. Vous pouvez le passer à un Full Pass.",
@@ -624,8 +624,10 @@ const fr = {
       },
       {
         pageTitle: "Pré-fête",
+        disclaimer:
+          "Bien que l'entrée à la pré-soirée soit incluse dans le Pass Complet et le Pass Soirée, vous devrez vous inscrire et être confirmé séparément via votre page de profil. L'espace à la pré-soirée est très limité en raison des réglementations de sécurité du lieu, donc tout le monde ne pourra pas participer.",
         description: [
-          "Le château de Ljubljana, perché au sommet d'une colline offrant une vue imprenable sur la ville en contrebas, se dresse comme un repère historique significatif dans la capitale de la Slovénie. Datant du 11ème siècle, le château encapsule des siècles d'histoire riche dans ses murs anciens. Aujourd'hui, il fonctionne comme un centre culturel dynamique, offrant aux visiteurs de vastes panoramas, des expositions captivantes et des lieux d'événements distinctifs tels que la salle de bal enchantée Palacij, où notre pré-fête aura lieu de 20h à 1h jeudi.",
+          "Le château de Ljubljana, perché au sommet d'une colline offrant une vue imprenable sur la ville en contrebas, se dresse comme un repère historique significatif dans la capitale de la Slovénie. Datant du 11ème siècle, le château encapsule des siècles d'histoire riche dans ses murs anciens. Aujourd'hui, il fonctionne comme un centre culturel dynamique, offrant aux visiteurs de vastes panoramas, des expositions captivantes et des lieux d'événements distinctifs tels que la salle de bal enchantée Palacij, où notre pré-fête aura lieu de 20h à 3h jeudi.",
           "Si vous arrivez tôt, saisissez l'opportunité d'explorer la Tour du Château pour une vue panoramique à 360 degrés ou de vous régaler d'un dîner et de boissons au restaurant ou au bar du château.",
         ],
         links: {
@@ -639,7 +641,7 @@ const fr = {
           zipAndCity: "1000 Ljubljana",
           country: "Slovénie",
           access: [
-            `Pour atteindre le Château, vous pouvez choisir parmi plusieurs sentiers pédestres qui montent depuis la vieille ville, chacun offrant une agréable ascension de 10 à 20 minutes. Le mode de transport préféré est <a target="_blank" href="https://www.ljubljanskigrad.si/en/plan-your-visit/funicular-railway-en-us/">le funiculaire</a>, équipé d'une cabine en verre, qui offre une belle vue sur la ville pendant la montée. Notez qu'il ne fonctionne que jusqu'à 19h en avril. L'accès en voiture est possible via la route principale, mais il n'est pas recommandé en raison des restrictions de stationnement.`,
+            `Pour atteindre le Château, vous pouvez choisir parmi plusieurs sentiers pédestres qui montent depuis la vieille ville, chacun offrant une agréable ascension de 10 à 20 minutes. Le mode de transport préféré est <a target="_blank" href="https://www.ljubljanskigrad.si/en/plan-your-visit/funicular-railway-en-us/">le funiculaire</a>, équipé d'une cabine en verre, qui offre une belle vue sur la ville pendant la montée. Le fonctionnement du funiculaire a été prolongé jusqu'à 21h00 pour notre événement. L'accès en voiture est possible via la route principale, mais il n'est pas recommandé en raison des restrictions de stationnement.`,
           ],
         },
       },

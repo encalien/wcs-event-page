@@ -96,6 +96,8 @@ export default {
         </span>
       </div>
     </div>
+    <br />
+    <div class="bold">* {{ $t(`location.venue[1].disclaimer`) }}</div>
   </section>
   <!-- <section>
     <h2>{{ $t("workshops.pricing.groups.title") }}</h2>

@@ -14,6 +14,12 @@ export default {
 <template>
   <section id="venue" v-if="venueIndex != null">
     <h1>{{ $t(`location.venue[${venueIndex}].pageTitle`) }}</h1>
+    <h2
+      v-if="messages.location.venue[venueIndex].disclaimer"
+      class="important bold"
+    >
+      {{ $t(`location.venue[${venueIndex}].disclaimer`) }}
+    </h2>
     <div id="hotel-info">
       <h3>{{ $t(`location.venue[${venueIndex}].address.name`) }}</h3>
       <p
@@ -134,8 +140,13 @@ ul {
   color: var(--black);
 }
 
-.flex-item {
+.important.bold {
+  color: var(--accent-1);
+}
+
+.flex-container .flex-item {
   width: 100%;
+  flex: 0 1 content;
 }
 
 .flex-item.left {
