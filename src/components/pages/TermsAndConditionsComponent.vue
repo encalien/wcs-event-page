@@ -2,6 +2,7 @@
 import messages from "../../i18n/en";
 
 export default {
+  props: { contentKey: String },
   data() {
     return {
       messages: messages as any,
@@ -11,21 +12,23 @@ export default {
 </script>
 
 <template>
-  <section>
-    <h1>{{ $t("termsAndConditions.pageTitle") }}</h1>
+  <section v-if="contentKey">
+    <h1>{{ $t(`${contentKey}.pageTitle`) }}</h1>
     <template
-      v-for="(content, topic) in messages.termsAndConditions"
+      v-for="(content, topic) in messages[contentKey]"
       :key="`${topic}`"
     >
       <div class="topic" v-if="`${topic}` !== 'pageTitle'">
-        <h3>{{ $t(`termsAndConditions.${topic}.title`) }}</h3>
+        <h3 v-if="messages[contentKey][topic].title">
+          {{ $t(`${contentKey}.${topic}.title`) }}
+        </h3>
         <div v-for="(paragraph, i) in content.infoText" :key="`${i}`">
           <p :class="{ 'margin-0': paragraph.list }">
-            {{ $t(`termsAndConditions.${topic}.infoText[${i}].value`) }}
+            {{ $t(`${contentKey}.${topic}.infoText[${i}].value`) }}
           </p>
           <ul v-if="paragraph.list">
             <li v-for="(item, j) in paragraph.list" :key="`${j}`">
-              {{ $t(`termsAndConditions.${topic}.infoText[${i}].list[${j}]`) }}
+              {{ $t(`${contentKey}.${topic}.infoText[${i}].list[${j}]`) }}
             </li>
           </ul>
         </div>
@@ -42,5 +45,9 @@ export default {
 
 .topic > h3 {
   text-align: left;
+}
+
+.topic ul {
+  margin-bottom: 1rem;
 }
 </style>

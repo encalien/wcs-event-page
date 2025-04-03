@@ -133,7 +133,7 @@ const si = {
             names: "Evgenia & Clement",
             src: "/images/teachers_evgenia_clement.jpg",
             description: [
-              "Clevi – Clem in Evi – sta strastna plesalca West Coast Swinga iz Berlina. Vsak z desetletnimi izkušnjami sta združila moči, da skupaj poučujeta in plešeta. Clement, plesalec v All-Star Diviziji in plesalka v Advanced Diviziji, prinaša na plesišče edinstven občutek za muzikalnost in kreativnost, ki izhajata iz njegovih desetletnih glasbenih študij in njegovega ozadja v solo plesih, kot so balet, hip-hop in sodobni ples.",
+              "Clevi - Clem in Evi - sta strastna plesalca West Coast Swinga iz Berlina. Vsak z desetletnimi izkušnjami sta združila moči, da skupaj poučujeta in plešeta. Clement, plesalec v All-Star Diviziji in plesalka v Advanced Diviziji, prinaša na plesišče edinstven občutek za muzikalnost in kreativnost, ki izhajata iz njegovih desetletnih glasbenih študij in njegovega ozadja v solo plesih, kot so balet, hip-hop in sodobni ples.",
               "Evi, plesalka v All-Star Diviziji, s profesionalnim ozadjem v sodobnem plesu ter izkušnjami v baletu, jazzu in modernem plesu, prispeva svoj edinstven pridih k WCS.",
               "Clem in Evi obožujeta komunikacijo in povezovanje v WCS, ki jima omogočata, da soustvarjata in izražata glasbo tako kot posamezna plesalca kot tudi kot par.",
               "Obožujeta tudi koreografije, saj sta dosegla 5. mesto v Rising Star diviziji na Open 2023, 1. mesto na Global Grand Prix 2023 in French Open 2024.",
@@ -187,7 +187,7 @@ const si = {
             title: "DJ",
             src: "/images/djs_kamila.png",
             description: [
-              "Kamila prihaja iz čudovitega mesta Krakov na Poljskem. Rada pleše, odkriva nova mesta in raziskuje okuse lokalne kave. Njena največja strast je West Coast Swing, saj ji omogoča svobodno interpretacijo glasbe in ustvarjanje nečesa posebnega – in pogosto igrivega – z vsakim novim plesnim partnerjem. Kot DJ-ka se lahko še globlje potopi v svet glasbe in ga bolje razume. Nič ji ne prinese večjega veselja kot videti plesalce, ki uživajo ob njenih setih.",
+              "Kamila prihaja iz čudovitega mesta Krakov na Poljskem. Rada pleše, odkriva nova mesta in raziskuje okuse lokalne kave. Njena največja strast je West Coast Swing, saj ji omogoča svobodno interpretacijo glasbe in ustvarjanje nečesa posebnega - in pogosto igrivega - z vsakim novim plesnim partnerjem. Kot DJ-ka se lahko še globlje potopi v svet glasbe in ga bolje razume. Nič ji ne prinese večjega veselja kot videti plesalce, ki uživajo ob njenih setih.",
               "Njene najljubše pesmi za ples trenutno so:",
             ],
             songList: [
@@ -748,119 +748,59 @@ const si = {
       infoText: [
         {
           value:
-            "Med športnimi aktivnostmi obstaja nevarnost telesnih poškodb. Udeleženci se vseh dejavnosti med dogodkom udeležujejo na lastno odgovornost. Organizator ne prevzema nikakršne odgovornosti za poškodbe ali bolezni udeležencev.",
+            "Pri športnih in plesnih dejavnostih obstaja tveganje za telesne poškodbe. Odgovornost in odločitev za sodelovanje v katerikoli dejavnosti med dogodkom je na strani udeležencev. Udeleženci na dogodku sodelujejo na lastno odgovornost. Organizator ne prevzema nobene odgovornosti za telesne poškodbe ali zdravstvene težave udeležencev.",
         },
         {
           value:
-            "Udeleženi morajo upoštevati pravila dogodka in poskrbeti, da se obnašajo tako, da omejijo pojav ali resnost morebitnih zdravstvenih težav. To vključuje, vendar ni omejeno na:",
+            "Udeleženci morajo upoštevati pravila dogodka in poskrbeti, da se obnašajo na način, ki bi omejil pojav ali resnost morebitnih zdravstvenih težav. To vključuje, vendar ni omejeno na:",
           list: [
-            "udeleženci se dogodka ne smejo udeležiti, če se počutijo slabo in/ali kažejo znake nalezljive bolezni,",
-            "udeleženci morajo vzdrževati ustrezno higieno in redno uporabljati razkužila za roke,",
-            "udeleženci naj poskrbijo za ustrezno hidracijo,",
-            "udeleženci se ne smejo udeleževati nobene dejavnosti, za katero vedo, da bi lahko bila zanje tvegana,",
-            "udeleženci ne smejo siliti ali spodbujati soudeležencev k sodelovanju ali izvajanju kakršnih koli dejavnosti, ki bi lahko soudeležencem bile nevarne,",
+            "Udeleženci ne smejo biti prisotni na dogodku, če se počutijo bolne in kažejo simptome nalezljive bolezni.",
+            "Udeleženci morajo vzdrževati dobro higieno in redno uporabljati razkužilo za roke.",
+            "Udeleženci morajo poskrbeti za ustrezno hidracijo.",
+            "Udeleženci ne smejo sodelovati v dejavnostih, za katere vedo, da bi bile zanje tvegane zaradi obstoječih zdravstvenih stanj.",
+            "Udeleženci ne smejo siliti ali spodbujati drugih k sodelovanju ali izvajanju gibov, ki bi lahko bili nevarni za druge udeležence.",
           ],
         },
         {
           value:
-            "V primeru, da se udeleženec zavestno vede tvegano, še posebej, če bi bilo njegovo ravnanje lahko nevarno za druge udeležence, si organizator dogodka pridržuje pravico, da takemu udeležencu brez povrnitve stroškov omeji dostop do dogodka.",
+            "Če udeleženec zavestno ravna na tvegan način, še posebej, če bi njegovo ravnanje lahko ogrozilo druge udeležence, si organizator dogodka pridržuje pravico omejiti njegov dostop do dogodka.",
         },
         {
           value:
-            "Udeleženci se s prijavo vnaprej strinjajo z vsemi morebitnimi dodatnimi zdravstvenimi in varnostnimi ukrepi, ki jih lahko kadar koli uvede organizator dogodka, vključno z, vendar ne omejeno na: obvezno uporabo obraznih mask, zahtevo za imunsko zaščito proti SARS-CoV-2, zahtevo za testiranje na SARS-CoV-2 itd.",
+            "Udeleženci se strinjajo z morebitnimi dodatnimi zdravstvenimi in varnostnimi ukrepi, ki jih lahko organizator dogodka kadar koli uvede, vključno z, vendar ne omejeno na: uporabo zaščitnih mask, politiko cepljenja proti SARS-CoV-2, zahtevo po testiranju na SARS-CoV-2 itd.",
         },
       ],
     },
     cancelationPolicy: {
-      title: "Informacije o plačilu in pravila odpovedi",
+      title: "Plačilni pogoji in politika odpovedi",
       infoText: [
         {
           value:
-            "Vse registracije veljajo za čakajoče, dokler organizator dogodka ne prejme plačila. Plačilo je potrebno poravnati v roku 14 dni, po prejemu plačila se registracija šteje za potrjeno. Če udeleženec plačila ne poravna v danem roku, si organizator dogodka pridržuje pravico preklicati registracijo. V takem primeru se mora udeleženec, ki vseeno želi sodelovati na dogodku, prijaviti ponovno po ceni, ki velja v času njegove nove prijave.",
+            "Vse prijave so obravnavane kot začasne, dokler ni prejetega plačila. Plačilo je potrebno izvesti v roku 14 dni. Ko prejmemo plačilo, je vstopnica potrjena. Če udeleženec ne plača vstopnice pravočasno, si organizator dogodka pridržuje pravico do preklica njegove vstopnice. V tem primeru se mora udeleženec, ki še vedno želi sodelovati na dogodku, ponovno prijaviti po takrat veljavni ceni.",
         },
         {
           value:
-            "V primeru odpovedi s strani udeleženca, bomo ponudili vračilo kupnine v naslednjih stopnjah:",
+            "V primeru odpovedi s strani udeleženca ponujamo povračilo plačila pod naslednjimi pogoji:",
           list: [
-            "Za zahtevke za odpoved, prejete do vključno 9. feburarja 2025, bo kupnina delno povrnjena - 50% prejetega plačila.",
-            "Za zahtevke za odpoved, prejete 10. februarja 2025 ali pozneje, kupnina ne bo povrnjena.",
+            "Za odpovedi, prejete do vključno 9. februarja 2025, bo povrnjenih 50 % prejetega plačila.",
+            "Za odpovedi, prejete od 10. februarja 2025 naprej, vračilo ni mogoče.",
           ],
         },
         {
           value:
-            "Vsi zahtevki za odpoved morajo biti podani v pisni obliki po e-pošti in potrjeni s strani organizatorja. Vse stroške, nastale s postopkom vračila, nosi udeleženec in se odštejejo od vrnjenega zneska.",
+            "Vse zahteve za odpoved morajo biti poslane v pisni obliki prek e-pošte in potrjene s strani organizatorja. Vse stroške, povezane s postopkom vračila, nosi udeleženec, pri čemer se ti stroški odštejejo od povrnjenega zneska.",
         },
         {
           value:
-            "Udeleženec, ki se dogodka ne more udeležiti, lahko svojo vstopnico prenese na drugo osebo. Vodeči (leader), lahko prenese vstopnico samo na drugega vodečega. Sledeči (follower) lahko prenese vstopnico na vodečega ali sledečega. Vsi prenosi vstopnic morajo biti sporočeni v pisni obliki po e-pošti in potrjeni obema stranema s strani organizatorja. Brezplačne ali znižane vstopnice niso prenosljive.",
+            "Udeleženci, ki so kupili vstopnico, a se dogodka ne morejo udeležiti, jo lahko prenesejo na drugo osebo. Leaderji lahko svojo vstopnico prenesejo samo na drugega leaderja. Followerji lahko svojo vstopnico prenesejo na leaderja ali followerja. Switch plesalci lahko svojo vstopnico prenesejo na leaderja ali drugega switch plesalca. Brezplačne in znižane vstopnice niso prenosljive. Vsi prenosi vstopnic morajo biti urejeni pisno prek e-pošte in potrjeni s strani organizatorja obema strankama.",
         },
         {
           value:
-            "Organizator si pridržuje pravico do odpovedi dogodka zaradi premajhnega števila prijav ali višje sile (npr. požar, neurje, epidemija in druge naravne nesreče). V takšnih primerih bo imetnikom vstopnic povrnjena polna cena vstopnice ali pa bo podan vavčer - možnost prenosa vstopnice na prihodnji dogodek. Drugi zahtevki zoper organizatorja dogodka niso možni.",
+            "Organizator dogodka si pridržuje pravico do odpovedi dogodka zaradi prenizkega števila prijav ali višje sile (npr. požar, neurja, epidemija in druge naravne nesreče). V takšnih primerih bodo imetniki vstopnic prejeli bodisi celotno vračilo kupnine bodisi možnost prenosa vstopnice na prihodnji dogodek. Drugi zahtevki proti organizatorju dogodka niso možni.",
         },
         {
           value:
-            "Program dogodka je neobvezujoč. V primeru odpovedi učitelja iz kakršnegakoli razloga si organizator dogodka pridržuje pravico poiskati nadomestnega učitelja ali izpustiti del programa. V primeru, da se program spremeni ali deli programa niso izvedeni (npr. učitelj ne sodeluje zaradi bolezni ali odpovedanega leta ipd.), vendar se dogodek kljub temu izvede, vračilo denarja ne bo možno. Organizator dogodka lahko, ni pa primoran, poiskati alternative opuščenemu programu.",
-        },
-      ],
-    },
-    ethicalCunduct: {
-      title: "Etično vedenje",
-      infoText: [
-        {
-          value:
-            "Organizatorji Slovenian Open smo zavezani k zagotavljanju varnega in vključujočega okolja za vse udeležence, osebje in prostovoljce. Imamo strogo politiko ničelne tolerance do katerekoli oblike sovražnega govora, nadlegovanja ali diskriminatornega obnašanja do kogarkoli na osnovi rase, etničnosti, vere, spolne identitete, spolne usmerjenosti, invalidnosti ali katerekoli druge značilnosti, ki bi lahko bila uporabljena za tarčo manjšinske skupine ali kakršnih koli drugih dejanj, ki bi se lahko štela za zastrašujoča, sovražna ali nezaželena.",
-        },
-        {
-          value:
-            "Ukrepali bomo proti komurkoli, ki krši pravila etičnega obnašanja, ne glede na to ali gre za udeleženca ali osebje. Po lastni presoji se lahko organizator odloči za primeren ukrep, kar lahko vključuje: takojšnjo odstranitev z dogodka brez povračila denarja, prepoved udeležbe na prihodnjih dogodkih in poročanje pristojnim organom. Spodbujamo vse, ki so žrtev ali priča tovrstnim dejanjem, da o dogodku obvestijo organizatorja ali volunterje, saj le tako lahko hitro ukrepamo.",
-        },
-        {
-          value:
-            "Naša zavezanost k varnemu okolju ni omejena na sam dogodek, pač pa vključuje tudi vse, z dogodkom povezane aktivnosti, interakcije na spletu in vedenje na družbenih omrežjih. Naš cilj je ustvariti duh skupnosti, kjer sta spoštovanje in prijaznost temelja vseh interakcij in izmenjav.",
-        },
-      ],
-    },
-    mediaUse: {
-      title: "Uporaba grafične podobe",
-      infoText: [
-        {
-          value:
-            "Z registracijo se udeleženci strinjajo, da lahko organizator dogodka ali druga oseba po navodilu organizatorja dogodka med dogodkom zbira grafično gradivo, ki vsebuje podobo udeležencev, vključno, a ne omejeno na video posnetke, fotografije, avdio posnetke itd. Ves grafični material, pridobljen med dogodkom, se lahko javno objavi, deli na družbenih omrežjih in/ali uporabi v promocijske namene za prihodnje dogodke.",
-        },
-        {
-          value:
-            "Udeleženci dogodka smejo tudi med dogodkom tudi sami fotografirati ali snemati. Takšna gradiva lahko prosto delijo po svoji presoji, organizator dogodka ne more biti odgovoren za primernost njihove uporabe.",
-        },
-        {
-          value:
-            "Snemanje (video ali avdio) učiteljev ali udeležencev med delavnicami ni dovoljeno, razen v primeru izrecnega dovoljenja organizatorja dogodka.",
-        },
-      ],
-    },
-    personalInfoUse: {
-      title: "Uporaba osebnih podatkov",
-      infoText: [
-        {
-          value:
-            "S prijavo se udeleženci strinjajo, da organizator dogodka zbira njihove osebne podatke in jih uporablja za statistiko, podajo informacij in/ali trženje prihodnjih dogodkov.",
-        },
-        {
-          value:
-            "Vsi zbrani podatki bodo varno shranjeni in dostopni samo orgnaizacijski ekipi. Organizator dogodka zagotavlja, da zbranih podatkov ne bo delil s tretjimi osebami.",
-        },
-      ],
-    },
-    personalAffairs: {
-      title: "Osebni predmeti",
-      infoText: [
-        {
-          value:
-            "Organizator dogodka ne more biti odgovoren za morebitne poškodbe, krajo ali izgubo osebnih predmetov med dogodkom.",
-        },
-        {
-          value:
-            "Vse predmete, ki so najdeni med dogodkom, je treba prinesti organizatorju dogodka, ki jih bo do konca dogodka shranil v označenem prostoru za 'izgubljene in najdene predmete'. Vse take predmete lahko lastnik predmeta prevzame osebno do konca dogodka. Predmete, ki v času dogodka niso prevzeti, bo organizator dogodka hranil še 14 dni. V tem času lahko lastnik izgubljenega predmeta pisno preko e-pošte zahtevajo, da se njihovi predmeti vrnejo po pošti. V tem primeru nosi lastnik teh predmetov vse stroške pakiranja in dostave ter prevzema polno odgovornost za morebitno poškodbo, izgubo ali krajo, do katere lahko pride med dostavo.",
+            "Program dogodka ni zavezujoč. Če učitelj odpove iz kakršnega koli razloga, si organizator dogodka pridržuje pravico, da poišče zamenjavo ali iz programa izpusti določene dele. Če pride do spremembe programa ali se nekateri deli ne izvedejo (npr. učitelj ne sodeluje zaradi bolezni ali odpovedanih letov itd.), dogodek pa se vseeno izvede, vračilo denarja ne bo možno. Organizator se lahko, a ni dolžan, potruditi poiskati alternative za izpuščene dele programa.",
         },
       ],
     },
@@ -869,18 +809,433 @@ const si = {
       infoText: [
         {
           value:
-            "Udeleženci morajo ves čas nositi zapestnico. Zapestnico je obvezno pokazati na zahtevo kadarkoli med dogodkom.",
+            "Udeleženci morajo ves čas nositi zapestnico dogodka. Zapestnico je obvezno pokazati ob vstopu na delavnice in zabave ter na zahtevo kadarkoli med dogodkom.",
         },
         {
           value:
-            "Udeleženci morajo sprejeti odločitve učiteljev in organizatorja dogodka sprejete kadarkoli med dogodkom in še posebej med avdicijo.",
+            "Udeleženci morajo sprejeti odločitve učiteljev in organizatorja dogodka med dogodkom, še posebej med avdicijami.",
         },
         {
           value:
-            "Če udeleženec ne upošteva katerega koli od zgoraj navedenih pogojev, ima organizator dogodka pravico udeležencu odvzeti vstopnico in ga pozvati, da zapusti dogodek brez kakršnega koli povračila vstopnine.",
+            "Mladoletni udeleženci (<18 let) morajo imeti zakonskega skrbnika po polnoči, da jim bo dovoljen vstop na dogodek. Prosimo, da ob prijavi navedete ime svojega zakonitega skrbnika.",
+        },
+        {
+          value:
+            "Če udeleženec ne izpolni katerega od zgoraj navedenih pogojev, je organizator upravičen, da odvzame udeležbeno karto in zahteva, da udeleženec zapusti dogodek brez vračila stroškov.",
+        },
+        {
+          value:
+            "Spodaj smo opredelili Kodeks obnašanja, da bi nam pomagali ustvariti varno, vključujoče in prijetno okolje za vse udeležence. Vsi udeleženci se zavezujejo, da bodo upoštevali Kodeks obnašanja.",
         },
       ],
     },
+    mediaUse: {
+      title: "Uporaba grafičnih materialov",
+      infoText: [
+        {
+          value:
+            "Z registracijo udeleženci soglašajo, da lahko organizator dogodka med dogodkom zbira grafični material, ki vključuje slike udeležencev, vključno, vendar ne omejeno na videoposnetke, fotografije, zvočne posnetke itd. Vsi grafični materiali, pridobljeni med dogodkom, so lahko javno objavljeni, deljeni na družbenih omrežjih in/ali uporabljeni za promocijske namene za prihodnje dogodke.",
+        },
+        {
+          value:
+            "Udeleženci dogodka so prav tako dovoljeni, da med dogodkom posnamejo lastne fotografije, zvočne posnetke in videoposnetke - razen med delavnicami (glejte spodaj). Te materiale lahko prosto delijo, kot se jim zdi primerno, organizator dogodka pa ne more odgovarjati za njihovo uporabo. Pri deljenju teh materialov so udeležencem priporočeni, da zaprosijo za dovoljenje drugih, ki so prikazani v materialih.",
+        },
+        {
+          value:
+            "Ni dovoljeno snemanje (video ali avdio) učiteljev ali udeležencev med delavnicami, razen če organizator dogodka izrecno dovoli snemanje. Če učitelji pristanejo, da ob koncu ure demonstrirajo predstavljeno vsebino ali specifično dovolijo snemanje ob katerem koli drugem času, lahko udeleženci snemajo učitelje. Udeleženci niso dovoljeni, da bi to gradivo delili javno brez izrecnega dovoljenja učitelja.",
+        },
+      ],
+    },
+    personalInfoUse: {
+      title: "Uporaba osebnih podatkov",
+      infoText: [
+        {
+          value:
+            "Z registracijo udeleženci soglašajo, da organizator dogodka zbira njihove osebne podatke in jih uporablja za statistiko, informativno uporabo ali trženje prihodnjih dogodkov.",
+        },
+        {
+          value:
+            "Vsi zbrani podatki bodo shranjeni varno in bodo na voljo samo organizacijski ekipi. Organizator dogodka se zavezuje, da ne bo delil zbranih podatkov z nobenimi tretjimi osebami.",
+        },
+      ],
+    },
+    personalAffairs: {
+      title: "Osebne stvari",
+      infoText: [
+        {
+          value:
+            "Organizator dogodka ne odgovarja za morebitno škodo, krajo ali izgubo osebnih predmetov med dogodkom.",
+        },
+        {
+          value:
+            "Vse predmete, ki jih najdejo med dogodkom, je treba prinesti organizatorju dogodka, ki jih bo shranil v predvidenem prostoru 'Izgubljeno in najdeno' do konca dogodka. Takšni predmeti se lahko prevzamejo osebno do konca dogodka. Če po dogodku ostanejo nepobran predmeti, jih bo organizator shranil še 14 dni. V tem času lahko lastniki pošljejo e-pošto organizatorju dogodka, da jim vrnejo predmete po pošti. V tem primeru bo lastnik predmeta nosil stroške embalaže in dostave ter prevzel odgovornost za morebitno škodo, izgubo ali krajo, ki se lahko zgodi med dostavo.",
+        },
+      ],
+    },
+  },
+  codeOfConduct: {
+    pageTitle: "Kodeks obnašanja",
+    general: {
+      infoText: [
+        {
+          value:
+            "Naša plesna skupnost mora biti zabaven in prijazen prostor, kjer lahko vsak uživa v učenju, plesu in dobrem vzdušju. Ta kodeks obnašanja opisuje, kako lahko skupaj poskrbimo, da se vsi počutijo varno in prijetno. Prav tako pojasnjuje sprejemljivo vedenje, kaj storiti, če je vedenje nekoga nevarno ali nesprejemljivo, ter kako organizatorji zagotavljajo varno okolje za vse.",
+        },
+        {
+          value:
+            "Naš cilj je zagotoviti varen, spoštljiv in vključujoč prostor za vse. S sodelovanjem na tem dogodku se strinjate, da boste upoštevali naslednje smernice:",
+        },
+        {
+          value:
+            "Bodite spoštljivi do drugih na plesišču. Če se zaletite v nekoga, se opravičite. Če nekoga poškodujete, se opravičite in poskusite zagotoviti, da se to ne ponovi. To lahko pomeni prilagoditev vašega plesa, posvet s učiteljem ali odločitev, da s to osebo ne plešete več.",
+        },
+        {
+          value:
+            "Spoštujte meje drugih. Če nekdo nekaj stori s partnerjem, to ne pomeni, da bo želel to storiti tudi z vami. To velja za tesne plesne prijeme, spuste, spogledljive pogovore ali privolitev v ples. Če niste prepričani o mejah nekoga, ga vprašajte. Če oseba izrazi nelagodje (verbalno ali neverbalno), takoj prenehajte.",
+        },
+        {
+          value:
+            "Vprašajte in odgovarjajte spoštljivo. Vedno je v redu reči 'ne' na ples. Če nekdo zavrne, spoštujte njegovo odločitev. Če se med plesom počutite neprijetno ali ogroženo, ga lahko kadar koli prekinete brez pojasnila. Zahteve po prilagoditvah za vaše udobje in varnost so primerne, vendar so nenaročene pripombe o plesnih sposobnostih običajno nevljudne.",
+        },
+        {
+          value:
+            "To okolje je odprto za vse, ne glede na raso, starost, plesno raven, spolno usmerjenost, spol, invalidnost, fizični videz, vero ali katero koli drugo značilnost. Imamo strogo politiko ničelne tolerance do kakršne koli oblike nadlegovanja, diskriminacije, sovražnega govora ali ustrahovanja.",
+        },
+        {
+          value:
+            "Vsak udeleženec, član osebja ali prostovoljec, ki se vključi v takšno vedenje, bo takoj sankcioniran, kar lahko vključuje odstranitev z dogodka brez povračila, prepoved udeležbe na prihodnjih dogodkih in prijavo ustreznim organom. Vsakdo, ki doživi ali opazi nadlegovanje, je spodbujen, da to nemudoma prijavi organizatorjem ali prostovoljcem.",
+        },
+        {
+          value:
+            "Če ste žrtev nadlegovanja ali opazite nekoga v nevarni situaciji, se obrnite na člana osebja dogodka. Osebje je na voljo na registracijskem pultu ali, ko je registracija zaprta, pri DJ-ju ali v prostoru za osebje.",
+        },
+        {
+          value:
+            "Lahko se tudi neposredno obrnete na organizatorko dogodka Katarino Muršec po telefonu +38631533937 ali preko emaila info{'@'}slovenianopen.dance.",
+        },
+        {
+          value:
+            "Naša zavezanost okolju brez nadlegovanja sega onkraj prizorišča dogodka in vključuje vse povezane dejavnosti, vključno s spletnimi interakcijami in vedenjem na družbenih omrežjih.",
+        },
+        {
+          value:
+            "Fotografija in snemanje: Ne snemajte ali fotografirajte posameznikov brez njihovega dovoljenja. Če posnamete spontani video ali fotografijo plesa, po posnetku prosite za dovoljenje in spoštujte odločitev udeležencev. Splošne fotografije in videoposnetki plesišča, ki ne izpostavljajo posameznikov ali parov, so dovoljeni.",
+        },
+        {
+          value:
+            "Uporaba alkohola in substanc: Alkohol uživajte odgovorno. Poskrbite za hidracijo in poznajte svoje meje. Zavedajte se, da lahko substance vplivajo na presojo glede osebnih meja in spoštovanja drugih. Vedenje pod vplivom alkohola ali drugih substanc lahko privede do ustnega opozorila, začasne odstranitve ali trajne izključitve z dogodka.",
+        },
+        {
+          value:
+            "Posledice nesprejemljivega vedenja: Kršitve tega kodeksa lahko privedejo do takojšnje odstranitve z dogodka, diskvalifikacije s tekmovanj in prepovedi udeležbe na prihodnjih dogodkih. Dejanja, ki ogrožajo varno in spoštljivo okolje, ne bodo tolerirana od nobenega udeleženca, učitelja, sodnika, izvajalca, prostovoljca ali člana osebja.",
+        },
+        {
+          value:
+            "Organizatorji dogodka lahko sprejmejo ustrezne ukrepe, od zasebnega pogovora do takojšnje odstranitve brez odškodnine ali vračila denarja. Če je situacija dovolj resna za nadaljnje ukrepe, lahko ustrezne informacije delimo z drugimi organizatorji ali pristojnimi organi.",
+        },
+        {
+          value:
+            "Če se po začetni prijavi pojavijo dodatne težave, nas o tem obvestite. Zavezani smo k temu, da bo ta dogodek varen in prijeten prostor za vse. Vaše sodelovanje in pozornost pomagata ohraniti gostoljubno okolje.",
+        },
+      ],
+    },
+  },
+  competitionRules: {
+    pageTitle: "Pravila tekmovanj",
+    general: {
+      title: "Splošna pravila za vsa tekmovanja",
+      infoText: [
+        {
+          value:
+            "Slovenian Open bo ponujal izključno tekmovanja v formatu Jack & Jill.",
+        },
+        {
+          value:
+            "Različne tekmovalne kategorije glede na plesno raven in starost so:",
+          list: [
+            "WSDC Newcomer Jack & Jill",
+            "WSDC Novice Jack & Jill",
+            "WSDC Intermediate Jack & Jill",
+            "WSDC Advanced Jack & Jill",
+            "WSDC All Star Jack & Jill",
+            "WSDC Sophisticated Jack & Jill",
+            "Switch Jack & Jill",
+          ],
+        },
+        {
+          value: "Vsa Jack & Jill tekmovanja bodo potekala v soboto.",
+        },
+        {
+          value:
+            "Tekmovanja bodo potekala po WSDC formatu. Vsako tekmovanje bo sestavljeno iz predtekmovanja, četrtfinala in polfinala (če je potrebno) ter finala. Število krogov bo odvisno od števila prijav v posamezni kategoriji.",
+        },
+        {
+          value:
+            "Tekmovanje bo ocenjevala komisija sodnikov. Glavni sodnik bo nadzoroval tekmovanje in sprejemal končne odločitve v primeru sporov ali drugih zapletov.",
+        },
+      ],
+    },
+    jackAndJill: {
+      title: "Jack & Jill tekmovalni format",
+      infoText: [
+        {
+          value:
+            "Jack & Jill tekmovanja so zasnovana tako, da izpostavijo spretnosti v spontanem plesu West Coast Swing z različnimi partnerji in glasbo. Pri tem igra vlogo tudi nekaj sreče pri žrebu. Tekmovalci se prijavijo kot posamezniki, naključno dobijo partnerja in plešejo na glasbo, ki jo izbere DJ tekmovanja.",
+        },
+        {
+          value:
+            "Vsa plesna interakcija v Jack & Jill tekmovanjih mora biti v formatu vodeni/sledeni ples. Vnaprej koreografirane rutine niso dovoljene.",
+        },
+        {
+          value: "Večina plesne vsebine mora biti West Coast Swing.",
+        },
+        {
+          value:
+            "S partnerjem morata ohranjati fizični stik, razen pri obratih, zasukih, kratkih razhajanju in ponovnih povezavah.",
+        },
+        {
+          value:
+            "Dvigovanja in akrobatski elementi, kjer je partner v zraku, niso dovoljeni.",
+        },
+        {
+          value:
+            "Podporni elementi na tleh (kot so spusti) so dovoljeni, vendar morata oba plesalca ves čas ohranjati stik s tlemi.",
+        },
+        {
+          value:
+            "Podporni elementi morajo biti v okviru socialnih plesnih vzorcev vodeni/sledeni ples, pri čemer je treba upoštevati varnost partnerja in drugih plesnih parov. Vsako gibanje, ki ga sodniki ocenijo kot nevarno, lahko prinese kazensko točko. Če ste v dvomih, ga raje izpustite.",
+        },
+        {
+          value:
+            "Kostumi niso dovoljeni. Dovoljena pa so tekmovalna oblačila, primerna za družabni ples. Ustrezna obleka je obvezna.",
+        },
+        {
+          value:
+            "V predtekmovalnih in polfinalnih krogih boste plesali v skupinah s partnerji, ki bodo izbrani naključno. Čeprav boste ocenjevani individualno, morate pri vseh partnerjih izkazati dobro sodelovanje, da napredujete v naslednji krog.",
+        },
+        {
+          value:
+            "Če pride do neravnovesja v številu vodilcev in sledilcev, bodo nekateri tekmovalci plesali dvakrat. Vendar pa tudi če vaše ime ni poklicano, ostanite v dvorani skozi celotno tekmovanje, saj vas lahko v zadnjem trenutku pozovemo k ponovnemu plesu.",
+        },
+        {
+          value:
+            "Glavni sodnik bo določil končno število finalistov po seštevku rezultatov.",
+        },
+        {
+          value:
+            "V finalu bo vaš partner določen z naključnim žrebom (ali drugo naključno metodo). Ponovitev žreba iz kakršnega koli razloga ne bo dovoljena - rezultat je odvisen od sreče pri žrebu. Finalisti bodo ocenjeni kot plesni pari.",
+        },
+      ],
+    },
+  },
+  eligibility: {
+    title: "Pogoji za udeležbo",
+    infoText: [
+      {
+        value:
+          "Za prijavo morate biti stari vsaj 13 let. Če ste mlajši od 18 let, morate imeti soglasje starša ali skrbnika za tekmovanje in se morate počutiti udobno pri družabnem plesanju z odraslimi na redni osnovi.",
+      },
+      {
+        value:
+          "Ni omejitve glede skupnega števila prijav v posamezni kategoriji. Lahko se prijavite kot leader ali follower. Za izbrano vlogo ni spolnih omejitev, če izpolnjujete naslednje pogoje:",
+        list: [
+          "imeti veljavno vstopnico za tekmovanja - Party Pass ali Full Pass,",
+          "se prijaviti na vsako tekmovanje pred uradnim rokom za prijavo (glej urnik dogodka),",
+          "plačati vse zahtevane prijavnine,",
+          "izpolnjevati vse druge posebne pogoje prijave, navedene v teh pravilih.",
+        ],
+      },
+      {
+        value:
+          "Prijavite se lahko le v eno Jack & Jill tekmovalno raven (Newcomer, Novice, Intermediate, Advanced, All Star, Champions) na vlogo. V večini primerov bi se morali prijaviti v najvišjo kategorijo, za katero ste kvalificirani, vendar lahko izberete katerokoli kategorijo, za katero izpolnjujete pogoje. Prijavite se lahko le v eno vlogo na tekmovalni ravni Jack & Jill (npr. ni mogoče prijaviti iste kategorije kot leader in follower hkrati).",
+      },
+      {
+        value:
+          "Prijavite se lahko v starostno kategorijo Jack & Jill (Sophisticated, Masters), za katero ste upravičeni glede na vašo starost v času tekmovanja.",
+      },
+      {
+        value:
+          "Izbrati morate svojo plesno vlogo in jo ohraniti skozi celotno tekmovanje (predtekmovanje, polfinale in finale). V večini primerov bi se morali prijaviti v najvišjo kategorijo, za katero ste kvalificirani v izbrani vlogi.",
+      },
+      {
+        value:
+          "Preverili bomo vašo upravičenost do tekmovanj z uporabo registra točk World Swing Dance Council (WSDC) in drugih relevantnih virov informacij, če je to potrebno.",
+      },
+      {
+        value:
+          "Če pred ali med tekmovanjem ugotovimo, da ste se prijavili v napačno kategorijo ali niste upravičeni do tekmovanja, vas bomo premestili v ustrezno kategorijo (če je to mogoče) ali vam omogočili umik. Če odkrijemo napako po finalu, vas (in vašega partnerja) lahko izključimo iz nagrajevanja. Če smo napako storili mi in vas nepravilno razporedili, kazen ne bo uporabljena.",
+      },
+    ],
+  },
+  multipleRoleEntries: {
+    title: "Več prijav v različnih vlogah",
+    infoText: [
+      {
+        value:
+          "Dovoljeno je več prijav. Lahko se prijavite na katerokoli tekmovanje, za katerega izpolnjujete posebne pogoje za prijavo. Za WSDC Jack & Jill tekmovanja je v določenih okoliščinah mogoče tekmovati v 2 različnih nivojih (enega v primarni in enega v sekundarni plesni vlogi) ter dodatno v kateri koli odprti ali starostni kategoriji. Plesanje v sekundarni vlogi je dovoljeno 1 ali 2 nivoja nižje (razen v novice/intermediate kategorijah, kjer lahko tekmovalci plešejo le 1 nivo nižje), skladno z veljavnimi uradnimi pravili WSDC. V sekundarni vlogi lahko plešete nižje le dokler ne izpolnite pogojev za napredovanje v višjo kategorijo.",
+      },
+      {
+        value:
+          "Potrebni točkovni pogoji za posamezne tekmovalne kategorije so naslednji:",
+        list: [
+          "WSDC Newcomer: brez WSDC točk v tej vlogi IN manj kot 30 NOVICE točk v drugi vlogi.",
+          "WSDC Novice: največ 30 Novice točk v tej vlogi IN manj kot 75 Advanced točk v drugi vlogi.",
+          "WSDC Intermediate: najmanj 16 Novice in največ 45 Intermediate točk v tej vlogi IN manj kot 225 All Star točk v drugi vlogi.",
+          "WSDC Advanced: najmanj 30 Intermediate in največ 75 Advanced točk v tej vlogi.",
+          "WSDC All Star: najmanj 60 Advanced točk in največ 225 All Star točk v tej vlogi.",
+        ],
+      },
+      {
+        value:
+          "Starostni pogoji za posamezne starostne kategorije so naslednji:",
+        list: [
+          "WSDC Sophisticated: 35 let ali več na dan tekmovanja.",
+          "WSDC Masters: 50 let ali več na dan tekmovanja.",
+        ],
+      },
+      {
+        value:
+          "Za Switch tekmovanje ni nobenih omejitev glede točk ali starosti - odprto bo za vse. Priporočljivo je, da imate vsaj osnovno znanje obeh vlog.",
+      },
+      {
+        value:
+          "Če imate kakršna koli vprašanja glede svoje upravičenosti za določeno tekmovanje, preverite uradna pravila ali se pred prijavo obrnite na našega ocenjevalca ali glavnega sodnika.",
+      },
+    ],
+  },
+  petition: {
+    title: "Postopek prošnje",
+    infoText: [
+      {
+        value:
+          "Če želite tekmovati v kategoriji, za katero ne izpolnjujete pogojev, ali če želite zamenjati kategorijo, morate vložiti prošnjo. Ob prijavi zahtevajte obrazec za prošnjo. Izpolnite ga in oddajte pred iztekom roka za prijavo. Navedite kontaktne podatke (kot so številka mobilnega telefona ali številka hotelske sobe), da vas lahko osebje kontaktira med dogodkom.",
+      },
+      {
+        value:
+          "Naš glavni sodnik bo pregledal vašo prošnjo in jo odobril ali zavrnil. Naša tekmovalna ekipa vas bo čim prej obvestila o odločitvi. Če želite zamenjati kategorijo, bodite pripravljeni tekmovati v prvotni kategoriji, če bo vaša prošnja zavrnjena.",
+      },
+      {
+        value:
+          "Če ste se kvalificirali za višjo kategorijo, vendar točke še niso zabeležene v bazi podatkov, izpolnite prošnjo in navedite dogodek, uvrstitev in raven tekmovanja ter kontakt za dogodek, da bomo lahko preverili podatke.",
+      },
+    ],
+  },
+  organizerResponsibilities: {
+    title: "Odgovornosti organizatorja dogodka",
+    infoText: [
+      {
+        value:
+          "Izbira uradnikov tekmovanja. Izbrali bomo sodniško komisijo, glavnega sodnika, ocenjevalca, MC-je in DJ-je za tekmovanje. Imena teh uradnikov bomo objavili pred dogodkom na naši spletni strani. Naš MC bo ob začetku vsakega tekmovanja napovedal sodnike. Vsa tekmovanja bodo imela najmanjše število sodnikov, kot to zahtevajo pravila WSDC.",
+      },
+      {
+        value:
+          "Določitev pravil in urnika. Pravila tekmovanj bomo določili in jih vnaprej objavili na naši spletni strani. Prav tako bomo objavili celoten urnik dogodka, ki bo vključeval ure sestankov, tekmovanj in podelitev nagrad. Po urniku bomo sledili, kolikor bo mogoče. Če bodo potrebne spremembe v zadnjem trenutku, jih bomo sporočili na dogodku.",
+      },
+      {
+        value:
+          "Registracija tekmovalcev in preverjanje upravičenosti. Prijave bomo zbirali vnaprej in na dogodku. Preverili bomo, ali izpolnjujete pogoje za posamezno tekmovanje, in dodelili številke tekmovalcem v Jack & Jill kategorijah.",
+      },
+      {
+        value:
+          "Izvedba tekmovanj ali prilagoditve po potrebi. Potrudili se bomo, da izvedemo vsa tekmovanja po načrtu. Če bo potrebno, lahko podaljšamo rok za prijave ali spremenimo pogoje (na primer z združitvijo kategorij) v primeru premajhnega števila prijav. Če bomo morali tekmovanje odpovedati, bomo povrnili prijavnino in vas morda povabili k predstavitvi v razstavni točki.",
+      },
+      {
+        value:
+          "Točkovanje rezultatov. Izbrali bomo usposobljenega ocenjevalca. Za vse predizbore in polfinale bomo uporabili sistem pozivov (callbacks), za finalne nastope pa relativno ocenjevanje.",
+      },
+      {
+        value:
+          "Razglasitev rezultatov in podelitev nagrad. Na podelitvi nagrad bomo razglasili prve tri uvrščene v vseh kategorijah. Rezultati bodo javno objavljeni kmalu po razglasitvi in podelitvi nagrad.",
+      },
+    ],
+  },
+  competitorResponsibilities: {
+    title: "Vaše odgovornosti kot tekmovalec",
+    infoText: [
+      {
+        value:
+          "Načrtovanje vnaprej. Na tekmovanja se lahko prijavite vnaprej ali na dogodku (v času, določenem v urniku). Če se prijavite vnaprej, morate na dogodku prevzeti svojo številko. Preverite morebitne spremembe urnika tik pred tekmovanjem.",
+      },
+      {
+        value:
+          "Poznavanje pravil. Pravila morate pred tekmovanjem skrbno prebrati. Odgovorni ste za njihovo upoštevanje, ne glede na to, ali ste jih prebrali ali ne. Če imate vprašanja, jih zastavite na sestanku tekmovalcev ali se predhodno posvetujte z glavnim sodnikom.",
+      },
+      {
+        value:
+          "Pravočasna pripravljenost na nastop. V plesni dvorani morate biti vsaj 15 minut pred tekmovanjem.",
+      },
+      {
+        value:
+          "Športno vedenje. Spoštujte partnerje, sodnike in ostale tekmovalce.",
+      },
+      {
+        value:
+          "Uporaba ustreznih kanalov za pritožbe. Ne pritiskajte ali prepirajte se s sodniki.",
+      },
+      {
+        value:
+          "Pregled rezultatov. Lahko jih preverite na dogodku ali kontaktirate organizatorja kasneje.",
+      },
+    ],
+  },
+  danceRequirements: {
+    title: "Pogoji za ples na tekmovanjih",
+    infoText: [
+      {
+        value:
+          "Naslednji pogoji za ples veljajo za vsa naša tekmovanja. Če naši sodniki ugotovijo, da niste izpolnili enega ali več teh pogojev, vam lahko dodelijo kazenski postopek.",
+        list: [
+          "Minimalna smernica za vsebino swinga. To je dogodek v swing plesu. Zato bodo naši sodniki pričakovali, da bodo oba plesalca prikazala prepoznavno swing vsebino. Smernice glede swing vsebine so navedene v formatu za vsako tekmovanje. Naši sodniki bodo odločili, ali ste izpolnili naš zahtevek za swing vsebino. Če tega pogoja ne izpolnite, lahko prejmete kazenski postopek.",
+          "Poudarek na socialnih plesnih veščinah. Naša tekmovanja Jack & Jill so zasnovana za prikazovanje dobrih socialnih plesnih veščin v spontanem swing plesu. Vsi plesi na teh tekmovanjih morajo vsebovati vodilne/sledilne gibe. Vnaprej pripravljene koreografije niso dovoljene.",
+          "Povezava. Swing je partnerjski ples z povezavo. Med plesom morate ohraniti fizični stik s partnerjem, razen pri zavojih, obratih, kratkih oddaljitvah in okrevanju.",
+          "Pomožni gibi z nosilnostjo partnerja (“triki”).",
+          "- “V zraku” podporni gibi: Pri teh gibih sta obe nogi enega partnerja jasno od tal. Dvigovanje, zračni gibi in nekateri akrobatski gibi so primeri. “V zraku” podporni gibi niso dovoljeni na tekmovanjih Jack & Jill.",
+          "- “Na tleh” podporni gibi: Pri teh gibih tako vi kot vaš partner ohranita fizični stik s tlemi. Padci, nagibi, krožni gibi, drsanje z uporabo telesne teže in razcepi so primeri. “Na tleh” podporni gibi so dovoljeni na vseh tekmovanjih. Vendar pa lahko vsak gib, ki ga naši sodniki ocenijo kot nevarnega, privede do kazenskega postopka. Če dvomite, ga izpustite.",
+          "Primerna vedenja in obleka. Naš cilj je spodbujati izrazite in vznemirljive plesne nastope brez ogrožanja kakovosti plesa in dobrega okusa. Da bi ohranili to ravnovesje, vas spodbujamo, da pokažete dober nastop (vključno s humorjem, kjer je to primerno), vendar v okviru predstavitve trdnih plesnih osnov.",
+        ],
+      },
+      {
+        value:
+          "Ne pozabite, da bodo na našem dogodku prisotni vsi starostni razredi (vključno z mladimi plesalci) in da bi bil vaš nastop lahko pretočen v živo na spletu in posnet. Vsako dejanje, ki ga naši sodniki menijo, da bi jih v socialnem plesu neprijetno postavilo (kot je neprimerno dotikanje ali posnemanje spolnega vedenja), lahko privede do kazenskega postopka.",
+      },
+      {
+        value:
+          "Predhodno preverite pri našem glavnem sodniku, če imate kakršnakoli vprašanja glede sprejemljivosti vaše koreografije ali tekmovalne obleke.",
+      },
+    ],
+  },
+  competitionMusic: {
+    title: "Tekmovalna glasba",
+    infoText: [
+      {
+        value:
+          "Glasba za naša tekmovanja Jack & Jill. Naš DJ tekmovanja bo izbral vso glasbo za naša tekmovanja Jack & Jill. Glasba za finalne plese bo približno enako dolga za vsak par. Natančen čas izginjanja bo prepuščen DJ-jevi presoji, da bo povečal učinkovitost glasbe. Če naši sodniki potrebujejo več časa za določitev ponovitev ali končnih razvrstitev, lahko naš glavni sodnik prosi DJ-ja, da predvaja dodatno glasbo.",
+      },
+    ],
+  },
+  judgingCriteria: {
+    title: "Naša merila za ocenjevanje",
+    infoText: [
+      {
+        value: "Ocenjeni boste po naslednjih merilih:",
+        list: [
+          "Čas. Swing se pleše na udarec. Dobro usklajen čas vključuje ne samo ples na pravilen takt, temveč tudi natančnejše razlike, kot so, ali plešete na sinkopiran swing glasbe. Vaša sinkopacija in stopala morajo biti tudi usklajena.",
+          "Timskega dela. Swing je partnerjski ples z povezavo. Pokažite to povezavo z vodilnimi/sledilnimi gibi ali akcijo/reakcijo s partnerjem, kar je pričakovani del vsakega swing plesnega tekmovanja. Cilj naj bo uravnotežen nastop dajanja in prejemanja s partnerjem. Zanemarjanje, neprimeren odnos ali ogrožanje varnosti partnerja pomeni slabo timsko delo. Prilagajanje in popravljanje za partnerja sta pričakovana del dobrega timskega dela.",
+          "Tehnika. Kako dobro izvedete gibe v plesu, sestavlja tehniko. Dobra tehnika vključuje čisto izvedbo in dokončanje plesnih elementov, kot so nadzor ravnotežja in teže, postavitev stopal, telesne linije ter zavoj in obrate.",
+          "Glasbena interpretacija. Dobra glasbena interpretacija pomeni prilagoditev toka vašega plesa, da se ujema z stilom, tempom, razpoloženjem in variacijami ritma v glasbi. Strmeti si morate prizadevati za prikaz sposobnosti poslušanja in interpretiranja odtenkov v glasbi skozi vaš ples.",
+          "Predstavitev. Ustvarjanje vzdušja vznemirjenja in vabi interes v vaš nastop je želeni učinek dobre predstavitve. Dobra predstavitev se začne z izbiro primerne obleke. Čeprav je dober nastop ena stran predstavitve, ne more nadomestiti dobrega plesa. Osredotočiti se morate predvsem na prikaz pozitivne kemije kot para. Nepotrebno izkazovanje pred publiko ali sodniki lahko zmanjša vašo oceno. Dober športni duh pred, med in po plesu je prav tako pričakovan del dobre predstavitve.",
+        ],
+      },
+    ],
+  },
+  disclaimer: {
+    title: "Izjava o odpovedi odgovornosti",
+    infoText: [
+      {
+        value:
+          "Naredili bomo vse, da bomo izvedli vsa tekmovanja v skladu s temi pravili. Vendar pa si pridržujemo pravico, da spreminjamo tekmovanja po potrebi. Če bomo morali spremeniti tekmovanja ali ta pravila, jih bomo objavili na naši spletni strani ali jih napovedali na dogodku.",
+      },
+    ],
   },
   userProfile: {
     profilePageTitle: "Tvoje registracije",

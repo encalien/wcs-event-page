@@ -827,31 +827,32 @@ const fr = {
   },
   termsAndConditions: {
     pageTitle: "Régles et conditions",
+
     healthAndSafety: {
-      title: "Bien-être et sécurité",
+      title: "Santé et sécurité",
       infoText: [
         {
           value:
-            "Il y a un risque de blessures physiques pendant les activités sportives. Il est de la responsabilité et de la décision des participants de participer à une activité particulière pendant l'événement. Les participants participent à l'événement à leurs propres risques. L'organisateur ne prend aucune responsabilité pour les blessures physiques ou les problèmes de santé des participants.",
+            "Il existe un risque de blessures physiques lors des activités sportives et de danse. Il appartient aux participants de décider s'ils souhaitent prendre part à une activité spécifique pendant l'événement. Les participants prennent part à l'événement à leurs propres risques. L'organisateur n'assume aucune responsabilité en cas de blessures physiques ou de problèmes de santé des participants.",
         },
         {
           value:
-            "Les participants doivent suivre les règles de l'événement et s'assurer qu'ils se comportent d'une manière qui limiterait l'apparition ou la gravité de tout problème de santé possible. Cela comprend, sans s'y limiter :",
+            "Les participants sont tenus de respecter les règles de l'événement et de veiller à adopter un comportement qui limite l'apparition ou la gravité de tout problème de santé éventuel. Cela inclut, mais ne se limite pas à :",
           list: [
-            "les participants ne devraient pas être présents à l'événement s'ils se sentent malades et présentent des symptômes de maladie infectieuse,",
-            "les participants devraient maintenir une bonne hygiène et utiliser régulièrement des désinfectants pour les mains,",
-            "les participants devraient rester correctement hydratés,",
-            "les participants ne devraient pas participer à une activité pour laquelle ils savent qu'elle pourrait être risquée pour eux en raison d'une condition préexistante,",
-            "les participants ne devraient pas forcer ou encourager d'autres participants à participer ou à effectuer des mouvements qui pourraient être dangereux pour les autres participants,",
+            "Les participants ne doivent pas être présents à l'événement s'ils se sentent malades et présentent des symptômes d'une maladie infectieuse.",
+            "Les participants doivent maintenir une bonne hygiène et utiliser régulièrement des désinfectants pour les mains.",
+            "Les participants doivent s'assurer de rester bien hydratés.",
+            "Les participants ne doivent pas prendre part à une activité qu'ils savent risquée pour eux en raison d'une condition préexistante.",
+            "Les participants ne doivent pas forcer ou encourager d'autres participants à prendre part ou à exécuter des mouvements qui pourraient être dangereux pour eux.",
           ],
         },
         {
           value:
-            "Dans le cas où un participant se comporte de manière risquée, en particulier si le comportement peut être dangereux pour les autres participants, le directeur de l'événement se réserve le droit de limiter l'accès à l'événement à un tel participant.",
+            "Si un participant adopte délibérément un comportement à risque, en particulier si ce comportement peut mettre en danger d'autres participants, l'organisateur de l'événement se réserve le droit de limiter son accès à l'événement.",
         },
         {
           value:
-            "Les participants acceptent toutes les mesures de santé et de sécurité supplémentaires qui peuvent ou non être mises en place par l'organisateur de l'événement à tout moment, y compris mais sans s'y limiter : l'utilisation de masques, la politique de vaccination contre le SRAS-CoV-2, la politique de test du SRAS-CoV-2, etc.",
+            "Les participants acceptent toutes les mesures de santé et de sécurité supplémentaires qui pourraient être mises en place par l'organisateur de l'événement à tout moment, y compris, mais sans s'y limiter : l'utilisation de masques, la politique de vaccination contre le SARS-CoV-2, la politique de test du SARS-CoV-2, etc.",
         },
       ],
     },
@@ -860,65 +861,73 @@ const fr = {
       infoText: [
         {
           value:
-            "Toute inscription est considérée comme en attente jusqu'à ce que le paiement soit reçu. Le paiement est dû dans les 14 jours, après réception du paiement, le billet est considéré comme confirmé. Si un participant ne paie pas son billet en temps voulu, l'organisateur de l'événement se réserve le droit d'annuler son billet. Dans un tel cas, le participant qui souhaite toujours participer à l'événement doit s'inscrire à nouveau au prix en vigueur au moment de sa nouvelle inscription.",
+            "Toutes les inscriptions sont considérées comme en attente jusqu'à réception du paiement. Le paiement est dû sous 14 jours. Une fois le paiement reçu, le billet est considéré comme confirmé. Si un participant ne règle pas son billet dans les délais impartis, l'organisateur de l'événement se réserve le droit d'annuler son billet. Dans ce cas, le participant souhaitant toujours assister à l'événement devra s'inscrire à nouveau au tarif en vigueur au moment de sa nouvelle inscription.",
         },
         {
           value:
-            "En cas d'anulation par le participant, nous proposons un remboursement du paiement selon les modalités suivantes :",
+            "En cas d'annulation par le participant, nous proposons un remboursement selon les conditions suivantes :",
           list: [
-            "Pour une demande d'annulation reçue jusqu'au 9 Février 2025 inclus, le paiement reçu sera remboursé partiellement - 50% du paiement reçu.",
-            "Pour une demande d'annulation reçue le 10 Février 2025 ou après, le paiement reçu ne sera pas remboursé.",
+            "Pour les demandes d'annulation reçues jusqu'au 9 février 2025 inclus, un remboursement partiel sera effectué - 50 % du paiement reçu.",
+            "Pour les demandes d'annulation reçues à partir du 10 février 2025, aucun remboursement ne sera effectué.",
           ],
         },
         {
           value:
-            "Toute demande d'annulation doit être communiquée par écrit par e-mail et confirmée par l'organisateur. Tous les frais encourus par le processus de remboursement sont à la charge du participant et sont déduits du montant remboursé.",
+            "Toutes les demandes d'annulation doivent être communiquées par écrit via e-mail et confirmées par l'organisateur. Tous les frais liés au processus de remboursement sont à la charge du participant et seront déduits du montant remboursé.",
         },
         {
           value:
-            "Les participants qui ont acheté un billet mais ne peuvent pas assister à l'événement peuvent transférer leur billet à une autre personne. Les leaders ne peuvent transférer leur billet qu'à un autre leader. Les followers peuvent transférer leur billet à un leader ou à un follower. Tous les transferts de billets doivent être communiqués par écrit par e-mail et confirmés aux deux parties par l'organisateur. Les passes gratuites et à prix réduit ne sont pas transférables.",
+            "Les participants ayant acheté un billet mais ne pouvant pas assister à l'événement peuvent transférer leur billet à une autre personne. Les leaders ne peuvent transférer leur billet qu'à un autre leader. Les followers peuvent transférer leur billet à un leader ou un follower. Les danseurs switch peuvent transférer leur billet à un leader ou un danseur switch. Les pass gratuits et à tarif réduit ne sont pas transférables. Tous les transferts de billets doivent être communiqués par écrit via e-mail et confirmés par l'organisateur auprès des deux parties.",
         },
         {
           value:
-            "L'organisateur de l'événement se réserve le droit d'annuler l'événement en raison d'un nombre insuffisant d'inscriptions ou de force majeure (par exemple, incendie, tempête, état épidémique et autres catastrophes naturelles). Dans de tels cas, les détenteurs de billets seront soit remboursés intégralement du prix de leur billet, soit recevront un bon - option de transférer leur billet à un événement futur. D'autres réclamations contre l'organisateur de l'événement ne sont pas possibles.",
+            "L'organisateur de l'événement se réserve le droit d'annuler l'événement en raison d'un nombre insuffisant d'inscriptions ou de force majeure (par exemple, incendie, tempête, état épidémique, et autres catastrophes naturelles). Dans ces cas, les détenteurs de billets seront soit remboursés intégralement, soit recevront un bon leur permettant de transférer leur billet vers un événement futur. Aucune autre réclamation contre l'organisateur ne sera acceptée.",
         },
         {
           value:
-            "Le programme de l'événement n'est pas contraignant. Si un professeur annule pour quelque raison que ce soit, l'organisateur de l'événement se réserve le droit de trouver un professeur de remplacement ou d'omettre des parties du programme. Dans le cas où le programme change ou que des parties du programme ne sont pas réalisées (par exemple, un professeur ne participe pas en raison d'une maladie ou de vols annulés, etc.), mais que l'événement a toujours lieu, aucun remboursement ne sera offert. L'organisateur de l'événement peut ou non trouver des alternatives au programme omis.",
+            "Le programme de l'événement est donné à titre indicatif et non contractuel. Si un professeur annule pour quelque raison que ce soit, l'organisateur de l'événement se réserve le droit de trouver un professeur remplaçant ou d'omettre certaines parties du programme. Si le programme est modifié ou que certaines parties ne peuvent être réalisées (par exemple, un professeur est absent en raison d'une maladie ou d'un vol annulé, etc.), mais que l'événement a toujours lieu, aucun remboursement ne sera accordé. L'organisateur pourra ou non proposer des alternatives aux parties annulées du programme.",
         },
       ],
     },
-    ethicalCunduct: {
-      title: "Conduite Éthique",
+    eventRules: {
+      title: "Règles supplémentaires de l'événement",
       infoText: [
         {
           value:
-            "Notre événement est dédié à fournir un environnement sûr et inclusif pour tous les participants, le personnel et les bénévoles. Nous appliquons une politique de tolérance zéro stricte contre toute forme de discours haineux, de harcèlement ou de comportement discriminatoire envers quiconque sur la base de la race, de l'ethnie, de la religion, de l'identité de genre, de l'orientation sexuelle, du handicap ou de toute autre caractéristique qui pourrait être utilisée pour cibler un groupe minoritaire, ou tout autre acte pouvant être considéré comme intimidant, hostile ou indésirable.",
+            "Les participants doivent porter le bracelet de l'événement en tout temps. Il est obligatoire de montrer le bracelet à l'entrée des cours et des soirées, ainsi que sur demande à tout moment pendant l'événement.",
         },
         {
           value:
-            "Tout participant, membre du personnel ou bénévole reconnu coupable d'un tel comportement sera sujet à une action immédiate. Cette action peut inclure l'exclusion de l'événement sans remboursement, l'interdiction des événements futurs et le signalement aux autorités compétentes. Nous encourageons toute personne qui subit ou est témoin d'actes de haine ou de harcèlement à signaler l'incident dès que possible aux organisateurs de l'événement ou aux bénévoles pour une évaluation et une réponse immédiates.",
+            "Les participants doivent accepter les décisions des enseignants et de l'organisateur de l'événement pendant l'événement, notamment lors des auditions.",
         },
         {
           value:
-            "Notre engagement envers un environnement exempt de haine s'étend au-delà des locaux de l'événement et englobe toutes les activités associées, y compris les interactions en ligne et la conduite sur les réseaux sociaux. Notre but est de cultiver un esprit communautaire où le respect et la gentillesse sont la base de toutes interactions et échanges.",
+            "Les participants mineurs (<18 ans) doivent être accompagnés d'un tuteur légal après minuit pour être autorisés à rester à l'événement. Veuillez fournir le nom de votre tuteur légal lors de l'enregistrement.",
+        },
+        {
+          value:
+            "Si un participant ne respecte pas l'une des conditions ci-dessus, l'organisateur est en droit de retirer le pass du participant et de lui demander de quitter l'événement sans remboursement des frais.",
+        },
+        {
+          value:
+            "Nous avons établi le Code de conduite ci-dessous pour nous aider à créer un environnement sûr, inclusif et accueillant pour tous les participants. Tous les participants s'engagent à respecter le Code de conduite.",
         },
       ],
     },
     mediaUse: {
-      title: "Utilisation de votre image",
+      title: "Utilisation d'images graphiques",
       infoText: [
         {
           value:
-            "En s'inscrivant, les participants acceptent que pendant l'événement, l'organisateur de l'événement puisse collecter du matériel graphique qui comprend l'image des participants, y compris, mais sans s'y limiter, des enregistrements vidéo, des photos, des enregistrements audio, etc. Tout le matériel graphique obtenu pendant l'événement peut être publié publiquement, partagé sur les réseaux sociaux et/ou utilisé à des fins promotionnelles pour les événements futurs.",
+            "En s'inscrivant, les participants acceptent que pendant l'événement, l'organisateur puisse collecter des matériaux graphiques comprenant l'image des participants, y compris mais sans s'y limiter les enregistrements vidéo, les photos, les enregistrements audio, etc. Tous les matériaux graphiques obtenus pendant l'événement peuvent être publiés publiquement, partagés sur les réseaux sociaux et/ou utilisés à des fins promotionnelles pour des événements futurs.",
         },
         {
           value:
-            "Les participants peuvent demander à l'organisateur de l'événement de supprimer leur image de tout matériel graphique obtenu pendant l'événement. L'organisateur de l'événement fera de son mieux pour supprimer l'image du participant, mais ne peut pas garantir que l'image du participant sera supprimée de tout matériel graphique obtenu pendant l'événement.",
+            "Les participants à l'événement sont également autorisés à prendre leurs propres photos, enregistrements audio et vidéos pendant l'événement - sauf pendant les ateliers (voir ci-dessous). Ils peuvent partager ces matériaux librement comme bon leur semble, et l'organisateur de l'événement ne peut être tenu responsable de leur utilisation. Lors du partage de ces matériaux, il est recommandé aux participants de demander la permission des autres personnes représentées dans les matériaux.",
         },
         {
           value:
-            "Il n'est pas autorisé de prendre des enregistrements (vidéo ou audio) des professeurs ou des participants pendant les workshops, sauf autorisation expresse de l'organisateur de l'événement.",
+            "Il est interdit de prendre des enregistrements (vidéos ou audio) des enseignants ou des participants pendant les ateliers, sauf si l'organisateur de l'événement accorde une permission explicite. Si les enseignants acceptent de démontrer le contenu présenté à la fin du cours, ou permettent spécifiquement un enregistrement à tout autre moment, les participants peuvent alors enregistrer les enseignants. Les participants ne sont pas autorisés à partager ce matériel publiquement sans l'autorisation explicite de l'enseignant.",
         },
       ],
     },
@@ -927,44 +936,393 @@ const fr = {
       infoText: [
         {
           value:
-            "En s'inscrivant, les participants acceptent que leurs données personnelles soient collectées par l'organisateur de l'événement et utilisées à des fins statistiques, informatives ou de marketing pour les événements futurs.",
+            "En s'inscrivant, les participants acceptent que leurs données personnelles soient collectées par l'organisateur de l'événement et utilisées à des fins statistiques, informatives ou pour la commercialisation d'événements futurs.",
         },
         {
           value:
-            "Toutes les données collectées seront stockées en toute sécurité et ne seront disponibles qu'à l'équipe d'organisation. L'organisateur de l'événement ne s'engage pas à partager les données collectées avec des tiers.",
+            "Toutes les données collectées seront stockées de manière sécurisée et seront accessibles uniquement à l'équipe organisatrice. L'organisateur de l'événement s'engage à ne pas partager les données collectées avec des tiers.",
         },
       ],
     },
     personalAffairs: {
-      title: "Affaires personnelles",
+      title: "Effets personnels",
       infoText: [
         {
           value:
-            "L'organisateur de l'événement ne peut pas être tenu responsable des dommages, vols ou pertes d'objets personnels pendant l'événement.",
+            "L'organisateur de l'événement ne peut être tenu responsable de tout dommage, vol ou perte d'effets personnels pendant l'événement.",
         },
         {
           value:
-            "Tout objet qui est trouvé durant l'événement doit être remis à l'organisateur de l'événement, qui le stockera dans une zone désignée 'Lost & Found' jusqu'à la fin de l'événement. Tout objet non réclamé peut être récupéré en personne à la fin de l'événement. Si des objets non réclamés restent après l'événement, l'organisateur de l'événement les stockera pendant 14 jours supplémentaires. Dans ce cas, les propriétaires d'objets peuvent envoyer un e-mail à l'organisateur de l'événement pour que leurs objets soient renvoyés par la poste. Dans un tel cas, le propriétaire de l'objet supportera les frais d'emballage et de livraison, ainsi que la responsabilité de tout dommage, perte ou vol qui pourrait survenir pendant la livraison.",
+            "Tout objet trouvé pendant l'événement doit être remis à l'organisateur de l'événement, qui les conservera dans un espace désigné 'Objets trouvés' jusqu'à la fin de l'événement. Ces objets peuvent être récupérés en personne à la fin de l'événement. Si des objets restent non récupérés après l'événement, l'organisateur les conservera pendant 14 jours supplémentaires. Pendant cette période, les propriétaires peuvent envoyer un e-mail à l'organisateur pour récupérer leurs objets par courrier. Dans ce cas, le propriétaire de l'objet prendra en charge les frais d'emballage et de livraison, ainsi que la responsabilité de tout dommage, perte ou vol qui pourrait survenir pendant la livraison.",
         },
       ],
     },
-    eventRules: {
-      title: "Régles additionnelles de l'évenément",
+  },
+  codeOfConduct: {
+    pageTitle: "Code de conduite",
+    general: {
       infoText: [
         {
           value:
-            "Les participants doivent porter le bracelet en tout temps. Il est obligatoire de montrer le bracelet sur demande à tout moment pendant l'événement.",
+            "Notre communauté de danse devrait être un endroit amusant et amical où chacun peut apprendre, danser et passer un bon moment. Ce code de conduite décrit comment nous pouvons travailler ensemble pour que tout le monde se sente en sécurité et heureux. Il explique également les comportements acceptables, ce qu'il faut faire si le comportement de quelqu'un est dangereux ou inacceptable, et comment les organisateurs soutiennent un environnement sûr pour tous.",
         },
         {
           value:
-            "Les participants doivent porter des chaussures de danse appropriées pendant les workshops et les soirées. Les chaussures de danse doivent être propres et ne pas endommager le sol.",
+            "Nous visons à fournir un espace sûr, respectueux et inclusif pour tous. En participant à cet événement, vous acceptez de respecter les directives suivantes :",
         },
         {
           value:
-            "Si un participant ne se comporte pas de manière appropriée, l'organisateur de l'événement peut limiter l'accès ou exclure de l'événement ce participant sans dédommagement ou remboursement.",
+            "Soyez respectueux des autres sur la piste de danse. Si vous bousculez quelqu'un, excusez-vous. Si vous blessez quelqu'un, excusez-vous et essayez d'éviter que cela ne se reproduise. Cela peut signifier ajuster votre danse, parler à un enseignant ou décider de ne plus danser avec cette personne.",
+        },
+        {
+          value:
+            "Respectez les limites des autres. Ce que vous voyez quelqu'un faire avec un partenaire ne signifie pas qu'il voudra le faire avec vous. Cela s'applique aux prises de danse rapprochées, aux dips, aux conversations flirteuses ou au simple fait d'accepter une danse. Si vous avez un doute sur les limites de quelqu'un, demandez-lui. Si une personne exprime un inconfort (verbalement ou non), arrêtez immédiatement.",
+        },
+        {
+          value:
+            "Demandez et répondez avec respect. Il est toujours acceptable de dire 'non' à une danse. Si quelqu'un refuse, respectez son choix. Si vous vous sentez mal à l'aise ou en insécurité pendant une danse, vous pouvez l'arrêter à tout moment sans explication. Demander des ajustements pour votre confort et votre sécurité est approprié, mais les retours non sollicités sur les compétences en danse sont généralement considérés comme impolis.",
+        },
+        {
+          value:
+            "Cet environnement est ouvert à tous, quelle que soit leur race, âge, niveau de danse, orientation sexuelle, genre, handicap, apparence physique, religion ou toute autre caractéristique. Nous avons une politique de tolérance zéro envers toute forme de harcèlement, de discrimination, de discours haineux ou d'intimidation.",
+        },
+        {
+          value:
+            "Toute personne (participant, membre du personnel, bénévole) adoptant un tel comportement fera l'objet de mesures immédiates, pouvant inclure l'expulsion de l'événement sans remboursement, l'interdiction de futurs événements et un signalement aux autorités compétentes. Toute personne victime ou témoin de harcèlement est encouragée à le signaler immédiatement aux organisateurs ou aux bénévoles.",
+        },
+        {
+          value:
+            "Si vous êtes victime de harcèlement ou remarquez quelqu'un en situation dangereuse, veuillez contacter un membre du personnel de l'événement. Le personnel est disponible à l'accueil ou, après la fermeture de l'inscription, au stand du DJ ou en salle du personnel.",
+        },
+        {
+          value:
+            "Vous pouvez également contacter directement la directrice de l'événement : Katarina Muršec via +38631533937 ou info{'@'}slovenianopen.dance",
+        },
+        {
+          value:
+            "Notre engagement pour un environnement sans harcèlement s'étend au-delà des lieux de l'événement et inclut toutes les interactions associées, y compris en ligne et sur les réseaux sociaux.",
+        },
+        {
+          value:
+            "Photographie et vidéographie : Ne filmez ni ne prenez de photos de personnes sans leur consentement. Si vous capturez des vidéos ou des photos spontanées d'une danse, demandez la permission après coup et respectez la décision des participants. Les photos et vidéos générales de la piste de danse, sans focus sur des individus spécifiques, sont autorisées.",
+        },
+        {
+          value:
+            "Consommation d'alcool et de substances : Veuillez consommer l'alcool de manière responsable. Restez hydraté et connaissez vos limites. Gardez à l'esprit que certaines substances peuvent altérer votre jugement quant aux limites et au respect des autres. Un comportement inapproprié peut entraîner un avertissement verbal, une exclusion temporaire ou une expulsion définitive de l'événement.",
+        },
+        {
+          value:
+            "Conséquences d'un comportement inacceptable : Les infractions à ce code peuvent entraîner une expulsion immédiate de l'événement, une disqualification des compétitions et une interdiction des événements futurs. Toute action compromettant un environnement sûr et respectueux ne sera tolérée de la part d'aucun participant, enseignant, juge, artiste, bénévole ou membre du personnel.",
+        },
+        {
+          value:
+            "Les organisateurs de l'événement peuvent prendre les mesures appropriées, allant d'une discussion privée à une expulsion immédiate sans compensation ni remboursement. En cas de situation grave nécessitant un suivi, nous pourrions partager des informations pertinentes avec d'autres organisateurs ou autorités compétentes.",
+        },
+        {
+          value:
+            "Si d'autres problèmes surviennent après un premier signalement, veuillez nous en informer. Nous nous engageons à faire de cet événement un espace sûr et agréable pour tous. Votre coopération et vigilance contribuent à maintenir un environnement accueillant.",
         },
       ],
     },
+  },
+  competitionRules: {
+    pageTitle: "Règlement des compétitions",
+    general: {
+      title: "Règles générales pour toutes les compétitions",
+      infoText: [
+        {
+          value:
+            "Le Slovenian Open proposera uniquement des compétitions au format Jack & Jill.",
+        },
+        {
+          value:
+            "Les différentes catégories de niveau et d'âge proposées sont :",
+          list: [
+            "WSDC Newcomer Jack & Jill",
+            "WSDC Novice Jack & Jill",
+            "WSDC Intermediate Jack & Jill",
+            "WSDC Advanced Jack & Jill",
+            "WSDC All Star Jack & Jill",
+            "WSDC Sophisticated Jack & Jill",
+            "Switch Jack & Jill",
+          ],
+        },
+        {
+          value:
+            "Toutes les compétitions Jack & Jill auront lieu le samedi de l'événement.",
+        },
+        {
+          value:
+            "Les compétitions se dérouleront selon le format WSDC. Chaque compétition comprendra un tour préliminaire, un quart de finale et une demi-finale (si applicable), ainsi qu'une finale. Le nombre de tours dépendra du nombre d'inscriptions dans chaque catégorie.",
+        },
+        {
+          value:
+            "La compétition sera jugée par un panel de juges. Le juge principal supervisera la compétition et prendra les décisions finales en cas de litige ou de problème.",
+        },
+      ],
+    },
+    jackAndJill: {
+      title: "Format de la compétition Jack & Jill",
+      infoText: [
+        {
+          value:
+            "Les compétitions Jack & Jill sont conçues pour mettre en valeur les compétences en danse spontanée du West Coast Swing avec différents partenaires et musiques. Un peu de hasard entre également en jeu. Les compétiteurs s'inscrivent individuellement, se voient attribuer un partenaire au hasard et dansent sur une musique sélectionnée par le DJ de la compétition.",
+        },
+        {
+          value:
+            "Toutes les danses en compétition Jack & Jill doivent être en mode guidé/suivi. Les routines pré-chorégraphiées ne sont pas autorisées.",
+        },
+        {
+          value: "La majorité du contenu swing doit être du West Coast Swing.",
+        },
+        {
+          value:
+            "Vous et votre partenaire devez maintenir un contact physique, sauf pour les tours, rotations, courts éloignements et reprises.",
+        },
+        {
+          value:
+            "Les portés et figures acrobatiques aériennes ne sont pas autorisés.",
+        },
+        {
+          value:
+            "Les mouvements de soutien au sol (tels que les drops) sont autorisés, mais vous et votre partenaire devez toujours garder un contact avec le sol.",
+        },
+        {
+          value:
+            "Les mouvements de soutien doivent être des figures sociales en mode guidé/suivi et respecter la sécurité de votre partenaire et des autres couples. Tout mouvement jugé dangereux par les juges pourra entraîner une pénalité. En cas de doute, abstenez-vous.",
+        },
+        {
+          value:
+            "Les costumes ne sont pas autorisés. Cependant, des tenues de compétition adaptées à la danse sociale sont acceptables. Une tenue appropriée est requise.",
+        },
+        {
+          value:
+            "Lors des tours préliminaires et des demi-finales, vous danserez en groupes avec plusieurs partenaires sélectionnés au hasard. Bien que vous soyez jugé individuellement, vous devez montrer un bon travail d'équipe avec tous vos partenaires pour passer au tour suivant.",
+        },
+        {
+          value:
+            "Si le nombre de leaders et de followers est déséquilibré, certains compétiteurs devront danser deux fois. Toutefois, même si votre nom n'est pas appelé, restez dans la salle de bal tout au long de la compétition, au cas où des compétiteurs supplémentaires seraient nécessaires à la dernière minute.",
+        },
+        {
+          value:
+            "Le juge principal déterminera le nombre exact de finalistes après le calcul des résultats des sélections.",
+        },
+        {
+          value:
+            "En finale, un tirage au sort (ou une autre méthode aléatoire) déterminera votre partenaire. Aucun nouveau tirage ne sera autorisé pour quelque raison que ce soit – c'est la chance du tirage. Les finalistes seront jugés en couple.",
+        },
+      ],
+    },
+  },
+  eligibility: {
+    title: "Conditions d'éligibilité",
+    infoText: [
+      {
+        value:
+          "Pour participer, vous devez avoir au moins 13 ans. Si vous avez moins de 18 ans, vous devez avoir le consentement de votre parent ou tuteur pour concourir, et vous devez être à l'aise pour danser socialement avec des adultes de manière régulière.",
+      },
+      {
+        value:
+          "Il n'y a pas de limite au nombre total d'inscriptions dans chaque catégorie. Vous pouvez choisir de vous inscrire en tant que leader ou follower. Il n'y a pas de restrictions de genre pour le rôle choisi, à condition de remplir les critères suivants :",
+        list: [
+          "avoir un pass valide pour les compétitions - Party Pass ou Full Pass,",
+          "s'inscrire à chaque compétition avant la date limite officielle d'inscription (voir le programme du week-end),",
+          "payer les frais d'inscription requis,",
+          "remplir toutes les autres conditions spécifiques d'inscription mentionnées dans ce règlement.",
+        ],
+      },
+      {
+        value:
+          "Vous ne pouvez vous inscrire qu'à un seul niveau de compétence Jack & Jill (Newcomer, Novice, Intermediate, Advanced, All Star, Champions) par rôle. Dans la plupart des cas, vous devez vous inscrire à la catégorie la plus élevée pour laquelle vous êtes éligible dans votre rôle choisi, mais vous pouvez participer à toute catégorie pour laquelle vous êtes qualifié. Vous ne pouvez vous inscrire qu'à un seul rôle par niveau de compétence Jack & Jill (par exemple, il n'est pas possible de s'inscrire dans la même catégorie en tant que leader et follower).",
+      },
+      {
+        value:
+          "Vous pouvez vous inscrire dans la catégorie d'âge Jack & Jill (Sophisticated, Masters) pour laquelle vous êtes éligible en fonction de votre âge au moment de la compétition.",
+      },
+      {
+        value:
+          "Vous devez choisir votre rôle de danse et le conserver tout au long de la compétition (préliminaires, demi-finales et finales). Dans la plupart des cas, vous devriez vous inscrire à la catégorie la plus élevée pour laquelle vous êtes qualifié dans votre rôle choisi.",
+      },
+      {
+        value:
+          "Nous vérifierons votre éligibilité pour les compétitions en consultant le registre des points du World Swing Dance Council (WSDC) et d'autres sources d'information, si applicable.",
+      },
+      {
+        value:
+          "Si nous déterminons avant ou pendant une compétition que vous vous êtes inscrit dans une mauvaise catégorie ou que vous n'êtes pas éligible, nous vous réassignerons à la bonne catégorie (si possible) ou vous autoriserons à vous retirer. Si nous découvrons l'erreur après la finale, nous pourrions vous exclure (ainsi que votre partenaire) des récompenses. Si l'erreur provient de notre part et que nous vous avons assigné incorrectement, aucune pénalité ne sera appliquée.",
+      },
+    ],
+  },
+  multipleRoleEntries: {
+    title: "Inscriptions multiples par rôle",
+    infoText: [
+      {
+        value:
+          "Les inscriptions multiples sont autorisées. Vous pouvez choisir de participer à toutes les compétitions pour lesquelles vous remplissez les conditions d'inscription spécifiques. Pour les compétitions Jack & Jill du WSDC, il est possible de concourir dans 2 niveaux de compétence dans certaines circonstances (un dans votre rôle principal et un dans votre rôle secondaire) et en plus dans toute division ouverte ou basée sur l'âge. Danser dans votre rôle secondaire est autorisé 1 ou 2 niveaux en dessous (sauf pour les divisions novice/intermédiaire, où les compétiteurs ne peuvent descendre que d'un seul niveau), selon les règles officielles actuelles du WSDC. Vous ne pouvez descendre de niveau dans votre rôle secondaire que jusqu'à ce que vous remplissiez les critères pour monter dans une division supérieure.",
+      },
+      {
+        value:
+          "Les points requis pour chaque division basée sur le niveau de compétence sont les suivants :",
+        list: [
+          "WSDC Newcomer : aucun point WSDC dans ce rôle ET moins de 30 points NOVICE dans l'autre rôle.",
+          "WSDC Novice : maximum 30 points Novice pour ce rôle ET moins de 75 points Advanced dans l'autre rôle.",
+          "WSDC Intermediate : minimum 16 points Novice et maximum 45 points Intermediate pour ce rôle ET moins de 225 points All Star dans l'autre rôle.",
+          "WSDC Advanced : minimum 30 points Intermediate et maximum 75 points Advanced pour ce rôle.",
+          "WSDC All Star : minimum 60 points Advanced et maximum 225 points All Star pour ce rôle.",
+        ],
+      },
+      {
+        value:
+          "Les conditions d'âge pour chaque division basée sur l'âge sont les suivantes :",
+        list: [
+          "WSDC Sophisticated : 35 ans ou plus au moment de la compétition.",
+          "WSDC Masters : 50 ans ou plus au moment de la compétition.",
+        ],
+      },
+      {
+        value:
+          "Il n'y a aucune restriction liée aux points ou à l'âge pour la compétition Switch - elle sera ouverte à tous. Il est recommandé d'avoir au moins une connaissance de base des deux rôles.",
+      },
+      {
+        value:
+          "Si vous avez des questions sur votre éligibilité pour une compétition spécifique, veuillez consulter les règles officielles pour plus de détails ou contacter notre scoreur ou juge principal avant de vous inscrire.",
+      },
+    ],
+  },
+  petition: {
+    title: "Processus de pétition",
+    infoText: [
+      {
+        value:
+          "Si vous souhaitez participer à une compétition pour laquelle vous ne remplissez pas les conditions d'inscription, ou si vous souhaitez changer de division, vous devez soumettre une pétition. Lors de votre inscription, demandez un formulaire de pétition. Remplissez-le et soumettez-le avant la date limite d'inscription. Indiquez des coordonnées (comme votre numéro de téléphone portable ou votre numéro de chambre d'hôtel) afin que le personnel puisse vous joindre pendant l'événement.",
+      },
+      {
+        value:
+          "Notre juge principal examinera votre pétition et approuvera ou refusera votre demande. Notre équipe de compétition vous informera dès que possible de la décision. Si vous demandez à changer de division, vous devez être prêt à concourir dans la division d'origine si votre pétition est refusée.",
+      },
+      {
+        value:
+          "Si vous êtes qualifié pour une division supérieure mais que vos points ne sont pas encore enregistrés dans la base de données, veuillez remplir une pétition et inclure l'événement, votre classement, le niveau de la compétition ainsi qu'un contact de l'événement afin que nous puissions vérifier.",
+      },
+    ],
+  },
+  organizerResponsibilities: {
+    title:
+      "Responsabilités de l'organisateur de l'événement et des compétiteurs",
+    infoText: [
+      {
+        value:
+          "Sélection des officiels de la compétition. Nous sélectionnerons un panel de juges, un juge principal, un scoreur, des maîtres de cérémonie (MCs) et des DJs de compétition. Nous publierons les noms de ces officiels avant l'événement sur notre site web. Notre MC annoncera les juges pour chaque compétition au début de celle-ci. Toutes les compétitions auront un nombre minimum de juges requis par les règles du WSDC.",
+      },
+      {
+        value:
+          "Définition des règles et du programme. Nous déterminerons les règles de nos compétitions et les publierons à l'avance sur notre site web. Nous publierons également un programme détaillé du week-end indiquant les horaires des réunions, compétitions et remises de prix. Nous suivrons ce programme autant que possible. Si des modifications de dernière minute sont nécessaires, nous les annoncerons pendant l'événement.",
+      },
+      {
+        value:
+          "Enregistrement des compétiteurs et vérification de leur éligibilité. Nous collecterons les inscriptions des compétiteurs éligibles à l'avance et lors de l'événement. Nous vérifierons votre éligibilité pour chaque compétition à laquelle vous participez. Nous attribuerons des numéros de dossard aux leaders et followers des Jack & Jill.",
+      },
+      {
+        value:
+          "Organisation des compétitions ou modifications si nécessaire. Nous ferons tout notre possible pour maintenir les compétitions prévues. Si nécessaire, nous pourrons prolonger la période d'inscription ou modifier les critères d'éligibilité (par exemple, en combinant des divisions) si nous recevons un nombre insuffisant d'inscriptions. Si une compétition doit être annulée, nous vous rembourserons les frais d'inscription et pourrons vous inviter à réaliser une démonstration à la place.",
+      },
+      {
+        value:
+          "Notation des résultats. Nous sélectionnerons un scoreur qualifié. Nous utiliserons des rappels pour toutes les manches préliminaires et demi-finales, et un classement relatif pour toutes les finales.",
+      },
+      {
+        value:
+          "Annonce des résultats et remise des prix. Nous annoncerons les trois premières places de chaque compétition lors de notre cérémonie de remise des prix. Notre scoreur affichera les résultats pour consultation publique peu après l’annonce des résultats et la remise des prix.",
+      },
+    ],
+  },
+  competitorResponsibilities: {
+    title: "Vos responsabilités en tant que compétiteur",
+    infoText: [
+      {
+        value:
+          "Planification à l'avance. Vous pouvez vous inscrire aux compétitions à l'avance ou sur place (pendant les périodes indiquées dans le programme). Si vous vous inscrivez à l'avance, vous devrez récupérer votre numéro de dossard lors de l'événement. Assurez-vous de vérifier les éventuels changements de dernière minute dans le programme.",
+      },
+      {
+        value:
+          "Connaissance des règles. Vous devez lire attentivement les règles avant la compétition. Vous êtes responsable de les respecter, que vous les ayez lues ou non. Si vous avez des questions, posez-les lors de la réunion des compétiteurs ou contactez notre juge principal en amont.",
+      },
+      {
+        value:
+          "Être prêt à concourir. Vous devez être dans la salle de bal au moins 15 minutes avant votre compétition. Pendant les compétitions, nous utilisons un système d’appel pour préparer les manches suivantes. Vérifiez à quelle manche vous participez avant le début de la compétition et suivez immédiatement l’appel au rassemblement. Pour les compétitions Strictly Swing et Jack & Jill, n'oubliez pas d'apporter votre numéro de dossard. Si vous manquez la compétition (ou vous désistez après la clôture des inscriptions), vous perdrez vos frais d'inscription.",
+      },
+      {
+        value:
+          "Faire preuve d’un bon esprit sportif en toutes circonstances. Vous devez adopter un comportement respectueux à tout moment, sur et en dehors de la piste de compétition. Cela inclut le respect de vos partenaires, des autres compétiteurs, des officiels, des spectateurs et de l'événement. Un comportement jugé inapproprié ou irrespectueux par notre juge principal, le jury ou d'autres officiels peut entraîner une pénalité ou une disqualification.",
+      },
+      {
+        value:
+          "Utilisation des canaux appropriés pour exprimer vos préoccupations. Si vous avez des questions ou des préoccupations concernant les compétitions, vous devez utiliser les canaux appropriés, comme la réunion des compétiteurs ou une discussion privée avec notre juge principal. Vous n’êtes pas autorisé à confronter, faire pression, contester ou argumenter avec les juges individuellement. Si vous harcelez ou insultez un juge ou un officiel, nous pourrons vous disqualifier et vous interdire de participer à nos événements futurs.",
+      },
+      {
+        value:
+          "Consultation de vos résultats. Vous pouvez consulter vos scores pour voir votre performance. Si vous ne pouvez pas les consulter sur place, vous pouvez également contacter notre directeur de compétition après l’événement.",
+      },
+    ],
+  },
+  danceRequirements: {
+    title: "Exigences en danse pour les compétitions",
+    infoText: [
+      {
+        value:
+          "Les exigences suivantes en danse s'appliquent à toutes nos compétitions. Si nos juges déterminent que vous n'avez pas rempli une ou plusieurs de ces exigences, ils peuvent vous attribuer une pénalité de violation.",
+        list: [
+          "Directives minimales de contenu swing. Il s'agit d'un événement de danse swing. Par conséquent, nos juges s'attendent à voir un contenu swing reconnaissable de la part des deux partenaires. Les directives concernant le contenu swing sont fournies sous le format pour chaque compétition. Nos juges détermineront si vous avez ou non satisfait à notre exigence de contenu swing. Si vous ne remplissez pas cette exigence, vous pouvez recevoir une pénalité de violation.",
+          "Accent sur les compétences en danse sociale. Nos compétitions Jack & Jill sont conçues pour mettre en valeur de bonnes compétences en danse sociale dans des danses swing spontanées. Toute danse dans ces compétitions doit consister en des mouvements de lead/follow. La chorégraphie préarrangée n'est pas autorisée.",
+          "Connexion. Le swing est une danse partenaire connectée. Vous devez maintenir un contact physique avec votre partenaire tout au long de la danse, sauf pour les spins, les tours, les petites séparations et les récupérations.",
+          "Mouvements de soutien au poids du partenaire (“trucs”).",
+          "- Mouvements de soutien “dans les airs” : Dans ces mouvements, les deux pieds d'un partenaire sont clairement hors du sol. Les lifts, les aériennes et certaines manœuvres acrobatiques en sont des exemples. Les mouvements de soutien “dans les airs” ne sont pas autorisés dans les compétitions Jack & Jill.",
+          "- Mouvements de soutien “au sol” : Dans ces mouvements, vous et votre partenaire maintenez tous deux un contact physique avec le sol. Les chutes, les inclinaisons, les mouvements circulaires, les glissades avec levier et les splits en sont des exemples. Les mouvements de soutien “au sol” sont autorisés dans toutes les compétitions. Cependant, tout mouvement jugé dangereux par nos juges peut entraîner une pénalité de violation. En cas de doute, laissez-le de côté.",
+          "Comportement et tenue appropriés. Nous souhaitons encourager des performances de danse expressives et excitantes sans sacrifier la qualité de la danse et le bon goût. Pour maintenir cet équilibre, nous vous encourageons à faire un bon show (y compris de l'humour lorsque cela est approprié) mais dans le cadre de la présentation de solides fondamentaux de danse.",
+        ],
+      },
+      {
+        value:
+          "Gardez à l'esprit que toutes les tranches d'âge (y compris les jeunes danseurs) seront présentes lors de notre événement, et que votre performance pourrait être diffusée en direct en ligne et enregistrée. Toute action que nos juges estiment gênante dans la danse sociale (comme des touchers inappropriés ou simuler des comportements sexuels) peut entraîner une pénalité de violation.",
+      },
+      {
+        value:
+          "Consultez notre juge en chef à l'avance si vous avez des questions concernant l'acceptabilité de votre chorégraphie ou de votre tenue de compétition.",
+      },
+    ],
+  },
+  competitionMusic: {
+    title: "Musique de compétition",
+    infoText: [
+      {
+        value:
+          "Musique pour nos compétitions Jack & Jill. Notre DJ de compétition sélectionnera toute la musique pour nos compétitions Jack & Jill. La musique pour les danses de la finale sera d'une durée approximativement égale pour chaque couple. L'heure exacte de fondu enchaîné est laissée à la discrétion du DJ afin de maximiser l'efficacité de la musique. Si nos juges ont besoin de plus de temps pour déterminer les rappels ou les classements finaux, notre juge en chef peut demander à notre DJ de compétition de jouer de la musique supplémentaire.",
+      },
+    ],
+  },
+  judgingCriteria: {
+    title: "Nos critères de jugement",
+    infoText: [
+      {
+        value: "Vous serez jugé selon les critères suivants :",
+        list: [
+          "Timing. Le swing est dansé à partir du downbeat. Un bon timing inclut non seulement danser sur le bon temps mais aussi des distinctions plus fines telles que savoir si vous dansez sur le “swing” syncopé de la musique. Votre syncopation et votre travail de pieds doivent également être à l'heure.",
+          "Travail d'équipe. Le swing est une danse partenaire connectée. Faire preuve de cette connexion par des mouvements lead/follow ou action/réaction avec votre partenaire est une partie attendue de toute compétition de danse swing. Une performance équilibrée de donner et de prendre avec votre partenaire doit être votre objectif. Ignorer, manquer de respect ou mettre en danger la sécurité de votre partenaire indique un mauvais travail d'équipe. Compenser et ajuster pour votre partenaire est une partie attendue d'un bon travail d'équipe.",
+          "Technique. La façon dont vous exécutez les mouvements de votre danse constitue la technique. Une bonne technique inclut une exécution propre et une réalisation des éléments de danse tels que le contrôle de l'équilibre et du poids, le placement des pieds, les lignes du corps, ainsi que les spins et les tours.",
+          "Interprétation musicale. Une bonne interprétation musicale consiste à ajuster le flux de votre danse pour correspondre au style, au tempo, à l'ambiance et aux variations rythmiques de la musique. Vous devez chercher à démontrer la capacité à entendre et interpréter les nuances de la musique tout au long de votre danse.",
+          "Présentation. Créer une atmosphère d'excitation en suscitant l'intérêt pour votre performance est l'effet recherché d'une bonne présentation. Une bonne présentation commence par le choix d'une tenue appropriée. Bien qu'une bonne prestation soit un aspect de la présentation, elle ne peut se substituer à une bonne danse. Vous devez viser principalement à démontrer une chimie positive en tant que couple. Les mimiques gratuites à l'audience ou aux juges peuvent entraîner une note plus basse. Un bon comportement sportif avant, pendant et après votre danse est également un élément attendu de la présentation.",
+        ],
+      },
+    ],
+  },
+  disclaimer: {
+    title: "Avertissement",
+    infoText: [
+      {
+        value:
+          "Nous ferons tout notre possible pour organiser toutes les compétitions conformément à ces règles. Cependant, nous nous réservons le droit d'apporter toute modification que nous jugerons nécessaire pour toute compétition. Si nous devons apporter des modifications à nos compétitions ou à ces règles, nous les publierons sur notre site web ou les annoncerons lors de l'événement.",
+      },
+    ],
   },
   userProfile: {
     profilePageTitle: "Vos Inscriptions",

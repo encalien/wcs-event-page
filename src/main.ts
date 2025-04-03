@@ -125,6 +125,17 @@ const routes: any = [
   {
     path: "/:lang(en|si|fr)/terms-and-conditions",
     component: TermsAndConditionsComponent,
+    props: { contentKey: "termsAndConditions" },
+  },
+  {
+    path: "/:lang(en|si|fr)/code-of-conduct",
+    component: TermsAndConditionsComponent,
+    props: { contentKey: "codeOfConduct" },
+  },
+  {
+    path: "/:lang(en|si|fr)/competition-rules",
+    component: TermsAndConditionsComponent,
+    props: { contentKey: "competitionRules" },
   },
   {
     path: "/:lang(en|si|fr)/registration",

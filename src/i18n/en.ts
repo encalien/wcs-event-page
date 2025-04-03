@@ -824,17 +824,17 @@ const en = {
       infoText: [
         {
           value:
-            "There is a risk of physical injuries during sport activities. It is the participants' responsibility and decision to take part in any particular activity during the event. Attendees participate in the event at their own risk. Organizer does not take any responsibility for participants' physical injuries or health issues.",
+            "There is a risk of physical injuries during sport and dance activities. It is the participants' responsibility and decision to take part in any particular activity during the event. Attendees participate in the event at their own risk. Organizer does not take any responsibility for participants' physical injuries or health issues.",
         },
         {
           value:
-            "Participants are required to follow event rules and make sure they behave in a manner that would limit the occurrance or severity of any possible health issues. This includes but is not limited to:",
+            "Participants are required to follow event rules and make sure they behave in a manner that would limit the occurrence or severity of any possible health issues. This includes but is not limited to:",
           list: [
-            "participants should not be present at the event if they are feeling sick and show symptoms of infectious disease,",
-            "participants should maintain good hygene and regularly use hand desinfectants,",
-            "participants should stay properly hydated,",
-            "participants should not take part in any activity for which they know could be risky for them due to a preexisting condition,",
-            "participants should not force or encourage other attendees to take part or perform any movements that could be dangerous to the other attendees,",
+            "Participants should not be present at the event if they are feeling sick and show symptoms of infectious disease.",
+            "Participants should maintain good hygiene and regularly use hand disinfectants.",
+            "Participants should stay properly hydrated.",
+            "Participants should not take part in any activity for which they know could be risky for them due to a preexisting condition.",
+            "Participants should not force or encourage other attendees to take part or perform any movements that could be dangerous to the other attendees.",
           ],
         },
         {
@@ -843,7 +843,7 @@ const en = {
         },
         {
           value:
-            "Participants agree to any potential additional health and safety measures that may or may not be implemented by the event organizer at any time, including but not limited to: usage of face masks, SARS-CoV-2 vaccination policy, SARS-CoV-2 test policy etc.",
+            "Participants agree to any potential additional health and safety measures that may or may not be implemented by the event organizer at any time, including but not limited to: usage of face masks, SARS-CoV-2 vaccination policy, SARS-CoV-2 test policy, etc.",
         },
       ],
     },
@@ -864,11 +864,11 @@ const en = {
         },
         {
           value:
-            "All cancellation requests must be communicated in written form via email and confirmed by the organizer. All costs incured by refund process are carried by the participant and are deducted from the refunded amount.",
+            "All cancellation requests must be communicated in written form via email and confirmed by the organizer. All costs incurred by refund process are carried by the participant and are deducted from the refunded amount.",
         },
         {
           value:
-            "Participants who have have purchased a ticket but cannot attend the event, may transfer their ticket to another person. Leaders may only transfer their ticket to another leader. Followers may transfer their ticket to a leader or a follower. All ticket transfers must be communicated in written form via email, and confirmed to both parties by the organizer. Free and discounted passes are not transferable.",
+            "Participants who have purchased a ticket but cannot attend the event may transfer their ticket to another person. Leaders may only transfer their ticket to another leader. Followers may transfer their ticket to a leader or a follower. Switch dancers may transfer their ticket to a leader or a switch dancer. Free and discounted passes are not transferable. All ticket transfers must be communicated in written form via email and confirmed to both parties by the organizer.",
         },
         {
           value:
@@ -880,20 +880,28 @@ const en = {
         },
       ],
     },
-    ethicalCunduct: {
-      title: "Ethical Conduct Policy",
+    eventRules: {
+      title: "Additional event rules",
       infoText: [
         {
           value:
-            "Our event is dedicated to providing a safe and inclusive environment for all participants, staff, and volunteers. We have a strict zero-tolerance policy for any form of hate speech, harassment, or discriminatory behavior towards anyone based on race, ethnicity, religion, gender identity, sexual orientation, disability, or any other characteristic that might be used to target a minority group, or any other actions that could be considered intimidating, hostile, or unwelcome.",
+            "Participants must wear the event wristband at all times. It is mandatory to show the wristband at the entry of classes and parties, as well as upon request at any time during the event.",
         },
         {
           value:
-            "Any attendee, participant, staff member, or volunteer found to be engaging in any such behavior will be subject to immediate action. This action may include removal from the event without refund, prohibition from future events, and reporting to the appropriate authorities. We encourage anyone who experiences or witnesses any acts of hate or harassment to report the incident as soon as possible to event organizers or volunteers for immediate review and response.",
+            "Participants must accept the decisions of the teachers and the event organizer during the event and especially during audition.",
         },
         {
           value:
-            "Our commitment to a hate - free environment extends beyond the event premises and into all related activities, including online interactions and social media conduct. We aim to foster a community spirit where respect and kindness are the cornerstones of all interactions and exchanges.",
+            "Underaged participants (<18 years) must have a legal guardian after midnight to be allowed to stay at the event. Please provide your legal guardian's name when checking in.",
+        },
+        {
+          value:
+            "If a participant fails to comply with any of the aforementioned terms, the organizer is entitled to withdraw the participant's pass and ask them to leave the event without refund of any fees.",
+        },
+        {
+          value:
+            "We have outlined the Code of Conduct below to help us achieve a safe, inclusive and welcoming environment for all participants. All participants agree to abide by the Code of Conduct.",
         },
       ],
     },
@@ -906,11 +914,11 @@ const en = {
         },
         {
           value:
-            "Event participants are also allowed to take their own photos, audio recordings and video recordings during the event. They may share such materials freely as they see fit, and event organizer cannot be held accountable for their usage.",
+            "Event participants are also allowed to take their own photos, audio recordings and video recordings during the event - except during workshops (see below). They may share such materials freely as they see fit, and event organizer cannot be held accountable for their usage. When sharing such materials, participants are encouraged to ask permission of others who are depicted in the materials.",
         },
         {
           value:
-            "It is not allowed to take recordings (video or audio) of teachers or atendees during the workshops unless granted explicit permission by the event organizer.",
+            "It is not allowed to take recordings (video or audio) of teachers or atendees during the workshops unless granted explicit permission by the event organizer. If teachers agree to demo the presented content at the end of the class, or specifically allow recording at any other time, then participants may take recordings of teachers. Participants are not allowed to share this material publicly without explicit permission of the teacher.",
         },
       ],
     },
@@ -940,23 +948,370 @@ const en = {
         },
       ],
     },
-    eventRules: {
-      title: "Additional event rules",
+  },
+  codeOfConduct: {
+    pageTitle: "Code of Conduct",
+    general: {
       infoText: [
         {
           value:
-            "Participants must wear the wristband at all times. It is mandatory to show the wristband upon request at any time during the event.",
+            "Our dance community should be a fun, friendly place where everyone can enjoy learning, dancing, and having a great time. This code of conduct outlines how we can work together to keep everyone safe and happy. It also helps explain acceptable behavior, what to do if someone's behavior is unsafe or unacceptable, and how organizers support a safe environment for everyone.",
         },
         {
           value:
-            "Participants must accept the decisions of the teachers and the event organizer during the event and especially during audition.",
+            "We aim to provide a safe, respectful, and inclusive space for everyone. By attending this event, you agree to abide by the following guidelines:",
         },
         {
           value:
-            "If a participant fails to comply with any of the aformentioned terms, the organizer is entitled to withdraw the participant's pass and ask them to leave the event without refund of any fees.",
+            "Be respectful of those around you on the dance floor. If you bump into someone, apologize. If you hurt someone, apologize and try to ensure it doesn't happen again. This might mean adjusting your dancing, speaking with a teacher, or choosing not to dance with that person again.",
+        },
+        {
+          value:
+            "Respect other people's boundaries. Just because you see someone do something with one partner doesn't mean they will want to do it with you. This applies to everything from close dance holds to dips, flirty conversations, or agreeing to dance. If you're unsure of someone's boundaries, ask them. If they indicate discomfort (verbally or non-verbally), stop immediately.",
+        },
+        {
+          value:
+            "Ask, and respond, respectfully. It is always okay to say 'no' to a dance. If someone declines, respect their decision. If you feel uncomfortable or unsafe during a dance, you can stop at any time without explanation. Requesting adjustments for your comfort and safety is appropriate, but unsolicited feedback on dance skills is generally considered rude.",
+        },
+        {
+          value:
+            "This environment is for everyone, regardless of race, age, dance level, sexual orientation, gender, disability, physical appearance, religion, or any other characteristic. We have a strict zero-tolerance policy for any form of harassment, discrimination, hate speech, or intimidation.",
+        },
+        {
+          value:
+            "Any attendee, participant, staff member, or volunteer found engaging in such behavior will face immediate action, which may include removal from the event without refund, prohibition from future events, and reporting to relevant authorities. Anyone who experiences or witnesses harassment is encouraged to report it promptly to event organizers or volunteers.",
+        },
+        {
+          value:
+            "If you are subjected to harassment or notice someone else in an unsafe situation, please seek out an event staff member. Staff can be found at the registration desk or, when registration is closed, at DJ booth or staff room.",
+        },
+        {
+          value:
+            "You can also directly reach the event director: Katarina Muršec via mobile phone +38631533937 or email info{'@'}slovenianopen.dance",
+        },
+        {
+          value:
+            "Our commitment to a harassment-free environment extends beyond the event premises and into all related activities, including online interactions and social media conduct.",
+        },
+        {
+          value:
+            "Photography & Videography: Do not record or photograph individuals without their consent. If you capture spontaneous videos or photos of a dance, ask for permission afterward and respect participants' decisions. General photos and videos of the dance floor without focusing on specific individuals or couples are allowed.",
+        },
+        {
+          value:
+            "Alcohol & Substance Use: Please consume alcohol responsibly. Stay hydrated and know your limits. Remember that substances can impair judgment regarding boundaries and respect for others. Impaired behavior may result in a verbal warning, temporary removal, or permanent expulsion from the event.",
+        },
+        {
+          value:
+            "Consequences of Unacceptable Behavior: Violations of this code may lead to any or all of the following actions: immediate removal from the event, disqualification from competitions, bans from future events. Actions compromising a safe and respectful environment will not be tolerated under any circumstances from any participant, teacher, judge, performer, volunteer, or staff member.",
+        },
+        {
+          value:
+            "Event organizers may take appropriate action, from private conversations to immediate removal without compensation or refund. If a situation is serious enough to warrant follow-up, we may share relevant information with other event directors or decision-makers as well as appropriate authorities.",
+        },
+        {
+          value:
+            "If additional issues arise after an initial report, please inform us. We are committed to making this event a safe and enjoyable space for all. Your cooperation and vigilance help maintain a welcoming environment.",
         },
       ],
     },
+  },
+  competitionRules: {
+    pageTitle: "Competition Rules",
+    general: {
+      title: "General rules for all competitions",
+      infoText: [
+        {
+          value:
+            "Slovenian Open will offer only competitions in Jack & Jill format.",
+        },
+        {
+          value: "The different offered skill and age based divisions are:",
+          list: [
+            "WSDC Newcomer Jack & Jill",
+            "WSDC Novice Jack & Jill",
+            "WSDC Intermediate Jack & Jill",
+            "WSDC Advanced Jack & Jill",
+            "WSDC All Star Jack & Jill",
+            "WSDC Sophisticated Jack & Jill",
+            "Switch Jack & Jill",
+          ],
+        },
+        {
+          value:
+            "Slovenian Open will only offer Jack & Jill type competitions which will all happen on Saturday of the event.",
+        },
+        {
+          value:
+            "Competitions will be held in the WSDC format. Each competition will consist of a preliminary round, quarter and semi-final round (where applicable), and finals. The number of rounds will depend on the number of entries in each division.",
+        },
+        {
+          value:
+            "The competition will be judged by a panel of judges. The chief judge will oversee the competition and make final decisions regarding any disputes or issues that may arise.",
+        },
+      ],
+    },
+    jackAndJill: {
+      title: "Jack & Jill competition format",
+      infoText: [
+        {
+          value:
+            "Jack & Jill competitions are designed to highlight skills in spontaneous West Coast Swing dancing with a variety of partners and music. A bit of “luck of the draw” comes into play as well. Competitors enter as individuals, are randomly assigned partners, and dance to music selected by our competition DJ.",
+        },
+        {
+          value:
+            "All dancing in our Jack & Jill competitions must be lead/follow. Pre-choreographed routines are not allowed.",
+        },
+        {
+          value: "A majority of the swing content must be West Coast Swing.",
+        },
+        {
+          value:
+            "You and your partner must maintain physical contact except for spins, turns, short breakaways, and recoveries.",
+        },
+        {
+          value:
+            "“In the air” partner weight support moves (lifts, aerials) and acrobatic maneuvers are not allowed.",
+        },
+        {
+          value:
+            "“On the ground” support moves (such as drops) are allowed. However, you and your partner must both maintain physical contact with the floor during support moves.",
+        },
+        {
+          value:
+            "Support moves must be lead/follow social dance patterns that take the safety of your partner and other couples into consideration. Any moves that our judges deem unsafe may earn a violation penalty. When in doubt, leave it out.",
+        },
+        {
+          value:
+            "Costumes are not allowed. However, competition outfits suitable for social dancing are acceptable. Appropriate attire is required.",
+        },
+        {
+          value:
+            "During the preliminary and semifinal rounds, you will dance in heats with several partners selected randomly. Although you will be judged individually on a callback basis, you must demonstrate good teamwork with all your partners to advance to the next round.",
+        },
+        {
+          value:
+            "If there is an imbalance in the number of leaders and followers, some contestants will dance twice. However, even if your name is not called, you should remain in the ballroom throughout the competition, in case any additional competitors are needed at the last minute to dance again.",
+        },
+        {
+          value:
+            "Our chief judge will determine the exact number of finalists after our scorer has tallied the results of the callbacks.",
+        },
+        {
+          value:
+            "In the finals, we will use a random drawing (or some other random method) to determine your partner. No redraws will be permitted for any reason - it's luck of the draw. Finalists will be judged as couples.",
+        },
+      ],
+    },
+    eligibility: {
+      title: "Eligibility requirements",
+      infoText: [
+        {
+          value:
+            "To enter, you must be at least 13 years old. If you are under 18, you must have the consent of your parent or guardian to compete, and you should be comfortable social dancing with adults on a regular basis.",
+        },
+        {
+          value:
+            "There is no limit on the total number of entries in each division. You may choose to enter as either a leader or follower. There are no gender restrictions for your chosen role as long as you meet the following criteria:",
+          list: [
+            "have a pass eligible for competitions - Party pass or Full pass,",
+            "register for each competition by the official entry deadline (see the weekend schedule),",
+            "pay any required entry fees,",
+            "meet all other specific entry requirements outlined in these rules.",
+          ],
+        },
+        {
+          value:
+            "You may enter only one Jack & Jill skill level division (Newcomer, Novice, Intermediate, Advanced, All Star, Champions) per role. In most cases, you should enter the highest division for which you qualify in your chosen role, but you may enter any of the divisions for which you qualify. You may only enter one role per Jack & Jill skill level (e.g. it's not possible to enter into the same division as both leader and follower).",
+        },
+        {
+          value:
+            "You may enter Jack & Jill age division (Sophisticated, Masters) you qualify for by your age at the time of the competition.",
+        },
+        {
+          value:
+            "You must choose which role you dance and you must remain in that same role throughout the competition (prelims, semifinals, and finals). In most cases, you should enter the highest division for which you qualify in your chosen role.",
+        },
+        {
+          value:
+            "We will verify that you are eligible for the competitions you enter by checking the World Swing Dance Council (WSDC) Points Registry and other sources of information, if applicable.",
+        },
+        {
+          value:
+            "If we determine before or during a competition that you have registered for the wrong division or are not eligible, we will reassign you to the correct division (if possible) or allow you to withdraw. If we discover your error after the finals, we may drop you (and your partner) out of awards. If we made the error and assigned you incorrectly, no penalty will be applied.",
+        },
+      ],
+    },
+    multipleRoleEntries: {
+      title: "Multiple role entries",
+      infoText: [
+        {
+          value:
+            "Multiple registrations are allowed. You may choose to enter any competitions for which you meet the specific entry requirements. For WSDC Jack & Jill competitions, it is possible to compete in 2 skill level division under some circumstances (one in primary and one in secondary dance role) and additionally in any open/age-based divisions. Dancing in your secondary role is allowed 1 or 2 levels down(except for novice/intermediate divisions, where competitors may only dance 1 level down), based on the current official WSDC rules. You may only dance down in your secondary role until you satisfy the criteria for moving up a division.",
+        },
+        {
+          value:
+            "The points required for each skill level based division are as follows:",
+          list: [
+            "WSDC Newcomer: no WSDC points at all for that role AND less than 30 NOVICE points in the other role.",
+            "WSDC Novice: max. 30 Novice points for that role AND less than 75 Advanced points in the other role.",
+            "WSDC Intermediate: min. 16 Novice and max. 45 Intermediate points for that role AND less than 225 All Star points in the other role.",
+            "WSDC Advanced: min. 30 Intermediate and max. 75 Advanced points for that role.",
+            "WSDC All Star: min. 60 Advanced points and max. 225 All Star points for that role.",
+          ],
+        },
+        {
+          value:
+            "The age requirements for each age based division are as follows:",
+          list: [
+            "WSDC Sophisticated: 35 years or more at the time of the competition.",
+            "WSDC Masters: 50 years or more at the time of the competition.",
+          ],
+        },
+        {
+          value:
+            "There are no point or age related restrictions for the Switch competition - it will be open to all. It is advised to have at least basic knowledge of both roles.",
+        },
+        {
+          value:
+            "If you have any questions about your eligibility for a specific competition, please consult the official rules for details or contact our scorer or chief judge before signing up for competition.",
+        },
+      ],
+    },
+    petition: {
+      title: "Petitioning process",
+      infoText: [
+        {
+          value:
+            "If you want to enter a competition for which you do not meet the entry requirements, or want to change divisions, you should submit a petition. When you register, request a petition form. Fill out the form and submit it before the registration deadline. Include contact information (such as your cell phone number or hotel room number) so staff may reach you during the event.",
+        },
+        {
+          value:
+            "Our chief judge will review your petition and approve or deny your request. Our competition staff will notify you as soon as possible of the decision. If you are requesting to change divisions, you should be prepared to compete in the original division if your petition is denied.",
+        },
+        {
+          value:
+            "If you qualify for a higher division, but the points are not listed in the registry database yet, please fill out a petition and include the event, placement and tier of the competition as well as a contact for the event so we are able to verify.",
+        },
+      ],
+    },
+    organizerResponsibilities: {
+      title: "Responsibilities of the event organizer and competitors",
+      infoText: [
+        {
+          value:
+            "Selecting the competition officials. We will select a panel of judges, chief judge, scorer, MCs, and competition DJs. We will provide the names of these officials prior to the event on our website. Our MC will announce the judges for each competition at the start of the competition. There will be a minimum number of judges for all competitions as required by WSDC rules.",
+        },
+        {
+          value:
+            "Determining the rules and schedule. We will determine the rules for our competitions and post them in advance on our website. We will also post a full weekend schedule listing the times for all meetings, competitions, and awards. We will follow our posted schedule as much as possible. If we need to make any last-minute changes, we will announce them at the event.",
+        },
+        {
+          value:
+            "Registering contestants and verifying eligibility. We will collect entries from eligible competitors in advance and at the event. We will verify that you are eligible for each competition you enter. We will assign bib numbers Jack & Jill leaders and followers.",
+        },
+        {
+          value:
+            "Holding all competitions, or modifying them if necessary. We will do everything we can to hold all competitions as planned. If necessary, we may extend the registration deadline or change the eligibility requirements (for example, by combining divisions) if we receive insufficient entries. If we must cancel a competition, we will refund your entry fee, and we may invite you to perform an exhibition instead.",
+        },
+        {
+          value:
+            "Scoring the results. We will select a qualified scorer. We will use callbacks for all preliminary and semifinal heats, and relative placement for all finals.",
+        },
+        {
+          value:
+            "Announcing the results and presenting awards. We will announce the top 3 placements of all competitions at our awards ceremony. Our scorer will post scores for public examination shortly after the announcement of the results and presentation of awards.",
+        },
+      ],
+    },
+    competitorResponsibilities: {
+      title: "Your responsibilities as a competitor",
+      infoText: [
+        {
+          value:
+            "Planning ahead. You may register for competitions in advance or at the event (during times listed on the schedule). If you register in advance, you should plan to pick up your bib number(s) at the event. Be sure to check for any last-minute changes to the schedule.",
+        },
+        {
+          value:
+            "Knowing the rules. You should read the rules carefully prior to the competition. You are responsible for following the rules whether or not you have read them. If you have any questions, you should ask them at the contestant meeting or contact our chief judge ahead of time.",
+        },
+        {
+          value:
+            "Being prepared to compete. You should be in the ballroom at least 15 minutes before your competition. During the competitions, we use marshaling to prepare the following heats prior dancing. Check which heat you are dancing in before the competition starts and follow the call for marshaling immediately. For Strictly Swing and Jack & Jill competitions, remember to bring your bib number. If you miss the competition (or withdraw after the registration deadline), you will forfeit your entry fee.",
+        },
+        {
+          value:
+            "Demonstrating good sporting conduct at all times. You must demonstrate good sporting conduct at all times, both on and off the competition floor. This includes treating your partners, other competitors, competition officials, spectators, and the event itself with respect. Demonstrating a poor attitude by behaving in ways that our chief judge, judging panel, or other competition officials deem inappropriate or disrespectful may result in a violation penalty or disqualification.",
+        },
+        {
+          value:
+            "Using appropriate channels to communicate your concerns. If you have questions or concerns about our competitions, you should use appropriate channels to share your concerns, such as at the contestant meeting or in private discussion with our chief judge. You are not allowed to confront, pressure, challenge, or argue with individual judges. If you harass or verbally abuse a judge or other competition official, we may disqualify you and may also ban you from competing at our events in the future.",
+        },
+        {
+          value:
+            "Reviewing your scores. You may review this information to see how you did. If you are unable to review your scores at the event, you also may contact our competition director after the event.",
+        },
+      ],
+    },
+  },
+  danceRequirements: {
+    title: "Dance requirements for competitions",
+    infoText: [
+      {
+        value:
+          "The following dance requirements apply to all our competitions. If our judges determine that you have failed to meet one or more of these requirements, they may assign a violation penalty.",
+        list: [
+          "Minimum swing content guidelines. This is a swing dance event. Therefore, our judges will expect to see recognizable swing content from both partners. Guidelines about swing content are provided under the format for each competition. Our judges will determine whether or not you have met our swing content requirement. If you fail to meet this requirement, you may earn a violation penalty.",
+          "Social dance skills emphasis. Our Jack & Jill competitions are designed to showcase good social dance skills in spontaneous swing dancing. All dancing in these competitions should consist of lead/follow moves. Prearranged choreography is not allowed.",
+          "Connection. Swing is a connected partner dance. You must maintain physical contact with your partner throughout the dance, except for spins, turns, short breakaways, and recoveries.",
+          "Partner weight support moves (“tricks”).",
+          "- “In the air” support moves: In these moves, both feet of one partner are clearly off the floor. Lifts, aerials, and some acrobatic maneuvers are examples. “In the air” support moves are not allowed in Jack & Jill competitions.",
+          "- “On the ground” support moves: In these moves, you and your partner both maintain physical contact with the floor. Drops, leans, circular movements, leveraged slides, and splits are examples. “On the ground” support moves are allowed in all competitions. However, any moves that our judges deem unsafe may earn a violation penalty. When in doubt, leave it out.",
+          "Appropriate behavior and attire. It is our desire to encourage expressive and exciting dance performances without sacrificing quality of dancing and good taste. To maintain this balance, we encourage you to put on a good show (including humor where appropriate) but within the context of presenting solid dance fundamentals.",
+        ],
+      },
+      {
+        value:
+          "Keep in mind that all ages (including young dancers) will be present at our event, and that your performance might be streamed live online and recorded. Any action that our judges believe would make them uncomfortable in social dancing (such as inappropriate touching or simulating sexual behavior) may earn a violation penalty.",
+      },
+      {
+        value:
+          "Check with our chief judge in advance if you have any questions regarding the acceptability of your choreography or competition attire.",
+      },
+    ],
+  },
+  competitionMusic: {
+    title: "Competition music",
+    infoText: [
+      {
+        value:
+          "Music for our Jack & Jill competitions. Our competition DJ will select all music for our Jack & Jill competitions. Music for finals spotlight dances will be approximately the same length of time for each couple. The exact time of fade out is left to the DJ's discretion to maximize the effectiveness of the music. If our judges need more time to determine callbacks or final placements, our chief judge may ask our competition DJ to play additional music.",
+      },
+    ],
+  },
+  judgingCriteria: {
+    title: "Our judging criteria",
+    infoText: [
+      {
+        value: "You will be judged on the following criteria:",
+        list: [
+          "Timing. Swing is danced beginning on the downbeat. Good timing includes not only dancing on the correct beat but finer distinctions such as whether you are dancing to the syncopated “swing” of the music. Your syncopation and footwork also need to be on time.",
+          "Teamwork. Swing is a connected partner dance. Demonstrating this connection through lead/follow or action/reaction with your partner is an expected part of any swing dance competition. A balanced performance of give-and-take with your partner should be your goal. Ignoring, disrespecting, or jeopardizing the safety of your partner indicates poor teamwork. Compensating and adjusting for your partner is an expected part of good teamwork.",
+          "Technique. How well you execute the movements in your dance constitutes technique. Good technique includes clean execution and completion of dance elements such as control of balance and weight, foot placement, body lines, and spins and turns.",
+          "Musical interpretation. Good musical interpretation consists of adjusting the flow of your dance to fit the style, tempo, mood, and rhythm variations in the music. You should strive to demonstrate the ability to hear and interpret nuances in the music throughout your dance.",
+          "Presentation. Creating an atmosphere of excitement by inviting interest in your performance is the desired effect of good presentation. Good presentation begins with your selection of appropriate attire. While providing a good show is one aspect of presentation, it cannot substitute for good dancing. You should aim primarily for demonstrating positive chemistry as a couple. Gratuitous mugging to the audience or the judges may result in a lower score. Good sporting conduct before, during, and after your dance is also an expected element of good presentation.",
+        ],
+      },
+    ],
+  },
+  disclaimer: {
+    title: "Disclaimer",
+    infoText: [
+      {
+        value:
+          "We will make every effort to conduct all competitions in accordance with these rules. However, we reserve the right to make any changes that we deem necessary for any competition. If we need to make any changes to our competitions or to these rules, we will post them on our website or announce them at the event.",
+      },
+    ],
   },
   userProfile: {
     profilePageTitle: "Your Registrations",
