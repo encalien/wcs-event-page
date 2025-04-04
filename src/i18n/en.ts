@@ -301,6 +301,15 @@ const en = {
               "They love filming and editing social media videos, live streaming events with instant replays, and adding classes to their global map of West Coast Swing.",
             ],
           },
+          // {
+          //   names: "Jennifer",
+          //   title: "Photography",
+          //   src: "/images/staff_jennifer.png",
+          //   description: [
+          //     "Jake is part of the Affinity Swing team, as videographer and lead web developer. Together with Harold and the rest of the crew, their mission is to share this beautiful, breathtaking dance that we all love - with as many people on the planet as possible!",
+          //     "They love filming and editing social media videos, live streaming events with instant replays, and adding classes to their global map of West Coast Swing.",
+          //   ],
+          // },
         ],
       },
       {
@@ -332,19 +341,6 @@ const en = {
           },
         ],
       },
-      //   {
-      //     pageTitle: "Photography",
-      //     people: [
-      //       {
-      //         names: "Marko",
-      //         src: "/images/photographer_marko.png",
-      //         description: [
-      //           "Marko, an enthusiastic dancer of Salsa (and Bachata), has recently been exploring the rhythms of West Coast Swing.",
-      //           "Driven by his love for both dance and photography, he frequently brings his camera to dance parties, eager to capture the essence and energy of the moment on film, intertwining his passion for movement with his artistic vision behind the lens.",
-      //         ],
-      //       },
-      //     ],
-      //   },
     ],
   },
   workshops: {
@@ -449,8 +445,8 @@ const en = {
       pageTitle: "Schedule",
       description: "This is a preliminary schedule and is subject to change.",
       downloadText: "Download the .pdf file.",
-      pdfSrc: "/files/schedule_v4.pdf",
-      pngSrc: "/images/schedule_v4.jpg",
+      pdfSrc: "/files/schedule_v5.pdf",
+      pngSrc: "/images/schedule_v5.jpg",
     },
     pricing: {
       pageTitle: "Pricing",

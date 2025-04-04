@@ -461,8 +461,8 @@ const si = {
       pageTitle: "Urnik",
       description: "To je okvirni urnik in se bo verjetno še kaj spremenil.",
       downloadText: "Prenesi .pdf datoteko.",
-      pdfSrc: "/files/schedule_v4.pdf",
-      pngSrc: "/images/schedule_v4.jpg",
+      pdfSrc: "/files/schedule_v5.pdf",
+      pngSrc: "/images/schedule_v5.jpg",
     },
     pricing: {
       pageTitle: "Cenik",
