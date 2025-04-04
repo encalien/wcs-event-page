@@ -277,6 +277,7 @@ export default {
               id="profile-menu"
               class="menu-item flex-container flex-container-row"
               :class="{ active: isMobileMenuOpen }"
+              @click="closeAllMenus()"
             >
               <router-link
                 :to="`/${$store.state.lang}/profile/request-link`"

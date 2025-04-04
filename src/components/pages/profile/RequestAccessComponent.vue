@@ -55,6 +55,7 @@ form {
 
 input {
   height: 2rem;
+  font-size: 16px;
 }
 
 .btn {
