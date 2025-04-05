@@ -1379,6 +1379,9 @@ const si = {
       orderedItems: "Naročeni izdelki",
       availableItems: "Razpoložljivi izdelki",
       noItems: "Ni naročenih izdelkov.",
+      preorderClosed: "Prednaročilo ni mogoče.",
+      buyAtEvent:
+        "Obišči naš merch kotiček na dogodku, kjer lahko prevzameš prednaročene izdelke ali kupiš nove. Prosimo, upoštevaj, da sprejemamo LE GOTOVINO.",
       tShirt: {
         title: "Majica",
       },

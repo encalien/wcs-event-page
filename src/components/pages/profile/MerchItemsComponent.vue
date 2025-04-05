@@ -17,6 +17,7 @@ export default {
       isSubmitting: false,
       fieldErrors: {} as Record<number, string>,
       selectedImage: null as string | null,
+      preorderOpen: false,
     };
   },
   props: {
@@ -192,6 +193,7 @@ export default {
             >
             <button
               class="grid-item btn btn-secondary"
+              :disabled="!preorderOpen"
               @click="removeOrder(order)"
             >
               <font-awesome-icon icon="fa-solid fa-trash-can" />
@@ -207,61 +209,71 @@ export default {
       <span class="important center-text">
         {{ $t("userProfile.merchItems.availableItems") }}
       </span>
-      <div v-if="availableMerchItems?.length">
-        <div class="grid-item flex-container info">
-          {{ $t(`userProfile.merchItems.info`) }}
-        </div>
-        <div v-for="merchItem in availableMerchItems" :key="merchItem.id">
-          <div class="grid-container grid-row">
-            <div class="grid-item flex-container">
-              <img
-                :src="getImageUrl(merchItem)"
-                :alt="merchItem.model"
-                class="thumbnail"
-                @click="selectedImage = getImageUrl(merchItem)"
-              />
-              <span>
-                {{
-                  $t(`userProfile.merchItems.${merchItem.translate_key}.title`)
-                }}: {{ " " }}
-                <span class="important">
-                  {{ merchItem.model.toUpperCase() }}
+      <div v-if="preorderOpen">
+        <div v-if="availableMerchItems?.length">
+          <div class="grid-item flex-container info">
+            {{ $t(`userProfile.merchItems.info`) }}
+          </div>
+          <div v-for="merchItem in availableMerchItems" :key="merchItem.id">
+            <div class="grid-container grid-row">
+              <div class="grid-item flex-container">
+                <img
+                  :src="getImageUrl(merchItem)"
+                  :alt="merchItem.model"
+                  class="thumbnail"
+                  @click="selectedImage = getImageUrl(merchItem)"
+                />
+                <span>
+                  {{
+                    $t(
+                      `userProfile.merchItems.${merchItem.translate_key}.title`
+                    )
+                  }}: {{ " " }}
+                  <span class="important">
+                    {{ merchItem.model.toUpperCase() }}
+                  </span>
                 </span>
+              </div>
+              <fieldset class="grid-item grid-container grid-row">
+                <select v-model="newOrder[merchItem.id].size" class="grid-item">
+                  <option disabled value="">
+                    {{ $t("userProfile.merchItems.size") }}
+                  </option>
+                  <option v-for="size in merchItem.available_sizes" :key="size">
+                    {{ size }}
+                  </option>
+                </select>
+                <input
+                  class="grid-item"
+                  type="number"
+                  v-model.number="newOrder[merchItem.id].quantity"
+                  min="1"
+                  :placeholder="$t('userProfile.merchItems.quantity')"
+                />
+                <button
+                  class="grid-item btn btn-secondary"
+                  @click="addOrder(merchItem)"
+                >
+                  <font-awesome-icon icon="fa-solid fa-plus" />
+                </button>
+                <!-- Error message under the merch item group -->
+              </fieldset>
+              <span class="grid-item"></span>
+              <span
+                v-if="fieldErrors?.[merchItem.id]"
+                class="grid-item field-error"
+              >
+                {{ $t(`userProfile.form.${fieldErrors[merchItem.id]}`) }}
               </span>
             </div>
-            <fieldset class="grid-item grid-container grid-row">
-              <select v-model="newOrder[merchItem.id].size" class="grid-item">
-                <option disabled value="">
-                  {{ $t("userProfile.merchItems.size") }}
-                </option>
-                <option v-for="size in merchItem.available_sizes" :key="size">
-                  {{ size }}
-                </option>
-              </select>
-              <input
-                class="grid-item"
-                type="number"
-                v-model.number="newOrder[merchItem.id].quantity"
-                min="1"
-                :placeholder="$t('userProfile.merchItems.quantity')"
-              />
-              <button
-                class="grid-item btn btn-secondary"
-                @click="addOrder(merchItem)"
-              >
-                <font-awesome-icon icon="fa-solid fa-plus" />
-              </button>
-              <!-- Error message under the merch item group -->
-            </fieldset>
-            <span class="grid-item"></span>
-            <span
-              v-if="fieldErrors?.[merchItem.id]"
-              class="grid-item field-error"
-            >
-              {{ $t(`userProfile.form.${fieldErrors[merchItem.id]}`) }}
-            </span>
           </div>
         </div>
+      </div>
+      <div v-else class="grid-row">
+        <p class="important">
+          {{ $t("userProfile.merchItems.preorderClosed") }}
+        </p>
+        <p>{{ $t("userProfile.merchItems.buyAtEvent") }}</p>
       </div>
     </form>
   </div>
@@ -332,6 +344,10 @@ export default {
             align-items: center;
             justify-content: center;
             padding: 0.5rem 1rem;
+
+            &:disabled {
+              cursor: not-allowed;
+            }
           }
 
           .field-error {

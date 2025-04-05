@@ -1459,6 +1459,9 @@ const en = {
       orderedItems: "Ordered items",
       availableItems: "Available items",
       noItems: "No items ordered.",
+      preorderClosed: "Preorder is closed.",
+      buyAtEvent:
+        "Check our merch station at the event to collect your preordered items or buy new ones. Note that we accept CASH ONLY.",
       tShirt: {
         title: "T-shirt",
       },

@@ -1471,6 +1471,9 @@ const fr = {
       orderedItems: "Articles commandés",
       availableItems: "Articles disponibles",
       noItems: "Aucun article commandé.",
+      preorderClosed: "La précommande est terminée.",
+      buyAtEvent:
+        "Rendez-vous à notre stand de merchandising pendant l'événement pour récupérer vos articles précommandés ou en acheter de nouveaux. Veuillez noter que nous acceptons UNIQUEMENT LES ESPÈCES.",
       tShirt: {
         title: "T-shirt",
       },
