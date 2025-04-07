@@ -23,7 +23,11 @@ export default {
           {{ $t(`${contentKey}.${topic}.title`) }}
         </h3>
         <div v-for="(paragraph, i) in content.infoText" :key="`${i}`">
-          <p :class="{ 'margin-0': paragraph.list }">
+          <p
+            v-if="paragraph.html"
+            v-html="$t(`${contentKey}.${topic}.infoText[${i}].html`)"
+          ></p>
+          <p v-else :class="{ 'margin-0': paragraph.list }">
             {{ $t(`${contentKey}.${topic}.infoText[${i}].value`) }}
           </p>
           <ul v-if="paragraph.list">

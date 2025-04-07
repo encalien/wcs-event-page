@@ -997,8 +997,7 @@ const fr = {
             "Si vous êtes victime de harcèlement ou remarquez quelqu'un en situation dangereuse, veuillez contacter un membre du personnel de l'événement. Le personnel est disponible à l'accueil ou, après la fermeture de l'inscription, au stand du DJ ou en salle du personnel.",
         },
         {
-          value:
-            "Vous pouvez également contacter directement la directrice de l'événement : Katarina Muršec via +38631533937 ou info{'@'}slovenianopen.dance",
+          html: `Vous pouvez également contacter directement la directrice de l'événement : Katarina Muršec via <a target="_blank" href="tel:+38631533937" style="color: black; text-decoration: underline">+38631533937</a> ou <a target="_blank" href="mailto:info{'@'}slovenianopen.dance" style="color: black; text-decoration: underline">info{'@'}slovenianopen.dance</a>.<br>Si vous souhaitez rester anonyme, vous pouvez aussi remplir le <a target="_blank" href="https://forms.gle/nc1D8TJprFBm7zJc8" style="color: black; text-decoration: underline">formulaire Swing Reports</a>.`,
         },
         {
           value:

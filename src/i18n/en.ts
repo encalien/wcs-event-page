@@ -992,8 +992,7 @@ const en = {
             "If you are subjected to harassment or notice someone else in an unsafe situation, please seek out an event staff member. Staff can be found at the registration desk or, when registration is closed, at DJ booth or staff room.",
         },
         {
-          value:
-            "You can also directly reach the event director: Katarina Muršec via mobile phone +38631533937 or email info{'@'}slovenianopen.dance",
+          html: `You can also directly reach the event director: Katarina Muršec via mobile phone <a target="_blank" href="tel:+38631533937" style="color: black; text-decoration: underline">+38631533937</a> or email <a target="_blank" href="mailto:info{'@'}slovenianopen.dance" style="color: black; text-decoration: underline">info{'@'}slovenianopen.dance</a>.<br>If you want to stay anonymous you can also fill in the <a target="_blank" href="https://forms.gle/nc1D8TJprFBm7zJc8" style="color: black; text-decoration: underline">Swing Reports Form</a>.`,
         },
         {
           value:

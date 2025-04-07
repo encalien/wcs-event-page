@@ -912,8 +912,7 @@ const si = {
             "Če ste žrtev nadlegovanja ali opazite nekoga v nevarni situaciji, se obrnite na člana osebja dogodka. Osebje je na voljo na registracijskem pultu ali, ko je registracija zaprta, pri DJ-ju ali v prostoru za osebje.",
         },
         {
-          value:
-            "Lahko se tudi neposredno obrnete na organizatorko dogodka Katarino Muršec po telefonu +38631533937 ali preko emaila info{'@'}slovenianopen.dance.",
+          html: `Lahko se tudi neposredno obrnete na organizatorko dogodka Katarino Muršec po telefonu <a target="_blank" href="tel:+38631533937" style="color: black; text-decoration: underline">+38631533937</a> ali preko emaila <a target="_blank" href="mailto:info{'@'}slovenianopen.dance" style="color: black; text-decoration: underline">info{'@'}slovenianopen.dance</a>.<br>Če želite ostati anonimni, lahko izpolnite tudi <a target="_blank" href="https://forms.gle/nc1D8TJprFBm7zJc8" style="color: black; text-decoration: underline">obrazec Swing Reports</a>.`,
         },
         {
           value:
