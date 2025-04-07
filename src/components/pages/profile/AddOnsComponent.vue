@@ -43,7 +43,7 @@ export default {
         this.formData[addOn.id] = {
           added: reg_add_on
             ? [1, 2, 3, 4, 5, 9].includes(reg_add_on.status)
-            : null,
+            : false,
           options:
             reg_add_on && Object.keys(reg_add_on.options).length
               ? reg_add_on.options
@@ -198,6 +198,7 @@ export default {
                   :id="addOn.translate_key + 'Yes'"
                   :name="addOn.translate_key"
                   :value="true"
+                  :disabled="addOn.translate_key !== 'preparty'"
                 />
                 <label :for="addOn.translate_key + 'Yes'">
                   {{ $t("userProfile.form.yes") }}
@@ -210,6 +211,7 @@ export default {
                   :id="addOn.translate_key + 'No'"
                   :name="addOn.translate_key"
                   :value="false"
+                  :disabled="addOn.translate_key !== 'preparty'"
                 />
                 <label :for="addOn.translate_key + 'No'">
                   {{ $t("userProfile.form.no") }}
