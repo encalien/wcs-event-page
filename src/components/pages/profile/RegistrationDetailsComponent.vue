@@ -106,13 +106,16 @@ export default {
         {{ registration?.level }}
       </span>
     </span>
-    <span class="grid-container grid-row" v-if="registration?.price != null">
+    <span
+      class="grid-container grid-row"
+      v-if="registration?.final_price != null"
+    >
       <span class="grid-item important">
         {{ $t("userProfile.details.price") }}:
       </span>
-      <span class="grid-item">{{ registration?.price }} EUR</span>
+      <span class="grid-item">{{ registration?.final_price }} EUR</span>
     </span>
-    <span class="grid-container grid-row" v-if="registration?.price != null">
+    <span class="grid-container grid-row" v-if="registration?.final_price">
       <span class="grid-item important">
         {{ $t("userProfile.details.paid") }}:
       </span>

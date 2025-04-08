@@ -56,7 +56,7 @@ export type RegistrationDTO = {
   paid_amount: number | null;
   paid_at: string | null;
   pass_type: PassTypeDTO;
-  price: number | null;
+  final_price: number;
   received_at: string;
   role: string;
   status: string;
