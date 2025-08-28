@@ -2,9 +2,10 @@ const en = {
   event: {
     name: "Slovenian Open",
     location: "Ljubljana",
-    date: "10 - 14 April 2025",
+    date: "23 - 27 April 2026",
     welcomeText: "Join us at Slovenian Open - WSDC registered event!",
     readMoreText: "Read more",
+    comingSoon: "Coming Soon",
     features: [
       {
         title: "Meet",
@@ -45,7 +46,7 @@ const en = {
     email: "info{'@'}slovenianopen.dance",
   },
   urls: {
-    facebook: "https://www.facebook.com/events/333172752914194",
+    facebook: "https://www.facebook.com/slovenianopen/",
     instagram: "https://www.instagram.com/slovenian_open_wcs",
     whatsapp: "https://chat.whatsapp.com/JTEX5hcklqv85Q3iwHKS9h",
   },

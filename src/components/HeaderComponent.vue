@@ -84,7 +84,8 @@ export default {
             />
           </div>
           <div class="menu-items">
-            <div
+            <div style="width: 100%"></div>
+            <!-- <div
               class="menu-item"
               :class="{ active: isMobileMenuOpen }"
               @click="closeAllMenus()"
@@ -221,7 +222,7 @@ export default {
               >
                 {{ $t("registration.pageTitle") }}
               </router-link>
-            </div>
+            </div> -->
             <div
               id="social-icons"
               class="menu-item flex-container flex-container-row"
@@ -249,13 +250,13 @@ export default {
               >
                 <font-awesome-icon icon="fa-brands fa-instagram" />
               </a>
-              <a
+              <!-- <a
                 target="_blank"
                 :href="$t('urls.whatsapp')"
                 class="menu-item-link"
               >
                 <font-awesome-icon icon="fa-brands fa-whatsapp" />
-              </a>
+              </a> -->
             </div>
             <div
               id="localization-menu"
@@ -273,7 +274,7 @@ export default {
                 </router-link>
               </div>
             </div>
-            <div
+            <!-- <div
               id="profile-menu"
               class="menu-item flex-container flex-container-row"
               :class="{ active: isMobileMenuOpen }"
@@ -285,7 +286,7 @@ export default {
               >
                 <font-awesome-icon icon="fa-regular fa-user" />
               </router-link>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

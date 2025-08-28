@@ -7,21 +7,29 @@ export default {
       messages: messages,
     };
   },
+  mounted() {
+    document.body.classList.add("no-scroll");
+  },
+  unmounted() {
+    document.body.classList.remove("no-scroll");
+  },
 };
 </script>
 
 <template>
   <section id="landing">
     <div class="landing-content">
-      <h2 class="margin-0">Join us at Slovenian Open - WSDC Registry Event!</h2>
-      <h2 class="important">{{ $t("event.location") }}, April 10 - 14, 2025</h2>
+      <h2 class="margin-0">{{ $t("event.welcomeText") }}</h2>
+      <h2 class="important">
+        {{ $t("event.location") }}, {{ $t("event.date") }}
+      </h2>
       <div>
         <a
           href="https://www.facebook.com/events/333172752914194/"
           target="_blank"
           id="register-now-btn"
         >
-          Coming Soon
+          {{ $t("event.comingSoon") }}
         </a>
       </div>
     </div>

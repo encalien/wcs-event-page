@@ -2,10 +2,11 @@ const si = {
   event: {
     name: "Slovenian Open",
     location: "Ljubljana",
-    date: "10. - 14. april 2025",
+    date: "23. - 27. april 2026",
     welcomeText:
       "Pridruži se nam na WSDC registriranem Slovenian Open festivalu!",
     readMoreText: "Preberi več",
+    comingSoon: "Prihaja kmalu",
     features: [
       {
         title: "Spoznaj",
