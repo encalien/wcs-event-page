@@ -18,12 +18,12 @@ export default {
       <h2>{{ $t('event.location') }}</h2>
       <h2>{{ $t('event.date') }}</h2> -->
       <h2 class="margin-0">{{ $t("event.welcomeText") }}</h2>
-      <!-- <h2 class="margin-0">{{ $t('registration.opensSoonText') }}</h2> -->
-      <router-link
+      <h2 class="margin-0">{{ $t("registration.opensSoonText") }}</h2>
+      <!-- <router-link
         :to="`/${$store.state.lang}/registration`"
         class="btn btn-primary"
         >{{ $t("registration.pageTitle") }}</router-link
-      >
+      > -->
     </div>
   </section>
   <section>
@@ -41,6 +41,7 @@ export default {
         :key="i"
       >
         <img :src="$t(`home.aboutWCS.yt[${i}].src`)" />
+        <h2>{{ $t(`home.aboutWCS.yt[${i}].name`) }}</h2>
       </a>
       <!-- <iframe v-for="(val, i) in messages.home.aboutWCS.yt"
               :src="$t(`home.aboutWCS.yt[${i}].src`)" 
@@ -93,6 +94,26 @@ export default {
 #video-collage > a > img {
   width: 100%;
   height: 135%;
+}
+
+#video-collage > a > h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  opacity: 0;
+}
+
+#video-collage > a:hover > h2 {
+  opacity: 1;
 }
 
 #video-collage > .item-1 {

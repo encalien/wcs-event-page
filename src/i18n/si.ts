@@ -8,10 +8,10 @@ const si = {
   },
   contact: {
     text: "Za vsa vprašanja smo na voljo preko elektronske pošte:",
-    email: "wcsslo.wixsite{'@'}gmail.com",
+    email: "info{'@'}kinesisrei.si",
   },
   urls: {
-    facebook: "https://www.facebook.com/events/423860077298282",
+    facebook: "https://www.facebook.com/events/672393038465372",
     instagram: "#",
   },
   home: {
@@ -25,34 +25,34 @@ const si = {
       ],
       yt: [
         {
-          name: `Tobias Gerwald & Sebastian Gerwald - 1st place Advanced Jack&Jill Finals - Slovenian Open 2024`,
-          src: "https://img.youtube.com/vi/H436iJGXaG0/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=H436iJGXaG0",
+          name: `Winter White 2023 - J&J All stars 3 Place Attila Partos & Stefanie Tschom`,
+          src: "https://img.youtube.com/vi/DNRGSoNNHiA/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=DNRGSoNNHiA",
         },
         {
-          name: "Tobias Gerwald & Paulina Górka - Advanced Jack&Jill Finals - Westie Spring Thing 2023",
-          src: "https://img.youtube.com/vi/ZbVeG56WWno/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=ZbVeG56WWno",
+          name: "Carlos Procópio & Stefanie Tschom - 1st place Strictly Advanced/All-Stars - Paris Swing Classic 2024",
+          src: "https://img.youtube.com/vi/-IF5i82i7vo/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=-IF5i82i7vo",
         },
         {
-          name: "Tobias Gerwald & Veronika Michel - Advanced Jack&Jill Finals - King Swing 2023",
-          src: "https://img.youtube.com/vi/bQNdNcGVFCA/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=bQNdNcGVFCA",
+          name: "Attila Pártos & Stefanie Tschom - Strictly Open Finals - SwingVester 2022/23",
+          src: "https://img.youtube.com/vi/6vRIZkwW4kE/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=6vRIZkwW4kE",
         },
         {
-          name: "Swingtzerland 2024 - Advanced - Final - Daric Lion & Christina Landowski",
-          src: "https://img.youtube.com/vi/Rjm3fsz2ptc/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=Rjm3fsz2ptc",
+          name: " Tobias Heinlein & Stefanie Tschom - 4th place Switch Jack&Jill Finals - Spring Time Swing 2024",
+          src: "https://img.youtube.com/vi/JME2rkAiZLs/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=JME2rkAiZLs",
         },
         {
-          name: "Tobias Gerwald & Jasmin Klee - Strictly Open Finals - Midland Swing Open 2022",
-          src: "https://img.youtube.com/vi/TUDa7jrPkyI/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=TUDa7jrPkyI",
+          name: " Timofei Ejov & Christina Landowski - Advanced Jack&Jill Finals - Budafest 2025",
+          src: "https://img.youtube.com/vi/d3p8KX-EYt8/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=d3p8KX-EYt8",
         },
         {
-          name: "Prelims Advanced J&J Tobias Gerwald & Santolina Savannet - Winter White WCS 2022",
-          src: "https://img.youtube.com/vi/Sba8hfeoJ6I/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=Sba8hfeoJ6I",
+          name: " Fabio Zanardelli & Christina Landowski - Electric Feel / Advanced Jack & Jill / Baltic Swing 2025",
+          src: "https://img.youtube.com/vi/RCs8u3KNeds/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=RCs8u3KNeds",
         },
       ],
     },
@@ -60,23 +60,25 @@ const si = {
   workshops: {
     pageTitle: "Delavnice",
     staff: {
-      pageTitle: "Učitelja",
+      pageTitle: "Učitelji",
       teachers: [
         {
-          name: "Tobi",
-          src: "/images/tobi.png",
+          name: "Stefanie & Attila",
+          src: "/images/stefanie_attila.jpg",
           description: [
-            "Tobi je prišel v stik s plesom v svojih najstniških letih in se takoj zaljubil v neskončne možnosti izražanja. Vedno željan učenja in raziskovanja novih konceptov je intenzivno vadil različne plese v parih in solo plese, vključno z družabnim plesom, linijskim plesom in sodobnim plesom.",
-            "Ta široka osnova mu je pomagala združiti svojo tehnično strokovnost skupaj z glasbeno ustvarjalnostjo in ga spremenila v enega najbolj pozornih in na partnerstvo osredotočenih plesalcev v skupnosti west coast swinga.",
-            "Začel je kot pomočnik učitelja in kasneje vodil svoje lastne tečaje kot inštruktor. Tobi že 5 let in več deli svoje znanje. Sledil je svoji strasti do tega plesa, prepotoval celoten kontinent in dosegel WSDC Advanced divizijo. Je zelo prepoznaven na plesišču, ne samo zaradi svojih plesnih veščin, ampak tudi zaradi spanja na nekonvencionalnih mestih.",
+            "Stefanie Tschom je plesalka West Coast Swinga na nivoju Allstar, trenerka in sodnica tekmovanj, s sedežem v Berlinu. Ima raznoliko plesno ozadje v baletu, jazzu, hip hopu in standardno-latinskih plesih. Odkar je leta 2017 odkrila West Coast Swing, jo navdušuje njegova edinstvena kombinacija muzikalnosti, komunikacije in ustvarjalne svobode.",
+            "Kot učiteljica združuje tehnično natančnost z igrivim raziskovanjem ter se opira na svoje znanje kot trenerka fitnesa in zdravja, da poudari učinkovitost gibanja in telesno zavedanje. Njen jasen, vizualen pristop naredi zapletene koncepte dostopne in ustvarja spodbudno vzdušje, kjer se učenci počutijo motivirane za raziskovanje in rast.",
+            "Attila je svojo plesno kariero začel kot plesalec standardnih in latinskoameriških plesov, kjer je več let poučeval ter osvojil številne naslove. Leta 2013 je odkril West Coast Swing in ga je takoj prevzela njegova svoboda in neskončne možnosti.",
+            "Tekmovanja so zanj ostala pomembna, in po nekaj letih je dosegel prestižni All-Star nivo. Danes Attila svojo strast do West Coast Swinga deli z učenci na Madžarskem in v tujini ter navdihuje plesalce tako na skupinskih urah kot na individualnih lekcijah.",
           ],
         },
         {
-          name: "Jasmin",
-          src: "/images/jasmin.jpg",
+          name: "Christina & Tobias",
+          src: "/images/christina_tobias.jpg",
           description: [
-            "Svojo strast do plesa je odkrila pri 14 letih, ko je začela s tečaji plesov v parih v Nemčiji in nadaljevala s latinskoameriškimi in standardnimi plesi v plesnem športnem klubu, kjer je trenirala do štirikrat na teden. Leta 2019 je odkrila West Coast Swing in jo je takoj očarala njegova ustvarjalnost in svoboda. Že po štirih mesecih se je popolnoma osredotočila na WCS, začela obiskovati dogodke in se poglobila v plesno skupnost. Kljub premoru zaradi COVID-a je svojo plesno pot ponovno oživila leta 2022 na Dunaju, kjer je obiskovala tedenske tečaje in zasebne ure, da bi izpopolnila svoje veščine.",
-            "Od takrat je tekmovala v 12 državah na treh kontinentih in se povezovala s skupnostmi po vsem svetu.Na mednarodnih dogodkih še naprej raste kot plesalka, uči se od priznanih učiteljev in uživa v družabnem plesu.Njeno glasbeno ozadje—igranje violine od otroštva ter osredotočenost na glasbo v srednji šoli—poglablja njeno povezavo z muzikalnostjo in pozornostjo do detajlov v WCS.Kot učiteljica si prizadeva deliti zabavo in ustvarjalnost West Coast Swinga ter prenašati svojo strast in ljubezen do posebnosti tega plesa.",
+            "Christina je plesalka iz Freiburga. S svojim plesnim ozadjem v plesih v paru jo je West Coast Swing takoj navdušil zaradi ustvarjalnosti in izražene svobode. V svoji lokalni skupnosti je znana po podporni naravi in sposobnosti, da plesalce navdihuje, da pridobijo samozavest in užitek na plesnem parketu.",
+            "Tobi živi v Erlangnu v Nemčiji in je pravzaprav študent psihologije. V West Coast Swing ga je vpeljal sošolec in prijatelj pred skoraj štirimi leti, in ples ga je takoj prevzel. Pred tem je pet let plesal standardne in latinskoameriške plese ter preizkusil tudi nekaj modernih in sodobnih plesov. Najbolj ga pri West Coast Swingu navdušuje svoboda, ustvarjalnost in dejstvo, da je vsak ples, ne glede na partnerja, edinstven in drugačen.",
+            "Christina in Tobias skupaj redno tekmujeta v Advanced kategoriji po Evropi, ponosno predstavljata svoji domači skupnosti. Kot partnerski par sta strastna učitelja, osredotočata se na koncepte, ki so koristni tako za followerje kot za leaderje. Njun igriv pristop in jasna komunikacija ustvarjata spodbudno učno okolje, kjer so plesalci spodbujeni k rasti, eksperimentiranju in polnemu uživanju v bogastvu West Coast Swinga.",
           ],
         },
       ],
@@ -84,10 +86,8 @@ const si = {
     level: {
       title: "Zahtevnostna stopnja",
       descriptionText: [
-        "Delavnice bodo potekale na nadaljevalno - naprednem nivoju. Nivo delavnic se bo postopoma dvigoval čez vikend. Začeli bomo z začetniško delavnico Back to Basics v petek, nadaljevali z nadaljevalnim nivojem v soboto ter zaključil z naprednim nivojem v nedeljo.",
-        "Na Back to Basics delavnici bomo s pospešenim tempom predelali osnovne ritme, figure in koncepte. Namenjen je plesalcem_kam, ki se z west coast swingom srečujejo prvič.",
-        "Nadaljevalni nivo je namenjen tistim, ki že poznajo osnovne figure (push, pass, whip, starter), ritme ter koncepte vodenja in sledenja.",
-        "Napredni nivo bo nadgradnja nadaljevalnega nivoja, vključeval pa bo bolj kompleksne figure in koncepte.",
+        "Delavnice bodo potekale vzporedno na 2 nivojih - Newcomer/Novice in Intermediate. Priporočene izkušnje za Newcomer/Novice nivo so najmanj 6 mesecev plesanja WCS, za Intermediate nivo pa vsaj 1 točka v kategoriji Novice WSDC. Če ne tekmuješ, a meniš, da vseeno spadaš v Intermediate nivo, ob prijavi navedi ime svojega zadnjega učitelja WCS, ki te lahko priporoči za ta nivo.",
+        "Ura »Back to Basics« bo hitra uvodna predstavitev osnovnih ritmov, figur in konceptov. Namenjena je plesalcem, ki west coast swinga še ne poznajo ali pa želijo osnove ponoviti.",
       ],
     },
     schedule: {
@@ -95,7 +95,7 @@ const si = {
       description: "Program je okviren in se lahko še spremeni.",
       days: [
         {
-          title: "Petek, 11. oktober",
+          title: "Petek, 14. november",
           items: [
             {
               time: "20.00 - 21.00",
@@ -114,7 +114,7 @@ const si = {
           ],
         },
         {
-          title: "Sobota, 12. oktober",
+          title: "Sobota, 15. november",
           items: [
             {
               time: "12.00 - 13.00",
@@ -156,7 +156,7 @@ const si = {
           ],
         },
         {
-          title: "Nedelja, 13. oktober",
+          title: "Nedelja, 16. november",
           items: [
             {
               time: "12.00 - 13.00",
@@ -183,20 +183,20 @@ const si = {
     pricing: {
       pageTitle: "Cenik",
       description: [
-        "Na tem dogodku bodo vstopnice na voljo v treh cenovnih razredih glede na datum, ko je prijava SPREJETA.",
-        "Najnižja cena velja za prijave sprejete do 14. julija, srednja za prijave sprejete med 15. julijem in 4. avgustom in zadnja cena za prijave ssprejete po 4. avgustu. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr.",
-        "Vstopnica mora biti plačana v roku 14 od sprejetja prijave, da cena ostane veljavna.",
+        "Za ta dogodek bomo imeli 3 cenovne razrede, ki temeljijo na številu SPREJETIH prijav.",
+        "Prva cena velja za prvih 5 parov. Srednja cena velja za naslednjih 5 parov. Zadnja cena velja za vse prijave sprejete po tem.",
+        "Kotizacija mora biti v celoti plačana v roku 7 dni po potrditvi prijave, da cena in prijava ostaneta veljavni. Če plačilo v predpisanem roku ne bo prejeto, bo prijava preklicana, udeleženec pa se bo moral ponovno prijaviti po ceni, ki bo veljala ob novi prijavi.",
       ],
-      priceTier: "Zadnja cena",
+      priceTier: "Prva cena",
       passes: [
         {
           title: "Vikend paket",
-          price: "80 evr",
+          price: "70 evr",
           includes: ["6 ur delavnic", "vstop na obe zabavi"],
         },
         {
           title: "Sobotni paket",
-          price: "60 evr",
+          price: "50 evr",
           includes: ["3 ure delavnic v soboto", "vstop na sobotno zabavo"],
         },
       ],
@@ -206,9 +206,8 @@ const si = {
     pageTitle: "Lokacija",
     venue: {
       locationText:
-        "Delavnice bodo potekale v plesni šoli Studio Dansa, na naslovu:",
+        "Delavnice bodo potekale v plesni šoli Studio Dansa in studiu Moj Korak, na naslovu:",
       address: {
-        name: "Studio Dansa",
         address: "Vilharjeva cesta 3",
         zipAndCity: "1000 Ljubljana",
         country: "Slovenia",
@@ -294,15 +293,15 @@ const si = {
       infoText: [
         {
           value:
-            "Vse registracije veljajo za čakajoče, dokler organizator dogodka ne prejme plačila. Plačilo je potrebno poravnati v roku 14 dni, po prejemu plačila se registracija šteje za potrjeno. Če udeleženec plačila ne poravna v danem roku, si organizator dogodka pridržuje pravico preklicati registracijo. V takem primeru se mora udeleženec, ki vseeno želi sodelovati na dogodku, prijaviti ponovno po ceni, ki velja v času njegove nove prijave.",
+            "Vse registracije veljajo za čakajoče, dokler organizator dogodka ne prejme plačila. Plačilo je potrebno poravnati v roku 7 dni, po prejemu plačila se registracija šteje za potrjeno. Če udeleženec plačila ne poravna v danem roku, si organizator dogodka pridržuje pravico preklicati registracijo. V takem primeru se mora udeleženec, ki vseeno želi sodelovati na dogodku, prijaviti ponovno in sicer po ceni, ki velja v času njegove nove prijave.",
         },
         {
           value:
             "V primeru odpovedi s strani udeleženca, bomo ponudili vračilo kupnine v naslednjih stopnjah:",
           list: [
-            "Za zahtevke za odpoved, prejete v času 'prve cene', bo kupnina v celoti povrnjena.",
-            "Za zahtevke za odpoved, prejete v času 'srednje cene', bo kupnina delno povrnjena - 50% prejetega plačila.",
-            "Za zahtevke za odpoved, prejete v času 'zadnje cene', kupnina ne bo povrnjena.",
+            "Za zahtevke za odpoved, prejete pred 15. septembrom 2025, bo kupnina v celoti povrnjena.",
+            "Za zahtevke za odpoved, prejete pred 1. oktobrom 2025, bo kupnina delno povrnjena - 50% prejetega plačila.",
+            "Za zahtevke za odpoved, prejete 1. oktobra 2025 ali kasneje, kupnina ne bo povrnjena.",
           ],
         },
         {
@@ -337,6 +336,10 @@ const si = {
         {
           value:
             "Snemanje (video ali avdio) učiteljev ali udeležencev med delavnicami ni dovoljeno, razen v primeru izrecnega dovoljenja organizatorja dogodka.",
+        },
+        {
+          value:
+            "Objava posnetkov z delavnic ali nastopov ni dovoljena brez izrecnega dovoljenja organizatorja dogodka. Za objavo ostalih posnetkov, organizator ne zahteva nobenega dovoljenja, vendar si pridržuje pravico, da po lastni presoji zahteva odstranitev posnetkov, ki so po njegovem mnenju neprimerni ali škodljivi za ugled dogodka.",
         },
       ],
     },

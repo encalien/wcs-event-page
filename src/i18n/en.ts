@@ -8,10 +8,10 @@ const en = {
   },
   contact: {
     text: "If you have any questions, please contact us via email:",
-    email: "wcsslo.wixsite{'@'}gmail.com",
+    email: "info{'@'}kinesisrei.si",
   },
   urls: {
-    facebook: "https://www.facebook.com/events/423860077298282",
+    facebook: "https://www.facebook.com/events/672393038465372",
     instagram: "#",
   },
   home: {
@@ -25,34 +25,34 @@ const en = {
       ],
       yt: [
         {
-          name: `Tobias Gerwald & Sebastian Gerwald - 1st place Advanced Jack&Jill Finals - Slovenian Open 2024`,
-          src: "https://img.youtube.com/vi/H436iJGXaG0/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=H436iJGXaG0",
+          name: `Winter White 2023 - J&J All stars 3 Place Attila Partos & Stefanie Tschom`,
+          src: "https://img.youtube.com/vi/DNRGSoNNHiA/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=DNRGSoNNHiA",
         },
         {
-          name: "Tobias Gerwald & Paulina Górka - Advanced Jack&Jill Finals - Westie Spring Thing 2023",
-          src: "https://img.youtube.com/vi/ZbVeG56WWno/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=ZbVeG56WWno",
+          name: "Carlos Procópio & Stefanie Tschom - 1st place Strictly Advanced/All-Stars - Paris Swing Classic 2024",
+          src: "https://img.youtube.com/vi/-IF5i82i7vo/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=-IF5i82i7vo",
         },
         {
-          name: "Tobias Gerwald & Veronika Michel - Advanced Jack&Jill Finals - King Swing 2023",
-          src: "https://img.youtube.com/vi/bQNdNcGVFCA/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=bQNdNcGVFCA",
+          name: "Attila Pártos & Stefanie Tschom - Strictly Open Finals - SwingVester 2022/23",
+          src: "https://img.youtube.com/vi/6vRIZkwW4kE/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=6vRIZkwW4kE",
         },
         {
-          name: "Swingtzerland 2024 - Advanced - Final - Daric Lion & Christina Landowski",
-          src: "https://img.youtube.com/vi/Rjm3fsz2ptc/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=Rjm3fsz2ptc",
+          name: " Tobias Heinlein & Stefanie Tschom - 4th place Switch Jack&Jill Finals - Spring Time Swing 2024",
+          src: "https://img.youtube.com/vi/JME2rkAiZLs/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=JME2rkAiZLs",
         },
         {
-          name: "Tobias Gerwald & Jasmin Klee - Strictly Open Finals - Midland Swing Open 2022",
-          src: "https://img.youtube.com/vi/TUDa7jrPkyI/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=TUDa7jrPkyI",
+          name: " Timofei Ejov & Christina Landowski - Advanced Jack&Jill Finals - Budafest 2025",
+          src: "https://img.youtube.com/vi/d3p8KX-EYt8/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=d3p8KX-EYt8",
         },
         {
-          name: "Prelims Advanced J&J Tobias Gerwald & Santolina Savannet - Winter White WCS 2022",
-          src: "https://img.youtube.com/vi/Sba8hfeoJ6I/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=Sba8hfeoJ6I",
+          name: " Fabio Zanardelli & Christina Landowski - Electric Feel / Advanced Jack & Jill / Baltic Swing 2025",
+          src: "https://img.youtube.com/vi/RCs8u3KNeds/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=RCs8u3KNeds",
         },
       ],
     },
@@ -63,20 +63,22 @@ const en = {
       pageTitle: "Teachers",
       teachers: [
         {
-          name: "Tobi",
-          src: "/images/tobi.png",
+          name: "Stefanie & Attila",
+          src: "/images/stefanie_attila.jpg",
           description: [
-            "Tobi got into contact with dancing during his teenage years and immediately fell in love with the endless possibilities of self expression. Always eager to learn and explore new concepts and possibilities, he intensively practiced a variety of couple and solo dances, including ballroom, line dance and contemporary.",
-            "This wide foundation helped him to blend his technical expertise together with his musical creativity and made him into one of the most attentive and partnership focused dancers in the West Coast Swing Community.",
-            "Starting as an assistent teacher and later on leading his own classes as instructor, Tobi has been sharing his knowledge for 5 years and counting. While following his passion for this dance, he traveled the whole continent and reached the WSDC Advanced division. He is a very well-known face on the social floor not only for his dance skills, but also for napping in unconventional places.",
+            "Stefanie Tschom is an Allstar level West Coast Swing dancer, coach, and competition judge based in Berlin with a versatile background in ballet, jazz, hip hop, and ballroom. Since discovering West Coast Swing in 2017, she has been captivated by its unique mix of musicality, communication, and creative freedom.",
+            "As a teacher, she combines technical precision with playful exploration, drawing on her expertise as a fitness and health coach to emphasize efficient movement and body awareness. Her clear, visual approach makes complex concepts accessible, creating an engaging atmosphere where students feel encouraged to experiment and grow.",
+            "Attila began his dance career as a ballroom dancer, teaching latin and standard dances for many years and earning numerous championship titles. In 2013, he discovered West Coast Swing and was immediately drawn to its freedom and endless possibilities.",
+            "Competing remained important, and after several years he reached the prestigious All-Star category. Today, Attila shares his passion for West Coast Swing by teaching in Hungary and abroad, inspiring dancers through both group sessions and private lessons.",
           ],
         },
         {
-          name: "Jasmin",
-          src: "/images/jasmin.jpg",
+          name: "Christina & Tobias",
+          src: "/images/christina_tobias.jpg",
           description: [
-            "Jasmin discovered her passion for dance at the age of 14, starting with couple dance courses in Germany and progressing to Latin and ballroom in a dance sports club, training up to four times a week. In 2019, she found West Coast Swing and was immediately captivated by its creativity and freedom. After only four months, she focused entirely on WCS, attending events and immersing herself in the community. Despite a pause due to COVID, she reignited her journey in Vienna in 2022, taking weekly classes and private lessons to advance her skills.",
-            "Since then, she has competed in 12 countries across three continents, connecting with communities worldwide. International events are where she continues to grow as a dancer, learning from renowned teachers and embracing the joy of social dancing. Her musical background—playing violin since childhood and majoring in music in high school—enhances her connection to musicality and detail in WCS. As a teacher, her goal is to share the fun and creativity of West Coast Swing, passing on her passion and love for the intricacies of the dance.",
+            "Christina is an Advanced level West Coast Swing dancer based in Freiburg. With her background in partner dancing, she was immediately captivated by the creativity and expressive freedom of West Coast Swing. In her local community, she is known for her supportive spirit and her ability to inspire dancers to build confidence and joy on the social floor.",
+            "Tobi is living in Erlangen, Germany, and is actually a psychology student. He got into West Coast Swing through a fellow student and friend almost 4 years ago and immediately got addicted. Before that, he's been dancing Ballroom for 5 years and also dipped his feet in some Modern Contemporary dancing. He loves most about West Coast Swing the freedom and creativity and how every dance, no matter with whom is unique and different.",
+            "Together, Christina and Tobias regularly compete across Europe, proudly representing their home communities. As a partnership, they are passionate about teaching, focusing on concepts that are relevant and useful for both followers and leaders. Their playful approach and clear communication create an engaging learning environment where dancers are encouraged to grow, experiment, and fully enjoy the richness of West Coast Swing.",
           ],
         },
       ],
@@ -84,10 +86,8 @@ const en = {
     level: {
       title: "Level",
       descriptionText: [
-        "Workshops will be held on an improver-intermediate level. The level of workshops will progress over the weekend, starting from beginner Back to Basics class on Friday, towards improver level on Saturday and finish with intermediate level on Sunday.",
-        "Back to Basics class will be a fast paced introduction to basic rhythms, patterns and concepts. It's intended for dancers who are new to west coast swing.",
-        "Improver level is intended for dancers who are familiar with the basic patterns (push, pass, whip, starter), rhythms and lead-follow concepts.",
-        "Intermediate level will be a continuation of the improver level, with more complex patterns and concepts.",
+        "Workshops will be held on 2 levels simultaneously - Newcomer/Novice and Intermediate level. Recommended experience for Newcomer/Novice level is minimum 6 months of dancing WCS, and for Intermediate level at least 1 point in Novice WSDC. Alternatively, if you don't compete, but feel like you belong to Intermediate level, please mention the name of your last WCS teacher who can recommend you for this level in the registration form.",
+        "Back to Basics class will be a fast paced introduction to basic rhythms, patterns and concepts. It's intended for dancers who are new to west coast swing, but not necessarily new to partner dancing.",
       ],
     },
     schedule: {
@@ -95,7 +95,7 @@ const en = {
       description: "This is a preliminary schedule and is subject to change.",
       days: [
         {
-          title: "Friday, October 11",
+          title: "Friday, November 14",
           items: [
             {
               time: "20.00 - 21.00",
@@ -113,7 +113,7 @@ const en = {
           ],
         },
         {
-          title: "Saturday, October 12",
+          title: "Saturday, November 15",
           items: [
             {
               time: "12.00 - 13.00",
@@ -155,7 +155,7 @@ const en = {
           ],
         },
         {
-          title: "Sunday, October 13",
+          title: "Sunday, November 16",
           items: [
             {
               time: "12.00 - 13.00",
@@ -182,20 +182,20 @@ const en = {
     pricing: {
       pageTitle: "Pricing",
       description: [
-        "For this event we will have 3 price tiers based on the time when participant's registration is ACCEPTED.",
-        "Early bird price is valid up to and including July 14, normal bird price between July 15 and August 4, and late bird price from August 5. With every tier the workshop price will rise by 10 euros.",
-        "Registration fee must be fully paid within 14 days of registration acceptance for the price and the registration to stay valid.",
+        "For this event we will have 3 price tiers based on the number of ACCEPTED registrations REGARDLESS of pass.",
+        "Early bird price is valid for first 5 couples. Normal bird price is valid for the next 5 couples. Late bird price is valid for all registrations after that.",
+        "Registration fee must be fully paid within 7 days of registration acceptance for the price and the registration to stay valid. If the payment is not received in due time, the registration will be cancelled and the participant will have to register again at the price valid at the time of their new registration.",
       ],
-      priceTier: "Late Bird",
+      priceTier: "Early Bird",
       passes: [
         {
           title: "Full Pass",
-          price: "80 euros",
+          price: "70 euros",
           includes: ["6 hours of workshops", "entrance to both parties"],
         },
         {
           title: "Saturday Pass",
-          price: "60 euros",
+          price: "50 euros",
           includes: [
             "3 hours of workshops on Saturday",
             "entrance to Saturday party",
@@ -208,9 +208,8 @@ const en = {
     pageTitle: "Location",
     venue: {
       locationText:
-        "The workshops will be held at Studio Dansa dance school, located at:",
+        "The workshops will be held at Studio Dansa and Moj Korak dance school, located at:",
       address: {
-        name: "Studio Dansa",
         address: "Vilharjeva cesta 3",
         zipAndCity: "1000 Ljubljana",
         country: "Slovenia",
@@ -296,15 +295,15 @@ const en = {
       infoText: [
         {
           value:
-            "All registrations are considered pending until a payment is received. Payment is due in 14 days, after we receive the payment, the pass is considered confirmed. Should a participant fail to pay for their pass in due time, the event organizer reserves the right to cancel their pass. In such a case, the participant who still wants to participate in the event must register again at the price valid at the time of their new registration.",
+            "All registrations are considered pending until a payment is received. Payment is due in 7 days, after we receive the payment, the pass is considered confirmed. Should a participant fail to pay for their pass in due time, the event organizer reserves the right to cancel their pass. In such a case, the participant who still wants to participate in the event must register again at the price valid at the time of their new registration.",
         },
         {
           value:
             "In case of cancellation by the participant, we shall offer a payment refund in the following tiers:",
           list: [
-            "For cancellation requests received during the Early Bird price period, the received payment will be refunded fully.",
-            "For cancellation requests received during the Normal Bird price period, the received payment will be refunded partially - 50% of received payment.",
-            "For cancellation requests received during the Late Bird price period, the received payment will not be refunded.",
+            "For cancellation requests received before 15 September 2025, the received payment will be refunded fully.",
+            "For cancellation requests received before 1 October 2025, the received payment will be refunded partially - 50% of received payment.",
+            "For cancellation requests received after 1 October 2025, the received payment will not be refunded.",
           ],
         },
         {
@@ -339,6 +338,10 @@ const en = {
         {
           value:
             "It is not allowed to take recordings (video or audio) of teachers or atendees during the workshops unless granted explicit permission by the event organizer.",
+        },
+        {
+          value:
+            "Publishing recordings of workshops or performances is not allowed without the explicit permission of the event organizer. For publishing other recordings, the organizer does not require any permission, but reserves the right to request the removal of recordings that, in their opinion, are inappropriate or harmful to the reputation of the event.",
         },
       ],
     },
