@@ -2,7 +2,7 @@ const en = {
   event: {
     name: "Fall Focus WCS",
     location: "Ljubljana",
-    date: "11 - 13 October 2024",
+    date: "14 - 16 November 2025",
     welcomeText: "Join the fun!",
     tba: "To be announced.",
   },
@@ -101,7 +101,7 @@ const en = {
               time: "20.00 - 21.00",
               topic: "Back to Basics",
               description:
-                "Included in Full pass, as well as Friday party entrance fee.",
+                "Included in Full pass, as well as Friday party entrance fee. Teacher TBA.",
               class: "class",
             },
             {

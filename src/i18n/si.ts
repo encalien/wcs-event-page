@@ -2,7 +2,7 @@ const si = {
   event: {
     name: "Fall Focus WCS",
     location: "Ljubljana",
-    date: "11. - 13. oktober 2024",
+    date: "14. - 16. november 2025",
     welcomeText: "Pridruži se!",
     tba: "Več informacij kmalu.",
   },
@@ -101,7 +101,7 @@ const si = {
               time: "20.00 - 21.00",
               topic: "Back to Basics",
               description:
-                "Vstopnina vključena v ceno vstopnice Vikend paket in vstopnino petkove zabave.",
+                "Vstopnina vključena v ceno vstopnice Vikend paket in vstopnino petkove zabave. Učitelj TBA.",
               class: "class",
             },
             {

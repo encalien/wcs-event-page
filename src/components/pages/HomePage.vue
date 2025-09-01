@@ -14,16 +14,15 @@ export default {
   <section id="landing">
     <img src="/images/website_landing_narrow.png" alt="banner" id="banner" />
     <div class="landing-content">
-      <!-- <h1>{{ $t('event.name') }}</h1>
-      <h2>{{ $t('event.location') }}</h2>
-      <h2>{{ $t('event.date') }}</h2> -->
+      <!-- <h1>{{ $t("event.name") }}</h1> -->
+      <h2>{{ $t("event.location") }}, {{ $t("event.date") }}</h2>
       <h2 class="margin-0">{{ $t("event.welcomeText") }}</h2>
-      <h2 class="margin-0">{{ $t("registration.opensSoonText") }}</h2>
-      <!-- <router-link
+      <!-- <h2 class="margin-0">{{ $t("registration.opensSoonText") }}</h2> -->
+      <router-link
         :to="`/${$store.state.lang}/registration`"
         class="btn btn-primary"
         >{{ $t("registration.pageTitle") }}</router-link
-      > -->
+      >
     </div>
   </section>
   <section>
