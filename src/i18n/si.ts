@@ -187,16 +187,16 @@ const si = {
         "Prva cena velja za prvih 5 parov. Srednja cena velja za naslednjih 5 parov. Zadnja cena velja za vse prijave sprejete po tem.",
         "Kotizacija mora biti v celoti plačana v roku 7 dni po potrditvi prijave, da cena in prijava ostaneta veljavni. Če plačilo v predpisanem roku ne bo prejeto, bo prijava preklicana, udeleženec pa se bo moral ponovno prijaviti po ceni, ki bo veljala ob novi prijavi.",
       ],
-      priceTier: "Prva cena",
+      priceTier: "Zadnja cena",
       passes: [
         {
           title: "Vikend paket",
-          price: "70 evr",
+          price: "90 evr",
           includes: ["6 ur delavnic", "vstop na obe zabavi"],
         },
         {
           title: "Sobotni paket",
-          price: "50 evr",
+          price: "70 evr",
           includes: ["3 ure delavnic v soboto", "vstop na sobotno zabavo"],
         },
       ],

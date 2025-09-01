@@ -186,16 +186,16 @@ const en = {
         "Early bird price is valid for first 5 couples. Normal bird price is valid for the next 5 couples. Late bird price is valid for all registrations after that.",
         "Registration fee must be fully paid within 7 days of registration acceptance for the price and the registration to stay valid. If the payment is not received in due time, the registration will be cancelled and the participant will have to register again at the price valid at the time of their new registration.",
       ],
-      priceTier: "Early Bird",
+      priceTier: "Late Bird",
       passes: [
         {
           title: "Full Pass",
-          price: "70 euros",
+          price: "90 euros",
           includes: ["6 hours of workshops", "entrance to both parties"],
         },
         {
           title: "Saturday Pass",
-          price: "50 euros",
+          price: "70 euros",
           includes: [
             "3 hours of workshops on Saturday",
             "entrance to Saturday party",
