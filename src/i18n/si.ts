@@ -96,85 +96,144 @@ const si = {
       days: [
         {
           title: "Petek, 14. november",
-          items: [
+          slots: [
             {
               time: "20.00 - 21.00",
-              topic: "Back to Basics",
-              description:
-                "Vstopnina vključena v ceno vstopnice Vikend paket in vstopnino petkove zabave. Učitelj TBA.",
-              class: "class",
+              items: [
+                {
+                  topic: "Back to Basics",
+                  description:
+                    "Vstopnina vključena v ceno vstopnice Vikend paket in vstopnino petkove zabave. Učitelja Klemen & Nives.",
+                  class: "class",
+                },
+              ],
             },
             {
               time: "21.00 - 02.00",
-              topic: "Zabava",
-              description:
-                "Vstopnina 5 evr - vključena v ceno vstopnice Vikend paket.",
-              class: "party",
+              items: [
+                {
+                  topic: "Zabava",
+                  description:
+                    "Vstopnina 5 evr - vključena v ceno vstopnice Vikend paket.",
+                  class: "party",
+                },
+              ],
             },
           ],
         },
         {
           title: "Sobota, 15. november",
-          items: [
+          slots: [
             {
               time: "12.00 - 13.00",
-              topic: "Delavnica",
-              description: "",
-              class: "class",
+              items: [
+                {
+                  topic: "Intermediate",
+                  description: "Studio Dansa",
+                  class: "class",
+                },
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Moj Korak",
+                  class: "class",
+                },
+              ],
             },
             {
               time: "13.15 - 14.15",
-              topic: "Delavnica",
-              description: "",
-              class: "class",
+              items: [
+                {
+                  topic: "Intermediate",
+                  description: "Studio Dansa",
+                  class: "class",
+                },
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Moj Korak",
+                  class: "class",
+                },
+              ],
             },
             {
               time: "",
-              topic: "Odmor za kosilo",
-              description: "",
-              class: "break",
+              items: [
+                {
+                  topic: "Odmor za kosilo",
+                  description: "",
+                  class: "break",
+                },
+              ],
             },
             {
               time: "15.30 - 16.30",
-              topic: "Delavnica",
-              description: "",
-              class: "class",
+              items: [
+                {
+                  topic: "Intermediate",
+                  description: "Studio Dansa",
+                  class: "class",
+                },
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Moj Korak",
+                  class: "class",
+                },
+              ],
             },
-            // {
-            //   time: "16.45 - 17.45",
-            //   topic: "Delavnica",
-            //   description: "",
-            //   class: "class"
-            // },
             {
               time: "20.00 - 03.00",
-              topic: "Zabava",
-              description:
-                "Vstopnina vključena v ceno vstopnice Sobotni paket ali Vikend paket.",
-              class: "party",
+              items: [
+                {
+                  topic: "Zabava",
+                  description:
+                    "Vstopnina 5 evr - vključena v ceno vstopnice Sobotni paket ali Vikend paket.",
+                  class: "party",
+                },
+              ],
             },
           ],
         },
         {
           title: "Nedelja, 16. november",
-          items: [
+          slots: [
             {
               time: "12.00 - 13.00",
-              topic: "Delavnica",
-              description: "",
-              class: "class",
+              items: [
+                {
+                  topic: "Intermediate",
+                  description: "Studio Dansa",
+                  class: "class",
+                },
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Moj Korak",
+                  class: "class",
+                },
+              ],
             },
             {
               time: "13.15 - 14.15",
-              topic: "Delavnica",
-              description: "",
-              class: "class",
+              items: [
+                {
+                  topic: "Intermediate",
+                  description: "Studio Dansa",
+                  class: "class",
+                },
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Moj Korak",
+                  class: "class",
+                },
+              ],
             },
             {
               time: "14:30 - 16:00",
-              topic: "Westie kosilo",
-              description: "",
-              class: "break",
+              items: [
+                {
+                  topic: "Westie kosilo",
+                  description: "",
+                  class: "break",
+                },
+              ],
             },
           ],
         },

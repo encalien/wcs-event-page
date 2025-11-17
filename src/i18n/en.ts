@@ -96,84 +96,143 @@ const en = {
       days: [
         {
           title: "Friday, November 14",
-          items: [
+          slots: [
             {
               time: "20.00 - 21.00",
-              topic: "Back to Basics",
-              description:
-                "Included in Full pass, as well as Friday party entrance fee. Teacher TBA.",
-              class: "class",
+              items: [
+                {
+                  topic: "Back to Basics",
+                  description:
+                    "Included in Full pass, as well as Friday party entrance fee. Teachers Klemen & Nives.",
+                  class: "class",
+                },
+              ],
             },
             {
               time: "21.00 - 02.00",
-              topic: "Party",
-              description: "Entrance fee of 5 eur - included in Full pass.",
-              class: "party",
+              items: [
+                {
+                  topic: "Party",
+                  description: "Entrance fee 5 eur - included in Full pass.",
+                  class: "party",
+                },
+              ],
             },
           ],
         },
         {
           title: "Saturday, November 15",
-          items: [
+          slots: [
             {
               time: "12.00 - 13.00",
-              topic: "Class",
-              description: "",
-              class: "class",
+              items: [
+                {
+                  topic: "Intermediate",
+                  description: "Studio Dansa",
+                  class: "class",
+                },
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Moj Korak",
+                  class: "class",
+                },
+              ],
             },
             {
               time: "13.15 - 14.15",
-              topic: "Class",
-              description: "",
-              class: "class",
+              items: [
+                {
+                  topic: "Intermediate",
+                  description: "Studio Dansa",
+                  class: "class",
+                },
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Moj Korak",
+                  class: "class",
+                },
+              ],
             },
             {
               time: "",
-              topic: "Lunch Break",
-              description: "",
-              class: "break",
+              items: [
+                {
+                  topic: "Lunch Break",
+                  description: "",
+                  class: "break",
+                },
+              ],
             },
             {
               time: "15.30 - 16.30",
-              topic: "Class",
-              description: "",
-              class: "class",
+              items: [
+                {
+                  topic: "Intermediate",
+                  description: "Studio Dansa",
+                  class: "class",
+                },
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Moj Korak",
+                  class: "class",
+                },
+              ],
             },
-            // {
-            //   time: "16.45 - 17.45",
-            //   topic: "Class",
-            //   description: "",
-            //   class: "class"
-            // },
             {
               time: "20.00 - 03.00",
-              topic: "Party",
-              description:
-                "Entrance fee included in Saturday pass or Full pass.",
-              class: "party",
+              items: [
+                {
+                  topic: "Party",
+                  description:
+                    "Entrance fee 5 eur - included in Saturday pass or Full pass.",
+                  class: "party",
+                },
+              ],
             },
           ],
         },
         {
           title: "Sunday, November 16",
-          items: [
+          slots: [
             {
               time: "12.00 - 13.00",
-              topic: "Class",
-              description: "",
-              class: "class",
+              items: [
+                {
+                  topic: "Intermediate",
+                  description: "Studio Dansa",
+                  class: "class",
+                },
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Moj Korak",
+                  class: "class",
+                },
+              ],
             },
             {
               time: "13.15 - 14.15",
-              topic: "Class",
-              description: "",
-              class: "class",
+              items: [
+                {
+                  topic: "Intermediate",
+                  description: "Studio Dansa",
+                  class: "class",
+                },
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Moj Korak",
+                  class: "class",
+                },
+              ],
             },
             {
               time: "14:30 - 16:00",
-              topic: "Westie Lunch",
-              description: "",
-              class: "break",
+              items: [
+                {
+                  topic: "Westie Lunch",
+                  description: "",
+                  class: "break",
+                },
+              ],
             },
           ],
         },
