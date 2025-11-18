@@ -84,8 +84,8 @@ export default {
             />
           </div>
           <div class="menu-items">
-            <div style="width: 100%"></div>
-            <!-- <div
+            <!-- <div style="width: 100%"></div> -->
+            <div
               class="menu-item"
               :class="{ active: isMobileMenuOpen }"
               @click="closeAllMenus()"
@@ -222,7 +222,7 @@ export default {
               >
                 {{ $t("registration.pageTitle") }}
               </router-link>
-            </div> -->
+            </div>
             <div
               id="social-icons"
               class="menu-item flex-container flex-container-row"

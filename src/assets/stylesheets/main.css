@@ -7,10 +7,10 @@
   align-items: stretch;
 }
 
-body.no-scroll {
+/* body.no-scroll {
   overflow: hidden;
   overscroll-behavior: none;
-}
+} */
 
 /* html tags */
 section {
