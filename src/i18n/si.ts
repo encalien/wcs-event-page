@@ -17,6 +17,7 @@ const si = {
           "Savana Barreau & João Parada",
           "Andrea Pártos & Attila Pártos",
           "Evgenia Itkina & Clement Turpain",
+          "Raushaniya Maksudova & Mackenzie Sharp",
         ],
       },
       {
@@ -26,7 +27,9 @@ const si = {
         list: [
           "4 fantastične zabave",
           "3 dni delavnic po nivojih",
+          "3 intenzivni programi",
           "WSDC Jack & Jill tekmovanja",
+          "Zero to Hero program za začetnike",
         ],
       },
       {
@@ -34,9 +37,11 @@ const si = {
         intro: "Odkrij lepote Ljubljane in Slovenije",
         href: "location/slovenia",
         list: [
-          "Čar starega mestnega jedra",
-          "Zelena prestolnica Evrope",
-          "Blizu Alp in morja",
+          "scenski razgledi z Ljubljanskega gradu",
+          "zgodovinski čar stare Ljubljane",
+          "slikoviti sprehodi ob reki",
+          "pravljične pokrajine Slovenije",
+          "osupljiva lepota Blejskega jezera",
         ],
       },
     ],
@@ -62,9 +67,9 @@ const si = {
       // ],
       yt: [
         {
-          name: "Ludovic Pelegrin & Karin Kakun - Strictly Open Finals - Budafest 2022",
-          src: "https://img.youtube.com/vi/8vgxDAinHEM/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=8vgxDAinHEM",
+          name: "FOWCS 2025 - CLASSIC - Raushaniya MAKSUDOVA & Mackenzie SHARP",
+          src: "https://img.youtube.com/vi/S6J0t0BxPmM/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=S6J0t0BxPmM",
         },
         {
           name: "João Parada & Savana Barreau - Classic The Open 2022",
@@ -72,14 +77,14 @@ const si = {
           href: "https://www.youtube.com/watch?v=Kt25_VQ9dCg",
         },
         {
-          name: "Attila Pártos & Andrea Pártos - 3rd place Strictly Open - D-TownSwing 2016",
-          src: "https://img.youtube.com/vi/zPPV9eIQnOk/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=zPPV9eIQnOk",
+          name: '"Dynamite" Mackenzie Sharp & Raushaniya Maksudova - 1st place All-Star SS Finals KoreanOpenWCS 2024',
+          src: "https://img.youtube.com/vi/Nb1oLfM_8c0/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=Nb1oLfM_8c0",
         },
         {
-          name: "FOWCS 2022 - STRICTLY ADVANCED / ALL-STARS - Savana BARREAU & Joao PARADA - 1st place",
-          src: "https://img.youtube.com/vi/waxKAtfhEBc/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=waxKAtfhEBc",
+          name: "Clement Turpain & Evgenia Itkina - 3rd place Showcase Routines Finals - Bavarian Open 2025",
+          src: "https://img.youtube.com/vi/62XjOeTLoHM/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=62XjOeTLoHM",
         },
         {
           name: 'Attila Pártos & Andrea Pártos "Hol Van Az A Lány" - ProIntro - Westie Spring Thing 2022',
@@ -102,18 +107,17 @@ const si = {
         people: [
           {
             names: "Karin & Ludovic",
-            src: "/images/teachers_karin_ludo.jpg",
+            src: "/src/assets/images/teachers_karin_ludovic.png",
             description: [
               "Karin Kakun pleše že celo življenje. Z univerzitetno diplomo iz plesa ima za seboj več kot 14 let učenja plesa. Poučuje WCS, hip hop, raztezanje in ples ob drogu. Poleg tega tudi koreografira in nastopa. Preden se je posvetila WCS, je bila izraelska prvakinja v salsi.",
               "Svojo pot v WCS je začela leta 2014 in se že takrat popolnoma zaljubila v ta ples. Zdaj tekmuje v Champion kategoriji in poučuje v Izraelu, kjer vodi skupino tečajev west coast swinga. Redno potuje in poučuje po vsej Evropi.",
-              "Ludovic Pelegrin je začel plesati pri 10 letih, ko se je naučil rock'n'rolla. Njegova plesna pot je inovativna in raznolika, saj obsega stile, kot so lindy hop, balboa, charleston, akrobatski rock'n'roll, salsa, boogie woogie in step. Od leta 2009 poučuje rock'n'roll, lindy hop in charleston.",
-              "Njegova ljubezen do swinga ga je leta 2010 pripeljala do WCS. Z vse večjim navdušenjem je obiskoval delavnice po svetu in se učil od najboljših inštruktorjev. Prav tako sodeluje na številnih tekmovanjih, kjer redno dosega mesta med prvimi tremi.",
-              "Poganja ga želja po deljenju svoje strasti in pomoči drugim pri odkrivanju WCS, zato je začel poučevati WCS leta 2011. Po tem, ko je prispeval k širjenju WCS v Franciji, zdaj vodi delavnice po vsej Evropi. Njegove raznolike plesne veščine so mu prinesle sloves odličnega poznavalca glasbe, strukturiranega in jasnega učenja ter velike radodarnosti.",
+              "Ludovic Pelegrin je začel plesati pri desetih letih, ko je spoznal rock'n'roll. Njegovo inovativno in raznoliko plesno ozadje zajema lindy hop, balbou, charleston, akrobatski rock'n'roll, salso, boogie woogie in step. Od leta 2009 poučuje rock'n'roll, lindy hop in charleston. Ljubezen do swinga ga je leta 2010 pripeljala do West Coast Swinga, kjer se je z vse večjim navdušenjem izpopolnjeval pri vrhunskih mednarodnih inštruktorjih ter se udeleževal številnih tekmovanj, na katerih se redno uvršča med najboljše tri.",
+              "Želja po deljenju svoje strasti ga je leta 2011 vodila v poučevanje WCS. Po tem, ko je pomembno prispeval k razvoju WCS v Franciji, danes vodi delavnice po vsej Evropi. Njegova široka plesna podlaga mu prinaša sloves izvrstnega glasbenega poznavalca, jasnega in strukturiranega pedagoga ter izjemno velikodučnega učitelja.",
             ],
           },
           {
             names: "Savana & João",
-            src: "/images/teachers_savana_joao.jpg",
+            src: "/src/assets/images/teachers_savana_joao.png",
             description: [
               "Savana je začela plesati jazz pri štirih letih in je temu posvečena od takrat naprej. Strastna ljubiteljica plesa na splošno se je izobraževala v solo plesih kot so sodobni ples in hip hop. Sodelovala je na številnih tekmovanjih, kjer je osvajala regionalne in nacionalne nagrade, in se med srednjo šolo pridružila konservatoriju.",
               "Pri sedmih letih se je podala v svet plesov v paru, nato pa hitro prešla na salso in kasneje na west coast swing. Zelo mlada je dobila priložnost za poučevanje, kjer je našla veselje v povezovanju in deljenju z učenci. Po srednji šoli se je odločila specializirati za WCS in se preselila v Švico, kjer zdaj živi in dela v plesni šoli Janga Widlerja.",
@@ -123,7 +127,7 @@ const si = {
           },
           {
             names: "Andrea & Attila",
-            src: "/images/teachers_andrea_attila.png",
+            src: "/src/assets/images/teachers_andrea_attila.png",
             description: [
               "Attila in Andrea sta svojo plesno kariero začela kot plesalca standardnih in latinskoameriških plesov. Veliko let sta poučevala te plesne zvrsti in v tem času osvojila številne prvenstvene naslove. Po rojstvu prvega otroka sta se odločila za odmik od aktivne kariere, a plesa nista mogla povsem opustiti in sta vedno hrepenela po vrnitvi na plesišče.",
               "Leta 2013 sta odkrila West Coast Swing in kmalu postala zasvojena s tem plesnim stilom. Zaradi izrazitih razlik med standardnimi plesi in West Coast Swing, sta v tem plesu našla svojo strast, predvsem zaradi njegovih neskončnih možnosti in svobode. Tekmovanja nista mogla povsem opustiti, tako da sta po nekaj letih tekmovanja oba dosegla prestižno kategorijo All-Star.",
@@ -132,7 +136,7 @@ const si = {
           },
           {
             names: "Evgenia & Clement",
-            src: "/images/teachers_evgenia_clement.jpg",
+            src: "/src/assets/images/teachers_evgenia_clement.png",
             description: [
               "Clevi - Clem in Evi - sta strastna plesalca West Coast Swinga iz Berlina. Vsak z desetletnimi izkušnjami sta združila moči, da skupaj poučujeta in plešeta. Clement, plesalec v All-Star Diviziji in plesalka v Advanced Diviziji, prinaša na plesišče edinstven občutek za muzikalnost in kreativnost, ki izhajata iz njegovih desetletnih glasbenih študij in njegovega ozadja v solo plesih, kot so balet, hip-hop in sodobni ples.",
               "Evi, plesalka v All-Star Diviziji, s profesionalnim ozadjem v sodobnem plesu ter izkušnjami v baletu, jazzu in modernem plesu, prispeva svoj edinstven pridih k WCS.",
@@ -140,133 +144,142 @@ const si = {
               "Obožujeta tudi koreografije, saj sta dosegla 5. mesto v Rising Star diviziji na Open 2023, 1. mesto na Global Grand Prix 2023 in French Open 2024.",
             ],
           },
-        ],
-      },
-      {
-        pageTitle: "DJ-i",
-        people: [
           {
-            names: "Ken",
-            title: "Glavni DJ",
-            src: "/images/djs_ken.png",
+            names: "Raushaniya & Mackenzie",
+            src: "/src/assets/images/teachers_raushaniya_mackenzie.png",
             description: [
-              "Ken, znan tudi kot DJKendyshop, je DJ za West Coast Swing, ki je svojo pot začel leta 2018. Hitro si je pridobil sloves zaradi svoje sposobnosti ustvarjanja energije polnih plesišč tako na majhnih lokalnih dogodkih kot tudi na velikih WSDC dogodkih, kot so Budafest, Anchor Festival, Baltic Swing in Swing it like it's hot. Kenov stil se nagiba k zapleteni in razburljivi glasbi, črpa navdih iz EDM in Dubstepa ter ustvarja edinstven in dinamičen zvok, ki plesalce ohranja v gibanju.",
-              "Trenutno najraje pleše na:",
-            ],
-            songList: [
-              "Forgive Me - Sofi Tucker",
-              "Whisper - Able Heart",
-              "Fake - The Tech Thieves",
-            ],
-          },
-          {
-            names: "Patrice",
-            title: "Tonski inženir in DJ",
-            src: "/images/djs_patrice.png",
-            description: [
-              "Patrice je svojo DJ kariero začel pred 5 leti na zabavah z mešanico plesnih stilov, kjer ga je prevzela umetnost ustvarjanja atmosferskega večera, ki zajema različne žanre. Zdaj se vse pogosteje znajde za mešalno mizo na West Coast Swing zabavah, kjer še naprej navdušuje plesalce z mešanjem raznolikih glasbenih stilov.",
-              "Trenutno najraje pleše na:",
-            ],
-            songList: ["Fuck it, I love it! - ILIRA", "Wait - Damian Lynn"],
-          },
-          {
-            names: "Balázs",
-            title: "DJ",
-            src: "/images/djs_balazs.png",
-            description: [
-              "Balázs je svoj prvi mednarodni set odigral na Slovenian Open 2024, kjer je sodeloval in zmagal na DJ Battle tekmovanju. Od takrat redno DJ-ja na lokalnih zabavah v Budimpešti, poleg tega pa je imel priložnost vrteti glasbo na Autumn Swing Challenge leta 2024. Je strasten ljubitelj glasbe tako kot plesalec kot DJ in s svojimi seti ter energijo oživi plesišče!",
-              "Njegove najljubše pesmi za ples trenutno so:",
-            ],
-            songList: [
-              "Becoming Young - Cherry Twist",
-              "Slow It Down - Benson Boone",
-              "How I Want Ya (Dawn Remix) - Hudson Thames",
-            ],
-          },
-          {
-            names: "Kamila",
-            title: "DJ",
-            src: "/images/djs_kamila.png",
-            description: [
-              "Kamila prihaja iz čudovitega mesta Krakov na Poljskem. Rada pleše, odkriva nova mesta in raziskuje okuse lokalne kave. Njena največja strast je West Coast Swing, saj ji omogoča svobodno interpretacijo glasbe in ustvarjanje nečesa posebnega - in pogosto igrivega - z vsakim novim plesnim partnerjem. Kot DJ-ka se lahko še globlje potopi v svet glasbe in ga bolje razume. Nič ji ne prinese večjega veselja kot videti plesalce, ki uživajo ob njenih setih.",
-              "Njene najljubše pesmi za ples trenutno so:",
-            ],
-            songList: [
-              "Empty Crown - YAS",
-              "Baptize - RKCB",
-              "Wonderful nothing (edit version) - Glass Animals",
-            ],
-          },
-          {
-            names: "Kasia",
-            title: "DJ",
-            src: "/images/djs_kasia.png",
-            description: [
-              "Kasia je svojo DJ-jevsko WCS pustolovščino začela okoli leta 2019 v Varšavi. Od takrat je vrtela glasbo na lokalnih dogodkih na Poljskem, kmalu zatem pa so jo začeli vabiti na mednarodne dogodke na Švedskem, Finskem, Poljskem, v Nemčiji in na Madžarskem. Prav tako je igrala v vrhunskih terminih na Asia Open in Wild Wild Westie. Redno prejema pozitivne povratne informacije o vzdušju, ki ga ustvarja s svojimi seti. Prijatelji jo imenujejo »Hodeči Shazam«, saj pozna in prepozna ogromno pesmi že ob prvem tonu.",
-              "Njene najljubše pesmi za ples trenutno so:",
-            ],
-            songList: [
-              "Untouchable - Bera",
-              "LONELY NIGHTS - Riles",
-              "NIGHTS LIKE THESE - Benson Boone",
-            ],
-          },
-          {
-            names: "Lino",
-            title: "DJ",
-            src: "/images/djs_lino.png",
-            description: [
-              "Lino se je vedno zanimal za odkrivanje novih umetnikov in glasbe, še posebej manj znanih indie izvajalcev. Nedavno je imel priložnost DJ-ati na dogodkih Swing Generation, Berlin Swing Revolution in Carnival Swing, ter na lokalnih zabavah v Berlinu in Erdingu. Njegov stil je mešanje eksperimentalne in pogosto akustične glasbe z mednarodno priljubljenimi pesmimi, znanimi z dogodkov.",
-              "Trenutno najraje pleše na:",
-            ],
-            songList: [
-              "Lose It - Oh Wonder",
-              "Papa - SICKOTOY, Eliana Gjata, INNA",
-              "No Ocean - EXES, Jome",
-            ],
-          },
-          {
-            names: "Sepgod",
-            title: "DJ",
-            src: "/images/djs_sepgod.png",
-            description: [
-              "Sepgod je začel s plesi v paru pred 30 leti, razvil ljubezen do kuriranja glasbe, napredoval od ustvarjanja mešanic trakov do mešanih CD-jev, in naposled DJ-al na različnih dogodkih. Leta 2015 ga je prevzela raznolika glasba WCS, kar ga je vodilo do DJ-anja na zabavah WCS v Dunaju, naa Swingvestru 23/24 pa je začel DJ-ati tudi na mednarodnih festivalih.",
-              "Trenutno najraje pleše na:",
-            ],
-            songList: [
-              "Soap - Melanie Martinez",
-              "Space Ghost Coast To Coast - Glass Animals",
-              "Chariot - Mega",
+              "Raushaniya je naredila prve korake v West Coast Swingu na prelepi deževni večer ob Curyškem jezeru v Švici. Od tistega trenutka jo je ta ples prevzel, saj je v njem našla način povezovanja z ljudmi po vsem svetu. Preden je odkrila WCS, se je več let ukvarjala z arabsko trebušno plesno tehniko, pri čemer je razvila močno osnovo v izolacijah in tekočem gibanju.",
+              "Mackenzie je svojo WCS pot začel pri enajstih letih, ko se je pridružil lokalnim tečajem v Brisbaneu v Avstraliji, in se od takrat posvetil tako plesu kot poučevanju. Kot izkušen inštruktor je strasten glede poglobljene tehnike in je razvil edinstven pristop, ki vključuje solo gibanje za širjenje ustvarjalnega izraza v partnerskem plesu.",
+              'Odkar sta sredi leta 2023 začela sodelovati, navdušujeta plesno sceno s svojo prepoznavno koreografijo, privlačnim učnim pristopom in neustavljivo energijo na socialnem plesišču. Z njuno hip-hop noto poudarjata vsestranskost WCS-a ter prinašata svežo, dinamično umetniškost v vsak nastop. Skupaj sta ustvarila in izvedla več koreografij, ki so odmevale tako znotraj skupnosti kot daleč zunaj nje, opisane kot "drzne", "edinstvene" in "kreativne".',
             ],
           },
         ],
       },
+      //   {
+      //     pageTitle: "DJ-i",
+      //     people: [
+      //       {
+      //         names: "Ken",
+      //         title: "Glavni DJ",
+      //         src: "/images/djs_ken.png",
+      //         description: [
+      //           "Ken, znan tudi kot DJKendyshop, je DJ za West Coast Swing, ki je svojo pot začel leta 2018. Hitro si je pridobil sloves zaradi svoje sposobnosti ustvarjanja energije polnih plesišč tako na majhnih lokalnih dogodkih kot tudi na velikih WSDC dogodkih, kot so Budafest, Anchor Festival, Baltic Swing in Swing it like it's hot. Kenov stil se nagiba k zapleteni in razburljivi glasbi, črpa navdih iz EDM in Dubstepa ter ustvarja edinstven in dinamičen zvok, ki plesalce ohranja v gibanju.",
+      //           "Trenutno najraje pleše na:",
+      //         ],
+      //         songList: [
+      //           "Forgive Me - Sofi Tucker",
+      //           "Whisper - Able Heart",
+      //           "Fake - The Tech Thieves",
+      //         ],
+      //       },
+      //       {
+      //         names: "Patrice",
+      //         title: "Tonski inženir in DJ",
+      //         src: "/images/djs_patrice.png",
+      //         description: [
+      //           "Patrice je svojo DJ kariero začel pred 5 leti na zabavah z mešanico plesnih stilov, kjer ga je prevzela umetnost ustvarjanja atmosferskega večera, ki zajema različne žanre. Zdaj se vse pogosteje znajde za mešalno mizo na West Coast Swing zabavah, kjer še naprej navdušuje plesalce z mešanjem raznolikih glasbenih stilov.",
+      //           "Trenutno najraje pleše na:",
+      //         ],
+      //         songList: ["Fuck it, I love it! - ILIRA", "Wait - Damian Lynn"],
+      //       },
+      //       {
+      //         names: "Balázs",
+      //         title: "DJ",
+      //         src: "/images/djs_balazs.png",
+      //         description: [
+      //           "Balázs je svoj prvi mednarodni set odigral na Slovenian Open 2024, kjer je sodeloval in zmagal na DJ Battle tekmovanju. Od takrat redno DJ-ja na lokalnih zabavah v Budimpešti, poleg tega pa je imel priložnost vrteti glasbo na Autumn Swing Challenge leta 2024. Je strasten ljubitelj glasbe tako kot plesalec kot DJ in s svojimi seti ter energijo oživi plesišče!",
+      //           "Njegove najljubše pesmi za ples trenutno so:",
+      //         ],
+      //         songList: [
+      //           "Becoming Young - Cherry Twist",
+      //           "Slow It Down - Benson Boone",
+      //           "How I Want Ya (Dawn Remix) - Hudson Thames",
+      //         ],
+      //       },
+      //       {
+      //         names: "Kamila",
+      //         title: "DJ",
+      //         src: "/images/djs_kamila.png",
+      //         description: [
+      //           "Kamila prihaja iz čudovitega mesta Krakov na Poljskem. Rada pleše, odkriva nova mesta in raziskuje okuse lokalne kave. Njena največja strast je West Coast Swing, saj ji omogoča svobodno interpretacijo glasbe in ustvarjanje nečesa posebnega - in pogosto igrivega - z vsakim novim plesnim partnerjem. Kot DJ-ka se lahko še globlje potopi v svet glasbe in ga bolje razume. Nič ji ne prinese večjega veselja kot videti plesalce, ki uživajo ob njenih setih.",
+      //           "Njene najljubše pesmi za ples trenutno so:",
+      //         ],
+      //         songList: [
+      //           "Empty Crown - YAS",
+      //           "Baptize - RKCB",
+      //           "Wonderful nothing (edit version) - Glass Animals",
+      //         ],
+      //       },
+      //       {
+      //         names: "Kasia",
+      //         title: "DJ",
+      //         src: "/images/djs_kasia.png",
+      //         description: [
+      //           "Kasia je svojo DJ-jevsko WCS pustolovščino začela okoli leta 2019 v Varšavi. Od takrat je vrtela glasbo na lokalnih dogodkih na Poljskem, kmalu zatem pa so jo začeli vabiti na mednarodne dogodke na Švedskem, Finskem, Poljskem, v Nemčiji in na Madžarskem. Prav tako je igrala v vrhunskih terminih na Asia Open in Wild Wild Westie. Redno prejema pozitivne povratne informacije o vzdušju, ki ga ustvarja s svojimi seti. Prijatelji jo imenujejo »Hodeči Shazam«, saj pozna in prepozna ogromno pesmi že ob prvem tonu.",
+      //           "Njene najljubše pesmi za ples trenutno so:",
+      //         ],
+      //         songList: [
+      //           "Untouchable - Bera",
+      //           "LONELY NIGHTS - Riles",
+      //           "NIGHTS LIKE THESE - Benson Boone",
+      //         ],
+      //       },
+      //       {
+      //         names: "Lino",
+      //         title: "DJ",
+      //         src: "/images/djs_lino.png",
+      //         description: [
+      //           "Lino se je vedno zanimal za odkrivanje novih umetnikov in glasbe, še posebej manj znanih indie izvajalcev. Nedavno je imel priložnost DJ-ati na dogodkih Swing Generation, Berlin Swing Revolution in Carnival Swing, ter na lokalnih zabavah v Berlinu in Erdingu. Njegov stil je mešanje eksperimentalne in pogosto akustične glasbe z mednarodno priljubljenimi pesmimi, znanimi z dogodkov.",
+      //           "Trenutno najraje pleše na:",
+      //         ],
+      //         songList: [
+      //           "Lose It - Oh Wonder",
+      //           "Papa - SICKOTOY, Eliana Gjata, INNA",
+      //           "No Ocean - EXES, Jome",
+      //         ],
+      //       },
+      //       {
+      //         names: "Sepgod",
+      //         title: "DJ",
+      //         src: "/images/djs_sepgod.png",
+      //         description: [
+      //           "Sepgod je začel s plesi v paru pred 30 leti, razvil ljubezen do kuriranja glasbe, napredoval od ustvarjanja mešanic trakov do mešanih CD-jev, in naposled DJ-al na različnih dogodkih. Leta 2015 ga je prevzela raznolika glasba WCS, kar ga je vodilo do DJ-anja na zabavah WCS v Dunaju, naa Swingvestru 23/24 pa je začel DJ-ati tudi na mednarodnih festivalih.",
+      //           "Trenutno najraje pleše na:",
+      //         ],
+      //         songList: [
+      //           "Soap - Melanie Martinez",
+      //           "Space Ghost Coast To Coast - Glass Animals",
+      //           "Chariot - Mega",
+      //         ],
+      //       },
+      //     ],
+      //   },
       {
         pageTitle: "Nastopi & Tekmovanja",
         people: [
           {
             names: "Jacqueline",
             title: "MC",
-            src: "/images/staff_jacqueline.png",
+            src: "/src/assets/images/staff_jacqueline.png",
             description: [
               "Od svojega debija kot MC na Slovenian Open lani je njena prisotnost na dogodkih po skupnosti vse bolj opazna—tudi kot MC na Finnfestu.",
               "Jacqueline je začela svojo plesno pot v stage plesih. Leta 2018 se je priključila Warsaw Westies in se začela ukvarjati z west coast swingom. Čeprav veliko potuje po tujini, jo tam še vedno redno videvajo.",
               "V WCS skupnosti je znana je po svojem značilnem vintage stilu. Kadar ne pleše, se zadržuje v bližini plesišča, kjer se druži z novimi in starimi prijatelji in tako bogati družbeno mrežo skupnosti WCS.",
             ],
           },
-          //       {
-          //         names: "Andreas",
-          //         title: "Ocenjevanje",
-          //         src: "/images/staff_andreas.png",
-          //         description: [
-          //           "Andreas je idejni vodja sistema Scoreboard, ki je izvrstno in pogosto uporabljano orodje za ocenjevanje plesnih tekmovanj. Poznan po svoji hitrosti in zanesljivosti je Scoreboard spremenil način sodniškega ocenjevanja in objave rezultatov.",
-          //           "Andreasova strokovnost in predanost plesni sceni sta očitna, saj je znan obraz na večini evropskih plesnih dogodkov, kjer njegov sistem izboljšuje tekmovalne izkušnje udeležencev, organizatorjev in sodnikov.",
-          //         ],
-          //       },
+          {
+            names: "Andreas",
+            title: "Ocenjevanje",
+            src: "/src/assets/images/staff_andreas.png",
+            description: [
+              "Andreas je idejni vodja sistema Scoreboard, ki je izvrstno in pogosto uporabljano orodje za ocenjevanje plesnih tekmovanj. Poznan po svoji hitrosti in zanesljivosti je Scoreboard spremenil način sodniškega ocenjevanja in objave rezultatov.",
+              "Andreasova strokovnost in predanost plesni sceni sta očitna, saj je znan obraz na večini evropskih plesnih dogodkov, kjer njegov sistem izboljšuje tekmovalne izkušnje udeležencev, organizatorjev in sodnikov.",
+            ],
+          },
           {
             names: "Ludovic",
             title: "Glavni sodnik",
-            src: "/images/staff_ludovic.png",
+            src: "/src/assets/images/staff_ludovic.png",
             description: [
               "Ludovic je zaradi obsežnih izkušnej v različnih plesnih zvrsteh in svojih pomembnih dosežkov kot tekmovalec in inštruktor nepogrešljiv član katerekoli sodniške ekipe.",
               "Njegovo celovito razumevanje plesne dinamike in tehnične spretnosti mu daje izostren občutek za detajle, kar zagotavlja pošteno in natančno ocenjevanje tekmovalcev.",
@@ -275,7 +288,7 @@ const si = {
           {
             names: "Karin",
             title: "Pomočnica glavnega sodnika",
-            src: "/images/staff_karin.png",
+            src: "/src/assets/images/staff_karin.png",
             description: [
               "S svojo dolgoletno predanostjo plesu Karin Kakun prinaša bogate izkušnje sodniški ekipi. Ima univerzitetno diplomo iz plesa in več kot 14 let poučevanja, pri čemer je trenirala plesalce v različnih disciplinah, vključno z WCS, hip-hopom, razteznimi vajami in pole danceom.",
               "Kot tekmovalka, inštruktorica in koreografinja ima celovit pogled na ples, s katerim lahko ocenjuje tekmovanja z občutkom za gibanje, muzikalnost in tehniko.",
@@ -284,7 +297,7 @@ const si = {
           {
             names: "Henri",
             title: "Dancing Mind",
-            src: "/images/staff_henri.png",
+            src: "/src/assets/images/staff_henri.png",
             description: [
               "Henri je odkril West Coast Swing leta 2017, saj ga je kljub pomanjkanju plesnih izkušenj pritegnila njegova dolgoletna strast do glasbe.",
               "Med raziskovanjem WCS je nadaljeval kariero v medicini, postal splošni zdravnik in več kot osem let preučeval psihologijo, vključno s športno psihologijo. Ta dvojna strokovnost mu omogoča edinstven vpogled v povezavo med umom in telesom v plesu. Kot zdravnik ekipe Special Olympics Finland je iz prve roke videl preobrazbeno moč gibanja in veselja. Njegov prvi spletni seminar je potekal 26. novembra 2023.",
@@ -298,9 +311,9 @@ const si = {
           {
             names: "Jake",
             title: "Video in prenos v živo",
-            src: "/images/staff_jake.png",
+            src: "/src/assets/images/staff_jake.png",
             description: [
-              "Jake je del ekipe Affinity Swing kot videograf in glavni spletni razvijalec. Skupaj s Haroldom in preostalo ekipo si prizadevajo deliti ta čudovit, presunljiv ples, ki ga imamo vsi tako radi - s čim več ljudmi na planetu!",
+              "Jake je del ekipe Triple Step TV kot videograf in glavni spletni razvijalec. Skupaj s Haroldom in preostalo ekipo si prizadevajo deliti ta čudovit, presunljiv ples, ki ga imamo vsi tako radi - s čim več ljudmi na planetu!",
               "Uživajo v snemanju in montaži videoposnetkov za družbena omrežja, prenosih dogodkov v živo s takojšnjimi ponovitvami ter dodajanju dogodkov na njihov globalni zemljevid West Coast Swinga.",
             ],
           },
@@ -312,7 +325,7 @@ const si = {
           {
             names: "Vicki",
             title: "Vodja programa Zero to Hero",
-            src: "/images/staff_vicky.png",
+            src: "/src/assets/images/staff_vicky.png",
             description: [
               " Vicky prihaja iz Litve, zdaj pa živi v Londonu, kjer je januarja 2023 odkrila veselje in ustvarjalnost West Coast Swinga. Od raziskovanja glasbe in plesa do sprejemanja novih članov v skupnost - strastno ljubi WCS in je navdušena nad tem, kako ta neverjetna skupnost raste.",
               "Njena posebna spretnost je vključevanje novih plesalcev v skupnost, tako da se počutijo dobrodošle in samozavestne ter lažje najdejo svoje mesto v plesnem svetu. Vodila je program Zero to Hero na več dogodkih, zdaj pa svojo strokovnost prinaša na Slovenian Open.",
@@ -326,11 +339,11 @@ const si = {
           {
             names: "Sarah",
             title: "Prodajalka čevljev",
-            src: "/images/collaborators_sarah.png",
+            src: "/src/assets/images/collaborators_sarah.png",
             description: [
               "Kot plesalka je vedno opažala, da mnogi plesalci nosijo napačne čevlje. Opazila je pomanjkanje specializiranih trgovin s plesnimi čevlji na Koroškem in ljudje so se obotavljali kupovati v plesnih šolah ali prek spleta, zato se je decembra 2018 odločila za samostojno podjetniško pot in ustanovila podjetje, osredotočeno na plesne čevlje.",
               "Z veseljem ponuja nasvete glede osebnih zadev in pomoč pri iskanju idealnih plesnih čevljev za posameznike.",
-              `Prednaročilo lahko oddaš <a href="https://www.tanzschuh.at/slovenian-open" target="_blank">TUKAJ</a>.`,
+              //   `Prednaročilo lahko oddaš <a href="https://www.tanzschuh.at/slovenian-open" target="_blank">TUKAJ</a>.`,
             ],
           },
           //       {
@@ -367,36 +380,43 @@ const si = {
         {
           title: "Zero to Hero",
           descriptionText: [
-            "NEWCOMER brez WSDC točk",
-            "Če še nikoli nisi poskusil_a west coast swinga, ali pa si ga spoznal_a le na hitro, je ta nivo kot nalašč zate. Začeli bomo od čiste osnove in te pripravili, da boš lahko užival_a na svoji prvi west coast swing zabavi. Pridruži se nam in odkrij čar tega plesa!",
+            "ZAČETNIKI",
+            "Ta nivo je namenjen novim plesalcem, ki še nikoli niso poskusili West Coast Swinga ali pa so obiskali le nekaj začetnih tečajev. Začeli bomo pri popolnih osnovah in vas pripravili, da boste lahko uživali na svoji prvi WCS zabavi. Primeren je tudi za tiste, ki želijo osvojiti sekundarno vlogo.",
           ],
         },
         {
           title: "Nivo 2",
           descriptionText: [
-            "NOVICE brez WSDC točk",
-            "Osnovne ritme in koncepte west coast swing že poznaš, a se na plesišču še ne počutiš domače. Želiš si izboljšati svojo tehniko in se naučiti novih figur. Pridruži se nam na poti do plesnega uspeha!",
+            "NEWCOMER plesalci brez WSDC točk",
+            "Poznate osnovne figure, ritme in koncepte West Coast Swinga, vendar se na plesišču še ne počutite popolnoma sproščeno. Pripravljeni ste se naučiti več figur in izboljšati svojo tehniko.",
           ],
         },
         {
           title: "Nivo 3",
           descriptionText: [
-            "NOVICE z vsaj 1 Novice WSDC točko ali avdicijo",
-            "Na plesišču si suveren_a in lahko uživaš ne glede na to, s kom in na katero glasbo plešeš. Pripravljen_a si na učenje bolj zapletenih vzorcev in konceptov. Še vedno si želiš nadgraditi svojo tehniko, kot tudi svojo glasbeno izražanje in plesno povezavo.",
+            "NOVICE brez WSDC Novice točk",
+            "Pleso se že nekaj časa in ste sproščeni v socialnem plesu z večino partnerjev na večini pesmi. Pripravljeni ste nadgraditi svojo tehniko in razširiti svoj repertoar. Morda ne tekmujete, ali pa je vaš trenutni cilj doseči Novice finale.",
           ],
         },
         {
           title: "Nivo 4",
           descriptionText: [
-            "INTERMEDIATE z vsaj 16 Novice WSDC točkami ali avdicijo",
-            "Na plesišču si doma. Tvoja tehnika je dobra, pri plesu se glasbeno izražaš in z veseljem improviziraš s svojimi partnerji. Pripravljen_a si najti svoj lasten stil in raziskovati napredne koncepte.",
+            "NOVICE z vsaj 1 WSDC Novice točko ali avdicija",
+            "Sproščeno plešete s katerim koli partnerjem na katero koli glasbo in pripravljeni ste se učiti bolj kompleksnih figur in konceptov. Še vedno želite izboljšati svojo tehniko, muzikalnost in povezavo. Tekmujete in ste že na poti v Intermediate kategorijo.",
           ],
         },
         {
           title: "Nivo 5",
           descriptionText: [
-            "ADVANCED / ALL-STAR z vsaj 30 Intermediate WSDC točkami",
-            "Tekmuješ v Advanced ali All Star kategoriji. Tvoja tehnika, povezava in muzikalnost so že na najvišji ravni. Zdaj želiš izpopolniti svoje veščine kot plesalec_ka in tekmovalec_ka.",
+            "INTERMEDIATE z vsaj 1 WSDC Intermediate točko ali avdicija",
+            "Imate dobro tehniko ter močno razumevanje muzikalnosti in povezave. Pripravljeni ste razviti svoj slog in raziskovati napredne koncepte. Kot tekmovalec uspešno plešete v Intermediate kategoriji.",
+          ],
+        },
+        {
+          title: "Nivo 6",
+          descriptionText: [
+            "ADVANCED / ALL-STAR z vsaj 1 WSDC Advanced točko ali avdicija",
+            "Vaša tehnika, povezava in muzikalnost so na najvišjem nivoju. Zdaj želite izpopolniti svoje plesne in tekmovalne veščine. Pripravljeni ste na delo z zahtevnimi koncepti v hitrem in intenzivnem učnem okolju.",
           ],
         },
       ],
@@ -422,38 +442,40 @@ const si = {
           ],
         },
         {
-          question: "2. Kaj je to WSDC trial event?",
+          question: "2. Kaj je WSDC registriran dogodek?",
           answerText: [
-            "WSDC trial event, je vsaj 3-dnevni mednarodni dogodek z delavnicami, žuri in tekmovanji, ki ustreza zahtevam pravilnika WSDC in se poteguje za njihovo licenco.",
-            "WSDC mora tak dogodek vnaprej odobriti kot poskusni (trial run). V tem letu mora dogodek zadostiti vsem potrebam, ne podeljuje pa še točk. Če trial run uspe, potem WSDC za prihodnja leta temu dogodku podeli licenco. Od takrat naprej so tekmovanja točkovana.",
+            "WSDC registriran dogodek je mednarodni dogodek, ki traja najmanj tri dni ter vključuje delavnice, zabave in tekmovanja. Izpolnjevati mora zahteve WSDC pravilnika in pridobiti njihovo licenco.",
+            "Na WSDC registriranem dogodku lahko udeleženci pridobijo WSDC točke v Jack & Jill tekmovalnem stilu, ki se nato zabeležijo v WSDC sistem pod njihovo enolično WSDC ID številko.",
           ],
         },
         {
-          question: "3. Kam naj se torej prijavim?",
+          question: "3. Za kateri pass naj se prijavim?",
           answerText: [
-            "Če še nimaš WSDC ID številke in nisi še nikdar tekmoval_a, ali pa tekmuješ v kategorijah Newcomer, Novice ali Intermediate, se lahko prijaviš na delavnice v sklopu Full Pass. Te delavnice bodo potekale v soboto in nedeljo, razdeljene pa bodo na 4 nivoje:",
-            "Če si popolen začetnik_ca, ali pa si se z WCS le bežno spoznal_a in se želiš naučiti osnov, potem se lahko pridružiš našemu petkovemu programu Zero to Hero. V 4 urah boš spoznal_a osnove dovolj, da boš na petkovi zabavi gotovo lahko plesal_a.",
+            "Če želite obiskati samo zabave in tekmovanja, se prijavite na Party Pass. Ne zabave ne tekmovanja ne bodo odprta za javnost, zato je za vstop potreben Party Pass.",
+            "Če želite obiskovati tudi delavnice v petek, soboto in nedeljo, se prijavite na Full Pass. Delavnice bodo razdeljene v 5 nivojev:",
+            "Če ste popolni začetnik ali ste se z WCS srečali le bežno in se želite naučiti osnov, se lahko pridružite našemu četrtkovemu programu Zero to Hero. V 4 urah boste osvojili osnove dovolj dobro, da boste lahko plesali na četrtkovi zabavi.",
           ],
           list: [
-            "Nivo 2 ustreza stopnji Newcomer,",
-            "Nivo 3 ustreza stopnji Novice z vsaj 1 točko,",
-            "Nivo 4 ustreza stopnji Intermediate,",
-            "Nivo 5 ustreza kategoriji Advanced / All Star.",
+            "Nivo 2 - Newcomer (brez potrebnih točk),",
+            "Nivo 3 - Novice (brez potrebnih točk),",
+            "Nivo 4 - Novice (zahtevana 1 WSDC Novice točka ali avdicija),",
+            "Nivo 5 - Intermediate (zahtevana 1 WSDC Intermediate točka ali avdicija),",
+            "Nivo 6 - Advanced / All Star (zahtevana 1 WSDC Advanced točka ali avdicija),",
           ],
         },
         {
-          question: "4. Kaj napišem v polje WSDC ID ob prijavi?",
+          question: "4. Kaj vpišem v polje WSDC ID ob registraciji?",
           answerText: [
-            "Če že imaš številko WSDC ID, ki si jo pridobil_a na tekmovanju, potem jo vpiši. Na podlagi te številke bomo avtomatsko določili nivo ob prijavi.",
-            "Če številke še nimaš, pusti prazno.",
+            "Če že imate WSDC ID številko, pridobljeno na tekmovanju, jo vpišite. Na podlagi te številke bomo ob registraciji samodejno določili vaš nivo.",
+            "Če številke še nimate, polje pustite prazno.",
+            "Za nivoja 2 in 3 boste lahko izbrali svoj želeni nivo ne glede na to, ali imate WSDC ID ali ne.",
           ],
         },
         {
-          question:
-            "5. OK, kaj pa, če plešem dobro, ampak se ne udeležujem tekmovanj?",
+          question: "5. OK, kaj pa če dobro plešem, vendar ne tekmujem?",
           answerText: [
-            "Nič hudega. Če želiš sodelovati na delavnicah višjega nivoja, se lahko udeležiš avdicije, ki bo potekala pred delavnicami. Tam bodo učitelji prosili udeležence, da večkrat odplešejo z različnimi partnerji, in se na podlagi videnega znanja odločili, koga lahko sprejmejo na višji nivo. Odločitev učiteljev je dokončna, saj oni najbolje vejo, katero znanje pričakujejo za svoje delavnice.",
-            "Avdicija bo možna za nivo 3, 4 in 5. Za level 2 in Zero to Hero ni potrebna.",
+            "Nobene težave. Če želite obiskovati delavnice višjih nivojev, lahko opravite avdicijo, ki bo potekala pred delavnicami. Učitelji bodo udeležence prosili, da večkrat zaplešejo z različnimi partnerji, in glede na prikazano znanje odločili, kdo se lahko pridruži višjem nivoju. Odločitev učiteljev je dokončna, saj najbolje vedo, kakšno znanje je pričakovano za njihove delavnice.",
+            "Avdicije bodo na voljo za plesalce, ki želijo napredovati v nivoje 4, 5 in 6. Za ostale nivoje avdicije niso potrebne.",
           ],
         },
       ],
@@ -462,60 +484,75 @@ const si = {
       pageTitle: "Urnik",
       description: "To je okvirni urnik in se bo verjetno še kaj spremenil.",
       downloadText: "Prenesi .pdf datoteko.",
-      pdfSrc: "/files/schedule_v5.pdf",
-      pngSrc: "/images/schedule_v5.jpg",
+      pdfSrc: "/src/assets/files/schedule_v1.pdf",
+      pngSrc: "/src/assets/images/schedule_v1.jpg",
     },
     pricing: {
       pageTitle: "Cenik",
       description: [
-        "Ponujamo dva tipa vikend vstopnic: Full Pass in Party Pass. Full Pass vključuje vse delavnice za vašo dodeljeno raven, dostop do tekmovanj in zabav. Party Pass vključuje le dostop do tekmovanj in zabav. Udeležba na tekmovanjih je dodatno zaračunana.",
-        "Za naše nove westije ponujamo enodnevni program Zero to Hero, kjer vas bodo svetovni inštruktorji spoznali z west coast swingom v pospešenem tempu. Poleg delavnic bodo potekale še druge družabne aktivnosti, ki vam bodo pomagale pri vključevanju v obstoječo skupnost. Svoj Zero to Hero Pass lahko nadgradite v Party Pass ob prijavi ali na dogodku.",
-        "Cenovni razredi bodo določeni glede na število sprejetih prijav. Prijavnina mora biti poravnana v 14 dneh od sprejetja, sicer si pridržujemo pravico, da odpovemo vašo prijavo in ponudimo vaše mesto nekomu drugemu.",
+        "Ponudili bomo dve vrsti vikend passov: Full Pass in Party Pass. Full Pass vključuje vse delavnice za vaš dodeljeni nivo, vse ALL LEVEL delavnice ter dostop do tekmovanj in zabav. Party Pass vključuje samo dostop do tekmovanj in zabav. Udeležba na tekmovanjih je predmet dodatnih pristojbin.",
+        "Za naše nove westije ponujamo pol-dnevni program Zero to Hero, kjer vas bodo vrhunski inštruktorji pospešeno uvedli v west coast swing. Poleg delavnic bomo pripravili tudi druge družabne aktivnosti, ki vam bodo pomagale vključiti se v obstoječo skupnost. Zero to Hero Pass lahko nadgradite v Party Pass ob prijavi ali na kraju dogodka.",
+        "Poleg tega letos v program dodajamo tri različne intenzive v petkovem dopoldnevu. Za udeležbo na intenzivih morate imeti tudi vikend pass. Vsak intenziv traja 3 ure in je usmerjen v določeno temo. Ker bodo časovno potekali hkrati, se lahko udeležite le enega intenziva.",
+        "Cenovni razredi bodo določeni glede na število sprejetih prijav. Kotizacijo je treba poravnati v 14 dneh od potrditve, sicer si pridržujemo pravico, da vašo prijavo prekličemo in mesto ponudimo nekomu drugemu. V tem primeru se lahko ponovno prijavite, vendar boste podvrženi trenutnemu cenovnemu razredu in razpoložljivosti.",
       ],
       passPrices: [
         {
           type: "",
-          tiers: ["Zgodnja cena", "Običajna cena", "Pozna cena"],
+          tiers: ["Zgodnja cena", "Srednja cena", "Zadnja cena"],
           includes: ["VKLJUČUJE"],
-          descriptions: [
-            "prvih 40 Full pass + 10 Party pass + 10 Zero to Hero vstopnic",
-            "naslednjih 80 Full pass + 20 Party pass + 10 Zero to Hero vstopnic",
-            "do razprodaje",
-          ],
-          //   dates: [
-          //     { from: "2023-11-07", to: "2023-11-08" },
-          //     { from: "2023-11-08", to: "2023-12-11" },
-          //     { from: "2023-12-11", to: "2024-02-19" },
-          //     { from: "2024-02-19", to: "2024-04-22" },
-          //   ],
         },
         {
           type: "Full Pass",
-          tiers: ["140", "150", "160"],
+          tiers: ["150", "160", "170"],
           includes: [
-            "6 ur delavnic - nivo 2/3/4/5",
+            "6 ur delavnic - nivo 2/3/4/5/6",
+            "vstop na petkovo, sobotno in nedeljsko zabavo",
             "vstop med tekmovanji",
-            "vstop na zabave v četrtek*, petek, soboto in nedeljo",
+          ],
+          descriptions: [
+            "prvih 40 passov",
+            "naslednjih 80 passov",
+            "do razprodaje",
           ],
         },
         {
           type: "Party Pass",
-          tiers: ["100", "110", "120"],
+          tiers: ["110", "120", "130"],
           includes: [
-            "",
+            "BREZ delavnic",
+            "vstop na petkovo, sobotno in nedeljsko zabavo",
             "vstop med tekmovanji",
-            "vstop na zabave v četrtek*, petek, soboto in nedeljo",
+          ],
+          descriptions: [
+            "prvih 40 passov",
+            "naslednjih 60 passov",
+            "do razprodaje",
           ],
           extraText:
-            "Brezplačno za vse plesalce, ki tekmujejo v kategoriji All Star v zameno za pomoč pri sojenju tekmovanj! Prijava obvezna zaradi uravnoteženja vlog.",
+            "Brezplačno za prvih 7 leaderjev in 7 followerjev v All Star kategoriji v zameno za pomoč pri sojenju. Prijava je še vedno potrebna zaradi uravnoteženosti vlog. Možna nadgradnja v Full Pass.",
         },
         {
           type: "Zero to Hero",
           tiers: ["50", "60", "70"],
           includes: [
-            "4 ure delavnic - nivo 1",
+            "4 delavnice v četrtek - nivo 1",
+            "vstop na četrtkovo zabavo",
             "",
-            "vstopnina na petkovo zabavo",
+          ],
+          descriptions: [
+            "prvih 10 passov",
+            "naslednjih 10 passov",
+            "do razprodaje",
+          ],
+        },
+        {
+          type: "Intensives",
+          tiers: ["50", "60", "70"],
+          includes: ["3-urni intenzivni program v petkovem dopoldnevu", "", ""],
+          descriptions: [
+            "prvih 20 passov",
+            "naslednjih 20 passov",
+            "do razprodaje",
           ],
         },
       ],
@@ -544,7 +581,7 @@ const si = {
         description: [
           "Festival bo potekal v Austria Trend Hotelu za Bežigradom. Hotel nudi moderne sobe, prijazno osebje in odlično lokacijo, vse to le lučaj stran od živahnega starega mestnega jedra.",
           "Dvoposteljno sobo v hotelu lahko rezerviraš po znižani ceni. Vsaka soba nudi sodobne ugodnosti, ki zagotavljajo udobno in prijetno bivanje med dogodkom.",
-          "Med dogodkom Slovenian Open ponujajo 2 vrsti sob po znižani ceni. Cene sob na noč, veljavne od 8. do 15. aprila, so:",
+          "Med dogodkom Slovenian Open ponujajo 2 vrsti sob po znižani ceni. Cene sob na noč, veljavne od 21. do 28. aprila, so:",
         ],
         roomTypes: [
           {
@@ -553,11 +590,13 @@ const si = {
             prices: [
               {
                 occupancy: "nastanitev ene osebe",
-                price: "80 € / 104 € s zajtrkom",
+                price:
+                  "83 € samo soba / 107 € z zajtrkom / 139 € s polpenzionom",
               },
               {
                 occupancy: "nastanitev dveh oseb",
-                price: "85 € / 128 € s zajtrkom",
+                price:
+                  "88 € samo soba / 131 € z zajtrkom / 171 € s polpenzionom",
               },
             ],
           },
@@ -567,17 +606,19 @@ const si = {
             prices: [
               {
                 occupancy: "nastanitev ene osebe",
-                price: "105 € / 130 € s zajtrkom",
+                price:
+                  "108 € samo soba / 132 € z zajtrkom / 164 € s polpenzionom",
               },
               {
                 occupancy: "nastanitev dveh oseb",
-                price: "110 € / 153 € s zajtrkom",
+                price:
+                  "113 € samo soba / 156 € z zajtrkom / 196 € s polpenzionom",
               },
             ],
           },
         ],
         booking: {
-          text: "Povezavo za rezervacijo sob bomo poslali po mejlu ob sprejetju prijave.",
+          text: "Povezavo za rezervacijo sob bomo poslali po mejlu po sprejetju prijave.",
           //   links: [
           //     {
           //       roomType: "rezerviraj sobo z zajtrkom",
@@ -591,7 +632,7 @@ const si = {
         },
         links: {
           mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
-          mapSrc: "/images/location_hotel_map.png",
+          mapSrc: "/src/assets/images/location_hotel_map.png",
         },
         address: {
           addressText: "Naslov",
@@ -608,14 +649,14 @@ const si = {
       {
         pageTitle: "Predvečer",
         disclaimer:
-          "Čeprav je vstopnina za predvečer vključena v Full pass in Party pass, se moraš zanj posebej prijaviti preko svoje profilne strani. Prostor na predvečeru je zelo omejen zaradi varnostnih predpisov dvorane, zato ne moremo sprejeti vseh prijav.",
+          'Predzabava je vključena v Zero to Hero pass, NI pa vključena v Full ali Party pass. Glede na število prodanih vstopnic jo bomo morda odprli ali pa ne.<br />Vstopnina za predzabavo je <span class="bold">10 evrov</span>, če jo kupite ob registraciji, ali <span class="bold">15 evrov</span> na vhodu.',
         description: [
           "Ljubljanski Grad, ki leži na hribu s čudovitim razgledom na mesto pod njim, je pomembna zgodovinska znamenitost slovenske prestolnice. Grad, ki sega v 11. stoletje, združuje stoletja bogate zgodovine znotraj svojega starodavnega obzidja. Danes deluje kot živahno kulturno središče, ki obiskovalcem ponuja osupljive panorame, privlačne razstave in prepoznavna prizorišča dogodkov, kot je očarljiva plesna dvorana Palacij, kjer bo v četrtek od 20.00 do 3.00 potekal naš predvečer.",
           "Če prispeš predčasno, lahko izkoristiš priložnost za raziskovanje Gradu. Lahko se povzpneš na Grajski stolp za panoramski razgled ali si privoščiš večerjo in pijačo v restavraciji ali baru.",
         ],
         links: {
           mapHref: "https://maps.app.goo.gl/4fiDjE4WWUEXvWEz8",
-          mapSrc: "/images/location_castle_map.png",
+          mapSrc: "/src/assets/images/location_castle_map.png",
         },
         address: {
           addressText: "Naslov",
@@ -632,42 +673,47 @@ const si = {
   },
   dayTrip: {
     pageTitle: "Četrtkov izlet",
+    disclaimer:
+      'Letos nas bo četrtkov enodnevni izlet popeljal do osupljivega Blejskega jezera. Več o programu si lahko preberete <a href="day-trip">tukaj</a>.<br />Cena tega nepozabnega izleta je <span class="bold">65 EUR</span> na osebo, kar vključuje prevoz, kosilo, vodnike in vstopnine.',
     description: [
       {
-        src: "/images/day_trip_tolmin_gorges.png",
-        alt: "Tolminska korita img",
+        src: "/src/assets/images/day_trip_bled_castle.png",
+        alt: "Slika Blejskega gradu",
         texts: [
-          "Pridruži se nam na nepozabnem enodnevnem izletu v osupljivo dolino Soče, ki skriva nekaj najlepših naravnih zakladov Slovenije. Letos bomo obiskali Tolminska korita, skriti dragulj, znan po turkizni vodi, dramatičnih skalnih formacijah in bujnem zelenju.",
-          "Naša vodena tura nas bo popeljala skozi ozko sotesko, ki sta jo izoblikovali reki Tolminka in Zadlaščica. Ogledali si bomo edinstvene geološke formacije, kot so Medvedova glava, Hudičev most in Dantejeva jama, poimenovana po slovitem pesniku, ki naj bi prav tu našel navdih za Pekel. Ob poti bomo spoznali edinstven ekosistem doline in njeno bogato zgodovino.",
+          "Pridružite se nam na nepozabnem enodnevnem izletu, kjer bomo raziskovali osupljivo Blejsko jezero.",
+          "Blejsko jezero v osrčju Julijskih Alp je pravi dragulj Slovenije, znan po kristalno čisti vodi, slikoviti cerkvici na otoku in srednjeveškem gradu, ki stoji na pečini visoko nad jezerom.",
+          "Najprej bomo obiskali Blejski grad, kjer boste lahko uživali v panoramskih razgledih na jezero in okoliške gore. Grad ima tudi muzej, ki prikazuje bogato zgodovino in kulturo regije. Po ogledu gradu se bomo spustili do jezera in odšli na kosilo.",
         ],
       },
       {
-        src: "/images/day_trip_most_na_soci.png",
-        alt: "Most na Soči img",
+        src: "/src/assets/images/day_trip_bled_lake.png",
+        alt: "Slika Blejskega jezera",
         texts: [
-          "Po raziskovanju korit se bomo odpravili v Most na Soči, slikovito mestece ob jezeru, kjer se smaragdna reka Soča združi z Idrijco. Tukaj bomo imeli kosilo in nekaj prostega časa, da uživamo v mirnem vzdušju, se sprehodimo ob vodi ali preprosto posedimo ob kavi in občudujemo razgled. Možno je tudi kopanje, čeprav zna biti voda precej hladna.",
-          "Čeprav se lahko urnik še spremeni, bo naš dan približno takšen:",
+          "Ker je ob jezeru veliko zanimivih aktivnosti, bomo imeli dovolj prostega časa za samostojno raziskovanje – lahko se boste sprehodili ob obali, najeli tradicionalno »pletno« za obisk otoka in pozvonili na znamenitem zvonu želja ali pa preprosto uživali ob vodi in si privoščili kos odlične blejske kremšnite.",
+          "Približen potek dneva:",
         ],
         itinerary: [
-          ["9:00 am:", "Odhod iz Ljubljane."],
-          ["11:00 am:", "Prihod in vodeni ogled Tolminskih korit."],
-          ["13:15 pm:", "Odhod proti Mostu na Soči."],
-          ["13:30 pm:", "Kosilo in prosti čas ob jezeru."],
-          ["18:00 pm:", "Povratek v Ljubljano."],
+          ["9:00:", "Odhod iz hotela Austria Trend v Ljubljani."],
+          ["10:00:", "Prihod in voden ogled Blejskega gradu."],
+          ["12:00:", "Spust do jezera."],
+          ["12:30:", "Kosilo."],
+          ["13:30:", "Prosti čas ob jezeru."],
+          ["16:00:", "Odhod z Bleda."],
+          ["17:00:", "Vrnitev v hotel Austria Trend v Ljubljani."],
         ],
       },
       {
         texts: [
-          "Cena tega nepozabnega izleta je 55 EUR na osebo in vključuje prevoz, vodnike in vstopnine.",
-          "Število mest na avtobusu je omejeno, zato je prijava (ki se kmalu odpre!) potrebna za zagotovitev mesta. Pridržujemo si pravico do večjih sprememb izleta ali do njegove odpovedi iz kakršnegakoli razloga. V primeru odpovedi z naše strani bodo vsa plačila povrnjena, v primeru odpovedi s strani udeleženca pa vračilo ni mogoče.",
-          "Četrtkov izlet je tradicija, ki nam je zelo pri srcu - vsako leto izberemo drugo lokacijo, da se naši udeleženci lahko povežejo in spoznajo lepote Slovenije tudi zunaj plesne dvorane. Ne zamudi te priložnosti za odkrivanje ene najlepših pokrajin v Sloveniji!",
+          "Cena tega nepozabnega izleta je 65 EUR na osebo, kar vključuje prevoz, kosilo, vodenje in vstopnine. Vse aktivnosti, ki jih izberete med prostim časom (najem čolna, sladice ipd.), so na lastne stroške.",
+          "Prosimo upoštevajte, da je število mest na avtobusu zelo omejeno, zato je obvezna prijava za zagotovitev mesta. Pridržujemo si pravico do spremembe večjih delov programa ali popolne odpovedi izleta iz kakršnegakoli razloga. V primeru odpovedi z naše strani bodo vsa plačila povrnjena; v primeru odpovedi s strani udeleženca vračilo ni mogoče.",
+          "Ta izlet je tradicija, ki jo obožujemo – vsako leto raziskujemo drug del Slovenije, da se lahko udeleženci povežejo in doživijo lepote države tudi izven plesišča. Ne zamudite te priložnosti za odkrivanje ene najlepših slovenskih regij!",
         ],
       },
     ],
   },
   registration: {
     pageTitle: "Registracija",
-    opensSoonText: "Registracija se odpre 25. novembra 2024 ob 18:00",
+    opensSoonText: "Prijave se odprejo konec novembra",
     registrationInfoTexts: {
       pleaseReadText: "Pred registracijo si pozorno preberi:",
       links: [
@@ -723,13 +769,13 @@ const si = {
           "Na zabavah boš aktivno plesal_a kot leader in kot follower v približno enakem razmerju.",
         ],
         postText:
-          "Udeležencem, ki se prijavijo kot switch, NI dovoljeno dodati partnerja.",
+          "Udeležencem, ki se prijavijo kot switch, NI dovoljeno dodati partnerja. To polje ob registraciji ne bo upoštevano.",
       },
       {
         title: "Registracija z brezplačno vstopnico",
         preTexts: [
           "Če imaš brezplačno vstopnico za dogodek, čestitamo!",
-          "V polje za komentar napiši:",
+          'V polje "Comment" napiši:',
         ],
         textsList: [
           "katero vrsto vstopnice (full pass ali party pass) imaš,",
@@ -739,6 +785,14 @@ const si = {
           "Imetnikom brezplačnih vstopnic NI dovoljeno dodati partnerja k prijavi.",
       },
     ],
+  },
+  comps: {
+    pageTitle: "Tekmovanja",
+    disclaimer: `Več o pravilih tekmovanja si lahko preberete <a href="competition-rules">tukaj</a>. Udeležba na tekmovanjih je povezana z dodatno pristojbino <span class="bold">15 evrov</span> na tekmovanje, ki jo poravnate na kraju samem. Prijave na tekmovanja se bodo odprle aprila preko scoring.dance.`,
+  },
+  merch: {
+    pageTitle: "Merchandise",
+    disclaimer: `Pokažite svojo ljubezen do west coast swinga in Slovenian Opena z našim ekskluzivnim merchom! Letos bo kolekcija vključevala nov dizajn na različnih majicah. Cena posamezne majice je <span class="bold">15 evrov</span>, če jo kupite ob registraciji, ali <span class="bold">20 evrov</span>, če jo kupite med dogodkom.<br />Upoštevajte, da dodatnih izdelkov ne bomo naročili veliko, zato priporočamo prednaročilo med registracijo, da si zagotovite svojo majico.`,
   },
   notFound: {
     pageTitle: "Stran ne obstaja",
@@ -785,8 +839,8 @@ const si = {
           value:
             "V primeru odpovedi s strani udeleženca ponujamo povračilo plačila pod naslednjimi pogoji:",
           list: [
-            "Za odpovedi, prejete do vključno 9. februarja 2025, bo povrnjenih 50 % prejetega plačila.",
-            "Za odpovedi, prejete od 10. februarja 2025 naprej, vračilo ni mogoče.",
+            "Za odpovedi, prejete do vključno 15. februarja 2026, bo povrnjenih 50% prejetega plačila.",
+            "Za odpovedi, prejete od 16. februarja 2026 naprej, vračilo ni mogoče.",
           ],
         },
         {
@@ -1297,7 +1351,7 @@ const si = {
       noAddOnsAvailable: "Ni razpoložljivih dodatkov.",
       dayTrip: {
         title: "Četrtkov izlet",
-        info: "Cena izleta je 55 EUR na osebo, plačilo je potrebno poravnati v roku 7 dni po potrditvi. Več informacij o izletu najdeš na spletni strani. Število mest je zelo omejeno.",
+        info: "Cena izleta je 65 EUR na osebo, plačilo je potrebno poravnati v roku 7 dni po potrditvi. Več informacij o izletu najdeš na spletni strani. Število mest je zelo omejeno.",
       },
       competitions: {
         title: "Tekmovanja",

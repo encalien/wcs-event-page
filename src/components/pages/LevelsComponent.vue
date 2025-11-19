@@ -13,7 +13,7 @@ export default {
 <template>
   <section>
     <h1>{{ $t("workshops.levels.pageTitle") }}</h1>
-    <h2>
+    <h2 class="center-text">
       <router-link :to="`/${$store.state.lang}/workshops/wsdc`">
         {{ $t("workshops.wsdc.pageTitle") }}
       </router-link>

@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-  <section>
+  <section id="schedule">
     <h1>{{ $t("workshops.schedule.pageTitle") }}</h1>
     <p>{{ $t("workshops.schedule.description") }}</p>
 
@@ -28,6 +28,10 @@ export default {
 </template>
 
 <style scoped>
+#schedule {
+  padding: 0 1rem;
+}
+
 img {
   display: block;
   width: 100%;

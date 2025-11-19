@@ -48,7 +48,8 @@ h3 {
   margin-top: 1.5rem;
 }
 
-p {
+p,
+address {
   margin-bottom: 1rem;
 }
 

@@ -30,7 +30,7 @@ export default {
 </script>
 
 <template>
-  <section>
+  <section id="pricing">
     <h1>{{ $t("workshops.pricing.pageTitle") }}</h1>
     <p v-for="(val, i) in messages.workshops.pricing.description" :key="`${i}`">
       {{ $t(`workshops.pricing.description[${i}]`) }}
@@ -57,16 +57,16 @@ export default {
             class="mobile-only grid-center"
             :class="{ 'not-mobile': i === 0 }"
           >
-            {{ $t(`workshops.pricing.passPrices[0].tiers[${j}]`) }} <br />
-            <small>{{
-              $t(`workshops.pricing.passPrices[0].descriptions[${j}]`)
-            }}</small>
+            <small></small>
+            <br />
+            {{ $t(`workshops.pricing.passPrices[0].tiers[${j}]`) }}
           </span>
           <span class="grid-center" :class="{ 'not-mobile': i === 0 }">
-            {{ $t(`workshops.pricing.passPrices[${i}].tiers[${j}]`) }} <br />
-            <small v-if="i === 0">{{
+            <small v-if="i !== 0">{{
               $t(`workshops.pricing.passPrices[${i}].descriptions[${j}]`)
             }}</small>
+            <br />
+            {{ $t(`workshops.pricing.passPrices[${i}].tiers[${j}]`) }}
           </span>
         </div>
         <!-- Pass info -->
@@ -96,8 +96,22 @@ export default {
         </span>
       </div>
     </div>
-    <br />
-    <div class="bold">* {{ $t(`location.venue[1].disclaimer`) }}</div>
+  </section>
+  <section>
+    <h2>{{ $t(`location.venue[1].pageTitle`) }}</h2>
+    <div v-html="$t(`location.venue[1].disclaimer`)"></div>
+  </section>
+  <section>
+    <h2>{{ $t(`dayTrip.pageTitle`) }}</h2>
+    <div v-html="$t(`dayTrip.disclaimer`)"></div>
+  </section>
+  <section>
+    <h2>{{ $t(`comps.pageTitle`) }}</h2>
+    <div v-html="$t(`comps.disclaimer`)"></div>
+  </section>
+  <section>
+    <h2>{{ $t(`merch.pageTitle`) }}</h2>
+    <div v-html="$t(`merch.disclaimer`)"></div>
   </section>
   <!-- <section>
     <h2>{{ $t("workshops.pricing.groups.title") }}</h2>
@@ -121,23 +135,19 @@ export default {
       </li>
     </ul>
   </section> -->
-  <section>
-    <span
-      >{{ $t("registration.registrationInfoTexts.pleaseReadText") }}&nbsp;</span
-    >
-    <router-link :to="`/${$store.state.lang}/terms-and-conditions`">
-      {{ $t("termsAndConditions.pageTitle") }} </router-link
-    >.
-  </section>
 </template>
 
 <style scoped>
+#pricing {
+  padding: 0 1rem;
+}
+
 #passPrices h3 {
   margin: 0;
 }
 
 .grid-container {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
   margin: -0.5rem;
   align-items: start;
   padding: 2rem 0;

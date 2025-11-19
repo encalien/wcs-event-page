@@ -14,53 +14,52 @@ export default {
 <template>
   <section id="venue" v-if="venueIndex != null">
     <h1>{{ $t(`location.venue[${venueIndex}].pageTitle`) }}</h1>
-    <h2
-      v-if="messages.location.venue[venueIndex].disclaimer"
-      class="important bold"
-    >
-      {{ $t(`location.venue[${venueIndex}].disclaimer`) }}
-    </h2>
-    <div id="hotel-info">
-      <h3>{{ $t(`location.venue[${venueIndex}].address.name`) }}</h3>
+    <div class="flex-container flex-container-column">
       <p
-        v-for="(p, i) in messages.location.venue[venueIndex].description"
-        :key="`${i}`"
-      >
-        {{ $t(`location.venue[${venueIndex}].description[${i}]`) }}
-      </p>
-      <div v-if="messages.location.venue[venueIndex].roomTypes">
-        <div
-          v-for="(type, i) in messages.location.venue[venueIndex].roomTypes"
+        v-if="messages.location.venue[venueIndex].disclaimer"
+        v-html="$t(`location.venue[${venueIndex}].disclaimer`)"
+      ></p>
+      <div id="hotel-info">
+        <h3>{{ $t(`location.venue[${venueIndex}].address.name`) }}</h3>
+        <p
+          v-for="(p, i) in messages.location.venue[venueIndex].description"
           :key="`${i}`"
         >
-          <div>
-            <span class="important">{{
-              $t(`location.venue[${venueIndex}].roomTypes[${i}].type`)
-            }}</span>
-            - {{ $t(`location.venue[${venueIndex}].roomTypes[${i}].beds`) }}
-            <ul>
-              <li v-for="(price, j) in type.prices" :key="`${j}`">
-                {{
-                  $t(
-                    `location.venue[${venueIndex}].roomTypes[${i}].prices[${j}].occupancy`
-                  )
-                }}:
-                <span class="important">
+          {{ $t(`location.venue[${venueIndex}].description[${i}]`) }}
+        </p>
+        <div v-if="messages.location.venue[venueIndex].roomTypes">
+          <div
+            v-for="(type, i) in messages.location.venue[venueIndex].roomTypes"
+            :key="`${i}`"
+          >
+            <div>
+              <span class="important">{{
+                $t(`location.venue[${venueIndex}].roomTypes[${i}].type`)
+              }}</span>
+              - {{ $t(`location.venue[${venueIndex}].roomTypes[${i}].beds`) }}
+              <ul>
+                <li v-for="(price, j) in type.prices" :key="`${j}`">
                   {{
                     $t(
-                      `location.venue[${venueIndex}].roomTypes[${i}].prices[${j}].price`
+                      `location.venue[${venueIndex}].roomTypes[${i}].prices[${j}].occupancy`
                     )
-                  }}</span
-                >
-              </li>
-            </ul>
+                  }}:
+                  <span class="important">
+                    {{
+                      $t(
+                        `location.venue[${venueIndex}].roomTypes[${i}].prices[${j}].price`
+                      )
+                    }}</span
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-      <div v-if="messages.location.venue[venueIndex].booking">
-        <div>
-          {{ $t(`location.venue[${venueIndex}].booking.text`) }}
-          <!-- <ul>
+        <div v-if="messages.location.venue[venueIndex].booking">
+          <div>
+            {{ $t(`location.venue[${venueIndex}].booking.text`) }}
+            <!-- <ul>
             <li
               v-for="(link, i) in messages.location.venue[venueIndex].booking
                 ?.links"
@@ -79,19 +78,20 @@ export default {
               >
             </li>
           </ul> -->
+          </div>
         </div>
       </div>
     </div>
     <div class="flex-container flex-gap">
       <div class="flex-item left">
         <h3>{{ $t(`location.venue[${venueIndex}].address.addressText`) }}</h3>
-        <p class="flex-container flex-container-column">
-          <span>{{ $t(`location.venue[${venueIndex}].address.name`) }}</span>
-          <span>{{ $t(`location.venue[${venueIndex}].address.address`) }}</span>
-          <span>{{
-            $t(`location.venue[${venueIndex}].address.zipAndCity`)
-          }}</span>
-        </p>
+        <address>
+          <div>{{ $t(`location.venue[${venueIndex}].address.name`) }}</div>
+          <div>{{ $t(`location.venue[${venueIndex}].address.address`) }}</div>
+          <div>
+            {{ $t(`location.venue[${venueIndex}].address.zipAndCity`) }}
+          </div>
+        </address>
         <p
           v-for="(p, i) in messages.location.venue[venueIndex].address.access"
           :key="`${i}`"
@@ -132,10 +132,6 @@ ul {
   margin-bottom: 1rem;
 }
 
-#hotel-info {
-  margin: 3rem 0;
-}
-
 .important {
   color: var(--black);
 }
@@ -146,7 +142,7 @@ ul {
 
 .flex-container .flex-item {
   width: 100%;
-  flex: 0 1 content;
+  flex: 1 1 auto;
 }
 
 .flex-item.left {
@@ -161,5 +157,6 @@ ul {
 
 .flex-container-column {
   align-items: flex-start;
+  gap: 0;
 }
 </style>

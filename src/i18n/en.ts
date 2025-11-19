@@ -16,6 +16,7 @@ const en = {
           "Savana Barreau & João Parada",
           "Andrea Pártos & Attila Pártos",
           "Evgenia Itkina & Clement Turpain",
+          "Raushaniya Maksudova & Mackenzie Sharp",
         ],
       },
       {
@@ -25,7 +26,9 @@ const en = {
         list: [
           "4 amazing parties",
           "3 days of leveled workshops",
+          "3 intensive tracks",
           "WSDC Jack & Jill competitions",
+          "Zero to Hero program for beginners",
         ],
       },
       {
@@ -33,9 +36,11 @@ const en = {
         intro: "the hidden treasures of Slovenia and Ljubljana",
         href: "location/slovenia",
         list: [
-          "Historic charm of the Old Town",
-          "Green capital of Europe",
-          "Close to the Alps and the sea",
+          "scenic views from Ljubljana Castle",
+          "historic charm of Ljubljana Old Town",
+          "picturesque walks along the river",
+          "Slovenia's fairytale landscapes",
+          "breathtaking beauty of Lake Bled",
         ],
       },
     ],
@@ -61,9 +66,9 @@ const en = {
       // ],
       yt: [
         {
-          name: "Ludovic Pelegrin & Karin Kakun - Strictly Open Finals - Budafest 2022",
-          src: "https://img.youtube.com/vi/8vgxDAinHEM/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=8vgxDAinHEM",
+          name: "FOWCS 2025 - CLASSIC - Raushaniya MAKSUDOVA & Mackenzie SHARP",
+          src: "https://img.youtube.com/vi/S6J0t0BxPmM/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=S6J0t0BxPmM",
         },
         {
           name: "João Parada & Savana Barreau - Classic The Open 2022",
@@ -71,14 +76,14 @@ const en = {
           href: "https://www.youtube.com/watch?v=Kt25_VQ9dCg",
         },
         {
-          name: "Attila Pártos & Andrea Pártos - 3rd place Strictly Open - D-TownSwing 2016",
-          src: "https://img.youtube.com/vi/zPPV9eIQnOk/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=zPPV9eIQnOk",
+          name: '"Dynamite" Mackenzie Sharp & Raushaniya Maksudova - 1st place All-Star SS Finals KoreanOpenWCS 2024',
+          src: "https://img.youtube.com/vi/Nb1oLfM_8c0/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=Nb1oLfM_8c0",
         },
         {
-          name: "FOWCS 2022 - STRICTLY ADVANCED / ALL-STARS - Savana BARREAU & Joao PARADA - 1st place",
-          src: "https://img.youtube.com/vi/waxKAtfhEBc/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=waxKAtfhEBc",
+          name: "Clement Turpain & Evgenia Itkina - 3rd place Showcase Routines Finals - Bavarian Open 2025",
+          src: "https://img.youtube.com/vi/62XjOeTLoHM/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=62XjOeTLoHM",
         },
         {
           name: 'Attila Pártos & Andrea Pártos "Hol Van Az A Lány" - ProIntro - Westie Spring Thing 2022',
@@ -101,18 +106,17 @@ const en = {
         people: [
           {
             names: "Karin & Ludovic",
-            src: "/images/teachers_karin_ludo.jpg",
+            src: "/src/assets/images/teachers_karin_ludovic.png",
             description: [
               "Karin Kakun has been dancing her entire life. Holding a university degree in dance, she has taught for over 14 years. She teaches WCS, Hip-Hop, Stretching, and Pole dance. She also choreographs and performs. Before embracing WCS, she was the Israeli salsa champion.",
               "She embarked on her WCS journey in 2014 and from the first moment she fell in love. She now competes in the Champion division and teaches in Israel, where she directs a line of West Coast Swing classes. She actively travels and teaches all around Europe.",
-              "Ludovic Pelegrin started dancing at 10, when he learned rock'n'roll. His innovative and diversified dance background encompasses styles like Lindy-Hop, Balboa, Charleston, Acrobatic rock'n'roll, Salsa, Boogie Woogie, and Tap dancing. He's been a Rock and Roll, Lindy Hop, and Charleston instructor since 2009.",
-              "His fondness for Swing led him to WCS in 2010. With growing enthusiasm, he attended overseas workshops, learning from all the best instructors. He also participates in many competitions, where he regularly places in the Top 3.",
-              "Driven by the desire to share his passion and help others discover WCS, he started teaching WCS in 2011. After contributing to spread WCS within France, he now conducts workshops all across Europe. His diverse dance skills have earned him a reputation for amazing musical knowledge, structured and concise teaching, and great generosity.",
+              "Ludovic Pelegrin started dancing at 10, when he learned rock'n'roll. His innovative and Ludovic Pelegrin started dancing at 10, beginning with rock'n'roll. His innovative and diverse background spans Lindy-Hop, Balboa, Charleston, Acrobatic Rock'n'Roll, Salsa, Boogie Woogie, and Tap. He has taught Rock'n'Roll, Lindy Hop, and Charleston since 2009. His love for Swing eventually led him to West Coast Swing in 2010, and with growing enthusiasm he trained with top international instructors and competed widely, regularly placing in the Top 3.",
+              "Driven by the desire to share his passion, Ludovic began teaching WCS in 2011. After helping spread the dance throughout France, he now teaches workshops across Europe. His diverse dance foundation has earned him a reputation for exceptional musicality, clear and structured instruction, and a generous, encouraging teaching style.",
             ],
           },
           {
             names: "Savana & João",
-            src: "/images/teachers_savana_joao.jpg",
+            src: "/src/assets/images/teachers_savana_joao.png",
             description: [
               "Savana began jazz dancing at age 4 and has been devoted ever since. Passionate about dance in general, she has trained in solo, contemporary, classical, and hip hop. She's competed extensively, securing both regional and national prizes, and joined a conservatory during her high school years.",
               "She ventured into rock dance at age 7, swiftly moving on to salsa and, later, West Coast Swing. Very young, she was given the opportunity to teach, where she found joy in connecting and sharing with students. After high school, she chose to specialize in WCS and relocated to Switzerland, where she now lives and works at Jang Widler's dance school.",
@@ -122,7 +126,7 @@ const en = {
           },
           {
             names: "Andrea & Attila",
-            src: "/images/teachers_andrea_attila.png",
+            src: "/src/assets/images/teachers_andrea_attila.png",
             description: [
               "Attila and Andrea began their dance career as ballroom dancers. They taught latin and standard dances for many years. After a successful fifteen-year stint, in the possession of numerous championship titles, they chose to take a step back from their active careers following the birth of their first child.",
               "They were never able to part from dancing completely, always yearning to be back on the dancefloor.In 2013, they encountered West Coast Swing and soon became addicted to the genre. Recognising the distinct differences between ballroom and West Coast Swing, this dance became their passion, mostly because of its endless possibilities and freedom. They were unable to let competing go either, so after some years of competing, they both made it to the prestigious All - Star category.",
@@ -131,140 +135,149 @@ const en = {
           },
           {
             names: "Evgenia & Clement",
-            src: "/images/teachers_evgenia_clement.jpg",
+            src: "/src/assets/images/teachers_evgenia_clement.png",
             description: [
               "Clevi - Clem & Evi - are two passionate West Coast Swing dancers based in Berlin. With a decade of experience each, they have joined forces to teach and dance together. Clement, an All-Star Division leader and an Advanced Division follower, brings a unique sense of musicality and creativity to the dance floor with his decade of musical studies and his background in solo dances like Ballet, Hip-Hop, and Contemporary.",
               "Evi, an All-Star Division follower with a professional contemporary dance background and experience in Ballet, Jazz, and Modern dance, adds her unique flavor to WCS.",
               "Clem & Evi love communication and connection in WCS, which allow them to co-create and express the music both as individual dancers and as a couple. They also love choreographies and achieved a 5th place in the Rising Star division at the Open 2023, as well as a 1st place at Global Grand Prix 2023 and French Open 2024.",
             ],
           },
-        ],
-      },
-      {
-        pageTitle: "DJs",
-        people: [
           {
-            names: "Ken",
-            title: "Head DJ",
-            src: "/images/djs_ken.png",
+            names: "Raushaniya & Mackenzie",
+            src: "/src/assets/images/teachers_raushaniya_mackenzie.png",
             description: [
-              "Ken, also known as DJKendyshop, is a West Coast Swing DJ who began his journey in 2018. He quickly gained a reputation for his ability to energize dance floors at both small local events and large WSDC events such as Budafest, Anchor Festival, Baltic Swing, and Swing it like it's hot. Ken's style leans towards complex and exciting music, drawing inspiration from EDM and Dubstep to create a unique and dynamic sound that keeps dancers moving.",
-              "His favorite songs to dance to right now are:",
-            ],
-            songList: [
-              "Forgive Me - Sofi Tucker",
-              "Whisper - Able Heart",
-              "Fake - The Tech Thieves",
-            ],
-          },
-          {
-            names: "Patrice",
-            title: "Sound Tech Support & DJ",
-            src: "/images/djs_patrice.png",
-            description: [
-              "Starting his DJ career 5 years ago at parties with a mix of dance styles, he was captivated by the art of creating an atmospheric evening encompassing various genres. Now, he increasingly finds himself behind the decks at West Coast Swing parties, where he continues to excite dancers by blending a diverse range of musical styles.",
-              "His favorite songs to dance to right now are:",
-            ],
-            songList: ["Fuck it, I love it! by ILIRA", "Wait by Damian Lynn"],
-          },
-          {
-            names: "Balázs",
-            title: "DJ",
-            src: "/images/djs_balazs.png",
-            description: [
-              "Balázs played his first international set at Slovenian open 2024, when he participated in and won the DJ Battle. Since then, Balázs has been regularly DJing at local parties in Budapest and also had the pleasure of spinning at the Autumn Swing Challenge in 2024. He's passionate about music as a dancer and as a DJ and brings his great sets and energy to the dance floor!",
-              "His favorite songs to dance to right now are:",
-            ],
-            songList: [
-              "Becoming Young - Cherry Twist",
-              "Slow It Down - Benson Boone",
-              "How I Want Ya (Dawn Remix) - Hudson Thames",
-            ],
-          },
-          {
-            names: "Kamila",
-            title: "DJ",
-            src: "/images/djs_kamila.png",
-            description: [
-              "Kamila is from the beautiful city of Krakow, Poland. She loves dancing, discovering new places, and exploring the flavors of local coffee. Her greatest passion is West Coast Swing, which she enjoys for the freedom to interpret music and create something special—and often playful—with every new dance partner. Being a DJ allows her to go deeper into the world of music and understand it better. Nothing brings her more joy than seeing dancers have fun during her sets.",
-              "Her favorite songs to dance to right now are:",
-            ],
-            songList: [
-              "Empty Crown - YAS",
-              "Baptize - RKCB",
-              "Wonderful nothing (edit version) - Glass Animals",
-            ],
-          },
-          {
-            names: "Kasia",
-            title: "DJ",
-            src: "/images/djs_kasia.png",
-            description: [
-              "Kasia started her adventure as a WCS DJ around 2019 in Warsaw. Since then she played music at local Polish events and soon after started getting invites to DJ at international events in Sweden, Finland, Poland, Germany and Hungary. She also played prime slots at Asia Open and Wild Wild Westie. She regularly receives positive feedback about the atmosphere she creates with her sets. Her friends call her “Walking Shazam” since she knows and recognizes tons of songs at first note.",
-              "Her favorite songs to dance to right now are:",
-            ],
-            songList: [
-              "Untouchable - Bera",
-              "LONELY NIGHTS - Riles",
-              "NIGHTS LIKE THESE - Benson Boone",
-            ],
-          },
-          {
-            names: "Lino",
-            title: "DJ",
-            src: "/images/djs_lino.png",
-            description: [
-              "Lino is passionate about discovering new artists and music, especially lesser-known indies, and has played with the idea of DJing at events for a while. Recently, he had the opportunity to play for some amazing crowds at Swing Generation, Berlin Swing Revolution, and Carnival Swing, as well as local parties in Berlin and Erding. His style consists of mixing his own experimental and often acoustic music with internationally known songs familiar from events.",
-              "His favorite songs to dance to right now are:",
-            ],
-            songList: [
-              "Lose It - Oh Wonder",
-              "Papa - SICKOTOY, Eliana Gjata, INNA",
-              "No Ocean - EXES, Jome",
-            ],
-          },
-          {
-            names: "Sepgod",
-            title: "DJ",
-            src: "/images/djs_sepgod.png",
-            description: [
-              "Sepgod began couples dancing 30 years ago, fostering a love for music curation, progressing from mixtapes to mix CDs, and eventually DJing at various events, including parties, weddings, and company celebrations. Since 2015, his fascination with WCS's varied music has seen him DJing at Vienna's WCS parties and frequenting international WCS events in Europe. At Swingvester 23/24, he started playing at international venues.",
-              "His favorite songs to dance to right now are:",
-            ],
-            songList: [
-              "Soap - Melanie Martinez",
-              "Space Ghost Coast To Coast - Glass Animals",
-              "Chariot - Mega",
+              "Raushaniya took her first steps in West Coast Swing on a beautiful rainy evening by Lake Zurich, Switzerland. From that moment, she was hooked, finding in dance a way to connect with people all across the world. Before discovering WCS, she trained in Arabic belly dancing for several years, developing a strong foundation in body isolation and fluid movement.",
+              "Mackenzie began his West Coast Swing journey at the age of 11, joining local classes in Brisbane, Australia, and has since dedicated himself as both a dancer and teacher. As an experienced instructor, he is passionate about teaching in-depth technique and has developed a unique approach to integrating solo movement to push the creative expression for dancing in a partnership setting.",
+              `Since teaming up in mid-2023, they've made waves within the scene with their distinctive choreography, engaging teaching style, and tearing it up on the social floor all night long. With a hip hop flare in their dancing, they highlight the versatility of WCS, bringing fresh, dynamic artistry to every performance. They have choreographed and performed several routines that have not only resonated within the community but also far beyond - for their originality, being described as "edgy," "unique," and "creative".`,
             ],
           },
         ],
       },
+      //   {
+      //     pageTitle: "DJs",
+      //     people: [
+      //       {
+      //         names: "Ken",
+      //         title: "Head DJ",
+      //         src: "/images/djs_ken.png",
+      //         description: [
+      //           "Ken, also known as DJKendyshop, is a West Coast Swing DJ who began his journey in 2018. He quickly gained a reputation for his ability to energize dance floors at both small local events and large WSDC events such as Budafest, Anchor Festival, Baltic Swing, and Swing it like it's hot. Ken's style leans towards complex and exciting music, drawing inspiration from EDM and Dubstep to create a unique and dynamic sound that keeps dancers moving.",
+      //           "His favorite songs to dance to right now are:",
+      //         ],
+      //         songList: [
+      //           "Forgive Me - Sofi Tucker",
+      //           "Whisper - Able Heart",
+      //           "Fake - The Tech Thieves",
+      //         ],
+      //       },
+      //       {
+      //         names: "Patrice",
+      //         title: "Sound Tech Support & DJ",
+      //         src: "/images/djs_patrice.png",
+      //         description: [
+      //           "Starting his DJ career 5 years ago at parties with a mix of dance styles, he was captivated by the art of creating an atmospheric evening encompassing various genres. Now, he increasingly finds himself behind the decks at West Coast Swing parties, where he continues to excite dancers by blending a diverse range of musical styles.",
+      //           "His favorite songs to dance to right now are:",
+      //         ],
+      //         songList: ["Fuck it, I love it! by ILIRA", "Wait by Damian Lynn"],
+      //       },
+      //       {
+      //         names: "Balázs",
+      //         title: "DJ",
+      //         src: "/images/djs_balazs.png",
+      //         description: [
+      //           "Balázs played his first international set at Slovenian open 2024, when he participated in and won the DJ Battle. Since then, Balázs has been regularly DJing at local parties in Budapest and also had the pleasure of spinning at the Autumn Swing Challenge in 2024. He's passionate about music as a dancer and as a DJ and brings his great sets and energy to the dance floor!",
+      //           "His favorite songs to dance to right now are:",
+      //         ],
+      //         songList: [
+      //           "Becoming Young - Cherry Twist",
+      //           "Slow It Down - Benson Boone",
+      //           "How I Want Ya (Dawn Remix) - Hudson Thames",
+      //         ],
+      //       },
+      //       {
+      //         names: "Kamila",
+      //         title: "DJ",
+      //         src: "/images/djs_kamila.png",
+      //         description: [
+      //           "Kamila is from the beautiful city of Krakow, Poland. She loves dancing, discovering new places, and exploring the flavors of local coffee. Her greatest passion is West Coast Swing, which she enjoys for the freedom to interpret music and create something special—and often playful—with every new dance partner. Being a DJ allows her to go deeper into the world of music and understand it better. Nothing brings her more joy than seeing dancers have fun during her sets.",
+      //           "Her favorite songs to dance to right now are:",
+      //         ],
+      //         songList: [
+      //           "Empty Crown - YAS",
+      //           "Baptize - RKCB",
+      //           "Wonderful nothing (edit version) - Glass Animals",
+      //         ],
+      //       },
+      //       {
+      //         names: "Kasia",
+      //         title: "DJ",
+      //         src: "/images/djs_kasia.png",
+      //         description: [
+      //           "Kasia started her adventure as a WCS DJ around 2019 in Warsaw. Since then she played music at local Polish events and soon after started getting invites to DJ at international events in Sweden, Finland, Poland, Germany and Hungary. She also played prime slots at Asia Open and Wild Wild Westie. She regularly receives positive feedback about the atmosphere she creates with her sets. Her friends call her “Walking Shazam” since she knows and recognizes tons of songs at first note.",
+      //           "Her favorite songs to dance to right now are:",
+      //         ],
+      //         songList: [
+      //           "Untouchable - Bera",
+      //           "LONELY NIGHTS - Riles",
+      //           "NIGHTS LIKE THESE - Benson Boone",
+      //         ],
+      //       },
+      //       {
+      //         names: "Lino",
+      //         title: "DJ",
+      //         src: "/images/djs_lino.png",
+      //         description: [
+      //           "Lino is passionate about discovering new artists and music, especially lesser-known indies, and has played with the idea of DJing at events for a while. Recently, he had the opportunity to play for some amazing crowds at Swing Generation, Berlin Swing Revolution, and Carnival Swing, as well as local parties in Berlin and Erding. His style consists of mixing his own experimental and often acoustic music with internationally known songs familiar from events.",
+      //           "His favorite songs to dance to right now are:",
+      //         ],
+      //         songList: [
+      //           "Lose It - Oh Wonder",
+      //           "Papa - SICKOTOY, Eliana Gjata, INNA",
+      //           "No Ocean - EXES, Jome",
+      //         ],
+      //       },
+      //       {
+      //         names: "Sepgod",
+      //         title: "DJ",
+      //         src: "/images/djs_sepgod.png",
+      //         description: [
+      //           "Sepgod began couples dancing 30 years ago, fostering a love for music curation, progressing from mixtapes to mix CDs, and eventually DJing at various events, including parties, weddings, and company celebrations. Since 2015, his fascination with WCS's varied music has seen him DJing at Vienna's WCS parties and frequenting international WCS events in Europe. At Swingvester 23/24, he started playing at international venues.",
+      //           "His favorite songs to dance to right now are:",
+      //         ],
+      //         songList: [
+      //           "Soap - Melanie Martinez",
+      //           "Space Ghost Coast To Coast - Glass Animals",
+      //           "Chariot - Mega",
+      //         ],
+      //       },
+      //     ],
+      //   },
       {
         pageTitle: "Show & Comps",
         people: [
           {
             names: "Jacqueline",
             title: "MC",
-            src: "/images/staff_jacqueline.png",
+            src: "/src/assets/images/staff_jacqueline.png",
             description: [
               "Since her debut as MC at Slovenian Open last year, her presence has grown at events across the community—including as an MC at Finnfest.",
               "Originating from a background in stage dancing, Jacqueline's West Coast Swing journey started in 2018 with the Warsaw Westies, where she is still seen regularly, even though she is always on the move.",
               "She is well known for her distinctive vintage-inspired style. When she is not dancing, you can find her socializing around the dance floor with both old and new friends, enriching the social fabric of the WCS community.",
             ],
           },
-          //     {
-          //       names: "Sabrina",
-          //       title: "Scoring",
-          //       src: "/images/staff_sabrina.png",
-          //       description: [
-          //         "Andreas is the mastermind behind the Scoreboard system, a prominent and widely used scoring tool for dance competitions. Known for its speed and reliability, Scoreboard has been a game-changer in the way competitions are judged and results are delivered.",
-          //         "Andreas's expertise and dedication to the dance scene are evident as he is a familiar face at most European dance events, where his system continues to enhance the competitive dance experience for participants and organizers alike.",
-          //       ],
-          //     },
+          {
+            names: "Andreas",
+            title: "Scoring",
+            src: "/src/assets/images/staff_andreas.png",
+            description: [
+              "Andreas is the mastermind behind the Scoreboard system, a prominent and widely used scoring tool for dance competitions. Known for its speed and reliability, Scoreboard has been a game-changer in the way competitions are judged and results are delivered.",
+              "Andreas's expertise and dedication to the dance scene are evident as he is a familiar face at most European dance events, where his system continues to enhance the competitive dance experience for participants and organizers alike.",
+            ],
+          },
           {
             names: "Ludovic",
             title: "Chief Judge",
-            src: "/images/staff_ludovic.png",
+            src: "/src/assets/images/staff_ludovic.png",
             description: [
               "Ludovic's extensive experience in various dance forms, coupled with his significant achievements as both a competitor and instructor, render him an indispensable asset to any judging panel.",
               "His comprehensive understanding of dance dynamics and technical proficiency equips him with a keen eye for detail, ensuring a fair and insightful evaluation of performances.",
@@ -273,7 +286,7 @@ const en = {
           {
             names: "Karin",
             title: "Assistant Chief Judge",
-            src: "/images/staff_karin.png",
+            src: "/src/assets/images/staff_karin.png",
             description: [
               "With a lifelong dedication to dance, Karin Kakun brings a wealth of experience to the judging panel. Holding a university degree in dance and over 14 years of teaching experience, she has trained dancers across multiple disciplines, including WCS, Hip-Hop, Stretching, and Pole dance.",
               "Her extensive background as a competitor, instructor, and choreographer gives her a well-rounded perspective, allowing her to assess performances with a keen eye for movement, musicality, and technique.",
@@ -282,7 +295,7 @@ const en = {
           {
             names: "Henri",
             title: "Dancing Mind",
-            src: "/images/staff_henri.png",
+            src: "/src/assets/images/staff_henri.png",
             description: [
               "Henri discovered West Coast Swing in 2017, drawn by a lifelong passion for music despite no prior dance background.",
               "While exploring WCS, he pursued a career in medicine, becoming a general physician, and spent over eight years studying psychology, including sports psychology. This dual expertise gives him a unique perspective on the mind-body connection in dance. As the team doctor for Special Olympics Finland, he has witnessed firsthand the transformative power of movement and joy. His first webinar was held on November 26, 2023.",
@@ -296,9 +309,9 @@ const en = {
           {
             names: "Jake",
             title: "Video & Live stream",
-            src: "/images/staff_jake.png",
+            src: "/src/assets/images/staff_jake.png",
             description: [
-              "Jake is part of the Affinity Swing team, as videographer and lead web developer. Together with Harold and the rest of the crew, their mission is to share this beautiful, breathtaking dance that we all love - with as many people on the planet as possible!",
+              "Jake is part of the Triple Step TV team, as videographer and lead web developer. Together with Harold and the rest of the crew, their mission is to share this beautiful, breathtaking dance that we all love - with as many people on the planet as possible!",
               "They love filming and editing social media videos, live streaming events with instant replays, and adding classes to their global map of West Coast Swing.",
             ],
           },
@@ -307,7 +320,7 @@ const en = {
           //   title: "Photography",
           //   src: "/images/staff_jennifer.png",
           //   description: [
-          //     "Jake is part of the Affinity Swing team, as videographer and lead web developer. Together with Harold and the rest of the crew, their mission is to share this beautiful, breathtaking dance that we all love - with as many people on the planet as possible!",
+          //     "Jake is part of the Triple Step TV team, as videographer and lead web developer. Together with Harold and the rest of the crew, their mission is to share this beautiful, breathtaking dance that we all love - with as many people on the planet as possible!",
           //     "They love filming and editing social media videos, live streaming events with instant replays, and adding classes to their global map of West Coast Swing.",
           //   ],
           // },
@@ -319,7 +332,7 @@ const en = {
           {
             names: "Vicky",
             title: "Zero to Hero Lead",
-            src: "/images/staff_vicky.png",
+            src: "/src/assets/images/staff_vicky.png",
             description: [
               "Vicky is originally from Lithuania but now lives in London, where she discovered the joy and creativity of West Coast Swing in January 2023. From exploring music and dance to welcoming new people into the community, she is incredibly passionate about WCS and excited to see how this amazing community continues to grow.",
               "Her special skills lie in integrating new dancers into the community, making them feel welcome and comfortable, and helping them to find their place in the dance world. She lead the Zero to Hero program at multiple events, and is now bringing her expertise to Slovenian Open.",
@@ -333,11 +346,11 @@ const en = {
           {
             names: "Sarah",
             title: "Shoe Seller",
-            src: "/images/collaborators_sarah.png",
+            src: "/src/assets/images/collaborators_sarah.png",
             description: [
               "As a dancer, she always noticed that many dancers wear the wrong shoes. Observing the lack of specialized dance shoe shops in Carinthia and people's reluctance to buy from dance schools or online, she became self-employed in December 2018, creating a business focused on dance shoes.",
               "She's eager to offer advice on personal concerns and assist in finding the ideal dance shoe for each individual.",
-              `Preorder your shoes <a href="https://www.tanzschuh.at/slovenian-open" target="_blank">HERE</a>.`,
+              //   `Preorder your shoes <a href="https://www.tanzschuh.at/slovenian-open" target="_blank">HERE</a>.`,
             ],
           },
         ],
@@ -353,35 +366,42 @@ const en = {
           title: "Zero to Hero",
           descriptionText: [
             "BEGINNER",
-            "This level is intended for new dancers, who either never tried west coast swing before, or have taken only a couple of classes. It will start from complete basics, and get you ready to enjoy your first west coast swing party.",
+            "This level is intended for new dancers, who either never tried west coast swing before, or have taken only a couple of classes. It will start from complete basics, and get you ready to enjoy your first west coast swing party. Also appropriate for those wanting to learn the secondary role.",
           ],
         },
         {
           title: "Level 2",
           descriptionText: [
-            "NEWCOMER / NOVICE with no WSDC points",
+            "NEWCOMER dancers with no WSDC points",
             "You are familiar with basic patterns, rhythms and concepts of west coast swing, but are not necessarily yet comfortable on the dancefloor. You are ready to learn more patterns and improve your technique.",
           ],
         },
         {
           title: "Level 3",
           descriptionText: [
-            "NOVICE with at least 1 Novice WSDC point or audition",
-            "You feel comfortable dancing with any partner on any music and are ready to learn more complex patterns and concepts. You still want to improve your technique, as well as your musicality and connection.",
+            "NOVICE with no WSDC Novice points",
+            "You are dancing for some time and feel comfortable social dancing with most partners on most songs. You are ready to improve your technique and expand the pattern repertoire. You either don't compete or, if you do, your current goal is to reach Novice finals.",
           ],
         },
         {
           title: "Level 4",
           descriptionText: [
-            "INTERMEDIATE with at least 16 Novice WSDC points or audition",
-            "You have solid technique, and are very comfortable on the dancefloor. You already have a good understanding of musicality and connection. You are ready to find your own style and explore advanced concepts.",
+            "NOVICE with at least 1 Novice WSDC point or audition",
+            "You feel comfortable dancing with any partner on any music and are ready to learn more complex patterns and concepts. You still want to improve your technique, as well as your musicality and connection. You compete, and are already on your path to Intermediate division.",
           ],
         },
         {
           title: "Level 5",
           descriptionText: [
-            "ADVANCED / ALL-STAR with at least 30 Intermediate WSDC points or audition",
-            "You compete in Advanced or All Star division. Your technique, connection and musicality are already on the highest level. You're now looking to refine your skills as a dancer and a competitior.",
+            "INTERMEDIATE with at least 1 Intermediate WSDC point or audition",
+            "You have solid technique, good understanding of musicality and connection. You are ready to find your own style and explore advanced concepts. As a competitor you're successfully competing in Intermediate division.",
+          ],
+        },
+        {
+          title: "Level 6",
+          descriptionText: [
+            "ADVANCED / ALL-STAR with at least 1 Advanced WSDC point or audition",
+            "Your technique, connection and musicality are already on the highest level. You're now looking to refine your skills as a dancer and a competitior. You are ready to work on complex concepts in a fast paced environment.",
           ],
         },
       ],
@@ -407,23 +427,25 @@ const en = {
           ],
         },
         {
-          question: "2. What is a WSDC trial event?",
+          question: "2. What is a WSDC registry event?",
           answerText: [
-            "A WSDC trial event is an international event lasting at least three days with workshops, parties, and competitions that meets the requirements of the WSDC regulations and competes for their license.",
-            "The WSDC must pre-approve such an event as a trial run. In that year, the event must meet all needs but does not yet award points. If the trial run is successful, then WSDC grants a license for future years, and from then on, the competitions are point-based.",
+            "A WSDC registry event is an international event lasting at least three days with workshops, parties, and competitions that meets the requirements of the WSDC regulations and has already acquired their license.",
+            "At a WSDC registry event, participants can earn WSDC points in the Jack & Jill competition style, which are then recorded in the WSDC system under their unique WSDC ID number.",
           ],
         },
         {
-          question: "3. So to which pass should I register?",
+          question: "3. So for which pass should I register?",
           answerText: [
-            "If you do not have a WSDC ID number and have never competed, or if you compete in the Newcomer, Novice, or Intermediate categories, you can sign up for workshops as part of the Full Pass. These workshops will take place on Saturday and Sunday, divided into 4 levels:",
-            "If you are a complete beginner or have just briefly met WCS and want to learn the basics, then you can join our Friday program Zero to Hero. In 4 hours, you will learn the basics well enough that you will surely be able to dance at the Friday party.",
+            "If you would like to only join parties and competition, you should sign up for the Party Pass. Neither parties nor competitions will be open to the public, so a Party Pass is required for entrance.",
+            "If you would like to also attend workshops on Friday, Saturday and Sunday, you should register for the Full Pass. Workshops will be divided into 5 levels:",
+            "If you are a complete beginner or have just briefly met WCS and want to learn the basics, then you can join our Thursday program Zero to Hero. In 4 classes, you will learn the basics well enough that you will surely be able to dance at the Thursday party.",
           ],
           list: [
-            "Level 2 corresponds to the Newcomer division,",
-            "Level 3 corresponds to the Novice division with at least 1 point,",
-            "Level 4 corresponds to the Intermediate division,",
-            "Level 5 corresponds to the Advanced / All Star division.",
+            "Level 2 - Newcomer (no points required),",
+            "Level 3 - Novice (no points required),",
+            "Level 4 - Novice (required 1 Novice WSDC point or audition),",
+            "Level 5 - Intermediate (required 1 Intermediate WSDC point or audition),",
+            "Level 6 - Advanced / All Star (required 1 Advanced WSDC point or audition),",
           ],
         },
         {
@@ -431,70 +453,77 @@ const en = {
           answerText: [
             "If you already have a WSDC ID number that you obtained at a competition, then enter it. Based on this number, we will automatically determine your level upon registration.",
             "If you do not have a number yet, leave it blank.",
+            "For levels 2 and 3 you will still be able to choose your desired level regardless of whether you have a WSDC ID or not.",
           ],
         },
         {
-          question: "5. OK, but what if I dance well but don't compete?",
+          question: "5. OK, but what if I dance well, but don't compete?",
           answerText: [
             "No problem. If you want to participate in higher-level workshops, you can attend an audition that will take place before the workshops. There, teachers will ask participants to dance several times with different partners and decide based on the displayed skill who can be accepted to the higher level. The teachers' decision is final as they best know what knowledge is expected for their workshops.",
-            "Auditions will be possible for levels 3, 4 and 5. For level 2 and Zero to Hero, it is not necessary.",
+            "Auditions will be offered to people wanting to move up to levels 4, 5 and 6. For other levels auditions are not needed.",
           ],
         },
       ],
     },
     schedule: {
       pageTitle: "Schedule",
-      description: "This is a preliminary schedule and is subject to change.",
+      description:
+        "This is a preliminary schedule and is very likely to change before the event.",
       downloadText: "Download the .pdf file.",
-      pdfSrc: "/files/schedule_v5.pdf",
-      pngSrc: "/images/schedule_v5.jpg",
+      pdfSrc: "/src/assets/files/schedule_v1.pdf",
+      pngSrc: "/src/assets/images/schedule_v1.jpg",
     },
     pricing: {
       pageTitle: "Pricing",
       description: [
-        "We will offer two types of weekend passes: Full Pass and Party Pass. Full Pass includes all workshops for your assigned level, access to competitions and parties. Party Pass includes only access to competitions and parties. Participating in competitions is charged sepatrately.",
-        "For our newest westies we offer a one-day Zero to Hero program, where you will be introduced to west coast swing at an accelerated pace by world class instructors. In addition to workshops, there will be some other social activities to help you integrate with existing community. You may upgrade your Zero to Hero Pass to a Party Pass at registration or on the spot.",
-        "Price tiers will be determined based on the number of registrations accepted. The registration fee must be paid within 14 days of acceptance, otherwise we reserve the right to cancel your registration and offer your spot to somebody else.",
+        "We will offer two types of weekend passes: Full Pass and Party Pass. Full Pass includes all workshops for your assigned level, any ALL LEVEL workshops and access to competitions and parties. Party Pass includes only access to competitions and parties. Participating in competitions is subject to additional fees.",
+        "For our newest westies we offer a half-day Zero to Hero program, where you will be introduced to west coast swing at an accelerated pace by world class instructors. In addition to workshops, there will be some other social activities to help you integrate with existing community. You may upgrade your Zero to Hero Pass to a Party Pass at registration or on the spot.",
+        "Additionally, we are this year adding to the program 3 different intensives on Friday morning. To participate in the intensives you must also have a weekend pass. Each intensive is 3 hours long and focuses on a specific topic. Because timewise they will happen at the same time, you can only choose to participate in one intensive.",
+        "Price tiers will be determined based on the number of registrations accepted. The registration fee must be paid within 14 days of acceptance, otherwise we reserve the right to cancel your registration and offer your spot to somebody else. In this case, you may re-register, but you will be subject to the current price tier and availability.",
       ],
       passPrices: [
         {
           type: "",
           tiers: ["Early Bird", "Normal Bird", "Late Bird"],
           includes: ["INCLUDES"],
-          descriptions: [
-            "first 40 Full passes + 10 Party passes + 10 ZtH passes",
-            "next 80 Full passes + 20 Party passes + 10 ZtH passes",
-            "until sold out",
-          ],
         },
         {
           type: "Full Pass",
-          tiers: ["140", "150", "160"],
+          tiers: ["150", "160", "170"],
           includes: [
-            "6 hours of workshops - level 2/3/4/5",
+            "6 hours of workshops - level 2/3/4/5/6",
+            "entrance to Fri, Sat, Sun parties",
             "entrance during competitions",
-            "entrance to Thu*, Fri, Sat, Sun parties",
           ],
+          descriptions: ["first 40 passes", "next 80 passes", "until sold out"],
         },
         {
           type: "Party Pass",
-          tiers: ["100", "110", "120"],
+          tiers: ["110", "120", "130"],
           includes: [
-            "",
+            "NO workshops",
+            "entrance to Fri, Sat, Sun parties",
             "entrance during competitions",
-            "entrance to Thu*, Fri, Sat, Sun parties",
           ],
+          descriptions: ["first 40 passes", "next 60 passes", "until sold out"],
           extraText:
-            "Free for first 10 dancers, competing in All Star division in exchange for your help with judging. Registration still required for role balance. You may upgrade it to a Full pass.",
+            "Free for first 7 leaders and 7 followers, competing in All Star division in exchange for your help with judging. Registration still required for role balance. You may upgrade it to a Full pass.",
         },
         {
           type: "Zero to Hero",
           tiers: ["50", "60", "70"],
           includes: [
-            "4 hours of workshops on Friday - level 1",
+            "4 workshops on Thursday - level 1",
+            "entrance to Thursday party",
             "",
-            "entrance to Friday party",
           ],
+          descriptions: ["first 10 passes", "next 10 passes", "until sold out"],
+        },
+        {
+          type: "Intensives",
+          tiers: ["50", "60", "70"],
+          includes: ["3 hours intensive track on Friday morning", "", ""],
+          descriptions: ["first 20 passes", "next 20 passes", "until sold out"],
         },
       ],
       //   groups: {
@@ -523,7 +552,7 @@ const en = {
       pageTitle: "Slovenia",
       description: [
         {
-          src: "/images/slovenia_ljubljana.jpg",
+          src: "/src/assets/images/slovenia_ljubljana.jpg",
           alt: "Ljubljana",
           texts: [
             "Hey there, fellow westie! Welcome to Slovenia, a land of boundless beauty, rich culture, and the warmest of welcomes. We can't wait to show you our home and share some dances.",
@@ -531,7 +560,7 @@ const en = {
           ],
         },
         {
-          src: "/images/slovenia_bled.jpg",
+          src: "/src/assets/images/slovenia_bled.jpg",
           alt: "Bled",
           texts: [
             "If you've got an extra day to spare, there's a world of natural beauty just a stone throw away. Take a short drive to Lake Bled, a fairytale-like destination with its own island and a castle perched on a cliff. Go for a hike in Triglav National Park, with its majestic mountains and crystal-clear lakes. Descend into the mesmerizing Postojna Caves, an underground wonderland. Visit Piran - take your first (quick) dip in the sea of 2024 and enjoy a relaxing day on the coast.",
@@ -546,7 +575,7 @@ const en = {
         description: [
           "Nestled in the heart of Ljubljana, the Austria Trend Hotel offers modern rooms, friendly staff, and a prime location just moments away from the city's vibrant Old Town.",
           "You can book a double or twin room at the hotel at a discounted price. Each room offers modern amenities, ensuring a comfortable and enjoyable stay during your time in Ljubljana.",
-          "They offer 2 types of rooms for a discounted price during the Slovenian Open event. Prices for the rooms per night, valid from 8 - 15 April, are:",
+          "They offer 2 types of rooms for a discounted price during the Slovenian Open event. Prices for the rooms per night, valid from 21 - 28 April, are:",
         ],
         roomTypes: [
           {
@@ -555,11 +584,13 @@ const en = {
             prices: [
               {
                 occupancy: "single occupancy",
-                price: "80 € / 104 € with breakfast",
+                price:
+                  "83 € room only / 107 € with breakfast / 139 € with half board",
               },
               {
                 occupancy: "double occupancy",
-                price: "85 € / 128 € with breakfast",
+                price:
+                  "88 € room only / 131 € with breakfast / 171 € with half board",
               },
             ],
           },
@@ -569,17 +600,19 @@ const en = {
             prices: [
               {
                 occupancy: "single occupancy",
-                price: "105 € / 130 € with breakfast",
+                price:
+                  "108 € room only / 132 € with breakfast / 164 € with half board",
               },
               {
                 occupancy: "double occupancy",
-                price: "110 € / 153 € with breakfast",
+                price:
+                  "113 € room only / 156 € with breakfast / 196 € with half board",
               },
             ],
           },
         ],
         booking: {
-          text: "Booking links will be provided to participants by email at time of acceptance.",
+          text: "Booking links will be provided to participants by email at a later time.",
           //   links: [
           //     {
           //       roomType: "book room with breakfast",
@@ -593,7 +626,7 @@ const en = {
         },
         links: {
           mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
-          mapSrc: "/images/location_hotel_map.png",
+          mapSrc: "/src/assets/images/location_hotel_map.png",
         },
         address: {
           addressText: "Address",
@@ -610,14 +643,14 @@ const en = {
       {
         pageTitle: "Preparty",
         disclaimer:
-          "Even though preparty's entrance fee is included in the Full pass and Party pass, you will need to register and be confirmed for it separately through your profile page. The space at the preparty is severely limited due to safety regulations of the venue, so not everyone can participate.",
+          'Preparty is included in the Zero to Hero passes, but NOT in the Full or Party passes. Depending on how many preparty tickets are sold, we may or may not open it to the public.<br />The entrance fee for the preparty is <span class="bold">10 euros</span> if purchased during registration or <span class="bold">15 euros</span> at the door.',
         description: [
           "Ljubljana Castle, perched atop a hill with breathtaking views of the city below, stands as a significant historical landmark in Slovenia's capital. Dating back to the 11th century, the castle encapsulates centuries of rich history within its ancient walls. Today, it functions as a vibrant cultural center, offering visitors sweeping panoramas, engaging exhibitions, and distinctive event venues such as the enchanting Palacij ballroom, where our preparty will take place from 8 pm to 3 am on Thursday.",
-          "If you arrive early, take the opportunity to explore the Castle Tower for a panoramic 360-degree view or indulge in dinner and drinks at the castle's restaurant or bar.",
+          "If you arrive early, take the opportunity to explore the Castle Tower for a panoramic 360-degree view of the city or indulge in dinner and drinks at the castle's restaurant or bar.",
         ],
         links: {
           mapHref: "https://maps.app.goo.gl/4fiDjE4WWUEXvWEz8",
-          mapSrc: "/images/location_castle_map.png",
+          mapSrc: "/src/assets/images/location_castle_map.png",
         },
         address: {
           addressText: "Address",
@@ -694,34 +727,39 @@ const en = {
   },
   dayTrip: {
     pageTitle: "Day Trip",
+    disclaimer:
+      'This year our Thursday Day Trip takes us to breathtaking lake Bled. Read more about the itinerary <a href="day-trip">here</a>.<br />The cost of this memorable day trip is <span class="bold">65 EUR</span> per person, which includes transportation, lunch, guides, and entrance fees.',
     description: [
       {
-        src: "/images/day_trip_tolmin_gorges.png",
-        alt: "Tolmin Gorges img",
+        src: "/src/assets/images/day_trip_bled_castle.png",
+        alt: "Lake Castle img",
         texts: [
-          "Join us for an unforgettable day trip as we explore the breathtaking Soča Valley, home to some of Slovenia's most stunning natural wonders. This year, we'll visit the Tolmin Gorges, a hidden gem known for its turquoise waters, dramatic rock formations, and lush greenery.",
-          `Our guided tour will take us through the narrow canyon carved by the Tolminka and Zadlaščica rivers, where we'll see fascinating geological formations, including the Bear's Head rock, the Devil's Bridge, and the Dante's Cave, named after the legendary poet who is rumored to have drawn inspiration for Inferno here. Along the way, we'll learn about the valley's unique ecosystem and rich history.`,
+          "Join us for an unforgettable day trip as we explore the breathtaking Lake Bled.",
+          "Nestled in the heart of the Julian Alps, Lake Bled is a true gem of Slovenia, renowned for its crystal-clear waters, picturesque island church, and medieval castle perched atop a cliff.",
+          `First we'll visit Bled Castle, where you can enjoy panoramic views of the lake and surrounding mountains. The castle also houses a museum showcasing the region's rich history and culture. After exploring the castle, we'll descend the hill and make our way to the lake for the lunch break.`,
         ],
       },
       {
-        src: "/images/day_trip_most_na_soci.png",
-        alt: "Most na Soči img",
+        src: "/src/assets/images/day_trip_bled_lake.png",
+        alt: "Bled Lake img",
         texts: [
-          "After our adventure through the gorges, we'll head to Most na Soči, a picturesque lakeside town where the emerald waters of the Soča River meet the Idrijca River. Here, we'll enjoy lunch and have some free time to take in the serene atmosphere, wander along the waterfront, or simply relax with a coffee while admiring the view. It is allowed to swim there too, although it might be quite cold.",
-          "Even though the exact schedule may still change, here's roughly what our day will look like:",
+          `As there are many things to do around the lake, we will have plenty of free time to explore on our own, whether it's taking a leisurely stroll along the lakeshore, renting a traditional "pletna" boat to visit the island and ring the lucky church bell, or simply relaxing by the water and enjoying a piece of delicious Bled cream cake.`,
+          "Here's roughly what the day will look like:",
         ],
         itinerary: [
-          ["9:00 am:", "Departure from Ljubljana."],
-          ["11:00 am:", "Arrival & guided tour of Tolmin Gorges."],
-          ["13:15 pm:", "Departure for Most na Soči."],
-          ["13:30 pm:", "Lunch & free time by the lake."],
-          ["18:00 pm:", "Return to Ljubljana."],
+          ["9:00 am:", "Departure from Austria Trend Hotel in Ljubljana."],
+          ["10:00 am:", "Arrival & guided tour of Bled Castle."],
+          ["12:00 pm:", "Descend to the lake."],
+          ["12:30 pm:", "Lunch"],
+          ["13:30 pm:", "Free time by the lake."],
+          ["16:00 pm:", "Departure from Bled"],
+          ["17:00 pm:", "Return to Austria Trend Hotel in Ljubljana."],
         ],
       },
       {
         texts: [
-          "The cost of this memorable day trip is 55 EUR per person, which includes transportation, guides, and entrance fees.",
-          "Please note that the space on the bus is very limited, and registration (opening soon!) is necessary to secure your spot. We reserve the right to change major parts of the trip or cancel the trip completely for any reason. In case of cancellation from our side, all payments will be refunded, in case of cancellation from participant's side, no refund is possible.",
+          "The cost of this memorable day trip is 65 EUR per person, which includes transportation, lunch, guides and entrance fees. Any activities you choose to do during your free time (like boat rental or cake) are at your own expense.",
+          "Please note that the space on the bus is very limited, and registration is necessary to secure your spot. We reserve the right to change major parts of the trip or cancel the trip completely for any reason. In case of cancellation of the day trip from our side, all payments will be refunded, in case of cancellation from participant's side, no refund is possible.",
           "This day trip is a tradition we love - each year, we explore a different part of Slovenia so our participants can connect and experience the country's beauty beyond the dance floor. Don't miss this opportunity to discover one of Slovenia's most stunning regions!",
         ],
       },
@@ -729,7 +767,7 @@ const en = {
   },
   registration: {
     pageTitle: "Registration",
-    opensSoonText: "Registration opens on 25 November 2024 at 18:00 (SLO time)",
+    opensSoonText: "Registration opens end of November",
     registrationInfoTexts: {
       pleaseReadText: "Before registering, please read the following:",
       links: [
@@ -792,13 +830,13 @@ const en = {
           "During parties you agree to actively ask people as both leader and follower in roughly equal parts.",
         ],
         postText:
-          "Note that participants registering as switch are NOT allowed to add a partner.",
+          "Note that participants registering as switch are NOT allowed to add a partner. Partner field will be ignored.",
       },
       {
         title: "Signing up with a free pass",
         preTexts: [
           "If you are one of the lucky free pass holders to the event, congratulations!",
-          "Please write in the comment field:",
+          'Please write in the "Comment" field:',
         ],
         textsList: [
           "which type of the pass (full or party) you have,",
@@ -810,12 +848,12 @@ const en = {
       {
         title: "Signing up as an All Star judge",
         preTexts: [
-          "First 10 All Star participants are entitled to a free party pass in exchange for your help with judging. You may upgrade this pass to a Full pass for the price difference.",
+          "First 14 All Star participants are entitled to a free party pass in exchange for your help with judging. You may upgrade this pass to a Full pass for the price difference.",
           "If you would like to use this offer:",
         ],
         textsList: [
           "choose the pass you want,",
-          `in the "Comment" field write that you would like to help with judging.`,
+          `in the "Comment" field write "ALS judge".`,
         ],
       },
     ],
@@ -823,6 +861,14 @@ const en = {
   notFound: {
     pageTitle: "Page not found",
     description: `We could not find the page you were looking for. Please make sure you have typed the correct URL or <a target="_blank" href="/">navigate back to home page<a>.`,
+  },
+  comps: {
+    pageTitle: "Competitions",
+    disclaimer: `Read more about the competition rules <a href="competition-rules">here</a>. Participation in competitions is subject to an additional fee of <span class="bold">15 euros</span> per competition, which can be paid on site. Registration for competitions will open in April through scoring.dance.`,
+  },
+  merch: {
+    pageTitle: "Merchandise",
+    disclaimer: `Show your love for west coast swing and the Slovenian Open with our exclusive merchandise! This year's collection will feature the new design on a variety of T-shirts. The cost of each T-shirt is <span class="bold">15 euros</span> if purchased during registration or <span class="bold">20 euros</span> if purchased during the event.<br />Note that we will not order many extra items, so it's best to pre-order your merchandise during registration to ensure you get yours.`,
   },
   termsAndConditions: {
     pageTitle: "Terms and Conditions",
@@ -865,8 +911,8 @@ const en = {
           value:
             "In case of cancellation by the participant, we shall offer a payment refund in the following tiers:",
           list: [
-            "For cancellation requests received up to and including 9 February 2025, the received payment will be refunded partially - 50% of received payment.",
-            "For cancellation requests received on 10 February 2025 or later, the received payment will not be refunded.",
+            "For cancellation requests received up to and including 15 February 2026, the received payment will be refunded partially - 50% of received payment.",
+            "For cancellation requests received on 16 February 2026 or later, the received payment will not be refunded.",
           ],
         },
         {
@@ -1377,7 +1423,7 @@ const en = {
       noAddOnsAvailable: "No add-ons available.",
       dayTrip: {
         title: "Thursday Day Trip",
-        info: "Price of the trip is 55 EUR per person, to be paid within 7 days of acceptance. Please read more about the day trip on the website. There's a very limited number of spots available.",
+        info: "Price of the trip is 65 EUR per person, to be paid within 7 days of acceptance. Please read more about the day trip on the website. There's a very limited number of spots available.",
       },
       competitions: {
         title: "Competitions",

@@ -13,24 +13,22 @@ export default {
 <template>
   <section id="slovenia">
     <h1>{{ $t("location.slovenia.pageTitle") }}</h1>
-    <div class="flex-container flex-gap">
-      <div>
-        <div
-          v-for="(desc, i) in messages.location.slovenia.description"
-          :key="`desc${i}`"
-          class="flex-container flex-gap"
-          :class="{ 'flex-reverse': i % 2 == 1 }"
-        >
-          <div>
-            <p v-for="(text, j) in desc.texts" :key="`desc${j}`">
-              {{ $t(`location.slovenia.description[${i}].texts[${j}]`) }}
-            </p>
-          </div>
-          <img
-            :src="$t(`location.slovenia.description[${i}].src`)"
-            :alt="$t(`location.slovenia.description[${i}].alt`)"
-          />
+    <div>
+      <div
+        v-for="(desc, i) in messages.location.slovenia.description"
+        :key="`desc${i}`"
+        class="flex-container flex-gap"
+        :class="{ 'flex-reverse': i % 2 == 1 }"
+      >
+        <div>
+          <p v-for="(text, j) in desc.texts" :key="`desc${j}`">
+            {{ $t(`location.slovenia.description[${i}].texts[${j}]`) }}
+          </p>
         </div>
+        <img
+          :src="$t(`location.slovenia.description[${i}].src`)"
+          :alt="$t(`location.slovenia.description[${i}].alt`)"
+        />
       </div>
     </div>
   </section>

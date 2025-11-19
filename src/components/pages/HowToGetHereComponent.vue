@@ -14,7 +14,7 @@ export default {
   <section v-if="$store.state.lang !== 'si'" id="how-to-get-here">
     <h1>{{ $t("location.howToGetHere.pageTitle") }}</h1>
     <div class="flex-container flex-gap">
-      <div class="flex-item margin-0">
+      <div>
         <div
           v-for="(option, i) in messages.location.howToGetHere.options"
           :key="`${i}`"

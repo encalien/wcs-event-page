@@ -45,6 +45,7 @@ export default {
 .topic {
   margin-top: 2rem;
   text-align: left;
+  padding: 0 1rem;
 }
 
 .topic > h3 {

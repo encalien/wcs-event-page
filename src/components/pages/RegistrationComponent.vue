@@ -10,10 +10,10 @@ export default {
 </script>
 
 <template>
-  <section>
+  <section id="registration">
     <h1>{{ $t("registration.pageTitle") }}</h1>
-    <!-- <p>{{ $t("registration.opensSoonText") }}</p> -->
-    <a
+    <h3>{{ $t("registration.opensSoonText") }}</h3>
+    <!-- <a
       href="https://forms.gle/3yyfug7jyT1uuk3i8"
       target="_blank"
       id="register-now-btn"
@@ -29,7 +29,7 @@ export default {
         {{ $t("registration.clickHere") }}
       </router-link>
       {{ $t("registration.alreadyRegistered[1]") }}
-    </h3>
+    </h3> -->
 
     <section>
       <p>{{ $t(`registration.registrationInfoTexts.pleaseReadText`) }}</p>
@@ -79,6 +79,10 @@ export default {
 </template>
 
 <style scoped>
+#registration {
+  padding: 0 1rem;
+}
+
 div + ul,
 p + ul {
   margin-top: -1rem;
