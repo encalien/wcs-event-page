@@ -91,18 +91,6 @@ export default {
               @click="closeAllMenus()"
             >
               <router-link
-                :to="`/${$store.state.lang}/team`"
-                class="menu-item-link dropdown-header"
-              >
-                {{ $t("staff.pageTitle") }}
-              </router-link>
-            </div>
-            <div
-              class="menu-item"
-              :class="{ active: isMobileMenuOpen }"
-              @click="closeAllMenus()"
-            >
-              <router-link
                 :to="`/${$store.state.lang}/schedule`"
                 class="menu-item-link dropdown-header"
               >
@@ -126,27 +114,35 @@ export default {
               :class="{ 'active-block': isMobileMenuOpen }"
             >
               <div
-                @click="toggleDropdownMenu($t('program.pageTitle'))"
+                @click="toggleDropdownMenu('Event Info')"
                 class="menu-item-link dropdown-header"
                 :class="{
-                  active: dropdownMenuActive($t('program.pageTitle')),
+                  active: dropdownMenuActive('Event Info'),
                 }"
               >
-                {{ $t("program.pageTitle") }}
+                Event Info
               </div>
               <div
                 class="modal-backdrop hidden"
                 :class="{
-                  active: dropdownMenuActive($t('program.pageTitle')),
+                  active: dropdownMenuActive('Event Info'),
                 }"
                 @click="closeAllMenus()"
               ></div>
               <div
                 class="dropdown-menu hidden"
                 :class="{
-                  active: dropdownMenuActive($t('program.pageTitle')),
+                  active: dropdownMenuActive('Event Info'),
                 }"
               >
+                <div class="dropdown-menu-item" @click="closeAllMenus()">
+                  <router-link
+                    :to="`/${$store.state.lang}/team`"
+                    class="menu-item-link dropdown-header"
+                  >
+                    {{ $t("staff.pageTitle") }}
+                  </router-link>
+                </div>
                 <div class="dropdown-menu-item" @click="closeAllMenus()">
                   <router-link
                     :to="`/${$store.state.lang}/workshops/levels`"
