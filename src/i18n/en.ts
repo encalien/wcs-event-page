@@ -106,7 +106,7 @@ const en = {
         people: [
           {
             names: "Karin & Ludovic",
-            src: "/src/assets/images/teachers_karin_ludovic.png",
+            src: "/images/teachers_karin_ludovic.png",
             description: [
               "Karin Kakun has been dancing her entire life. Holding a university degree in dance, she has taught for over 14 years. She teaches WCS, Hip-Hop, Stretching, and Pole dance. She also choreographs and performs. Before embracing WCS, she was the Israeli salsa champion.",
               "She embarked on her WCS journey in 2014 and from the first moment she fell in love. She now competes in the Champion division and teaches in Israel, where she directs a line of West Coast Swing classes. She actively travels and teaches all around Europe.",
@@ -116,7 +116,7 @@ const en = {
           },
           {
             names: "Savana & João",
-            src: "/src/assets/images/teachers_savana_joao.png",
+            src: "/images/teachers_savana_joao.png",
             description: [
               "Savana began jazz dancing at age 4 and has been devoted ever since. Passionate about dance in general, she has trained in solo, contemporary, classical, and hip hop. She's competed extensively, securing both regional and national prizes, and joined a conservatory during her high school years.",
               "She ventured into rock dance at age 7, swiftly moving on to salsa and, later, West Coast Swing. Very young, she was given the opportunity to teach, where she found joy in connecting and sharing with students. After high school, she chose to specialize in WCS and relocated to Switzerland, where she now lives and works at Jang Widler's dance school.",
@@ -126,7 +126,7 @@ const en = {
           },
           {
             names: "Andrea & Attila",
-            src: "/src/assets/images/teachers_andrea_attila.png",
+            src: "/images/teachers_andrea_attila.png",
             description: [
               "Attila and Andrea began their dance career as ballroom dancers. They taught latin and standard dances for many years. After a successful fifteen-year stint, in the possession of numerous championship titles, they chose to take a step back from their active careers following the birth of their first child.",
               "They were never able to part from dancing completely, always yearning to be back on the dancefloor.In 2013, they encountered West Coast Swing and soon became addicted to the genre. Recognising the distinct differences between ballroom and West Coast Swing, this dance became their passion, mostly because of its endless possibilities and freedom. They were unable to let competing go either, so after some years of competing, they both made it to the prestigious All - Star category.",
@@ -135,7 +135,7 @@ const en = {
           },
           {
             names: "Evgenia & Clement",
-            src: "/src/assets/images/teachers_evgenia_clement.png",
+            src: "/images/teachers_evgenia_clement.png",
             description: [
               "Clevi - Clem & Evi - are two passionate West Coast Swing dancers based in Berlin. With a decade of experience each, they have joined forces to teach and dance together. Clement, an All-Star Division leader and an Advanced Division follower, brings a unique sense of musicality and creativity to the dance floor with his decade of musical studies and his background in solo dances like Ballet, Hip-Hop, and Contemporary.",
               "Evi, an All-Star Division follower with a professional contemporary dance background and experience in Ballet, Jazz, and Modern dance, adds her unique flavor to WCS.",
@@ -144,7 +144,7 @@ const en = {
           },
           {
             names: "Raushaniya & Mackenzie",
-            src: "/src/assets/images/teachers_raushaniya_mackenzie.png",
+            src: "/images/teachers_raushaniya_mackenzie.png",
             description: [
               "Raushaniya took her first steps in West Coast Swing on a beautiful rainy evening by Lake Zurich, Switzerland. From that moment, she was hooked, finding in dance a way to connect with people all across the world. Before discovering WCS, she trained in Arabic belly dancing for several years, developing a strong foundation in body isolation and fluid movement.",
               "Mackenzie began his West Coast Swing journey at the age of 11, joining local classes in Brisbane, Australia, and has since dedicated himself as both a dancer and teacher. As an experienced instructor, he is passionate about teaching in-depth technique and has developed a unique approach to integrating solo movement to push the creative expression for dancing in a partnership setting.",
@@ -258,7 +258,7 @@ const en = {
           {
             names: "Jacqueline",
             title: "MC",
-            src: "/src/assets/images/staff_jacqueline.png",
+            src: "/images/staff_jacqueline.png",
             description: [
               "Since her debut as MC at Slovenian Open last year, her presence has grown at events across the community—including as an MC at Finnfest.",
               "Originating from a background in stage dancing, Jacqueline's West Coast Swing journey started in 2018 with the Warsaw Westies, where she is still seen regularly, even though she is always on the move.",
@@ -268,7 +268,7 @@ const en = {
           {
             names: "Andreas",
             title: "Scoring",
-            src: "/src/assets/images/staff_andreas.png",
+            src: "/images/staff_andreas.png",
             description: [
               "Andreas is the mastermind behind the Scoreboard system, a prominent and widely used scoring tool for dance competitions. Known for its speed and reliability, Scoreboard has been a game-changer in the way competitions are judged and results are delivered.",
               "Andreas's expertise and dedication to the dance scene are evident as he is a familiar face at most European dance events, where his system continues to enhance the competitive dance experience for participants and organizers alike.",
@@ -277,7 +277,7 @@ const en = {
           {
             names: "Ludovic",
             title: "Chief Judge",
-            src: "/src/assets/images/staff_ludovic.png",
+            src: "/images/staff_ludovic.png",
             description: [
               "Ludovic's extensive experience in various dance forms, coupled with his significant achievements as both a competitor and instructor, render him an indispensable asset to any judging panel.",
               "His comprehensive understanding of dance dynamics and technical proficiency equips him with a keen eye for detail, ensuring a fair and insightful evaluation of performances.",
@@ -286,7 +286,7 @@ const en = {
           {
             names: "Karin",
             title: "Assistant Chief Judge",
-            src: "/src/assets/images/staff_karin.png",
+            src: "/images/staff_karin.png",
             description: [
               "With a lifelong dedication to dance, Karin Kakun brings a wealth of experience to the judging panel. Holding a university degree in dance and over 14 years of teaching experience, she has trained dancers across multiple disciplines, including WCS, Hip-Hop, Stretching, and Pole dance.",
               "Her extensive background as a competitor, instructor, and choreographer gives her a well-rounded perspective, allowing her to assess performances with a keen eye for movement, musicality, and technique.",
@@ -295,7 +295,7 @@ const en = {
           {
             names: "Henri",
             title: "Dancing Mind",
-            src: "/src/assets/images/staff_henri.png",
+            src: "/images/staff_henri.png",
             description: [
               "Henri discovered West Coast Swing in 2017, drawn by a lifelong passion for music despite no prior dance background.",
               "While exploring WCS, he pursued a career in medicine, becoming a general physician, and spent over eight years studying psychology, including sports psychology. This dual expertise gives him a unique perspective on the mind-body connection in dance. As the team doctor for Special Olympics Finland, he has witnessed firsthand the transformative power of movement and joy. His first webinar was held on November 26, 2023.",
@@ -309,7 +309,7 @@ const en = {
           {
             names: "Jake",
             title: "Video & Live stream",
-            src: "/src/assets/images/staff_jake.png",
+            src: "/images/staff_jake.png",
             description: [
               "Jake is part of the Triple Step TV team, as videographer and lead web developer. Together with Harold and the rest of the crew, their mission is to share this beautiful, breathtaking dance that we all love - with as many people on the planet as possible!",
               "They love filming and editing social media videos, live streaming events with instant replays, and adding classes to their global map of West Coast Swing.",
@@ -332,7 +332,7 @@ const en = {
           {
             names: "Vicky",
             title: "Zero to Hero Lead",
-            src: "/src/assets/images/staff_vicky.png",
+            src: "/images/staff_vicky.png",
             description: [
               "Vicky is originally from Lithuania but now lives in London, where she discovered the joy and creativity of West Coast Swing in January 2023. From exploring music and dance to welcoming new people into the community, she is incredibly passionate about WCS and excited to see how this amazing community continues to grow.",
               "Her special skills lie in integrating new dancers into the community, making them feel welcome and comfortable, and helping them to find their place in the dance world. She lead the Zero to Hero program at multiple events, and is now bringing her expertise to Slovenian Open.",
@@ -346,7 +346,7 @@ const en = {
           {
             names: "Sarah",
             title: "Shoe Seller",
-            src: "/src/assets/images/collaborators_sarah.png",
+            src: "/images/collaborators_sarah.png",
             description: [
               "As a dancer, she always noticed that many dancers wear the wrong shoes. Observing the lack of specialized dance shoe shops in Carinthia and people's reluctance to buy from dance schools or online, she became self-employed in December 2018, creating a business focused on dance shoes.",
               "She's eager to offer advice on personal concerns and assist in finding the ideal dance shoe for each individual.",
@@ -374,8 +374,8 @@ const en = {
     program: {
       pageTitle: "Program",
       schedule: {
-        pdfSrc: "/src/assets/files/schedule_zth_v1.pdf",
-        imgSrc: "/src/assets/images/schedule_zth_v1.jpg",
+        pdfSrc: "/files/schedule_zth_v1.pdf",
+        imgSrc: "/images/schedule_zth_v1.jpg",
       },
       description: [
         "The Zero to Hero program is a standalone program that you can book without attending the event afterwards. Alternatively, if you're planning to attend the full event, but would like to join the Zero to Hero as a secondary role, you can add this program through your profile page after registering for the event.",
@@ -396,7 +396,7 @@ const en = {
       {
         title: "Micro-musicality Intensive",
         instructors: "Raushaniya & Mackenzie",
-        imgSrc: "/src/assets/images/teachers_raushaniya_mackenzie.png",
+        imgSrc: "/images/teachers_raushaniya_mackenzie.png",
         level: "Recommended for Level 5 and 6",
         description: [
           "This intensive track focuses on micro-musicality in West Coast Swing. Mackenzie and Raushaniya will guide you through various exercises and techniques to help you develop your musicality skills and connect with the music in a more meaningful way. You'll learn how to interpret and express the music at a deeper level, as well as how to incorporate musicality into your dancing.",
@@ -406,7 +406,7 @@ const en = {
       {
         title: "Blues Intensive",
         instructors: "Andrea & Attila",
-        imgSrc: "/src/assets/images/teachers_andrea_attila.png",
+        imgSrc: "/images/teachers_andrea_attila.png",
         level: "Recommended for Level 4 and 5",
         description: [
           "This intensive track focuses on the blues style of West Coast Swing. Andrea and Attila will teach you the core concepts of blues dancing, including the characteristic patterns, rhythms, and techniques. You'll learn how to better match your dancing to blues music, and what specifics to pay attention to when dancing to this genre.",
@@ -416,7 +416,7 @@ const en = {
       {
         title: "Switch Intensive",
         instructors: "Evgenia & Clement",
-        imgSrc: "/src/assets/images/teachers_evgenia_clement.png",
+        imgSrc: "/images/teachers_evgenia_clement.png",
         level: "Recommended for Level 3 and above",
         description: [
           "This intensive track focuses on the switch role in West Coast Swing. Evgenia and Clement will teach you the fundamentals of switching roles, including the techniques and concepts involved. You'll learn how to effectively communicate the desire to switch role, which will no doubt help your communication skills as a leader or as a follower.",
@@ -538,8 +538,8 @@ const en = {
       description:
         "This is a preliminary schedule and is very likely to change before the event.",
       downloadText: "Download the .pdf file.",
-      pdfSrc: "/src/assets/files/schedule_v1.pdf",
-      pngSrc: "/src/assets/images/schedule_v1.jpg",
+      pdfSrc: "/files/schedule_v1.pdf",
+      pngSrc: "/images/schedule_v1.jpg",
     },
     pricing: {
       pageTitle: "Pricing",
@@ -614,7 +614,7 @@ const en = {
       pageTitle: "Slovenia",
       description: [
         {
-          src: "/src/assets/images/slovenia_ljubljana.jpg",
+          src: "/images/slovenia_ljubljana.jpg",
           alt: "Ljubljana",
           texts: [
             "Hey there, fellow westie! Welcome to Slovenia, a land of boundless beauty, rich culture, and the warmest of welcomes. We can't wait to show you our home and share some dances.",
@@ -622,7 +622,7 @@ const en = {
           ],
         },
         {
-          src: "/src/assets/images/slovenia_bled.jpg",
+          src: "/images/slovenia_bled.jpg",
           alt: "Bled",
           texts: [
             "If you've got an extra day to spare, there's a world of natural beauty just a stone throw away. Take a short drive to Lake Bled, a fairytale-like destination with its own island and a castle perched on a cliff. Go for a hike in Triglav National Park, with its majestic mountains and crystal-clear lakes. Descend into the mesmerizing Postojna Caves, an underground wonderland. Visit Piran - take your first (quick) dip in the sea of 2024 and enjoy a relaxing day on the coast.",
@@ -688,7 +688,7 @@ const en = {
         },
         links: {
           mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
-          mapSrc: "/src/assets/images/location_hotel_map.png",
+          mapSrc: "/images/location_hotel_map.png",
         },
         address: {
           addressText: "Address",
@@ -712,7 +712,7 @@ const en = {
         ],
         links: {
           mapHref: "https://maps.app.goo.gl/4fiDjE4WWUEXvWEz8",
-          mapSrc: "/src/assets/images/location_castle_map.png",
+          mapSrc: "/images/location_castle_map.png",
         },
         address: {
           addressText: "Address",
@@ -793,7 +793,7 @@ const en = {
       'This year our Thursday Day Trip takes us to breathtaking lake Bled. Read more about the itinerary <a href="day-trip">here</a>.<br />The cost of this memorable day trip is <span class="bold">65 EUR</span> per person, which includes transportation, lunch, guides, and entrance fees.',
     description: [
       {
-        src: "/src/assets/images/day_trip_bled_castle.png",
+        src: "/images/day_trip_bled_castle.png",
         alt: "Lake Castle img",
         texts: [
           "Join us for an unforgettable day trip as we explore the breathtaking Lake Bled.",
@@ -802,7 +802,7 @@ const en = {
         ],
       },
       {
-        src: "/src/assets/images/day_trip_bled_lake.png",
+        src: "/images/day_trip_bled_lake.png",
         alt: "Bled Lake img",
         texts: [
           `As there are many things to do around the lake, we will have plenty of free time to explore on our own, whether it's taking a leisurely stroll along the lakeshore, renting a traditional "pletna" boat to visit the island and ring the lucky church bell, or simply relaxing by the water and enjoying a piece of delicious Bled cream cake.`,

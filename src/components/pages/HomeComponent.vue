@@ -260,7 +260,7 @@ export default {
 
 @media screen and (max-width: 1200px) {
   #banner {
-    content: url("/src/assets/images/website_landing_square.png");
+    content: url("/images/website_landing_square.png");
   }
 
   .features-grid {

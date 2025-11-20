@@ -109,7 +109,7 @@ const si = {
         people: [
           {
             names: "Karin & Ludovic",
-            src: "/src/assets/images/teachers_karin_ludovic.png",
+            src: "/images/teachers_karin_ludovic.png",
             description: [
               "Karin Kakun pleše že celo življenje. Z univerzitetno diplomo iz plesa ima za seboj več kot 14 let učenja plesa. Poučuje WCS, hip hop, raztezanje in ples ob drogu. Poleg tega tudi koreografira in nastopa. Preden se je posvetila WCS, je bila izraelska prvakinja v salsi.",
               "Svojo pot v WCS je začela leta 2014 in se že takrat popolnoma zaljubila v ta ples. Zdaj tekmuje v Champion kategoriji in poučuje v Izraelu, kjer vodi skupino tečajev west coast swinga. Redno potuje in poučuje po vsej Evropi.",
@@ -119,7 +119,7 @@ const si = {
           },
           {
             names: "Savana & João",
-            src: "/src/assets/images/teachers_savana_joao.png",
+            src: "/images/teachers_savana_joao.png",
             description: [
               "Savana je začela plesati jazz pri štirih letih in je temu posvečena od takrat naprej. Strastna ljubiteljica plesa na splošno se je izobraževala v solo plesih kot so sodobni ples in hip hop. Sodelovala je na številnih tekmovanjih, kjer je osvajala regionalne in nacionalne nagrade, in se med srednjo šolo pridružila konservatoriju.",
               "Pri sedmih letih se je podala v svet plesov v paru, nato pa hitro prešla na salso in kasneje na west coast swing. Zelo mlada je dobila priložnost za poučevanje, kjer je našla veselje v povezovanju in deljenju z učenci. Po srednji šoli se je odločila specializirati za WCS in se preselila v Švico, kjer zdaj živi in dela v plesni šoli Janga Widlerja.",
@@ -129,7 +129,7 @@ const si = {
           },
           {
             names: "Andrea & Attila",
-            src: "/src/assets/images/teachers_andrea_attila.png",
+            src: "/images/teachers_andrea_attila.png",
             description: [
               "Attila in Andrea sta svojo plesno kariero začela kot plesalca standardnih in latinskoameriških plesov. Veliko let sta poučevala te plesne zvrsti in v tem času osvojila številne prvenstvene naslove. Po rojstvu prvega otroka sta se odločila za odmik od aktivne kariere, a plesa nista mogla povsem opustiti in sta vedno hrepenela po vrnitvi na plesišče.",
               "Leta 2013 sta odkrila West Coast Swing in kmalu postala zasvojena s tem plesnim stilom. Zaradi izrazitih razlik med standardnimi plesi in West Coast Swing, sta v tem plesu našla svojo strast, predvsem zaradi njegovih neskončnih možnosti in svobode. Tekmovanja nista mogla povsem opustiti, tako da sta po nekaj letih tekmovanja oba dosegla prestižno kategorijo All-Star.",
@@ -138,7 +138,7 @@ const si = {
           },
           {
             names: "Evgenia & Clement",
-            src: "/src/assets/images/teachers_evgenia_clement.png",
+            src: "/images/teachers_evgenia_clement.png",
             description: [
               "Clevi - Clem in Evi - sta strastna plesalca West Coast Swinga iz Berlina. Vsak z desetletnimi izkušnjami sta združila moči, da skupaj poučujeta in plešeta. Clement, plesalec v All-Star Diviziji in plesalka v Advanced Diviziji, prinaša na plesišče edinstven občutek za muzikalnost in kreativnost, ki izhajata iz njegovih desetletnih glasbenih študij in njegovega ozadja v solo plesih, kot so balet, hip-hop in sodobni ples.",
               "Evi, plesalka v All-Star Diviziji, s profesionalnim ozadjem v sodobnem plesu ter izkušnjami v baletu, jazzu in modernem plesu, prispeva svoj edinstven pridih k WCS.",
@@ -148,7 +148,7 @@ const si = {
           },
           {
             names: "Raushaniya & Mackenzie",
-            src: "/src/assets/images/teachers_raushaniya_mackenzie.png",
+            src: "/images/teachers_raushaniya_mackenzie.png",
             description: [
               "Raushaniya je naredila prve korake v West Coast Swingu na prelepi deževni večer ob Curyškem jezeru v Švici. Od tistega trenutka jo je ta ples prevzel, saj je v njem našla način povezovanja z ljudmi po vsem svetu. Preden je odkrila WCS, se je več let ukvarjala z arabsko trebušno plesno tehniko, pri čemer je razvila močno osnovo v izolacijah in tekočem gibanju.",
               "Mackenzie je svojo WCS pot začel pri enajstih letih, ko se je pridružil lokalnim tečajem v Brisbaneu v Avstraliji, in se od takrat posvetil tako plesu kot poučevanju. Kot izkušen inštruktor je strasten glede poglobljene tehnike in je razvil edinstven pristop, ki vključuje solo gibanje za širjenje ustvarjalnega izraza v partnerskem plesu.",
@@ -262,7 +262,7 @@ const si = {
           {
             names: "Jacqueline",
             title: "MC",
-            src: "/src/assets/images/staff_jacqueline.png",
+            src: "/images/staff_jacqueline.png",
             description: [
               "Od svojega debija kot MC na Slovenian Open lani je njena prisotnost na dogodkih po skupnosti vse bolj opazna—tudi kot MC na Finnfestu.",
               "Jacqueline je začela svojo plesno pot v stage plesih. Leta 2018 se je priključila Warsaw Westies in se začela ukvarjati z west coast swingom. Čeprav veliko potuje po tujini, jo tam še vedno redno videvajo.",
@@ -272,7 +272,7 @@ const si = {
           {
             names: "Andreas",
             title: "Ocenjevanje",
-            src: "/src/assets/images/staff_andreas.png",
+            src: "/images/staff_andreas.png",
             description: [
               "Andreas je idejni vodja sistema Scoreboard, ki je izvrstno in pogosto uporabljano orodje za ocenjevanje plesnih tekmovanj. Poznan po svoji hitrosti in zanesljivosti je Scoreboard spremenil način sodniškega ocenjevanja in objave rezultatov.",
               "Andreasova strokovnost in predanost plesni sceni sta očitna, saj je znan obraz na večini evropskih plesnih dogodkov, kjer njegov sistem izboljšuje tekmovalne izkušnje udeležencev, organizatorjev in sodnikov.",
@@ -281,7 +281,7 @@ const si = {
           {
             names: "Ludovic",
             title: "Glavni sodnik",
-            src: "/src/assets/images/staff_ludovic.png",
+            src: "/images/staff_ludovic.png",
             description: [
               "Ludovic je zaradi obsežnih izkušnej v različnih plesnih zvrsteh in svojih pomembnih dosežkov kot tekmovalec in inštruktor nepogrešljiv član katerekoli sodniške ekipe.",
               "Njegovo celovito razumevanje plesne dinamike in tehnične spretnosti mu daje izostren občutek za detajle, kar zagotavlja pošteno in natančno ocenjevanje tekmovalcev.",
@@ -290,7 +290,7 @@ const si = {
           {
             names: "Karin",
             title: "Pomočnica glavnega sodnika",
-            src: "/src/assets/images/staff_karin.png",
+            src: "/images/staff_karin.png",
             description: [
               "S svojo dolgoletno predanostjo plesu Karin Kakun prinaša bogate izkušnje sodniški ekipi. Ima univerzitetno diplomo iz plesa in več kot 14 let poučevanja, pri čemer je trenirala plesalce v različnih disciplinah, vključno z WCS, hip-hopom, razteznimi vajami in pole danceom.",
               "Kot tekmovalka, inštruktorica in koreografinja ima celovit pogled na ples, s katerim lahko ocenjuje tekmovanja z občutkom za gibanje, muzikalnost in tehniko.",
@@ -299,7 +299,7 @@ const si = {
           {
             names: "Henri",
             title: "Dancing Mind",
-            src: "/src/assets/images/staff_henri.png",
+            src: "/images/staff_henri.png",
             description: [
               "Henri je odkril West Coast Swing leta 2017, saj ga je kljub pomanjkanju plesnih izkušenj pritegnila njegova dolgoletna strast do glasbe.",
               "Med raziskovanjem WCS je nadaljeval kariero v medicini, postal splošni zdravnik in več kot osem let preučeval psihologijo, vključno s športno psihologijo. Ta dvojna strokovnost mu omogoča edinstven vpogled v povezavo med umom in telesom v plesu. Kot zdravnik ekipe Special Olympics Finland je iz prve roke videl preobrazbeno moč gibanja in veselja. Njegov prvi spletni seminar je potekal 26. novembra 2023.",
@@ -313,7 +313,7 @@ const si = {
           {
             names: "Jake",
             title: "Video in prenos v živo",
-            src: "/src/assets/images/staff_jake.png",
+            src: "/images/staff_jake.png",
             description: [
               "Jake je del ekipe Triple Step TV kot videograf in glavni spletni razvijalec. Skupaj s Haroldom in preostalo ekipo si prizadevajo deliti ta čudovit, presunljiv ples, ki ga imamo vsi tako radi - s čim več ljudmi na planetu!",
               "Uživajo v snemanju in montaži videoposnetkov za družbena omrežja, prenosih dogodkov v živo s takojšnjimi ponovitvami ter dodajanju dogodkov na njihov globalni zemljevid West Coast Swinga.",
@@ -327,7 +327,7 @@ const si = {
           {
             names: "Vicki",
             title: "Vodja programa Zero to Hero",
-            src: "/src/assets/images/staff_vicky.png",
+            src: "/images/staff_vicky.png",
             description: [
               " Vicky prihaja iz Litve, zdaj pa živi v Londonu, kjer je januarja 2023 odkrila veselje in ustvarjalnost West Coast Swinga. Od raziskovanja glasbe in plesa do sprejemanja novih članov v skupnost - strastno ljubi WCS in je navdušena nad tem, kako ta neverjetna skupnost raste.",
               "Njena posebna spretnost je vključevanje novih plesalcev v skupnost, tako da se počutijo dobrodošle in samozavestne ter lažje najdejo svoje mesto v plesnem svetu. Vodila je program Zero to Hero na več dogodkih, zdaj pa svojo strokovnost prinaša na Slovenian Open.",
@@ -341,7 +341,7 @@ const si = {
           {
             names: "Sarah",
             title: "Prodajalka čevljev",
-            src: "/src/assets/images/collaborators_sarah.png",
+            src: "/images/collaborators_sarah.png",
             description: [
               "Kot plesalka je vedno opažala, da mnogi plesalci nosijo napačne čevlje. Opazila je pomanjkanje specializiranih trgovin s plesnimi čevlji na Koroškem in ljudje so se obotavljali kupovati v plesnih šolah ali prek spleta, zato se je decembra 2018 odločila za samostojno podjetniško pot in ustanovila podjetje, osredotočeno na plesne čevlje.",
               "Z veseljem ponuja nasvete glede osebnih zadev in pomoč pri iskanju idealnih plesnih čevljev za posameznike.",
@@ -391,8 +391,8 @@ const si = {
     program: {
       pageTitle: "Program",
       schedule: {
-        pdfSrc: "/src/assets/files/schedule_zth_v1.pdf",
-        imgSrc: "/src/assets/images/schedule_zth_v1.jpg",
+        pdfSrc: "/files/schedule_zth_v1.pdf",
+        imgSrc: "/images/schedule_zth_v1.jpg",
       },
       description: [
         "Program Zero to Hero je samostojen program, ki ga lahko rezerviraš tudi brez nadaljnje udeležbe na dogodku. Če pa že tako nameravaš udeležiti celotnega dogodka in bi rad_a Zero to Hero obiskal_a v sekundarni vlogi, lahko program dodaš na svoji profilni strani po registraciji.",
@@ -413,7 +413,7 @@ const si = {
       {
         title: "Intenzivka: Mikro-muzikalnost",
         instructors: "Raushaniya & Mackenzie",
-        imgSrc: "/src/assets/images/teachers_raushaniya_mackenzie.png",
+        imgSrc: "/images/teachers_raushaniya_mackenzie.png",
         level: "Priporočeno za nivo 5 in 6",
         description: [
           "Ta intenzivka se osredotoča na mikro-muzikalnost v West Coast Swingu. Raushaniya in Mackenzie te bosta vodila skozi različne vaje in tehnike, ki ti bodo pomagale razviti muzikalnost in se globlje povezati z glasbo. Naučil_a se boš interpretirati in izražati glasbo na bolj poglobljen način ter vključiti muzikalnost v svoj ples.",
@@ -423,7 +423,7 @@ const si = {
       {
         title: "Intenzivka: Blues",
         instructors: "Andrea & Attila",
-        imgSrc: "/src/assets/images/teachers_andrea_attila.png",
+        imgSrc: "/images/teachers_andrea_attila.png",
         level: "Priporočeno za nivo 4 in 5",
         description: [
           "Ta intenzivka se osredotoča na blues stil znotraj West Coast Swinga. Andrea in Attila te bosta naučila ključnih konceptov blues plesa, vključno s karakterističnimi figurami, ritmi in tehnikami. Naučil_a se boš bolje prilagoditi svojo plesno interpretacijo blues glasbi ter na katere posebnosti biti pozorni pri plesu na ta žanr.",
@@ -433,7 +433,7 @@ const si = {
       {
         title: "Intenzivka: Switch",
         instructors: "Evgenia & Clement",
-        imgSrc: "/src/assets/images/teachers_evgenia_clement.png",
+        imgSrc: "/images/teachers_evgenia_clement.png",
         level: "Priporočeno za nivo 3 in višje",
         description: [
           "Ta intenzivka je posvečena menjanju plesnih vlog znotraj plesa v West Coast Swingu. Evgenia in Clement te bosta naučila osnov menjavanja vlog, vključno s tehnikami in koncepti, ki so pri tem pomembni. Naučil_a se boš učinkovito komunicirati željo po menjavi vloge, kar bo nedvomno izboljšalo tvoje komunikacijske veščine kot leader ali follower.",
@@ -554,8 +554,8 @@ const si = {
       pageTitle: "Urnik",
       description: "To je okvirni urnik in se bo verjetno še kaj spremenil.",
       downloadText: "Prenesi .pdf datoteko.",
-      pdfSrc: "/src/assets/files/schedule_v1.pdf",
-      pngSrc: "/src/assets/images/schedule_v1.jpg",
+      pdfSrc: "/files/schedule_v1.pdf",
+      pngSrc: "/images/schedule_v1.jpg",
     },
     pricing: {
       pageTitle: "Cenik",
@@ -698,7 +698,7 @@ const si = {
         },
         links: {
           mapHref: "https://maps.app.goo.gl/W7phenXgu1xkgaUi9",
-          mapSrc: "/src/assets/images/location_hotel_map.png",
+          mapSrc: "/images/location_hotel_map.png",
         },
         address: {
           addressText: "Naslov",
@@ -722,7 +722,7 @@ const si = {
         ],
         links: {
           mapHref: "https://maps.app.goo.gl/4fiDjE4WWUEXvWEz8",
-          mapSrc: "/src/assets/images/location_castle_map.png",
+          mapSrc: "/images/location_castle_map.png",
         },
         address: {
           addressText: "Naslov",
@@ -743,7 +743,7 @@ const si = {
       'Letos nas bo četrtkov enodnevni izlet popeljal do osupljivega Blejskega jezera. Več o programu si lahko prebereš <a href="day-trip">tukaj</a>.<br />Cena tega nepozabnega izleta je <span class="bold">65 evrov</span> na osebo, kar vključuje prevoz, kosilo, vodnike in vstopnine.',
     description: [
       {
-        src: "/src/assets/images/day_trip_bled_castle.png",
+        src: "/images/day_trip_bled_castle.png",
         alt: "Slika Blejskega gradu",
         texts: [
           "Pridruži se nam na nepozabnem enodnevnem izletu, kjer bomo raziskovali osupljivo Blejsko jezero.",
@@ -752,7 +752,7 @@ const si = {
         ],
       },
       {
-        src: "/src/assets/images/day_trip_bled_lake.png",
+        src: "/images/day_trip_bled_lake.png",
         alt: "Slika Blejskega jezera",
         texts: [
           "Ker je ob jezeru veliko zanimivih aktivnosti, bomo imeli dovolj prostega časa za samostojno raziskovanje - lahko se boste sprehodili ob obali, najeli tradicionalno »pletno« za obisk otoka in pozvonili na znamenitem zvonu želja ali pa preprosto uživali ob vodi in si privoščili kos odlične blejske kremšnite.",
