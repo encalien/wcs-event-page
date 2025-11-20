@@ -52,6 +52,7 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { faBars, faPlus, faTrashCan } from "@fortawesome/free-solid-svg-icons";
+import IntensivesComponent from "./components/pages/IntensivesComponent.vue";
 
 /* add icons to the library */
 library.add(
@@ -92,10 +93,12 @@ const routes: any = [
   //   component: Staff,
   //   props: { staffIndex: 3 }
   // },
+  { path: "/:lang(en|si|fr)/schedule", component: ScheduleComponent },
+  { path: "/:lang(en|si|fr)/pricing", component: PricingComponent },
   { path: "/:lang(en|si|fr)/workshops/levels", component: LevelsComponent },
   { path: "/:lang(en|si|fr)/workshops/wsdc", component: WSDCComponent },
-  { path: "/:lang(en|si|fr)/workshops/schedule", component: ScheduleComponent },
-  { path: "/:lang(en|si|fr)/pricing", component: PricingComponent },
+  { path: "/:lang(en|si|fr)/intensives", component: IntensivesComponent },
+  { path: "/:lang(en|si|fr)/zero-to-hero", component: IntensivesComponent },
   {
     path: "/:lang(en|si|fr)/location/venue/main",
     component: EventLocationComponent,

@@ -11,7 +11,7 @@ const fr = {
       {
         title: "Rencontrer",
         intro:
-          "Instructeurs de classe mondiale enseignant des sessions intensives",
+          "Instructeurs de classe mondiale enseignant des sessions intensifs",
         href: "team",
         list: [
           "Karin Kakun & Ludovic Pelegrin",
@@ -24,7 +24,7 @@ const fr = {
       {
         title: "Expérience",
         intro: "Quatre jours d'ateliers, de compétitions et de soirées",
-        href: "workshops/schedule",
+        href: "schedule",
         list: [
           "4 soirées exceptionnelles",
           "3 jours de workshops par niveau",
@@ -367,6 +367,47 @@ const fr = {
       },
     ],
   },
+  intensives: {
+    pageTitle: "Intensifs",
+    disclaimer: `En savoir plus sur les intensifs que nous proposons <a href="intensives">ici</a>. Vous pourrez ajouter les intensifs via votre page de profil. Veuillez noter que, comme tous les intensifs ont lieu en même temps, vous ne pouvez en ajouter qu'un seul.<br />Chaque intensif de 3 heures coûte <span class="bold">60 EUR</span>.`,
+    introText: [
+      "En plus des ateliers réguliers, nous sommes ravis de proposer trois parcours intensifs pendant l'événement. Ces intensifs sont conçus pour offrir une exploration approfondie d'aspects spécifiques du West Coast Swing, permettant aux danseurs de se concentrer sur des compétences et des concepts particuliers sur une période prolongée.",
+      "Les intensifs sont prévus le vendredi matin au même horaire, vous ne pourrez donc participer qu'à un seul d'entre eux.",
+      "Le prix des intensifs est payé séparément - chaque intensif de 3 heures coûte 60 EUR. Vous pouvez vous inscrire aux intensifs sur votre page de profil.",
+    ],
+    tracks: [
+      {
+        title: "Intensif Micro-musicalité",
+        instructors: "Raushaniya & Mackenzie",
+        imgSrc: "/src/assets/images/teachers_raushaniya_mackenzie.png",
+        level: "Recommandé pour les niveaux 5 et 6",
+        description: [
+          "Cet intensif est consacré à la micro-musicalité en West Coast Swing. Mackenzie et Raushaniya vous guideront à travers divers exercices et techniques pour développer votre sens musical et vous connecter à la musique de manière plus profonde. Vous apprendrez à interpréter et exprimer la musique à un niveau plus détaillé, ainsi qu'à intégrer la musicalité dans votre danse.",
+          "Cet intensif est destiné aux danseurs intermédiaires et avancés souhaitant élever leur musicalité à un niveau supérieur.",
+        ],
+      },
+      {
+        title: "Intensif Blues",
+        instructors: "Andrea & Attila",
+        imgSrc: "/src/assets/images/teachers_andrea_attila.png",
+        level: "Recommandé pour les niveaux 4 et 5",
+        description: [
+          "Cet intensif est centré sur le style blues du West Coast Swing. Andrea et Attila vous enseigneront les concepts essentiels du blues, y compris les figures caractéristiques, les rythmes et les techniques. Vous apprendrez à adapter davantage votre danse à la musique blues et à reconnaître les spécificités importantes lorsque vous dansez sur ce genre.",
+          "Cet intensif est destiné aux danseurs Novice et Intermediate souhaitant améliorer leurs compétences en blues.",
+        ],
+      },
+      {
+        title: "Intensif Switch",
+        instructors: "Evgenia & Clement",
+        imgSrc: "/src/assets/images/teachers_evgenia_clement.png",
+        level: "Recommandé pour le niveau 3 et plus",
+        description: [
+          "Cet intensif se concentre sur le rôle switch en West Coast Swing. Evgenia et Clement vous enseigneront les bases du changement de rôle, y compris les techniques et concepts impliqués. Vous apprendrez comment communiquer efficacement le désir de changer de rôle, ce qui améliorera sans aucun doute vos compétences de communication en tant que leader ou follower.",
+          "Cet intensif est destiné aux danseurs de tous niveaux souhaitant explorer le rôle switch et améliorer leurs compétences générales. Si vous maîtrisez déjà les bases des deux rôles, c'est parfait ! Sinon, nous vous recommandons également de suivre le programme Zero to Hero pour vous familiariser avec le rôle secondaire.",
+        ],
+      },
+    ],
+  },
   workshops: {
     pageTitle: "Workshops",
     levels: {
@@ -503,7 +544,7 @@ const fr = {
           type: "Full Pass",
           tiers: ["150", "160", "170"],
           includes: [
-            "6 heures d'ateliers - niveau 2/3/4/5/6",
+            "6 heures d'ateliers",
             "entrée aux soirées ven, sam, dim",
             "entrée pendant les compétitions",
           ],
@@ -532,11 +573,7 @@ const fr = {
         {
           type: "Zero to Hero",
           tiers: ["50", "60", "70"],
-          includes: [
-            "4 ateliers le jeudi - niveau 1",
-            "entrée à la soirée du jeudi",
-            "",
-          ],
+          includes: ["4 ateliers le jeudi", "entrée à la soirée du jeudi", ""],
           descriptions: [
             "10 premiers pass",
             "10 pass suivants",
@@ -544,7 +581,7 @@ const fr = {
           ],
         },
         {
-          type: "Intensives",
+          type: "Intensifs",
           tiers: ["50", "60", "70"],
           includes: ["3 heures d'intensif le vendredi matin", "", ""],
           descriptions: [
@@ -1171,7 +1208,7 @@ const fr = {
         },
         {
           value:
-            "En finale, un tirage au sort (ou une autre méthode aléatoire) déterminera votre partenaire. Aucun nouveau tirage ne sera autorisé pour quelque raison que ce soit – c'est la chance du tirage. Les finalistes seront jugés en couple.",
+            "En finale, un tirage au sort (ou une autre méthode aléatoire) déterminera votre partenaire. Aucun nouveau tirage ne sera autorisé pour quelque raison que ce soit - c'est la chance du tirage. Les finalistes seront jugés en couple.",
         },
       ],
     },

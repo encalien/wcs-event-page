@@ -22,7 +22,7 @@ const en = {
       {
         title: "Experience",
         intro: "Four days of parties, workshops, competitions",
-        href: "workshops/schedule",
+        href: "schedule",
         list: [
           "4 amazing parties",
           "3 days of leveled workshops",
@@ -357,6 +357,57 @@ const en = {
       },
     ],
   },
+  program: {
+    pageTitle: "Program",
+  },
+  zeroToHero: {
+    pageTitle: "Zero to Hero",
+    description: [
+      "The Zero to Hero program is designed for complete beginners who want to learn West Coast Swing from scratch. The program includes a series of workshops, social dancing opportunities, and support from experienced dancers to help you get started on your WCS journey.",
+      "Whether you've never danced before or have only a little experience, this program will provide you with the foundation you need to enjoy West Coast Swing and become part of the community.",
+    ],
+  },
+  intensives: {
+    pageTitle: "Intensives",
+    disclaimer: `Read more about the intensives we offer <a href="intensives">here</a>. You will be able to add intensives through your profile page. Please note that because all intensives happen at the same time, you may only add 1 intensive<br />Each one of the 3-hour intensives costs <span class="bold">60 EUR</span>.`,
+    introText: [
+      "In addition to the regular workshops, we are excited to offer three intensive tracks during the event. These intensives are designed to provide a deeper dive into specific aspects of West Coast Swing, allowing dancers to focus on particular skills and concepts over an extended period.",
+      "The intensives are planned on Friday morning - all at the same time, so you may only participate in one of them. Read the descriptions below to choose the one that best fits your interests and skill level.",
+      "The price of intensives is paid separately - each 3-hour intensive costs 60 EUR. You can sign up for the intensives on your profile page.",
+    ],
+    tracks: [
+      {
+        title: "Micro-musicality Intensive",
+        instructors: "Raushaniya & Mackenzie",
+        imgSrc: "/src/assets/images/teachers_raushaniya_mackenzie.png",
+        level: "Recommended for Level 5 and 6",
+        description: [
+          "This intensive track focuses on micro-musicality in West Coast Swing. Mackenzie and Raushaniya will guide you through various exercises and techniques to help you develop your musicality skills and connect with the music in a more meaningful way. You'll learn how to interpret and express the music at a deeper level, as well as how to incorporate musicality into your dancing.",
+          "This track is intended for intermediate and advanced dancers who want to take their musicality to the next level.",
+        ],
+      },
+      {
+        title: "Blues Intensive",
+        instructors: "Andrea & Attila",
+        imgSrc: "/src/assets/images/teachers_andrea_attila.png",
+        level: "Recommended for Level 4 and 5",
+        description: [
+          "This intensive track focuses on the blues style of West Coast Swing. Andrea and Attila will teach you the core concepts of blues dancing, including the characteristic patterns, rhythms, and techniques. You'll learn how to better match your dancing to blues music, and what specifics to pay attention to when dancing to this genre.",
+          "This track is intended for Novice and Intermediate competitors who want to improve their blues dancing skills.",
+        ],
+      },
+      {
+        title: "Switch Intensive",
+        instructors: "Evgenia & Clement",
+        imgSrc: "/src/assets/images/teachers_evgenia_clement.png",
+        level: "Recommended for Level 3 and above",
+        description: [
+          "This intensive track focuses on the switch role in West Coast Swing. Evgenia and Clement will teach you the fundamentals of switching roles, including the techniques and concepts involved. You'll learn how to effectively communicate the desire to switch role, which will no doubt help your communication skills as a leader or as a follower.",
+          "This track is intended for dancers of all levels who want to explore the switch role and improve their overall dancing skills. If you already know your basics in both roles, great! If not, we recommend also taking the Zero to Hero program to get familiar with the secondary role.",
+        ],
+      },
+    ],
+  },
   workshops: {
     pageTitle: "Workshops",
     levels: {
@@ -491,7 +542,7 @@ const en = {
           type: "Full Pass",
           tiers: ["150", "160", "170"],
           includes: [
-            "6 hours of workshops - level 2/3/4/5/6",
+            "6 hours of leveled workshops",
             "entrance to Fri, Sat, Sun parties",
             "entrance during competitions",
           ],
@@ -513,17 +564,11 @@ const en = {
           type: "Zero to Hero",
           tiers: ["50", "60", "70"],
           includes: [
-            "4 workshops on Thursday - level 1",
+            "4 workshops on Thursday",
             "entrance to Thursday party",
             "",
           ],
           descriptions: ["first 10 passes", "next 10 passes", "until sold out"],
-        },
-        {
-          type: "Intensives",
-          tiers: ["50", "60", "70"],
-          includes: ["3 hours intensive track on Friday morning", "", ""],
-          descriptions: ["first 20 passes", "next 20 passes", "until sold out"],
         },
       ],
       //   groups: {
@@ -643,7 +688,7 @@ const en = {
       {
         pageTitle: "Preparty",
         disclaimer:
-          'Preparty is included in the Zero to Hero passes, but NOT in the Full or Party passes. Depending on how many preparty tickets are sold, we may or may not open it to the public.<br />The entrance fee for the preparty is <span class="bold">10 euros</span> if purchased during registration or <span class="bold">15 euros</span> at the door.',
+          'Preparty is included in the Zero to Hero passes, but NOT in the Full or Party passes. Depending on how many preparty tickets are sold, we may or may not open it to the public.<br />The entrance fee for the preparty is <span class="bold">10 EUR</span> if purchased during registration or <span class="bold">15 EUR</span> at the door.',
         description: [
           "Ljubljana Castle, perched atop a hill with breathtaking views of the city below, stands as a significant historical landmark in Slovenia's capital. Dating back to the 11th century, the castle encapsulates centuries of rich history within its ancient walls. Today, it functions as a vibrant cultural center, offering visitors sweeping panoramas, engaging exhibitions, and distinctive event venues such as the enchanting Palacij ballroom, where our preparty will take place from 8 pm to 3 am on Thursday.",
           "If you arrive early, take the opportunity to explore the Castle Tower for a panoramic 360-degree view of the city or indulge in dinner and drinks at the castle's restaurant or bar.",
@@ -864,11 +909,11 @@ const en = {
   },
   comps: {
     pageTitle: "Competitions",
-    disclaimer: `Read more about the competition rules <a href="competition-rules">here</a>. Participation in competitions is subject to an additional fee of <span class="bold">15 euros</span> per competition, which can be paid on site. Registration for competitions will open in April through scoring.dance.`,
+    disclaimer: `Read more about the competition rules <a href="competition-rules">here</a>. Participation in competitions is subject to an additional fee of <span class="bold">15 EUR</span> per competition, which can be paid on site. Registration for competitions will open in April through scoring.dance.`,
   },
   merch: {
     pageTitle: "Merchandise",
-    disclaimer: `Show your love for west coast swing and the Slovenian Open with our exclusive merchandise! This year's collection will feature the new design on a variety of T-shirts. The cost of each T-shirt is <span class="bold">15 euros</span> if purchased during registration or <span class="bold">20 euros</span> if purchased during the event.<br />Note that we will not order many extra items, so it's best to pre-order your merchandise during registration to ensure you get yours.`,
+    disclaimer: `Show your love for west coast swing and the Slovenian Open with our exclusive merchandise! This year's collection will feature the new design on a variety of T-shirts. The cost of each T-shirt is <span class="bold">15 EUR</span> if purchased during registration or <span class="bold">20 EUR</span> if purchased during the event.<br />Note that we will not order many extra items, so it's best to pre-order your merchandise during registration to ensure you get yours.`,
   },
   termsAndConditions: {
     pageTitle: "Terms and Conditions",

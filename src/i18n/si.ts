@@ -23,7 +23,7 @@ const si = {
       {
         title: "Doživi",
         intro: "Štiri dni delavnic, tekmovanj in plesnih večerov",
-        href: "workshops/schedule",
+        href: "schedule",
         list: [
           "4 fantastične zabave",
           "3 dni delavnic po nivojih",
@@ -372,6 +372,48 @@ const si = {
       },
     ],
   },
+  intensives: {
+    pageTitle: "Intenzivke",
+    disclaimer: `Več o intenzivkah, ki jih ponujamo, si lahko prebereš <a href="intensives">tukaj</a>. Intenzivke boš lahko dodal_a preko svoje profilne strani. Ker vse intenzivke potekajo hkrati, lahko dodaš le eno.<br />Vsaka 3-urna intenzivka
+     stane <span class="bold">60 EUR</span>.`,
+    introText: [
+      "Poleg vikend delavnic ponujamo tudi tri različne intenzivne programe. Te intenzivke so zasnovane tako, da omogočajo poglobljen pregled specifičnih vidikov West Coast Swinga, plesalcem pa dajejo priložnost, da se dlje časa posvetijo določenim veščinam in konceptom.",
+      "Intenzivke so načrtovane v petkovem dopoldnevu - vse ob istem času, zato se lahko udeležiš le ene izmed njih. Preberi spodnje opise in izberi tisto, ki najbolj ustreza tvojim interesom in plesnim ciljem!",
+      "Cena intenzivk se plača ločeno - vsaka 3-urna intenzivka stane 60 EUR. Na intenzivke se lahko prijaviš na svoji profilni strani.",
+    ],
+    tracks: [
+      {
+        title: "Intenzivka: Mikro-muzikalnost",
+        instructors: "Raushaniya & Mackenzie",
+        imgSrc: "/src/assets/images/teachers_raushaniya_mackenzie.png",
+        level: "Priporočeno za nivo 5 in 6",
+        description: [
+          "Ta intenzivka se osredotoča na mikro-muzikalnost v West Coast Swingu. Raushaniya in Mackenzie te bosta vodila skozi različne vaje in tehnike, ki ti bodo pomagale razviti muzikalnost in se globlje povezati z glasbo. Naučil_a se boš interpretirati in izražati glasbo na bolj poglobljen način ter vključiti muzikalnost v svoj ples.",
+          "Ta intenzivka je zasnovana za plesalce nivoja Intermediate in Advanced, ki želijo svojo muzikalnost dvigniti na višji nivo.",
+        ],
+      },
+      {
+        title: "Intenzivka: Blues",
+        instructors: "Andrea & Attila",
+        imgSrc: "/src/assets/images/teachers_andrea_attila.png",
+        level: "Priporočeno za nivo 4 in 5",
+        description: [
+          "Ta intenzivka se osredotoča na blues stil znotraj West Coast Swinga. Andrea in Attila te bosta naučila ključnih konceptov blues plesa, vključno s karakterističnimi figurami, ritmi in tehnikami. Naučil_a se boš bolje prilagoditi svojo plesno interpretacijo blues glasbi ter na katere posebnosti biti pozorni pri plesu na ta žanr.",
+          "Ta intenzivka je zasnovana za plesalce kategorij Novice in Intermediate, ki želijo izboljšati svoje blues plesne veščine.",
+        ],
+      },
+      {
+        title: "Intenzivka: Switch",
+        instructors: "Evgenia & Clement",
+        imgSrc: "/src/assets/images/teachers_evgenia_clement.png",
+        level: "Priporočeno za nivo 3 in višje",
+        description: [
+          "Ta intenzivka je posvečena menjanju plesnih vlog znotraj plesa v West Coast Swingu. Evgenia in Clement te bosta naučila osnov menjavanja vlog, vključno s tehnikami in koncepti, ki so pri tem pomembni. Naučil_a se boš učinkovito komunicirati željo po menjavi vloge, kar bo nedvomno izboljšalo tvoje komunikacijske veščine kot leader ali follower.",
+          "Ta intenzivka je namenjena plesalcem vseh nivojev, ki želijo raziskati switch vlogo in izboljšati svoje splošne plesne sposobnosti. Če že poznaš osnove obeh vlog, super! Če ne, priporočamo, da se udeležiš tudi programa Zero to Hero, da se seznaniš s sekundarno vlogo.",
+        ],
+      },
+    ],
+  },
   workshops: {
     pageTitle: "Delavnice",
     levels: {
@@ -492,7 +534,7 @@ const si = {
       description: [
         "Ponudili bomo dve vrsti vikend passov: Full Pass in Party Pass. Full Pass vključuje vse delavnice za vaš dodeljeni nivo, vse ALL LEVEL delavnice ter dostop do tekmovanj in zabav. Party Pass vključuje samo dostop do tekmovanj in zabav. Udeležba na tekmovanjih je predmet dodatnih pristojbin.",
         "Za naše nove westije ponujamo pol-dnevni program Zero to Hero, kjer vas bodo vrhunski inštruktorji pospešeno uvedli v west coast swing. Poleg delavnic bomo pripravili tudi druge družabne aktivnosti, ki vam bodo pomagale vključiti se v obstoječo skupnost. Zero to Hero Pass lahko nadgradite v Party Pass ob prijavi ali na kraju dogodka.",
-        "Poleg tega letos v program dodajamo tri različne intenzive v petkovem dopoldnevu. Za udeležbo na intenzivih morate imeti tudi vikend pass. Vsak intenziv traja 3 ure in je usmerjen v določeno temo. Ker bodo časovno potekali hkrati, se lahko udeležite le enega intenziva.",
+        "Poleg tega letos v program dodajamo tri različne intenzive v petkovem dopoldnevu. Za udeležbo na intenzivkeh morate imeti tudi vikend pass. Vsak intenzivka traja 3 ure in je usmerjen v določeno temo. Ker bodo časovno potekali hkrati, se lahko udeležite le enega intenziva.",
         "Cenovni razredi bodo določeni glede na število sprejetih prijav. Kotizacijo je treba poravnati v 14 dneh od potrditve, sicer si pridržujemo pravico, da vašo prijavo prekličemo in mesto ponudimo nekomu drugemu. V tem primeru se lahko ponovno prijavite, vendar boste podvrženi trenutnemu cenovnemu razredu in razpoložljivosti.",
       ],
       passPrices: [
@@ -505,8 +547,8 @@ const si = {
           type: "Full Pass",
           tiers: ["150", "160", "170"],
           includes: [
-            "6 ur delavnic - nivo 2/3/4/5/6",
-            "vstop na petkovo, sobotno in nedeljsko zabavo",
+            "6 ur nivojskih delavnic",
+            "vstop na zabavo v pet, sob, ned",
             "vstop med tekmovanji",
           ],
           descriptions: [
@@ -520,7 +562,7 @@ const si = {
           tiers: ["110", "120", "130"],
           includes: [
             "BREZ delavnic",
-            "vstop na petkovo, sobotno in nedeljsko zabavo",
+            "vstop na zabavo v pet, sob, ned",
             "vstop med tekmovanji",
           ],
           descriptions: [
@@ -534,11 +576,7 @@ const si = {
         {
           type: "Zero to Hero",
           tiers: ["50", "60", "70"],
-          includes: [
-            "4 delavnice v četrtek - nivo 1",
-            "vstop na četrtkovo zabavo",
-            "",
-          ],
+          includes: ["4 delavnice v četrtek", "vstop na četrtkovo zabavo", ""],
           descriptions: [
             "prvih 10 passov",
             "naslednjih 10 passov",
@@ -689,7 +727,7 @@ const si = {
         src: "/src/assets/images/day_trip_bled_lake.png",
         alt: "Slika Blejskega jezera",
         texts: [
-          "Ker je ob jezeru veliko zanimivih aktivnosti, bomo imeli dovolj prostega časa za samostojno raziskovanje – lahko se boste sprehodili ob obali, najeli tradicionalno »pletno« za obisk otoka in pozvonili na znamenitem zvonu želja ali pa preprosto uživali ob vodi in si privoščili kos odlične blejske kremšnite.",
+          "Ker je ob jezeru veliko zanimivih aktivnosti, bomo imeli dovolj prostega časa za samostojno raziskovanje - lahko se boste sprehodili ob obali, najeli tradicionalno »pletno« za obisk otoka in pozvonili na znamenitem zvonu želja ali pa preprosto uživali ob vodi in si privoščili kos odlične blejske kremšnite.",
           "Približen potek dneva:",
         ],
         itinerary: [
@@ -706,7 +744,7 @@ const si = {
         texts: [
           "Cena tega nepozabnega izleta je 65 EUR na osebo, kar vključuje prevoz, kosilo, vodenje in vstopnine. Vse aktivnosti, ki jih izberete med prostim časom (najem čolna, sladice ipd.), so na lastne stroške.",
           "Prosimo upoštevajte, da je število mest na avtobusu zelo omejeno, zato je obvezna prijava za zagotovitev mesta. Pridržujemo si pravico do spremembe večjih delov programa ali popolne odpovedi izleta iz kakršnegakoli razloga. V primeru odpovedi z naše strani bodo vsa plačila povrnjena; v primeru odpovedi s strani udeleženca vračilo ni mogoče.",
-          "Ta izlet je tradicija, ki jo obožujemo – vsako leto raziskujemo drug del Slovenije, da se lahko udeleženci povežejo in doživijo lepote države tudi izven plesišča. Ne zamudite te priložnosti za odkrivanje ene najlepših slovenskih regij!",
+          "Ta izlet je tradicija, ki jo obožujemo - vsako leto raziskujemo drug del Slovenije, da se lahko udeleženci povežejo in doživijo lepote države tudi izven plesišča. Ne zamudite te priložnosti za odkrivanje ene najlepših slovenskih regij!",
         ],
       },
     ],

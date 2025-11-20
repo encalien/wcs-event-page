@@ -66,7 +66,9 @@ export default {
               $t(`workshops.pricing.passPrices[${i}].descriptions[${j}]`)
             }}</small>
             <br />
-            {{ $t(`workshops.pricing.passPrices[${i}].tiers[${j}]`) }}
+            <span :class="{ bold: i > 0 }">{{
+              $t(`workshops.pricing.passPrices[${i}].tiers[${j}]`)
+            }}</span>
           </span>
         </div>
         <!-- Pass info -->
@@ -77,11 +79,7 @@ export default {
           <span class="mobile-only">
             {{ $t(`workshops.pricing.passPrices[0].includes[0]`) }} <br />
           </span>
-          <span
-            class="pass-includes"
-            v-for="(info, j) in pass.includes"
-            :key="`${j}`"
-          >
+          <span v-for="(info, j) in pass.includes" :key="`${j}`">
             {{ $t(`workshops.pricing.passPrices[${i}].includes[${j}]`) }}
           </span>
         </div>
@@ -100,6 +98,10 @@ export default {
   <section>
     <h2>{{ $t(`location.venue[1].pageTitle`) }}</h2>
     <div v-html="$t(`location.venue[1].disclaimer`)"></div>
+  </section>
+  <section>
+    <h2>{{ $t(`intensives.pageTitle`) }}</h2>
+    <div v-html="$t(`intensives.disclaimer`)"></div>
   </section>
   <section>
     <h2>{{ $t(`dayTrip.pageTitle`) }}</h2>
@@ -147,7 +149,7 @@ export default {
 }
 
 .grid-container {
-  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr;
   margin: -0.5rem;
   align-items: start;
   padding: 2rem 0;
@@ -174,11 +176,7 @@ export default {
   align-items: stretch;
   text-align: center;
   gap: 0.5rem;
-  height: 14rem;
-}
-
-.pass-includes {
-  min-height: 3.2rem;
+  height: 10rem;
 }
 
 .grid-item {
@@ -254,10 +252,6 @@ export default {
   .pass-card {
     width: calc(100vw - 2rem);
     margin: 0 auto;
-  }
-
-  .pass-includes {
-    min-height: 0;
   }
 }
 </style>

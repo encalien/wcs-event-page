@@ -103,7 +103,7 @@ export default {
               @click="closeAllMenus()"
             >
               <router-link
-                :to="`/${$store.state.lang}/workshops/schedule`"
+                :to="`/${$store.state.lang}/schedule`"
                 class="menu-item-link dropdown-header"
               >
                 {{ $t("workshops.schedule.pageTitle") }}
@@ -123,15 +123,63 @@ export default {
             </div>
             <div
               class="menu-item"
-              :class="{ active: isMobileMenuOpen }"
-              @click="closeAllMenus()"
+              :class="{ 'active-block': isMobileMenuOpen }"
             >
-              <router-link
-                :to="`/${$store.state.lang}/workshops/levels`"
+              <div
+                @click="toggleDropdownMenu($t('program.pageTitle'))"
                 class="menu-item-link dropdown-header"
+                :class="{
+                  active: dropdownMenuActive($t('program.pageTitle')),
+                }"
               >
-                {{ $t("workshops.levels.pageTitle") }}
-              </router-link>
+                {{ $t("program.pageTitle") }}
+              </div>
+              <div
+                class="modal-backdrop hidden"
+                :class="{
+                  active: dropdownMenuActive($t('program.pageTitle')),
+                }"
+                @click="closeAllMenus()"
+              ></div>
+              <div
+                class="dropdown-menu hidden"
+                :class="{
+                  active: dropdownMenuActive($t('program.pageTitle')),
+                }"
+              >
+                <div class="dropdown-menu-item" @click="closeAllMenus()">
+                  <router-link
+                    :to="`/${$store.state.lang}/workshops/levels`"
+                    class="menu-item-link dropdown-header"
+                  >
+                    {{ $t("workshops.levels.pageTitle") }}
+                  </router-link>
+                </div>
+                <div class="dropdown-menu-item" @click="closeAllMenus()">
+                  <router-link
+                    :to="`/${$store.state.lang}/intensives`"
+                    class="menu-item-link dropdown-header"
+                  >
+                    {{ $t("intensives.pageTitle") }}
+                  </router-link>
+                </div>
+                <div class="dropdown-menu-item" @click="closeAllMenus()">
+                  <router-link
+                    :to="`/${$store.state.lang}/zero-to-hero`"
+                    class="menu-item-link dropdown-header"
+                  >
+                    {{ $t("zeroToHero.pageTitle") }}
+                  </router-link>
+                </div>
+                <div class="dropdown-menu-item" @click="closeAllMenus()">
+                  <router-link
+                    :to="`/${$store.state.lang}/competition-rules`"
+                    class="menu-item-link dropdown-header"
+                  >
+                    {{ $t("competitionRules.pageTitle") }}
+                  </router-link>
+                </div>
+              </div>
             </div>
             <div
               class="menu-item"
@@ -443,10 +491,11 @@ export default {
 .dropdown-menu-item {
   width: 100%;
   margin: 0 auto;
+  text-align: left;
 }
 
 .dropdown-menu-item > .menu-item-link {
-  padding: 1rem 0.5rem;
+  padding: 1rem;
 }
 
 #social-icons,
