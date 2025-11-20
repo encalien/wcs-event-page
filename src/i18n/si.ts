@@ -780,7 +780,7 @@ const si = {
   },
   registration: {
     pageTitle: "Registracija",
-    opensSoonText: "Prijave se odprejo konec novembra",
+    opensSoonText: "Prijave se odprejo 27. novembra 2025 ob 19:00 CET.",
     registrationInfoTexts: {
       pleaseReadText: "Pred registracijo si pozorno preberi:",
       links: [

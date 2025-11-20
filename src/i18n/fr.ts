@@ -862,7 +862,7 @@ const fr = {
   },
   registration: {
     pageTitle: "Inscription",
-    opensSoonText: "Les inscriptions ouvrent fin novembre",
+    opensSoonText: "Les inscriptions ouvrent 27 Novembre 2025 à 19h CET.",
     registrationInfoTexts: {
       pleaseReadText: "Avant de vous inscrire, veuillez lire ce qui suit :",
       links: [

@@ -829,7 +829,7 @@ const en = {
   },
   registration: {
     pageTitle: "Registration",
-    opensSoonText: "Registration opens end of November",
+    opensSoonText: "Registration opens 27 November 2025 at 7 PM CET.",
     registrationInfoTexts: {
       pleaseReadText: "Before registering, please read the following:",
       links: [
