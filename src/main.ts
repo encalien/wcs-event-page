@@ -141,18 +141,18 @@ const routes: any = [
     component: TermsAndConditionsComponent,
     props: { contentKey: "competitionRules" },
   },
-  {
-    path: "/:lang(en|si|fr)/registration",
-    component: RegistrationComponent,
-  },
-  {
-    path: "/:lang(en|si|fr)/profile/request-link",
-    component: RequestAccessComponent,
-  },
-  {
-    path: "/:lang(en|si|fr)/profile/:hash",
-    component: UserProfileComponent,
-  },
+  //   {
+  //     path: "/:lang(en|si|fr)/registration",
+  //     component: RegistrationComponent,
+  //   },
+  //   {
+  //     path: "/:lang(en|si|fr)/profile/request-link",
+  //     component: RequestAccessComponent,
+  //   },
+  //   {
+  //     path: "/:lang(en|si|fr)/profile/:hash",
+  //     component: UserProfileComponent,
+  //   },
 ];
 
 const router = createRouter({
