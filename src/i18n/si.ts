@@ -403,11 +403,11 @@ const si = {
   },
   intensives: {
     pageTitle: "Intenzivke",
-    disclaimer: `Več o intenzivkah, ki jih ponujamo, si lahko prebereš <a href="intensives">tukaj</a>. Intenzivke boš lahko dodal_a preko svoje profilne strani. Ker vse intenzivke potekajo hkrati, lahko dodaš le eno.<br />Vsaka 3-urna intenzivka stane <span class="bold">60 evrov</span>.`,
+    disclaimer: `Več o intenzivkah, ki jih ponujamo, si lahko prebereš <a href="intensives">tukaj</a>. Intenzivke boš lahko dodal_a preko svoje profilne strani. Ker vse intenzivke potekajo hkrati, lahko dodaš le eno.<br />Vsaka 3-urna intenzivka stane <span class="bold">50 evrov</span>.`,
     introText: [
       "Poleg vikend delavnic ponujamo tudi tri različne intenzivne programe. Te intenzivke so zasnovane tako, da omogočajo poglobljen pregled specifičnih vidikov West Coast Swinga, plesalcem pa dajejo priložnost, da se dlje časa posvetijo določenim veščinam in konceptom.",
       "Intenzivke so načrtovane v petkovem dopoldnevu - vse ob istem času, zato se lahko udeležiš le ene izmed njih. Preberi spodnje opise in izberi tisto, ki najbolj ustreza tvojim interesom in plesnim ciljem!",
-      "Cena intenzivk se plača ločeno - vsaka 3-urna intenzivka stane 60 EUR. Na intenzivke se lahko prijaviš na svoji profilni strani.",
+      "Cena intenzivk se plača ločeno - vsaka 3-urna intenzivka stane 50 EUR. Na intenzivke se lahko prijaviš na svoji profilni strani.",
     ],
     tracks: [
       {
@@ -451,7 +451,7 @@ const si = {
           title: "Zero to Hero",
           descriptionText: [
             "ZAČETNIKI",
-            "Ta nivo je namenjen novim plesalcem, ki še nikoli niso poskusili West Coast Swinga ali pa so obiskali le nekaj začetnih tečajev. Začeli bomo pri popolnih osnovah in vas pripravili, da boste lahko uživali na svoji prvi WCS zabavi. Primeren je tudi za tiste, ki želijo osvojiti sekundarno vlogo.",
+            "Ta nivo je namenjen novim plesalcem, ki še nikoli niso poskusili West Coast Swinga ali pa so obiskali le nekaj začetnih tečajev. Začeli bomo pri popolnih osnovah in te pripravili, da boš lahko užival_a na svoji prvi WCS zabavi. Primeren je tudi za tiste, ki želijo osvojiti sekundarno vlogo.",
           ],
         },
         {
@@ -523,7 +523,7 @@ const si = {
           answerText: [
             "Če želiš obiskati samo zabave in tekmovanja, se prijaviš na Party Pass. Ne zabave ne tekmovanja ne bodo odprta za javnost, zato je za vstop potreben Party Pass.",
             "Če želiš obiskovati tudi delavnice v petek, soboto in nedeljo, se prijaviš na Full Pass. Delavnice bodo razdeljene v 5 nivojev:",
-            "Če ste popolni začetnik ali ste se z WCS srečali le bežno in se želiš naučiti osnov, se lahko pridružiš našemu četrtkovemu programu Zero to Hero. V 4 urah boste osvojili osnove dovolj dobro, da boste lahko plesali na četrtkovi zabavi.",
+            "Če si popolni začetnik ali si se z WCS srečal_a le bežno in se želiš naučiti osnov, se lahko pridružiš našemu četrtkovemu programu Zero to Hero. V 4 urah boš osvojil_a osnove dovolj dobro, da boš lahko plesal_a na četrtkovi zabavi.",
           ],
           list: [
             "Nivo 2 - Newcomer (brez potrebnih točk),",
@@ -748,31 +748,31 @@ const si = {
         texts: [
           "Pridruži se nam na nepozabnem enodnevnem izletu, kjer bomo raziskovali osupljivo Blejsko jezero.",
           "Blejsko jezero v osrčju Julijskih Alp je pravi dragulj Slovenije, znan po kristalno čisti vodi, slikoviti cerkvici na otoku in srednjeveškem gradu, ki stoji na pečini visoko nad jezerom.",
-          "Najprej bomo obiskali Blejski grad, kjer boste lahko uživali v panoramskih razgledih na jezero in okoliške gore. Grad ima tudi muzej, ki prikazuje bogato zgodovino in kulturo regije. Po ogledu gradu se bomo spustili do jezera in odšli na kosilo.",
+          "Najprej bomo obiskali Blejski grad, kjer boš lahko uživali v panoramskih razgledih na jezero in okoliške gore. Grad ima tudi muzej, ki prikazuje bogato zgodovino in kulturo regije. Po ogledu gradu se bomo sprehodili do jezera in odšli na kosilo.",
         ],
       },
       {
         src: "/images/day_trip_bled_lake.png",
         alt: "Slika Blejskega jezera",
         texts: [
-          "Ker je ob jezeru veliko zanimivih aktivnosti, bomo imeli dovolj prostega časa za samostojno raziskovanje - lahko se boste sprehodili ob obali, najeli tradicionalno »pletno« za obisk otoka in pozvonili na znamenitem zvonu želja ali pa preprosto uživali ob vodi in si privoščili kos odlične blejske kremšnite.",
+          "Ker je ob jezeru veliko zanimivih aktivnosti, bomo imeli dovolj prostega časa za samostojno raziskovanje - lahko se sprehodiš ob obali, najeli tradicionalno »pletno« za obisk otoka in pozvonili na znamenitem zvonu želja ali pa preprosto uživali ob vodi in si privoščili kos odlične blejske kremšnite.",
           "Približen potek dneva:",
         ],
         itinerary: [
-          ["9:00:", "Odhod iz hotela Austria Trend v Ljubljani."],
+          ["9:00:", "Odhod izpred hotela Austria Trend Ljubljana."],
           ["10:00:", "Prihod in voden ogled Blejskega gradu."],
-          ["12:00:", "Spust do jezera."],
+          ["12:00:", "Sprehod do jezera."],
           ["12:30:", "Kosilo."],
           ["13:30:", "Prosti čas ob jezeru."],
           ["16:00:", "Odhod z Bleda."],
-          ["17:00:", "Vrnitev v hotel Austria Trend v Ljubljani."],
+          ["17:00:", "Vrnitev v hotel Austria Trend Ljubljana."],
         ],
       },
       {
         texts: [
           "Cena tega nepozabnega izleta je 65 EUR na osebo, kar vključuje prevoz, kosilo, vodenje in vstopnine. Vse aktivnosti, ki jih izbereš med prostim časom (najem čolna, sladice ipd.), so na lastne stroške.",
           "Prosimo upoštevaj, da je število mest na avtobusu zelo omejeno, zato je obvezna prijava za zagotovitev mesta. Pridržujemo si pravico do spremembe večjih delov programa ali popolne odpovedi izleta iz kakršnegakoli razloga. V primeru odpovedi z naše strani bodo vsa plačila povrnjena; v primeru odpovedi s strani udeleženca vračilo ni mogoče.",
-          "Ta izlet je tradicija, ki jo obožujemo - vsako leto raziskujemo drug del Slovenije, da se lahko udeleženci povežejo in doživijo lepote države tudi izven plesišča. Ne zamudi priložnosti za odkrivanje ene najlepših slovenskih regij!",
+          "Ta izlet je tradicija, ki nam je zelo pri srcu - vsako leto raziskujemo drug del Slovenije, da se lahko udeleženci povežejo tudi izven plesišča in doživijo lepote Slovenije. Ne zamudi priložnosti za odkrivanje ene najlepših slovenskih regij!",
         ],
       },
     ],

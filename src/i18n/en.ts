@@ -386,11 +386,11 @@ const en = {
   },
   intensives: {
     pageTitle: "Intensives",
-    disclaimer: `Read more about the intensives we offer <a href="intensives">here</a>. You will be able to add intensives through your profile page. Please note that because all intensives happen at the same time, you may only add 1 intensive<br />Each one of the 3-hour intensives costs <span class="bold">60 EUR</span>.`,
+    disclaimer: `Read more about the intensives we offer <a href="intensives">here</a>. You will be able to add intensives through your profile page. Please note that because all intensives happen at the same time, you may only add 1 intensive<br />Each one of the 3-hour intensives costs <span class="bold">50 EUR</span>.`,
     introText: [
       "In addition to the regular workshops, we are excited to offer three intensive tracks during the event. These intensives are designed to provide a deeper dive into specific aspects of West Coast Swing, allowing dancers to focus on particular skills and concepts over an extended period.",
       "The intensives are planned on Friday morning - all at the same time, so you may only participate in one of them. Read the descriptions below to choose the one that best fits your interests and skill level.",
-      "The price of intensives is paid separately - each 3-hour intensive costs 60 EUR. You can sign up for the intensives on your profile page.",
+      "The price of intensives is paid separately - each 3-hour intensive costs 50 EUR. You can sign up for the intensives on your profile page.",
     ],
     tracks: [
       {

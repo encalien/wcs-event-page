@@ -402,11 +402,11 @@ const fr = {
   },
   intensives: {
     pageTitle: "Intensifs",
-    disclaimer: `En savoir plus sur les intensifs que nous proposons <a href="intensives">ici</a>. Vous pourrez ajouter les intensifs via votre page de profil. Veuillez noter que, comme tous les intensifs ont lieu en même temps, vous ne pouvez en ajouter qu'un seul.<br />Chaque intensif de 3 heures coûte <span class="bold">60 EUR</span>.`,
+    disclaimer: `En savoir plus sur les intensifs que nous proposons <a href="intensives">ici</a>. Vous pourrez ajouter les intensifs via votre page de profil. Veuillez noter que, comme tous les intensifs ont lieu en même temps, vous ne pouvez en ajouter qu'un seul.<br />Chaque intensif de 3 heures coûte <span class="bold">50 EUR</span>.`,
     introText: [
       "En plus des ateliers réguliers, nous sommes ravis de proposer trois parcours intensifs pendant l'événement. Ces intensifs sont conçus pour offrir une exploration approfondie d'aspects spécifiques du West Coast Swing, permettant aux danseurs de se concentrer sur des compétences et des concepts particuliers sur une période prolongée.",
       "Les intensifs sont prévus le vendredi matin au même horaire, vous ne pourrez donc participer qu'à un seul d'entre eux.",
-      "Le prix des intensifs est payé séparément - chaque intensif de 3 heures coûte 60 EUR. Vous pouvez vous inscrire aux intensifs sur votre page de profil.",
+      "Le prix des intensifs est payé séparément - chaque intensif de 3 heures coûte 50 EUR. Vous pouvez vous inscrire aux intensifs sur votre page de profil.",
     ],
     tracks: [
       {
