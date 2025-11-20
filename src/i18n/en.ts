@@ -58,12 +58,12 @@ const en = {
   home: {
     pageTitle: "Home",
     aboutWCS: {
-      // title: "Get inspired by our Pros",
-      // description: [
-      //   "West Coast Swing or WCS is a modern partner dance. It evolved from lindy hop in the 1960s on the west coast of America.",
-      //   "It is characterized by the elastic movement of the partners, which results from a specific technique of leading and following. The dance places a strong emphasis on the musical expression of both partners and is one of the few dances that encourages free dance improvisation.",
-      //   "Since it is a relatively new dance, it continues to evolve year after year and stylistically adapts to the music to which it is danced. This is usually pop, hip hop, acoustic music and blues."
-      // ],
+      title: "What is West Coast Swing?",
+      description: [
+        "West Coast Swing or WCS is a modern partner dance. It evolved from lindy hop in the 1960s on the west coast of America.",
+        "It is characterized by the elastic movement of the partners, which results from a specific technique of leading and following. The dance places a strong emphasis on the musical expression of both partners and is one of the few dances that encourages free dance improvisation.",
+        "Since it is a relatively new dance, it continues to evolve year after year and stylistically adapts to the music to which it is danced. This is usually pop, hip hop, acoustic music and blues.",
+      ],
       yt: [
         {
           name: "FOWCS 2025 - CLASSIC - Raushaniya MAKSUDOVA & Mackenzie SHARP",
@@ -357,15 +357,32 @@ const en = {
       },
     ],
   },
-  program: {
-    pageTitle: "Program",
-  },
   zeroToHero: {
     pageTitle: "Zero to Hero",
     description: [
-      "The Zero to Hero program is designed for complete beginners who want to learn West Coast Swing from scratch. The program includes a series of workshops, social dancing opportunities, and support from experienced dancers to help you get started on your WCS journey.",
+      "The Zero to Hero program is designed for complete beginners who want to learn West Coast Swing from scratch. The program includes:",
       "Whether you've never danced before or have only a little experience, this program will provide you with the foundation you need to enjoy West Coast Swing and become part of the community.",
+      "It's also recommended for dancers who want to learn the secondary role, as it covers the basics of both leading and following.",
     ],
+    list: [
+      "4 workshops on Thursday afternoon, which will cover all the fundamentals of West Coast Swing in an intensive format.",
+      "Pre-party social dance on Thursday evening, where you can practice what you've learned in a fun and supportive environment.",
+      "Supportive program on Thursday to help you integrate into the WCS community and make the most of your first experience with West Coast Swing.",
+    ],
+    location:
+      'The Zero to Hero workshops will take place in a dedicated room at the <a href="location/venue/preparty">preparty venue - Ljubljana Castle</a>.',
+    program: {
+      pageTitle: "Program",
+      schedule: {
+        pdfSrc: "/src/assets/files/schedule_zth_v1.pdf",
+        imgSrc: "/src/assets/images/schedule_zth_v1.jpg",
+      },
+      description: [
+        "The Zero to Hero program is a standalone program that you can book without attending the event afterwards. Alternatively, if you're planning to attend the full event, but would like to join the Zero to Hero as a secondary role, you can add this program through your profile page after registering for the event.",
+        "If you will, like all of us, fall in love with West Coast Swing during the Zero to Hero program, you can continue your journey by upgrading your ticket to a Party pass to join the social dancing throughout the weekend.",
+        "Here's the schedule for the Zero to Hero program on Thursday, although the exact times are still likely to change:",
+      ],
+    },
   },
   intensives: {
     pageTitle: "Intensives",

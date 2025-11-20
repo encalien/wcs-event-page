@@ -60,6 +60,12 @@ const fr = {
   home: {
     pageTitle: "Accueil",
     aboutWCS: {
+      title: "Qu'est-ce que le West Coast Swing ?",
+      description: [
+        "Le West Coast Swing, ou WCS, est une danse de couple moderne. Elle a évolué à partir du lindy hop dans les années 1960 sur la côte ouest des États-Unis.",
+        "Elle se caractérise par un mouvement élastique entre les partenaires, résultant d'une technique spécifique de guidage et de suivi. La danse met fortement l'accent sur l'expression musicale des deux partenaires et fait partie des rares danses qui encouragent l'improvisation libre.",
+        "Comme il s'agit d'une danse relativement récente, elle continue d'évoluer d'année en année et s'adapte stylistiquement à la musique sur laquelle on la danse. Il s'agit généralement de pop, hip-hop, musique acoustique et blues.",
+      ],
       yt: [
         {
           name: "FOWCS 2025 - CLASSIC - Raushaniya MAKSUDOVA & Mackenzie SHARP",
@@ -366,6 +372,33 @@ const fr = {
         ],
       },
     ],
+  },
+  zeroToHero: {
+    pageTitle: "Zero to Hero",
+    description: [
+      "Le programme Zero to Hero est conçu pour les débutants complets qui souhaitent apprendre le West Coast Swing depuis zéro. Le programme comprend :",
+      "Que vous n'ayez jamais dansé ou que vous ayez seulement un peu d'expérience, ce programme vous donnera les bases nécessaires pour profiter du West Coast Swing et rejoindre la communauté.",
+      "Il est également recommandé aux danseurs qui souhaitent apprendre le rôle secondaire, car il couvre les bases du guidage et du suivi.",
+    ],
+    list: [
+      "4 ateliers le jeudi après-midi, qui couvriront toutes les bases du West Coast Swing dans un format intensif.",
+      "Soirée pré-party le jeudi soir, où vous pourrez pratiquer ce que vous avez appris dans une ambiance amusante et bienveillante.",
+      "Programme d'accompagnement le jeudi pour vous aider à vous intégrer dans la communauté WCS et tirer le meilleur parti de votre première expérience en West Coast Swing.",
+    ],
+    location:
+      'Les ateliers Zero to Hero auront lieu dans une salle dédiée au <a href="location/venue/preparty">lieu de la préparty - Château de Ljubljana</a>.',
+    program: {
+      pageTitle: "Programme",
+      schedule: {
+        pdfSrc: "/src/assets/files/schedule_zth_v1.pdf",
+        imgSrc: "/src/assets/images/schedule_zth_v1.jpg",
+      },
+      description: [
+        "Le programme Zero to Hero est un programme indépendant auquel vous pouvez vous inscrire sans participer ensuite à l'événement. Alternativement, si vous prévoyez de participer à l'événement complet mais souhaitez rejoindre le Zero to Hero comme rôle secondaire, vous pouvez ajouter ce programme via votre page de profil après votre inscription.",
+        "Si, comme nous tous, vous tombez amoureux du West Coast Swing pendant le programme Zero to Hero, vous pourrez poursuivre votre parcours en surclassant votre billet en Party Pass afin de participer aux soirées sociales tout au long du week-end.",
+        "Voici le programme du Zero to Hero pour le jeudi, bien que les horaires exacts puissent encore changer :",
+      ],
+    },
   },
   intensives: {
     pageTitle: "Intensifs",

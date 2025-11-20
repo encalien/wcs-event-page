@@ -53,6 +53,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faBars, faPlus, faTrashCan } from "@fortawesome/free-solid-svg-icons";
 import IntensivesComponent from "./components/pages/IntensivesComponent.vue";
+import ZeroToHeroComponent from "./components/pages/ZeroToHeroComponent.vue";
 
 /* add icons to the library */
 library.add(
@@ -98,7 +99,7 @@ const routes: any = [
   { path: "/:lang(en|si|fr)/workshops/levels", component: LevelsComponent },
   { path: "/:lang(en|si|fr)/workshops/wsdc", component: WSDCComponent },
   { path: "/:lang(en|si|fr)/intensives", component: IntensivesComponent },
-  { path: "/:lang(en|si|fr)/zero-to-hero", component: IntensivesComponent },
+  { path: "/:lang(en|si|fr)/zero-to-hero", component: ZeroToHeroComponent },
   {
     path: "/:lang(en|si|fr)/location/venue/main",
     component: EventLocationComponent,

@@ -59,12 +59,14 @@ const si = {
   home: {
     pageTitle: "Home",
     aboutWCS: {
-      // title: "Get inspired by our Pros",
-      // description: [
-      //   "West Coast Swing or WCS is a modern partner dance. It evolved from lindy hop in the 1960s on the west coast of America.",
-      //   "It is characterized by the elastic movement of the partners, which results from a specific technique of leading and following. The dance places a strong emphasis on the musical expression of both partners and is one of the few dances that encourages free dance improvisation.",
-      //   "Since it is a relatively new dance, it continues to evolve year after year and stylistically adapts to the music to which it is danced. This is usually pop, hip hop, acoustic music and blues."
-      // ],
+      title: "Kaj je West Coast Swing?",
+      description: [
+        "West Coast Swing ali WCS je sodoben ples v paru. Razvil se je iz lindy hop-a v 60. letih 20. stoletja na zahodni obali Amerike.",
+        "Zanj je značilno elastično gibanje partnerjev, ki izhaja iz specifične tehnike vodenja in sledenja. Izrazit poudarek daje na glasbeno izražanje obeh partnerjev in je eden redkih plesov, ki spodbuja prosto plesno improvizacijo.",
+        "Ker je relativno nov ples, se iz leta v leto še vedno razvija in stilno prilagaja glasbi, na katero se pleše. Običajno je to največkrat pop, hip hop, akustična glasba in blues.",
+      ],
+      moreInfo:
+        "Če se želiš pridružiti slovenski WCS skupnosti, obišči našo <a href='https://www.wcs.si/' target='_blank' rel='noopener'>spletno stran</a>. Vedno smo veseli novih članov!",
       yt: [
         {
           name: "FOWCS 2025 - CLASSIC - Raushaniya MAKSUDOVA & Mackenzie SHARP",
@@ -371,6 +373,33 @@ const si = {
         ],
       },
     ],
+  },
+  zeroToHero: {
+    pageTitle: "Zero to Hero",
+    description: [
+      "Program Zero to Hero je zasnovan za popolne začetnike, ki se želijo naučiti west coast swinga. Program vključuje:",
+      "Ne glede na to, ali še nikoli nisi plesal_a ali imaš le malo izkušenj, ti bo ta program dal temelje, ki jih potrebuješ, da boš lahko užival_a v west coast swingu in postal_a del skupnosti.",
+      "Priporočamo ga tudi plesalcem, ki želijo osvojiti osnove v sekundarni vlogi.",
+    ],
+    list: [
+      "4 delavnice v četrtek popoldne, ki bodo v intenzivni obliki zajele vse osnove west coast swinga.",
+      "zabava na predvečer v četrtek, kjer boš lahko v zabavnem in podpornem okolju vadil_a, kar si se naučil_a.",
+      "Podporni program v četrtek, ki ti bo pomagal vključiti se v WCS skupnost in kar najbolje izkoristiti svojo prvo izkušnjo z west coast swingom.",
+    ],
+    location:
+      'Delavnice Zero to Hero bodo potekale v ločeni dvorani na <a href="location/venue/preparty">prizorišču predvečera - Ljubljanskem gradu</a>.',
+    program: {
+      pageTitle: "Program",
+      schedule: {
+        pdfSrc: "/src/assets/files/schedule_zth_v1.pdf",
+        imgSrc: "/src/assets/images/schedule_zth_v1.jpg",
+      },
+      description: [
+        "Program Zero to Hero je samostojen program, ki ga lahko rezerviraš tudi brez nadaljnje udeležbe na dogodku. Če pa že tako nameravaš udeležiti celotnega dogodka in bi rad_a Zero to Hero obiskal_a v sekundarni vlogi, lahko program dodaš na svoji profilni strani po registraciji.",
+        "Če se boš - tako kot mi vsi - med programom Zero to Hero zaljubil_a v west coast swing, lahko svojo vstopnico nadgradiš v Party Pass in se tekom celotnega vikenda udeležiš plesnih večerov.",
+        "Tukaj je urnik za program Zero to Hero v četrtek, pri čemer se lahko točni časi še spremenijo:",
+      ],
+    },
   },
   intensives: {
     pageTitle: "Intenzivke",
