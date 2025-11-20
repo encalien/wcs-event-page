@@ -403,8 +403,7 @@ const si = {
   },
   intensives: {
     pageTitle: "Intenzivke",
-    disclaimer: `Več o intenzivkah, ki jih ponujamo, si lahko prebereš <a href="intensives">tukaj</a>. Intenzivke boš lahko dodal_a preko svoje profilne strani. Ker vse intenzivke potekajo hkrati, lahko dodaš le eno.<br />Vsaka 3-urna intenzivka
-     stane <span class="bold">60 EUR</span>.`,
+    disclaimer: `Več o intenzivkah, ki jih ponujamo, si lahko prebereš <a href="intensives">tukaj</a>. Intenzivke boš lahko dodal_a preko svoje profilne strani. Ker vse intenzivke potekajo hkrati, lahko dodaš le eno.<br />Vsaka 3-urna intenzivka stane <span class="bold">60 evrov</span>.`,
     introText: [
       "Poleg vikend delavnic ponujamo tudi tri različne intenzivne programe. Te intenzivke so zasnovane tako, da omogočajo poglobljen pregled specifičnih vidikov West Coast Swinga, plesalcem pa dajejo priložnost, da se dlje časa posvetijo določenim veščinam in konceptom.",
       "Intenzivke so načrtovane v petkovem dopoldnevu - vse ob istem času, zato se lahko udeležiš le ene izmed njih. Preberi spodnje opise in izberi tisto, ki najbolj ustreza tvojim interesom in plesnim ciljem!",
@@ -459,35 +458,35 @@ const si = {
           title: "Nivo 2",
           descriptionText: [
             "NEWCOMER plesalci brez WSDC točk",
-            "Poznate osnovne figure, ritme in koncepte West Coast Swinga, vendar se na plesišču še ne počutite popolnoma sproščeno. Pripravljeni ste se naučiti več figur in izboljšati svojo tehniko.",
+            "Poznaš osnovne figure, ritme in koncepte West Coast Swinga, vendar se na plesišču še ne počutiš popolnoma sproščeno. Želiš si se naučiti več figur in izboljšati svojo tehniko.",
           ],
         },
         {
           title: "Nivo 3",
           descriptionText: [
             "NOVICE brez WSDC Novice točk",
-            "Pleso se že nekaj časa in ste sproščeni v socialnem plesu z večino partnerjev na večini pesmi. Pripravljeni ste nadgraditi svojo tehniko in razširiti svoj repertoar. Morda ne tekmujete, ali pa je vaš trenutni cilj doseči Novice finale.",
+            "Plešeš že nekaj časa in ti je udobno plesati z večino partnerjev na večino pesmi. Želiš si nadgraditi svojo tehniko in razširiti svoj repertoar. Morda ne tekmuješ, ali pa je tvoj trenutni cilj doseči Novice finale.",
           ],
         },
         {
           title: "Nivo 4",
           descriptionText: [
             "NOVICE z vsaj 1 WSDC Novice točko ali avdicija",
-            "Sproščeno plešete s katerim koli partnerjem na katero koli glasbo in pripravljeni ste se učiti bolj kompleksnih figur in konceptov. Še vedno želite izboljšati svojo tehniko, muzikalnost in povezavo. Tekmujete in ste že na poti v Intermediate kategorijo.",
+            "Sproščeno plešeš s katerim koli partnerjem na katero koli glasbo in želiš se učiti bolj kompleksnih figur in konceptov. Še vedno želiš izboljšati svojo tehniko, muzikalnost in connection. Tekmuješ in si že na poti v Intermediate kategorijo.",
           ],
         },
         {
           title: "Nivo 5",
           descriptionText: [
             "INTERMEDIATE z vsaj 1 WSDC Intermediate točko ali avdicija",
-            "Imate dobro tehniko ter močno razumevanje muzikalnosti in povezave. Pripravljeni ste razviti svoj slog in raziskovati napredne koncepte. Kot tekmovalec uspešno plešete v Intermediate kategoriji.",
+            "Imaš dobro tehniko ter močno razumevanje muzikalnosti in povezave med partnerjema. Želiš si razviti svoj slog in raziskovati napredne koncepte. Kot tekmovalec_ka uspešno nastopaš v Intermediate kategoriji.",
           ],
         },
         {
           title: "Nivo 6",
           descriptionText: [
             "ADVANCED / ALL-STAR z vsaj 1 WSDC Advanced točko ali avdicija",
-            "Vaša tehnika, povezava in muzikalnost so na najvišjem nivoju. Zdaj želite izpopolniti svoje plesne in tekmovalne veščine. Pripravljeni ste na delo z zahtevnimi koncepti v hitrem in intenzivnem učnem okolju.",
+            "Tvoja tehnika, connection in muzikalnost so na najvišjem nivoju. Zdaj želiš izpopolniti svoje plesne in tekmovalne veščine. Pripravljen_a si na delo z zahtevnimi koncepti v hitrem in intenzivnem učnem okolju.",
           ],
         },
       ],
@@ -522,9 +521,9 @@ const si = {
         {
           question: "3. Za kateri pass naj se prijavim?",
           answerText: [
-            "Če želite obiskati samo zabave in tekmovanja, se prijavite na Party Pass. Ne zabave ne tekmovanja ne bodo odprta za javnost, zato je za vstop potreben Party Pass.",
-            "Če želite obiskovati tudi delavnice v petek, soboto in nedeljo, se prijavite na Full Pass. Delavnice bodo razdeljene v 5 nivojev:",
-            "Če ste popolni začetnik ali ste se z WCS srečali le bežno in se želite naučiti osnov, se lahko pridružite našemu četrtkovemu programu Zero to Hero. V 4 urah boste osvojili osnove dovolj dobro, da boste lahko plesali na četrtkovi zabavi.",
+            "Če želiš obiskati samo zabave in tekmovanja, se prijaviš na Party Pass. Ne zabave ne tekmovanja ne bodo odprta za javnost, zato je za vstop potreben Party Pass.",
+            "Če želiš obiskovati tudi delavnice v petek, soboto in nedeljo, se prijaviš na Full Pass. Delavnice bodo razdeljene v 5 nivojev:",
+            "Če ste popolni začetnik ali ste se z WCS srečali le bežno in se želiš naučiti osnov, se lahko pridružiš našemu četrtkovemu programu Zero to Hero. V 4 urah boste osvojili osnove dovolj dobro, da boste lahko plesali na četrtkovi zabavi.",
           ],
           list: [
             "Nivo 2 - Newcomer (brez potrebnih točk),",
@@ -537,15 +536,15 @@ const si = {
         {
           question: "4. Kaj vpišem v polje WSDC ID ob registraciji?",
           answerText: [
-            "Če že imate WSDC ID številko, pridobljeno na tekmovanju, jo vpišite. Na podlagi te številke bomo ob registraciji samodejno določili vaš nivo.",
-            "Če številke še nimate, polje pustite prazno.",
-            "Za nivoja 2 in 3 boste lahko izbrali svoj želeni nivo ne glede na to, ali imate WSDC ID ali ne.",
+            "Če že imaš WSDC ID številko, pridobljeno na tekmovanju, jo vpiši. Na podlagi te številke bomo ob registraciji samodejno določili tvoj nivo.",
+            "Če številke še nimaš, polje pusti prazno.",
+            "Za nivoja 2 in 3 boš lahko izbral svoj želeni nivo ne glede na to, ali imaš WSDC ID ali ne.",
           ],
         },
         {
           question: "5. OK, kaj pa če dobro plešem, vendar ne tekmujem?",
           answerText: [
-            "Nobene težave. Če želite obiskovati delavnice višjih nivojev, lahko opravite avdicijo, ki bo potekala pred delavnicami. Učitelji bodo udeležence prosili, da večkrat zaplešejo z različnimi partnerji, in glede na prikazano znanje odločili, kdo se lahko pridruži višjem nivoju. Odločitev učiteljev je dokončna, saj najbolje vedo, kakšno znanje je pričakovano za njihove delavnice.",
+            "Nobene težave. Če želiš obiskovati delavnice višjih nivojev, lahko greš na avdicijo, ki bo potekala pred delavnicami. Učitelji bodo udeležence prosili, da večkrat zaplešejo z različnimi partnerji, in glede na prikazano znanje odločili, kdo se lahko pridruži višjem nivoju. Odločitev učiteljev je dokončna, saj najbolje vedo, kakšno znanje je pričakovano za njihove delavnice.",
             "Avdicije bodo na voljo za plesalce, ki želijo napredovati v nivoje 4, 5 in 6. Za ostale nivoje avdicije niso potrebne.",
           ],
         },
@@ -562,9 +561,9 @@ const si = {
       pageTitle: "Cenik",
       description: [
         "Ponudili bomo dve vrsti vikend passov: Full Pass in Party Pass. Full Pass vključuje vse delavnice za vaš dodeljeni nivo, vse ALL LEVEL delavnice ter dostop do tekmovanj in zabav. Party Pass vključuje samo dostop do tekmovanj in zabav. Udeležba na tekmovanjih je predmet dodatnih pristojbin.",
-        "Za naše nove westije ponujamo pol-dnevni program Zero to Hero, kjer vas bodo vrhunski inštruktorji pospešeno uvedli v west coast swing. Poleg delavnic bomo pripravili tudi druge družabne aktivnosti, ki vam bodo pomagale vključiti se v obstoječo skupnost. Zero to Hero Pass lahko nadgradite v Party Pass ob prijavi ali na kraju dogodka.",
-        "Poleg tega letos v program dodajamo tri različne intenzive v petkovem dopoldnevu. Za udeležbo na intenzivkeh morate imeti tudi vikend pass. Vsak intenzivka traja 3 ure in je usmerjen v določeno temo. Ker bodo časovno potekali hkrati, se lahko udeležite le enega intenziva.",
-        "Cenovni razredi bodo določeni glede na število sprejetih prijav. Kotizacijo je treba poravnati v 14 dneh od potrditve, sicer si pridržujemo pravico, da vašo prijavo prekličemo in mesto ponudimo nekomu drugemu. V tem primeru se lahko ponovno prijavite, vendar boste podvrženi trenutnemu cenovnemu razredu in razpoložljivosti.",
+        "Za naše nove westije ponujamo pol-dnevni program Zero to Hero, kjer te bodo vrhunski inštruktorji pospešeno uvedli v west coast swing. Poleg delavnic bomo pripravili tudi druge družabne aktivnosti, ki ti bodo pomagale vključiti se v obstoječo skupnost. Zero to Hero Pass lahko nadgradiš v Party Pass na dogodku samem.",
+        "Poleg tega letos v program dodajamo tri različne intenzive v petkovem dopoldnevu. Za udeležbo na intenzivkeh moraš imeti tudi vikend pass. Vsak intenzivka traja 3 ure in je usmerjen v določeno temo. Ker bodo časovno potekali hkrati, se lahko udeležiš le enega intenziva.",
+        "Cenovni razredi bodo določeni glede na število sprejetih prijav. Kotizacijo je treba poravnati v 14 dneh od potrditve, sicer si pridržujemo pravico, da tvojo prijavo prekličemo in mesto ponudimo nekomu drugemu. V tem primeru se lahko ponovno prijaviš, vendar bo tvoja prijava podvržena trenutnemu cenovnemu razredu in razpoložljivosti.",
       ],
       passPrices: [
         {
@@ -716,7 +715,7 @@ const si = {
       {
         pageTitle: "Predvečer",
         disclaimer:
-          'Predzabava je vključena v Zero to Hero pass, NI pa vključena v Full ali Party pass. Glede na število prodanih vstopnic jo bomo morda odprli ali pa ne.<br />Vstopnina za predzabavo je <span class="bold">10 evrov</span>, če jo kupite ob registraciji, ali <span class="bold">15 evrov</span> na vhodu.',
+          'Predzabava je vključena v Zero to Hero pass, NI pa vključena v Full ali Party pass. Zabavo bomo morda odprli za obisk, kar pa je odvisno od števila vnaprej prodanih vstopnic.<br />Vstopnina za predzabavo je <span class="bold">10 evrov</span>, če jo kupiš ob registraciji, ali <span class="bold">15 evrov</span> na vhodu.',
         description: [
           "Ljubljanski Grad, ki leži na hribu s čudovitim razgledom na mesto pod njim, je pomembna zgodovinska znamenitost slovenske prestolnice. Grad, ki sega v 11. stoletje, združuje stoletja bogate zgodovine znotraj svojega starodavnega obzidja. Danes deluje kot živahno kulturno središče, ki obiskovalcem ponuja osupljive panorame, privlačne razstave in prepoznavna prizorišča dogodkov, kot je očarljiva plesna dvorana Palacij, kjer bo v četrtek od 20.00 do 3.00 potekal naš predvečer.",
           "Če prispeš predčasno, lahko izkoristiš priložnost za raziskovanje Gradu. Lahko se povzpneš na Grajski stolp za panoramski razgled ali si privoščiš večerjo in pijačo v restavraciji ali baru.",
@@ -741,13 +740,13 @@ const si = {
   dayTrip: {
     pageTitle: "Četrtkov izlet",
     disclaimer:
-      'Letos nas bo četrtkov enodnevni izlet popeljal do osupljivega Blejskega jezera. Več o programu si lahko preberete <a href="day-trip">tukaj</a>.<br />Cena tega nepozabnega izleta je <span class="bold">65 EUR</span> na osebo, kar vključuje prevoz, kosilo, vodnike in vstopnine.',
+      'Letos nas bo četrtkov enodnevni izlet popeljal do osupljivega Blejskega jezera. Več o programu si lahko prebereš <a href="day-trip">tukaj</a>.<br />Cena tega nepozabnega izleta je <span class="bold">65 evrov</span> na osebo, kar vključuje prevoz, kosilo, vodnike in vstopnine.',
     description: [
       {
         src: "/src/assets/images/day_trip_bled_castle.png",
         alt: "Slika Blejskega gradu",
         texts: [
-          "Pridružite se nam na nepozabnem enodnevnem izletu, kjer bomo raziskovali osupljivo Blejsko jezero.",
+          "Pridruži se nam na nepozabnem enodnevnem izletu, kjer bomo raziskovali osupljivo Blejsko jezero.",
           "Blejsko jezero v osrčju Julijskih Alp je pravi dragulj Slovenije, znan po kristalno čisti vodi, slikoviti cerkvici na otoku in srednjeveškem gradu, ki stoji na pečini visoko nad jezerom.",
           "Najprej bomo obiskali Blejski grad, kjer boste lahko uživali v panoramskih razgledih na jezero in okoliške gore. Grad ima tudi muzej, ki prikazuje bogato zgodovino in kulturo regije. Po ogledu gradu se bomo spustili do jezera in odšli na kosilo.",
         ],
@@ -771,9 +770,9 @@ const si = {
       },
       {
         texts: [
-          "Cena tega nepozabnega izleta je 65 EUR na osebo, kar vključuje prevoz, kosilo, vodenje in vstopnine. Vse aktivnosti, ki jih izberete med prostim časom (najem čolna, sladice ipd.), so na lastne stroške.",
-          "Prosimo upoštevajte, da je število mest na avtobusu zelo omejeno, zato je obvezna prijava za zagotovitev mesta. Pridržujemo si pravico do spremembe večjih delov programa ali popolne odpovedi izleta iz kakršnegakoli razloga. V primeru odpovedi z naše strani bodo vsa plačila povrnjena; v primeru odpovedi s strani udeleženca vračilo ni mogoče.",
-          "Ta izlet je tradicija, ki jo obožujemo - vsako leto raziskujemo drug del Slovenije, da se lahko udeleženci povežejo in doživijo lepote države tudi izven plesišča. Ne zamudite te priložnosti za odkrivanje ene najlepših slovenskih regij!",
+          "Cena tega nepozabnega izleta je 65 EUR na osebo, kar vključuje prevoz, kosilo, vodenje in vstopnine. Vse aktivnosti, ki jih izbereš med prostim časom (najem čolna, sladice ipd.), so na lastne stroške.",
+          "Prosimo upoštevaj, da je število mest na avtobusu zelo omejeno, zato je obvezna prijava za zagotovitev mesta. Pridržujemo si pravico do spremembe večjih delov programa ali popolne odpovedi izleta iz kakršnegakoli razloga. V primeru odpovedi z naše strani bodo vsa plačila povrnjena; v primeru odpovedi s strani udeleženca vračilo ni mogoče.",
+          "Ta izlet je tradicija, ki jo obožujemo - vsako leto raziskujemo drug del Slovenije, da se lahko udeleženci povežejo in doživijo lepote države tudi izven plesišča. Ne zamudi priložnosti za odkrivanje ene najlepših slovenskih regij!",
         ],
       },
     ],
@@ -855,11 +854,11 @@ const si = {
   },
   comps: {
     pageTitle: "Tekmovanja",
-    disclaimer: `Več o pravilih tekmovanja si lahko preberete <a href="competition-rules">tukaj</a>. Udeležba na tekmovanjih je povezana z dodatno pristojbino <span class="bold">15 evrov</span> na tekmovanje, ki jo poravnate na kraju samem. Prijave na tekmovanja se bodo odprle aprila preko scoring.dance.`,
+    disclaimer: `Več o pravilih tekmovanja si lahko prebereš <a href="competition-rules">tukaj</a>. Udeležba na tekmovanjih stane <span class="bold">15 evrov</span> na tekmovanje, ki jo poravnaš na kraju samem. Prijave na tekmovanja se bodo odprle aprila preko scoring.dance.`,
   },
   merch: {
     pageTitle: "Merchandise",
-    disclaimer: `Pokažite svojo ljubezen do west coast swinga in Slovenian Opena z našim ekskluzivnim merchom! Letos bo kolekcija vključevala nov dizajn na različnih majicah. Cena posamezne majice je <span class="bold">15 evrov</span>, če jo kupite ob registraciji, ali <span class="bold">20 evrov</span>, če jo kupite med dogodkom.<br />Upoštevajte, da dodatnih izdelkov ne bomo naročili veliko, zato priporočamo prednaročilo med registracijo, da si zagotovite svojo majico.`,
+    disclaimer: `Pokaži svojo ljubezen do west coast swinga in Slovenian Open dogodka z našim ekskluzivnim merchom! Letos bo kolekcija vključevala nov dizajn na različnih majicah. Cena posamezne majice je <span class="bold">15 evrov</span>, če jo kupiš ob registraciji, ali <span class="bold">20 evrov</span>, če jo kupiš med dogodkom.<br />Upoštevaj, da dodatnih izdelkov ne bomo naročili veliko, zato priporočamo prednaročilo preko profilne strani, da si zagotoviš svojo majico.`,
   },
   notFound: {
     pageTitle: "Stran ne obstaja",
