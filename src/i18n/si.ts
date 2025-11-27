@@ -55,6 +55,7 @@ const si = {
     facebook: "https://www.facebook.com/slovenianopen/",
     instagram: "https://www.instagram.com/slovenian_open_wcs",
     whatsapp: "https://chat.whatsapp.com/JTEX5hcklqv85Q3iwHKS9h",
+    googleForms: "https://forms.gle/CC3YgAnoKiyyyqkM6",
   },
   home: {
     pageTitle: "Home",
@@ -800,10 +801,10 @@ const si = {
     loading: "Nalaganje obrazca za registracijo...",
     registerNow: "Prijavi se",
     alreadyRegistered: [
-      "Si že prijavljen_a? ",
+      "Je tvoja prijava že obdelana? ",
       " za pridobivanje povezave, na kateri lahko pogledaš svojo prijavo.",
     ],
-    clickHere: "Klkni tukaj",
+    clickHere: "Klikni tukaj",
     viewRegistration: "Poglej svojo prijavo",
     instructions: [
       {

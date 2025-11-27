@@ -56,6 +56,7 @@ const fr = {
     facebook: "https://www.facebook.com/slovenianopen/",
     instagram: "https://www.instagram.com/slovenian_open_wcs",
     whatsapp: "https://chat.whatsapp.com/JTEX5hcklqv85Q3iwHKS9h",
+    googleForms: "https://forms.gle/CC3YgAnoKiyyyqkM6",
   },
   home: {
     pageTitle: "Accueil",
@@ -884,7 +885,7 @@ const fr = {
     loading: "Chargement du formulaire d'inscription...",
     registerNow: "Inscrivez-vous ici",
     alreadyRegistered: [
-      "Déjà inscrit ? ",
+      "Votre inscription a-t-elle déjà été traitée ? ",
       " pour demander le lien d'accès à voir votre inscription",
     ],
     clickHere: "Cliquez ici",
