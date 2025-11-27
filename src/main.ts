@@ -79,21 +79,21 @@ const routes: any = [
     path: "/:lang(en|si|fr)/team",
     component: StaffComponent,
   },
-  // {
-  //   path: '/:lang(en|si|fr)/team/djs',
-  //   component: Staff,
-  //   props: { staffIndex: 1 }
-  // },
-  // {
-  //   path: '/:lang(en|si|fr)/team/mc',
-  //   component: Staff,
-  //   props: { staffIndex: 2 }
-  // },
-  // {
-  //   path: '/:lang(en|si|fr)/team/competitions',
-  //   component: Staff,
-  //   props: { staffIndex: 3 }
-  // },
+  //   {
+  //     path: '/:lang(en|si|fr)/team/djs',
+  //     component: Staff,
+  //     props: { staffIndex: 1 }
+  //   },
+  //   {
+  //     path: '/:lang(en|si|fr)/team/mc',
+  //     component: Staff,
+  //     props: { staffIndex: 2 }
+  //   },
+  //   {
+  //     path: '/:lang(en|si|fr)/team/competitions',
+  //     component: Staff,
+  //     props: { staffIndex: 3 }
+  //   },
   { path: "/:lang(en|si|fr)/schedule", component: ScheduleComponent },
   { path: "/:lang(en|si|fr)/pricing", component: PricingComponent },
   { path: "/:lang(en|si|fr)/workshops/levels", component: LevelsComponent },
@@ -141,18 +141,18 @@ const routes: any = [
     component: TermsAndConditionsComponent,
     props: { contentKey: "competitionRules" },
   },
-  //   {
-  //     path: "/:lang(en|si|fr)/registration",
-  //     component: RegistrationComponent,
-  //   },
-  //   {
-  //     path: "/:lang(en|si|fr)/profile/request-link",
-  //     component: RequestAccessComponent,
-  //   },
-  //   {
-  //     path: "/:lang(en|si|fr)/profile/:hash",
-  //     component: UserProfileComponent,
-  //   },
+  {
+    path: "/:lang(en|si|fr)/registration",
+    component: RegistrationComponent,
+  },
+  {
+    path: "/:lang(en|si|fr)/profile/request-link",
+    component: RequestAccessComponent,
+  },
+  {
+    path: "/:lang(en|si|fr)/profile/:hash",
+    component: UserProfileComponent,
+  },
 ];
 
 const router = createRouter({

@@ -1,6 +1,7 @@
 export type AddOnOptionDTO = {
   key: string;
   type: string;
+  required: boolean;
   choices?: string[];
   min?: number;
   max?: number;

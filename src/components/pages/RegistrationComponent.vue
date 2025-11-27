@@ -67,9 +67,10 @@ export default {
               {{ $t(`registration.instructions[${i}].textsList[${j}]`) }}
             </li>
           </ul>
-          <div v-if="section.postText">
-            {{ $t(`registration.instructions[${i}].postText`) }}
-          </div>
+          <div
+            v-if="section.postText"
+            v-html="$t(`registration.instructions[${i}].postText`)"
+          ></div>
 
           <hr v-if="i < messages.registration.instructions.length - 1" />
         </div>

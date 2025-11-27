@@ -34,11 +34,7 @@ export default {};
       >
         <font-awesome-icon icon="fa-regular fa-envelope" />
       </a>
-      <a
-        target="_blank"
-        href="https://www.facebook.com/events/333172752914194/"
-        class="menu-item-link"
-      >
+      <a target="_blank" :href="$t('urls.facebook')" class="menu-item-link">
         <font-awesome-icon icon="fa-brands fa-facebook-f" />
       </a>
       <a target="_blank" :href="$t('urls.instagram')" class="menu-item-link">

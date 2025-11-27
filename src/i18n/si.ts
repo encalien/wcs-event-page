@@ -52,7 +52,7 @@ const si = {
     email: "info{'@'}slovenianopen.dance",
   },
   urls: {
-    facebook: "https://www.facebook.com/events/333172752914194",
+    facebook: "https://www.facebook.com/slovenianopen/",
     instagram: "https://www.instagram.com/slovenian_open_wcs",
     whatsapp: "https://chat.whatsapp.com/JTEX5hcklqv85Q3iwHKS9h",
   },
@@ -109,7 +109,7 @@ const si = {
         people: [
           {
             names: "Karin & Ludovic",
-            src: "/images/teachers_karin_ludovic.png",
+            src: "/images/teachers_karin_ludovic.jpg",
             description: [
               "Karin Kakun pleše že celo življenje. Z univerzitetno diplomo iz plesa ima za seboj več kot 14 let učenja plesa. Poučuje WCS, hip hop, raztezanje in ples ob drogu. Poleg tega tudi koreografira in nastopa. Preden se je posvetila WCS, je bila izraelska prvakinja v salsi.",
               "Svojo pot v WCS je začela leta 2014 in se že takrat popolnoma zaljubila v ta ples. Zdaj tekmuje v Champion kategoriji in poučuje v Izraelu, kjer vodi skupino tečajev west coast swinga. Redno potuje in poučuje po vsej Evropi.",
@@ -119,7 +119,7 @@ const si = {
           },
           {
             names: "Savana & João",
-            src: "/images/teachers_savana_joao.png",
+            src: "/images/teachers_savana_joao.jpg",
             description: [
               "Savana je začela plesati jazz pri štirih letih in je temu posvečena od takrat naprej. Strastna ljubiteljica plesa na splošno se je izobraževala v solo plesih kot so sodobni ples in hip hop. Sodelovala je na številnih tekmovanjih, kjer je osvajala regionalne in nacionalne nagrade, in se med srednjo šolo pridružila konservatoriju.",
               "Pri sedmih letih se je podala v svet plesov v paru, nato pa hitro prešla na salso in kasneje na west coast swing. Zelo mlada je dobila priložnost za poučevanje, kjer je našla veselje v povezovanju in deljenju z učenci. Po srednji šoli se je odločila specializirati za WCS in se preselila v Švico, kjer zdaj živi in dela v plesni šoli Janga Widlerja.",
@@ -129,7 +129,7 @@ const si = {
           },
           {
             names: "Andrea & Attila",
-            src: "/images/teachers_andrea_attila.png",
+            src: "/images/teachers_andrea_attila.jpg",
             description: [
               "Attila in Andrea sta svojo plesno kariero začela kot plesalca standardnih in latinskoameriških plesov. Veliko let sta poučevala te plesne zvrsti in v tem času osvojila številne prvenstvene naslove. Po rojstvu prvega otroka sta se odločila za odmik od aktivne kariere, a plesa nista mogla povsem opustiti in sta vedno hrepenela po vrnitvi na plesišče.",
               "Leta 2013 sta odkrila West Coast Swing in kmalu postala zasvojena s tem plesnim stilom. Zaradi izrazitih razlik med standardnimi plesi in West Coast Swing, sta v tem plesu našla svojo strast, predvsem zaradi njegovih neskončnih možnosti in svobode. Tekmovanja nista mogla povsem opustiti, tako da sta po nekaj letih tekmovanja oba dosegla prestižno kategorijo All-Star.",
@@ -138,7 +138,7 @@ const si = {
           },
           {
             names: "Evgenia & Clement",
-            src: "/images/teachers_evgenia_clement.png",
+            src: "/images/teachers_evgenia_clement.jpg",
             description: [
               "Clevi - Clem in Evi - sta strastna plesalca West Coast Swinga iz Berlina. Vsak z desetletnimi izkušnjami sta združila moči, da skupaj poučujeta in plešeta. Clement, plesalec v All-Star Diviziji in plesalka v Advanced Diviziji, prinaša na plesišče edinstven občutek za muzikalnost in kreativnost, ki izhajata iz njegovih desetletnih glasbenih študij in njegovega ozadja v solo plesih, kot so balet, hip-hop in sodobni ples.",
               "Evi, plesalka v All-Star Diviziji, s profesionalnim ozadjem v sodobnem plesu ter izkušnjami v baletu, jazzu in modernem plesu, prispeva svoj edinstven pridih k WCS.",
@@ -148,7 +148,7 @@ const si = {
           },
           {
             names: "Raushaniya & Mackenzie",
-            src: "/images/teachers_raushaniya_mackenzie.png",
+            src: "/images/teachers_raushaniya_mackenzie.jpg",
             description: [
               "Raushaniya je naredila prve korake v West Coast Swingu na prelepi deževni večer ob Curyškem jezeru v Švici. Od tistega trenutka jo je ta ples prevzel, saj je v njem našla način povezovanja z ljudmi po vsem svetu. Preden je odkrila WCS, se je več let ukvarjala z arabsko trebušno plesno tehniko, pri čemer je razvila močno osnovo v izolacijah in tekočem gibanju.",
               "Mackenzie je svojo WCS pot začel pri enajstih letih, ko se je pridružil lokalnim tečajem v Brisbaneu v Avstraliji, in se od takrat posvetil tako plesu kot poučevanju. Kot izkušen inštruktor je strasten glede poglobljene tehnike in je razvil edinstven pristop, ki vključuje solo gibanje za širjenje ustvarjalnega izraza v partnerskem plesu.",
@@ -262,7 +262,7 @@ const si = {
           {
             names: "Jacqueline",
             title: "MC",
-            src: "/images/staff_jacqueline.png",
+            src: "/images/staff_jacqueline.jpg",
             description: [
               "Od svojega debija kot MC na Slovenian Open lani je njena prisotnost na dogodkih po skupnosti vse bolj opazna—tudi kot MC na Finnfestu.",
               "Jacqueline je začela svojo plesno pot v stage plesih. Leta 2018 se je priključila Warsaw Westies in se začela ukvarjati z west coast swingom. Čeprav veliko potuje po tujini, jo tam še vedno redno videvajo.",
@@ -272,7 +272,7 @@ const si = {
           {
             names: "Andreas",
             title: "Ocenjevanje",
-            src: "/images/staff_andreas.png",
+            src: "/images/staff_andreas.jpg",
             description: [
               "Andreas je idejni vodja sistema Scoreboard, ki je izvrstno in pogosto uporabljano orodje za ocenjevanje plesnih tekmovanj. Poznan po svoji hitrosti in zanesljivosti je Scoreboard spremenil način sodniškega ocenjevanja in objave rezultatov.",
               "Andreasova strokovnost in predanost plesni sceni sta očitna, saj je znan obraz na večini evropskih plesnih dogodkov, kjer njegov sistem izboljšuje tekmovalne izkušnje udeležencev, organizatorjev in sodnikov.",
@@ -281,7 +281,7 @@ const si = {
           {
             names: "Ludovic",
             title: "Glavni sodnik",
-            src: "/images/staff_ludovic.png",
+            src: "/images/staff_ludo.jpg",
             description: [
               "Ludovic je zaradi obsežnih izkušnej v različnih plesnih zvrsteh in svojih pomembnih dosežkov kot tekmovalec in inštruktor nepogrešljiv član katerekoli sodniške ekipe.",
               "Njegovo celovito razumevanje plesne dinamike in tehnične spretnosti mu daje izostren občutek za detajle, kar zagotavlja pošteno in natančno ocenjevanje tekmovalcev.",
@@ -290,7 +290,7 @@ const si = {
           {
             names: "Karin",
             title: "Pomočnica glavnega sodnika",
-            src: "/images/staff_karin.png",
+            src: "/images/staff_karin.jpg",
             description: [
               "S svojo dolgoletno predanostjo plesu Karin Kakun prinaša bogate izkušnje sodniški ekipi. Ima univerzitetno diplomo iz plesa in več kot 14 let poučevanja, pri čemer je trenirala plesalce v različnih disciplinah, vključno z WCS, hip-hopom, razteznimi vajami in pole danceom.",
               "Kot tekmovalka, inštruktorica in koreografinja ima celovit pogled na ples, s katerim lahko ocenjuje tekmovanja z občutkom za gibanje, muzikalnost in tehniko.",
@@ -299,7 +299,7 @@ const si = {
           {
             names: "Henri",
             title: "Dancing Mind",
-            src: "/images/staff_henri.png",
+            src: "/images/collaborators_henri.jpg",
             description: [
               "Henri je odkril West Coast Swing leta 2017, saj ga je kljub pomanjkanju plesnih izkušenj pritegnila njegova dolgoletna strast do glasbe.",
               "Med raziskovanjem WCS je nadaljeval kariero v medicini, postal splošni zdravnik in več kot osem let preučeval psihologijo, vključno s športno psihologijo. Ta dvojna strokovnost mu omogoča edinstven vpogled v povezavo med umom in telesom v plesu. Kot zdravnik ekipe Special Olympics Finland je iz prve roke videl preobrazbeno moč gibanja in veselja. Njegov prvi spletni seminar je potekal 26. novembra 2023.",
@@ -313,9 +313,9 @@ const si = {
           {
             names: "Jake",
             title: "Video in prenos v živo",
-            src: "/images/staff_jake.png",
+            src: "/images/staff_jake.jpg",
             description: [
-              "Jake je del ekipe Triple Step TV kot videograf in glavni spletni razvijalec. Skupaj s Haroldom in preostalo ekipo si prizadevajo deliti ta čudovit, presunljiv ples, ki ga imamo vsi tako radi - s čim več ljudmi na planetu!",
+              "Jake je del ekipe Triple Step TV kot videograf in glavni spletni razvijalec. Skupaj s preostalo ekipo si prizadevajo deliti ta čudovit, presunljiv ples, ki ga imamo vsi tako radi - s čim več ljudmi na planetu!",
               "Uživajo v snemanju in montaži videoposnetkov za družbena omrežja, prenosih dogodkov v živo s takojšnjimi ponovitvami ter dodajanju dogodkov na njihov globalni zemljevid West Coast Swinga.",
             ],
           },
@@ -327,7 +327,7 @@ const si = {
           {
             names: "Vicki",
             title: "Vodja programa Zero to Hero",
-            src: "/images/staff_vicky.png",
+            src: "/images/staff_vicky.jpg",
             description: [
               " Vicky prihaja iz Litve, zdaj pa živi v Londonu, kjer je januarja 2023 odkrila veselje in ustvarjalnost West Coast Swinga. Od raziskovanja glasbe in plesa do sprejemanja novih članov v skupnost - strastno ljubi WCS in je navdušena nad tem, kako ta neverjetna skupnost raste.",
               "Njena posebna spretnost je vključevanje novih plesalcev v skupnost, tako da se počutijo dobrodošle in samozavestne ter lažje najdejo svoje mesto v plesnem svetu. Vodila je program Zero to Hero na več dogodkih, zdaj pa svojo strokovnost prinaša na Slovenian Open.",
@@ -341,7 +341,7 @@ const si = {
           {
             names: "Sarah",
             title: "Prodajalka čevljev",
-            src: "/images/collaborators_sarah.png",
+            src: "/images/collaborators_sarah.jpg",
             description: [
               "Kot plesalka je vedno opažala, da mnogi plesalci nosijo napačne čevlje. Opazila je pomanjkanje specializiranih trgovin s plesnimi čevlji na Koroškem in ljudje so se obotavljali kupovati v plesnih šolah ali prek spleta, zato se je decembra 2018 odločila za samostojno podjetniško pot in ustanovila podjetje, osredotočeno na plesne čevlje.",
               "Z veseljem ponuja nasvete glede osebnih zadev in pomoč pri iskanju idealnih plesnih čevljev za posameznike.",
@@ -403,17 +403,17 @@ const si = {
   },
   intensives: {
     pageTitle: "Intenzivke",
-    disclaimer: `Več o intenzivkah, ki jih ponujamo, si lahko prebereš <a href="intensives">tukaj</a>. Intenzivke boš lahko dodal_a preko svoje profilne strani. Ker vse intenzivke potekajo hkrati, lahko dodaš le eno.<br />Vsaka 3-urna intenzivka stane <span class="bold">50 evrov</span>.`,
+    disclaimer: `Več o intenzivkah, ki jih ponujamo, si lahko prebereš <a href="intensives">tukaj</a>. Intenzivke boš lahko dodal_a preko svoje profilne strani. Ker vse intenzivke potekajo hkrati, lahko dodaš le eno.<br />Vsaka 3-urna intenzivka stane <span class="bold">60 evrov</span>.`,
     introText: [
       "Poleg vikend delavnic ponujamo tudi tri različne intenzivne programe. Te intenzivke so zasnovane tako, da omogočajo poglobljen pregled specifičnih vidikov West Coast Swinga, plesalcem pa dajejo priložnost, da se dlje časa posvetijo določenim veščinam in konceptom.",
       "Intenzivke so načrtovane v petkovem dopoldnevu - vse ob istem času, zato se lahko udeležiš le ene izmed njih. Preberi spodnje opise in izberi tisto, ki najbolj ustreza tvojim interesom in plesnim ciljem!",
-      "Cena intenzivk se plača ločeno - vsaka 3-urna intenzivka stane 50 EUR. Na intenzivke se lahko prijaviš na svoji profilni strani.",
+      "Cena intenzivk se plača ločeno - vsaka 3-urna intenzivka stane 60 EUR. Na intenzivke se lahko prijaviš na svoji profilni strani.",
     ],
     tracks: [
       {
         title: "Intenzivka: Mikro-muzikalnost",
         instructors: "Raushaniya & Mackenzie",
-        imgSrc: "/images/teachers_raushaniya_mackenzie.png",
+        imgSrc: "/images/teachers_raushaniya_mackenzie.jpg",
         level: "Priporočeno za nivo 5 in 6",
         description: [
           "Ta intenzivka se osredotoča na mikro-muzikalnost v West Coast Swingu. Raushaniya in Mackenzie te bosta vodila skozi različne vaje in tehnike, ki ti bodo pomagale razviti muzikalnost in se globlje povezati z glasbo. Naučil_a se boš interpretirati in izražati glasbo na bolj poglobljen način ter vključiti muzikalnost v svoj ples.",
@@ -423,7 +423,7 @@ const si = {
       {
         title: "Intenzivka: Blues",
         instructors: "Andrea & Attila",
-        imgSrc: "/images/teachers_andrea_attila.png",
+        imgSrc: "/images/teachers_andrea_attila.jpg",
         level: "Priporočeno za nivo 4 in 5",
         description: [
           "Ta intenzivka se osredotoča na blues stil znotraj West Coast Swinga. Andrea in Attila te bosta naučila ključnih konceptov blues plesa, vključno s karakterističnimi figurami, ritmi in tehnikami. Naučil_a se boš bolje prilagoditi svojo plesno interpretacijo blues glasbi ter na katere posebnosti biti pozorni pri plesu na ta žanr.",
@@ -433,7 +433,7 @@ const si = {
       {
         title: "Intenzivka: Switch",
         instructors: "Evgenia & Clement",
-        imgSrc: "/images/teachers_evgenia_clement.png",
+        imgSrc: "/images/teachers_evgenia_clement.jpg",
         level: "Priporočeno za nivo 3 in višje",
         description: [
           "Ta intenzivka je posvečena menjanju plesnih vlog znotraj plesa v West Coast Swingu. Evgenia in Clement te bosta naučila osnov menjavanja vlog, vključno s tehnikami in koncepti, ki so pri tem pomembni. Naučil_a se boš učinkovito komunicirati željo po menjavi vloge, kar bo nedvomno izboljšalo tvoje komunikacijske veščine kot leader ali follower.",
@@ -715,7 +715,7 @@ const si = {
       {
         pageTitle: "Predvečer",
         disclaimer:
-          'Predzabava je vključena v Zero to Hero pass, NI pa vključena v Full ali Party pass. Zabavo bomo morda odprli za obisk, kar pa je odvisno od števila vnaprej prodanih vstopnic.<br />Vstopnina za predzabavo je <span class="bold">10 evrov</span>, če jo kupiš ob registraciji, ali <span class="bold">15 evrov</span> na vhodu.',
+          'Vstopnina za predvečer je <span class="bold">10 EUR</span>, če jo kupiš ob prijavi. Vstopnina je vključena v Zero to Hero passe, NI pa vključena v Full ali Party passe. <br>Upoštevaj, da je število mest omejeno, zato trenutno ne načrtujemo prodaje kart na vratih. Plačana vstopnina ni povračljiva. Če odpremo prodajo javnosti, bo cena na vratih <span class="bold">15 EUR</span>.',
         description: [
           "Ljubljanski Grad, ki leži na hribu s čudovitim razgledom na mesto pod njim, je pomembna zgodovinska znamenitost slovenske prestolnice. Grad, ki sega v 11. stoletje, združuje stoletja bogate zgodovine znotraj svojega starodavnega obzidja. Danes deluje kot živahno kulturno središče, ki obiskovalcem ponuja osupljive panorame, privlačne razstave in prepoznavna prizorišča dogodkov, kot je očarljiva plesna dvorana Palacij, kjer bo v četrtek od 20.00 do 3.00 potekal naš predvečer.",
           "Če prispeš predčasno, lahko izkoristiš priložnost za raziskovanje Gradu. Lahko se povzpneš na Grajski stolp za panoramski razgled ali si privoščiš večerjo in pijačo v restavraciji ali baru.",
@@ -807,9 +807,21 @@ const si = {
     viewRegistration: "Poglej svojo prijavo",
     instructions: [
       {
+        title: "Izbira vstopnice",
+        preTexts: ["Na voljo imaš 3 možnosti - oddaj samo eno prijavo!"],
+        textsList: [
+          "FULL PASS - načrtuješ udeležbo celoten vikend in obisk vikend delavnic - to ti omogoča tudi prijavo na tekmovanja.",
+          "PARTY PASS - načrtuješ udeležbo celoten vikend, vendar samo na zabavah - to ti omogoča tudi prijavo na tekmovanja.",
+          "ZERO TO HERO - načrtuješ udeležbo SAMO na četrtkovih začetniških delavnicah in zabavi.",
+        ],
+        postText:
+          "Če se želiš prijaviti na Zero to Hero IN party pass, izberi Party pass tukaj. Delavnice Zero to Hero boš lahko dodal po potrditvi tvoje prijave na party pass po fiksni dodatni ceni (da ne plačaš spremembe cenovnega razreda in prepartyja dvakrat).",
+      },
+      {
         title: "Registracija v paru",
         textsList: [
           "Oba partnerja morata izbrati isto vrsto vstopnice (npr. oba full pass ali oba party pass).",
+          "Partnerjema NI potrebno izbrati iste stopnje.",
           "Partnerja morata imeti nasprotni vlogi (1 leader + 1 follower).",
           "Vsak partner mora oddati svoj obrazec za registracijo.",
           `V polje "Partner's email" mora vsak udeleženec vnesti isti email naslov, kot ga je njegov partner uporabil pri registraciji, da bomo lahko v sistemu registraciji pravilno povezali.`,
@@ -835,7 +847,7 @@ const si = {
           "Na zabavah boš aktivno plesal_a kot leader in kot follower v približno enakem razmerju.",
         ],
         postText:
-          "Udeležencem, ki se prijavijo kot switch, NI dovoljeno dodati partnerja. To polje ob registraciji ne bo upoštevano.",
+          'Udeležencem, ki se prijavijo kot switch <span class="bold">NI dovoljeno dodati partnerja</span>. Polje za partnerja bo prezrto.',
       },
       {
         title: "Registracija z brezplačno vstopnico",
@@ -848,7 +860,7 @@ const si = {
           "na katerem dogodku, za katero tekmovanje ter v kateri vlogi si vstopnico osvojil.",
         ],
         postText:
-          "Imetnikom brezplačnih vstopnic NI dovoljeno dodati partnerja k prijavi.",
+          'Imetnikom brezplačne vstopnice <span class="bold">NI dovoljeno dodati partnerja</span>. Polje za partnerja bo prezrto.',
       },
     ],
   },
@@ -903,7 +915,7 @@ const si = {
         },
         {
           value:
-            "V primeru odpovedi s strani udeleženca ponujamo povračilo plačila pod naslednjimi pogoji:",
+            "V primeru odpovedi s strani udeleženca vstopnina za predvečer ni povračljiva. Bomo pa ponudili vračilo glavne vstopnice, intenzivk in izleta po naslednjih stopnjah:",
           list: [
             "Za odpovedi, prejete do vključno 15. februarja 2026, bo povrnjenih 50% prejetega plačila.",
             "Za odpovedi, prejete od 16. februarja 2026 naprej, vračilo ni mogoče.",
@@ -1396,7 +1408,7 @@ const si = {
       paid: "Plačilo",
       notPaid: "Plačilo še ni prejeto",
       statusStage: {
-        recieved: "PREJETO",
+        received: "PREJETO",
         waitlist: "ČAKALNA LISTA",
         accepted: "SPREJETO",
         paid: "PLAČANO",
@@ -1421,61 +1433,85 @@ const si = {
       },
       competitions: {
         title: "Tekmovanja",
-        info: "To še ni prijava na tekmovanja, temveč zgolj izkaz zanimanja, ki nam olajša načrtovanje urnika. Kasneje se boš lahko prijavil_a na tekmovanja preko scoring.dance. Za vsako tekmovanje je doplačilo 15 € na prijavo.",
+        info: "To ni prijava na tekmovanja, ampak izražanje interesa. Na tekmovanja se boš lahko prijavil_a aprila prek scoring.dance. Za vsako tekmovanje je doplačilo 15 EUR na prijavo ob prejemu štartne številke.",
       },
       preparty: {
-        title: "Četrtkov predvečer",
-        info: "Predvečer je vključen v Full pass in Party pass, vendar je število mest v dvorani omejeno. Prosimo, navedi, ali se nameravaš udeležiti.",
+        title: "Četrtkov preparty",
+        info: "Vstopnina za preparty je 10 EUR. Vključena je v Zero to Hero pass. Število mest je omejeno, zato trenutno ne načrtujemo prodaje vstopnic na vratih. Plačana vstopnina ni povračljiva.",
       },
       cityTour: {
         title: "Petkov ogled mesta",
-        info: "Ogled mesta je vključen v Full pass in Party pass. Prosimo, navedi, ali se nameravaš pridružiti, da lahko pripravimo dovolj vodnikov.",
+        info: "Ogled mesta je vključen v Full pass in Party pass. Prosimo, označi, ali se nameravaš udeležiti ogleda, da lahko pripravimo dovolj vodnikov. Pozor, ogled poteka istočasno kot petkove intenzivke.",
       },
-      mealPackage: {
-        title: "Paket obrokov",
-        info: "Za naše udeležence je na voljo bifejski obrok v bližnji restavraciji Vinka, z eno mesno in eno vegetarijansko možnostjo. Izbirate lahko med paketom kosila (vključuje 2 obroka za 24 EUR) in paketom večerje (vključuje 3 obroke za 36 EUR).",
+      //   mealPackage: {
+      //     title: "Paket obrokov",
+      //     info: "Za naše udeležence je na voljo bifejski obrok v bližnji restavraciji Vinka, z eno mesno in eno vegetarijansko možnostjo. Izbirate lahko med paketom kosila (vključuje 2 obroka za 24 EUR) in paketom večerje (vključuje 3 obroke za 36 EUR).",
+      //     options: {
+      //       package: "Paket",
+      //       lunch: "Kosilo",
+      //       dinner: "Večerja",
+      //       diet: "Prehrana",
+      //       meat: "Meso",
+      //       vegetarian: "Vegetarijansko",
+      //     },
+      //     infoModal: {
+      //       title: "Meni",
+      //       info: "Meni je okviren in se lahko še spremeni.",
+      //       meals: {
+      //         lunch: [
+      //           {
+      //             date: "Sobota, 12. 4.",
+      //             meat: "čevapčiči, ocvrt krompir, solata",
+      //             veggie: "domači bučkini polpeti, ocvrt krompir, solata",
+      //           },
+      //           {
+      //             date: "Nedelja, 13. 4.",
+      //             meat: "mesni polpeti, špinača, pire krompir, solata",
+      //             veggie: "sojini polpeti, špinača, pire krompir, solata",
+      //           },
+      //         ],
+      //         dinner: [
+      //           {
+      //             date: "Petek, 11. 4.",
+      //             meat: "piščančji file z ementalerjem v jurčkovi omaki, pražen krompir, solata",
+      //             veggie: "rižota z jurčki, solata",
+      //           },
+      //           {
+      //             date: "Sobota, 12. 4.",
+      //             meat: "svinjska medaljončka po istrsko, pražen krompir, solata",
+      //             veggie: "ocvrt sir, pomfri, tatarska omaka, solata",
+      //           },
+      //           {
+      //             date: "Nedelja, 13. 4.",
+      //             meat: "puranji zrezek v smetanovi omaki s tartufi, kuhan riž, solata",
+      //             veggie: "ocvrti njoki v smetanovi omaki z gorgonzolo, solata",
+      //           },
+      //         ],
+      //       },
+      //     },
+      //   },
+      intensives: {
+        title: "Petkove intenzivke",
+        info: "Prosimo, izberi intenzivne delavnice, ki se jih želiš udeležiti v petek zjutraj. Cena vsake 3-urne delavnice je 60 EUR na osebo, plačilo v 7 dneh po potrditvi.",
         options: {
-          package: "Paket",
-          lunch: "Kosilo",
-          dinner: "Večerja",
-          diet: "Prehrana",
-          meat: "Meso",
-          vegetarian: "Vegetarijansko",
+          role: "Vloga",
+          leader: "Leader",
+          follower: "Follower",
+          partner_email: "Partnerjev e-mail",
+          topic: "Tema",
+          Blues: "Blues",
+          Switch: "Switch",
+          Micromusicality: "Mikromuzikalnost",
         },
-        infoModal: {
-          title: "Meni",
-          info: "Meni je okviren in se lahko še spremeni.",
-          meals: {
-            lunch: [
-              {
-                date: "Sobota, 12. 4.",
-                meat: "čevapčiči, ocvrt krompir, solata",
-                veggie: "domači bučkini polpeti, ocvrt krompir, solata",
-              },
-              {
-                date: "Nedelja, 13. 4.",
-                meat: "mesni polpeti, špinača, pire krompir, solata",
-                veggie: "sojini polpeti, špinača, pire krompir, solata",
-              },
-            ],
-            dinner: [
-              {
-                date: "Petek, 11. 4.",
-                meat: "piščančji file z ementalerjem v jurčkovi omaki, pražen krompir, solata",
-                veggie: "rižota z jurčki, solata",
-              },
-              {
-                date: "Sobota, 12. 4.",
-                meat: "svinjska medaljončka po istrsko, pražen krompir, solata",
-                veggie: "ocvrt sir, pomfri, tatarska omaka, solata",
-              },
-              {
-                date: "Nedelja, 13. 4.",
-                meat: "puranji zrezek v smetanovi omaki s tartufi, kuhan riž, solata",
-                veggie: "ocvrti njoki v smetanovi omaki z gorgonzolo, solata",
-              },
-            ],
-          },
+      },
+      zeroToHero: {
+        title: "Delavnice Zero to Hero",
+        info: "Izberi, ali želiš obiskovati tudi delavnice Zero to Hero v četrtek. Svetujemo, da se tisti, ki želijo obiskati našo switch intenzivko, udeležijo tudi Zero to Hero v svoji sekundarni vlogi. Doplačilo za 4 delavnice Zero to Hero je 40 EUR, plačilo v 7 dneh po potrditvi.",
+        options: {
+          role: "Vloga",
+          leader: "Leader",
+          follower: "Follower",
+          partner_email: "Partnerjev e-mail",
         },
       },
       status: [

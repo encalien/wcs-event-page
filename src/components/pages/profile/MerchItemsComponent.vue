@@ -17,7 +17,7 @@ export default {
       isSubmitting: false,
       fieldErrors: {} as Record<number, string>,
       selectedImage: null as string | null,
-      preorderOpen: false,
+      preorderOpen: true,
     };
   },
   props: {
@@ -173,13 +173,8 @@ export default {
               @click="selectedImage = getImageUrl(order.merch_item)"
             />
             <span>
-              {{
-                $t(
-                  `userProfile.merchItems.${order.merch_item.translate_key}.title`
-                )
-              }}: {{ " " }}
               <span class="important">
-                {{ order.merch_item.model.toUpperCase() }}
+                {{ order.merch_item.model }}
               </span>
             </span>
           </div>
@@ -224,13 +219,8 @@ export default {
                   @click="selectedImage = getImageUrl(merchItem)"
                 />
                 <span>
-                  {{
-                    $t(
-                      `userProfile.merchItems.${merchItem.translate_key}.title`
-                    )
-                  }}: {{ " " }}
                   <span class="important">
-                    {{ merchItem.model.toUpperCase() }}
+                    {{ merchItem.model }}
                   </span>
                 </span>
               </div>

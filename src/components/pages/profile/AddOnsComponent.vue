@@ -65,7 +65,10 @@ export default {
 
           if (addOn?.options.length) {
             for (const option of addOn.options) {
-              if (this.formData[key].options[option.key] == undefined) {
+              if (
+                option.required &&
+                this.formData[key].options[option.key] == undefined
+              ) {
                 this.fieldErrors[option.key] = "pleaseSelect";
                 isValid = false;
               }
@@ -198,7 +201,9 @@ export default {
                   :id="addOn.translate_key + 'Yes'"
                   :name="addOn.translate_key"
                   :value="true"
-                  :disabled="addOn.translate_key !== 'preparty'"
+                  :disabled="[1, 2, 3, 4, 5].includes(registration?.add_ons.find(
+                    (ra: any) => ra.add_on.id === addOn.id
+                  )?.status) && addOn.price"
                 />
                 <label :for="addOn.translate_key + 'Yes'">
                   {{ $t("userProfile.form.yes") }}
@@ -211,7 +216,9 @@ export default {
                   :id="addOn.translate_key + 'No'"
                   :name="addOn.translate_key"
                   :value="false"
-                  :disabled="addOn.translate_key !== 'preparty'"
+                  :disabled="[1, 2, 3, 4, 5].includes(registration?.add_ons.find(
+                    (ra: any) => ra.add_on.id === addOn.id
+                  )?.status) && addOn.price"
                 />
                 <label :for="addOn.translate_key + 'No'">
                   {{ $t("userProfile.form.no") }}
@@ -239,11 +246,13 @@ export default {
                   )
                 }}:
                 {{
-                  $t(
-                    `userProfile.addons.${addOn.translate_key}.options.${
-                      formData[addOn.id].options[option.key]
-                    }`
-                  )
+                  formData[addOn.id].options[option.key]
+                    ? $t(
+                        `userProfile.addons.${addOn.translate_key}.options.${
+                          formData[addOn.id].options[option.key]
+                        }`
+                      )
+                    : "/"
                 }}
               </div>
             </div>
@@ -256,10 +265,11 @@ export default {
             >
               <input
                 v-if="!['select', 'radio'].includes(option.type)"
+                class="grid-item"
                 :type="option.type"
                 :placeholder="
                   $t(
-                    `userProfile.addons.${addOn.translate_key}.options${option.key}`
+                    `userProfile.addons.${addOn.translate_key}.options.${option.key}`
                   )
                 "
                 :min="option.min"

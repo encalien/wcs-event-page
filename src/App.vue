@@ -19,7 +19,7 @@ export default {
     ComingSoonComponent,
   },
   created() {
-    if (window.location.href.includes("#")) {
+    if (window.location.href.includes("/#")) {
       this.$router.replace(`/en${window.location.href.split("#")[1]}`);
       return;
     }

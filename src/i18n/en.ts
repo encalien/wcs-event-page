@@ -106,7 +106,7 @@ const en = {
         people: [
           {
             names: "Karin & Ludovic",
-            src: "/images/teachers_karin_ludovic.png",
+            src: "/images/teachers_karin_ludovic.jpg",
             description: [
               "Karin Kakun has been dancing her entire life. Holding a university degree in dance, she has taught for over 14 years. She teaches WCS, Hip-Hop, Stretching, and Pole dance. She also choreographs and performs. Before embracing WCS, she was the Israeli salsa champion.",
               "She embarked on her WCS journey in 2014 and from the first moment she fell in love. She now competes in the Champion division and teaches in Israel, where she directs a line of West Coast Swing classes. She actively travels and teaches all around Europe.",
@@ -116,7 +116,7 @@ const en = {
           },
           {
             names: "Savana & João",
-            src: "/images/teachers_savana_joao.png",
+            src: "/images/teachers_savana_joao.jpg",
             description: [
               "Savana began jazz dancing at age 4 and has been devoted ever since. Passionate about dance in general, she has trained in solo, contemporary, classical, and hip hop. She's competed extensively, securing both regional and national prizes, and joined a conservatory during her high school years.",
               "She ventured into rock dance at age 7, swiftly moving on to salsa and, later, West Coast Swing. Very young, she was given the opportunity to teach, where she found joy in connecting and sharing with students. After high school, she chose to specialize in WCS and relocated to Switzerland, where she now lives and works at Jang Widler's dance school.",
@@ -126,7 +126,7 @@ const en = {
           },
           {
             names: "Andrea & Attila",
-            src: "/images/teachers_andrea_attila.png",
+            src: "/images/teachers_andrea_attila.jpg",
             description: [
               "Attila and Andrea began their dance career as ballroom dancers. They taught latin and standard dances for many years. After a successful fifteen-year stint, in the possession of numerous championship titles, they chose to take a step back from their active careers following the birth of their first child.",
               "They were never able to part from dancing completely, always yearning to be back on the dancefloor.In 2013, they encountered West Coast Swing and soon became addicted to the genre. Recognising the distinct differences between ballroom and West Coast Swing, this dance became their passion, mostly because of its endless possibilities and freedom. They were unable to let competing go either, so after some years of competing, they both made it to the prestigious All - Star category.",
@@ -135,7 +135,7 @@ const en = {
           },
           {
             names: "Evgenia & Clement",
-            src: "/images/teachers_evgenia_clement.png",
+            src: "/images/teachers_evgenia_clement.jpg",
             description: [
               "Clevi - Clem & Evi - are two passionate West Coast Swing dancers based in Berlin. With a decade of experience each, they have joined forces to teach and dance together. Clement, an All-Star Division leader and an Advanced Division follower, brings a unique sense of musicality and creativity to the dance floor with his decade of musical studies and his background in solo dances like Ballet, Hip-Hop, and Contemporary.",
               "Evi, an All-Star Division follower with a professional contemporary dance background and experience in Ballet, Jazz, and Modern dance, adds her unique flavor to WCS.",
@@ -144,7 +144,7 @@ const en = {
           },
           {
             names: "Raushaniya & Mackenzie",
-            src: "/images/teachers_raushaniya_mackenzie.png",
+            src: "/images/teachers_raushaniya_mackenzie.jpg",
             description: [
               "Raushaniya took her first steps in West Coast Swing on a beautiful rainy evening by Lake Zurich, Switzerland. From that moment, she was hooked, finding in dance a way to connect with people all across the world. Before discovering WCS, she trained in Arabic belly dancing for several years, developing a strong foundation in body isolation and fluid movement.",
               "Mackenzie began his West Coast Swing journey at the age of 11, joining local classes in Brisbane, Australia, and has since dedicated himself as both a dancer and teacher. As an experienced instructor, he is passionate about teaching in-depth technique and has developed a unique approach to integrating solo movement to push the creative expression for dancing in a partnership setting.",
@@ -258,7 +258,7 @@ const en = {
           {
             names: "Jacqueline",
             title: "MC",
-            src: "/images/staff_jacqueline.png",
+            src: "/images/staff_jacqueline.jpg",
             description: [
               "Since her debut as MC at Slovenian Open last year, her presence has grown at events across the community—including as an MC at Finnfest.",
               "Originating from a background in stage dancing, Jacqueline's West Coast Swing journey started in 2018 with the Warsaw Westies, where she is still seen regularly, even though she is always on the move.",
@@ -268,7 +268,7 @@ const en = {
           {
             names: "Andreas",
             title: "Scoring",
-            src: "/images/staff_andreas.png",
+            src: "/images/staff_andreas.jpg",
             description: [
               "Andreas is the mastermind behind the Scoreboard system, a prominent and widely used scoring tool for dance competitions. Known for its speed and reliability, Scoreboard has been a game-changer in the way competitions are judged and results are delivered.",
               "Andreas's expertise and dedication to the dance scene are evident as he is a familiar face at most European dance events, where his system continues to enhance the competitive dance experience for participants and organizers alike.",
@@ -277,7 +277,7 @@ const en = {
           {
             names: "Ludovic",
             title: "Chief Judge",
-            src: "/images/staff_ludovic.png",
+            src: "/images/staff_ludo.jpg",
             description: [
               "Ludovic's extensive experience in various dance forms, coupled with his significant achievements as both a competitor and instructor, render him an indispensable asset to any judging panel.",
               "His comprehensive understanding of dance dynamics and technical proficiency equips him with a keen eye for detail, ensuring a fair and insightful evaluation of performances.",
@@ -286,7 +286,7 @@ const en = {
           {
             names: "Karin",
             title: "Assistant Chief Judge",
-            src: "/images/staff_karin.png",
+            src: "/images/staff_karin.jpg",
             description: [
               "With a lifelong dedication to dance, Karin Kakun brings a wealth of experience to the judging panel. Holding a university degree in dance and over 14 years of teaching experience, she has trained dancers across multiple disciplines, including WCS, Hip-Hop, Stretching, and Pole dance.",
               "Her extensive background as a competitor, instructor, and choreographer gives her a well-rounded perspective, allowing her to assess performances with a keen eye for movement, musicality, and technique.",
@@ -295,7 +295,7 @@ const en = {
           {
             names: "Henri",
             title: "Dancing Mind",
-            src: "/images/staff_henri.png",
+            src: "/images/collaborators_henri.jpg",
             description: [
               "Henri discovered West Coast Swing in 2017, drawn by a lifelong passion for music despite no prior dance background.",
               "While exploring WCS, he pursued a career in medicine, becoming a general physician, and spent over eight years studying psychology, including sports psychology. This dual expertise gives him a unique perspective on the mind-body connection in dance. As the team doctor for Special Olympics Finland, he has witnessed firsthand the transformative power of movement and joy. His first webinar was held on November 26, 2023.",
@@ -309,9 +309,9 @@ const en = {
           {
             names: "Jake",
             title: "Video & Live stream",
-            src: "/images/staff_jake.png",
+            src: "/images/staff_jake.jpg",
             description: [
-              "Jake is part of the Triple Step TV team, as videographer and lead web developer. Together with Harold and the rest of the crew, their mission is to share this beautiful, breathtaking dance that we all love - with as many people on the planet as possible!",
+              "Jake is part of the Triple Step TV team, as videographer and lead web developer. Together with the rest of the crew, their mission is to share this beautiful, breathtaking dance that we all love - with as many people on the planet as possible!",
               "They love filming and editing social media videos, live streaming events with instant replays, and adding classes to their global map of West Coast Swing.",
             ],
           },
@@ -332,7 +332,7 @@ const en = {
           {
             names: "Vicky",
             title: "Zero to Hero Lead",
-            src: "/images/staff_vicky.png",
+            src: "/images/staff_vicky.jpg",
             description: [
               "Vicky is originally from Lithuania but now lives in London, where she discovered the joy and creativity of West Coast Swing in January 2023. From exploring music and dance to welcoming new people into the community, she is incredibly passionate about WCS and excited to see how this amazing community continues to grow.",
               "Her special skills lie in integrating new dancers into the community, making them feel welcome and comfortable, and helping them to find their place in the dance world. She lead the Zero to Hero program at multiple events, and is now bringing her expertise to Slovenian Open.",
@@ -346,7 +346,7 @@ const en = {
           {
             names: "Sarah",
             title: "Shoe Seller",
-            src: "/images/collaborators_sarah.png",
+            src: "/images/collaborators_sarah.jpg",
             description: [
               "As a dancer, she always noticed that many dancers wear the wrong shoes. Observing the lack of specialized dance shoe shops in Carinthia and people's reluctance to buy from dance schools or online, she became self-employed in December 2018, creating a business focused on dance shoes.",
               "She's eager to offer advice on personal concerns and assist in finding the ideal dance shoe for each individual.",
@@ -386,17 +386,17 @@ const en = {
   },
   intensives: {
     pageTitle: "Intensives",
-    disclaimer: `Read more about the intensives we offer <a href="intensives">here</a>. You will be able to add intensives through your profile page. Please note that because all intensives happen at the same time, you may only add 1 intensive<br />Each one of the 3-hour intensives costs <span class="bold">50 EUR</span>.`,
+    disclaimer: `Read more about the intensives we offer <a href="intensives">here</a>. You will be able to add intensives through your profile page. Please note that because all intensives happen at the same time, you may only add 1 intensive<br />Each one of the 3-hour intensives costs <span class="bold">60 EUR</span>.`,
     introText: [
       "In addition to the regular workshops, we are excited to offer three intensive tracks during the event. These intensives are designed to provide a deeper dive into specific aspects of West Coast Swing, allowing dancers to focus on particular skills and concepts over an extended period.",
       "The intensives are planned on Friday morning - all at the same time, so you may only participate in one of them. Read the descriptions below to choose the one that best fits your interests and skill level.",
-      "The price of intensives is paid separately - each 3-hour intensive costs 50 EUR. You can sign up for the intensives on your profile page.",
+      "The price of intensives is paid separately - each 3-hour intensive costs 60 EUR. You can sign up for the intensives on your profile page.",
     ],
     tracks: [
       {
         title: "Micro-musicality Intensive",
         instructors: "Raushaniya & Mackenzie",
-        imgSrc: "/images/teachers_raushaniya_mackenzie.png",
+        imgSrc: "/images/teachers_raushaniya_mackenzie.jpg",
         level: "Recommended for Level 5 and 6",
         description: [
           "This intensive track focuses on micro-musicality in West Coast Swing. Mackenzie and Raushaniya will guide you through various exercises and techniques to help you develop your musicality skills and connect with the music in a more meaningful way. You'll learn how to interpret and express the music at a deeper level, as well as how to incorporate musicality into your dancing.",
@@ -406,7 +406,7 @@ const en = {
       {
         title: "Blues Intensive",
         instructors: "Andrea & Attila",
-        imgSrc: "/images/teachers_andrea_attila.png",
+        imgSrc: "/images/teachers_andrea_attila.jpg",
         level: "Recommended for Level 4 and 5",
         description: [
           "This intensive track focuses on the blues style of West Coast Swing. Andrea and Attila will teach you the core concepts of blues dancing, including the characteristic patterns, rhythms, and techniques. You'll learn how to better match your dancing to blues music, and what specifics to pay attention to when dancing to this genre.",
@@ -416,7 +416,7 @@ const en = {
       {
         title: "Switch Intensive",
         instructors: "Evgenia & Clement",
-        imgSrc: "/images/teachers_evgenia_clement.png",
+        imgSrc: "/images/teachers_evgenia_clement.jpg",
         level: "Recommended for Level 3 and above",
         description: [
           "This intensive track focuses on the switch role in West Coast Swing. Evgenia and Clement will teach you the fundamentals of switching roles, including the techniques and concepts involved. You'll learn how to effectively communicate the desire to switch role, which will no doubt help your communication skills as a leader or as a follower.",
@@ -705,7 +705,7 @@ const en = {
       {
         pageTitle: "Preparty",
         disclaimer:
-          'Preparty is included in the Zero to Hero passes, but NOT in the Full or Party passes. Depending on how many preparty tickets are sold, we may or may not open it to the public.<br />The entrance fee for the preparty is <span class="bold">10 EUR</span> if purchased during registration or <span class="bold">15 EUR</span> at the door.',
+          'The preparty entrance fee is <span class="bold">10 EUR</span> if purchased during registration. Preparty is included in the Zero to Hero passes, but NOT in the Full or Party passes. <br>Note that the spaces are limited, so we currently do not plan to open sales at the door. The paid entrance fee is non-refundable. If we open ticket sale to the public, the price will be <span class="bold">15 EUR</span> at the door.',
         description: [
           "Ljubljana Castle, perched atop a hill with breathtaking views of the city below, stands as a significant historical landmark in Slovenia's capital. Dating back to the 11th century, the castle encapsulates centuries of rich history within its ancient walls. Today, it functions as a vibrant cultural center, offering visitors sweeping panoramas, engaging exhibitions, and distinctive event venues such as the enchanting Palacij ballroom, where our preparty will take place from 8 pm to 3 am on Thursday.",
           "If you arrive early, take the opportunity to explore the Castle Tower for a panoramic 360-degree view of the city or indulge in dinner and drinks at the castle's restaurant or bar.",
@@ -864,9 +864,21 @@ const en = {
     clickHere: "Click here",
     instructions: [
       {
+        title: "Choosing your pass",
+        preTexts: ["You have 3 options to select from - sign up only once!"],
+        textsList: [
+          "FULL PASS - you plan to participate the whole weekend and take the weekend classes - this allows an option to sign up for competitions too.",
+          "PARTY PASS - you plan to participate the whole weekend, but only for parties - this allows an option to sign up for competitions too.",
+          "ZERO TO HERO - you plan to ONLY participate on Thursday beginner workshops and party.",
+        ],
+        postText:
+          "If you wish to sign up for Zero to Hero AND a party pass, you should select Party pass here. You'll be able to add Zero to Hero classes after your party pass registration is accepted for a fixed additional price (so you're not charged the tier price change and preparty twice).",
+      },
+      {
         title: "Signing up in a couple",
         textsList: [
           "Both partners must be on the same pass type (e.g. both full pass or both party pass).",
+          "Partners do NOT need to be on the same level.",
           "Partners must be of opposite roles (1 leader + 1 follower).",
           "Each partner needs to submit their own registration form.",
           `In the "Partner's email" field each of the participant must enter the same email as their partner used for their registration in order for us to match the partners correctly.`,
@@ -892,7 +904,7 @@ const en = {
           "During parties you agree to actively ask people as both leader and follower in roughly equal parts.",
         ],
         postText:
-          "Note that participants registering as switch are NOT allowed to add a partner. Partner field will be ignored.",
+          'Note that participants registering as switch are <span class="bold">NOT allowed to add a partner</span>. Partner field will be ignored.',
       },
       {
         title: "Signing up with a free pass",
@@ -905,7 +917,7 @@ const en = {
           "where and for what competition and role you won the pass.",
         ],
         postText:
-          "Note that free pass holders are NOT allowed to add a partner to their registration.",
+          'Note that free pass holders are <span class="bold">NOT allowed to add a partner</span>. Partner field will be ignored.',
       },
       {
         title: "Signing up as an All Star judge",
@@ -971,7 +983,7 @@ const en = {
         },
         {
           value:
-            "In case of cancellation by the participant, we shall offer a payment refund in the following tiers:",
+            "In case of cancellation by the participant, the preparty entrance fee is non-refundable. However, we will offer a refund of the pass, intensives and day trip in the following tiers:",
           list: [
             "For cancellation requests received up to and including 15 February 2026, the received payment will be refunded partially - 50% of received payment.",
             "For cancellation requests received on 16 February 2026 or later, the received payment will not be refunded.",
@@ -1464,7 +1476,7 @@ const en = {
       paid: "Payment",
       notPaid: "No payment received yet",
       statusStage: {
-        recieved: "RECIEVED",
+        received: "RECEIVED",
         waitlist: "WAITLIST",
         accepted: "ACCEPTED",
         paid: "PAID",
@@ -1489,61 +1501,84 @@ const en = {
       },
       competitions: {
         title: "Competitions",
-        info: "This is not a registration for competitions, but a declaration of interest. You will be able to register for competitions at a later time through scoring.dance. There's a surcharge of 15 eur per entry for each competition.",
+        info: "This is not a registration for competitions, but a declaration of interest. You will be able to register for competitions at in April through scoring.dance. There's a surcharge of 15 eur per entry for each competition.",
       },
       preparty: {
         title: "Thursday Preparty",
-        info: "The preparty is included in Full pass and Party pass, but spaces at the venue are limited. Please state if you plan to attend the preparty.",
+        info: "The preparty entrance fee is 10 EUR. It's included in the Zero to Hero pass. Note that the spaces are limited, so we currently do not plan to open sales at the door. The paid entrance fee is non-refundable.",
       },
       cityTour: {
         title: "Friday City Tour",
-        info: "The city tour is included in Full pass and Party pass. Please state if you plan to attend the city tour, so we can prepare enough guides.",
+        info: "The city tour is included in Full pass and Party pass. Please state if you plan to attend the city tour, so we can prepare enough guides. Note that the tour is scheduled to happen at the same time as Friday intensives.",
       },
-      mealPackage: {
-        title: "Meal Package",
-        info: "For our participants buffet-style lunch in nearby Restaurant Vinka is available with one meat and one vegetarian option. You can choose between lunch package (includes 2 meals for 24 EUR) and dinner package (includes 3 meals for 36 EUR).",
+      //   mealPackage: {
+      //     title: "Meal Package",
+      //     info: "For our participants buffet-style lunch in nearby Restaurant Vinka is available with one meat and one vegetarian option. You can choose between lunch package (includes 2 meals for 24 EUR) and dinner package (includes 3 meals for 36 EUR).",
+      //     options: {
+      //       package: "Package",
+      //       lunch: "Lunch",
+      //       dinner: "Dinner",
+      //       diet: "Diet",
+      //       meat: "Meat",
+      //       vegetarian: "Vegetarian",
+      //     },
+      //     infoModal: {
+      //       title: "Menu",
+      //       info: "Note that the menu is subject to change.",
+      //       meals: {
+      //         lunch: [
+      //           {
+      //             date: "Saturday, April 12",
+      //             meat: "Ćevapčiči, fried potatoes, salad",
+      //             veggie: "Homemade zucchini patties, fried potatoes, salad",
+      //           },
+      //           {
+      //             date: "Sunday, April 13",
+      //             meat: "Meat patties, spinach, mashed potatoes, salad",
+      //             veggie: "Soy patties, spinach, mashed potatoes, salad",
+      //           },
+      //         ],
+      //         dinner: [
+      //           {
+      //             date: "Friday, April 11",
+      //             meat: "Chicken fillet with Emmental cheese in porcini mushroom sauce, roasted potatoes, salad",
+      //             veggie: "Porcini mushroom risotto, salad",
+      //           },
+      //           {
+      //             date: "Saturday, April 12",
+      //             meat: "Istrian-style pork medallions, roasted potatoes, salad",
+      //             veggie: "Fried cheese, French fries, tartar sauce, salad",
+      //           },
+      //           {
+      //             date: "Sunday, April 13",
+      //             meat: "Turkey steak in creamy truffle sauce, boiled rice, salad",
+      //             veggie: "Fried gnocchi in creamy Gorgonzola sauce, salad",
+      //           },
+      //         ],
+      //       },
+      //     },
+      intensives: {
+        title: "Friday Intensives",
+        info: "Please select the intensive workshops you would like to attend on Friday morning. Price of each 3-hour intensive is 60 EUR per person, to be paid within 7 days of acceptance.",
         options: {
-          package: "Package",
-          lunch: "Lunch",
-          dinner: "Dinner",
-          diet: "Diet",
-          meat: "Meat",
-          vegetarian: "Vegetarian",
+          role: "Role",
+          leader: "Leader",
+          follower: "Follower",
+          partner_email: "Partner's email",
+          topic: "Topic",
+          Blues: "Blues",
+          Switch: "Switch",
+          Micromusicality: "Micromusicality",
         },
-        infoModal: {
-          title: "Menu",
-          info: "Note that the menu is subject to change.",
-          meals: {
-            lunch: [
-              {
-                date: "Saturday, April 12",
-                meat: "Ćevapčiči, fried potatoes, salad",
-                veggie: "Homemade zucchini patties, fried potatoes, salad",
-              },
-              {
-                date: "Sunday, April 13",
-                meat: "Meat patties, spinach, mashed potatoes, salad",
-                veggie: "Soy patties, spinach, mashed potatoes, salad",
-              },
-            ],
-            dinner: [
-              {
-                date: "Friday, April 11",
-                meat: "Chicken fillet with Emmental cheese in porcini mushroom sauce, roasted potatoes, salad",
-                veggie: "Porcini mushroom risotto, salad",
-              },
-              {
-                date: "Saturday, April 12",
-                meat: "Istrian-style pork medallions, roasted potatoes, salad",
-                veggie: "Fried cheese, French fries, tartar sauce, salad",
-              },
-              {
-                date: "Sunday, April 13",
-                meat: "Turkey steak in creamy truffle sauce, boiled rice, salad",
-                veggie: "Fried gnocchi in creamy Gorgonzola sauce, salad",
-              },
-            ],
-          },
+      },
+      zeroToHero: {
+        title: "Zero to Hero Workshops",
+        info: "Choose if you'd like to attend also the Zero to Hero workshops on Thursday. We advise people wanting to do our switch intensive to also attend the Zero to Hero in their secondary role. The surcharge for the 4 Zero to Hero workshops is 40 EUR, to be paid within 7 days of acceptance.",
+        options: {
+          role: "Role",
+          leader: "Leader",
+          follower: "Follower",
+          partner_email: "Partner's email",
         },
       },
       status: [
