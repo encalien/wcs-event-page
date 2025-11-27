@@ -69,7 +69,14 @@ export default {
                 option.required &&
                 this.formData[key].options[option.key] == undefined
               ) {
-                this.fieldErrors[option.key] = "pleaseSelect";
+                console.log(
+                  Object.keys(this.formData),
+                  Object.keys(this.fieldErrors),
+                  option.key,
+                  key
+                );
+                this.fieldErrors[key] ??= {};
+                this.fieldErrors[key][option.key] = "pleaseSelect";
                 isValid = false;
               }
             }
@@ -226,7 +233,10 @@ export default {
               </div>
             </div>
             <!-- Error message under the radio group -->
-            <span v-if="fieldErrors?.[addOn.id]" class="field-error">
+            <span
+              v-if="typeof fieldErrors?.[addOn.id] === 'string'"
+              class="field-error"
+            >
               {{ $t(`userProfile.form.${fieldErrors[addOn.id]}`) }}
             </span>
           </fieldset>
@@ -328,8 +338,13 @@ export default {
                 </option>
               </select>
               <!-- Error message under the sub-form -->
-              <span v-if="fieldErrors?.[option.key]" class="field-error">
-                {{ $t(`userProfile.form.${fieldErrors[option.key]}`) }}
+              <span
+                v-if="fieldErrors?.[addOn.id]?.[option.key]"
+                class="field-error"
+              >
+                {{
+                  $t(`userProfile.form.${fieldErrors[addOn.id][option.key]}`)
+                }}
               </span>
             </div>
           </div>
