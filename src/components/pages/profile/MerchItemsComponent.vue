@@ -109,9 +109,18 @@ export default {
       }
     },
     getImageUrl(merchItem: MerchItemDTO) {
-      return `/images/merch_${merchItem.translate_key.toLowerCase()}_${merchItem.model
-        .toLowerCase()
-        .replace(/ /g, "_")}.png`;
+      const modelMap: Record<string, string> = {
+        "Women's Crop Top - bone": "crop_top_bone",
+        "Women's Crop Top - off black": "crop_top_off_black",
+        "Women's Slub T-Shirt - white sand": "slub_white_sand",
+        "Women's Slub T-Shirt - dark shadow": "slub_dark_shadow",
+        "Men's Sleeveless T-Shirt - sand": "sleeveless_sand",
+        "Men's Sleeveless T-Shirt - magnet": "sleeveless_magnet",
+        "Oversize Unisex T-Shirt - bone": "unisex_bone",
+        "Oversize Unisex T-Shirt - graphite black": "unisex_graphite_black",
+      };
+
+      return `/images/merch_2026_${modelMap[merchItem.model]}.jpg`;
     },
   },
   watch: {
