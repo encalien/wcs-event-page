@@ -285,6 +285,9 @@ export default {
                 :min="option.min"
                 :max="option.max"
                 v-model="formData[addOn.id].options[option.key]"
+                :disabled="[1, 2, 3, 4, 5].includes(registration?.add_ons.find(
+                    (ra: any) => ra.add_on.id === addOn.id
+                )?.status) && addOn.price"
               />
               <fieldset
                 v-if="option.type === 'radio'"
@@ -302,6 +305,9 @@ export default {
                       :id="option.key + '-' + choice"
                       :name="choice"
                       :value="choice"
+                      :disabled="[1, 2, 3, 4, 5].includes(registration?.add_ons.find(
+                        (ra: any) => ra.add_on.id === addOn.id
+                      )?.status) && addOn.price"
                     />
                     <label :for="option.key + '-' + choice">
                       {{
@@ -317,6 +323,9 @@ export default {
                 v-if="option.type === 'select'"
                 v-model="formData[addOn.id].options[option.key]"
                 class="grid-item"
+                :disabled="[1, 2, 3, 4, 5].includes(registration?.add_ons.find(
+                    (ra: any) => ra.add_on.id === addOn.id
+                )?.status) && addOn.price"
               >
                 <option disabled :value="undefined">
                   {{

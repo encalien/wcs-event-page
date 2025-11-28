@@ -318,7 +318,7 @@ export default {
                 </router-link>
               </div>
             </div>
-            <!-- <div
+            <div
               id="profile-menu"
               class="menu-item flex-container flex-container-row"
               :class="{ active: isMobileMenuOpen }"
@@ -330,7 +330,7 @@ export default {
               >
                 <font-awesome-icon icon="fa-regular fa-user" />
               </router-link>
-            </div> -->
+            </div>
           </div>
         </div>
       </div>
