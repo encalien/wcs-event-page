@@ -539,8 +539,8 @@ const en = {
       description:
         "This is a preliminary schedule and is very likely to change before the event.",
       downloadText: "Download the .pdf file.",
-      pdfSrc: "/files/schedule_v1.pdf",
-      pngSrc: "/images/schedule_v1.jpg",
+      pdfSrc: "/files/schedule_v2.pdf",
+      pngSrc: "/images/schedule_v2.png",
     },
     pricing: {
       pageTitle: "Pricing",

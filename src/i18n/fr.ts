@@ -557,8 +557,8 @@ const fr = {
       description:
         "Il s'agit d'un programme préliminaire et il est très probable qu'il change avant l'événement.",
       downloadText: "Télécharger le fichier .pdf.",
-      pdfSrc: "/files/schedule_v1.pdf",
-      pngSrc: "/images/schedule_v1.jpg",
+      pdfSrc: "/files/schedule_v2.pdf",
+      pngSrc: "/images/schedule_v2.png",
     },
     pricing: {
       pageTitle: "Tarifs",
