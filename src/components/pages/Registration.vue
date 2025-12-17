@@ -7,7 +7,7 @@ export default {};
     <h1>{{ $t("registration.pageTitle") }}</h1>
     <!-- <p>{{ $t('event.tba') }}</p> -->
     <p class="center-text" v-html="$t('registration.registrationInfoText')"></p>
-    <iframe src="https://forms.gle/WgEWsT13ZwKhFucA7">{{
+    <iframe src="https://forms.gle/ER6ytwcGoRDYZw1X8">{{
       $t("registration.loading")
     }}</iframe>
   </section>

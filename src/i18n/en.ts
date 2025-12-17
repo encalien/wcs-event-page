@@ -2,13 +2,13 @@ const en = {
   event: {
     name: "Winter Westie Weekend",
     location: "Ljubljana",
-    date: "31 Jan - 2 Feb 2024",
+    date: "Feb 6 - 8 2026",
     welcomeText: "Join the fun!",
     tba: "To be announced.",
   },
   contact: {
     text: "If you have any questions, please contact us via email:",
-    email: "wcsslo.wixsite{'@'}gmail.com",
+    email: "info{'@'}kinesisrei.si",
   },
   urls: {
     facebook: "https://www.facebook.com/events/916869680320633",
@@ -25,34 +25,34 @@ const en = {
       ],
       yt: [
         {
-          name: "Laszlo Tarkanyi & Stella Schletterer - 1st place All-Stars Jack&Jill - Warsaw Halloween Swing 2021",
-          src: "https://i.ytimg.com/vi/_7kewJgm94Q/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=_7kewJgm94Q",
+          name: "Florian Hamm & Lotte Meier - 1st place Strictly Open Finals - Westie Spring Thing 2025",
+          src: "https://img.youtube.com/vi/Ct2622Pq5Hc/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=Ct2622Pq5Hc",
         },
         {
-          name: "László Tárkányi & Jula Palenga - 1st place All-Stars Jack&Jill - Nordic WCS Championships 2022",
-          src: "https://img.youtube.com/vi/Zh8n-tt0RLU/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=Zh8n-tt0RLU",
+          name: "Bavarian Open 2025 Advanced JnJ Final - Joscha Brick & Clara Deiters",
+          src: "https://i.ytimg.com/vi/3gFoFPNH5Wo/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=3gFoFPNH5Wo",
         },
         {
-          name: "Noah Antebi & Judith Buschfeld - 3rd Place Sophisticated Jack&Jill - Westie Spring Thing 2024",
-          src: "https://img.youtube.com/vi/AQQAVQZiEz8/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=AQQAVQZiEz8",
+          name: "Open Strictly | Raphael Krauthann and Clara Deiters 3rd Place at AWS 2025",
+          src: "https://img.youtube.com/vi/j5kn-S-96LE/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=j5kn-S-96LE",
         },
         {
-          name: 'Laszlo Tarkanyi & Stefanie Tschom - 1st place Strictly Open - SwingVester 2019/20 "Bare Necessities"',
-          src: "https://img.youtube.com/vi/BSPYz-sq4uU/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=BSPYz-sq4uU",
+          name: "Attila Kobori & Lotte Meier - 1st place All-Stars Jack&Jill Finals - Westie Spring Thing 2025",
+          src: "https://img.youtube.com/vi/sV6InFbc1wQ/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=sV6InFbc1wQ",
         },
         {
-          name: "Paolo Iannello & Judith Buschfeld, Sophisticated J&J Finals, Warsaw Halloween Swing 2022 - Song 3",
-          src: "https://img.youtube.com/vi/KxeId1ry7YQ/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=KxeId1ry7YQ",
+          name: "Florian Hamm & Stefanie Tschom - 1st place All-Stars Jack&Jill Finals - King Swing 2025",
+          src: "https://img.youtube.com/vi/3AfvTHgAeN8/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=3AfvTHgAeN8",
         },
         {
-          name: "László Tárkányi & Kalina Kwiatkowska - 2nd place All-Stars Jack&Jill Finals - SwingVester 2022/23",
-          src: "https://img.youtube.com/vi/ZhxxLmRlTYE/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=ZhxxLmRlTYE",
+          name: "Markus Scherer & Evelina Lundberg - 2nd place All-Stars Jack&Jill final - Valentine Swing 2023",
+          src: "https://img.youtube.com/vi/PQL8Xq36cns/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=PQL8Xq36cns",
         },
       ],
     },
@@ -63,16 +63,25 @@ const en = {
       pageTitle: "Teachers",
       teachers: [
         {
-          names: "László & Judith",
-          src: "/images/teachers.jpg",
+          names: "Lotte & Florian",
+          src: "/images/lotte_florian.jpg",
           description: [
-            "László Tárkányi is an international West Coast Swing dancer, instructor, coach, judge, event director, and dance enthusiast.",
-            "Starting with ballroom in 2003 and succeeding in boogie-woogie competitions, László discovered West Coast Swing in 2008. In WCS, he found a dance that works with almost all music genres, offering endless creativity. For him, it's like real life—you follow simple rules and can create anything beyond imagination.",
-            "He was a founding member of the award-winning Swingshot WCS Formation team. After a successful team career, he excelled individually, reaching the All-Star division. In 2016, he became a certified instructor and continues to learn from top names like Robert Royston, Brandi Guild, and others.",
-            "László loves teaching WCS. Since 2013, he has taught weekly classes, workshops, private lessons, and coaching sessions. He has been invited to teach in countries like Austria, Germany, Italy, and the U.S. He is based in Cologne, where he grows the local community.",
-            "Judith began dancing West Coast Swing in 2017 in Cologne. She quickly became a local inspiration and started teaching. As the organizer of Westie Brunches, Cologne Summer Swing, Carnival Swing Cologne, and Cologne Swing Weekend, she is a key figure in the German community.",
-            "Judith has been coached by top professionals like Robert Royston, Karin Kakun, Semion Ovsiannikov, Maria Elizarova, and Paul Warden. She successfully competes in the European circuit in Strictly Swing and Jack & Jill, and dances in the Advanced division.",
-            "László and Judith's classes are known for their fun, welcoming atmosphere, detailed technical instruction, and enthusiasm in sharing their WCS knowledge.",
+            "Lotte's movement journey began with gymnastics as a child and found a new direction in dance at the age of 14. Starting out with hip-hop and partner dancing, she soon began teaching solo classes and sharing her love for movement with others.",
+            "When Lotte discovered West Coast Swing, it opened up a world of endless possibilities for creativity and connection. The dance became her way to express emotions, to play with rhythm, and to transform music into something deeply personal.",
+            "Her approach to teaching is shaped by her background in psychology and pedagogy. She aims to create a space where people can grow in a healthy way, and move with awareness of their bodies. Lotte feels deeply grateful to be part of the WCS Community in this era and moment.",
+            "Florian began his West Coast Swing journey in 2018 in Graz, Austria, where he got hooked on the creative & communicative aspect of the dance. Having danced multiple partner dances before, he decided to pursue the freedom and creativity WCS offers.",
+            "Florian competes in the WSDC All Star Division, organizes weekly classes in Berlin and travels internationally to teach. In addition to his partner dance experience, he studied violin and piano at the conservatory in Eisenstadt, is currently undertaking a 630+ hour yoga teacher training mentorship, and regularly attends ballet classes to refine his movement.",
+            "Florian's teaching style can be described as analytical and structured. He always tries to find the link between different WCS methodologies to create a coherent learning experience. In his classes you can expect a focus on creativity, communication skills and technique.",
+          ],
+        },
+        {
+          names: "Clara & Markus",
+          src: "/images/clara_markus.jpg",
+          description: [
+            "Clara discovered her passion for West Coast Swing when friends introduced her to the dance world - and she fell head over heels from the very first moment. Just three years later, she was already dancing in the All-Star category. Early in her career, she recognized how closely psychology and dance are connected. As a trained psychologist, she helps people overcome challenges both in social and competitive dance.",
+            "In addition to her local engagement, Clara travels to festivals around the world to continuously develop her dance skills. She is particularly fascinated by the musical and creative aspects of West Coast Swing - inspired by her many years of musical experience. Most importantly, however, she values dancing with everyone, regardless of level or background: Social, social, social - always with a beaming smile.",
+            "With an athletic background in artistic gymnastics and powerlifting, Markus discovered his passion for Brazilian partner dances such as Forró, Zouk, and Samba de Gafieira during his sports science studies in Cologne in 2010. In 2012, he completed a one-year dance training program in Belo Horizonte, Brazil, and subsequently taught both locally and internationally. In 2016, he encountered West Coast Swing, which has since become his main focus as both a dancer and teacher.",
+            "For more than 15 years, social dancing has always been at the center of his journey - he can often be found on the dance floor for long hours, drawing inspiration from new music and his partners, both as a leader and as a follower. For Markus, partner dance is the ideal platform to create personal, unique encounters through music and movement and to express what words cannot convey.",
           ],
         },
       ],
@@ -80,8 +89,9 @@ const en = {
     level: {
       title: "Level",
       descriptionText: [
-        "Workshops will be held on an improver-intermediate level. They will not be appropriate for complete beginners. Participants should already know the basic patterns (sugar push, sugar tuck, left side pass, underarm pass, whip and starter step) and lead-follow concepts.",
-        "The level of workshops will progress over the weekend, starting from improver level on Saturday towards intermediate level on Sunday.",
+        "Workshops will be held on 2 levels simultaneously - Newcomer/Novice (WSDC) and Intermediate/Advanced (WSDC) level.",
+        "Recommended experience for Newcomer/Novice level is minimum 6 months of dancing WCS, and for Intermediate/Advanced level at least 1 point in Novice WSDC is required. We will hold a short audition on Saturday morning for those who might qualify for Intermediate/Advanced level but do not actively compete. Please note that the pros' decision during audition is final.",
+        "Back to Basics class will be a fast paced introduction to basic rhythms, patterns and concepts. It's intended for dancers who are new to west coast swing, but not necessarily new to partner dancing. It's also highly recommended for any Newcomers, to get a quick refresher before the weekend.",
       ],
     },
     schedule: {
@@ -89,84 +99,153 @@ const en = {
       description: "This is a preliminary schedule and is subject to change.",
       days: [
         {
-          title: "Friday, January 31",
-          items: [
+          title: "Friday, February 6",
+          slots: [
             {
-              time: "20:00 - 21:00",
-              topic: "Back to Basics with Jure",
-              description:
-                "Included in Full pass, as well as Friday party entrance fee.",
-              class: "class",
+              time: "20.00 - 21.00",
+              items: [
+                {
+                  topic: "Back to Basics",
+                  description:
+                    "Included in Full pass, as well as Friday party entrance fee. Teacher TBA.",
+                  class: "class",
+                },
+              ],
             },
             {
-              time: "21:00 - 01:00",
-              topic: "Party",
-              description: "Entrance fee 5 eur - included in Full pass.",
-              class: "party",
+              time: "21.00 - 02.00",
+              items: [
+                {
+                  topic: "Party",
+                  description: "Entrance fee 5 eur - included in Full pass.",
+                  class: "party",
+                },
+              ],
             },
           ],
         },
         {
-          title: "Saturday, February 1",
-          items: [
+          title: "Saturday, February 7",
+          slots: [
             {
-              time: "12:00 - 13:00",
-              topic: "Class",
-              description: "",
-              class: "class",
+              time: "11.30 - 12.00",
+              items: [
+                {
+                  topic: "Audition for Intermediate/Advanced",
+                  description: "Studio 1",
+                  class: "audition",
+                },
+              ],
             },
             {
-              time: "13:15 - 14:15",
-              topic: "Class",
-              description: "",
-              class: "class",
+              time: "12.00 - 13.00",
+              items: [
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
+                  class: "class",
+                },
+                {
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
+                  class: "class",
+                },
+              ],
+            },
+            {
+              time: "13.15 - 14.15",
+              items: [
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
+                  class: "class",
+                },
+                {
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
+                  class: "class",
+                },
+              ],
             },
             {
               time: "",
-              topic: "Lunch Break",
-              description: "",
-              class: "break",
+              items: [
+                {
+                  topic: "Lunch Break",
+                  description: "",
+                  class: "break",
+                },
+              ],
             },
             {
-              time: "15:30 - 16:30",
-              topic: "Class",
-              description: "",
-              class: "class",
+              time: "15.30 - 16.30",
+              items: [
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
+                  class: "class",
+                },
+                {
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
+                  class: "class",
+                },
+              ],
             },
             {
-              time: "20:00 - 03:00",
-              topic: "Party",
-              description: "Entrance fee 5 eur - included in all passes.",
-              class: "party",
+              time: "20.00 - 03.00",
+              items: [
+                {
+                  topic: "Party",
+                  description: "Entrance fee 5 eur - included in Full pass.",
+                  class: "party",
+                },
+              ],
             },
           ],
         },
         {
-          title: "Sunday, February 2",
-          items: [
+          title: "Sunday, February 8",
+          slots: [
             {
-              time: "12:00 - 13:00",
-              topic: "Class",
-              description: "",
-              class: "class",
+              time: "12.00 - 13.00",
+              items: [
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
+                  class: "class",
+                },
+                {
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
+                  class: "class",
+                },
+              ],
             },
             {
-              time: "13:15 - 14:15",
-              topic: "Class",
-              description: "",
-              class: "class",
+              time: "13.15 - 14.15",
+              items: [
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
+                  class: "class",
+                },
+                {
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
+                  class: "class",
+                },
+              ],
             },
             {
               time: "14:30 - 16:00",
-              topic: "Westie Lunch",
-              description: "",
-              class: "break",
-            },
-            {
-              time: "20:00 - 23:00",
-              topic: "Afterparty",
-              description: "No entrance fee - open",
-              class: "party",
+              items: [
+                {
+                  topic: "Westie Lunch",
+                  description: "",
+                  class: "break",
+                },
+              ],
             },
           ],
         },
@@ -175,23 +254,32 @@ const en = {
     pricing: {
       pageTitle: "Pricing",
       description: [
-        "For this event we will have 3 price tiers - Early Bird, Normal Bird and Late Bird.",
-        "Early bird price will be offered to first 10 accepted participants (regardless of pass type), normal bird price to the next 10 participants, and late bird price for everyone else. With every tier the pass price will rise for 10 euros.",
+        "For this event we will have 3 price tiers based on the number and order of ACCEPTED registrations.",
+        "Early bird price is valid for first 5 couples. Normal bird price is valid for the next 5 couples. Late bird price is valid for all registrations accepted after that.",
+        "Registration fee must be fully paid within 7 days of registration acceptance for the price and the registration to stay valid. If the payment is not received in due time, the registration will be cancelled and the participant will have to register again at the price valid at the time of their new registration.",
       ],
-      priceTier: "Normal Bird",
-      passes: [
+      passInfo: {
+        title: "Full Pass",
+        includesText: "Includes:",
+        includes: [
+          "5 leveled workshops on Saturday and Sunday",
+          "Friday and Saturday night party entrance",
+          "Back to Basics class on Friday evening",
+          "Westie Lunch on Sunday",
+        ],
+      },
+      priceTiers: [
         {
-          title: "Full Pass",
-          price: "80 euros",
-          includes: ["6 hours of workshops", "entrance fee to both parties"],
+          title: "Early Bird",
+          price: "70 euros",
         },
         {
-          title: "Saturday Pass",
-          price: "60 euros",
-          includes: [
-            "3 hours of workshops on Saturday",
-            "entrance fee to Saturday party",
-          ],
+          title: "Normal Bird",
+          price: "80 euros",
+        },
+        {
+          title: "Late Bird",
+          price: "90 euros",
         },
       ],
     },
@@ -201,62 +289,36 @@ const en = {
     venue: [
       {
         locationText:
-          "The workshops and Friday's party will be held at Studio Dansa dance school, located at:",
+          "All program will be held at BastArts studio, located at:",
         address: {
-          name: "Studio Dansa",
-          address: "Vilharjeva cesta 3",
+          name: "BastArts Academy",
+          address: "Ob železnici 14",
           zipAndCity: "1000 Ljubljana",
           country: "Slovenia",
         },
         parkingText:
-          "Parking is possible in several paid parking lots nearby, the nearest parking lot is on Vilharjeva opposite the dance school. You can also park in public roadside parking areas, where it's usually free during the weekends, except Saturday mornings.",
+          "Parking is possilble on the gravel parking lot, immediately to the right after passing the train tracks.",
         accessText:
-          "Access to the dance school is around the building, not where the entrance is. From the nearest parking lot it looks like this:",
+          "Access to the venue is straight on from the parking barrier, and up the outside stairs to the first floor.",
         mapSrc:
-          "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11068.388700523894!2d14.5212675!3d46.0890404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765329bda01817d%3A0x3598d33068363f77!2sStudio%20Dansa!5e0!3m2!1ssl!2ssi!4v1707734478558!5m2!1ssl!2ssi",
+          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2620.758732464135!2d14.5347081!3d46.0598853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765336e2d07fa45%3A0x94cab2c45d64be8f!2sPlesna%20%C5%A1ola%20BastArts%20Academy!5e1!3m2!1sen!2ssi!4v1765993879935!5m2!1sen!2ssi",
       },
-      //   {
-      //     locationText:
-      //       "The Saturday's party will be held at Dancing Buddha dance school, located at:",
-      //     address: {
-      //       name: "Dancing Buddha",
-      //       address: "Stožice 30",
-      //       zipAndCity: "1000 Ljubljana",
-      //       country: "Slovenia",
-      //     },
-      //     busText:
-      //       "Access with bus is possible with multiple lines. Take 6, 8 or 11 to 'Ruski car' or 20 to 'Nove Stožice P+R'.",
-      //     parkingText: "There's also a small parking lot in front of the school.",
-      //     mapSrc:
-      //       "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11068.388700523894!2d14.5212675!3d46.0890404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476533fa9864abd1%3A0x3d36352017b94adc!2sDancing%20Buddha%20Studio!5e0!3m2!1ssl!2ssi!4v1707734331376!5m2!1ssl!2ssi",
-      //   },
     ],
     hotel: {
       title: "Accommodation",
       suggestionsText: [
-        "Depending on your budget and service preferences, there are multiple hotels as well as hostels, apartments and AirBnbs nearby.",
-        "Here are some hotel suggestions, ordered by distance to the venue:",
+        "There are a couple of options within walking distance to the venue. Here are the two that are closest to the venue:",
       ],
       list: [
         {
-          name: "Intercontinental *****",
+          name: "RailwayRooms Hostel",
           distance: "5 min walk",
-          url: "https://www.booking.com/Share-9WeZUcr",
+          url: "https://www.booking.com/hotel/si/railwayrooms22.en-gb.html",
         },
         {
-          name: "ibis Styles ***",
+          name: "Hozy House ***",
           distance: "5 min walk",
-          url: "https://www.booking.com/Share-fzbHjV",
-        },
-        {
-          name: "Center ***",
-          distance: "10 min walk",
-          url: "https://www.booking.com/Share-hnuGHTm",
-        },
-        {
-          name: "Park ***",
-          distance: "15 min walk",
-          url: "https://www.booking.com/Share-WgvTTks",
+          url: "https://www.booking.com/hotel/si/kajuhova-apartmans.en-gb.html",
         },
       ],
     },
@@ -313,9 +375,9 @@ const en = {
           value:
             "In case of cancellation by the participant, we shall offer a payment refund in the following tiers:",
           list: [
-            "For cancellation requests received up to and including 31 November 2024, the received payment will be refunded fully.",
-            "For cancellation requests received between 1 December 2024 up to and 31 December 2024, the received payment will be refunded partially - 50% of received payment.",
-            "For cancellation requests received on 1 January 2025 or later, the received payment will not be refunded.",
+            "For cancellation requests received up to and including 15 January 2026, the received payment will be refunded fully.",
+            "For cancellation requests received between 16 January 2026 up to and 31 January 2026, the received payment will be refunded partially - 50% of received payment.",
+            "For cancellation requests received on 1 February 2026 or later, the received payment will not be refunded.",
           ],
         },
         {

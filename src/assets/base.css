@@ -4,21 +4,21 @@
   --white-soft: #f8f8f8;
   --white-mute: #f2f2f2;
 
-  --black: #47271d;
+  --black: #111111;
   --black-soft: #222222;
   --black-mute: #282828;
 
-  --accent-1: #5ab5ff;
-  --accent-2: #d9f4ff;
-  --accent-3: #2778ba;
+  --accent-1: #51cce0;
+  --accent-2: #fff799;
+  --accent-3: #175c7d;
   /* --accent-4: #8952FF; */
 
   --accent-1-disabled: hsl(323, 100%, 10%, 50%);
 
-  --dark-1: #28130d;
+  --dark-1: #175c7d;
   /* --dark-2: #2D2872; */
 
-  --light: #d9f4ff;
+  --light: #e2f4ff;
 }
 
 /* semantic color variables for this project */

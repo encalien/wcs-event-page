@@ -13,33 +13,31 @@ export default {
 <template>
   <section>
     <h1>{{ $t("workshops.staff.pageTitle") }}</h1>
-    <div class="flex-container flex-container-column flex-gap">
+    <div
+      v-for="(teacher, t) in messages.workshops.staff.teachers"
+      :key="t"
+      style="margin-bottom: 2rem"
+    >
       <div
-        v-for="(teacher, i) in messages.workshops.staff.teachers"
-        class="teacher-card"
-        :class="{ 'background-accent': i % 2 == 1 }"
-        :key="i"
+        class="flex-container flex-gap"
+        :class="t % 2 == 1 ? 'reverse-row' : ''"
       >
-        <h2 class="center-text full-width">
-          {{ $t(`workshops.staff.teachers[${i}].names`) }}
-        </h2>
         <div
-          class="margin-0 flex-container"
-          :class="{ 'flex-reverse': i % 2 == 1 }"
+          v-if="messages.workshops.staff.teachers[t].src"
+          class="flex-item flex-basis-50 margin-0 flex-container flex-container-column"
         >
-          <div class="flex-item">
-            <p v-for="(p, j) in teacher.description" :key="j">
-              {{ $t(`workshops.staff.teachers[${i}].description[${j}]`) }}
-            </p>
-          </div>
-          <div class="flex-item">
-            <div class="margin-0 flex-container">
-              <img
-                :src="$t(`workshops.staff.teachers[${i}].src`)"
-                :alt="$t(`workshops.staff.teachers[${i}].names`)"
-              />
-            </div>
-          </div>
+          <img
+            :src="$t(`workshops.staff.teachers[${t}].src`)"
+            :alt="$t(`workshops.staff.teachers[${t}].names`)"
+          />
+        </div>
+        <div class="flex-item flex-basis-50 margin-0">
+          <h2 v-if="messages.workshops.staff.teachers[t].names">
+            {{ $t(`workshops.staff.teachers[${t}].names`) }}
+          </h2>
+          <p v-for="(val, i) in teacher.description" :key="i">
+            {{ $t(`workshops.staff.teachers[${t}].description[${i}]`) }}
+          </p>
         </div>
       </div>
     </div>
@@ -48,19 +46,18 @@ export default {
 
 <style scoped>
 img {
-  height: 100%;
   width: 100%;
 }
 
-.flex-container {
+.flex-container-column {
   gap: 1rem;
-}
-
-.flex-item {
-  width: 100%;
 }
 
 .flex-basis-100 {
   flex-basis: 100%;
+}
+
+.reverse-row {
+  flex-direction: row-reverse;
 }
 </style>

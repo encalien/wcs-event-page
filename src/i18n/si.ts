@@ -2,13 +2,13 @@ const si = {
   event: {
     name: "Winter Westie Weekend",
     location: "Ljubljana",
-    date: "31. 1. - 2. 2. 2024",
+    date: "6. - 8. februar 2026",
     welcomeText: "Pridruži se!",
     tba: "Več informacij kmalu.",
   },
   contact: {
     text: "Za vsa vprašanja smo na voljo preko elektronske pošte:",
-    email: "wcsslo.wixsite{'@'}gmail.com",
+    email: "info{'@'}kinesisrei.si",
   },
   urls: {
     facebook: "https://www.facebook.com/events/916869680320633",
@@ -25,34 +25,34 @@ const si = {
       ],
       yt: [
         {
-          name: "Laszlo Tarkanyi & Stella Schletterer - 1st place All-Stars Jack&Jill - Warsaw Halloween Swing 2021",
-          src: "https://i.ytimg.com/vi/_7kewJgm94Q/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=_7kewJgm94Q",
+          name: "Florian Hamm & Lotte Meier - 1st place Strictly Open Finals - Westie Spring Thing 2025",
+          src: "https://img.youtube.com/vi/Ct2622Pq5Hc/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=Ct2622Pq5Hc",
         },
         {
-          name: "László Tárkányi & Jula Palenga - 1st place All-Stars Jack&Jill - Nordic WCS Championships 2022",
-          src: "https://img.youtube.com/vi/Zh8n-tt0RLU/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=Zh8n-tt0RLU",
+          name: "Bavarian Open 2025 Advanced JnJ Final - Joscha Brick & Clara Deiters",
+          src: "https://i.ytimg.com/vi/3gFoFPNH5Wo/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=3gFoFPNH5Wo",
         },
         {
-          name: "Noah Antebi & Judith Buschfeld - 3rd Place Sophisticated Jack&Jill - Westie Spring Thing 2024",
-          src: "https://img.youtube.com/vi/AQQAVQZiEz8/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=AQQAVQZiEz8",
+          name: "Open Strictly | Raphael Krauthann and Clara Deiters 3rd Place at AWS 2025",
+          src: "https://img.youtube.com/vi/j5kn-S-96LE/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=j5kn-S-96LE",
         },
         {
-          name: 'Laszlo Tarkanyi & Stefanie Tschom - 1st place Strictly Open - SwingVester 2019/20 "Bare Necessities"',
-          src: "https://img.youtube.com/vi/BSPYz-sq4uU/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=BSPYz-sq4uU",
+          name: "Attila Kobori & Lotte Meier - 1st place All-Stars Jack&Jill Finals - Westie Spring Thing 2025",
+          src: "https://img.youtube.com/vi/sV6InFbc1wQ/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=sV6InFbc1wQ",
         },
         {
-          name: "Paolo Iannello & Judith Buschfeld, Sophisticated J&J Finals, Warsaw Halloween Swing 2022 - Song 3",
-          src: "https://img.youtube.com/vi/KxeId1ry7YQ/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=KxeId1ry7YQ",
+          name: "Florian Hamm & Stefanie Tschom - 1st place All-Stars Jack&Jill Finals - King Swing 2025",
+          src: "https://img.youtube.com/vi/3AfvTHgAeN8/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=3AfvTHgAeN8",
         },
         {
-          name: "László Tárkányi & Kalina Kwiatkowska - 2nd place All-Stars Jack&Jill Finals - SwingVester 2022/23",
-          src: "https://img.youtube.com/vi/ZhxxLmRlTYE/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=ZhxxLmRlTYE",
+          name: "Markus Scherer & Evelina Lundberg - 2nd place All-Stars Jack&Jill final - Valentine Swing 2023",
+          src: "https://img.youtube.com/vi/PQL8Xq36cns/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=PQL8Xq36cns",
         },
       ],
     },
@@ -60,19 +60,28 @@ const si = {
   workshops: {
     pageTitle: "Delavnice",
     staff: {
-      pageTitle: "Učitelja",
+      pageTitle: "Učitelji",
       teachers: [
         {
-          names: "László & Judith",
-          src: "/images/teachers.jpg",
+          names: "Lotte & Florian",
+          src: "/images/lotte_florian.jpg",
           description: [
-            "László Tárkányi je mednarodno poznan plesalec West Coast Swinga, inštruktor, trener, sodnik, organizator in navdušenec nad tem plesom.",
-            "Po začetku z družabnim plesom leta 2003 in uspehih v boogie-woogie sceni, je László leta 2008 odkril West Coast Swing. V njem je našel ples, ki ga je mogoče plesati na skoraj vse glasbene zvrsti, in kjer lahko slediš osnovnim pravilom ter ustvariš karkoli, kar domišljija dopušča.",
-            "Bil je del nagrajene ekipe Swingshot West Coast Swing. Kasneje je uspel tudi individualno, prebil se je v All-Star divizijo, kjer še vedno uspešno tekmuje. Leta 2016 je postal certificiran inštruktor in se še naprej izobražuje pri svetovno priznanih učiteljih.",
-            "László poučuje od leta 2013, vodi redne tečaje, delavnice, individualne ure in mentorstva. Povabili so ga, da poučuje v državah, kot so Avstrija, Nemčija, Italija in ZDA. Bazi ima v Kölnu, kjer širi lokalno skupnost in nudi različne učne priložnosti.",
-            "Judith je začela plesati West Coast Swing leta 2017 v Kölnu in kmalu začela poučevati. Kot organizatorka Westie Brunchov in dogodkov, kot so Cologne Summer Swing in Cologne Swing Weekend, je postala osrednja figura nemške skupnosti.",
-            "Judith so trenirali priznani profesionalci, kot so Robert Royston in Maria Elizarova. Uspešno tekmuje v evropskih kategorijah Strictly Swing in Jack & Jill ter pleše v Advanced diviziji.",
-            "Njuni tečaji so znani po zabavnem vzdušju, tehničnem poučevanju in navdušenju, s katerim prenašata svoje znanje na učence.",
+            "Lotte se je kot otrok najprej posvetila gimnastiki, pri štirinajstih pa je svoje gibanje usmerila v ples. Začela je s hip-hopom in partnerskimi plesi, kmalu pa je začela poučevati solo ure in z veseljem delila svojo strast do gibanja.",
+            "Ko je odkrila West Coast Swing, se ji je odprl svet ustvarjalnosti in povezovanja. Ples je zanjo postal način izražanja, igranja z ritmom in preoblikovanja glasbe v osebno zgodbo.",
+            "Na njen slog poučevanja močno vplivata psihologija in pedagogika, ki sta tudi njen poklicno ozadje. Pri urah si prizadeva ustvariti varen prostor, v katerem se udeleženci lahko razvijajo zavestno in zdravo. Lotte je iskreno hvaležna, da je del WCS skupnosti prav v tem času.",
+            "Florian se je z WCS prvič srečal leta 2018 v Gradcu. Takoj so ga pritegnili kreativnost, komunikacija in svoboda, ki jih ponuja ta ples. Pred tem je plesal več partnerskih plesov, a WCS mu je ponudil širši prostor za raziskovanje.",
+            "Tekmuje v WSDC All Star kategoriji, vodi tedenske ure v Berlinu in veliko potuje kot učitelj. Poleg plesnega znanja ima tudi močno glasbeno ozadje - na konservatoriju v Eisenstadtu je študiral violino in klavir. Trenutno opravlja več kot 630-urno mentorsko izobraževanje za učitelja joge in redno obiskuje baletne ure, da izpopolni svoje gibanje.",
+            "Florianov stil poučevanja je analitičen in strukturiran. Vedno poskuša povezati različne pristope znotraj WCS-a in ustvariti jasen, celovit učni proces. V njegovih urah lahko pričakujete veliko kreativnosti, komunikacije in tehnične natančnosti.",
+          ],
+        },
+        {
+          names: "Clara & Markus",
+          src: "/images/clara_markus.jpg",
+          description: [
+            "Clara je svojo ljubezen do West Coast Swinga odkrila, ko so jo prijatelji povabili na ples - in zaljubila se je že na prvi pogled. V samo treh letih je napredovala do All-Star kategorije. Zelo zgodaj je spoznala, kako tesno sta psihologija in ples povezana, zato kot psihologinja pomaga plesalcem premagovati izzive tako v družabnem kot v tekmovalnem kontekstu.",
+            "Poleg lokalnega poučevanja veliko potuje po festivalih po svetu, kjer nenehno nadgrajuje svoje plesno znanje. Najbolj jo navdihujejo kreativni in glasbeni vidiki WCS-a, kar povezuje s svojimi dolgoletnimi glasbenimi izkušnjami. Najbolj pa ceni družabnost - ples z vsemi, ne glede na raven ali ozadje - vedno s toplim nasmehom.",
+            "Markus prihaja iz športnega okolja - ukvarjal se je z umetnostno gimnastiko in powerliftingom. Med študijem športne znanosti v Kölnu je leta 2010 odkril brazilske partnerske plese, kot so Forró, Zouk in Samba de Gafieira. Leta 2012 je v Belo Horizonteju opravil enoletno plesno izobraževanje, nato pa poučeval doma in v tujini. Z West Coast Swingom se je srečal leta 2016, ki je od takrat njegov glavni fokus kot plesalec in učitelj.",
+            "Že več kot 15 let je družabno plesanje središče njegove poti - pogosto ga lahko najdete na plesišču pozno v noč, kjer ga navdihujejo glasba, partnerji in trenutek. Za Markusa je partnerski ples način ustvarjanja edinstvenih, osebnih srečanj skozi glasbo in gibanje ter način izražanja tistega, česar besede ne morejo.",
           ],
         },
       ],
@@ -80,8 +89,9 @@ const si = {
     level: {
       title: "Zahtevnostna stopnja",
       descriptionText: [
-        "Delavnice bodo potekale na naprednem - nadaljevalnem nivoju. Vsebina ne bo primerna za popolne začetnike, udeleženci morajo poznati vsaj osnovne figure (sugar push, sugar tuck, left side pass, underarm pass, whip in starter step) in biti seznanjeni z osnovnimi koncepti vodenja in sledenja.",
-        "Tekom vikenda bo težavnost delavnic progresivno naraščala, delavnice v nedeljo bodo potekale torej na višjem nivoju kot delavnice v soboto.",
+        "Delavnice bodo potekale na dveh nivojih hkrati - Newcomer/Novice (WSDC) ter Intermediate/Advanced (WSDC).",
+        "Priporočene izkušnje za Newcomer/Novice nivo so vsaj 6 mesecev plesanja WCS. Za Intermediate/Advanced nivo zahtevamo najmanj 1 točko v Novice WSDC kategoriji. V soboto zjutraj bomo izvedli kratko avdicijo za plesalce, ki bi morda sodili na višji nivo, vendar trenutno ne tekmujejo aktivno. Prosimo upoštevajte, da je odločitev učiteljev na avdiciji dokončna.",
+        "Ura Back to Basics bo hitra in dinamična ponovitev osnovnih ritmov, figur in konceptov. Namenjena je plesalcem, ki so novi v west coast swingu, ne pa nujno novi v partnerskem plesu. Zelo priporočljiva je tudi za vse Newcomerje kot hiter osvežitveni uvod pred vikendom.",
       ],
     },
     schedule: {
@@ -89,171 +99,226 @@ const si = {
       description: "Program je okviren in se lahko še spremeni.",
       days: [
         {
-          title: "Petek, 31. januar",
-          items: [
+          title: "Petek, 6. februar",
+          slots: [
             {
-              time: "20:00 - 21:00",
-              topic: "Back to Basics z Juretom",
-              description:
-                "Vstopnina vključena v ceno Vikend paketa in v vstopnino petkove zabave.",
-              class: "class",
+              time: "20.00 - 21.00",
+              items: [
+                {
+                  topic: "Back to Basics",
+                  description:
+                    "Vključeno v Full pass, prav tako vstopnina za petkovo zabavo. Učitelj bo objavljen naknadno.",
+                  class: "class",
+                },
+              ],
             },
             {
-              time: "20:00 - 01:00",
-              topic: "Zabava",
-              description: "Vstopnina 5 evr - vključena v ceno Vikend paketa.",
-              class: "party",
+              time: "21.00 - 02.00",
+              items: [
+                {
+                  topic: "Party",
+                  description: "Vstopnina 5 EUR - vključena v Full pass.",
+                  class: "party",
+                },
+              ],
             },
           ],
         },
         {
-          title: "Sobota, 1. februar",
-          items: [
+          title: "Sobota, 7. februar",
+          slots: [
             {
-              time: "12:00 - 13:00",
-              topic: "Delavnica",
-              description: "",
-              class: "class",
+              time: "11.30 - 12.00",
+              items: [
+                {
+                  topic: "Avdicija za Intermediate/Advanced",
+                  description: "Studio 1",
+                  class: "party",
+                },
+              ],
             },
             {
-              time: "13:15 - 14:15",
-              topic: "Delavnica",
-              description: "",
-              class: "class",
+              time: "12.00 - 13.00",
+              items: [
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
+                  class: "class",
+                },
+                {
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
+                  class: "class",
+                },
+              ],
+            },
+            {
+              time: "13.15 - 14.15",
+              items: [
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
+                  class: "class",
+                },
+                {
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
+                  class: "class",
+                },
+              ],
             },
             {
               time: "",
-              topic: "Odmor za kosilo",
-              description: "",
-              class: "break",
+              items: [
+                {
+                  topic: "Odmor za kosilo",
+                  description: "",
+                  class: "break",
+                },
+              ],
             },
             {
-              time: "15:30 - 16:30",
-              topic: "Delavnica",
-              description: "",
-              class: "class",
+              time: "15.30 - 16.30",
+              items: [
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
+                  class: "class",
+                },
+                {
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
+                  class: "class",
+                },
+              ],
             },
             {
-              time: "20:00 - 03:00",
-              topic: "Zabava v Dancing Buddha",
-              description: "Vstopnina 5 evr - vključena v ceno obeh paketov.",
-              class: "party",
+              time: "20.00 - 03.00",
+              items: [
+                {
+                  topic: "Party",
+                  description: "Vstopnina 5 EUR - vključena v Full pass.",
+                  class: "party",
+                },
+              ],
             },
           ],
         },
         {
-          title: "Nedelja, 2. februar",
-          items: [
+          title: "Nedelja, 8. februar",
+          slots: [
             {
-              time: "12:00 - 13:00",
-              topic: "Delavnica",
-              description: "",
-              class: "class",
+              time: "12.00 - 13.00",
+              items: [
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
+                  class: "class",
+                },
+                {
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
+                  class: "class",
+                },
+              ],
             },
             {
-              time: "13:15 - 14:15",
-              topic: "Delavnica",
-              description: "",
-              class: "class",
+              time: "13.15 - 14.15",
+              items: [
+                {
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
+                  class: "class",
+                },
+                {
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
+                  class: "class",
+                },
+              ],
             },
             {
-              time: "14:30 - 16:00",
-              topic: "Westie kosilo",
-              description: "",
-              class: "break",
-            },
-            {
-              time: "20:00 - 23:00",
-              topic: "Zaključna zabava",
-              description: "Vstop prost.",
-              class: "party",
+              time: "14.30 - 16.00",
+              items: [
+                {
+                  topic: "Westie kosilo",
+                  description: "",
+                  class: "break",
+                },
+              ],
             },
           ],
         },
       ],
     },
-    pricing: {
-      pageTitle: "Cenik",
-      description: [
-        "Na tem dogodku bodo vstopnice na voljo v treh cenovnih razredih - Prva cena, Srednja cena, Zadnja cena.",
-        "Najnižja cena velja za prvih 10 sprejetih prijav (ne glede na vrsto vstopnice), srednja za naslednjih 10 in najvišja za vse ostale. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr.",
-      ],
-      priceTier: "Zadnja cena",
-      passes: [
-        {
-          title: "Vikend paket",
-          price: "80 evr",
-          includes: ["6 ur delavnic", "vstopnina za obe zabavi"],
-        },
-        {
-          title: "Sobotni paket",
-          price: "60 evr",
-          includes: ["3 ure delavnic v soboto", "vstopnina za sobotno zabavo"],
-        },
+  },
+  pricing: {
+    pageTitle: "Cenik",
+    description: [
+      "Za ta dogodek bomo imeli tri cenovne razrede, ki temeljijo na številu in vrstnem redu POTRJENIH prijav.",
+      "Prva cena velja za prvih 5 parov. Srednja cena velja za naslednjih 5 parov. Zadnja cena velja za vse prijave sprejete po tem.",
+      "Kotizacija mora biti v celoti poravnana v 7 dneh od potrditve prijave, da ostane cena in prijava veljavna. Če plačilo v določenem roku ne prispe, bo prijava preklicana in udeleženec se bo moral ponovno prijaviti po ceni, ki velja ob času nove prijave.",
+    ],
+    passInfo: {
+      title: "Vikend paket",
+      includeText: "Vključuje:",
+      includes: [
+        "5 delavnic po nivojih v soboto in nedeljo",
+        "Vstop na petkovo in sobotno večerno zabavo",
+        "Back to Basics ura v petek zvečer",
+        "Westie kosilo v nedeljo",
       ],
     },
+    priceTiers: [
+      {
+        title: "Prva cena",
+        price: "70 evrov",
+      },
+      {
+        title: "Srednja cena",
+        price: "80 evrov",
+      },
+      {
+        title: "Zadnja cena",
+        price: "90 evrov",
+      },
+    ],
   },
   location: {
     pageTitle: "Lokacija",
     venue: [
       {
         locationText:
-          "Delavnice in petkov večer bodo potekale v plesni šoli Studio Dansa, na naslovu:",
+          "Celoten program bo potekal v studiu BastArts, na naslednjem naslovu:",
         address: {
-          name: "Studio Dansa",
-          address: "Vilharjeva cesta 3",
+          name: "BastArts Academy",
+          address: "Ob železnici 14",
           zipAndCity: "1000 Ljubljana",
-          country: "Slovenia",
+          country: "Slovenija",
         },
         parkingText:
-          "Parkiranje je možno na večih plačljivih parkiriščih v bližini, najbližje parkirišče je na Vilharjevi nasproti plesne šole. Parkirate lahko tudi na javnih obcestnih parkirnih površinah, kjer se med vikendom parkirnina zaračuna običajno samo v soboto dopoldne.",
+          "Parkiranje je možno na makadamskem parkirišču, takoj na desni, ko prečkate železniške tire.",
         accessText:
-          "Dostop je okrog stavbe, ne tam, kjer je vhod v plesno šolo. Od najbližjega parkirišča zgleda nekako takole:",
+          "Dostop do studia je naravnost mimo zapornice, nato po zunanjih stopnicah v prvo nadstropje.",
         mapSrc:
-          "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11068.388700523894!2d14.5212675!3d46.0890404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765329bda01817d%3A0x3598d33068363f77!2sStudio%20Dansa!5e0!3m2!1ssl!2ssi!4v1707734478558!5m2!1ssl!2ssi",
+          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2620.758732464135!2d14.5347081!3d46.0598853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765336e2d07fa45%3A0x94cab2c45d64be8f!2sPlesna%20%C5%A1ola%20BastArts%20Academy!5e1!3m2!1sen!2ssi!4v1765993879935!5m2!1sen!2ssi",
       },
-      //   {
-      //     locationText:
-      //       "Sobotni večer bo potekal v plesni šoli Dancing Buddha, na naslovu:",
-      //     address: {
-      //       name: "Dancing Buddha",
-      //       address: "Stožice 30",
-      //       zipAndCity: "1000 Ljubljana",
-      //       country: "Slovenia",
-      //     },
-      //     busText:
-      //       "Dostop z avtobusom je možen z linijami 6, 8, 11 (Ruski car) ali 20 (Nove Stožice P+R)",
-      //     parkingText: "Pred šolo je tudi majhno parkirišče.",
-      //     mapSrc:
-      //       "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11068.388700523894!2d14.5212675!3d46.0890404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476533fa9864abd1%3A0x3d36352017b94adc!2sDancing%20Buddha%20Studio!5e0!3m2!1ssl!2ssi!4v1707734331376!5m2!1ssl!2ssi",
-      //   },
     ],
     hotel: {
-      title: "Prenočišča",
+      title: "Nastanitve",
       suggestionsText: [
-        "V bližini je več hotelov, hostlov, apartmajev in airbnb, odvisno od vašega proračuna in storitev.",
-        "Tukaj je nekaj predlogov hotelov, razvrščenih po razdalji do prizorišča:",
+        "V bližini prizorišča je več možnosti za prenočišče. Tukaj sta dve, ki sta najbližje:",
       ],
       list: [
         {
-          name: "Intercontinental *****",
-          distance: "5 min walk",
-          url: "https://www.booking.com/Share-9WeZUcr",
+          name: "RailwayRooms Hostel",
+          distance: "5 min hoje",
+          url: "https://www.booking.com/hotel/si/railwayrooms22.en-gb.html",
         },
         {
-          name: "ibis Styles ***",
-          distance: "5 min walk",
-          url: "https://www.booking.com/Share-fzbHjV",
-        },
-        {
-          name: "Center ***",
-          distance: "10 min walk",
-          url: "https://www.booking.com/Share-hnuGHTm",
-        },
-        {
-          name: "Park ***",
-          distance: "15 min walk",
-          url: "https://www.booking.com/Share-WgvTTks",
+          name: "Hozy House ***",
+          distance: "5 min hoje",
+          url: "https://www.booking.com/hotel/si/kajuhova-apartmans.en-gb.html",
         },
       ],
     },
@@ -310,9 +375,9 @@ const si = {
           value:
             "V primeru odpovedi s strani udeleženca, bomo ponudili vračilo kupnine v naslednjih stopnjah:",
           list: [
-            "Za zahtevke za odpoved, prejete do vključno 31. novembra 2024, bo kupnina v celoti povrnjena.",
-            "Za zahtevke za odpoved, prejete med 1. decembrom 2024 in vključno z 31. decembrom 2024, bo kupnina delno povrnjena - 50% prejetega plačila.",
-            "Za zahtevke za odpoved, prejete 1. januarja 2025 ali pozneje, kupnina ne bo povrnjena.",
+            "Za zahtevke za odpoved, prejete do vključno 15. januarja 2026, bo kupnina v celoti povrnjena.",
+            "Za zahtevke za odpoved, prejete med 16. januarjem 2026 in vključno z 31. januarjem 2026, bo kupnina delno povrnjena - 50% prejetega plačila.",
+            "Za zahtevke za odpoved, prejete 1. februarja 2026 ali pozneje, kupnina ne bo povrnjena.",
           ],
         },
         {

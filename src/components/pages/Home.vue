@@ -74,7 +74,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: -40px calc(-50vw + 50%) 0;
+  margin: -1rem calc(-50vw + 50%) 0;
 }
 
 .landing-content {
