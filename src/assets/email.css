@@ -1,6 +1,7 @@
 @import "./main.css";
 body {
   width: 100vw;
+  background-color: #fff;
 }
 
 main {
@@ -22,7 +23,7 @@ h1 {
 }
 
 a {
-  color: #2778ba;
+  color: var(--accent-1);
 }
 
 .main-container {
@@ -47,11 +48,11 @@ table {
   width: 400px;
   border-collapse: collapse;
   margin: 1rem 0;
-  border: 1px solid #2778ba;
+  border: 1px solid var(--accent-3);
 }
 
 th {
-  background-color: #2778ba;
+  background-color: var(--accent-3);
   color: #f8f8f8;
 }
 
@@ -65,7 +66,7 @@ td {
 hr {
   width: 50px;
   border: none;
-  border-top: 5px dotted #2778ba;
+  border-top: 5px dotted var(--accent-3);
 }
 
 /* .payment-info {
@@ -86,7 +87,7 @@ hr {
 }
 
 .row-header {
-  background-color: #2778ba;
+  background-color: var(--accent-3);
   color: #f8f8f8;
 }
 

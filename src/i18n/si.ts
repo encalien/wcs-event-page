@@ -11,7 +11,7 @@ const si = {
     email: "info{'@'}kinesisrei.si",
   },
   urls: {
-    facebook: "https://www.facebook.com/events/916869680320633",
+    facebook: "https://www.facebook.com/events/894551033094141",
     instagram: "",
   },
   home: {
