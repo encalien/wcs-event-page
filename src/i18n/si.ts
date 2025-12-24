@@ -646,40 +646,40 @@ const si = {
       {
         pageTitle: "Glavno prizorišče",
         description: [
-          "Festival bo potekal v Austria Trend Hotelu za Bežigradom. Hotel nudi moderne sobe, prijazno osebje in odlično lokacijo, vse to le lučaj stran od živahnega starega mestnega jedra.",
+          "Festival bo potekal v DoubleTree Hotelu (prej Austria Trend Hotel). Hotel nudi moderne sobe, prijazno osebje in odlično lokacijo, vse to le lučaj stran od živahnega starega mestnega jedra.",
           "Dvoposteljno sobo v hotelu lahko rezerviraš po znižani ceni. Vsaka soba nudi sodobne ugodnosti, ki zagotavljajo udobno in prijetno bivanje med dogodkom.",
-          "Med dogodkom Slovenian Open ponujajo 2 vrsti sob po znižani ceni. Cene sob na noč, veljavne od 21. do 28. aprila, so:",
+          "Med dogodkom Slovenian Open ponujajo 2 vrsti sob po znižani ceni. Cene sob na noč, veljavne od 20. aprila do 1. maja, so:",
         ],
         roomTypes: [
           {
-            type: "SUPERIOR soba",
+            type: "GUEST soba",
             beds: "Dvoposteljna ali z dvema ločenima ležiščema",
             prices: [
               {
                 occupancy: "nastanitev ene osebe",
                 price:
-                  "83 € samo soba / 107 € z zajtrkom / 139 € s polpenzionom",
+                  "87 € samo soba / 111 € z zajtrkom / 143 € s polpenzionom",
               },
               {
                 occupancy: "nastanitev dveh oseb",
                 price:
-                  "88 € samo soba / 131 € z zajtrkom / 171 € s polpenzionom",
+                  "95 € samo soba / 138 € z zajtrkom / 178 € s polpenzionom",
               },
             ],
           },
           {
-            type: "PREMIUM soba",
+            type: "DELUXE soba",
             beds: "Dvoposteljna ali z dvema ločenima ležiščema",
             prices: [
               {
                 occupancy: "nastanitev ene osebe",
                 price:
-                  "108 € samo soba / 132 € z zajtrkom / 164 € s polpenzionom",
+                  "112 € samo soba / 136 € z zajtrkom / 168 € s polpenzionom",
               },
               {
                 occupancy: "nastanitev dveh oseb",
                 price:
-                  "113 € samo soba / 156 € z zajtrkom / 196 € s polpenzionom",
+                  "120 € samo soba / 163 € z zajtrkom / 203 € s polpenzionom",
               },
             ],
           },
@@ -703,7 +703,7 @@ const si = {
         },
         address: {
           addressText: "Naslov",
-          name: "Austria Trend Hotel Ljubljana ****",
+          name: "DoubleTree Hotel Ljubljana ****",
           address: "Dunajska cesta 154",
           zipAndCity: "1000 Ljubljana",
           country: "Slovenija",
@@ -760,13 +760,13 @@ const si = {
           "Približen potek dneva:",
         ],
         itinerary: [
-          ["9:00:", "Odhod izpred hotela Austria Trend Ljubljana."],
+          ["9:00:", "Odhod izpred hotela DoubleTree Ljubljana."],
           ["10:00:", "Prihod in voden ogled Blejskega gradu."],
           ["12:00:", "Sprehod do jezera."],
           ["12:30:", "Kosilo."],
           ["13:30:", "Prosti čas ob jezeru."],
           ["16:00:", "Odhod z Bleda."],
-          ["17:00:", "Vrnitev v hotel Austria Trend Ljubljana."],
+          ["17:00:", "Vrnitev v hotel DoubleTree Ljubljana."],
         ],
       },
       {

@@ -636,40 +636,40 @@ const en = {
       {
         pageTitle: "Main Venue",
         description: [
-          "Nestled in the heart of Ljubljana, the Austria Trend Hotel offers modern rooms, friendly staff, and a prime location just moments away from the city's vibrant Old Town.",
+          "Nestled in the heart of Ljubljana, the DoubleTree Hotel (formerly Austria Trend Hotel) offers modern rooms, friendly staff, and a prime location just moments away from the city's vibrant Old Town.",
           "You can book a double or twin room at the hotel at a discounted price. Each room offers modern amenities, ensuring a comfortable and enjoyable stay during your time in Ljubljana.",
-          "They offer 2 types of rooms for a discounted price during the Slovenian Open event. Prices for the rooms per night, valid from 21 - 28 April, are:",
+          "They offer 2 types of rooms for a discounted price during the Slovenian Open event. Prices for the rooms per night, valid from 20 April - 1 May, are:",
         ],
         roomTypes: [
           {
-            type: "SUPERIOR Room",
+            type: "GUEST Room",
             beds: "Double or Twin",
             prices: [
               {
                 occupancy: "single occupancy",
                 price:
-                  "83 € room only / 107 € with breakfast / 139 € with half board",
+                  "87 € room only / 111 € with breakfast / 143 € with half board",
               },
               {
                 occupancy: "double occupancy",
                 price:
-                  "88 € room only / 131 € with breakfast / 171 € with half board",
+                  "95 € room only / 138 € with breakfast / 178 € with half board",
               },
             ],
           },
           {
-            type: "PREMIUM Room",
+            type: "DELUXE Room",
             beds: "Double or Twin",
             prices: [
               {
                 occupancy: "single occupancy",
                 price:
-                  "108 € room only / 132 € with breakfast / 164 € with half board",
+                  "112 € room only / 136 € with breakfast / 168 € with half board",
               },
               {
                 occupancy: "double occupancy",
                 price:
-                  "113 € room only / 156 € with breakfast / 196 € with half board",
+                  "120 € room only / 163 € with breakfast / 203 € with half board",
               },
             ],
           },
@@ -693,7 +693,7 @@ const en = {
         },
         address: {
           addressText: "Address",
-          name: "Austria Trend Hotel Ljubljana ****",
+          name: "DoubleTree Hotel Ljubljana ****",
           address: "Dunajska cesta 154",
           zipAndCity: "1000 Ljubljana",
           country: "Slovenia",
@@ -810,13 +810,13 @@ const en = {
           "Here's roughly what the day will look like:",
         ],
         itinerary: [
-          ["9:00 am:", "Departure from Austria Trend Hotel in Ljubljana."],
+          ["9:00 am:", "Departure from DoubleTree Hotel in Ljubljana."],
           ["10:00 am:", "Arrival & guided tour of Bled Castle."],
           ["12:00 pm:", "Descend to the lake."],
           ["12:30 pm:", "Lunch"],
           ["13:30 pm:", "Free time by the lake."],
           ["16:00 pm:", "Departure from Bled"],
-          ["17:00 pm:", "Return to Austria Trend Hotel in Ljubljana."],
+          ["17:00 pm:", "Return to DoubleTree Hotel in Ljubljana."],
         ],
       },
       {

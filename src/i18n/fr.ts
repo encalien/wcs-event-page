@@ -672,40 +672,40 @@ const fr = {
       {
         pageTitle: "Le lieux de l'événement",
         description: [
-          "Niché au coeur de Ljubljana, l'hôtel Austria Trend offre des équipements modernes, un personnel amical et un emplacement idéal à quelques pas de la vibrante vieille ville.",
+          "Niché au coeur de Ljubljana, l'hôtel DoubleTree by Hilton (anciennement Austria Trend) offre des équipements modernes, un personnel amical et un emplacement idéal à quelques pas de la vibrante vieille ville.",
           "Vous pouvez réserver une chambre double ou twin à l'hôtel à un prix réduit. Chaque chambre offre des équipements modernes, assurant un séjour confortable et agréable pendant votre séjour à Ljubljana.",
-          "Ils proposent 2 types de chambres à un prix réduit pendant l'événement Slovenian Open. Les prix des chambres par nuit, valables du 21 au 28 avril, sont les suivants :",
+          "Ils proposent 2 types de chambres à un prix réduit pendant l'événement Slovenian Open. Les prix des chambres par nuit, valables du 20 avril au 1 mai, sont les suivants :",
         ],
         roomTypes: [
           {
-            type: "Chambre SUPERIOR",
+            type: "Chambre GUEST",
             beds: "Double ou Twin",
             prices: [
               {
                 occupancy: "occupation simple",
                 price:
-                  "83 € chambre seule / 107 € avec petit-déjeuner / 139 € en demi-pension",
+                  "87 € chambre seule / 111 € avec petit-déjeuner / 143 € en demi-pension",
               },
               {
                 occupancy: "occupation double",
                 price:
-                  "88 € chambre seule / 131 € avec petit-déjeuner / 171 € en demi-pension",
+                  "95 € chambre seule / 138 € avec petit-déjeuner / 178 € en demi-pension",
               },
             ],
           },
           {
-            type: "Chambre PREMIUM",
+            type: "Chambre DELUXE",
             beds: "Double ou Twin",
             prices: [
               {
                 occupancy: "occupation simple",
                 price:
-                  "108 € chambre seule / 132 € avec petit-déjeuner / 164 € en demi-pension",
+                  "112 € chambre seule / 136 € avec petit-déjeuner / 168 € en demi-pension",
               },
               {
                 occupancy: "occupation double",
                 price:
-                  "113 € chambre seule / 156 € avec petit-déjeuner / 196 € en demi-pension",
+                  "120 € chambre seule / 163 € avec petit-déjeuner / 203 € en demi-pension",
               },
             ],
           },
@@ -730,7 +730,7 @@ const fr = {
         },
         address: {
           addressText: "Addresse",
-          name: "Austria Trend Hotel Ljubljana ****",
+          name: "DoubleTree Hotel Ljubljana ****",
           address: "Dunajska cesta 154",
           zipAndCity: "1000 Ljubljana",
           country: "Slovénie",
@@ -844,13 +844,13 @@ const fr = {
           "Voici à quoi ressemblera approximativement la journée :",
         ],
         itinerary: [
-          ["9:00 am:", "Départ de l'hôtel Austria Trend à Ljubljana."],
+          ["9:00 am:", "Départ de l'hôtel DoubleTree à Ljubljana."],
           ["10:00 am:", "Arrivée et visite guidée du château de Bled."],
           ["12:00 pm:", "Descente vers le lac."],
           ["12:30 pm:", "Déjeuner"],
           ["13:30 pm:", "Temps libre au bord du lac."],
           ["16:00 pm:", "Départ de Bled"],
-          ["17:00 pm:", "Retour à l'hôtel Austria Trend à Ljubljana."],
+          ["17:00 pm:", "Retour à l'hôtel DoubleTree à Ljubljana."],
         ],
       },
       {
