@@ -265,7 +265,7 @@ const si = {
             title: "MC",
             src: "/images/staff_jacqueline.jpg",
             description: [
-              "Od svojega debija kot MC na Slovenian Open lani je njena prisotnost na dogodkih po skupnosti vse bolj opazna—tudi kot MC na Finnfestu.",
+              "Od svojega debija kot MC na prvem Slovenian Open festivalu je njena prisotnost na dogodkih po skupnosti vse bolj opazna—tudi kot MC na Finnfestu.",
               "Jacqueline je začela svojo plesno pot v stage plesih. Leta 2018 se je priključila Warsaw Westies in se začela ukvarjati z west coast swingom. Čeprav veliko potuje po tujini, jo tam še vedno redno videvajo.",
               "V WCS skupnosti je znana je po svojem značilnem vintage stilu. Kadar ne pleše, se zadržuje v bližini plesišča, kjer se druži z novimi in starimi prijatelji in tako bogati družbeno mrežo skupnosti WCS.",
             ],

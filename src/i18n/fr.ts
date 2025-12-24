@@ -264,7 +264,7 @@ const fr = {
             title: "MC",
             src: "/images/staff_jacqueline.jpg",
             description: [
-              "Depuis ses débuts en tant que MC au Slovenian Open l'année dernière, sa présence s'est renforcée lors d'événements à travers la communauté, notamment en tant que MC à Finnfest.",
+              "Depuis ses débuts en tant que MC au le premier Slovenian Open, sa présence s'est renforcée lors d'événements à travers la communauté, notamment en tant que MC à Finnfest.",
               "Issue d'un parcours en danse de scène, Jacqueline a découvert le West Coast Swing en 2018 avec les Warsaw Westies, où elle est encore régulièrement présente, bien qu'elle soit toujours en déplacement.",
               "Elle est connue pour son style distinctif inspiré du vintage. Lorsqu'elle ne danse pas, on la retrouve en train de socialiser autour de la piste de danse, avec des amis de longue date comme de nouvelles rencontres, enrichissant ainsi le tissu social de la communauté WCS.",
             ],
