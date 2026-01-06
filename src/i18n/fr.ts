@@ -157,105 +157,110 @@ const fr = {
           },
         ],
       },
-      //   {
-      //     pageTitle: "DJs",
-      //     people: [
-      //       {
-      //         names: "Ken",
-      //         title: "DJ principal",
-      //         src: "/images/djs_ken.png",
-      //         description: [
-      //           "Ken, également connu sous le nom de DJKendyshop, est un DJ de West Coast Swing qui a commencé son parcours en 2018. Il a rapidement acquis une réputation pour sa capacité à dynamiser les pistes de danse, tant lors de petits événements locaux que lors de grands événements WSDC tels que Budafest, Anchor Festival, Baltic Swing et Swing it like it's hot. Le style de Ken se penche vers une musique complexe et palpitante, tirant inspiration de l'EDM et du Dubstep pour créer un son unique et dynamique qui garde les danseurs en mouvement.",
-      //           "Ses chansons préférées pour danser en ce moment sont :",
-      //         ],
-      //         songList: [
-      //           "Forgive Me - Sofi Tucker",
-      //           "Whisper - Able Heart",
-      //           "Fake - The Tech Thieves",
-      //         ],
-      //       },
-      //       {
-      //         names: "Patrice",
-      //         title: "Sound tech & DJ",
-      //         src: "/images/djs_patrice.png",
-      //         description: [
-      //           "Patrice a commencé sa carrière de DJ il y a 5 ans lors de fêtes avec un mélange de styles de danse, captivé par l'art de créer une soirée atmosphérique englobant divers genres. Désormais, il se retrouve de plus en plus aux platines lors des soirées West Coast Swing, où il continue d'exciter les danseurs en mélangeant une gamme variée de styles musicaux.",
-      //           "Ses chansons préférées pour danser en ce moment sont :",
-      //         ],
-      //         songList: ["Fuck it, I love it! - ILIRA", "Wait - Damian Lynn"],
-      //       },
-      //       {
-      //         names: "Balázs",
-      //         title: "DJ",
-      //         src: "/images/djs_balazs.png",
-      //         description: [
-      //           "Balázs a joué son premier set international au Slovenian Open 2024, lorsqu'il a participé et remporté la DJ Battle. Depuis, il mixe régulièrement lors de soirées locales à Budapest et a également eu le plaisir de jouer à l'Autumn Swing Challenge en 2024. Passionné de musique à la fois en tant que danseur et DJ, il apporte son énergie et ses superbes sets sur la piste de danse !",
-      //           "Ses chansons préférées pour danser en ce moment sont :",
-      //         ],
-      //         songList: [
-      //           "Becoming Young - Cherry Twist",
-      //           "Slow It Down - Benson Boone",
-      //           "How I Want Ya (Dawn Remix) - Hudson Thames",
-      //         ],
-      //       },
-      //       {
-      //         names: "Kamila",
-      //         title: "DJ",
-      //         src: "/images/djs_kamila.png",
-      //         description: [
-      //           "Kamila vient de la belle ville de Cracovie, en Pologne. Elle aime danser, découvrir de nouveaux endroits et explorer les saveurs du café local. Sa plus grande passion est le West Coast Swing, qu'elle apprécie pour la liberté d'interpréter la musique et de créer quelque chose de spécial—et souvent ludique—avec chaque nouveau partenaire de danse. Être DJ lui permet d'explorer plus profondément le monde de la musique et de mieux le comprendre. Rien ne lui fait plus plaisir que de voir les danseurs s'amuser pendant ses sets.",
-      //           "Ses chansons préférées pour danser en ce moment sont :",
-      //         ],
-      //         songList: [
-      //           "Empty Crown - YAS",
-      //           "Baptize - RKCB",
-      //           "Wonderful nothing (edit version) - Glass Animals",
-      //         ],
-      //       },
-      //       {
-      //         names: "Kasia",
-      //         title: "DJ",
-      //         src: "/images/djs_kasia.png",
-      //         description: [
-      //           "Kasia a commencé son aventure en tant que DJ de WCS vers 2019 à Varsovie. Depuis, elle a joué de la musique lors d'événements locaux en Pologne et a rapidement été invitée à mixer lors d'événements internationaux en Suède, en Finlande, en Pologne, en Allemagne et en Hongrie. Elle a également joué des créneaux de premier choix à Asia Open et Wild Wild Westie. Elle reçoit régulièrement des retours positifs sur l'atmosphère qu'elle crée avec ses sets. Ses amis l'appellent « Shazam ambulant » car elle reconnaît une tonne de chansons dès la première note.",
-      //           "Ses chansons préférées pour danser en ce moment sont :",
-      //         ],
-      //         songList: [
-      //           "Untouchable - Bera",
-      //           "LONELY NIGHTS - Riles",
-      //           "NIGHTS LIKE THESE - Benson Boone",
-      //         ],
-      //       },
-      //       {
-      //         names: "Lino",
-      //         title: "DJ",
-      //         src: "/images/djs_lino.png",
-      //         description: [
-      //           "Lino a toujours exploré de nouveaux artistes et musiques, surtout les indies peu connus, envisageant le DJing depuis un moment. Il a récemment joué devant des foules impressionnantes au Swing Generation, Berlin Swing Revolution et Carnival Swing, et lors de fêtes à Berlin et Erding. Son style mélange sa musique expérimentale, souvent acoustique, avec des chansons reconnues des événements.",
-      //           "Ses chansons préférées pour danser en ce moment sont :",
-      //         ],
-      //         songList: [
-      //           "Lose It - Oh Wonder",
-      //           "Papa - SICKOTOY, Eliana Gjata, INNA",
-      //           "No Ocean - EXES, Jome",
-      //         ],
-      //       },
-      //       {
-      //         names: "Sepgod",
-      //         title: "DJ",
-      //         src: "/images/djs_sepgod.png",
-      //         description: [
-      //           "Sepgod a commencé à danser en couple il y a 30 ans, développant une passion pour la curation musicale, passant de mixtapes à mix CDs, et finalement DJing lors de divers événements. Depuis 2015, sa fascination pour la musique variée du WCS l'a amené à DJing lors de fêtes WCS à Vienne et à participer régulièrement à des événements WCS internationaux en Europe. Au Swingvester 23/24, il a commencé à jouer sur des scènes internationales.",
-      //           "Ses chansons préférées pour danser en ce moment sont :",
-      //         ],
-      //         songList: [
-      //           "Soap - Melanie Martinez",
-      //           "Space Ghost Coast To Coast - Glass Animals",
-      //           "Chariot - Mega",
-      //         ],
-      //       },
-      //     ],
-      //   },
+      {
+        pageTitle: "DJ",
+        people: [
+          {
+            names: "Paulina aka DJ Pikachu",
+            title: "DJ principale & DJ compétitions",
+            src: "/images/djs_paulina.png",
+            description: [
+              "La musique accompagne Paulina depuis toujours : elle a commencé par le chant en chorale, la direction d'une chorale d'enfants et la guitare. Sa passion pour la danse l'a menée au West Coast Swing en 2015, où elle est aujourd'hui une DJ internationale de premier plan.",
+              "Paulina possède une vaste expérience en tant que DJ de compétitions et de soirées sociales lors d'événements prestigieux en Europe, aux États-Unis et en Asie. Elle est reconnue pour son excellent choix musical et sa capacité à créer l'ambiance idéale pour les compétiteurs. Son expertise a été officiellement reconnue en 2024 lorsqu'elle est entrée dans l'histoire en devenant la première DJ européenne à remporter le DJ Battle lors de The After Party (TAP).",
+              "Ses morceaux préférés pour danser en ce moment sont :",
+            ],
+            songList: [
+              "Never Be Without Love - Billy Raffoul (Stripped)",
+              "DIM - SYML",
+              "One of Your Girls - Troye Sivan",
+            ],
+          },
+          {
+            names: "Patrice",
+            title: "Support technique son & DJ",
+            src: "/images/djs_patrice.png",
+            description: [
+              "Il a commencé à DJ-er il y a cinq ans lors de soirées dansantes, fasciné par la création d'ambiances mêlant différents styles et univers musicaux. Aujourd'hui, il joue de plus en plus souvent lors de soirées West Coast Swing et prend plaisir à faire danser les participants avec des styles musicaux variés.",
+              "Ses morceaux préférés pour danser en ce moment sont :",
+            ],
+            songList: [
+              "Jeden Tag mehr - Montez",
+              "Wider verbi - ZID",
+              "I wanna Dance with Somebody - Marius Bear",
+            ],
+          },
+          {
+            names: "Balázs",
+            title: "DJ",
+            src: "/images/djs_balazs.png",
+            description: [
+              "Balázs a commencé le West Coast Swing en 2018 et a rapidement découvert sa passion pour le DJing lors des événements de danse en plein air qu'il a contribué à lancer à Budapest en 2019. Il joue régulièrement lors de soirées locales et est devenu un nom bien connu de la scène WCS hongroise. Il a fait ses débuts internationaux au Slovenian Open 2024, où il a remporté le DJ Battle et joué son premier set international. Depuis, il a été DJ lors d'événements tels que l'Autumn Swing Challenge 2024 et le Slovenian Open 2025. Il est ravi de revenir également pour l'édition 2026.",
+              "Ses morceaux préférés pour danser en ce moment sont :",
+            ],
+            songList: [
+              "Becoming Young - Cherry Twist",
+              "Sun and Moon - anees",
+              "Slow It Down - Benson Boone",
+            ],
+          },
+          {
+            names: "Kamila",
+            title: "DJ",
+            src: "/images/djs_kamila.png",
+            description: [
+              "Kamila vient de la magnifique ville de Cracovie, en Pologne. Elle aime danser, découvrir de nouveaux endroits et explorer les saveurs du café local. Sa plus grande passion est le West Coast Swing, qu'elle apprécie pour la liberté d'interpréter la musique et de créer quelque chose de spécial — souvent ludique — avec chaque nouveau partenaire de danse. Être DJ lui permet d'approfondir son lien avec la musique et de mieux la comprendre. Rien ne lui procure plus de joie que de voir les danseurs s'amuser pendant ses sets.",
+              "Ses morceaux préférés pour danser en ce moment sont :",
+            ],
+            songList: [
+              "Empty Crown - YAS",
+              "Baptize - RKCB",
+              "Wonderful nothing (edit version) - Glass Animals",
+            ],
+          },
+          {
+            names: "Lino",
+            title: "DJ",
+            src: "/images/djs_lino.png",
+            description: [
+              "Lino est un DJ basé à Berlin avec une solide expérience internationale, ayant joué en France, en Allemagne, en Hongrie, en Bulgarie, en Slovénie et dans de nombreuses autres destinations. Après avoir joué lors de cet événement l'an dernier, il est ravi de revenir avec son énergie caractéristique et sa large palette musicale. Il apporte également une expertise supplémentaire grâce à ses engagements annuels en tant que DJ principal en Suisse.",
+              "Ses morceaux préférés pour danser en ce moment sont :",
+            ],
+            songList: [
+              "The Way a Heart Breaks - Alexander Stewart",
+              "Hollow - James Smith",
+              "Nobody Told Me - Arrows in Action",
+            ],
+          },
+          {
+            names: "Sebastian aka DJ Sepgod",
+            title: "DJ",
+            src: "/images/djs_sebastian.png",
+            description: [
+              "Sepgod pratique la danse de couple depuis 30 ans et a développé au fil du temps une passion pour la sélection musicale — des mixtapes aux CD mixés, jusqu'au DJing lors de divers événements tels que des soirées, mariages et événements d'entreprise. Depuis 2015, fasciné par la diversité musicale du WCS, il DJ régulièrement lors des soirées WCS à Vienne et participe à de nombreux événements internationaux en Europe. Lors de Swingvester 23/24, il a commencé à jouer également sur des scènes internationales.",
+              "Ses morceaux préférés pour danser en ce moment sont :",
+            ],
+            songList: [
+              "Dig Deep - Madze",
+              "Coast To Coast (Space Ghost) - Glass Animals",
+              "Fly Down - Stephen",
+            ],
+          },
+          {
+            names: "Sylvestre aka DJ 2 Shoes",
+            title: "DJ",
+            src: "/images/djs_sylvestre.png",
+            description: [
+              "Sylvestre vient de Lyon. Il a commencé à DJ-er au début de l'année 2025 et a déjà joué lors de grands événements (WIL, FOWCS, etc.). Il adore découvrir de nouveaux sons et les tester en soirée. Il vous fera danser aussi bien en début de soirée qu'au lever du soleil ! Il porte toujours une casquette avec son nom et deux chaussures différentes. N'hésitez pas à lui demander un shout-out pendant son set — il sera toujours ravi de répondre !",
+              "Ses morceaux préférés pour danser en ce moment sont :",
+            ],
+            songList: [
+              "Tequila - NIGHTS",
+              "Sold my soul - BSEARL",
+              "Sugar - YA NINA",
+            ],
+          },
+        ],
+      },
       {
         pageTitle: "Spectacles & Compétitions",
         people: [

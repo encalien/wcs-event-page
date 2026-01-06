@@ -158,105 +158,110 @@ const si = {
           },
         ],
       },
-      //   {
-      //     pageTitle: "DJ-i",
-      //     people: [
-      //       {
-      //         names: "Ken",
-      //         title: "Glavni DJ",
-      //         src: "/images/djs_ken.png",
-      //         description: [
-      //           "Ken, znan tudi kot DJKendyshop, je DJ za West Coast Swing, ki je svojo pot začel leta 2018. Hitro si je pridobil sloves zaradi svoje sposobnosti ustvarjanja energije polnih plesišč tako na majhnih lokalnih dogodkih kot tudi na velikih WSDC dogodkih, kot so Budafest, Anchor Festival, Baltic Swing in Swing it like it's hot. Kenov stil se nagiba k zapleteni in razburljivi glasbi, črpa navdih iz EDM in Dubstepa ter ustvarja edinstven in dinamičen zvok, ki plesalce ohranja v gibanju.",
-      //           "Trenutno najraje pleše na:",
-      //         ],
-      //         songList: [
-      //           "Forgive Me - Sofi Tucker",
-      //           "Whisper - Able Heart",
-      //           "Fake - The Tech Thieves",
-      //         ],
-      //       },
-      //       {
-      //         names: "Patrice",
-      //         title: "Tonski inženir in DJ",
-      //         src: "/images/djs_patrice.png",
-      //         description: [
-      //           "Patrice je svojo DJ kariero začel pred 5 leti na zabavah z mešanico plesnih stilov, kjer ga je prevzela umetnost ustvarjanja atmosferskega večera, ki zajema različne žanre. Zdaj se vse pogosteje znajde za mešalno mizo na West Coast Swing zabavah, kjer še naprej navdušuje plesalce z mešanjem raznolikih glasbenih stilov.",
-      //           "Trenutno najraje pleše na:",
-      //         ],
-      //         songList: ["Fuck it, I love it! - ILIRA", "Wait - Damian Lynn"],
-      //       },
-      //       {
-      //         names: "Balázs",
-      //         title: "DJ",
-      //         src: "/images/djs_balazs.png",
-      //         description: [
-      //           "Balázs je svoj prvi mednarodni set odigral na Slovenian Open 2024, kjer je sodeloval in zmagal na DJ Battle tekmovanju. Od takrat redno DJ-ja na lokalnih zabavah v Budimpešti, poleg tega pa je imel priložnost vrteti glasbo na Autumn Swing Challenge leta 2024. Je strasten ljubitelj glasbe tako kot plesalec kot DJ in s svojimi seti ter energijo oživi plesišče!",
-      //           "Njegove najljubše pesmi za ples trenutno so:",
-      //         ],
-      //         songList: [
-      //           "Becoming Young - Cherry Twist",
-      //           "Slow It Down - Benson Boone",
-      //           "How I Want Ya (Dawn Remix) - Hudson Thames",
-      //         ],
-      //       },
-      //       {
-      //         names: "Kamila",
-      //         title: "DJ",
-      //         src: "/images/djs_kamila.png",
-      //         description: [
-      //           "Kamila prihaja iz čudovitega mesta Krakov na Poljskem. Rada pleše, odkriva nova mesta in raziskuje okuse lokalne kave. Njena največja strast je West Coast Swing, saj ji omogoča svobodno interpretacijo glasbe in ustvarjanje nečesa posebnega - in pogosto igrivega - z vsakim novim plesnim partnerjem. Kot DJ-ka se lahko še globlje potopi v svet glasbe in ga bolje razume. Nič ji ne prinese večjega veselja kot videti plesalce, ki uživajo ob njenih setih.",
-      //           "Njene najljubše pesmi za ples trenutno so:",
-      //         ],
-      //         songList: [
-      //           "Empty Crown - YAS",
-      //           "Baptize - RKCB",
-      //           "Wonderful nothing (edit version) - Glass Animals",
-      //         ],
-      //       },
-      //       {
-      //         names: "Kasia",
-      //         title: "DJ",
-      //         src: "/images/djs_kasia.png",
-      //         description: [
-      //           "Kasia je svojo DJ-jevsko WCS pustolovščino začela okoli leta 2019 v Varšavi. Od takrat je vrtela glasbo na lokalnih dogodkih na Poljskem, kmalu zatem pa so jo začeli vabiti na mednarodne dogodke na Švedskem, Finskem, Poljskem, v Nemčiji in na Madžarskem. Prav tako je igrala v vrhunskih terminih na Asia Open in Wild Wild Westie. Redno prejema pozitivne povratne informacije o vzdušju, ki ga ustvarja s svojimi seti. Prijatelji jo imenujejo »Hodeči Shazam«, saj pozna in prepozna ogromno pesmi že ob prvem tonu.",
-      //           "Njene najljubše pesmi za ples trenutno so:",
-      //         ],
-      //         songList: [
-      //           "Untouchable - Bera",
-      //           "LONELY NIGHTS - Riles",
-      //           "NIGHTS LIKE THESE - Benson Boone",
-      //         ],
-      //       },
-      //       {
-      //         names: "Lino",
-      //         title: "DJ",
-      //         src: "/images/djs_lino.png",
-      //         description: [
-      //           "Lino se je vedno zanimal za odkrivanje novih umetnikov in glasbe, še posebej manj znanih indie izvajalcev. Nedavno je imel priložnost DJ-ati na dogodkih Swing Generation, Berlin Swing Revolution in Carnival Swing, ter na lokalnih zabavah v Berlinu in Erdingu. Njegov stil je mešanje eksperimentalne in pogosto akustične glasbe z mednarodno priljubljenimi pesmimi, znanimi z dogodkov.",
-      //           "Trenutno najraje pleše na:",
-      //         ],
-      //         songList: [
-      //           "Lose It - Oh Wonder",
-      //           "Papa - SICKOTOY, Eliana Gjata, INNA",
-      //           "No Ocean - EXES, Jome",
-      //         ],
-      //       },
-      //       {
-      //         names: "Sepgod",
-      //         title: "DJ",
-      //         src: "/images/djs_sepgod.png",
-      //         description: [
-      //           "Sepgod je začel s plesi v paru pred 30 leti, razvil ljubezen do kuriranja glasbe, napredoval od ustvarjanja mešanic trakov do mešanih CD-jev, in naposled DJ-al na različnih dogodkih. Leta 2015 ga je prevzela raznolika glasba WCS, kar ga je vodilo do DJ-anja na zabavah WCS v Dunaju, naa Swingvestru 23/24 pa je začel DJ-ati tudi na mednarodnih festivalih.",
-      //           "Trenutno najraje pleše na:",
-      //         ],
-      //         songList: [
-      //           "Soap - Melanie Martinez",
-      //           "Space Ghost Coast To Coast - Glass Animals",
-      //           "Chariot - Mega",
-      //         ],
-      //       },
-      //     ],
-      //   },
+      {
+        pageTitle: "DJ-ji",
+        people: [
+          {
+            names: "Paulina aka DJ Pikachu",
+            title: "Glavni DJ & DJ za tekmovanja",
+            src: "/images/djs_paulina.png",
+            description: [
+              "Glasba je Paulinina spremljevalka že vse življenje - začela je s petjem v zboru, vodenjem otroškega zbora in igranjem kitare. Njena strast do plesa jo je leta 2015 pripeljala do West Coast Swinga, kjer danes velja za eno najuspešnejših mednarodnih DJ.",
+              "Paulina ima bogate izkušnje kot tekmovalna in socialna DJ-ica na prestižnih dogodkih v Evropi, ZDA in Aziji. Znana je po odličnem glasbenem izboru in sposobnosti ustvarjanja pravega vzdušja za tekmovalce. Njeno znanje je bilo dodatno prepoznano leta 2024, ko se je zapisala v zgodovino kot prva evropska DJ, ki je zmagala na DJ Battle na The After Party (TAP).",
+              "Njene najljubše pesmi za ples v tem trenutku so:",
+            ],
+            songList: [
+              "Never Be Without Love - Billy Raffoul (Stripped)",
+              "DIM - SYML",
+              "One of Your Girls - Troye Sivan",
+            ],
+          },
+          {
+            names: "Patrice",
+            title: "Zvočna tehnična podpora & DJ",
+            src: "/images/djs_patrice.png",
+            description: [
+              "Svojo DJ pot je začel pred petimi leti na plesnih zabavah, kjer ga je navdušilo ustvarjanje atmosfere z različnimi plesnimi stili in glasbenimi smermi. Danes vse pogosteje vrti glasbo na West Coast Swing zabavah in uživa v tem, da plesalce zabava z raznolikimi glasbenimi žanri.",
+              "Njegove najljubše pesmi za ples v tem trenutku so:",
+            ],
+            songList: [
+              "Jeden Tag mehr - Montez",
+              "Wider verbi - ZID",
+              "I wanna Dance with Somebody - Marius Bear",
+            ],
+          },
+          {
+            names: "Balázs",
+            title: "DJ",
+            src: "/images/djs_balazs.png",
+            description: [
+              "Balázs je svojo pot v West Coast Swingu začel leta 2018, kmalu zatem pa je med organizacijo plesnih dogodkov na prostem v Budimpešti leta 2019 odkril tudi strast do DJ-anja. Redno vrti glasbo na lokalnih zabavah in je postal prepoznavno ime na madžarski WCS sceni. Mednarodno se je prvič predstavil na Slovenian Open 2024, kjer je zmagal na DJ Battle in odigral svoj prvi mednarodni set. Od takrat je DJ-al na dogodkih, kot sta Autumn Swing Challenge 2024 in Slovenian Open 2025. Z veseljem se vrača tudi na izdajo 2026.",
+              "Njegove najljubše pesmi za ples v tem trenutku so:",
+            ],
+            songList: [
+              "Becoming Young - Cherry Twist",
+              "Sun and Moon - anees",
+              "Slow It Down - Benson Boone",
+            ],
+          },
+          {
+            names: "Kamila",
+            title: "DJ",
+            src: "/images/djs_kamila.png",
+            description: [
+              "Kamila prihaja iz čudovitega Krakova na Poljskem. Rada pleše, odkriva nove kraje in raziskuje okuse lokalne kave. Njena največja strast je West Coast Swing, ki ga obožuje zaradi svobode interpretacije glasbe in ustvarjanja nečesa posebnega - pogosto igrivega - z vsakim novim plesnim partnerjem. DJ-anje ji omogoča, da se še globlje potopi v svet glasbe in jo bolje razume. Nič je ne osreči bolj kot pogled na plesalce, ki uživajo ob njeni glasbi.",
+              "Njene najljubše pesmi za ples v tem trenutku so:",
+            ],
+            songList: [
+              "Empty Crown - YAS",
+              "Baptize - RKCB",
+              "Wonderful nothing (edit version) - Glass Animals",
+            ],
+          },
+          {
+            names: "Lino",
+            title: "DJ",
+            src: "/images/djs_lino.png",
+            description: [
+              "Lino je DJ iz Berlina z bogatimi mednarodnimi izkušnjami, saj je nastopal po Franciji, Nemčiji, Madžarski, Bolgariji, Sloveniji in številnih drugih državah. Ker je na tem dogodku nastopil že lani, se z veseljem vrača s svojo značilno energijo in širokim glasbenim razponom. Dodatno znanje in izkušnje prinaša tudi iz svojih letnih nastopov kot glavni DJ v Švici.",
+              "Njegove najljubše pesmi za ples v tem trenutku so:",
+            ],
+            songList: [
+              "The Way a Heart Breaks - Alexander Stewart",
+              "Hollow - James Smith",
+              "Nobody Told Me - Arrows in Action",
+            ],
+          },
+          {
+            names: "Sebastian aka DJ Sepgod",
+            title: "DJ",
+            src: "/images/djs_sebastian.png",
+            description: [
+              "Sepgod se s partnerskim plesom ukvarja že 30 let, ob tem pa je razvil tudi ljubezen do glasbenega izbora - od kaset in mix CD-jev do DJ-anja na različnih dogodkih, kot so zabave, poroke in podjetniška praznovanja. Od leta 2015 ga navdušuje raznolik glasbeni svet WCS-a, zato redno vrti glasbo na dunajskih WCS zabavah in obiskuje številne mednarodne dogodke po Evropi. Na Swingvester 23/24 je začel vrteti glasbo tudi na mednarodnih prizoriščih.",
+              "Njegove najljubše pesmi za ples v tem trenutku so:",
+            ],
+            songList: [
+              "Dig Deep - Madze",
+              "Coast To Coast (Space Ghost) - Glass Animals",
+              "Fly Down - Stephen",
+            ],
+          },
+          {
+            names: "Sylvestre aka DJ 2 Shoes",
+            title: "DJ",
+            src: "/images/djs_sylvestre.png",
+            description: [
+              "Sylvestre prihaja iz Lyona. Z DJ-anjem je začel v začetku leta 2025 in že nastopal na večjih dogodkih (WIL, FOWCS itd.). Rad odkriva nove zvoke in jih preizkuša na zabavah. Na plesišče vas bo spravil tako na začetku večera kot ob sončnem vzhodu! Vedno nosi kapo s svojim imenom in dva različna čevlja. Brez zadržkov ga prosite za shout-out med njegovim setom - z veseljem se bo odzval!",
+              "Njegove najljubše pesmi za ples v tem trenutku so:",
+            ],
+            songList: [
+              "Tequila - NIGHTS",
+              "Sold my soul - BSEARL",
+              "Sugar - YA NINA",
+            ],
+          },
+        ],
+      },
       {
         pageTitle: "Nastopi & Tekmovanja",
         people: [
