@@ -1,4 +1,5 @@
 <script lang="ts">
+import { useStore } from "vuex";
 import messages from "../../i18n/en";
 
 export default {
@@ -6,6 +7,10 @@ export default {
     return {
       messages: messages,
     };
+  },
+  setup() {
+    const store = useStore();
+    return { store };
   },
 };
 </script>
@@ -24,7 +29,7 @@ export default {
       <h2 class="margin-0">{{ $t("event.welcomeText") }}</h2>
       <!-- <h2>{{ $t("registration.opensSoonText") }}</h2> -->
       <router-link
-        :to="`/${$store.state.lang}/registration`"
+        :to="`/${store.state.lang}/registration`"
         class="btn btn-primary"
       >
         {{ $t("registration.pageTitle") }}

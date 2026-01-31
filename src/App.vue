@@ -1,25 +1,9 @@
 <script lang="ts">
 // Import components
-import Header from "./components/Header.vue";
-import Footer from "./components/Footer.vue";
-import Home from "./components/pages/Home.vue";
-import Staff from "./components/pages/Staff.vue";
-import EventLocation from "./components/pages/EventLocation.vue";
-import NotFound from "./components/pages/NotFound.vue";
-import Schedule from "./components/pages/Schedule.vue";
-import Registration from "./components/pages/Registration.vue";
-import Pricing from "./components/pages/Pricing.vue";
-import TermsAndConditions from "./components/pages/TermsAndConditions.vue";
+import HeaderComponent from "./components/HeaderComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
 
-const routes: any = {
-  "/": Home,
-  "/staff": Staff,
-  "/schedule": Schedule,
-  "/pricing": Pricing,
-  "/location": EventLocation,
-  "/registration": Registration,
-  "/terms-and-conditions": TermsAndConditions,
-};
+import { useStore } from "vuex";
 
 export default {
   data() {
@@ -28,8 +12,12 @@ export default {
     };
   },
   components: {
-    Header,
-    Footer,
+    HeaderComponent,
+    FooterComponent,
+  },
+  setup() {
+    const store = useStore();
+    return { store };
   },
   created() {
     if (window.location.href.includes("#")) {
@@ -47,8 +35,8 @@ export default {
         typeof this.$route.params.lang === "string"
           ? this.$route.params.lang
           : "en";
-      this.$store.commit("changeLang", lang);
-      this.$i18n.locale = this.$store.state.lang;
+      this.store.commit("changeLang", lang);
+      this.$i18n.locale = this.store.state.lang;
       window.scrollTo(0, 0);
     },
   },
@@ -57,11 +45,11 @@ export default {
 </script>
 
 <template>
-  <Header />
+  <HeaderComponent />
   <main>
     <router-view></router-view>
   </main>
-  <Footer />
+  <FooterComponent />
 </template>
 
 <style scoped></style>

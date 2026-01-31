@@ -19,14 +19,14 @@ const store = createStore({
   },
 });
 
-import Home from "./components/pages/Home.vue";
-import Staff from "./components/pages/Staff.vue";
-import EventLocation from "./components/pages/EventLocation.vue";
-import NotFound from "./components/pages/NotFound.vue";
-import Schedule from "./components/pages/Schedule.vue";
-import Registration from "./components/pages/Registration.vue";
-import Pricing from "./components/pages/Pricing.vue";
-import TermsAndConditions from "./components/pages/TermsAndConditions.vue";
+import HomeComponent from "./components/pages/HomeComponent.vue";
+import StaffComponent from "./components/pages/StaffComponent.vue";
+import EventLocationComponent from "./components/pages/EventLocationComponent.vue";
+import NotFoundComponent from "./components/pages/NotFoundComponent.vue";
+import ScheduleComponent from "./components/pages/ScheduleComponent.vue";
+import RegistrationComponent from "./components/pages/RegistrationComponent.vue";
+import PricingComponent from "./components/pages/PricingComponent.vue";
+import TermsAndConditionsComponent from "./components/pages/TermsAndConditionsComponent.vue";
 
 import { createRouter, createWebHistory } from "vue-router";
 
@@ -52,13 +52,16 @@ const i18n = createI18n({
 });
 
 const routes: any = [
-  { path: "/:lang(en|si)/", component: Home },
-  { path: "/:lang(en|si)/workshops/teachers", component: Staff },
-  { path: "/:lang(en|si)/workshops/schedule", component: Schedule },
-  { path: "/:lang(en|si)/pricing", component: Pricing },
-  { path: "/:lang(en|si)/location", component: EventLocation },
-  { path: "/:lang(en|si)/registration", component: Registration },
-  { path: "/:lang(en|si)/terms-and-conditions", component: TermsAndConditions },
+  { path: "/:lang(en|si)/", component: HomeComponent },
+  { path: "/:lang(en|si)/workshops/teachers", component: StaffComponent },
+  { path: "/:lang(en|si)/workshops/schedule", component: ScheduleComponent },
+  { path: "/:lang(en|si)/pricing", component: PricingComponent },
+  { path: "/:lang(en|si)/location", component: EventLocationComponent },
+  { path: "/:lang(en|si)/registration", component: RegistrationComponent },
+  {
+    path: "/:lang(en|si)/terms-and-conditions",
+    component: TermsAndConditionsComponent,
+  },
 ];
 
 const router = createRouter({

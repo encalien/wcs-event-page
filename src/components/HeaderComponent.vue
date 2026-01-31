@@ -1,4 +1,5 @@
 <script lang="ts">
+import { useStore } from "vuex";
 export default {
   data() {
     return {
@@ -6,6 +7,10 @@ export default {
       openDropdownMenuItem: "",
       isMobileMenuOpen: false,
     };
+  },
+  setup() {
+    const store = useStore();
+    return { store };
   },
   methods: {
     toggleDropdownMenu: function (menuItemTitle: string) {
@@ -61,7 +66,7 @@ export default {
         :class="{ active: isMobileMenuOpen }"
         @click="closeAllMenus()"
       >
-        <router-link :to="`/${$store.state.lang}/`" class="menu-item-link">
+        <router-link :to="`/${store.state.lang}/`" class="menu-item-link">
           {{ $t("home.pageTitle") }}
         </router-link>
       </div>
@@ -87,7 +92,7 @@ export default {
         >
           <div class="dropdown-menu-item" @click="closeAllMenus()">
             <router-link
-              :to="`/${$store.state.lang}/workshops/teachers`"
+              :to="`/${store.state.lang}/workshops/teachers`"
               class="menu-item-link"
             >
               {{ $t("workshops.staff.pageTitle") }}
@@ -95,7 +100,7 @@ export default {
           </div>
           <div class="dropdown-menu-item" @click="closeAllMenus()">
             <router-link
-              :to="`/${$store.state.lang}/workshops/schedule`"
+              :to="`/${store.state.lang}/workshops/schedule`"
               class="menu-item-link"
             >
               {{ $t("workshops.schedule.pageTitle") }}
@@ -103,7 +108,7 @@ export default {
           </div>
           <div class="dropdown-menu-item" @click="closeAllMenus()">
             <router-link
-              :to="`/${$store.state.lang}/pricing`"
+              :to="`/${store.state.lang}/pricing`"
               class="menu-item-link"
             >
               {{ $t("workshops.pricing.pageTitle") }}
@@ -117,7 +122,7 @@ export default {
         @click="closeAllMenus()"
       >
         <router-link
-          :to="`/${$store.state.lang}/location`"
+          :to="`/${store.state.lang}/location`"
           class="menu-item-link"
         >
           {{ $t("location.pageTitle") }}
@@ -129,7 +134,7 @@ export default {
         @click="closeAllMenus()"
       >
         <router-link
-          :to="`/${$store.state.lang}/registration`"
+          :to="`/${store.state.lang}/registration`"
           class="menu-item-link"
         >
           {{ $t("registration.pageTitle") }}
