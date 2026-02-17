@@ -232,6 +232,21 @@ const fr = {
             ],
           },
           {
+            names: "Rafał",
+            title: "DJ",
+            src: "/images/djs_rafal.png",
+            description: [
+              "Rafał a commencé à mixer bien avant de découvrir le West Coast Swing en 2017. Il s'est vite rendu compte que la diversité des genres et des ambiances dans la musique WCS lui offrait bien plus de possibilités créatives qu'il ne l'avait jamais imaginé — ainsi qu'une manière unique de se connecter avec les danseurs.",
+              "Vous le trouverez le plus souvent à Cracovie, où il mixe et accompagne de nouveaux DJs. Dans ses sets, il se concentre sur les émotions qui circulent sur la piste de danse et y répond avec attention. Il a une affection particulière pour les morceaux instrumentaux, notamment ceux construits autour du piano ou du violon.",
+              "Ses chansons préférées pour danser en ce moment sont :",
+            ],
+            songList: [
+              "Mosaïque - Ash",
+              "Dream Journal - Feverkin",
+              "Africa (acoustic cover) - Tyler Ward & Lisa Cimorelli",
+            ],
+          },
+          {
             names: "Sebastian aka DJ Sepgod",
             title: "DJ",
             src: "/images/djs_sebastian.png",

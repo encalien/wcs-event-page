@@ -233,6 +233,21 @@ const si = {
             ],
           },
           {
+            names: "Rafał",
+            title: "DJ",
+            src: "/images/djs_rafal.png",
+            description: [
+              "Rafał je začel DJ-ati še preden je leta 2017 odkril West Coast Swing. Kmalu je spoznal, da mu raznolikost žanrov in razpoloženj v WCS glasbi ponuja veliko več ustvarjalnih možnosti, kot si je kadarkoli predstavljal — ter edinstven način povezovanja s plesalci.",
+              "Najpogosteje ga lahko srečate v Krakovu, kjer vrti glasbo in mentorira nove DJ-e. V svojih setih se osredotoča na odzivanje na čustva, ki se pretakajo po plesišču. Posebno rad ima skladbe brez besedila, še posebej tiste, zgrajene okoli klavirja ali violine.",
+              "Njegove najljubše pesmi za ples v tem trenutku so:",
+            ],
+            songList: [
+              "Mosaïque - Ash",
+              "Dream Journal - Feverkin",
+              "Africa (acoustic cover) - Tyler Ward & Lisa Cimorelli",
+            ],
+          },
+          {
             names: "Sebastian aka DJ Sepgod",
             title: "DJ",
             src: "/images/djs_sebastian.png",
