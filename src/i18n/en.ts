@@ -177,7 +177,8 @@ const en = {
             title: "Sound Tech Support & DJ",
             src: "/images/djs_patrice.png",
             description: [
-              "Starting with DJing five years ago at dance parties, creating an atmospheric evening with various dance styles and directions fascinated me. Now, I can increasingly DJ at West Coast Swing parties and I'm also excited to entertain dancers there with different music styles.",
+              "He started with DJing five years ago at dance parties, where he got fascinated by creating an atmospheric evening with various dance styles and directions. Now, he DJs more and more at West Coast Swing parties and is also excited to entertain dancers there with different music styles.",
+              "His technical expertise makes him an indispensable addition to any DJ team as he offers support to both DJs and sound engineers.",
               "His favorite songs to dance to right now are:",
             ],
             songList: [
