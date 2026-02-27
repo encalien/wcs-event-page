@@ -1538,6 +1538,7 @@ const fr = {
         confirmed: "CONFIRMÉ",
         cancelled: "ANNULÉ",
         transferred: "TRANSFÉRÉ",
+        added: "AJOUTÉ",
       },
     },
     form: {
@@ -1650,6 +1651,7 @@ const fr = {
         "Inscription annulée.",
         "Inscription transférée.",
         "Ne participe pas.",
+        "Inscription ajoutée.",
       ],
     },
     merchItems: {

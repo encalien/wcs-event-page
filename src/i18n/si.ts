@@ -1436,6 +1436,7 @@ const si = {
         confirmed: "POTRJENO",
         cancelled: "PREKLICANO",
         transferred: "PRENESENO",
+        added: "DODANO",
       },
     },
     form: {
@@ -1545,6 +1546,7 @@ const si = {
         "Registracija preklicana.",
         "Registracija prenesena.",
         "Ne bom sodeloval_a.",
+        "Bom sodeloval_a.",
       ],
     },
     merchItems: {

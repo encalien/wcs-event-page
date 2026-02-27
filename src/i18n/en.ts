@@ -1505,6 +1505,7 @@ const en = {
         confirmed: "CONFIRMED",
         cancelled: "CANCELLED",
         transferred: "TRANSFERRED",
+        added: "ADDED",
       },
     },
     form: {
@@ -1613,6 +1614,7 @@ const en = {
         "Registration cancelled.",
         "Registration transferred.",
         "Not added.",
+        "Added.",
       ],
     },
     merchItems: {
