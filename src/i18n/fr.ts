@@ -694,7 +694,7 @@ const fr = {
         description: [
           "Niché au coeur de Ljubljana, l'hôtel DoubleTree by Hilton (anciennement Austria Trend) offre des équipements modernes, un personnel amical et un emplacement idéal à quelques pas de la vibrante vieille ville.",
           "Vous pouvez réserver une chambre double ou twin à l'hôtel à un prix réduit. Chaque chambre offre des équipements modernes, assurant un séjour confortable et agréable pendant votre séjour à Ljubljana.",
-          "Ils proposent 2 types de chambres à un prix réduit pendant l'événement Slovenian Open. Les prix des chambres par nuit, valables du 20 avril au 1 mai, sont les suivants :",
+          "Ils proposent 2 types de chambres à un prix réduit pendant l'événement Slovenian Open. Ce prix sera disponible uniquement jusqu'au 23 mars ! Les prix des chambres par nuit, valables du 20 avril au 1 mai, sont les suivants :",
         ],
         roomTypes: [
           {

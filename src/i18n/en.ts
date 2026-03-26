@@ -659,7 +659,7 @@ const en = {
         description: [
           "Nestled in the heart of Ljubljana, the DoubleTree Hotel (formerly Austria Trend Hotel) offers modern rooms, friendly staff, and a prime location just moments away from the city's vibrant Old Town.",
           "You can book a double or twin room at the hotel at a discounted price. Each room offers modern amenities, ensuring a comfortable and enjoyable stay during your time in Ljubljana.",
-          "They offer 2 types of rooms for a discounted price during the Slovenian Open event. Prices for the rooms per night, valid from 20 April - 1 May, are:",
+          "They offer 2 types of rooms for a discounted price during the Slovenian Open event. This price is going to be available only until March 23! Prices for the rooms per night, valid from 20 April - 1 May, are:",
         ],
         roomTypes: [
           {

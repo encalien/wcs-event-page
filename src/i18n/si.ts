@@ -668,7 +668,7 @@ const si = {
         description: [
           "Festival bo potekal v DoubleTree Hotelu (prej Austria Trend Hotel). Hotel nudi moderne sobe, prijazno osebje in odlično lokacijo, vse to le lučaj stran od živahnega starega mestnega jedra.",
           "Dvoposteljno sobo v hotelu lahko rezerviraš po znižani ceni. Vsaka soba nudi sodobne ugodnosti, ki zagotavljajo udobno in prijetno bivanje med dogodkom.",
-          "Med dogodkom Slovenian Open ponujajo 2 vrsti sob po znižani ceni. Cene sob na noč, veljavne od 20. aprila do 1. maja, so:",
+          "Med dogodkom Slovenian Open ponujajo 2 vrsti sob po znižani ceni. Ta cena bo na voljo le do 23. marca! Cene sob na noč, veljavne od 20. aprila do 1. maja, so:",
         ],
         roomTypes: [
           {
