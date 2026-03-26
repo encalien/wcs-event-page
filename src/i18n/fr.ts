@@ -18,7 +18,7 @@ const fr = {
           "Savana Barreau & João Parada",
           "Andrea Pártos & Attila Pártos",
           "Evgenia Itkina & Clement Turpain",
-          "Raushaniya Maksudova & Mackenzie Sharp",
+          "Daniel Pavlov",
         ],
       },
       {
@@ -69,19 +69,19 @@ const fr = {
       ],
       yt: [
         {
-          name: "FOWCS 2025 - CLASSIC - Raushaniya MAKSUDOVA & Mackenzie SHARP",
-          src: "https://img.youtube.com/vi/S6J0t0BxPmM/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=S6J0t0BxPmM",
-        },
-        {
           name: "João Parada & Savana Barreau - Classic The Open 2022",
           src: "https://img.youtube.com/vi/Kt25_VQ9dCg/hqdefault.jpg",
           href: "https://www.youtube.com/watch?v=Kt25_VQ9dCg",
         },
         {
-          name: '"Dynamite" Mackenzie Sharp & Raushaniya Maksudova - 1st place All-Star SS Finals KoreanOpenWCS 2024',
-          src: "https://img.youtube.com/vi/Nb1oLfM_8c0/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=Nb1oLfM_8c0",
+          name: "Daniel Pavlov & Karin Kakun - ProShow & Invitational Jack&Jill - Westie Spring Thing 2025",
+          src: "https://img.youtube.com/vi/Kj3phAEyYG4/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=Kj3phAEyYG4",
+        },
+        {
+          name: "Evgenia Itkina & Daniel Pavlov - 1st place All-Stars Jack&Jill Finals - SaunaSwing 2025",
+          src: "https://img.youtube.com/vi/TrK6lYOnnbo/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=TrK6lYOnnbo",
         },
         {
           name: "Clement Turpain & Evgenia Itkina - 3rd place Showcase Routines Finals - Bavarian Open 2025",
@@ -147,12 +147,12 @@ const fr = {
             ],
           },
           {
-            names: "Raushaniya & Mackenzie",
-            src: "/images/teachers_raushaniya_mackenzie.jpg",
+            names: "Daniel",
+            src: "/images/teachers_daniel.jpg",
             description: [
-              "Raushaniya a fait ses premiers pas en West Coast Swing lors d'une belle soirée pluvieuse au bord du lac de Zurich, en Suisse. Dès cet instant, elle a été captivée, trouvant dans la danse un moyen unique de se connecter avec des personnes du monde entier. Avant de découvrir le WCS, elle s'est formée pendant plusieurs années à la danse orientale, développant une base solide en isolations corporelles et en fluidité de mouvement.",
-              "Mackenzie a commencé son parcours en West Coast Swing à l'âge de 11 ans, en rejoignant des cours locaux à Brisbane, en Australie, et s'est depuis consacré à la danse et à l'enseignement. Professeur expérimenté, il est passionné par la technique approfondie et a développé une approche unique intégrant le mouvement solo pour enrichir l'expression créative dans la danse en partenariat.",
-              "Depuis qu'ils ont uni leurs forces à la mi-2023, ils se sont fait remarquer dans la scène grâce à leur chorégraphie distinctive, leur style d'enseignement engageant et leur énergie débordante sur la piste sociale. Avec une touche hip-hop dans leur danse, ils mettent en valeur la polyvalence du WCS et apportent une créativité fraîche et dynamique à chaque performance. Ils ont chorégraphié et interprété plusieurs routines qui ont résonné non seulement au sein de la communauté, mais aussi bien au-delà, décrites comme « audacieuses », « uniques » et « créatives ».",
+              "Daniel a découvert le WCS en 2013 et est rapidement tombé amoureux de cette danse. Après avoir pratiqué de nombreuses danses sociales de couple auparavant, le West Coast Swing s'est démarqué comme une forme d'art offrant des possibilités infinies en musicalité, en connexion de couple et en expression personnelle. Aujourd'hui encore, ces éléments restent au cœur de son engagement et de son amour pour le WCS.",
+              "En plus de plus d'une décennie d'expérience dans l'enseignement de la danse, Daniel aime intégrer des connaissances issues des arts martiaux, de la psychologie, de la musique, du sport et du parkour pour enrichir l'apprentissage de ses élèves. Son objectif en cours est de trouver un équilibre entre progression efficace et plaisir simple et léger, accessible à tous.",
+              "Daniel s'entraîne régulièrement, enseigne partout dans le monde et concourt dans la division All-Star. Sa passion pour le West Coast Swing est profonde, et pouvoir la partager avec les autres est une source de gratitude infinie pour lui, à chaque instant !",
             ],
           },
         ],
@@ -432,11 +432,11 @@ const fr = {
     tracks: [
       {
         title: "Intensif Micro-musicalité",
-        instructors: "Raushaniya & Mackenzie",
-        imgSrc: "/images/teachers_raushaniya_mackenzie.jpg",
+        instructors: "Karin & Daniel",
+        imgSrc: "/images/teachers_karin_daniel.jpg",
         level: "Recommandé pour les niveaux 5 et 6",
         description: [
-          "Cet intensif est consacré à la micro-musicalité en West Coast Swing. Mackenzie et Raushaniya vous guideront à travers divers exercices et techniques pour développer votre sens musical et vous connecter à la musique de manière plus profonde. Vous apprendrez à interpréter et exprimer la musique à un niveau plus détaillé, ainsi qu'à intégrer la musicalité dans votre danse.",
+          "Cet intensif est consacré à la micro-musicalité en West Coast Swing. Karin et Daniel vous guideront à travers divers exercices et techniques pour développer votre sens musical et vous connecter à la musique de manière plus profonde. Vous apprendrez à interpréter et exprimer la musique à un niveau plus détaillé, ainsi qu'à intégrer la musicalité dans votre danse.",
           "Cet intensif est destiné aux danseurs intermédiaires et avancés souhaitant élever leur musicalité à un niveau supérieur.",
         ],
       },
@@ -848,7 +848,7 @@ const fr = {
     disclaimer: `Cette année, notre excursion du jeudi nous emmène au magnifique lac de Bled. Vous pouvez lire davantage sur l'itinéraire <a href="day-trip">ici</a>.<br />Le prix de cette excursion mémorable est de <span class="bold">65 EUR</span> par personne, incluant le transport, le déjeuner, les guides et les droits d'entrée.`,
     description: [
       {
-        src: "/images/day_trip_bled_castle.png",
+        src: "/images/day_trip_bled_castle_2.png",
         alt: "Lake Castle img",
         texts: [
           "Rejoignez-nous pour une excursion inoubliable tandis que nous explorons le magnifique lac de Bled.",

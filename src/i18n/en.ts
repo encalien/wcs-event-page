@@ -16,7 +16,7 @@ const en = {
           "Savana Barreau & João Parada",
           "Andrea Pártos & Attila Pártos",
           "Evgenia Itkina & Clement Turpain",
-          "Raushaniya Maksudova & Mackenzie Sharp",
+          "Daniel Pavlov",
         ],
       },
       {
@@ -67,19 +67,19 @@ const en = {
       ],
       yt: [
         {
-          name: "FOWCS 2025 - CLASSIC - Raushaniya MAKSUDOVA & Mackenzie SHARP",
-          src: "https://img.youtube.com/vi/S6J0t0BxPmM/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=S6J0t0BxPmM",
-        },
-        {
           name: "João Parada & Savana Barreau - Classic The Open 2022",
           src: "https://img.youtube.com/vi/Kt25_VQ9dCg/hqdefault.jpg",
           href: "https://www.youtube.com/watch?v=Kt25_VQ9dCg",
         },
         {
-          name: '"Dynamite" Mackenzie Sharp & Raushaniya Maksudova - 1st place All-Star SS Finals KoreanOpenWCS 2024',
-          src: "https://img.youtube.com/vi/Nb1oLfM_8c0/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=Nb1oLfM_8c0",
+          name: "Daniel Pavlov & Karin Kakun - ProShow & Invitational Jack&Jill - Westie Spring Thing 2025",
+          src: "https://img.youtube.com/vi/Kj3phAEyYG4/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=Kj3phAEyYG4",
+        },
+        {
+          name: "Evgenia Itkina & Daniel Pavlov - 1st place All-Stars Jack&Jill Finals - SaunaSwing 2025",
+          src: "https://img.youtube.com/vi/TrK6lYOnnbo/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=TrK6lYOnnbo",
         },
         {
           name: "Clement Turpain & Evgenia Itkina - 3rd place Showcase Routines Finals - Bavarian Open 2025",
@@ -144,12 +144,12 @@ const en = {
             ],
           },
           {
-            names: "Raushaniya & Mackenzie",
-            src: "/images/teachers_raushaniya_mackenzie.jpg",
+            names: "Daniel",
+            src: "/images/teachers_daniel.jpg",
             description: [
-              "Raushaniya took her first steps in West Coast Swing on a beautiful rainy evening by Lake Zurich, Switzerland. From that moment, she was hooked, finding in dance a way to connect with people all across the world. Before discovering WCS, she trained in Arabic belly dancing for several years, developing a strong foundation in body isolation and fluid movement.",
-              "Mackenzie began his West Coast Swing journey at the age of 11, joining local classes in Brisbane, Australia, and has since dedicated himself as both a dancer and teacher. As an experienced instructor, he is passionate about teaching in-depth technique and has developed a unique approach to integrating solo movement to push the creative expression for dancing in a partnership setting.",
-              `Since teaming up in mid-2023, they've made waves within the scene with their distinctive choreography, engaging teaching style, and tearing it up on the social floor all night long. With a hip hop flare in their dancing, they highlight the versatility of WCS, bringing fresh, dynamic artistry to every performance. They have choreographed and performed several routines that have not only resonated within the community but also far beyond - for their originality, being described as "edgy," "unique," and "creative".`,
+              "Daniel discovered WCS in 2013 and quickly fell in love with the dance. Having tried many social partner dances prior to that point, West Coast Swing stood out as an art form with unending possibilities in musicality, partnership and self-expression. Today, these reasons still remain the foundation for his dedication and love for WCS.",
+              "In addition to more than a decade of experience teaching dance, Daniel likes to use knowledge from martial arts, psychology, music, sports and parkour to supplement his students' learning. His aim in class is to strike a balance between efficient growth and simple light fun that can be shared by all.",
+              "Daniel trains regularly, teaches all over the globe, and competes in the All-Star division. His passion for West Coast Swing runs deep and having the ability to share it with others is something he is endlessly grateful for every single time!",
             ],
           },
         ],
@@ -417,11 +417,11 @@ const en = {
     tracks: [
       {
         title: "Micro-musicality Intensive",
-        instructors: "Raushaniya & Mackenzie",
-        imgSrc: "/images/teachers_raushaniya_mackenzie.jpg",
+        instructors: "Karin & Daniel",
+        imgSrc: "/images/teachers_karin_daniel.jpg",
         level: "Recommended for Level 5 and 6",
         description: [
-          "This intensive track focuses on micro-musicality in West Coast Swing. Mackenzie and Raushaniya will guide you through various exercises and techniques to help you develop your musicality skills and connect with the music in a more meaningful way. You'll learn how to interpret and express the music at a deeper level, as well as how to incorporate musicality into your dancing.",
+          "This intensive track focuses on micro-musicality in West Coast Swing. Karin and Daniel will guide you through various exercises and techniques to help you develop your musicality skills and connect with the music in a more meaningful way. You'll learn how to interpret and express the music at a deeper level, as well as how to incorporate musicality into your dancing.",
           "This track is intended for intermediate and advanced dancers who want to take their musicality to the next level.",
         ],
       },
@@ -815,7 +815,7 @@ const en = {
       'This year our Thursday Day Trip takes us to breathtaking lake Bled. Read more about the itinerary <a href="day-trip">here</a>.<br />The cost of this memorable day trip is <span class="bold">65 EUR</span> per person, which includes transportation, lunch, guides, and entrance fees.',
     description: [
       {
-        src: "/images/day_trip_bled_castle.png",
+        src: "/images/day_trip_bled_castle_2.png",
         alt: "Lake Castle img",
         texts: [
           "Join us for an unforgettable day trip as we explore the breathtaking Lake Bled.",

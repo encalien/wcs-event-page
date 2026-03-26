@@ -17,7 +17,7 @@ const si = {
           "Savana Barreau & João Parada",
           "Andrea Pártos & Attila Pártos",
           "Evgenia Itkina & Clement Turpain",
-          "Raushaniya Maksudova & Mackenzie Sharp",
+          "Daniel Pavlov",
         ],
       },
       {
@@ -70,19 +70,19 @@ const si = {
         "Če se želiš pridružiti slovenski WCS skupnosti, obišči našo <a href='https://www.wcs.si/' target='_blank' rel='noopener'>spletno stran</a>. Vedno smo veseli novih članov!",
       yt: [
         {
-          name: "FOWCS 2025 - CLASSIC - Raushaniya MAKSUDOVA & Mackenzie SHARP",
-          src: "https://img.youtube.com/vi/S6J0t0BxPmM/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=S6J0t0BxPmM",
-        },
-        {
           name: "João Parada & Savana Barreau - Classic The Open 2022",
           src: "https://img.youtube.com/vi/Kt25_VQ9dCg/hqdefault.jpg",
           href: "https://www.youtube.com/watch?v=Kt25_VQ9dCg",
         },
         {
-          name: '"Dynamite" Mackenzie Sharp & Raushaniya Maksudova - 1st place All-Star SS Finals KoreanOpenWCS 2024',
-          src: "https://img.youtube.com/vi/Nb1oLfM_8c0/hqdefault.jpg",
-          href: "https://www.youtube.com/watch?v=Nb1oLfM_8c0",
+          name: "Daniel Pavlov & Karin Kakun - ProShow & Invitational Jack&Jill - Westie Spring Thing 2025",
+          src: "https://img.youtube.com/vi/Kj3phAEyYG4/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=Kj3phAEyYG4",
+        },
+        {
+          name: "Evgenia Itkina & Daniel Pavlov - 1st place All-Stars Jack&Jill Finals - SaunaSwing 2025",
+          src: "https://img.youtube.com/vi/TrK6lYOnnbo/hqdefault.jpg",
+          href: "https://www.youtube.com/watch?v=TrK6lYOnnbo",
         },
         {
           name: "Clement Turpain & Evgenia Itkina - 3rd place Showcase Routines Finals - Bavarian Open 2025",
@@ -148,12 +148,12 @@ const si = {
             ],
           },
           {
-            names: "Raushaniya & Mackenzie",
-            src: "/images/teachers_raushaniya_mackenzie.jpg",
+            names: "Daniel",
+            src: "/images/teachers_daniel.jpg",
             description: [
-              "Raushaniya je naredila prve korake v West Coast Swingu na prelepi deževni večer ob Curyškem jezeru v Švici. Od tistega trenutka jo je ta ples prevzel, saj je v njem našla način povezovanja z ljudmi po vsem svetu. Preden je odkrila WCS, se je več let ukvarjala z arabsko trebušno plesno tehniko, pri čemer je razvila močno osnovo v izolacijah in tekočem gibanju.",
-              "Mackenzie je svojo WCS pot začel pri enajstih letih, ko se je pridružil lokalnim tečajem v Brisbaneu v Avstraliji, in se od takrat posvetil tako plesu kot poučevanju. Kot izkušen inštruktor je strasten glede poglobljene tehnike in je razvil edinstven pristop, ki vključuje solo gibanje za širjenje ustvarjalnega izraza v partnerskem plesu.",
-              'Odkar sta sredi leta 2023 začela sodelovati, navdušujeta plesno sceno s svojo prepoznavno koreografijo, privlačnim učnim pristopom in neustavljivo energijo na socialnem plesišču. Z njuno hip-hop noto poudarjata vsestranskost WCS-a ter prinašata svežo, dinamično umetniškost v vsak nastop. Skupaj sta ustvarila in izvedla več koreografij, ki so odmevale tako znotraj skupnosti kot daleč zunaj nje, opisane kot "drzne", "edinstvene" in "kreativne".',
+              "Daniel je WCS odkril leta 2013 in se hitro zaljubil v ta ples. Pred tem je preizkusil številne družabne plese v paru, vendar je West Coast Swing izstopal kot umetniška oblika z neskončnimi možnostmi za muzikalnost, partnersko povezanost in osebni izraz. Prav ti razlogi še danes predstavljajo temelj njegove predanosti in ljubezni do WCS-a.",
+              "Poleg več kot desetletja izkušenj s poučevanjem plesa Daniel v svoje ure rad vključuje znanje iz borilnih veščin, psihologije, glasbe, športa in parkourja, da bi obogatil učenje svojih učencev. Njegov cilj pri poučevanju je najti ravnovesje med učinkovitim napredkom ter preprosto, lahkotno zabavo, ki jo lahko deli vsak.",
+              "Daniel redno trenira, poučuje po vsem svetu in tekmuje v All-Star diviziji. Njegova strast do West Coast Swinga je globoka in možnost, da jo lahko deli z drugimi, je nekaj, za kar je vsakič znova iskreno hvaležen!",
             ],
           },
         ],
@@ -433,11 +433,11 @@ const si = {
     tracks: [
       {
         title: "Intenzivka: Mikro-muzikalnost",
-        instructors: "Raushaniya & Mackenzie",
-        imgSrc: "/images/teachers_raushaniya_mackenzie.jpg",
+        instructors: "Karin & Daniel",
+        imgSrc: "/images/teachers_karin_daniel.jpg",
         level: "Priporočeno za nivo 5 in 6",
         description: [
-          "Ta intenzivka se osredotoča na mikro-muzikalnost v West Coast Swingu. Raushaniya in Mackenzie te bosta vodila skozi različne vaje in tehnike, ki ti bodo pomagale razviti muzikalnost in se globlje povezati z glasbo. Naučil_a se boš interpretirati in izražati glasbo na bolj poglobljen način ter vključiti muzikalnost v svoj ples.",
+          "Ta intenzivka se osredotoča na mikro-muzikalnost v West Coast Swingu. Karin in Daniel te bosta vodila skozi različne vaje in tehnike, ki ti bodo pomagale razviti muzikalnost in se globlje povezati z glasbo. Naučil_a se boš interpretirati in izražati glasbo na bolj poglobljen način ter vključiti muzikalnost v svoj ples.",
           "Ta intenzivka je zasnovana za plesalce nivoja Intermediate in Advanced, ki želijo svojo muzikalnost dvigniti na višji nivo.",
         ],
       },
@@ -764,7 +764,7 @@ const si = {
       'Letos nas bo četrtkov enodnevni izlet popeljal do osupljivega Blejskega jezera. Več o programu si lahko prebereš <a href="day-trip">tukaj</a>.<br />Cena tega nepozabnega izleta je <span class="bold">65 evrov</span> na osebo, kar vključuje prevoz, kosilo, vodnike in vstopnine.',
     description: [
       {
-        src: "/images/day_trip_bled_castle.png",
+        src: "/images/day_trip_bled_castle_2.png",
         alt: "Slika Blejskega gradu",
         texts: [
           "Pridruži se nam na nepozabnem enodnevnem izletu, kjer bomo raziskovali osupljivo Blejsko jezero.",
