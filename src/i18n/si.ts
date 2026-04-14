@@ -432,16 +432,6 @@ const si = {
     ],
     tracks: [
       {
-        title: "Intenzivka: Mikro-muzikalnost",
-        instructors: "Karin & Daniel",
-        imgSrc: "/images/teachers_karin_daniel.jpg",
-        level: "Priporočeno za nivo 5 in 6",
-        description: [
-          "Ta intenzivka se osredotoča na mikro-muzikalnost v West Coast Swingu. Karin in Daniel te bosta vodila skozi različne vaje in tehnike, ki ti bodo pomagale razviti muzikalnost in se globlje povezati z glasbo. Naučil_a se boš interpretirati in izražati glasbo na bolj poglobljen način ter vključiti muzikalnost v svoj ples.",
-          "Ta intenzivka je zasnovana za plesalce nivoja Intermediate in Advanced, ki želijo svojo muzikalnost dvigniti na višji nivo.",
-        ],
-      },
-      {
         title: "Intenzivka: Blues",
         instructors: "Andrea & Attila",
         imgSrc: "/images/teachers_andrea_attila.jpg",
@@ -1523,7 +1513,6 @@ const si = {
           topic: "Tema",
           Blues: "Blues",
           Switch: "Switch",
-          Micromusicality: "Mikromuzikalnost",
         },
       },
       zeroToHero: {

@@ -431,16 +431,6 @@ const fr = {
     ],
     tracks: [
       {
-        title: "Intensif Micro-musicalité",
-        instructors: "Karin & Daniel",
-        imgSrc: "/images/teachers_karin_daniel.jpg",
-        level: "Recommandé pour les niveaux 5 et 6",
-        description: [
-          "Cet intensif est consacré à la micro-musicalité en West Coast Swing. Karin et Daniel vous guideront à travers divers exercices et techniques pour développer votre sens musical et vous connecter à la musique de manière plus profonde. Vous apprendrez à interpréter et exprimer la musique à un niveau plus détaillé, ainsi qu'à intégrer la musicalité dans votre danse.",
-          "Cet intensif est destiné aux danseurs intermédiaires et avancés souhaitant élever leur musicalité à un niveau supérieur.",
-        ],
-      },
-      {
         title: "Intensif Blues",
         instructors: "Andrea & Attila",
         imgSrc: "/images/teachers_andrea_attila.jpg",
@@ -1628,7 +1618,6 @@ const fr = {
           topic: "Thème",
           Blues: "Blues",
           Switch: "Switch",
-          Micromusicality: "Micromusicalité",
         },
       },
       zeroToHero: {
