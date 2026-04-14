@@ -548,10 +548,10 @@ const en = {
     schedule: {
       pageTitle: "Schedule",
       description:
-        "This is a preliminary schedule and is very likely to change before the event.",
+        "This is the planned final schedule. Note that it can still change at any point before or during the event.",
       downloadText: "Download the .pdf file.",
-      pdfSrc: "/files/schedule_v3.pdf",
-      pngSrc: "/images/schedule__v3.png",
+      pdfSrc: "/files/schedule_v4.pdf",
+      pngSrc: "/images/schedule_v4.jpg",
     },
     pricing: {
       pageTitle: "Pricing",

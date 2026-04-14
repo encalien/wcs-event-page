@@ -565,10 +565,10 @@ const fr = {
     schedule: {
       pageTitle: "Planning",
       description:
-        "Il s'agit d'un programme préliminaire et il est très probable qu'il change avant l'événement.",
+        "Voici le programme final, bien que les horaires exacts puissent encore changer !",
       downloadText: "Télécharger le fichier .pdf.",
-      pdfSrc: "/files/schedule_v3.pdf",
-      pngSrc: "/images/schedule__v3.png",
+      pdfSrc: "/files/schedule_v4.pdf",
+      pngSrc: "/images/schedule_v4.jpg",
     },
     pricing: {
       pageTitle: "Tarifs",

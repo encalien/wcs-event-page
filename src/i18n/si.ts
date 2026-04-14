@@ -563,10 +563,11 @@ const si = {
     },
     schedule: {
       pageTitle: "Urnik",
-      description: "To je okvirni urnik in se bo verjetno še kaj spremenil.",
+      description:
+        "To je predviden končni urnik, a se lahko pred ali med dogodkom še spremeni.",
       downloadText: "Prenesi .pdf datoteko.",
-      pdfSrc: "/files/schedule_v3.pdf",
-      pngSrc: "/images/schedule__v3.png",
+      pdfSrc: "/files/schedule_v4.pdf",
+      pngSrc: "/images/schedule_v4.jpg",
     },
     pricing: {
       pageTitle: "Cenik",
