@@ -340,18 +340,23 @@ const si = {
               "Uživajo v snemanju in montaži videoposnetkov za družbena omrežja, prenosih dogodkov v živo s takojšnjimi ponovitvami ter dodajanju dogodkov na njihov globalni zemljevid West Coast Swinga.",
             ],
           },
-        ],
-      },
-      {
-        pageTitle: "Zero to Hero",
-        people: [
           {
-            names: "Vicki",
-            title: "Vodja programa Zero to Hero",
-            src: "/images/staff_vicky.jpg",
+            names: "Tadej",
+            title: "Fotografija",
+            src: "/images/staff_tadej.png",
             description: [
-              " Vicky prihaja iz Litve, zdaj pa živi v Londonu, kjer je januarja 2023 odkrila veselje in ustvarjalnost West Coast Swinga. Od raziskovanja glasbe in plesa do sprejemanja novih članov v skupnost - strastno ljubi WCS in je navdušena nad tem, kako ta neverjetna skupnost raste.",
-              "Njena posebna spretnost je vključevanje novih plesalcev v skupnost, tako da se počutijo dobrodošle in samozavestne ter lažje najdejo svoje mesto v plesnem svetu. Vodila je program Zero to Hero na več dogodkih, zdaj pa svojo strokovnost prinaša na Slovenian Open.",
+              "Zadnjih 15 let se Tadej posveča lovljenju gibanja, čustev in vzdušja skozi svoj objektiv. Fotografiral je več kot 90 plesnih festivalov po Evropi, od Swinga in Salse do Kizombe, West Coast Swinga in Tanga, pri tem pa razvil globoko razumevanje, kako plesalce prikazati v njihovi najboljši luči.",
+              "Tadej je znan po svojem prepoznavnem pristopu oblikovanja svetlobe, s katerim ustvarja jasne, dinamične in umetniške fotografije, ki ohranjajo energijo plesišča ter intimnost vsakega trenutka. Njegove izkušnje, hitrost in ustvarjalno oko ga uvrščajo med zaupanja vredne fotografe za dogodke vseh velikosti.",
+            ],
+          },
+          {
+            names: "Szidonia",
+            title: "Družbena omrežja",
+            src: "/images/staff_szidonia.png",
+            description: [
+              "Szidónia ({'@'}sisi.social) prihaja iz inženirskega okolja, kjer struktura, logika in natančnost oblikujejo njen način razmišljanja. Hkrati so ustvarjalnost, gibanje in človeška povezanost vedno predstavljali pomemben del njene identitete. Privlačijo jo pristni trenutki, energija, pogovori in avtentične izkušnje. Prav to jo je pripeljalo v svet družbenih omrežij: ujeti resnična čustva ljudi in jih pretvoriti v vsebino, ki se dotakne občinstva.",
+              "Danes sodeluje z dogodki, kjer se osredotoča na ustvarjanje zgodb na lokaciji in prisotnost na družbenih omrežjih. Od dogajanja v zakulisju do vzdušja na plesišču - njena vsebina odraža pristno bistvo vsakega trenutka.",
+              "Njen pristop je intuitiven, vendar nikoli naključen. Opazuje, se prilagaja in giblje v ritmu vsakega dogodka ter uravnoveša strukturo in spontanost.",
             ],
           },
         ],

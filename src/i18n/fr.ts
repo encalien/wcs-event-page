@@ -339,18 +339,23 @@ const fr = {
               "Ils adorent filmer et monter des vidéos pour les réseaux sociaux, diffuser des événements en direct avec des replays instantanés et ajouter des cours à leur carte mondiale du West Coast Swing.",
             ],
           },
-        ],
-      },
-      {
-        pageTitle: "Zero to Hero",
-        people: [
           {
-            names: "Vicky",
-            title: "Responsable du programme Zero to Hero",
-            src: "/images/staff_vicky.jpg",
+            names: "Tadej",
+            title: "Photographie",
+            src: "/images/staff_tadej.png",
             description: [
-              "Vicky est originaire de Lituanie mais vit désormais à Londres, où elle a découvert la joie et la créativité du West Coast Swing en janvier 2023. De l'exploration de la musique et de la danse à l'accueil des nouveaux venus dans la communauté, elle est passionnée par le WCS et enthousiaste à l'idée de voir cette incroyable communauté continuer à grandir.",
-              "Ses compétences particulières résident dans l'intégration des nouveaux danseurs, en les aidant à se sentir bienvenus et à l'aise, et à trouver leur place dans le monde de la danse. Elle a dirigé le programme Zero to Hero lors de plusieurs événements et apporte désormais son expertise au Slovenian Open.",
+              "Depuis 15 ans, Tadej se consacre à capturer le mouvement, l'émotion et l'atmosphère à travers son objectif. Il a photographié plus de 90 festivals de danse à travers l'Europe, couvrant tout, du Swing à la Salsa, en passant par le Kizomba, le West Coast Swing et le Tango, développant ainsi une profonde compréhension de la manière de mettre les danseurs en valeur.",
+              "Tadej est connu pour son approche signature du travail de la lumière, créant des images nettes, dynamiques et artistiques qui préservent l'énergie de la piste de danse ainsi que l'intimité de chaque instant. Son expérience, sa rapidité et son regard créatif font de lui un photographe de confiance pour des événements de toute envergure.",
+            ],
+          },
+          {
+            names: "Szidonia",
+            title: "Réseaux sociaux",
+            src: "/images/staff_szidonia.png",
+            description: [
+              "Szidónia ({'@'}sisi.social) vient d'un parcours d'ingénieure, où structure, logique et précision façonnent sa manière de penser. En parallèle, la créativité, le mouvement et les relations humaines ont toujours été essentiels pour elle. Elle est attirée par les moments authentiques, l'énergie, les échanges et les expériences sincères. C'est ce qui l'a menée vers les réseaux sociaux : capturer ce que les gens ressentent réellement et le transformer en contenu qui résonne.",
+              "Aujourd'hui, elle travaille avec des événements en se concentrant sur le storytelling sur place et la présence sur les réseaux sociaux. Des coulisses à l'atmosphère sur la piste de danse, son contenu reflète l'essence véritable de chaque moment.",
+              "Son approche est intuitive, mais jamais aléatoire. Elle observe, s'adapte et évolue au rythme de chaque événement, équilibrant structure et spontanéité.",
             ],
           },
         ],

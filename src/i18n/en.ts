@@ -337,27 +337,23 @@ const en = {
               "They love filming and editing social media videos, live streaming events with instant replays, and adding classes to their global map of West Coast Swing.",
             ],
           },
-          // {
-          //   names: "Jennifer",
-          //   title: "Photography",
-          //   src: "/images/staff_jennifer.png",
-          //   description: [
-          //     "Jake is part of the Triple Step TV team, as videographer and lead web developer. Together with Harold and the rest of the crew, their mission is to share this beautiful, breathtaking dance that we all love - with as many people on the planet as possible!",
-          //     "They love filming and editing social media videos, live streaming events with instant replays, and adding classes to their global map of West Coast Swing.",
-          //   ],
-          // },
-        ],
-      },
-      {
-        pageTitle: "Zero to Hero",
-        people: [
           {
-            names: "Vicky",
-            title: "Zero to Hero Lead",
-            src: "/images/staff_vicky.jpg",
+            names: "Tadej",
+            title: "Photography",
+            src: "/images/staff_tadej.png",
             description: [
-              "Vicky is originally from Lithuania but now lives in London, where she discovered the joy and creativity of West Coast Swing in January 2023. From exploring music and dance to welcoming new people into the community, she is incredibly passionate about WCS and excited to see how this amazing community continues to grow.",
-              "Her special skills lie in integrating new dancers into the community, making them feel welcome and comfortable, and helping them to find their place in the dance world. She lead the Zero to Hero program at multiple events, and is now bringing her expertise to Slovenian Open.",
+              "For the past 15 years, Tadej has been dedicated to capturing movement, emotion, and atmosphere through his lens. He has photographed 90+ dance festivals across Europe, covering everything from Swing to Salsa, Kizomba, West Coast Swing, and Tango, and has developed a deep understanding of how to highlight dancers at their very best.",
+              "Tadej is known for his signature light-shaping approach, creating crisp, dynamic, and artistic images that preserve the energy of the dance floor and the intimacy of each moment. His experience, speed, and creative eye make him a trusted photographer for events of every scale.",
+            ],
+          },
+          {
+            names: "Szidonia",
+            title: "Social Media",
+            src: "/images/staff_szidonia.png",
+            description: [
+              "Szidónia ({'@'}sisi.social) comes from an engineering background, where structure, logic, and precision shape her way of thinking. At the same time, creativity, movement, and human connection have always been an essential part of who she is. She is drawn to real moments, to energy, conversations, and authentic experiences. This is what led her into social media: capturing what people truly feel and turning it into content that resonates.",
+              "Today, she works with events, focusing on on-site storytelling and social media presence. From behind-the-scenes details to the atmosphere on the dance floor, her content reflects the genuine essence of each moment.",
+              "Her approach is intuitive, but never random. She observes, adapts, and moves with the rhythm of each event, balancing structure with spontaneity.",
             ],
           },
         ],
