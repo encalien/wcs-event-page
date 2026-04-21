@@ -760,8 +760,7 @@ const fr = {
       },
       {
         pageTitle: "Pré-fête",
-        disclaimer:
-          "Les frais d'entrée pour la pré-soirée sont de <span class=\"bold\">10 EUR</span> s'ils sont achetés lors de l'inscription. La pré-soirée est incluse dans les pass Zero to Hero, mais PAS dans les Full ou Party pass. <br>Notez que les places sont limitées, donc nous ne prévoyons actuellement pas d'ouvrir la vente à l'entrée. Les frais payés ne sont pas remboursables. Si nous ouvrons la vente au public, le prix sera de <span class=\"bold\">15 EUR</span> à l'entrée.",
+        disclaimer: `Le prix d'entrée à la pré-soirée est de <span class="bold">10 EUR</span> s'il est acheté lors de l'inscription. La pré-soirée est incluse dans les pass Zero to Hero, mais PAS dans les pass Full ni Party. <br>Veuillez noter que le nombre de places est limité. Le droit d'entrée payé n'est ni remboursable ni transférable séparément. Le prix à l'entrée sera de <span class="bold">15 EUR</span>.`,
         description: [
           "Le château de Ljubljana, perché au sommet d'une colline offrant une vue imprenable sur la ville en contrebas, se dresse comme un repère historique significatif dans la capitale de la Slovénie. Datant du 11ème siècle, le château encapsule des siècles d'histoire riche dans ses murs anciens. Aujourd'hui, il fonctionne comme un centre culturel dynamique, offrant aux visiteurs de vastes panoramas, des expositions captivantes et des lieux d'événements distinctifs tels que la salle de bal enchantée Palacij, où notre pré-fête aura lieu de 20h à 3h jeudi.",
           "Si vous arrivez tôt, saisissez l'opportunité d'explorer la Tour du Château pour une vue panoramique à 360 degrés ou de vous régaler d'un dîner et de boissons au restaurant ou au bar du château.",

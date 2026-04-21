@@ -713,7 +713,7 @@ const en = {
       {
         pageTitle: "Preparty",
         disclaimer:
-          'The preparty entrance fee is <span class="bold">10 EUR</span> if purchased during registration. Preparty is included in the Zero to Hero passes, but NOT in the Full or Party passes. <br>Note that the spaces are limited, so we currently do not plan to open sales at the door. The paid entrance fee is non-refundable. If we open ticket sale to the public, the price will be <span class="bold">15 EUR</span> at the door.',
+          'The preparty entrance fee is <span class="bold">10 EUR</span> if purchased during registration. Preparty is included in the Zero to Hero passes, but NOT in the Full or Party passes. <br>Note that the spaces are limited. The paid entrance fee is non-refundable and non-transferable alone. The price at the door will be <span class="bold">15 EUR</span>.',
         description: [
           "Ljubljana Castle, perched atop a hill with breathtaking views of the city below, stands as a significant historical landmark in Slovenia's capital. Dating back to the 11th century, the castle encapsulates centuries of rich history within its ancient walls. Today, it functions as a vibrant cultural center, offering visitors sweeping panoramas, engaging exhibitions, and distinctive event venues such as the enchanting Palacij ballroom, where our preparty will take place from 8 pm to 3 am on Thursday.",
           "If you arrive early, take the opportunity to explore the Castle Tower for a panoramic 360-degree view of the city or indulge in dinner and drinks at the castle's restaurant or bar.",

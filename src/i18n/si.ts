@@ -732,7 +732,7 @@ const si = {
       {
         pageTitle: "Predvečer",
         disclaimer:
-          'Vstopnina za predvečer je <span class="bold">10 EUR</span>, če jo kupiš ob prijavi. Vstopnina je vključena v Zero to Hero passe, NI pa vključena v Full ali Party passe. <br>Upoštevaj, da je število mest omejeno, zato trenutno ne načrtujemo prodaje kart na vratih. Plačana vstopnina ni povračljiva. Če odpremo prodajo javnosti, bo cena na vratih <span class="bold">15 EUR</span>.',
+          'Vstopnina za preparty znaša <span class="bold">10 EUR</span>, če jo kupite med registracijo. Preparty je vključen v Zero to Hero passe, vendar NI vključen v Full ali Party passe. <br>Upoštevajte, da je število mest omejeno. Plačana vstopnina ni vračljiva in ni prenosljiva samostojno. Cena na vratih bo <span class="bold">15 EUR</span>.',
         description: [
           "Ljubljanski Grad, ki leži na hribu s čudovitim razgledom na mesto pod njim, je pomembna zgodovinska znamenitost slovenske prestolnice. Grad, ki sega v 11. stoletje, združuje stoletja bogate zgodovine znotraj svojega starodavnega obzidja. Danes deluje kot živahno kulturno središče, ki obiskovalcem ponuja osupljive panorame, privlačne razstave in prepoznavna prizorišča dogodkov, kot je očarljiva plesna dvorana Palacij, kjer bo v četrtek od 20.00 do 3.00 potekal naš predvečer.",
           "Če prispeš predčasno, lahko izkoristiš priložnost za raziskovanje Gradu. Lahko se povzpneš na Grajski stolp za panoramski razgled ali si privoščiš večerjo in pijačo v restavraciji ali baru.",
