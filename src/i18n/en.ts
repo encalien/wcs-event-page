@@ -546,8 +546,8 @@ const en = {
       description:
         "This is the planned final schedule. Note that it can still change at any point before or during the event.",
       downloadText: "Download the .pdf file.",
-      pdfSrc: "/files/schedule_v5.pdf",
-      pngSrc: "/images/schedule_v5.jpg",
+      pdfSrc: "/files/schedule_v6.pdf",
+      pngSrc: "/images/schedule_v6.jpg",
     },
     pricing: {
       pageTitle: "Pricing",

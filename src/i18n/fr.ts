@@ -572,8 +572,8 @@ const fr = {
       description:
         "Voici le programme final, bien que les horaires exacts puissent encore changer !",
       downloadText: "Télécharger le fichier .pdf.",
-      pdfSrc: "/files/schedule_v5.pdf",
-      pngSrc: "/images/schedule_v5.jpg",
+      pdfSrc: "/files/schedule_v6.pdf",
+      pngSrc: "/images/schedule_v6.jpg",
     },
     pricing: {
       pageTitle: "Tarifs",

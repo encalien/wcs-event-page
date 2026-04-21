@@ -571,8 +571,8 @@ const si = {
       description:
         "To je predviden končni urnik, a se lahko pred ali med dogodkom še spremeni.",
       downloadText: "Prenesi .pdf datoteko.",
-      pdfSrc: "/files/schedule_v5.pdf",
-      pngSrc: "/images/schedule_v5.jpg",
+      pdfSrc: "/files/schedule_v6.pdf",
+      pngSrc: "/images/schedule_v6.jpg",
     },
     pricing: {
       pageTitle: "Cenik",
