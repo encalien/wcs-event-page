@@ -764,7 +764,7 @@ const si = {
         ],
       },
       {
-        src: "/images/day_trip_bled_lake.png",
+        // src: "/images/day_trip_bled_lake.png",
         alt: "Slika Blejskega jezera",
         texts: [
           "Ker je ob jezeru veliko zanimivih aktivnosti, bomo imeli dovolj prostega časa za samostojno raziskovanje - lahko se sprehodiš ob obali, najeli tradicionalno »pletno« za obisk otoka in pozvonili na znamenitem zvonu želja ali pa preprosto uživali ob vodi in si privoščili kos odlične blejske kremšnite.",

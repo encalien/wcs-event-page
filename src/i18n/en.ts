@@ -814,7 +814,7 @@ const en = {
         ],
       },
       {
-        src: "/images/day_trip_bled_lake.png",
+        // src: "/images/day_trip_bled_lake.png",
         alt: "Bled Lake img",
         texts: [
           `As there are many things to do around the lake, we will have plenty of free time to explore on our own, whether it's taking a leisurely stroll along the lakeshore, renting a traditional "pletna" boat to visit the island and ring the lucky church bell, or simply relaxing by the water and enjoying a piece of delicious Bled cream cake.`,

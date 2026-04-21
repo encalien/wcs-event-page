@@ -847,7 +847,7 @@ const fr = {
         ],
       },
       {
-        src: "/images/day_trip_bled_lake.png",
+        // src: "/images/day_trip_bled_lake.png",
         alt: "Bled Lake img",
         texts: [
           `Comme il y a beaucoup de choses à faire autour du lac, nous aurons suffisamment de temps libre pour explorer à notre rythme — que ce soit pour une promenade tranquille le long de la rive, louer un bateau traditionnel “pletna” pour visiter l'île et faire sonner la cloche porte-bonheur, ou simplement se détendre au bord de l'eau en dégustant une délicieuse crème à la Bled.`,
