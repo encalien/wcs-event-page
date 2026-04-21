@@ -17,7 +17,7 @@ export default {
       isSubmitting: false,
       fieldErrors: {} as Record<number, string>,
       selectedImage: null as string | null,
-      preorderOpen: true,
+      preorderOpen: false,
     };
   },
   props: {
