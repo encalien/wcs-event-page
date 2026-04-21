@@ -417,8 +417,8 @@ const si = {
     program: {
       pageTitle: "Program",
       schedule: {
-        pdfSrc: "/files/schedule_zth_v1.pdf",
-        imgSrc: "/images/schedule_zth_v1.jpg",
+        pdfSrc: "/files/schedule_zth_v2.pdf",
+        imgSrc: "/images/schedule_zth_v2.jpg",
       },
       description: [
         "Program Zero to Hero je samostojen program, ki ga lahko rezerviraš tudi brez nadaljnje udeležbe na dogodku. Če pa že tako nameravaš udeležiti celotnega dogodka in bi rad_a Zero to Hero obiskal_a v sekundarni vlogi, lahko program dodaš na svoji profilni strani po registraciji.",
@@ -571,8 +571,8 @@ const si = {
       description:
         "To je predviden končni urnik, a se lahko pred ali med dogodkom še spremeni.",
       downloadText: "Prenesi .pdf datoteko.",
-      pdfSrc: "/files/schedule_v4.pdf",
-      pngSrc: "/images/schedule_v4.jpg",
+      pdfSrc: "/files/schedule_v5.pdf",
+      pngSrc: "/images/schedule_v5.jpg",
     },
     pricing: {
       pageTitle: "Cenik",

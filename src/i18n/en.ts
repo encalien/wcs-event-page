@@ -392,8 +392,8 @@ const en = {
     program: {
       pageTitle: "Program",
       schedule: {
-        pdfSrc: "/files/schedule_zth_v1.pdf",
-        imgSrc: "/images/schedule_zth_v1.jpg",
+        pdfSrc: "/files/schedule_zth_v2.pdf",
+        imgSrc: "/images/schedule_zth_v2.jpg",
       },
       description: [
         "The Zero to Hero program is a standalone program that you can book without attending the event afterwards. Alternatively, if you're planning to attend the full event, but would like to join the Zero to Hero as a secondary role, you can add this program through your profile page after registering for the event.",
@@ -546,8 +546,8 @@ const en = {
       description:
         "This is the planned final schedule. Note that it can still change at any point before or during the event.",
       downloadText: "Download the .pdf file.",
-      pdfSrc: "/files/schedule_v4.pdf",
-      pngSrc: "/images/schedule_v4.jpg",
+      pdfSrc: "/files/schedule_v5.pdf",
+      pngSrc: "/images/schedule_v5.jpg",
     },
     pricing: {
       pageTitle: "Pricing",

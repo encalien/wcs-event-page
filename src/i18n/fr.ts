@@ -416,8 +416,8 @@ const fr = {
     program: {
       pageTitle: "Programme",
       schedule: {
-        pdfSrc: "/files/schedule_zth_v1.pdf",
-        imgSrc: "/images/schedule_zth_v1.jpg",
+        pdfSrc: "/files/schedule_zth_v2.pdf",
+        imgSrc: "/images/schedule_zth_v2.jpg",
       },
       description: [
         "Le programme Zero to Hero est un programme indépendant auquel vous pouvez vous inscrire sans participer ensuite à l'événement. Alternativement, si vous prévoyez de participer à l'événement complet mais souhaitez rejoindre le Zero to Hero comme rôle secondaire, vous pouvez ajouter ce programme via votre page de profil après votre inscription.",
@@ -572,8 +572,8 @@ const fr = {
       description:
         "Voici le programme final, bien que les horaires exacts puissent encore changer !",
       downloadText: "Télécharger le fichier .pdf.",
-      pdfSrc: "/files/schedule_v4.pdf",
-      pngSrc: "/images/schedule_v4.jpg",
+      pdfSrc: "/files/schedule_v5.pdf",
+      pngSrc: "/images/schedule_v5.jpg",
     },
     pricing: {
       pageTitle: "Tarifs",
