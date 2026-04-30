@@ -229,7 +229,7 @@ const si = {
   },
   registration: {
     pageTitle: "Registracija",
-    opensSoonText: "Registracija se odpre kmalu.",
+    opensSoonText: "Registracija se odpre 1. maja ob 19:00.",
     registrationInfoText:
       'Pred prijavo preberi <a href="#/terms-and-conditions">Pravila in pogoje sodelovanja</a>.',
     loading: "Nalaganje obrazca...",
