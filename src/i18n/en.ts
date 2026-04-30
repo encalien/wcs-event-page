@@ -2,16 +2,16 @@ const en = {
   event: {
     name: "West Coast SPRING",
     location: "Ljubljana",
-    date: "5 - 7 May 2023",
+    date: "29 - 31 May 2026",
     welcomeText: "Join the fun!",
     tba: "To be announced.",
   },
   contact: {
     text: "If you have any questions, please contact us via email:",
-    email: "wcsslo.wixsite{'@'}gmail.com",
+    email: "info{'@'}kinesisrei.si",
   },
   urls: {
-    facebook: "https://www.facebook.com/events/892661502160068",
+    facebook: "https://www.facebook.com/events/3516361891862190",
     instagram: "",
   },
   home: {
@@ -25,34 +25,34 @@ const en = {
       ],
       yt: [
         {
-          name: "ASC 2022 Open Strictly Finals - Daniil Pavlov (RUS), Marina Motronenko (RUS) - 1st place",
-          src: "https://img.youtube.com/vi/BgOa8O8Icbk/sddefault.jpg",
-          href: "https://youtube.com/watch?v=BgOa8O8Icbk",
+          name: "The Chicago Classic 2023 - Jack & Jill Champion Finals - Doug Silton & Chantelle Pianetta",
+          src: "https://img.youtube.com/vi/F6eAAfjxib8/sddefault.jpg",
+          href: "https://youtube.com/watch?v=F6eAAfjxib8",
         },
         {
-          name: "Daniil Pavlov & Marina Motronenko. Teachers Show. Spring Fever 2022",
-          src: "https://img.youtube.com/vi/5ptwaPqY_I8/sddefault.jpg",
-          href: "https://youtube.com/watch?v=5ptwaPqY_I8",
+          name: "SDA 2017 • Showcase Division • Doug & Nicki Silton",
+          src: "https://img.youtube.com/vi/PmjvqCcQtsw/sddefault.jpg",
+          href: "https://youtube.com/watch?v=PmjvqCcQtsw",
         },
         {
           name: 'Daniil Pavlov & Marina Motronenko "2step" - Strictly Open Finals - Finnfest 2022',
-          src: "https://img.youtube.com/vi/srdar3V3GIM/sddefault.jpg",
-          href: "https://youtube.com/watch?v=srdar3V3GIM",
+          src: "https://img.youtube.com/vi/YQKHsPYER_4/sddefault.jpg",
+          href: "https://youtube.com/watch?v=YQKHsPYER_4",
         },
         {
-          name: "Daniil Pavlov & Ani Fuller - 1st place All-Stars Jack&Jill - Baltic Swing 2019",
+          name: "Doug Silton & Christelle Antenucci - 2nd place Strictly Open - Anchor Festival 2019",
           src: "https://img.youtube.com/vi/j2rZNi7f_a4/sddefault.jpg",
           href: "https://youtube.com/watch?v=j2rZNi7f_a4",
         },
         {
-          name: "Leo Lorenzo & Marina Motronenko - Strictly Open Finals - Budafest 2022",
-          src: "https://img.youtube.com/vi/tAYaLHBZVGI/sddefault.jpg",
-          href: "https://youtube.com/watch?v=tAYaLHBZVGI?t=19",
+          name: 'Doug Silton & Stephen White "Touch" - Strictly Champions Finals - SwingTime 2022',
+          src: "https://img.youtube.com/vi/1bk7RGxK8QY/sddefault.jpg",
+          href: "https://youtube.com/watch?v=1bk7RGxK8QY?t=19",
         },
         {
-          name: "ASC 2022 All-Stars JnJ Finals - Daniil Pavlov (RUS) - Eszter Moricz (HUN) - 1st place",
-          src: "https://img.youtube.com/vi/wuBOzILYxZo/sddefault.jpg",
-          href: "https://youtube.com/watch?v=wuBOzILYxZo",
+          name: '"Run Through Fire" Doug Silton & Anna Wallace - Champions Strictly Finals SwingCouver NYE 23/24',
+          src: "https://img.youtube.com/vi/joQTC3sHYiU/sddefault.jpg",
+          href: "https://youtube.com/watch?v=joQTC3sHYiU",
         },
       ],
     },
@@ -60,21 +60,24 @@ const en = {
   workshops: {
     pageTitle: "Workshops",
     staff: {
-      pageTitle: "Teachers",
-      teachers: {
-        names: "Daniel & Marina",
-        src: "/src/assets/images/teachers.png",
-        description: [
-          "Both Marina and Daniel have over a decade of experience teaching dance, but only recently have they began to travel and teach together. Combining different approaches, Marina's charismatic style and Daniel's structured methodology, they aim to create wholesome classes that reach all kinds of students.",
-          "They love west coast swing for its freedom and inclusivity that allows such different dancers to be able to create together and hope to share their passion with you.",
-        ],
-      },
+      pageTitle: "Teacher",
+      teachers: [
+        {
+          names: "Doug Silton",
+          src: "/images/teacher.jpg",
+          description: [
+            "Doug Silton is a movement artist working across dance and photography, with a strong focus on capturing connection, expression, and human stories. Alongside his dance career, he creates visual work through photography and video, often exploring the relationship between movement and imagery. His artistic approach is grounded in observation, curiosity, and a desire to communicate beyond words.",
+            "He has been active in the global dance scene since 2000, with a background in multiple partner and solo styles including Lindy Hop, Balboa, Carolina Shag, and West Coast Swing. His work as a dancer and teacher centers on understanding how movement functions, with an emphasis on efficiency, clarity, and communication between partners. Over the years, he has developed a distinct teaching approach that blends technical precision with a deeper exploration of movement principles.",
+            "Within West Coast Swing, Doug is known for his analytical and thoughtful approach to technique, connection, and musicality. His classes often explore the “why” behind movement, helping dancers build a solid foundation while developing adaptability and personal expression. He regularly teaches at international events, sharing a structured yet exploratory perspective that reflects both his technical depth and his broader movement philosophy.",
+          ],
+        },
+      ],
     },
     level: {
       title: "Level",
       descriptionText: [
-        "Workshops will be held on an improver-intermediate level. They will not be appropriate for complete beginners. Participants should already know the basic patterns (sugar push, side pass, whip) and be aware of basic lead-follow concepts.",
-        "The level of workshops will progress over the weekend, starting from improver level on Saturday towards intermediate level on Sunday.",
+        "Workshops will be held on an novice level. They will not be appropriate for complete beginners. Participants should already know the basic patterns (left side pass, underarm, sugar push, sugar tuck, starter step, whip) and understand the basic lead-follow concepts (stretch, compression). We advise at least 6 months of dancing experience.",
+        "If you are not sure if you meet the requirements to attend the workshops, please contact us via email and we will be happy to help you figure it out.",
       ],
     },
     schedule: {
@@ -82,35 +85,29 @@ const en = {
       description: "This is a preliminary schedule and is subject to change.",
       days: [
         {
-          title: "Friday, May 5",
+          title: "Friday, May 29",
           items: [
             {
               time: "20.00 - 21.00",
-              topic: "Back to Basics with Aleksandra",
+              topic: "Back to Basics",
               description:
-                "Included in Full pass or Party pass, as well as Friday party entrance fee.",
+                "Included in Full pass, as well as Friday party entrance fee.",
               class: "class",
             },
             {
               time: "21.00 - 01.00",
               topic: "Party",
-              description: "Entrance fee included in Full pass or Party pass.",
+              description: "5 eur entrance fee - included in Full pass.",
               class: "party",
             },
           ],
         },
         {
-          title: "Saturday, May 6",
+          title: "Saturday, May 30",
           items: [
             {
-              time: "12.00 - 13.00",
-              topic: "Class",
-              description: "",
-              class: "class",
-            },
-            {
-              time: "13.15 - 14.15",
-              topic: "Class",
+              time: "12:00 - 13:30",
+              topic: "Technique & Philosophy",
               description: "",
               class: "class",
             },
@@ -121,39 +118,39 @@ const en = {
               class: "break",
             },
             {
-              time: "15.30 - 16.30",
-              topic: "Class",
+              time: "14:30 - 16:00",
+              topic: "Styling & Movements",
               description: "",
               class: "class",
             },
             {
-              time: "20.00 - 03.00",
+              time: "20:00 - 03:00",
               topic: "Party",
-              description: "Entrance fee included in all passes.",
+              description: "5 eur entrance fee - included in Full pass.",
               class: "party",
             },
           ],
         },
         {
-          title: "Sunday, May 7",
+          title: "Sunday, May 31",
           items: [
             {
-              time: "12.00 - 13.00",
-              topic: "Class",
+              time: "12:00 - 13:30",
+              topic: "Technique & Philosophy",
               description: "",
               class: "class",
             },
             {
-              time: "13.15 - 14.15",
-              topic: "Class",
+              time: "",
+              topic: "Lunch Break",
               description: "",
-              class: "class",
+              class: "break",
             },
             {
               time: "14:30 - 16:00",
-              topic: "Westie Lunch",
+              topic: "Spins and Turns",
               description: "",
-              class: "break",
+              class: "class",
             },
           ],
         },
@@ -163,73 +160,69 @@ const en = {
       pageTitle: "Pricing",
       description: [
         "For this event we will have 3 price tiers.",
-        "Early bird price will be offered to first 10 participants (regardless of pass type), normal bird price to the next 20 participants, and late bird price for everyone else. With every tier the workshop price will rise for 10 euros and the party pass price for 5 euros.",
+        "Early bird price will be offered to first 10 ACCEPTED participants, normal bird price to the next 20 ACCEPTED participants, and late bird price for everyone else. With every tier the workshop price will rise for 10 euros.",
       ],
-      priceTier: "Late Bird",
-      passes: [
+      priceTier: "Early Bird",
+      passInfo: {
+        title: "Full Pass",
+        includesText: "Includes",
+        includes: [
+          "Back to Basics class",
+          "6 hours of workshops",
+          "entrance fee to both parties",
+        ],
+      },
+      priceTiers: [
         {
-          title: "Full Pass",
+          title: "Early Bird",
+          price: "70 euros",
+        },
+        {
+          title: "Normal Bird",
           price: "80 euros",
-          includes: ["6 hours of workshops", "entrance fee to both parties"],
         },
         {
-          title: "Saturday Pass",
-          price: "60 euros",
-          includes: [
-            "3 hours of workshops on Saturday",
-            "entrance fee to Saturday party",
-          ],
-        },
-        {
-          title: "Party Pass",
-          price: "25 euros",
-          includes: ["entrance fee to both parties"],
+          title: "Late Bird",
+          price: "90 euros",
         },
       ],
     },
   },
   location: {
     pageTitle: "Location",
-    venue: {
-      locationText:
-        "The workshops will be held at Studio Dansa dance school, located at:",
-      address: {
-        name: "Studio Dansa",
-        address: "Vilharjeva cesta 3",
-        zipAndCity: "1000 Ljubljana",
-        country: "Slovenia",
+    venue: [
+      {
+        locationText:
+          "All program will be held at BastArts studio, located at:",
+        address: {
+          name: "BastArts Academy",
+          address: "Ob železnici 14",
+          zipAndCity: "1000 Ljubljana",
+          country: "Slovenia",
+        },
+        parkingText:
+          "Parking is possilble on the gravel parking lot, immediately to the right after passing the train tracks.",
+        accessText:
+          "Access to the venue is straight on from the parking barrier, and up the outside stairs to the first floor.",
+        mapSrc:
+          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2620.758732464135!2d14.5347081!3d46.0598853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765336e2d07fa45%3A0x94cab2c45d64be8f!2sPlesna%20%C5%A1ola%20BastArts%20Academy!5e1!3m2!1sen!2ssi!4v1765993879935!5m2!1sen!2ssi",
       },
-      parkingText:
-        "Parking is possible in several paid parking lots nearby, the nearest parking lot is on Vilharjeva opposite the dance school. You can also park in public roadside parking areas, where it's usually free during the weekends, except Saturday mornings.",
-      accessText:
-        "Access to the dance school is around the building, not where the entrance is. From the nearest parking lot it looks like this:",
-    },
+    ],
     hotel: {
       title: "Accommodation",
       suggestionsText: [
-        "Depending on your budget and service preferences, there are multiple hotels as well as hostels, apartments and AirBnbs nearby.",
-        "Here are some hotel suggestions, ordered by distance to the venue:",
+        "There are a couple of options within walking distance to the venue. Here are the two that are closest to the venue:",
       ],
       list: [
         {
-          name: "Intercontinental *****",
+          name: "RailwayRooms Hostel",
           distance: "5 min walk",
-          url: "https://www.booking.com/Share-aDpENI",
+          url: "https://www.booking.com/hotel/si/railwayrooms22.en-gb.html",
         },
         {
-          name: "Central hotel ***",
-          distance: "10 min walk",
-          url: "https://www.booking.com/Share-heW9iDT",
-        },
-        {
-          name: "City hotel **",
-          distance: "13 min walk",
-          url: "https://www.booking.com/Share-f8UiHw",
-        },
-        {
-          name: "Park ***",
-          distance: "15 min walk",
-          url: "https://www.booking.com/Share-cQFt8l",
+          name: "Hozy House ***",
+          distance: "5 min walk",
+          url: "https://www.booking.com/hotel/si/kajuhova-apartmans.en-gb.html",
         },
       ],
     },

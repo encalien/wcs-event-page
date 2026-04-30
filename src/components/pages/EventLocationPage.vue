@@ -13,25 +13,32 @@ export default {
 <template>
   <section id="venue">
     <h1>{{ $t("location.pageTitle") }}</h1>
-    <div class="flex-container flex-gap">
-      <div class="flex-item margin-0">
-        <p>{{ $t(`location.venue.locationText`) }}</p>
-        <p class="flex-container flex-container-column">
-          <span>{{ $t("location.venue.address.name") }}</span>
-          <span>{{ $t("location.venue.address.address") }}</span>
-          <span>{{ $t("location.venue.address.zipAndCity") }}</span>
-        </p>
-        <p class="margin-0">{{ $t(`location.venue.parkingText`) }}</p>
+    <div v-for="(val, i) in messages.location.venue" :key="i">
+      <div class="flex-container flex-gap">
+        <div class="flex-item margin-0">
+          <p>{{ $t(`location.venue[${i}].locationText`) }}</p>
+          <p class="flex-container flex-container-column">
+            <span>{{ $t(`location.venue[${i}].address.name`) }}</span>
+            <span>{{ $t(`location.venue[${i}].address.address`) }}</span>
+            <span>{{ $t(`location.venue[${i}].address.zipAndCity`) }}</span>
+          </p>
+          <p v-if="i === 1" class="margin-0">
+            {{ $t(`location.venue[${i}].busText`) }}
+          </p>
+          <p class="margin-0">{{ $t(`location.venue[${i}].parkingText`) }}</p>
+        </div>
+        <div class="margin-0">
+          <iframe
+            :src="$t(`location.venue[${i}].mapSrc`)"
+            class="map"
+            allow="fullscreen"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
-      <div class="flex-item margin-0">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2768.5550688276053!2d14.506221715189787!3d46.05997230151305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765329bda01817d%3A0x3598d33068363f77!2sStudio%20Dansa!5e0!3m2!1ssl!2ssi!4v1676034152943!5m2!1ssl!2ssi"
-          class="map"
-          allow="fullscreen"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
+      <br />
+      <hr />
     </div>
 
     <!-- <p>{{ $t(`location.venue.accessText`) }}</p> -->
@@ -55,7 +62,8 @@ export default {
 
 <style scoped>
 .map {
-  height: 100%;
+  width: 500px;
+  height: 300px;
   border: none;
 }
 

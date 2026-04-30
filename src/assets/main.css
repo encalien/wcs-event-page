@@ -1,4 +1,4 @@
-@import './base.css';
+@import "./base.css";
 
 /* html tags */
 section {
@@ -7,15 +7,24 @@ section {
 
 main {
   padding: 40px 40px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 1rem;
 }
 
 h1 {
   font-size: 1.6rem;
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 h2 {
@@ -33,19 +42,20 @@ p {
 
 a {
   text-decoration: none;
-  color: var(--accent-3);
+  color: var(--accent-1);
   filter: brightness(75%);
 }
 
 a:visited {
-  filter: brightness(50%);
+  filter: brightness(75%);
 }
 
 a:hover {
   filter: brightness(100%);
 }
 
-a:focus, a:active {
+a:focus,
+a:active {
   filter: brightness(120%);
 }
 
@@ -98,7 +108,7 @@ hr {
   padding: 1rem;
 }
 
-.grid-row.grid-container{
+.grid-row.grid-container {
   grid-template-columns: 1fr 3fr;
   padding: 0;
 }
@@ -145,7 +155,7 @@ hr {
 
 .margin-0 {
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 .center-text {

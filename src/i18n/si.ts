@@ -2,16 +2,16 @@ const si = {
   event: {
     name: "West Coast SPRING",
     location: "Ljubljana",
-    date: "5. - 7. maj 2023",
+    date: "29. - 31. maj 2026",
     welcomeText: "Pridruži se!",
     tba: "Več informacij kmalu.",
   },
   contact: {
     text: "Za vsa vprašanja smo na voljo preko elektronske pošte:",
-    email: "wcsslo.wixsite{'@'}gmail.com",
+    email: "info{'@'}kinesisrei.si",
   },
   urls: {
-    facebook: "https://www.facebook.com/events/892661502160068",
+    facebook: "https://www.facebook.com/events/3516361891862190",
     instagram: "",
   },
   home: {
@@ -25,34 +25,34 @@ const si = {
       ],
       yt: [
         {
-          name: "ASC 2022 Open Strictly Finals - Daniil Pavlov (RUS), Marina Motronenko (RUS) - 1st place",
-          src: "https://img.youtube.com/vi/BgOa8O8Icbk/sddefault.jpg",
-          href: "https://youtube.com/watch?v=BgOa8O8Icbk",
+          name: "The Chicago Classic 2023 - Jack & Jill Champion Finals - Doug Silton & Chantelle Pianetta",
+          src: "https://img.youtube.com/vi/F6eAAfjxib8/sddefault.jpg",
+          href: "https://youtube.com/watch?v=F6eAAfjxib8",
         },
         {
-          name: "Daniil Pavlov & Marina Motronenko. Teachers Show. Spring Fever 2022",
-          src: "https://img.youtube.com/vi/5ptwaPqY_I8/sddefault.jpg",
-          href: "https://youtube.com/watch?v=5ptwaPqY_I8",
+          name: "SDA 2017 • Showcase Division • Doug & Nicki Silton",
+          src: "https://img.youtube.com/vi/PmjvqCcQtsw/sddefault.jpg",
+          href: "https://youtube.com/watch?v=PmjvqCcQtsw",
         },
         {
           name: 'Daniil Pavlov & Marina Motronenko "2step" - Strictly Open Finals - Finnfest 2022',
-          src: "https://img.youtube.com/vi/srdar3V3GIM/sddefault.jpg",
-          href: "https://youtube.com/watch?v=srdar3V3GIM",
+          src: "https://img.youtube.com/vi/YQKHsPYER_4/sddefault.jpg",
+          href: "https://youtube.com/watch?v=YQKHsPYER_4",
         },
         {
-          name: "Daniil Pavlov & Ani Fuller - 1st place All-Stars Jack&Jill - Baltic Swing 2019",
+          name: "Doug Silton & Christelle Antenucci - 2nd place Strictly Open - Anchor Festival 2019",
           src: "https://img.youtube.com/vi/j2rZNi7f_a4/sddefault.jpg",
           href: "https://youtube.com/watch?v=j2rZNi7f_a4",
         },
         {
-          name: "Leo Lorenzo & Marina Motronenko - Strictly Open Finals - Budafest 2022",
-          src: "https://img.youtube.com/vi/tAYaLHBZVGI/sddefault.jpg",
-          href: "https://youtube.com/watch?v=tAYaLHBZVGI?t=19",
+          name: 'Doug Silton & Stephen White "Touch" - Strictly Champions Finals - SwingTime 2022',
+          src: "https://img.youtube.com/vi/1bk7RGxK8QY/sddefault.jpg",
+          href: "https://youtube.com/watch?v=1bk7RGxK8QY?t=19",
         },
         {
-          name: "ASC 2022 All-Stars JnJ Finals - Daniil Pavlov (RUS) - Eszter Moricz (HUN) - 1st place",
-          src: "https://img.youtube.com/vi/wuBOzILYxZo/sddefault.jpg",
-          href: "https://youtube.com/watch?v=wuBOzILYxZo",
+          name: '"Run Through Fire" Doug Silton & Anna Wallace - Champions Strictly Finals SwingCouver NYE 23/24',
+          src: "https://img.youtube.com/vi/joQTC3sHYiU/sddefault.jpg",
+          href: "https://youtube.com/watch?v=joQTC3sHYiU",
         },
       ],
     },
@@ -60,21 +60,24 @@ const si = {
   workshops: {
     pageTitle: "Delavnice",
     staff: {
-      pageTitle: "Učitelja",
-      teachers: {
-        names: "Daniel in Marina",
-        src: "/src/assets/images/teachers.png",
-        description: [
-          "Marina in Daniel imata oba za sabo že več kot 10 let profesionalnega poučevanja plesa, a sta šele pred kratkim začela poučevati in potovati skupaj. Vsak s svojim pristopom, Marina s svojim karizmatičnim stilom in Daniel s strukturirano metodologijo, ustvarjata edinstvne tečaje, ki bodo pisani na kožo mnogim učencem.",
-          "West coast swing imata rada zaradi svobode, ki jo dopušča, in inkluzivnosti, zaradi katere lahko raznoliki plesalci skupaj ustvarjajo. Upata, da lahko svojo strast do plesa delita tudi s tabo.",
-        ],
-      },
+      pageTitle: "Učitelj",
+      teachers: [
+        {
+          names: "Doug Silton",
+          src: "/images/teacher.jpg",
+          description: [
+            "Doug Silton je umetnik gibanja, ki deluje na področju plesa in fotografije, z močnim poudarkom na zajemanju povezave, izraza in človeških zgodb. Poleg plesne kariere ustvarja vizualna dela skozi fotografijo in video, pri čemer pogosto raziskuje odnos med gibanjem in podobo. Njegov umetniški pristop temelji na opazovanju, radovednosti in želji po komunikaciji onkraj besed.",
+            "Na globalni plesni sceni je aktiven od leta 2000, z ozadjem v različnih partnerskih in solo plesnih stilih, vključno z Lindy Hopom, Balboo, Carolina Shagom in West Coast Swingom. Njegovo delo kot plesalca in učitelja temelji na razumevanju delovanja gibanja, s poudarkom na učinkovitosti, jasnosti in komunikaciji med partnerjema. Skozi leta je razvil prepoznaven pedagoški pristop, ki združuje tehnično natančnost z globljim raziskovanjem principov gibanja.",
+            "V okviru West Coast Swinga je Doug znan po svojem analitičnem in premišljenem pristopu k tehniki, povezavi in muzikalnosti. Njegovi tečaji pogosto raziskujejo »zakaj« za gibanjem, kar plesalcem pomaga zgraditi trdne temelje ter razvijati prilagodljivost in osebni izraz. Redno poučuje na mednarodnih dogodkih, kjer deli strukturiran, a hkrati raziskovalen pristop, ki odraža tako njegovo tehnično poglobljenost kot širšo filozofijo gibanja.",
+          ],
+        },
+      ],
     },
     level: {
       title: "Zahtevnostna stopnja",
       descriptionText: [
-        "Delavnice bodo potekale na naprednem - nadaljevalnem nivoju. Vsebina ne bo primerna za popolne začetnike, udeleženci morajo poznati vsaj osnovne figure (sugar push, side pass, whip) in biti seznanjeni z osnovnimi koncepti vodenja in sledenja.",
-        "Tekom vikenda bo težavnost delavnic progresivno naraščala, delavnice v nedeljo bodo potekale torej na višjem nivoju kot delavnice v soboto.",
+        "Delavnice bodo potekale na ravni WSDC Novice. Niso primerne za popolne začetnike. Udeleženci morajo poznati osnovne figure (left side pass, underarm, sugar push, sugar tuck, starter step, whip) in razumeti osnovne principe vodenja in sledenja (stretch, compression). Priporočamo vsaj 6 mesecev obiskovanja WCS tečajev.",
+        "Če nisi prepričan_a, ali izpolnjuješ pogoje za udeležbo na delavnicah, nas kontaktiraj po e-pošti in z veseljem ti bomo pomagali.",
       ],
     },
     schedule: {
@@ -82,36 +85,29 @@ const si = {
       description: "Program je okviren in se lahko še spremeni.",
       days: [
         {
-          title: "Petek, 5. maj",
+          title: "Petek, 30. maj",
           items: [
             {
-              time: "20.00 - 21.00",
-              topic: "Back to Basics z Aleksandro",
+              time: "20:00 - 21:00",
+              topic: "Back to Basics",
               description:
-                "Vstopnina vključena v ceno vseh paketov in vstopnino petkove zabave.",
+                "Vključen v vikend paket in v vstopnino petkove zabave.",
               class: "class",
             },
             {
-              time: "20.00 - 01.00",
+              time: "21:00 - 01:00",
               topic: "Zabava",
-              description:
-                "Vstopnina vključena v ceno vstopnice Vikend paket ali Večerni paket.",
+              description: "Vstopnina 5 evr - vključena v ceno vikend paketa.",
               class: "party",
             },
           ],
         },
         {
-          title: "Sobota, 6. maj",
+          title: "Sobota, 31. maj",
           items: [
             {
-              time: "12.00 - 13.00",
-              topic: "Delavnica",
-              description: "",
-              class: "class",
-            },
-            {
-              time: "13.15 - 14.15",
-              topic: "Delavnica",
+              time: "12:00 - 13:30",
+              topic: "Tehnika in filozofija",
               description: "",
               class: "class",
             },
@@ -122,39 +118,39 @@ const si = {
               class: "break",
             },
             {
-              time: "15.30 - 16.30",
-              topic: "Delavnica",
+              time: "14:30 - 16:00",
+              topic: "Stil in gibanje",
               description: "",
               class: "class",
             },
             {
-              time: "20.00 - 03.00",
+              time: "20:00 - 03:00",
               topic: "Zabava",
-              description: "Vstopnina vključena v ceno vseh paketov.",
+              description: "Vstopnina 5 evr - vključena v ceno vikend paketa.",
               class: "party",
             },
           ],
         },
         {
-          title: "Nedelja, 7. maj",
+          title: "Nedelja, 31. maj",
           items: [
             {
-              time: "12.00 - 13.00",
-              topic: "Delavnica",
+              time: "12:00 - 13:30",
+              topic: "Tehnika in filozofija",
               description: "",
               class: "class",
             },
             {
-              time: "13.15 - 14.15",
-              topic: "Delavnica",
+              time: "",
+              topic: "Odmor za kosilo",
               description: "",
-              class: "class",
+              class: "break",
             },
             {
               time: "14:30 - 16:00",
-              topic: "Westie kosilo",
+              topic: "Spini in obrati",
               description: "",
-              class: "break",
+              class: "class",
             },
           ],
         },
@@ -164,70 +160,69 @@ const si = {
       pageTitle: "Cenik",
       description: [
         "Na tem dogodku bodo vstopnice na voljo v treh cenovnih razredih.",
-        "Najnižja cena velja za prvih 10 prijavljenih (ne glede na vrsto vstopnice), srednja za naslednjih 20 in najvišja za vse ostale. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr, cena večernega paketa pa za 5 evr.",
+        "Najnižja cena velja za prvih 10 SPREJETIH prijav, srednja za naslednjih 20 in najvišja za vse ostale. Z vsakim cenovnim razredom se cena delavnic dvigne za 10 evr.",
       ],
-      priceTier: "Zadnja cena",
-      passes: [
+      priceTier: "Prva cena",
+      passInfo: {
+        title: "Vikend paket",
+        includesText: "Vključuje",
+        includes: [
+          "Back to Basics ura",
+          "6 ur delavnic",
+          "vstopnina za obe zabavi",
+        ],
+      },
+      priceTiers: [
         {
-          title: "Vikend paket",
+          title: "Prva cena",
+          price: "70 evr",
+        },
+        {
+          title: "Srednja cena",
           price: "80 evr",
-          includes: ["6 ur delavnic", "vstopnina za obe zabavi"],
         },
         {
-          title: "Sobotni paket",
-          price: "60 evr",
-          includes: ["3 ure delavnic v soboto", "vstopnina za sobotno zabavo"],
-        },
-        {
-          title: "Večerni paket",
-          price: "25 evr",
-          includes: ["vstopnina za obe zabavi"],
+          title: "Zadnja cena",
+          price: "90 evr",
         },
       ],
     },
   },
   location: {
     pageTitle: "Lokacija",
-    venue: {
-      locationText:
-        "Delavnice bodo potekale v plesni šoli Studio Dansa, na naslovu:",
-      address: {
-        name: "Studio Dansa",
-        address: "Vilharjeva cesta 3",
-        zipAndCity: "1000 Ljubljana",
-        country: "Slovenia",
+    venue: [
+      {
+        locationText:
+          "Celoten program bo potekal v studiu BastArts, na naslednjem naslovu:",
+        address: {
+          name: "BastArts Academy",
+          address: "Ob železnici 14",
+          zipAndCity: "1000 Ljubljana",
+          country: "Slovenija",
+        },
+        parkingText:
+          "Parkiranje je možno na makadamskem parkirišču, takoj na desni, ko prečkate železniške tire.",
+        accessText:
+          "Dostop do studia je naravnost mimo zapornice, nato po zunanjih stopnicah v prvo nadstropje.",
+        mapSrc:
+          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2620.758732464135!2d14.5347081!3d46.0598853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765336e2d07fa45%3A0x94cab2c45d64be8f!2sPlesna%20%C5%A1ola%20BastArts%20Academy!5e1!3m2!1sen!2ssi!4v1765993879935!5m2!1sen!2ssi",
       },
-      parkingText:
-        "Parkiranje je možno na večih plačljivih parkiriščih v bližini, najbližje parkirišče je na Vilharjevi nasproti plesne šole. Parkirate lahko tudi na javnih obcestnih parkirnih površinah, kjer se med vikendom parkirnina zaračuna običajno samo v soboto dopoldne.",
-      accessText:
-        "Dostop je okrog stavbe, ne tam, kjer je vhod v plesno šolo. Od najbližjega parkirišča zgleda nekako takole:",
-    },
+    ],
     hotel: {
-      title: "Prenočišča",
+      title: "Nastanitve",
       suggestionsText: [
-        "V bližini je več hotelov, hostlov, apartmajev in airbnb, odvisno od vašega proračuna in storitev.",
-        "Tukaj je nekaj predlogov hotelov, razvrščenih po razdalji do prizorišča:",
+        "V bližini prizorišča je več možnosti za prenočišče. Tukaj sta dve, ki sta najbližje:",
       ],
       list: [
         {
-          name: "Intercontinental *****",
+          name: "RailwayRooms Hostel",
           distance: "5 min hoje",
-          url: "https://www.booking.com/Share-aDpENI",
+          url: "https://www.booking.com/hotel/si/railwayrooms22.en-gb.html",
         },
         {
-          name: "Central hotel ***",
-          distance: "10 min hoje",
-          url: "https://www.booking.com/Share-heW9iDT",
-        },
-        {
-          name: "City hotel **",
-          distance: "13 min hoje",
-          url: "https://www.booking.com/Share-f8UiHw",
-        },
-        {
-          name: "Park ***",
-          distance: "15 min hoje",
-          url: "https://www.booking.com/Share-cQFt8l",
+          name: "Hozy House ***",
+          distance: "5 min hoje",
+          url: "https://www.booking.com/hotel/si/kajuhova-apartmans.en-gb.html",
         },
       ],
     },

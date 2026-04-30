@@ -17,27 +17,34 @@ export default {
       {{ $t(`workshops.pricing.description[${i}]`) }}
     </p>
 
-    <div id="passes" class="flex-container">
-      <div
-        v-for="(val, i) in messages.workshops.pricing.passes"
-        :key="i"
-        class="pass"
-        :class="`bg-${i + 1}`"
-      >
-        <div class="price-tier-band">
-          {{ $t("workshops.pricing.priceTier") }}
+    <div id="passes">
+      <h3 style="text-align: left">
+        {{ $t("workshops.pricing.passInfo.title") }}
+      </h3>
+      <div class="flex-container">
+        <div>
+          {{ $t("workshops.pricing.passInfo.includesText") }}
+          <ul>
+            <li
+              v-for="(val, i) in messages.workshops.pricing.passInfo.includes"
+              :key="i"
+            >
+              {{ $t(`workshops.pricing.passInfo.includes[${i}]`) }}
+            </li>
+          </ul>
         </div>
-        <h3>{{ $t(`workshops.pricing.passes[${i}].title`) }}</h3>
-        <hr />
-        <ul>
-          <li
-            v-for="(val, j) in messages.workshops.pricing.passes[i].includes"
-            :key="j"
-          >
-            {{ $t(`workshops.pricing.passes[${i}].includes[${j}]`) }}
-          </li>
-        </ul>
-        <p class="price">{{ $t(`workshops.pricing.passes[${i}].price`) }}</p>
+        <div
+          v-for="(val, i) in messages.workshops.pricing.priceTiers"
+          :key="i"
+          class="center-text"
+        >
+          <div style="font-weight: bold; margin-bottom: 1rem">
+            {{ $t(`workshops.pricing.priceTiers[${i}].title`) }}
+          </div>
+          <h2 style="font-weight: bold">
+            {{ $t(`workshops.pricing.priceTiers[${i}].price`) }}
+          </h2>
+        </div>
       </div>
     </div>
   </section>
@@ -47,56 +54,15 @@ export default {
 #passes {
   justify-content: space-between;
   gap: 2rem;
+  margin-top: 4rem;
 }
 
-.pass {
-  flex: 1 1 300px;
-  padding: 3rem 2rem 2rem;
-  border: 2px solid var(--black);
-  border-radius: 2px;
-  overflow: hidden;
-}
-
-.pass > h3 {
-  font-size: 1.6rem;
-}
-
-.pass > ul {
-  height: 4rem;
-  text-align: center;
-  list-style: none;
-  padding: 0;
-}
-
-.pass > .price {
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: center;
-  margin: 1rem auto 0;
-}
-
-.bg-1 {
-  background-color: var(--accent-1);
-}
-
-.bg-2 {
-  background-color: var(--accent-2);
-}
-
-.bg-3 {
-  background-color: var(--accent-3);
-}
-
-.price-tier-band {
-  background-color: var(--color-background-alt);
-  color: var(--color-text-alt);
-  position: absolute;
-  top: 1.2rem;
-  right: -2.7rem;
-  width: 10rem;
-  transform: rotate(45deg);
-  padding: 0.5rem;
-  text-align: center;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: start;
+  gap: 6rem;
 }
 
 @media screen and (max-width: 900px) {
@@ -115,20 +81,6 @@ export default {
   .pass {
     flex: none;
     width: 100%;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .bg-1 {
-    background-color: var(--dark-1);
-  }
-
-  hr {
-    border-color: var(--light);
-  }
-
-  .price-tier-band {
-    color: var(--color-text-alt);
   }
 }
 </style>

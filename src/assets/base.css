@@ -8,17 +8,17 @@
   --black-soft: #222222;
   --black-mute: #282828;
 
-  --accent-1: #FF66C4;
-  --accent-2: #FFDE59;
-  --accent-3: #5CE1E6;
-  --accent-4: #8952FF;
+  --accent-1: #d3e671;
+  --accent-2: #89ac46;
+  --accent-3: #f8ed8c;
+  --accent-4: #ff8989;
 
   --accent-1-disabled: hsl(323, 100%, 10%, 50%);
 
-  --dark-1: #211E52;
-  --dark-2: #2D2872;
+  --dark-1: #121709;
+  --dark-2: #1c230e;
 
-  --light: #C6C5CD;
+  --light: #c6c5cd;
 }
 
 /* semantic color variables for this project */
@@ -33,23 +33,8 @@
   --color-text-mute: var(--black-mute);
   --color-text-alt: var(--white-soft);
   --color-text-accent: var(--accent-1);
-  
-  --section-gap: 60px;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: var(--black);
-    --color-background-soft: var(--black-soft);
-    --color-background-mute: var(--black-mute);
-    --color-background-alt: var(--light);
-    
-    --color-text: var(--white);
-    --color-text-soft: var(--white-soft);
-    --color-text-mute: var(--white-mute);
-    --color-text-alt: var(--dark-1);
-    --color-text-accent: var(--dark-1);
-  }
+  --section-gap: 60px;
 }
 
 *,
@@ -64,8 +49,9 @@
 body {
   min-height: 100vh;
   line-height: 1.6;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   font-size: 15px;
   background-color: var(--color-background);
   color: var(--color-text);
