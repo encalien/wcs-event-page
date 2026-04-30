@@ -2,7 +2,7 @@ const en = {
   event: {
     name: "Slovenian Open",
     location: "Ljubljana",
-    date: "23 - 27 April 2026",
+    date: "April 2027",
     welcomeText: "Join us at Slovenian Open - WSDC registered event!",
     readMoreText: "Read more",
     comingSoon: "Coming Soon",

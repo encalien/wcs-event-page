@@ -2,9 +2,9 @@ const si = {
   event: {
     name: "Slovenian Open",
     location: "Ljubljana",
-    date: "23. - 27. april 2026",
+    date: "april 2027",
     welcomeText:
-      "Pridruži se nam na WSDC registriranem Slovenian Open festivalu!",
+      "Pridruži se nam na WSDC registriranem festivalu Slovenian Open!",
     readMoreText: "Preberi več",
     comingSoon: "Prihaja kmalu",
     features: [

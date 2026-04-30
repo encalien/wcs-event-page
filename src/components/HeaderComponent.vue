@@ -83,8 +83,8 @@ export default {
               class="fa menu-item-link"
             />
           </div>
-          <div class="menu-items">
-            <!-- <div style="width: 100%"></div> -->
+          <div style="width: 100%"></div>
+          <!-- <div class="menu-items">
             <div
               class="menu-item"
               :class="{ active: isMobileMenuOpen }"
@@ -294,13 +294,6 @@ export default {
               >
                 <font-awesome-icon icon="fa-brands fa-instagram" />
               </a>
-              <!-- <a
-                target="_blank"
-                :href="$t('urls.whatsapp')"
-                class="menu-item-link"
-              >
-                <font-awesome-icon icon="fa-brands fa-whatsapp" />
-              </a> -->
             </div>
             <div
               id="localization-menu"
@@ -331,7 +324,7 @@ export default {
                 <font-awesome-icon icon="fa-regular fa-user" />
               </router-link>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

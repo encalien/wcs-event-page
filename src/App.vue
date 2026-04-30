@@ -74,8 +74,8 @@ export default {
 <template>
   <HeaderComponent />
   <main>
-    <router-view></router-view>
-    <!-- <ComingSoonComponent /> -->
+    <!-- <router-view></router-view> -->
+    <ComingSoonComponent />
   </main>
   <FooterComponent />
   <AlertComponent />
