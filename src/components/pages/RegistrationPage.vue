@@ -5,11 +5,11 @@ export default {};
 <template>
   <section>
     <h1>{{ $t("registration.pageTitle") }}</h1>
-    <p>{{ $t("registration.opensSoonText") }}</p>
-    <!-- <p class="center-text" v-html="$t('registration.registrationInfoText')"></p>
-    <iframe src="https://forms.gle/ER6ytwcGoRDYZw1X8">{{
+    <!-- <p>{{ $t("registration.opensSoonText") }}</p> -->
+    <p class="center-text" v-html="$t('registration.registrationInfoText')"></p>
+    <iframe src="https://forms.gle/Y2ZPXEEmzTwm7DWo6">{{
       $t("registration.loading")
-    }}</iframe> -->
+    }}</iframe>
   </section>
 </template>
 
