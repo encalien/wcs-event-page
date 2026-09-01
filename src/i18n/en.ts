@@ -2,7 +2,7 @@ const en = {
   event: {
     name: "Slovenian Open",
     location: "Ljubljana",
-    date: "April 2027",
+    date: "14 - 19 April 2027",
     welcomeText: "Join us at Slovenian Open - WSDC registered event!",
     readMoreText: "Read more",
     comingSoon: "Coming Soon",
@@ -16,7 +16,7 @@ const en = {
           "Savana Barreau & João Parada",
           "Andrea Pártos & Attila Pártos",
           "Evgenia Itkina & Clement Turpain",
-          "Daniel Pavlov",
+          "Daniel Pavlov & Lauren Jones",
         ],
       },
       {
