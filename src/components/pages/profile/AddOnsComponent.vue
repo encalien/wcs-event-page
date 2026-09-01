@@ -16,7 +16,10 @@ export default {
       token: this.$route.params.hash,
       isLoading: true,
       error: "",
-      fieldErrors: {} as Record<number | string, string>,
+      fieldErrors: {} as Record<
+        number | string,
+        string | Record<string, string>
+      >,
       formData: {} as AddonSelectionDTO,
       isFormEnabled: false,
       isSubmitting: false,
@@ -51,6 +54,29 @@ export default {
         };
       });
     },
+    getRegistrationAddOnStatus(addOnId: number): number | undefined {
+      return this.registration?.add_ons.find((ra) => ra.add_on.id === addOnId)
+        ?.status;
+    },
+    isRegistrationAddOnActive(addOnId: number): boolean {
+      const status = this.getRegistrationAddOnStatus(addOnId);
+      const addOn = this.availableAddOns?.find((item) => item.id === addOnId);
+
+      return [1, 2, 3, 4, 5].includes(status ?? -1) && Boolean(addOn?.price);
+    },
+    getAddOnError(addOnId: number): string | undefined {
+      const error = this.fieldErrors[addOnId];
+      return typeof error === "string" ? error : undefined;
+    },
+    getAddOnOptionError(
+      addOnId: number,
+      optionKey: string
+    ): string | undefined {
+      const error = this.fieldErrors[addOnId];
+
+      if (!error || typeof error === "string") return undefined;
+      return error[optionKey];
+    },
     validateFieldSelections() {
       let isValid = true;
 
@@ -69,14 +95,15 @@ export default {
                 option.required &&
                 this.formData[key].options[option.key] == undefined
               ) {
-                console.log(
-                  Object.keys(this.formData),
-                  Object.keys(this.fieldErrors),
-                  option.key,
-                  key
-                );
-                this.fieldErrors[key] ??= {};
-                this.fieldErrors[key][option.key] = "pleaseSelect";
+                if (
+                  !this.fieldErrors[key] ||
+                  typeof this.fieldErrors[key] === "string"
+                ) {
+                  this.fieldErrors[key] = {};
+                }
+
+                (this.fieldErrors[key] as Record<string, string>)[option.key] =
+                  "pleaseSelect";
                 isValid = false;
               }
             }
@@ -208,9 +235,7 @@ export default {
                   :id="addOn.translate_key + 'Yes'"
                   :name="addOn.translate_key"
                   :value="true"
-                  :disabled="[1, 2, 3, 4, 5].includes(registration?.add_ons.find(
-                    (ra: any) => ra.add_on.id === addOn.id
-                  )?.status) && addOn.price"
+                  :disabled="isRegistrationAddOnActive(addOn.id)"
                 />
                 <label :for="addOn.translate_key + 'Yes'">
                   {{ $t("userProfile.form.yes") }}
@@ -223,9 +248,7 @@ export default {
                   :id="addOn.translate_key + 'No'"
                   :name="addOn.translate_key"
                   :value="false"
-                  :disabled="[1, 2, 3, 4, 5].includes(registration?.add_ons.find(
-                    (ra: any) => ra.add_on.id === addOn.id
-                  )?.status) && addOn.price"
+                  :disabled="isRegistrationAddOnActive(addOn.id)"
                 />
                 <label :for="addOn.translate_key + 'No'">
                   {{ $t("userProfile.form.no") }}
@@ -233,11 +256,8 @@ export default {
               </div>
             </div>
             <!-- Error message under the radio group -->
-            <span
-              v-if="typeof fieldErrors?.[addOn.id] === 'string'"
-              class="field-error"
-            >
-              {{ $t(`userProfile.form.${fieldErrors[addOn.id]}`) }}
+            <span v-if="getAddOnError(addOn.id)" class="field-error">
+              {{ $t(`userProfile.form.${getAddOnError(addOn.id)}`) }}
             </span>
           </fieldset>
         </div>
@@ -285,9 +305,7 @@ export default {
                 :min="option.min"
                 :max="option.max"
                 v-model="formData[addOn.id].options[option.key]"
-                :disabled="[1, 2, 3, 4, 5].includes(registration?.add_ons.find(
-                    (ra: any) => ra.add_on.id === addOn.id
-                )?.status) && addOn.price"
+                :disabled="isRegistrationAddOnActive(addOn.id)"
               />
               <fieldset
                 v-if="option.type === 'radio'"
@@ -305,9 +323,7 @@ export default {
                       :id="option.key + '-' + choice"
                       :name="choice"
                       :value="choice"
-                      :disabled="[1, 2, 3, 4, 5].includes(registration?.add_ons.find(
-                        (ra: any) => ra.add_on.id === addOn.id
-                      )?.status) && addOn.price"
+                      :disabled="isRegistrationAddOnActive(addOn.id)"
                     />
                     <label :for="option.key + '-' + choice">
                       {{
@@ -323,9 +339,7 @@ export default {
                 v-if="option.type === 'select'"
                 v-model="formData[addOn.id].options[option.key]"
                 class="grid-item"
-                :disabled="[1, 2, 3, 4, 5].includes(registration?.add_ons.find(
-                    (ra: any) => ra.add_on.id === addOn.id
-                )?.status) && addOn.price"
+                :disabled="isRegistrationAddOnActive(addOn.id)"
               >
                 <option disabled :value="undefined">
                   {{
@@ -348,11 +362,16 @@ export default {
               </select>
               <!-- Error message under the sub-form -->
               <span
-                v-if="fieldErrors?.[addOn.id]?.[option.key]"
+                v-if="getAddOnOptionError(addOn.id, option.key)"
                 class="field-error"
               >
                 {{
-                  $t(`userProfile.form.${fieldErrors[addOn.id][option.key]}`)
+                  $t(
+                    `userProfile.form.${getAddOnOptionError(
+                      addOn.id,
+                      option.key
+                    )}`
+                  )
                 }}
               </span>
             </div>
