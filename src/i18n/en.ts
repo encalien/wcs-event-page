@@ -343,8 +343,101 @@ const en = {
     pageTitle: "Registration",
     opensSoonText: "Registration opens soon.",
     registrationInfoText:
-      'Please read the following <a href="https://fallfocuswcs.dance/en/terms-and-conditions">Terms and Conditions</a> before registering.',
-    loading: "Loading Registration form...",
+      "Fill in the form below to register for Fall Focus WCS.<br>Registrations are reviewed manually; your place is not confirmed until you receive an acceptance email. <br><br> Please read the following <a href='https://fallfocuswcs.dance/en/terms-and-conditions'>Terms and Conditions</a> before registering.",
+    coupleInfo: {
+      title: "Signing up as a couple",
+      intro: "If you are signing up with a partner, please keep in mind:",
+      items: [
+        "Both partners must register for the same event.",
+        "Partners must register in opposite roles (Leader + Follower).",
+        "Each partner must submit their own registration form.",
+        "Both partners must enter the same partner email so the registrations can be matched.",
+      ],
+    },
+    statusInfo: {
+      title: "Registration status",
+      items: [
+        {
+          title: "Registration received",
+          text: "After submitting the form, your registration will be placed on the waiting list while we process it and, if necessary, find a partner for you. You will automatically receive an email with your registration details. If you do not receive it, please check your spam folder.",
+        },
+        {
+          title: "Registration accepted",
+          text: "Once your place at the event is accepted, you will receive an email with payment instructions. You will have 7 days to complete the payment; if we do not receive it in time, your registration may be cancelled. The price is determined by the date your registration is accepted, not the date you submit the form.",
+        },
+        {
+          title: "Registration confirmed",
+          text: "Once we receive your payment, you will receive a confirmation email. At that point, your place at the event is fully confirmed.",
+        },
+      ],
+    },
+    workshopLevels: {
+      title: "Workshop levels",
+      why: "Why do we need this?",
+      intro: "Workshops will be held on two levels simultaneously:",
+      levels: [
+        {
+          title: "Newcomer / Novice",
+          text: "We recommend at least 6 months of West Coast Swing experience.",
+        },
+        {
+          title: "Intermediate / Advanced",
+          text: "At least 1 WSDC point in Novice is required.",
+        },
+      ],
+      assignment:
+        "Your level will be assigned automatically based on the WSDC point system.",
+      wsdcLinkText: "View the WSDC point system",
+      audition:
+        "If you do not meet the requirements for the higher level, you can join the audition on Saturday morning.",
+    },
+    form: {
+      personalInfo: "Personal information",
+      workshopInfo: "Workshop information",
+      firstName: "First name",
+      lastName: "Last name",
+      email: "Email",
+      country: "Country",
+      role: {
+        label: "I want to attend the workshops as",
+        leader: "Leader",
+        follower: "Follower",
+      },
+      wsdcId: "WSDC ID",
+      wsdcIdHelp:
+        "This is your competitor ID. If you do not compete or have not reached a final yet, leave this field blank.",
+      pairing: {
+        solo: "I am signing up without a partner.",
+        paired: "I am signing up with a partner.",
+      },
+      partnerEmail: "Partner's email",
+      partnerEmailHelp:
+        "Enter the email address your partner will use for their registration.",
+      comment: "Comment",
+      newsletter:
+        "I would like to receive occasional updates about future events organised by the organiser.",
+      terms: {
+        before: "I have read and accept the",
+        link: "Terms and Conditions",
+        after: " of the event.",
+      },
+      submit: "Submit registration",
+      submitting: "Submitting…",
+      success: {
+        title: "Thank you for registering!",
+        text: "Your registration has been received. You will receive a copy by email, followed by further information once your registration has been processed.",
+      },
+      error:
+        "Your registration could not be submitted. Please check your internet connection and try again.",
+      validation: {
+        firstName: "Enter your first name.",
+        lastName: "Enter your last name.",
+        email: "Enter a valid email address.",
+        partnerEmail: "Enter a valid email address.",
+        role: "Choose whether you will attend as a Leader or Follower.",
+        terms: "You must accept the Terms and Conditions to register.",
+      },
+    },
   },
   notFound: {
     pageTitle: "Page not found",

@@ -261,7 +261,6 @@ const si = {
         },
       ],
     },
-
     pricing: {
       pageTitle: "Cenik",
       description: [
@@ -341,11 +340,104 @@ const si = {
     },
   },
   registration: {
-    pageTitle: "Registracija",
-    opensSoonText: "Registracija se odpre kmalu.",
+    pageTitle: "Prijava",
+    opensSoonText: "Prijave se odprejo kmalu.",
     registrationInfoText:
-      'Pred prijavo preberi <a href="https://fallfocuswcs.dance/si/terms-and-conditions">Pravila in pogoje sodelovanja</a>.',
-    loading: "Nalaganje obrazca...",
+      "Izpolni spodnji obrazec za prijavo na Fall Focus WCS.<br>Prijave obdelujemo ročno; tvoje mesto ni potrjeno, dokler ne prejmeš emaila o sprejeti prijavi. <br><br> Pred prijavo prosim preberi <a href='https://fallfocuswcs.dance/si/terms-and-conditions'>Splošne pogoje</a>.",
+    coupleInfo: {
+      title: "Prijava v paru",
+      intro: "Če se prijavljaš s partnerjem_ko, upoštevaj naslednje:",
+      items: [
+        "Oba partnerja se morata prijaviti na isti dogodek.",
+        "Partnerja se morata prijaviti v nasprotnih vlogah (Leader + Follower).",
+        "Vsak partner mora oddati svojo prijavo.",
+        "Oba partnerja morata vpisati isti email svojega partnerja_ke, da lahko prijavi povežemo.",
+      ],
+    },
+    statusInfo: {
+      title: "Status prijave",
+      items: [
+        {
+          title: "Prijava prejeta",
+          text: "Po oddaji obrazca bo tvoja prijava uvrščena na čakalni seznam, dokler je ne obdelamo in ti po potrebi poiščemo partnerja_ko. Samodejno boš prejel_a email s podatki o prijavi. Če ga ne prejmeš, preveri mapo z neželeno pošto.",
+        },
+        {
+          title: "Prijava sprejeta",
+          text: "Ko bo tvoje mesto na dogodku potrjeno, prejmeš email z navodili za plačilo. Za plačilo imaš 7 dni; če ga ne prejmemo pravočasno, lahko prijavo prekličemo. Cena se določi glede na datum sprejema prijave in ne datum oddaje obrazca.",
+        },
+        {
+          title: "Prijava potrjena",
+          text: "Ko prejmemo tvoje plačilo, prejmeš potrditveni email. Takrat je tvoje mesto na dogodku dokončno potrjeno.",
+        },
+      ],
+    },
+    workshopLevels: {
+      title: "Stopnje delavnic",
+      why: "Zakaj potrebujemo ta podatek?",
+      intro: "Delavnice bodo istočasno potekale na dveh stopnjah:",
+      levels: [
+        {
+          title: "Newcomer / Novice",
+          text: "Priporočamo vsaj 6 mesecev izkušenj z west coast swingom.",
+        },
+        {
+          title: "Intermediate / Advanced",
+          text: "Potrebuješ vsaj 1 WSDC točko v kategoriji Novice.",
+        },
+      ],
+      assignment:
+        "V stopnjo boš samodejno razporejen_a glede na sistem WSDC točk.",
+      wsdcLinkText: "Poglej sistem WSDC točk",
+      audition:
+        "Če pogojev za višjo stopnjo ne izpolnjuješ, se lahko v soboto zjutraj udeležiš avdicije.",
+    },
+    form: {
+      personalInfo: "Osebni podatki",
+      workshopInfo: "Podatki za delavnice",
+      firstName: "Ime",
+      lastName: "Priimek",
+      email: "Email",
+      country: "Država",
+      role: {
+        label: "Delavnic se želim udeležiti kot:",
+        leader: "Leader",
+        follower: "Follower",
+      },
+      wsdcId: "WSDC ID",
+      wsdcIdHelp:
+        "To je tvoj tekmovalni ID. Če ne tekmuješ ali se še nisi uvrstil_a v finale, pusti polje prazno.",
+      pairing: {
+        solo: "Prijavljam se brez partnerja_ke.",
+        paired: "Prijavljam se v paru.",
+      },
+      partnerEmail: "Email partnerja_ke",
+      partnerEmailHelp:
+        "Vpiši email, ki ga bo partner_ka uporabil_a pri svoji prijavi.",
+      comment: "Komentar",
+      newsletter:
+        "Želim prejemati občasna obvestila o prihodnjih dogodkih organizatorja.",
+      terms: {
+        before: "Prebral_a sem in sprejemam",
+        link: "Splošne pogoje",
+        after: " dogodka.",
+      },
+      submit: "Pošlji prijavo",
+      submitting: "Pošiljanje…",
+      success: {
+        title: "Hvala za prijavo!",
+        text: "Tvoja prijava je bila uspešno prejeta. Na email boš prejel_a kopijo prijave, po obdelavi pa še nadaljnje informacije.",
+      },
+      error:
+        "Prijave ni bilo mogoče poslati. Preveri internetno povezavo in poskusi znova.",
+      validation: {
+        firstName: "Vpiši ime.",
+        lastName: "Vpiši priimek.",
+        email: "Vpiši veljaven email naslov.",
+        partnerEmail: "Vpiši veljaven email naslov.",
+        role: "Izberi, ali se delavnic udeležuješ kot Leader ali Follower.",
+        terms: "Za prijavo moraš sprejeti Splošne pogoje.",
+      },
+    },
   },
   notFound: {
     pageTitle: "Stran ne obstaja",
