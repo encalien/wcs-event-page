@@ -2,7 +2,7 @@ const en = {
   event: {
     name: "Fall Focus WCS",
     location: "Ljubljana",
-    date: "14 - 16 November 2025",
+    date: "27 - 29 November 2026",
     welcomeText: "Join the fun!",
     tba: "To be announced.",
   },
@@ -11,7 +11,7 @@ const en = {
     email: "info{'@'}kinesisrei.si",
   },
   urls: {
-    facebook: "https://www.facebook.com/events/672393038465372",
+    facebook: "https://www.facebook.com/events/1021820947202921",
     instagram: "#",
   },
   home: {
@@ -63,31 +63,23 @@ const en = {
       pageTitle: "Teachers",
       teachers: [
         {
-          name: "Stefanie & Attila",
-          src: "/images/stefanie_attila.jpg",
-          description: [
-            "Stefanie Tschom is an Allstar level West Coast Swing dancer, coach, and competition judge based in Berlin with a versatile background in ballet, jazz, hip hop, and ballroom. Since discovering West Coast Swing in 2017, she has been captivated by its unique mix of musicality, communication, and creative freedom.",
-            "As a teacher, she combines technical precision with playful exploration, drawing on her expertise as a fitness and health coach to emphasize efficient movement and body awareness. Her clear, visual approach makes complex concepts accessible, creating an engaging atmosphere where students feel encouraged to experiment and grow.",
-            "Attila began his dance career as a ballroom dancer, teaching latin and standard dances for many years and earning numerous championship titles. In 2013, he discovered West Coast Swing and was immediately drawn to its freedom and endless possibilities.",
-            "Competing remained important, and after several years he reached the prestigious All-Star category. Today, Attila shares his passion for West Coast Swing by teaching in Hungary and abroad, inspiring dancers through both group sessions and private lessons.",
-          ],
+          name: "Wayne & Aggie",
+          src: "/images/wayne_aggie.jpg",
+          description: [""],
         },
         {
-          name: "Christina & Tobias",
-          src: "/images/christina_tobias.jpg",
-          description: [
-            "Christina is an Advanced level West Coast Swing dancer based in Freiburg. With her background in partner dancing, she was immediately captivated by the creativity and expressive freedom of West Coast Swing. In her local community, she is known for her supportive spirit and her ability to inspire dancers to build confidence and joy on the social floor.",
-            "Tobi is living in Erlangen, Germany, and is actually a psychology student. He got into West Coast Swing through a fellow student and friend almost 4 years ago and immediately got addicted. Before that, he's been dancing Ballroom for 5 years and also dipped his feet in some Modern Contemporary dancing. He loves most about West Coast Swing the freedom and creativity and how every dance, no matter with whom is unique and different.",
-            "Together, Christina and Tobias regularly compete across Europe, proudly representing their home communities. As a partnership, they are passionate about teaching, focusing on concepts that are relevant and useful for both followers and leaders. Their playful approach and clear communication create an engaging learning environment where dancers are encouraged to grow, experiment, and fully enjoy the richness of West Coast Swing.",
-          ],
+          name: "Carlos & Rachel",
+          src: "/images/carlos_rachel.jpg",
+          description: [""],
         },
       ],
     },
     level: {
       title: "Level",
       descriptionText: [
-        "Workshops will be held on 2 levels simultaneously - Newcomer/Novice and Intermediate level. Recommended experience for Newcomer/Novice level is minimum 6 months of dancing WCS, and for Intermediate level at least 1 point in Novice WSDC. Alternatively, if you don't compete, but feel like you belong to Intermediate level, please mention the name of your last WCS teacher who can recommend you for this level in the registration form.",
-        "Back to Basics class will be a fast paced introduction to basic rhythms, patterns and concepts. It's intended for dancers who are new to west coast swing, but not necessarily new to partner dancing.",
+        "Workshops will be held on 2 levels simultaneously - Newcomer/Novice (WSDC) and Intermediate/Advanced (WSDC) level.",
+        "Recommended experience for Newcomer/Novice level is minimum 6 months of dancing WCS, and for Intermediate/Advanced level at least 1 point in Novice WSDC is required. We will hold a short audition on Saturday morning for those who might qualify for Intermediate/Advanced level but do not actively compete. Please note that the pros' decision during audition is final.",
+        "Back to Basics class will be a fast paced introduction to basic rhythms, patterns and concepts. It's intended for dancers who are new to west coast swing, but not necessarily new to partner dancing. It's also highly recommended for any Newcomers, to get a quick refresher before the weekend.",
       ],
     },
     schedule: {
@@ -95,21 +87,21 @@ const en = {
       description: "This is a preliminary schedule and is subject to change.",
       days: [
         {
-          title: "Friday, November 14",
+          title: "Friday, November 27",
           slots: [
             {
-              time: "20.00 - 21.00",
+              time: "19.00 - 20.00",
               items: [
                 {
                   topic: "Back to Basics",
                   description:
-                    "Included in Full pass, as well as Friday party entrance fee. Teachers Klemen & Nives.",
+                    "Included in Full pass, as well as Friday party entrance fee.",
                   class: "class",
                 },
               ],
             },
             {
-              time: "21.00 - 02.00",
+              time: "20.00 - 02.00",
               items: [
                 {
                   topic: "Party",
@@ -121,19 +113,29 @@ const en = {
           ],
         },
         {
-          title: "Saturday, November 15",
+          title: "Saturday, November 28",
           slots: [
+            {
+              time: "11.30 - 12.00",
+              items: [
+                {
+                  topic: "Audition for Intermediate/Advanced",
+                  description: "Studio 1",
+                  class: "audition",
+                },
+              ],
+            },
             {
               time: "12.00 - 13.00",
               items: [
                 {
-                  topic: "Intermediate",
-                  description: "Studio Dansa",
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
                   class: "class",
                 },
                 {
-                  topic: "Newcomer/Novice",
-                  description: "Moj Korak",
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
                   class: "class",
                 },
               ],
@@ -142,13 +144,13 @@ const en = {
               time: "13.15 - 14.15",
               items: [
                 {
-                  topic: "Intermediate",
-                  description: "Studio Dansa",
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
                   class: "class",
                 },
                 {
-                  topic: "Newcomer/Novice",
-                  description: "Moj Korak",
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
                   class: "class",
                 },
               ],
@@ -167,13 +169,13 @@ const en = {
               time: "15.30 - 16.30",
               items: [
                 {
-                  topic: "Intermediate",
-                  description: "Studio Dansa",
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
                   class: "class",
                 },
                 {
-                  topic: "Newcomer/Novice",
-                  description: "Moj Korak",
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
                   class: "class",
                 },
               ],
@@ -183,8 +185,7 @@ const en = {
               items: [
                 {
                   topic: "Party",
-                  description:
-                    "Entrance fee 5 eur - included in Saturday pass or Full pass.",
+                  description: "Entrance fee 5 eur - included in Full pass.",
                   class: "party",
                 },
               ],
@@ -192,19 +193,19 @@ const en = {
           ],
         },
         {
-          title: "Sunday, November 16",
+          title: "Sunday, November 29",
           slots: [
             {
               time: "12.00 - 13.00",
               items: [
                 {
-                  topic: "Intermediate",
-                  description: "Studio Dansa",
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
                   class: "class",
                 },
                 {
-                  topic: "Newcomer/Novice",
-                  description: "Moj Korak",
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
                   class: "class",
                 },
               ],
@@ -213,13 +214,13 @@ const en = {
               time: "13.15 - 14.15",
               items: [
                 {
-                  topic: "Intermediate",
-                  description: "Studio Dansa",
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
                   class: "class",
                 },
                 {
-                  topic: "Newcomer/Novice",
-                  description: "Moj Korak",
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
                   class: "class",
                 },
               ],
@@ -241,69 +242,71 @@ const en = {
     pricing: {
       pageTitle: "Pricing",
       description: [
-        "For this event we will have 3 price tiers based on the number of ACCEPTED registrations REGARDLESS of pass.",
-        "Early bird price is valid for first 5 couples. Normal bird price is valid for the next 5 couples. Late bird price is valid for all registrations after that.",
+        "For this event we will have 3 price tiers based on the number and order of ACCEPTED registrations.",
+        "Early bird price is valid for first 5 couples. Normal bird price is valid for the next 5 couples. Late bird price is valid for all registrations accepted after that.",
         "Registration fee must be fully paid within 7 days of registration acceptance for the price and the registration to stay valid. If the payment is not received in due time, the registration will be cancelled and the participant will have to register again at the price valid at the time of their new registration.",
       ],
-      priceTier: "Late Bird",
-      passes: [
+      passInfo: {
+        title: "Full Pass",
+        includesText: "Includes:",
+        includes: [
+          "5 leveled workshops on Saturday and Sunday",
+          "Friday and Saturday night party entrance",
+          "Back to Basics class on Friday evening",
+          "Westie Lunch on Sunday",
+        ],
+      },
+      priceTiers: [
         {
-          title: "Full Pass",
-          price: "90 euros",
-          includes: ["6 hours of workshops", "entrance to both parties"],
+          title: "Early Bird",
+          price: "70 euros",
         },
         {
-          title: "Saturday Pass",
-          price: "70 euros",
-          includes: [
-            "3 hours of workshops on Saturday",
-            "entrance to Saturday party",
-          ],
+          title: "Normal Bird",
+          price: "80 euros",
+        },
+        {
+          title: "Late Bird",
+          price: "90 euros",
         },
       ],
     },
   },
   location: {
     pageTitle: "Location",
-    venue: {
-      locationText:
-        "The workshops will be held at Studio Dansa and Moj Korak dance school, located at:",
-      address: {
-        address: "Vilharjeva cesta 3",
-        zipAndCity: "1000 Ljubljana",
-        country: "Slovenia",
+    venue: [
+      {
+        locationText:
+          "All program will be held at BastArts studio, located at:",
+        address: {
+          name: "BastArts Academy",
+          address: "Ob železnici 14",
+          zipAndCity: "1000 Ljubljana",
+          country: "Slovenia",
+        },
+        parkingText:
+          "Parking is possilble on the gravel parking lot, immediately to the right after passing the train tracks.",
+        accessText:
+          "Access to the venue is straight on from the parking barrier, and up the outside stairs to the first floor.",
+        mapSrc:
+          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2620.758732464135!2d14.5347081!3d46.0598853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765336e2d07fa45%3A0x94cab2c45d64be8f!2sPlesna%20%C5%A1ola%20BastArts%20Academy!5e1!3m2!1sen!2ssi!4v1765993879935!5m2!1sen!2ssi",
       },
-      parkingText:
-        "Parking is possible in several paid parking lots nearby, the nearest parking lot is on Vilharjeva opposite the dance school. You can also park in public roadside parking areas, where it's usually free during the weekends, except Saturday mornings.",
-      accessText:
-        "Access to the dance school is around the building, not where the entrance is. From the nearest parking lot it looks like this:",
-    },
+    ],
     hotel: {
       title: "Accommodation",
       suggestionsText: [
-        "Depending on your budget and service preferences, there are multiple hotels as well as hostels, apartments and AirBnbs nearby.",
-        "Here are some hotel suggestions, ordered by distance to the venue:",
+        "There are a couple of options within walking distance to the venue. Here are the two that are closest to the venue:",
       ],
       list: [
         {
-          name: "Intercontinental *****",
+          name: "RailwayRooms Hostel",
           distance: "5 min walk",
-          url: "https://www.booking.com/Share-aDpENI",
+          url: "https://www.booking.com/hotel/si/railwayrooms22.en-gb.html",
         },
         {
-          name: "Central hotel ***",
-          distance: "10 min walk",
-          url: "https://www.booking.com/Share-heW9iDT",
-        },
-        {
-          name: "City hotel **",
-          distance: "13 min walk",
-          url: "https://www.booking.com/Share-f8UiHw",
-        },
-        {
-          name: "Park ***",
-          distance: "15 min walk",
-          url: "https://www.booking.com/Share-cQFt8l",
+          name: "Hozy House ***",
+          distance: "5 min walk",
+          url: "https://www.booking.com/hotel/si/kajuhova-apartmans.en-gb.html",
         },
       ],
     },
@@ -354,16 +357,20 @@ const en = {
       infoText: [
         {
           value:
-            "All registrations are considered pending until a payment is received. Payment is due in 7 days, after we receive the payment, the pass is considered confirmed. Should a participant fail to pay for their pass in due time, the event organizer reserves the right to cancel their pass. In such a case, the participant who still wants to participate in the event must register again at the price valid at the time of their new registration.",
+            "All registrations are considered pending until a payment is received. Payment is due in 14 days, after we receive the payment, the ticket is considered confirmed. Should a participant fail to pay for their ticket in due time, the event organizer reserves the right to cancel their ticket. In such a case, the participant who still wants to participate in the event must register again at the price valid at the time of their new registration.",
         },
         {
           value:
             "In case of cancellation by the participant, we shall offer a payment refund in the following tiers:",
           list: [
-            "For cancellation requests received before 15 September 2025, the received payment will be refunded fully.",
-            "For cancellation requests received before 1 October 2025, the received payment will be refunded partially - 50% of received payment.",
-            "For cancellation requests received after 1 October 2025, the received payment will not be refunded.",
+            "For cancellation requests received up to and including 15 January 2026, the received payment will be refunded fully.",
+            "For cancellation requests received between 16 January 2026 up to and 31 January 2026, the received payment will be refunded partially - 50% of received payment.",
+            "For cancellation requests received on 1 February 2026 or later, the received payment will not be refunded.",
           ],
+        },
+        {
+          value:
+            "If a participant cancels their participation at only a part of the program, they are not entitled to a refund or similar voucher. Downgrading a pass is not possible.",
         },
         {
           value:
@@ -371,11 +378,11 @@ const en = {
         },
         {
           value:
-            "Participants who have have purchased a pass but cannot attend the event, may transfer their pass to another person. Leaders may only transfer their pass to another leader. Followers may transfer their pass to a leader or a follower. All pass transfers must be communicated in written form via email, and confirmed to both parties by the organizer. Free and discounted passes are not transferable.",
+            "Participants who have have purchased a ticket but cannot attend the event, may transfer their ticket to another person. Leaders may only transfer their ticket to another leader. Followers may transfer their ticket to a leader or a follower. All ticket transfers must be communicated in written form via email, and confirmed to both parties by the organizer. Free and discounted passes are not transferable.",
         },
         {
           value:
-            "The event organizer reserves the right to cancel the event due to low registrations or force majeure (e.g. fire, storms, epidemic state, and other natural disasters). In such cases, pass holders will either be refunded their pass price in full or given a voucher - option to transfer their pass to future event. Other claims against the event organizer are not possible.",
+            "The event organizer reserves the right to cancel the event due to low registrations or force majeure (e.g. fire, storms, epidemic state, and other natural disasters). In such cases, ticket holders will either be refunded their ticket price in full or given a voucher - option to transfer their ticket to future event. Other claims against the event organizer are not possible.",
         },
         {
           value:
@@ -400,7 +407,7 @@ const en = {
         },
         {
           value:
-            "Publishing recordings of workshops or performances is not allowed without the explicit permission of the event organizer. For publishing other recordings, the organizer does not require any permission, but reserves the right to request the removal of recordings that, in their opinion, are inappropriate or harmful to the reputation of the event.",
+            "Publishing recordings of workshop recaps or performances is not allowed without the explicit permission of the event organizer. For publishing other recordings, the organizer does not require any permission, but reserves the right to request the removal of recordings that, in their opinion, are inappropriate or harmful to the reputation of the event.",
         },
       ],
     },

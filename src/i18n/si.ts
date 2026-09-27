@@ -2,7 +2,7 @@ const si = {
   event: {
     name: "Fall Focus WCS",
     location: "Ljubljana",
-    date: "14. - 16. november 2025",
+    date: "27. - 29. november 2026",
     welcomeText: "Pridruži se!",
     tba: "Več informacij kmalu.",
   },
@@ -11,7 +11,7 @@ const si = {
     email: "info{'@'}kinesisrei.si",
   },
   urls: {
-    facebook: "https://www.facebook.com/events/672393038465372",
+    facebook: "https://www.facebook.com/events/1021820947202921",
     instagram: "#",
   },
   home: {
@@ -63,31 +63,23 @@ const si = {
       pageTitle: "Učitelji",
       teachers: [
         {
-          name: "Stefanie & Attila",
-          src: "/images/stefanie_attila.jpg",
-          description: [
-            "Stefanie Tschom je plesalka West Coast Swinga na nivoju Allstar, trenerka in sodnica tekmovanj, s sedežem v Berlinu. Ima raznoliko plesno ozadje v baletu, jazzu, hip hopu in standardno-latinskih plesih. Odkar je leta 2017 odkrila West Coast Swing, jo navdušuje njegova edinstvena kombinacija muzikalnosti, komunikacije in ustvarjalne svobode.",
-            "Kot učiteljica združuje tehnično natančnost z igrivim raziskovanjem ter se opira na svoje znanje kot trenerka fitnesa in zdravja, da poudari učinkovitost gibanja in telesno zavedanje. Njen jasen, vizualen pristop naredi zapletene koncepte dostopne in ustvarja spodbudno vzdušje, kjer se učenci počutijo motivirane za raziskovanje in rast.",
-            "Attila je svojo plesno kariero začel kot plesalec standardnih in latinskoameriških plesov, kjer je več let poučeval ter osvojil številne naslove. Leta 2013 je odkril West Coast Swing in ga je takoj prevzela njegova svoboda in neskončne možnosti.",
-            "Tekmovanja so zanj ostala pomembna, in po nekaj letih je dosegel prestižni All-Star nivo. Danes Attila svojo strast do West Coast Swinga deli z učenci na Madžarskem in v tujini ter navdihuje plesalce tako na skupinskih urah kot na individualnih lekcijah.",
-          ],
+          name: "Wayne & Aggie",
+          src: "/images/wayne_aggie.jpg",
+          description: [""],
         },
         {
-          name: "Christina & Tobias",
-          src: "/images/christina_tobias.jpg",
-          description: [
-            "Christina je plesalka iz Freiburga. S svojim plesnim ozadjem v plesih v paru jo je West Coast Swing takoj navdušil zaradi ustvarjalnosti in izražene svobode. V svoji lokalni skupnosti je znana po podporni naravi in sposobnosti, da plesalce navdihuje, da pridobijo samozavest in užitek na plesnem parketu.",
-            "Tobi živi v Erlangnu v Nemčiji in je pravzaprav študent psihologije. V West Coast Swing ga je vpeljal sošolec in prijatelj pred skoraj štirimi leti, in ples ga je takoj prevzel. Pred tem je pet let plesal standardne in latinskoameriške plese ter preizkusil tudi nekaj modernih in sodobnih plesov. Najbolj ga pri West Coast Swingu navdušuje svoboda, ustvarjalnost in dejstvo, da je vsak ples, ne glede na partnerja, edinstven in drugačen.",
-            "Christina in Tobias skupaj redno tekmujeta v Advanced kategoriji po Evropi, ponosno predstavljata svoji domači skupnosti. Kot partnerski par sta strastna učitelja, osredotočata se na koncepte, ki so koristni tako za followerje kot za leaderje. Njun igriv pristop in jasna komunikacija ustvarjata spodbudno učno okolje, kjer so plesalci spodbujeni k rasti, eksperimentiranju in polnemu uživanju v bogastvu West Coast Swinga.",
-          ],
+          name: "Carlos & Rachel",
+          src: "/images/carlos_rachel.jpg",
+          description: [""],
         },
       ],
     },
     level: {
       title: "Zahtevnostna stopnja",
       descriptionText: [
-        "Delavnice bodo potekale vzporedno na 2 nivojih - Newcomer/Novice in Intermediate. Priporočene izkušnje za Newcomer/Novice nivo so najmanj 6 mesecev plesanja WCS, za Intermediate nivo pa vsaj 1 točka v kategoriji Novice WSDC. Če ne tekmuješ, a meniš, da vseeno spadaš v Intermediate nivo, ob prijavi navedi ime svojega zadnjega učitelja WCS, ki te lahko priporoči za ta nivo.",
-        "Ura »Back to Basics« bo hitra uvodna predstavitev osnovnih ritmov, figur in konceptov. Namenjena je plesalcem, ki west coast swinga še ne poznajo ali pa želijo osnove ponoviti.",
+        "Delavnice bodo potekale na dveh nivojih hkrati - Newcomer/Novice (WSDC) ter Intermediate/Advanced (WSDC).",
+        "Priporočene izkušnje za Newcomer/Novice nivo so vsaj 6 mesecev plesanja WCS. Za Intermediate/Advanced nivo zahtevamo najmanj 1 točko v Novice WSDC kategoriji. V soboto zjutraj bomo izvedli kratko avdicijo za plesalce, ki bi morda sodili na višji nivo, vendar trenutno ne tekmujejo aktivno. Prosimo upoštevajte, da je odločitev učiteljev na avdiciji dokončna.",
+        "Ura Back to Basics bo hitra in dinamična ponovitev osnovnih ritmov, figur in konceptov. Namenjena je plesalcem, ki so novi v west coast swingu, ne pa nujno novi v partnerskem plesu. Zelo priporočljiva je tudi za vse Newcomerje kot hiter osvežitveni uvod pred vikendom.",
       ],
     },
     schedule: {
@@ -95,26 +87,25 @@ const si = {
       description: "Program je okviren in se lahko še spremeni.",
       days: [
         {
-          title: "Petek, 14. november",
+          title: "Petek, 27. november",
           slots: [
             {
-              time: "20.00 - 21.00",
+              time: "19.00 - 20.00",
               items: [
                 {
                   topic: "Back to Basics",
                   description:
-                    "Vstopnina vključena v ceno vstopnice Vikend paket in vstopnino petkove zabave. Učitelja Klemen & Nives.",
+                    "Vključeno v Full pass, prav tako vstopnina za petkovo zabavo.",
                   class: "class",
                 },
               ],
             },
             {
-              time: "21.00 - 02.00",
+              time: "20.00 - 02.00",
               items: [
                 {
-                  topic: "Zabava",
-                  description:
-                    "Vstopnina 5 evr - vključena v ceno vstopnice Vikend paket.",
+                  topic: "Party",
+                  description: "Vstopnina 5 EUR - vključena v Full pass.",
                   class: "party",
                 },
               ],
@@ -122,19 +113,29 @@ const si = {
           ],
         },
         {
-          title: "Sobota, 15. november",
+          title: "Sobota, 28. november",
           slots: [
+            {
+              time: "11.30 - 12.00",
+              items: [
+                {
+                  topic: "Avdicija za Intermediate/Advanced",
+                  description: "Studio 1",
+                  class: "party",
+                },
+              ],
+            },
             {
               time: "12.00 - 13.00",
               items: [
                 {
-                  topic: "Intermediate",
-                  description: "Studio Dansa",
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
                   class: "class",
                 },
                 {
-                  topic: "Newcomer/Novice",
-                  description: "Moj Korak",
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
                   class: "class",
                 },
               ],
@@ -143,13 +144,13 @@ const si = {
               time: "13.15 - 14.15",
               items: [
                 {
-                  topic: "Intermediate",
-                  description: "Studio Dansa",
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
                   class: "class",
                 },
                 {
-                  topic: "Newcomer/Novice",
-                  description: "Moj Korak",
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
                   class: "class",
                 },
               ],
@@ -168,13 +169,13 @@ const si = {
               time: "15.30 - 16.30",
               items: [
                 {
-                  topic: "Intermediate",
-                  description: "Studio Dansa",
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
                   class: "class",
                 },
                 {
-                  topic: "Newcomer/Novice",
-                  description: "Moj Korak",
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
                   class: "class",
                 },
               ],
@@ -183,9 +184,8 @@ const si = {
               time: "20.00 - 03.00",
               items: [
                 {
-                  topic: "Zabava",
-                  description:
-                    "Vstopnina 5 evr - vključena v ceno vstopnice Sobotni paket ali Vikend paket.",
+                  topic: "Party",
+                  description: "Vstopnina 5 EUR - vključena v Full pass.",
                   class: "party",
                 },
               ],
@@ -193,19 +193,19 @@ const si = {
           ],
         },
         {
-          title: "Nedelja, 16. november",
+          title: "Nedelja, 29. november",
           slots: [
             {
               time: "12.00 - 13.00",
               items: [
                 {
-                  topic: "Intermediate",
-                  description: "Studio Dansa",
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
                   class: "class",
                 },
                 {
-                  topic: "Newcomer/Novice",
-                  description: "Moj Korak",
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
                   class: "class",
                 },
               ],
@@ -214,19 +214,19 @@ const si = {
               time: "13.15 - 14.15",
               items: [
                 {
-                  topic: "Intermediate",
-                  description: "Studio Dansa",
+                  topic: "Newcomer/Novice",
+                  description: "Studio 1",
                   class: "class",
                 },
                 {
-                  topic: "Newcomer/Novice",
-                  description: "Moj Korak",
+                  topic: "Intermediate/Advanced",
+                  description: "Studio 2",
                   class: "class",
                 },
               ],
             },
             {
-              time: "14:30 - 16:00",
+              time: "14.30 - 16.00",
               items: [
                 {
                   topic: "Westie kosilo",
@@ -239,69 +239,74 @@ const si = {
         },
       ],
     },
-    pricing: {
-      pageTitle: "Cenik",
-      description: [
-        "Za ta dogodek bomo imeli 3 cenovne razrede, ki temeljijo na številu SPREJETIH prijav.",
-        "Prva cena velja za prvih 5 parov. Srednja cena velja za naslednjih 5 parov. Zadnja cena velja za vse prijave sprejete po tem.",
-        "Kotizacija mora biti v celoti plačana v roku 7 dni po potrditvi prijave, da cena in prijava ostaneta veljavni. Če plačilo v predpisanem roku ne bo prejeto, bo prijava preklicana, udeleženec pa se bo moral ponovno prijaviti po ceni, ki bo veljala ob novi prijavi.",
-      ],
-      priceTier: "Zadnja cena",
-      passes: [
-        {
-          title: "Vikend paket",
-          price: "90 evr",
-          includes: ["6 ur delavnic", "vstop na obe zabavi"],
-        },
-        {
-          title: "Sobotni paket",
-          price: "70 evr",
-          includes: ["3 ure delavnic v soboto", "vstop na sobotno zabavo"],
-        },
+  },
+  pricing: {
+    pageTitle: "Cenik",
+    description: [
+      "Za ta dogodek bomo imeli tri cenovne razrede, ki temeljijo na številu in vrstnem redu POTRJENIH prijav.",
+      "Prva cena velja za prvih 5 parov. Srednja cena velja za naslednjih 5 parov. Zadnja cena velja za vse prijave sprejete po tem.",
+      "Kotizacija mora biti v celoti poravnana v 7 dneh od potrditve prijave, da ostane cena in prijava veljavna. Če plačilo v določenem roku ne prispe, bo prijava preklicana in udeleženec se bo moral ponovno prijaviti po ceni, ki velja ob času nove prijave.",
+    ],
+    passInfo: {
+      title: "Vikend paket",
+      includeText: "Vključuje:",
+      includes: [
+        "5 delavnic po nivojih v soboto in nedeljo",
+        "Vstop na petkovo in sobotno večerno zabavo",
+        "Back to Basics ura v petek zvečer",
+        "Westie kosilo v nedeljo",
       ],
     },
+    priceTiers: [
+      {
+        title: "Prva cena",
+        price: "70 evrov",
+      },
+      {
+        title: "Srednja cena",
+        price: "80 evrov",
+      },
+      {
+        title: "Zadnja cena",
+        price: "90 evrov",
+      },
+    ],
   },
   location: {
     pageTitle: "Lokacija",
-    venue: {
-      locationText:
-        "Delavnice bodo potekale v plesni šoli Studio Dansa in studiu Moj Korak, na naslovu:",
-      address: {
-        address: "Vilharjeva cesta 3",
-        zipAndCity: "1000 Ljubljana",
-        country: "Slovenia",
+    venue: [
+      {
+        locationText:
+          "Celoten program bo potekal v studiu BastArts, na naslednjem naslovu:",
+        address: {
+          name: "BastArts Academy",
+          address: "Ob železnici 14",
+          zipAndCity: "1000 Ljubljana",
+          country: "Slovenija",
+        },
+        parkingText:
+          "Parkiranje je možno na makadamskem parkirišču, takoj na desni, ko prečkate železniške tire.",
+        accessText:
+          "Dostop do studia je naravnost mimo zapornice, nato po zunanjih stopnicah v prvo nadstropje.",
+        mapSrc:
+          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2620.758732464135!2d14.5347081!3d46.0598853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765336e2d07fa45%3A0x94cab2c45d64be8f!2sPlesna%20%C5%A1ola%20BastArts%20Academy!5e1!3m2!1sen!2ssi!4v1765993879935!5m2!1sen!2ssi",
       },
-      parkingText:
-        "Parkiranje je možno na večih plačljivih parkiriščih v bližini, najbližje parkirišče je na Vilharjevi nasproti plesne šole. Parkirate lahko tudi na javnih obcestnih parkirnih površinah, kjer se med vikendom parkirnina zaračuna običajno samo v soboto dopoldne.",
-      accessText:
-        "Dostop je okrog stavbe, ne tam, kjer je vhod v plesno šolo. Od najbližjega parkirišča zgleda nekako takole:",
-    },
+    ],
     hotel: {
-      title: "Prenočišča",
+      title: "Nastanitve",
       suggestionsText: [
-        "V bližini je več hotelov, hostlov, apartmajev in airbnb, odvisno od vašega proračuna in storitev.",
-        "Tukaj je nekaj predlogov hotelov, razvrščenih po razdalji do prizorišča:",
+        "V bližini prizorišča je več možnosti za prenočišče. Tukaj sta dve, ki sta najbližje:",
       ],
       list: [
         {
-          name: "Intercontinental *****",
+          name: "RailwayRooms Hostel",
           distance: "5 min hoje",
-          url: "https://www.booking.com/Share-aDpENI",
+          url: "https://www.booking.com/hotel/si/railwayrooms22.en-gb.html",
         },
         {
-          name: "Central hotel ***",
-          distance: "10 min hoje",
-          url: "https://www.booking.com/Share-heW9iDT",
-        },
-        {
-          name: "City hotel **",
-          distance: "13 min hoje",
-          url: "https://www.booking.com/Share-f8UiHw",
-        },
-        {
-          name: "Park ***",
-          distance: "15 min hoje",
-          url: "https://www.booking.com/Share-cQFt8l",
+          name: "Hozy House ***",
+          distance: "5 min hoje",
+          url: "https://www.booking.com/hotel/si/kajuhova-apartmans.en-gb.html",
         },
       ],
     },

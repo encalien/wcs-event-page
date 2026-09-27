@@ -10,10 +10,10 @@
 
   --accent-1-disabled: hsl(323, 100%, 10%, 50%);
 
-  --dark-1: #7e603f;
-  --dark-2: #ee5b09;
+  --dark-1: #9f4d1d;
+  --dark-2: #e86b22;
 
-  --light: #ffedbe;
+  --light: #fdeccf;
   /* --light-2: #fab885; */
 
   --accent-1: var(--light);
@@ -36,21 +36,6 @@
   --color-text-accent: var(--accent-1);
 
   --section-gap: 60px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: var(--black);
-    --color-background-soft: var(--black-soft);
-    --color-background-mute: var(--black-mute);
-    --color-background-alt: var(--light);
-
-    --color-text: var(--white);
-    --color-text-soft: var(--white-soft);
-    --color-text-mute: var(--white-mute);
-    --color-text-alt: var(--dark-1);
-    --color-text-accent: var(--dark-1);
-  }
 }
 
 *,
