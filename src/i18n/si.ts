@@ -63,14 +63,24 @@ const si = {
       pageTitle: "Učitelji",
       teachers: [
         {
-          name: "Wayne & Aggie",
-          src: "/images/wayne_aggie.jpg",
-          description: [""],
+          name: "Wayne & Aggi",
+          src: "/images/wayne_aggi.png",
+          description: [
+            "Wayne iz Oxforda v Veliki Britaniji in Agnieszka iz Poljske plešeta in poučujeta west coast swing že več kot 15 let. Na mednarodni WCS sceni sta dobro poznana kot učitelja, povezovalca dogodkov, sodnika, organizatorja in tekmovalca v najvišjih tekmovalnih kategorijah.",
+            "Aggi izhaja iz salse, jazz pa je trenirala v londonskem Pineapple Dance Studios. Ples poučuje že več kot 18 let in vodi plesno šolo Dance Fusion School of Dance v Gdynii na Poljskem. Wayne je nekdanji inštruktor telesne priprave, ki je svojo plesno pot začel z Modern Jivom, nekaj let pozneje pa odkril west coast swing.",
+            "Skupaj imata več kot 30 let učiteljskih izkušenj, svojo strast do west coast swinga pa sta delila s plesalci po Evropi, Veliki Britaniji, ZDA in Skandinaviji. Njuno sproščeno in profesionalno poučevanje združuje jasne razlage z veliko dobre energije in zabave.",
+            "Wayne in Aggi sta tudi organizatorja dogodkov Baltic Swing v Gdansku in Warsaw Halloween Swing, mednarodnih WCS dogodkov, ki privabljata več sto plesalcev z vsega sveta. Veselita se, da bosta svojo ljubezen do plesa delila tudi na Fall Focusu.",
+          ],
         },
         {
           name: "Carlos & Rachel",
-          src: "/images/carlos_rachel.jpg",
-          description: [""],
+          src: "/images/carlos_rachel.png",
+          description: [
+            "Carlos in Rachel sta mednarodno aktivna All-Star west coast swing plesalca, ki ju povezuje strast do ustvarjalnosti, povezave in glasbenega izražanja.",
+            "Carlos iz Pariza je znan po dinamični kombinaciji muzikalnosti, tehnike in sproščenega družabnega plesa. Rachel iz Strasbourga pleše west coast swing že več kot 10 let in je razvila eleganten, muzikalen ter energičen plesni slog.",
+            "Skupaj vodita ustvarjalne, komunikativne in zanimive delavnice, na katerih plesalcem pomagata razvijati tako tehnično znanje kot sposobnost povezovanja s partnerjem in glasbo. Njuno poučevanje združuje natančnost, muzikalnost in pristno ljubezen do družabnega plesa.",
+            "Pri west coast swingu najbolj cenita svobodo, ki jo ples ponuja: možnost izražanja individualnosti, ustvarjanja pristne povezave in oblikovanja edinstvenih trenutkov na vsakem plesišču.",
+          ],
         },
       ],
     },

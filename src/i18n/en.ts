@@ -63,14 +63,24 @@ const en = {
       pageTitle: "Teachers",
       teachers: [
         {
-          name: "Wayne & Aggie",
-          src: "/images/wayne_aggie.jpg",
-          description: [""],
+          name: "Wayne & Aggi",
+          src: "/images/wayne_aggi.png",
+          description: [
+            "Wayne, from Oxford in the UK, and Agnieszka from Poland have been dancing and teaching West Coast Swing for over 15 years. They are familiar faces on the international scene as teachers, MCs, judges, event directors, and competitors in the highest divisions of WCS.",
+            "Aggi has a background in Salsa and trained in Jazz at London's Pineapple Dance Studios. She has taught dance for over 18 years and is the owner of Dance Fusion School of Dance in Gdynia, Poland. Wayne is a former Physical Training Instructor who started dancing Modern Jive before discovering West Coast Swing a few years later.",
+            "Together, they bring over 30 years of teaching experience and have shared their passion for West Coast Swing across Europe, the UK, the USA, and Scandinavia. Their relaxed and professional teaching style combines clear instruction with plenty of fun.",
+            "Wayne and Aggi are also the organisers of Baltic Swing in Gdansk and Warsaw Halloween Swing, international West Coast Swing events attracting hundreds of dancers from around the world. They look forward to sharing their love of the dance at Fall Focus.",
+          ],
         },
         {
           name: "Carlos & Rachel",
-          src: "/images/carlos_rachel.jpg",
-          description: [""],
+          src: "/images/carlos_rachel.png",
+          description: [
+            "Carlos and Rachel are internationally active All-Star West Coast Swing dancers who share a passion for creativity, connection, and musical expression.",
+            "Carlos, from Paris, is known for his dynamic blend of musicality, technique, and social-dance fun. Rachel, from Strasbourg, has been dancing West Coast Swing for over 10 years and has developed a style that is elegant, musical, and full of energy.",
+            "Together, they offer creative, communicative, and engaging workshops that help dancers develop both their technical skills and their ability to connect with their partners and the music. Their teaching combines precision, musicality, and a genuine love for social dancing.",
+            "What they value most about West Coast Swing is the freedom it offers: the opportunity to express individuality, build authentic connection, and create unique moments on every dance floor.",
+          ],
         },
       ],
     },
