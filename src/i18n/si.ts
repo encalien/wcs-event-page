@@ -25,34 +25,34 @@ const si = {
       ],
       yt: [
         {
-          name: `Winter White 2023 - J&J All stars 3 Place Attila Partos & Stefanie Tschom`,
-          src: "https://img.youtube.com/vi/DNRGSoNNHiA/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=DNRGSoNNHiA",
+          name: `Carlos Procópio & Rachel Schubert - 3rd place Strictly Open Finals - German Open 2026`,
+          src: "https://img.youtube.com/vi/u6obT8t-n8k/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=u6obT8t-n8k",
         },
         {
-          name: "Carlos Procópio & Stefanie Tschom - 1st place Strictly Advanced/All-Stars - Paris Swing Classic 2024",
-          src: "https://img.youtube.com/vi/-IF5i82i7vo/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=-IF5i82i7vo",
+          name: "AWCSO 2026 Strictly Open Final - Carlos Procopio & Rachel Schubert",
+          src: "https://img.youtube.com/vi/Pe98VnF4_JM/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=Pe98VnF4_JM",
         },
         {
-          name: "Attila Pártos & Stefanie Tschom - Strictly Open Finals - SwingVester 2022/23",
-          src: "https://img.youtube.com/vi/6vRIZkwW4kE/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=6vRIZkwW4kE",
+          name: "Wayne Powell & Aggie Powell - Invitational Jack&Jill - German Open 2023",
+          src: "https://img.youtube.com/vi/uI2jYOFBftE/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=uI2jYOFBftE",
         },
         {
-          name: " Tobias Heinlein & Stefanie Tschom - 4th place Switch Jack&Jill Finals - Spring Time Swing 2024",
-          src: "https://img.youtube.com/vi/JME2rkAiZLs/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=JME2rkAiZLs",
+          name: "Wayne & Aggie Powell - ProShow Lead&Follow - German Open 2024",
+          src: "https://img.youtube.com/vi/oKONugve1wQ/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=oKONugve1wQ",
         },
         {
-          name: " Timofei Ejov & Christina Landowski - Advanced Jack&Jill Finals - Budafest 2025",
-          src: "https://img.youtube.com/vi/d3p8KX-EYt8/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=d3p8KX-EYt8",
+          name: "Carlos Procopio & Aymeline Felmy - 3rd Place | AllStar-Champion Jack & Jill Finals | AWCSO 2026",
+          src: "https://img.youtube.com/vi/CxCNY470l3g/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=CxCNY470l3g",
         },
         {
-          name: " Fabio Zanardelli & Christina Landowski - Electric Feel / Advanced Jack & Jill / Baltic Swing 2025",
-          src: "https://img.youtube.com/vi/RCs8u3KNeds/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=RCs8u3KNeds",
+          name: "Daniel Pavlov & Rachel Schubert - 1st place All-Stars Jack&Jill Finals - SaunaSwing 2026",
+          src: "https://img.youtube.com/vi/hNjc7H1jxIM/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=hNjc7H1jxIM",
         },
       ],
     },
@@ -203,7 +203,7 @@ const si = {
               items: [
                 {
                   topic: "Party",
-                  description: "Vstopnina 5 EUR - vključena v Full pass.",
+                  description: "Vstopnina 10 EUR - vključena v Full pass.",
                   class: "party",
                 },
               ],
@@ -484,9 +484,9 @@ const si = {
           value:
             "V primeru odpovedi s strani udeleženca, bomo ponudili vračilo kupnine v naslednjih stopnjah:",
           list: [
-            "Za zahtevke za odpoved, prejete pred 15. septembrom 2025, bo kupnina v celoti povrnjena.",
-            "Za zahtevke za odpoved, prejete pred 1. oktobrom 2025, bo kupnina delno povrnjena - 50% prejetega plačila.",
-            "Za zahtevke za odpoved, prejete 1. oktobra 2025 ali kasneje, kupnina ne bo povrnjena.",
+            "Za zahtevke za odpoved, prejete pred 15. oktobrom 2026, bo kupnina v celoti povrnjena.",
+            "Za zahtevke za odpoved, prejete pred 1. novembrom 2026, bo kupnina delno povrnjena - 50% prejetega plačila.",
+            "Za zahtevke za odpoved, prejete 1. novembra 2026 ali kasneje, kupnina ne bo povrnjena.",
           ],
         },
         {

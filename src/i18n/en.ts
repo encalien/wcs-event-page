@@ -25,34 +25,34 @@ const en = {
       ],
       yt: [
         {
-          name: `Winter White 2023 - J&J All stars 3 Place Attila Partos & Stefanie Tschom`,
-          src: "https://img.youtube.com/vi/DNRGSoNNHiA/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=DNRGSoNNHiA",
+          name: `Carlos Procópio & Rachel Schubert - 3rd place Strictly Open Finals - German Open 2026`,
+          src: "https://img.youtube.com/vi/u6obT8t-n8k/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=u6obT8t-n8k",
         },
         {
-          name: "Carlos Procópio & Stefanie Tschom - 1st place Strictly Advanced/All-Stars - Paris Swing Classic 2024",
-          src: "https://img.youtube.com/vi/-IF5i82i7vo/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=-IF5i82i7vo",
+          name: "AWCSO 2026 Strictly Open Final - Carlos Procopio & Rachel Schubert",
+          src: "https://img.youtube.com/vi/Pe98VnF4_JM/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=Pe98VnF4_JM",
         },
         {
-          name: "Attila Pártos & Stefanie Tschom - Strictly Open Finals - SwingVester 2022/23",
-          src: "https://img.youtube.com/vi/6vRIZkwW4kE/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=6vRIZkwW4kE",
+          name: "Wayne Powell & Aggie Powell - Invitational Jack&Jill - German Open 2023",
+          src: "https://img.youtube.com/vi/uI2jYOFBftE/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=uI2jYOFBftE",
         },
         {
-          name: " Tobias Heinlein & Stefanie Tschom - 4th place Switch Jack&Jill Finals - Spring Time Swing 2024",
-          src: "https://img.youtube.com/vi/JME2rkAiZLs/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=JME2rkAiZLs",
+          name: "Wayne & Aggie Powell - ProShow Lead&Follow - German Open 2024",
+          src: "https://img.youtube.com/vi/oKONugve1wQ/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=oKONugve1wQ",
         },
         {
-          name: " Timofei Ejov & Christina Landowski - Advanced Jack&Jill Finals - Budafest 2025",
-          src: "https://img.youtube.com/vi/d3p8KX-EYt8/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=d3p8KX-EYt8",
+          name: "Carlos Procopio & Aymeline Felmy - 3rd Place | AllStar-Champion Jack & Jill Finals | AWCSO 2026",
+          src: "https://img.youtube.com/vi/CxCNY470l3g/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=CxCNY470l3g",
         },
         {
-          name: " Fabio Zanardelli & Christina Landowski - Electric Feel / Advanced Jack & Jill / Baltic Swing 2025",
-          src: "https://img.youtube.com/vi/RCs8u3KNeds/sddefault.jpg",
-          href: "https://www.youtube.com/watch?v=RCs8u3KNeds",
+          name: "Daniel Pavlov & Rachel Schubert - 1st place All-Stars Jack&Jill Finals - SaunaSwing 2026",
+          src: "https://img.youtube.com/vi/hNjc7H1jxIM/sddefault.jpg",
+          href: "https://www.youtube.com/watch?v=hNjc7H1jxIM",
         },
       ],
     },
@@ -203,7 +203,7 @@ const en = {
               items: [
                 {
                   topic: "Party",
-                  description: "Entrance fee 5 eur - included in Full pass.",
+                  description: "Entrance fee 10 eur - included in Full pass.",
                   class: "party",
                 },
               ],
@@ -478,15 +478,15 @@ const en = {
       infoText: [
         {
           value:
-            "All registrations are considered pending until a payment is received. Payment is due in 14 days, after we receive the payment, the ticket is considered confirmed. Should a participant fail to pay for their ticket in due time, the event organizer reserves the right to cancel their ticket. In such a case, the participant who still wants to participate in the event must register again at the price valid at the time of their new registration.",
+            "All registrations are considered pending until a payment is received. Payment is due in 7 days, after we receive the payment, the ticket is considered confirmed. Should a participant fail to pay for their ticket in due time, the event organizer reserves the right to cancel their ticket. In such a case, the participant who still wants to participate in the event must register again at the price valid at the time of their new registration.",
         },
         {
           value:
             "In case of cancellation by the participant, we shall offer a payment refund in the following tiers:",
           list: [
-            "For cancellation requests received up to and including 15 January 2026, the received payment will be refunded fully.",
-            "For cancellation requests received between 16 January 2026 up to and 31 January 2026, the received payment will be refunded partially - 50% of received payment.",
-            "For cancellation requests received on 1 February 2026 or later, the received payment will not be refunded.",
+            "For cancellation requests received up to and including 15 October 2026, the received payment will be refunded fully.",
+            "For cancellation requests received between 15 October 2026 up to and 1 November 2026, the received payment will be refunded partially - 50% of received payment.",
+            "For cancellation requests received on 1 November 2026 or later, the received payment will not be refunded.",
           ],
         },
         {
