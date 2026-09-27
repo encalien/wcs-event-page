@@ -87,7 +87,11 @@ const en = {
       description: "This is a preliminary schedule and is subject to change.",
       days: [
         {
-          title: "Friday, November 27",
+          date: {
+            day: "Friday",
+            month: "November",
+            dayNumber: 27,
+          },
           slots: [
             {
               time: "19.00 - 20.00",
@@ -105,7 +109,7 @@ const en = {
               items: [
                 {
                   topic: "Party",
-                  description: "Entrance fee 5 eur - included in Full pass.",
+                  description: "Entrance fee 10 eur - included in Full pass.",
                   class: "party",
                 },
               ],
@@ -113,7 +117,11 @@ const en = {
           ],
         },
         {
-          title: "Saturday, November 28",
+          date: {
+            day: "Saturday",
+            month: "November",
+            dayNumber: 28,
+          },
           slots: [
             {
               time: "11.30 - 12.00",
@@ -193,7 +201,11 @@ const en = {
           ],
         },
         {
-          title: "Sunday, November 29",
+          date: {
+            day: "Sunday",
+            month: "November",
+            dayNumber: 29,
+          },
           slots: [
             {
               time: "12.00 - 13.00",

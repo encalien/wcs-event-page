@@ -87,7 +87,11 @@ const si = {
       description: "Program je okviren in se lahko še spremeni.",
       days: [
         {
-          title: "Petek, 27. november",
+          date: {
+            day: "Petek",
+            month: "November",
+            dayNumber: 27,
+          },
           slots: [
             {
               time: "19.00 - 20.00",
@@ -105,7 +109,7 @@ const si = {
               items: [
                 {
                   topic: "Party",
-                  description: "Vstopnina 5 EUR - vključena v Full pass.",
+                  description: "Vstopnina 10 EUR - vključena v Full pass.",
                   class: "party",
                 },
               ],
@@ -113,7 +117,11 @@ const si = {
           ],
         },
         {
-          title: "Sobota, 28. november",
+          date: {
+            day: "Sobota",
+            month: "November",
+            dayNumber: 28,
+          },
           slots: [
             {
               time: "11.30 - 12.00",
@@ -193,7 +201,11 @@ const si = {
           ],
         },
         {
-          title: "Nedelja, 29. november",
+          date: {
+            day: "Nedelja",
+            month: "November",
+            dayNumber: 29,
+          },
           slots: [
             {
               time: "12.00 - 13.00",
