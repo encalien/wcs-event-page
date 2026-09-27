@@ -1,5 +1,7 @@
 @import "./base.css";
 
+/* bootstrap override variables */
+
 /* html tags */
 section {
   margin: var(--section-gap) auto;

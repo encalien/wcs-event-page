@@ -13,6 +13,7 @@ import RegistrationPage from "./components/pages/RegistrationPage.vue";
 import PricingPage from "./components/pages/PricingPage.vue";
 import TermsAndConditionsPage from "./components/pages/TermsAndConditionsPage.vue";
 import { createRouter, createWebHistory } from "vue-router";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/main.css";
 
 /* import the fontawesome core */
