@@ -3,38 +3,36 @@ export default {};
 </script>
 
 <template>
-  <footer id="footer">
-    <div class="footer-item">
-      <p>{{ $t("contact.text") }}</p>
-      <p>
-        <a :href="'mailto:' + $t('contact.email')">{{ $t("contact.email") }}</a>
-      </p>
-    </div>
-    <div class="footer-item">
-      <p>{{ $t("event.name") }}</p>
-      <p>&copy;2023</p>
+  <footer class="bg-primary text-light mt-5">
+    <div class="container py-4 text-center">
+      <div class="mb-3">
+        <p class="mb-1">
+          {{ $t("contact.text") }}
+        </p>
+
+        <p class="mb-0">
+          <a :href="'mailto:' + $t('contact.email')" class="link-light">
+            {{ $t("contact.email") }}
+          </a>
+        </p>
+      </div>
+
+      <div>
+        <p class="mb-1">
+          {{ $t("event.name") }}
+        </p>
+
+        <p class="mb-0">
+          <a
+            href="https://wcs.kinesisrei.si"
+            class="link-light"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Kinesis Rei</a
+          >
+          &copy; 2026
+        </p>
+      </div>
     </div>
   </footer>
 </template>
-
-<style scoped>
-#footer {
-  width: 100%;
-  padding: 1rem;
-  background-color: var(--color-background-alt);
-  color: var(--color-text-alt);
-}
-
-.footer-item {
-  text-align: center;
-  margin: 10px auto;
-}
-
-.footer-item > p {
-  margin-bottom: 0;
-}
-
-.footer-item > p > a {
-  color: var(--accent-1);
-}
-</style>
