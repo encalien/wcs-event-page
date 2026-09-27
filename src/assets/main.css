@@ -64,9 +64,10 @@ ul {
 
 hr {
   border: none;
-  border-bottom: 6px dotted var(--dark-1);
+  border-bottom: 6px dotted var(--bs-primary);
   width: 36px;
   margin: 1.6rem auto;
+  opacity: 1;
 }
 
 /* flex */
@@ -129,16 +130,6 @@ hr {
   margin: 1rem auto;
 }
 
-.btn-primary {
-  background-color: var(--dark-1);
-  color: var(--accent-1);
-}
-
-.btn-primary:hover {
-  background-color: var(--accent-1);
-  color: var(--dark-1);
-  filter: brightness(100%);
-}
 /* 
 .btn-primary.disabled, .btn-primary.disabled :hover{
   background-color: var(--accent-1-disabled);

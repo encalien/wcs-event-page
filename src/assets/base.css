@@ -65,6 +65,26 @@ body {
   max-width: 1200px;
 }
 
+.btn-primary {
+  --bs-btn-color: var(--bs-light);
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+
+  --bs-btn-hover-color: var(--bs-light);
+  --bs-btn-hover-bg: var(--bs-secondary);
+  --bs-btn-hover-border-color: var(--bs-secondary);
+
+  --bs-btn-focus-shadow-rgb: var(--bs-primary-rgb);
+
+  --bs-btn-active-color: var(--bs-light);
+  --bs-btn-active-bg: var(--bs-secondary);
+  --bs-btn-active-border-color: var(--bs-secondary);
+
+  --bs-btn-disabled-color: var(--bs-light);
+  --bs-btn-disabled-bg: var(--bs-primary);
+  --bs-btn-disabled-border-color: var(--bs-primary);
+}
+
 @media (max-width: 575.98px) {
   .container {
     --bs-gutter-x: 2rem;
