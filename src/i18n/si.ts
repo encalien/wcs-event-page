@@ -239,38 +239,44 @@ const si = {
         },
       ],
     },
-  },
-  pricing: {
-    pageTitle: "Cenik",
-    description: [
-      "Za ta dogodek bomo imeli tri cenovne razrede, ki temeljijo na številu in vrstnem redu POTRJENIH prijav.",
-      "Prva cena velja za prvih 5 parov. Srednja cena velja za naslednjih 5 parov. Zadnja cena velja za vse prijave sprejete po tem.",
-      "Kotizacija mora biti v celoti poravnana v 7 dneh od potrditve prijave, da ostane cena in prijava veljavna. Če plačilo v določenem roku ne prispe, bo prijava preklicana in udeleženec se bo moral ponovno prijaviti po ceni, ki velja ob času nove prijave.",
-    ],
-    passInfo: {
-      title: "Vikend paket",
-      includeText: "Vključuje:",
-      includes: [
-        "5 delavnic po nivojih v soboto in nedeljo",
-        "Vstop na petkovo in sobotno večerno zabavo",
-        "Back to Basics ura v petek zvečer",
-        "Westie kosilo v nedeljo",
+
+    pricing: {
+      pageTitle: "Cenik",
+      description: [
+        "Za ta dogodek bomo imeli tri cenovne razrede, ki temeljijo na številu in vrstnem redu POTRJENIH prijav.",
+        "Prva cena velja za prvih 5 parov. Srednja cena velja za naslednjih 5 parov. Zadnja cena velja za vse prijave sprejete po tem.",
+        "Kotizacija mora biti v celoti poravnana v 7 dneh od potrditve prijave, da ostane cena in prijava veljavna. Če plačilo v določenem roku ne prispe, bo prijava preklicana in udeleženec se bo moral ponovno prijaviti po ceni, ki velja ob času nove prijave.",
+      ],
+      partyEntrance:
+        "Vstopnina za posamezen plesni večer bo 10 € na osebo in bo na voljo na vratih, če bo še dovolj prostora.",
+      passInfo: {
+        title: "Vikend paket",
+        includesText: "Vključuje:",
+        includes: [
+          "5 delavnic po nivojih v soboto in nedeljo",
+          "Vstop na petkovo in sobotno večerno zabavo",
+          "Back to Basics ura v petek zvečer",
+          "Westie kosilo v nedeljo",
+        ],
+      },
+      priceTiers: [
+        {
+          title: "Prva cena",
+          price: "70",
+          validity: "Velja za prvih 10 sprejetih prijav.",
+        },
+        {
+          title: "Srednja cena",
+          price: "80",
+          validity: "Velja za naslednjih 10 sprejetih prijav.",
+        },
+        {
+          title: "Zadnja cena",
+          price: "90",
+          validity: "Velja za vse prijave, sprejete po tem.",
+        },
       ],
     },
-    priceTiers: [
-      {
-        title: "Prva cena",
-        price: "70 evrov",
-      },
-      {
-        title: "Srednja cena",
-        price: "80 evrov",
-      },
-      {
-        title: "Zadnja cena",
-        price: "90 evrov",
-      },
-    ],
   },
   location: {
     pageTitle: "Lokacija",

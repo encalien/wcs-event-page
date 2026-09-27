@@ -246,6 +246,8 @@ const en = {
         "Early bird price is valid for first 5 couples. Normal bird price is valid for the next 5 couples. Late bird price is valid for all registrations accepted after that.",
         "Registration fee must be fully paid within 7 days of registration acceptance for the price and the registration to stay valid. If the payment is not received in due time, the registration will be cancelled and the participant will have to register again at the price valid at the time of their new registration.",
       ],
+      partyEntrance:
+        "Individual party tickets will be available at the door for €10 per person, subject to available capacity.",
       passInfo: {
         title: "Full Pass",
         includesText: "Includes:",
@@ -259,15 +261,18 @@ const en = {
       priceTiers: [
         {
           title: "Early Bird",
-          price: "70 euros",
+          price: "70",
+          validity: "Valid for first 10 accepted registrations.",
         },
         {
           title: "Normal Bird",
-          price: "80 euros",
+          price: "80",
+          validity: "Valid for next 10 accepted registrations.",
         },
         {
           title: "Late Bird",
-          price: "90 euros",
+          price: "90",
+          validity: "Valid for all registrations accepted after that.",
         },
       ],
     },
