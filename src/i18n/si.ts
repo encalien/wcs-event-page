@@ -302,6 +302,7 @@ const si = {
           zipAndCity: "1000 Ljubljana",
           country: "Slovenija",
         },
+        parkingTitle: "Parkiranje",
         parkingText:
           "Parkiranje je možno na makadamskem parkirišču, takoj na desni, ko prečkate železniške tire.",
         accessText:

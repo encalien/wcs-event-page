@@ -301,6 +301,7 @@ const en = {
           zipAndCity: "1000 Ljubljana",
           country: "Slovenia",
         },
+        parkingTitle: "Parking",
         parkingText:
           "Parking is possilble on the gravel parking lot, immediately to the right after passing the train tracks.",
         accessText:
