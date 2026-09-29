@@ -72,12 +72,12 @@ export default {
       >
         <article
           class="card h-100 border rounded-4 overflow-hidden shadow-sm"
-          :class="i === 0 ? 'bg-body-tertiary' : 'bg-light'"
+          :class="i === 1 ? 'bg-body-tertiary' : 'bg-light'"
         >
           <div
             class="card-header text-center fw-bold text-uppercase border-0 px-3 py-3"
             :class="
-              i === 0 ? 'bg-primary text-light' : 'bg-transparent text-primary'
+              i === 1 ? 'bg-primary text-light' : 'bg-transparent text-primary'
             "
             style="letter-spacing: 0.12em"
           >
