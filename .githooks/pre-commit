@@ -1,0 +1,6 @@
+#!/bin/sh
+branch=$(git symbolic-ref --short HEAD 2>/dev/null)
+case "$branch" in events/*) ;; *) exit 0 ;; esac
+# Finishing a merge of main (e.g. after resolving a conflict) is allowed.
+if [ -f "$(git rev-parse --git-dir)/MERGE_HEAD" ] && [ "$(cat "$(git rev-parse --git-dir)/MERGE_HEAD")" = "$(git rev-parse main)" ]; then exit 0; fi
+git diff --cached --name-only | sh "$(git rev-parse --show-toplevel)/.githooks/check-content-only.sh"

@@ -1,4 +1,5 @@
 <script lang="ts">
+import eventConfig from "../../event.config";
 type Role = "Leader" | "Follower" | "";
 type PairingMode = "solo" | "paired";
 
@@ -11,7 +12,7 @@ type TouchedFields = {
   terms: boolean;
 };
 
-const GOOGLE_SCRIPT_URL = import.meta.env.VITE_REGISTRATION_SCRIPT_URL;
+const GOOGLE_SCRIPT_URL = eventConfig.registrationScriptUrl;
 
 export default {
   data() {

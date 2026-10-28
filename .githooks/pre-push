@@ -1,0 +1,10 @@
+#!/bin/sh
+# Blocks pushing an events/* branch whose own changes (relative to main) touch shared code.
+status=0
+while read -r local_ref local_sha remote_ref remote_sha; do
+  case "$local_ref" in refs/heads/events/*) ;; *) continue ;; esac
+  base=$(git merge-base main "$local_sha") || continue
+  echo "Checking ${local_ref#refs/heads/} against main…"
+  git diff --name-only "$base" "$local_sha" | sh "$(git rev-parse --show-toplevel)/.githooks/check-content-only.sh" || status=1
+done
+exit $status

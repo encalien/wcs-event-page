@@ -1,10 +1,12 @@
 <script lang="ts">
 import messages from "../../i18n/en";
+import eventConfig from "../../event.config";
 
 export default {
   data() {
     return {
       messages,
+      eventConfig,
     };
   },
 };
@@ -16,11 +18,11 @@ export default {
     <picture>
       <source
         media="(max-width: 575.98px)"
-        srcset="/images/fall_focus_2026_ig.jpg"
+        :srcset="eventConfig.heroImageMobile"
       />
 
       <img
-        src="/images/fall_focus_2026_landscape.jpg"
+        :src="eventConfig.heroImage"
         :alt="$t('event.name')"
         class="img-fluid w-100 rounded-2"
       />

@@ -1,0 +1,7 @@
+# Files that may change on events/* branches (everything else is shared code: edit it on main).
+# One regex per line, matched against the repo-relative path.
+^src/i18n/
+^src/event\.config\.ts$
+^src/assets/theme\.css$
+^src/assets/emails/
+^public/

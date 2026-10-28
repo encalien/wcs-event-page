@@ -1,7 +1,21 @@
+<script lang="ts">
+import eventConfig from "../../event.config";
+
+export default {
+  data() {
+    return { eventConfig };
+  },
+};
+</script>
+
 <template>
   <section id="landing">
-    <a href="http://" target="_blank" rel="noopener noreferrer">
-      <img src="/images/flyer.png" alt="banner" id="banner" />
+    <a
+      :href="eventConfig.saveTheDate.facebookEventUrl"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img :src="eventConfig.saveTheDate.flyer" alt="banner" id="banner" />
     </a>
     <h1>Coming soon!</h1>
     <div id="social-icons" class="menu-item flex-container flex-container-row">
@@ -9,7 +23,7 @@
         <font-awesome-icon icon="fa-regular fa-envelope"></font-awesome-icon>
       </a>
       <a
-        href="https://www.facebook.com/events/423860077298282"
+        :href="eventConfig.saveTheDate.facebookEventUrl"
         target="_blank"
         class="menu-item-link"
       >

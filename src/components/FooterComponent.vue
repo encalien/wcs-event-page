@@ -1,5 +1,11 @@
 <script lang="ts">
-export default {};
+import eventConfig from "../event.config";
+
+export default {
+  data() {
+    return { eventConfig };
+  },
+};
 </script>
 
 <template>
@@ -30,7 +36,7 @@ export default {};
             rel="noopener noreferrer"
             >Kinesis Rei</a
           >
-          &copy; 2026
+          &copy; {{ eventConfig.year }}
         </p>
       </div>
     </div>
