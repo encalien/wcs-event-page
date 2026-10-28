@@ -29,3 +29,7 @@ deploy_scripts/
 *.njsproj
 *.sln
 *.sw?
+
+# Tests
+/test-results/
+/playwright-report/
