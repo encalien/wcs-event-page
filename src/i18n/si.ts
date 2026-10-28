@@ -491,6 +491,10 @@ const si = {
         },
         {
           value:
+            "Če udeleženec odpove udeležbo le na delu programa, ni upravičen do vračila kupnine ali podobnega vavčerja. Zamenjava vstopnice za cenejšo ni mogoča.",
+        },
+        {
+          value:
             "Vsi zahtevki za odpoved morajo biti podani v pisni obliki po e-pošti in potrjeni s strani organizatorja. Vse stroške, nastale s postopkom vračila, nosi udeleženec in se odštejejo od vrnjenega zneska.",
         },
         {
